@@ -1,0 +1,41 @@
+{
+  "1.4.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.11",
+      "pname": "containerd",
+      "name": "containerd-1.4.11",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/y61cgkxhxf93h4bv9avmmw0pl3la4r20-containerd-1.4.11-man",
+        "out": "/nix/store/z3m7ac39ljs3j0f7pxsvyvwwnqpanbhf-containerd-1.4.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A daemon to control runC",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/virtualization/containerd/1.4.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.containerd_1_4",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z3m7ac39ljs3j0f7pxsvyvwwnqpanbhf-containerd-1.4.11",
+        "/nix/store/y61cgkxhxf93h4bv9avmmw0pl3la4r20-containerd-1.4.11-man"
+      ],
+      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
+      }
+    }
+  }
+}

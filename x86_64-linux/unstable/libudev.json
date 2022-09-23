@@ -1,0 +1,42 @@
+{
+  "249.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "249.7",
+      "pname": "systemd",
+      "name": "systemd-249.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/afm9529jnpi8589y112v8i7hh927bjh0-systemd-249.7-dev",
+        "man": "/nix/store/72jlvwm8agb3ypjjrj9kd2pq58xhrhhh-systemd-249.7-man",
+        "out": "/nix/store/cfhpzlarbhfw3scj91dcz5ai04ayfzik-systemd-249.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A system and service manager for Linux",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/systemd/default.nix:613",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.libudev",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cfhpzlarbhfw3scj91dcz5ai04ayfzik-systemd-249.7",
+        "/nix/store/72jlvwm8agb3ypjjrj9kd2pq58xhrhhh-systemd-249.7-man"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

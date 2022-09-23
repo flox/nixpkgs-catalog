@@ -1,0 +1,42 @@
+{
+  "1.26.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.2",
+      "pname": "libmbim",
+      "name": "libmbim-1.26.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/axxpzcwjm2vqb5lnz274y4zhdylm7sy5-libmbim-1.26.2-dev",
+        "man": "/nix/store/r82kzax11kkg1l3z8k20yz1c6icli1bl-libmbim-1.26.2-man",
+        "out": "/nix/store/q878wiv18l62bwrq9zc5a9q5xnl01yd5-libmbim-1.26.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Library for talking to WWAN modems and devices which speak the Mobile Interface Broadband Model (MBIM) protocol",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libmbim/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.libmbim",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/q878wiv18l62bwrq9zc5a9q5xnl01yd5-libmbim-1.26.2",
+        "/nix/store/r82kzax11kkg1l3z8k20yz1c6icli1bl-libmbim-1.26.2-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

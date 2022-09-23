@@ -1,0 +1,42 @@
+{
+  "4.9.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.9.4",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-4.9.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "info": "/nix/store/v62wpamx8rq8anb0a1kc12z2gcg3f5q1-gcc-wrapper-4.9.4-info",
+        "man": "/nix/store/xm0910s29005367ddapda82qmq1das7w-gcc-wrapper-4.9.4-man",
+        "out": "/nix/store/kcp4rapsdik6hpw6176qy732sda68lnx-gcc-wrapper-4.9.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 4.9.4 (wrapper script)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/build-support/cc-wrapper/default.nix:534",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.gcc49",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kcp4rapsdik6hpw6176qy732sda68lnx-gcc-wrapper-4.9.4",
+        "/nix/store/xm0910s29005367ddapda82qmq1das7w-gcc-wrapper-4.9.4-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

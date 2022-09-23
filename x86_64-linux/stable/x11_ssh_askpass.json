@@ -1,0 +1,41 @@
+{
+  "1.2.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.4.1",
+      "pname": "x11-ssh-askpass",
+      "name": "x11-ssh-askpass-1.2.4.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/1lgbrbri1x7qpb7wsi9kqqf7y9cwj8yz-x11-ssh-askpass-1.2.4.1-man",
+        "out": "/nix/store/yqq4qjj9k3aqnni7lc14121zgyagm6mi-x11-ssh-askpass-1.2.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Lightweight passphrase dialog for OpenSSH or other open variants of SSH",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/x11-ssh-askpass/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.x11_ssh_askpass",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yqq4qjj9k3aqnni7lc14121zgyagm6mi-x11-ssh-askpass-1.2.4.1",
+        "/nix/store/1lgbrbri1x7qpb7wsi9kqqf7y9cwj8yz-x11-ssh-askpass-1.2.4.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

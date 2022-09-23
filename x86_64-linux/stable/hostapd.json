@@ -1,0 +1,41 @@
+{
+  "2.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.10",
+      "pname": "hostapd",
+      "name": "hostapd-2.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/9sz4m6lwa36di05am5zblydffrn379ry-hostapd-2.10-man",
+        "out": "/nix/store/y3yg2x7y5shqk5pnb5his388bc7qb2ij-hostapd-2.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A user space daemon for access point and authentication servers",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/hostapd/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.hostapd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y3yg2x7y5shqk5pnb5his388bc7qb2ij-hostapd-2.10",
+        "/nix/store/9sz4m6lwa36di05am5zblydffrn379ry-hostapd-2.10-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

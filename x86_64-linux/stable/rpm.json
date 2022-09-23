@@ -1,0 +1,43 @@
+{
+  "4.17.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.17.0",
+      "pname": "rpm",
+      "name": "rpm-4.17.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/dafmjhmaxkphl5d721wj5fnxr1g97dg2-rpm-4.17.0-debug",
+        "dev": "/nix/store/a2v0llswpkf7fklvdrc94jkq9gnyizn1-rpm-4.17.0-dev",
+        "man": "/nix/store/6qfsr20s7fhz3wffckxi70xdmi5wgclc-rpm-4.17.0-man",
+        "out": "/nix/store/vjbm5q9xnlggxsmj1508x38kqyvy5ks3-rpm-4.17.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The RPM Package Manager",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/package-management/rpm/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.rpm",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vjbm5q9xnlggxsmj1508x38kqyvy5ks3-rpm-4.17.0",
+        "/nix/store/6qfsr20s7fhz3wffckxi70xdmi5wgclc-rpm-4.17.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

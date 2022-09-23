@@ -1,0 +1,38 @@
+{
+  "1.0.12-2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.12-2",
+      "pname": "axoloti",
+      "name": "axoloti-1.0.12-2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/gshiq66857swsj5n8bjq0pvaapb6nqn8-axoloti-1.0.12-2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sketching embedded digital audio algorithms.\n\nTo fix permissions of the Axoloti USB device node, add a similar udev rule to <literal>services.udev.extraRules</literal>:\n<literal>SUBSYSTEM==\"usb\", ATTR{idVendor}==\"16c0\", ATTR{idProduct}==\"0442\", OWNER=\"someuser\", GROUP=\"somegroup\"</literal>\n",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/audio/axoloti/default.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.axoloti",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gshiq66857swsj5n8bjq0pvaapb6nqn8-axoloti-1.0.12-2"
+      ],
+      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
+      }
+    }
+  }
+}

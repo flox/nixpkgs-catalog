@@ -1,0 +1,39 @@
+{
+  "2.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9.3",
+      "pname": "modsecurity",
+      "name": "modsecurity-2.9.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "nginx": "/nix/store/a54ghhvkskzbl3s87gnmllq0h0xvjjq8-modsecurity-2.9.3-nginx",
+        "out": "/nix/store/n0z97vwwj8h81pmj4rd2lf8cb3an2b8r-modsecurity-2.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source, cross-platform web application firewall (WAF)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/modsecurity/default.nix:48",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.modsecurity_standalone",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n0z97vwwj8h81pmj4rd2lf8cb3an2b8r-modsecurity-2.9.3"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

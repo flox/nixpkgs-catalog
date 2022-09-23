@@ -1,0 +1,42 @@
+{
+  "0.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.34.1",
+      "pname": "mpv",
+      "name": "mpv-0.34.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/ii242ijyf21xaa4n6ydhfvrl2yz9krny-mpv-0.34.1-dev",
+        "man": "/nix/store/sznq2157bgjz2ychzi5cqb223nln97w7-mpv-0.34.1-man",
+        "out": "/nix/store/xiz2ixh1g6c2qfcxnacz5y60kh6035p3-mpv-0.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "General-purpose media player, fork of MPlayer and mplayer2",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/video/mpv/default.nix:216",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.mpv-unwrapped",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xiz2ixh1g6c2qfcxnacz5y60kh6035p3-mpv-0.34.1",
+        "/nix/store/sznq2157bgjz2ychzi5cqb223nln97w7-mpv-0.34.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

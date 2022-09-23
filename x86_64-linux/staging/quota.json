@@ -1,0 +1,43 @@
+{
+  "4.06": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.06",
+      "pname": "quota",
+      "name": "quota-4.06",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/ydwlp1xkyan4a9f9d5gn6a7w2r27p3jd-quota-4.06-dev",
+        "doc": "/nix/store/bj04gxk6764y4d9drwlgy9ccq65vlkw8-quota-4.06-doc",
+        "man": "/nix/store/0z4340a57z7dzdc5ir1kc9dyn9vzzls3-quota-4.06-man",
+        "out": "/nix/store/f7d8x9wl4fhxcac6plwrgpsb3pghr2l7-quota-4.06"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools to manage kernel-level quotas in Linux",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/linuxquota/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.staging.quota",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f7d8x9wl4fhxcac6plwrgpsb3pghr2l7-quota-4.06",
+        "/nix/store/0z4340a57z7dzdc5ir1kc9dyn9vzzls3-quota-4.06-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

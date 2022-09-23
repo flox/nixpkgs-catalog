@@ -1,0 +1,77 @@
+{
+  "1.7.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.3",
+      "pname": "libva",
+      "name": "libva-1.7.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/cy35qkyq8vvm60ll6qnqafwsr2skw0ka-libva-1.7.3-bin",
+        "dev": "/nix/store/i45rcn1906b3x3rac5wcipskacfpq6hb-libva-1.7.3-dev",
+        "out": "/nix/store/nvwwf7zjyx8i5gm3zdvvh9dybgpy243j-libva-1.7.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "VAAPI library: Video Acceleration API",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libva/1.0.0.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.libva1-minimal",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cy35qkyq8vvm60ll6qnqafwsr2skw0ka-libva-1.7.3-bin"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "1.8.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.3",
+      "pname": "libva-minimal",
+      "name": "libva-minimal-1.8.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/4h4lawbilqqmxl4280p8fhdv4dcnrsxx-libva-minimal-1.8.3-dev",
+        "out": "/nix/store/sm7xmlcvg0l80hv9mpjdip1kl59w4pvz-libva-minimal-1.8.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VAAPI library: Video Acceleration API",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libva/1.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.libva1-minimal",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sm7xmlcvg0l80hv9mpjdip1kl59w4pvz-libva-minimal-1.8.3"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

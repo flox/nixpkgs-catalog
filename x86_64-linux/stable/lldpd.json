@@ -1,0 +1,43 @@
+{
+  "1.0.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.13",
+      "pname": "lldpd",
+      "name": "lldpd-1.0.13",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/x6c99md6l8gbykpp95jj9cb4kwrdwpxi-lldpd-1.0.13-dev",
+        "doc": "/nix/store/90hfsq3n2fnyjwzbdbbr8xlmvm8d0wba-lldpd-1.0.13-doc",
+        "man": "/nix/store/p4r9q3jls5visb7gy29pca3vsj5gn1r7-lldpd-1.0.13-man",
+        "out": "/nix/store/jn8x94wnp2jj9g831mqzgnakz758a2yy-lldpd-1.0.13"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "802.1ab implementation (LLDP) to help you locate neighbors of all your equipments",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/lldpd/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.lldpd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jn8x94wnp2jj9g831mqzgnakz758a2yy-lldpd-1.0.13",
+        "/nix/store/p4r9q3jls5visb7gy29pca3vsj5gn1r7-lldpd-1.0.13-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

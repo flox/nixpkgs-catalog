@@ -1,0 +1,39 @@
+{
+  "4.19.126-mptcp_v0.95.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.19.126-mptcp_v0.95.1",
+      "pname": "linux",
+      "name": "linux-4.19.126-mptcp_v0.95.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/vg7afjn9lvya5lwkzzmj8hdv1l1k71sl-linux-4.19.126-mptcp_v0.95.1-dev",
+        "out": "/nix/store/dg7kz4rwix01p563i5969x1w73hvq6j1-linux-4.19.126-mptcp_v0.95.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long)",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-mptcp-95.nix:7",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.staging.linux_mptcp_95",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dg7kz4rwix01p563i5969x1w73hvq6j1-linux-4.19.126-mptcp_v0.95.1"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

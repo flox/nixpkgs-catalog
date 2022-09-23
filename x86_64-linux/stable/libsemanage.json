@@ -1,0 +1,43 @@
+{
+  "3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3",
+      "pname": "libsemanage",
+      "name": "libsemanage-3.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/73kjfzm2x4xvha4ch3cxbg0q02p20al2-libsemanage-3.3-dev",
+        "man": "/nix/store/wwnm3w2367mgwpx06lwnydllpaygfzp9-libsemanage-3.3-man",
+        "out": "/nix/store/jy4ssv882rxg01grwgz0619d9zsqbjxm-libsemanage-3.3",
+        "py": "/nix/store/q5yndpb95zgs772skrz6gwr7ha850qbx-libsemanage-3.3-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Policy management tools for SELinux",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/libsemanage/default.nix:51",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.libsemanage",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jy4ssv882rxg01grwgz0619d9zsqbjxm-libsemanage-3.3",
+        "/nix/store/wwnm3w2367mgwpx06lwnydllpaygfzp9-libsemanage-3.3-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "2.49": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.49",
+      "pname": "libcap",
+      "name": "libcap-2.49",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/ndr1isv194b773hb5q8fm4x80asp07py-libcap-2.49-dev",
+        "doc": "/nix/store/k9pwrysifs183vpiq76fbxgwm7b2vk4a-libcap-2.49-doc",
+        "lib": "/nix/store/yw0kfn97ai2mgcmyqfr60igqbj5r6i9a-libcap-2.49-lib",
+        "man": "/nix/store/abw31n25x29ijv44w2b47jjcgkkjjnwf-libcap-2.49-man",
+        "out": "/nix/store/jzwqvlqb00ii0dara9jncm0l3lndg307-libcap-2.49",
+        "pam": "/nix/store/vjlsd7418x9pwnaiyfhgizw0phwi8069-libcap-2.49-pam"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Library for working with POSIX capabilities",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/libcap/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.libcap_progs",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jzwqvlqb00ii0dara9jncm0l3lndg307-libcap-2.49",
+        "/nix/store/abw31n25x29ijv44w2b47jjcgkkjjnwf-libcap-2.49-man"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

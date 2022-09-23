@@ -1,0 +1,39 @@
+{
+  "3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3",
+      "pname": "blas",
+      "name": "blas-3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/12jymwmaapqwyaxv5957y26r2bk2ibj6-blas-3-dev",
+        "out": "/nix/store/gk957mr6xmvg2pzk74qf8dz7i2zq58bz-blas-3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "openblas with just the BLAS C and FORTRAN ABI",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/build-support/alternatives/blas/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.blas",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gk957mr6xmvg2pzk74qf8dz7i2zq58bz-blas-3"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

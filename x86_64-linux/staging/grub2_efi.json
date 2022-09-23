@@ -1,0 +1,39 @@
+{
+  "2.06": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.06",
+      "pname": "grub",
+      "name": "grub-2.06",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/bnp0qawi29an6mib5kd8laz02qanwkab-grub-2.06-debug",
+        "out": "/nix/store/336b904m8bjlmishv3a73zhwqz0wqgry-grub-2.06"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GNU GRUB, the Grand Unified Boot Loader (2.x beta)",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/grub/2.0x.nix:167",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.staging.grub2_efi",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/336b904m8bjlmishv3a73zhwqz0wqgry-grub-2.06"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

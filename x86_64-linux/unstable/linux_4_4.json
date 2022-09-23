@@ -1,0 +1,39 @@
+{
+  "4.4.299": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.4.299",
+      "pname": "linux",
+      "name": "linux-4.4.299",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/9bilb5p9vd584n4w5vl7f9w5swc4vzlh-linux-4.4.299-dev",
+        "out": "/nix/store/ph5rrwh8pk6bjca295cfgzbh9av5hbny-linux-4.4.299"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.4.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-4.4.nix:4",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.linux_4_4",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ph5rrwh8pk6bjca295cfgzbh9av5hbny-linux-4.4.299"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

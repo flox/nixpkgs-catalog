@@ -1,0 +1,44 @@
+{
+  "3.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.2",
+      "pname": "libressl",
+      "name": "libressl-3.5.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/5vm336w46c7f77dfpsl5lng3vhiip33k-libressl-3.5.2-bin",
+        "dev": "/nix/store/g7a7bxhr4rnb4rmz50wyb1inx03rnxi0-libressl-3.5.2-dev",
+        "man": "/nix/store/hsv3lvmjcn9sazvj2p8xk32dq7c1dlfd-libressl-3.5.2-man",
+        "nc": "/nix/store/vhj5y9w75s483csasgkrwzddw6039k54-libressl-3.5.2-nc",
+        "out": "/nix/store/s8nd5d7h6cf8v6m6945vnsxkzni20vv3-libressl-3.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Free TLS/SSL implementation",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libressl/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.libressl_3_5",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5vm336w46c7f77dfpsl5lng3vhiip33k-libressl-3.5.2-bin",
+        "/nix/store/hsv3lvmjcn9sazvj2p8xk32dq7c1dlfd-libressl-3.5.2-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "1.18.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.18.0",
+      "pname": "amazon-ecs-agent",
+      "name": "amazon-ecs-agent-1.18.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ibkid32a61pig1d0y5sc11h186n56an3-amazon-ecs-agent-1.18.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The agent that runs on AWS EC2 container instances and starts containers on behalf of Amazon ECS",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/ecs-agent/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.ecs-agent",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ibkid32a61pig1d0y5sc11h186n56an3-amazon-ecs-agent-1.18.0"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "250.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "250.4",
+      "pname": "systemd-stage-1",
+      "name": "systemd-stage-1-250.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/21z3dzq7c05qf53wdm6aqkqil3icziyp-systemd-stage-1-250.4-dev",
+        "man": "/nix/store/s3cjpxchvw4gmg6a40vw29gvmaci20qd-systemd-stage-1-250.4-man",
+        "out": "/nix/store/nkkhphaz08py3mdjlqpw8yc0dv6zrqq0-systemd-stage-1-250.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A system and service manager for Linux",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/systemd/default.nix:700",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.systemdStage1",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nkkhphaz08py3mdjlqpw8yc0dv6zrqq0-systemd-stage-1-250.4",
+        "/nix/store/s3cjpxchvw4gmg6a40vw29gvmaci20qd-systemd-stage-1-250.4-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

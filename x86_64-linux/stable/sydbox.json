@@ -1,0 +1,44 @@
+{
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "sydbox-1",
+      "name": "sydbox-1-2.2.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/iypk6yf9922jgdhrf1pyzsnw9l1xlvzg-sydbox-1-2.2.0-dev",
+        "doc": "/nix/store/9nrncf3cfkv75fb91fzvjx4qh46kmz0r-sydbox-1-2.2.0-doc",
+        "installedTests": "/nix/store/1figf7pnd03phlyzfj3vgcyb5j9z9376-sydbox-1-2.2.0-installedTests",
+        "man": "/nix/store/1vb5ai92hxs7zmjzyqd45z9nqm9iw254-sydbox-1-2.2.0-man",
+        "out": "/nix/store/snygzd6blhfp4krqyq9k7j35s3cylvgq-sydbox-1-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "seccomp-based application sandbox",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/sydbox/default.nix:72",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.sydbox",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/snygzd6blhfp4krqyq9k7j35s3cylvgq-sydbox-1-2.2.0",
+        "/nix/store/1vb5ai92hxs7zmjzyqd45z9nqm9iw254-sydbox-1-2.2.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

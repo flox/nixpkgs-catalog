@@ -1,0 +1,43 @@
+{
+  "1.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.1",
+      "pname": "ldns",
+      "name": "ldns-1.8.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/zwsz7hinw447q59fwqyyydnmw6419kj9-ldns-1.8.1-dev",
+        "examples": "/nix/store/pwbp7y5pf86fqchwxwhyqyw3c67h980p-ldns-1.8.1-examples",
+        "man": "/nix/store/855b2isj031f6p4fh7pkzs91jvp69ksm-ldns-1.8.1-man",
+        "out": "/nix/store/ka7bk4ab7yilna4q9dgh9vlh3anafvml-ldns-1.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Library with the aim of simplifying DNS programming in C",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/ldns/default.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.ldns",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ka7bk4ab7yilna4q9dgh9vlh3anafvml-ldns-1.8.1",
+        "/nix/store/855b2isj031f6p4fh7pkzs91jvp69ksm-ldns-1.8.1-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

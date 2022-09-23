@@ -1,0 +1,45 @@
+{
+  "1.8.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.8.1",
+      "pname": "openafs",
+      "name": "openafs-1.8.8.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/zmfirp6ccq6n2xnjkmzgiy338lwa730l-openafs-1.8.8.1-dev",
+        "doc": "/nix/store/hxf7mlnk2r0ajnyj5q68spspzh3nrm66-openafs-1.8.8.1-doc",
+        "man": "/nix/store/ryfxdw2rf3afvdg82c5g835bbnwgxq70-openafs-1.8.8.1-man",
+        "out": "/nix/store/5rwwjz92g8cilv2d3yav6gva6si4gll7-openafs-1.8.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "doc",
+          "man"
+        ],
+        "description": "Open AFS client",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/openafs/1.8/default.nix:124",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.openafs",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5rwwjz92g8cilv2d3yav6gva6si4gll7-openafs-1.8.8.1",
+        "/nix/store/hxf7mlnk2r0ajnyj5q68spspzh3nrm66-openafs-1.8.8.1-doc",
+        "/nix/store/ryfxdw2rf3afvdg82c5g835bbnwgxq70-openafs-1.8.8.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

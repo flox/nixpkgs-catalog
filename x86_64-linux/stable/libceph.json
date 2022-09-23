@@ -1,0 +1,44 @@
+{
+  "16.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.2.7",
+      "pname": "ceph",
+      "name": "ceph-16.2.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/qm5l7h0m4m30gbmap0nlf1s6m4dd7k60-ceph-16.2.7-dev",
+        "doc": "/nix/store/jf1fwfha0d48509h1lkrfj8xlvnxlj7w-ceph-16.2.7-doc",
+        "lib": "/nix/store/xs5rvji1sgpqxfcm10a67lzgahg5smh3-ceph-16.2.7-lib",
+        "man": "/nix/store/p94sl7xcxvhxy9sdjg4pnfibinj5bn5h-ceph-16.2.7-man",
+        "out": "/nix/store/74l1fknbm7y0857jaqz64lpfzmmx0jg3-ceph-16.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Distributed storage system",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/filesystems/ceph/default.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.libceph",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/74l1fknbm7y0857jaqz64lpfzmmx0jg3-ceph-16.2.7",
+        "/nix/store/p94sl7xcxvhxy9sdjg4pnfibinj5bn5h-ceph-16.2.7-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "4.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.1",
+      "pname": "qrencode",
+      "name": "qrencode-4.1.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/rsadwj9jkh8vslqsnzsrg93klrr9q0kb-qrencode-4.1.1-bin",
+        "dev": "/nix/store/d7wr6d3f28wayygdj0w60pfkd1a02369-qrencode-4.1.1-dev",
+        "man": "/nix/store/rnmfc6rivm4lafwpbvbczxpy7fkb6wgs-qrencode-4.1.1-man",
+        "out": "/nix/store/9fzdsmjnd3hlh2y5dblvnypgcmk25l9r-qrencode-4.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "C library for encoding data in a QR Code symbol",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/qrencode/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.qrencode",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rsadwj9jkh8vslqsnzsrg93klrr9q0kb-qrencode-4.1.1-bin",
+        "/nix/store/rnmfc6rivm4lafwpbvbczxpy7fkb6wgs-qrencode-4.1.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

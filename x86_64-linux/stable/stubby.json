@@ -1,0 +1,42 @@
+{
+  "0.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.0",
+      "pname": "stubby",
+      "name": "stubby-0.4.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/yn02kkmnz0ahdy3gflma45xch0xcvnw5-stubby-0.4.0-man",
+        "out": "/nix/store/fbjybqqnvk3sck30zhviigjcym0pzcqv-stubby-0.4.0",
+        "stubbyExampleJson": "/nix/store/w3v4giwhd67wzz815qrv0rs190qrhcbx-stubby-0.4.0-stubbyExampleJson"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A local DNS Privacy stub resolver (using DNS-over-TLS)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/getdns/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.stubby",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fbjybqqnvk3sck30zhviigjcym0pzcqv-stubby-0.4.0",
+        "/nix/store/yn02kkmnz0ahdy3gflma45xch0xcvnw5-stubby-0.4.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "1.10.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.1",
+      "pname": "vulnix",
+      "name": "vulnix-1.10.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/vzj3z8vrmpd16wbkyjjw7cmrhfx0rchc-vulnix-1.10.1-doc",
+        "man": "/nix/store/zb098vpfba28rfxyr9dli2rjvrjv4n7y-vulnix-1.10.1-man",
+        "out": "/nix/store/6hfqq9jnqlqzaf0gavpkvyjvxkn6sjhz-vulnix-1.10.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "NixOS vulnerability scanner",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/vulnix/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.vulnix",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6hfqq9jnqlqzaf0gavpkvyjvxkn6sjhz-vulnix-1.10.1",
+        "/nix/store/zb098vpfba28rfxyr9dli2rjvrjv4n7y-vulnix-1.10.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

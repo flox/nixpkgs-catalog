@@ -1,0 +1,80 @@
+{
+  "3.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.2",
+      "pname": "libressl",
+      "name": "libressl-3.4.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/dx3azx0bgd0ygzpq8fgqarp5r6imzdqc-libressl-3.4.2-bin",
+        "dev": "/nix/store/sgfv6kv39103m338n4im064vjydpr9lz-libressl-3.4.2-dev",
+        "man": "/nix/store/wwqndcbw499nyvrr1qld5vxc63bbafmm-libressl-3.4.2-man",
+        "nc": "/nix/store/0xz351122sqjxw6yw3fyjwkjjz2nki7b-libressl-3.4.2-nc",
+        "out": "/nix/store/nnd9npvc6cn4lxh7lc15hhfjmm45z10h-libressl-3.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Free TLS/SSL implementation",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libressl/default.nix:80",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.netcat-openbsd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dx3azx0bgd0ygzpq8fgqarp5r6imzdqc-libressl-3.4.2-bin",
+        "/nix/store/wwqndcbw499nyvrr1qld5vxc63bbafmm-libressl-3.4.2-man"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "1.218-5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.218-5",
+      "pname": "netcat-openbsd",
+      "name": "netcat-openbsd-1.218-5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/yblb81mhkiykxmk3rbqd99d9xihj2isk-netcat-openbsd-1.218-5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "TCP/IP swiss army knife. OpenBSD variant",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/netcat-openbsd/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.unstable.netcat-openbsd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yblb81mhkiykxmk3rbqd99d9xihj2isk-netcat-openbsd-1.218-5"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

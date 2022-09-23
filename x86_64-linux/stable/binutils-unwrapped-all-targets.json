@@ -1,0 +1,42 @@
+{
+  "2.38": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.38",
+      "pname": "binutils",
+      "name": "binutils-2.38",
+      "system": "x86_64-linux",
+      "outputs": {
+        "info": "/nix/store/8iad3adxkc32plzzr6lvasncyfklib4v-binutils-2.38-info",
+        "man": "/nix/store/yg0z5j9rgkgij6iacmjywnhk1gr9b4si-binutils-2.38-man",
+        "out": "/nix/store/0yxffa6w3qf7qi3bqjcrb9xs5scw0d0w-binutils-2.38"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/misc/binutils/default.nix:203",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.binutils-unwrapped-all-targets",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0yxffa6w3qf7qi3bqjcrb9xs5scw0d0w-binutils-2.38",
+        "/nix/store/yg0z5j9rgkgij6iacmjywnhk1gr9b4si-binutils-2.38-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

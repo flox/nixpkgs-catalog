@@ -1,0 +1,75 @@
+{
+  "1.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.0",
+      "pname": "gpsbabel",
+      "name": "gpsbabel-1.8.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/82dq1jrjqhl6prgx4aj367124ix7lly4-gpsbabel-1.8.0-doc",
+        "out": "/nix/store/mqnv7y5l39bjf9r06w4zg8xdwd9ramy7-gpsbabel-1.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Convert, upload and download data from GPS and Map programs",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/misc/gpsbabel/default.nix:100",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.gpsbabel-gui",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mqnv7y5l39bjf9r06w4zg8xdwd9ramy7-gpsbabel-1.8.0"
+      ],
+      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
+      }
+    }
+  },
+  "1.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.0",
+      "pname": "gpsbabel-gui",
+      "name": "gpsbabel-gui-1.7.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/64cj8jwwywwh1ry3n9bzm8cqbvi4kfva-gpsbabel-gui-1.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Qt-based GUI for gpsbabel",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/gpsbabel/gui.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.stable.gpsbabel-gui",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/64cj8jwwywwh1ry3n9bzm8cqbvi4kfva-gpsbabel-gui-1.7.0"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "2022-05-15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022-05-15",
+      "pname": "teensy-udev-rules",
+      "name": "teensy-udev-rules-2022-05-15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/fqndn7gcpwdmsjhvaik508lzd906qrz6-teensy-udev-rules-2022-05-15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "udev rules that give non-root users permission to communicate with the\nTeensy family of microcontrolers.\n\nModemManager (part of NetworkManager) can interfere with USB Serial\ndevices, which includes the Teensy.  See comments in the .rules file (or\nthis package's homepage) for possible workarounds.\n",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/teensy-udev-rules/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-linux.staging.teensy-udev-rules",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fqndn7gcpwdmsjhvaik508lzd906qrz6-teensy-udev-rules-2022-05-15"
+      ],
+      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  }
+}
