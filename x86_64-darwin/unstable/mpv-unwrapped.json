@@ -1,0 +1,78 @@
+{
+  "0.33.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.33.1",
+      "pname": "mpv",
+      "name": "mpv-0.33.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/0yq7m0rdsp3w1bpvzlp7j3j5niazacwc-mpv-0.33.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A media player that supports many video formats (MPlayer and mplayer2 fork)",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/video/mpv/default.nix:221",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.mpv-unwrapped",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0yq7m0rdsp3w1bpvzlp7j3j5niazacwc-mpv-0.33.1"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
+  "0.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.34.1",
+      "pname": "mpv",
+      "name": "mpv-0.34.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3n96glyab9kc6gaswlnvbjx95rga9ill-mpv-0.34.1-dev",
+        "man": "/nix/store/vmd16gmq3nanxg9xr3gxbzprkl7l8yic-mpv-0.34.1-man",
+        "out": "/nix/store/748v9f40cw62ia6s88hb0jaka00xdh77-mpv-0.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "General-purpose media player, fork of MPlayer and mplayer2",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/video/mpv/default.nix:216",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.mpv-unwrapped",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/748v9f40cw62ia6s88hb0jaka00xdh77-mpv-0.34.1",
+        "/nix/store/vmd16gmq3nanxg9xr3gxbzprkl7l8yic-mpv-0.34.1-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "1.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.0",
+      "pname": "pinentry",
+      "name": "pinentry-1.1.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "curses": "/nix/store/1nprfrypq3c8rav3d3wpsix5qicnisck-pinentry-1.1.0-curses",
+        "emacs": "/nix/store/66mvfm4cyqjc7cw9z32mdav4jggskslb-pinentry-1.1.0-emacs",
+        "gtk2": "/nix/store/ix9p8611p5jjwbjparbdjm7855ayy5yx-pinentry-1.1.0-gtk2",
+        "out": "/nix/store/m402yfky32cf0ybz43sibzi9kz121834-pinentry-1.1.0",
+        "qt": "/nix/store/8pzmhi83f2zzvbv7vm9j3g0z9nab4z1v-pinentry-1.1.0-qt",
+        "tty": "/nix/store/mggmdrxj4qz67dkknpnsq2ansa1w258m-pinentry-1.1.0-tty"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GnuPG’s interface to passphrase input",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/security/pinentry/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.pinentry-emacs",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m402yfky32cf0ybz43sibzi9kz121834-pinentry-1.1.0"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
+  "1.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.0",
+      "pname": "pinentry",
+      "name": "pinentry-1.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "curses": "/nix/store/bjmz0a70xn5y0vlsr9hgw38nid2fnvip-pinentry-1.2.0-curses",
+        "emacs": "/nix/store/rmgnph0shdws4h1q10c5sdkr1baazpr7-pinentry-1.2.0-emacs",
+        "gtk2": "/nix/store/lfsnmfc5wk9by67d5qnv287l1hiahz9y-pinentry-1.2.0-gtk2",
+        "out": "/nix/store/6w20fs2arhdf36lqqsx2ajic5a4c9ay3-pinentry-1.2.0",
+        "tty": "/nix/store/1vjhl0pb7lr6wr2xvpp1np3yzymb4c6r-pinentry-1.2.0-tty"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GnuPG’s interface to passphrase input",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/security/pinentry/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.pinentry-emacs",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6w20fs2arhdf36lqqsx2ajic5a4c9ay3-pinentry-1.2.0"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

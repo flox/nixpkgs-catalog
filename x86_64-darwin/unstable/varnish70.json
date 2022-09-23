@@ -1,0 +1,42 @@
+{
+  "7.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.0.1",
+      "pname": "varnish",
+      "name": "varnish-7.0.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3rlqz0578z831gd9rvwr6lrscm526h31-varnish-7.0.1-dev",
+        "man": "/nix/store/ic5g4dp8darp6rcq2l5bvnia147qzxzw-varnish-7.0.1-man",
+        "out": "/nix/store/1iw7smbzjpgkcgqwqviwixa6is9grbmy-varnish-7.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Web application accelerator also known as a caching HTTP reverse proxy",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/varnish/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.varnish70",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1iw7smbzjpgkcgqwqviwixa6is9grbmy-varnish-7.0.1",
+        "/nix/store/ic5g4dp8darp6rcq2l5bvnia147qzxzw-varnish-7.0.1-man"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

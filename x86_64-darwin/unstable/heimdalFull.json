@@ -1,0 +1,43 @@
+{
+  "7.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.7.0",
+      "pname": "heimdal",
+      "name": "heimdal-7.7.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/6g5i313issaz6f6mipk7f10aq90dlc6j-heimdal-7.7.0-dev",
+        "info": "/nix/store/cm6mvq528wqm1k4x9wlzb3f5bh16r7jg-heimdal-7.7.0-info",
+        "man": "/nix/store/wni407w6cqdkvapdrcvy9pxbp4zyb4k6-heimdal-7.7.0-man",
+        "out": "/nix/store/kysja9il3ba0bar6yl9rlryrmff0rrc0-heimdal-7.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An implementation of Kerberos 5 (and some more stuff)",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/kerberos/heimdal.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.unstable.heimdalFull",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kysja9il3ba0bar6yl9rlryrmff0rrc0-heimdal-7.7.0",
+        "/nix/store/wni407w6cqdkvapdrcvy9pxbp4zyb4k6-heimdal-7.7.0-man"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "9.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.3.0",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-9.3.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "info": "/nix/store/snlrkcpfrbvbb3dgiky0d1vmi4b8ci0b-gcc-wrapper-9.3.0-info",
+        "man": "/nix/store/535gbmk02l90q8537w6ajkxnmrpvcj48-gcc-wrapper-9.3.0-man",
+        "out": "/nix/store/rr6534xzi8h3fy0k6m8w481llvrd5q6w-gcc-wrapper-9.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 9.3.0 (wrapper script)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/build-support/cc-wrapper/default.nix:534",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.stable.gcc9",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rr6534xzi8h3fy0k6m8w481llvrd5q6w-gcc-wrapper-9.3.0",
+        "/nix/store/535gbmk02l90q8537w6ajkxnmrpvcj48-gcc-wrapper-9.3.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

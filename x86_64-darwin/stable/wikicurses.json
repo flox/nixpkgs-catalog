@@ -1,0 +1,41 @@
+{
+  "1.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4",
+      "pname": "wikicurses",
+      "name": "wikicurses-1.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "man": "/nix/store/sb0g5g723h3ssh933ai07mil48qhx6jh-wikicurses-1.4-man",
+        "out": "/nix/store/y6h1q3j5w0gr6klmnx8sa8n2m7dd2kbn-wikicurses-1.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A simple curses interface for MediaWiki sites such as Wikipedia",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/wikicurses/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.stable.wikicurses",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y6h1q3j5w0gr6klmnx8sa8n2m7dd2kbn-wikicurses-1.4",
+        "/nix/store/sb0g5g723h3ssh933ai07mil48qhx6jh-wikicurses-1.4-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

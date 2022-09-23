@@ -1,0 +1,74 @@
+{
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "dmarc-metrics-exporter",
+      "name": "dmarc-metrics-exporter-0.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/prhj5fzbpxgm36gys087ihrgdjaqnw4p-dmarc-metrics-exporter-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Export Prometheus metrics from DMARC reports",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/monitoring/prometheus/dmarc-metrics-exporter/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.stable.prometheus-dmarc-exporter",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/prhj5fzbpxgm36gys087ihrgdjaqnw4p-dmarc-metrics-exporter-0.6.0"
+      ],
+      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
+      }
+    }
+  },
+  "unknown": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unknown",
+      "pname": null,
+      "name": "prometheus-dmarc-exporter",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/8hbgawi7pwgj17mkgjqmim75698xndag-prometheus-dmarc-exporter"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": " Export Prometheus metrics from DMARC reports",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/monitoring/prometheus/dmarc-exporter/default.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.x86_64-darwin.stable.prometheus-dmarc-exporter",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8hbgawi7pwgj17mkgjqmim75698xndag-prometheus-dmarc-exporter"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}
