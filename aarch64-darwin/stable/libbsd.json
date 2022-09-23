@@ -1,0 +1,42 @@
+{
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "libbsd",
+      "name": "libbsd-0.10.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/l8ia6xasbqf7mrhfbv4zryy0l8xdisxb-libbsd-0.10.0-dev",
+        "man": "/nix/store/dpb4373x596a5fglmx826vlfv4gv6r87-libbsd-0.10.0-man",
+        "out": "/nix/store/qlqjxysdlvbscpckriw2ssjga8sphiyf-libbsd-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Common functions found on BSD systems",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libbsd/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.libbsd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qlqjxysdlvbscpckriw2ssjga8sphiyf-libbsd-0.10.0",
+        "/nix/store/dpb4373x596a5fglmx826vlfv4gv6r87-libbsd-0.10.0-man"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}

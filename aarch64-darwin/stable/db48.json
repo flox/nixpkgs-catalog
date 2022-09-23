@@ -1,0 +1,78 @@
+{
+  "unknown": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unknown",
+      "pname": null,
+      "name": "db-4.8.30",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/a1ajclhs5j6kzmh7adaipgka5ih1zqkw-db-4.8.30-bin",
+        "dev": "/nix/store/ahrnvwmr0205abcdymkrf288jk8l54wk-db-4.8.30-dev",
+        "out": "/nix/store/8bkbh4wa6ad2m9nnak6hphj77m1aprzi-db-4.8.30"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Berkeley DB",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/db/generic.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.db48",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a1ajclhs5j6kzmh7adaipgka5ih1zqkw-db-4.8.30-bin"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
+  "4.8.30": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.8.30",
+      "pname": "db",
+      "name": "db-4.8.30",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/d7zsnw0knh29wgr69fvcbp5xwmadqqlc-db-4.8.30-bin",
+        "dev": "/nix/store/bwmygq7lsjlfqf8b5vjcprid9qix2ywl-db-4.8.30-dev",
+        "out": "/nix/store/1qznjxinhwd8bs9v61bjrqy89h8l6mnx-db-4.8.30"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Berkeley DB",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/db/generic.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.db48",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d7zsnw0knh29wgr69fvcbp5xwmadqqlc-db-4.8.30-bin"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

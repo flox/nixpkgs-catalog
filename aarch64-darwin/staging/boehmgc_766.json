@@ -1,0 +1,40 @@
+{
+  "7.6.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.6.6",
+      "pname": "boehm-gc",
+      "name": "boehm-gc-7.6.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/7cjz509wiihxymm2gmgiyhbpa5wk93l9-boehm-gc-7.6.6-dev",
+        "doc": "/nix/store/kzhx0whnfqi6ipvk8k9fvs2kffrmhyk1-boehm-gc-7.6.6-doc",
+        "out": "/nix/store/bm4zkl3yaj97j3y3vgfpfq5c40chzsr0-boehm-gc-7.6.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/boehm-gc/7.6.6.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.staging.boehmgc_766",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bm4zkl3yaj97j3y3vgfpfq5c40chzsr0-boehm-gc-7.6.6"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}

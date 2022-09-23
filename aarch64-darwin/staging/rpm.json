@@ -1,0 +1,42 @@
+{
+  "4.17.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.17.0",
+      "pname": "rpm",
+      "name": "rpm-4.17.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/rgnpsrn9qfbjwprvbrcm1djsy1cfykhf-rpm-4.17.0-dev",
+        "man": "/nix/store/213aanwh2mvkcm8r6c2hnl8nl20v5c3w-rpm-4.17.0-man",
+        "out": "/nix/store/lfx6166cb9hl8sjh6wply4q59vg0zgz2-rpm-4.17.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The RPM Package Manager",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/package-management/rpm/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.staging.rpm",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lfx6166cb9hl8sjh6wply4q59vg0zgz2-rpm-4.17.0",
+        "/nix/store/213aanwh2mvkcm8r6c2hnl8nl20v5c3w-rpm-4.17.0-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

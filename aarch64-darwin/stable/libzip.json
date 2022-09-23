@@ -1,0 +1,42 @@
+{
+  "1.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.0",
+      "pname": "libzip",
+      "name": "libzip-1.8.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/532kg2lx1wa8ciskb6pjw1i1p0h26cba-libzip-1.8.0-dev",
+        "man": "/nix/store/k5s2rxm36lfgk5q8vpxd41d54dgy3fy6-libzip-1.8.0-man",
+        "out": "/nix/store/qgbxnv7hjbb2fyhs0247fml5rb3m3k90-libzip-1.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A C library for reading, creating and modifying zip archives",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libzip/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.libzip",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qgbxnv7hjbb2fyhs0247fml5rb3m3k90-libzip-1.8.0",
+        "/nix/store/k5s2rxm36lfgk5q8vpxd41d54dgy3fy6-libzip-1.8.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

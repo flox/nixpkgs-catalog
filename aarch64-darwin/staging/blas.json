@@ -1,0 +1,39 @@
+{
+  "3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3",
+      "pname": "blas",
+      "name": "blas-3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/bdx1285qm21dlsmv2660wx8f5fxwbnwm-blas-3-dev",
+        "out": "/nix/store/xnyw2rinn433vk3fzjqb1c6164mrx72j-blas-3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "openblas with just the BLAS C and FORTRAN ABI",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/build-support/alternatives/blas/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.staging.blas",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xnyw2rinn433vk3fzjqb1c6164mrx72j-blas-3"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

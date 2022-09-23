@@ -1,0 +1,42 @@
+{
+  "1.0.32": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.32",
+      "pname": "sane-backends",
+      "name": "sane-backends-1.0.32",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/7ijpq75z22sy2kwgz250navv8fkjdax3-sane-backends-1.0.32-doc",
+        "man": "/nix/store/z08lvlvpqn9845ab0milqi49knhysfra-sane-backends-1.0.32-man",
+        "out": "/nix/store/a9415gmdfl0m64i5dlmnkfs7b82lja7c-sane-backends-1.0.32"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "SANE (Scanner Access Now Easy) backends",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/graphics/sane/backends/default.nix:107",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.unstable.sane-backends-git",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a9415gmdfl0m64i5dlmnkfs7b82lja7c-sane-backends-1.0.32",
+        "/nix/store/z08lvlvpqn9845ab0milqi49knhysfra-sane-backends-1.0.32-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

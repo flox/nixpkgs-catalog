@@ -1,0 +1,78 @@
+{
+  "14.0.0-rc4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.0-rc4",
+      "pname": "lld",
+      "name": "lld-14.0.0-rc4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/4b5mjlzkg17qr8lrbrvk837rci788zc8-lld-14.0.0-rc4-dev",
+        "lib": "/nix/store/v09wwmhi94wklpranb84fafn3y7mdb2n-lld-14.0.0-rc4-lib",
+        "out": "/nix/store/53lxfld4hjh4gm0v4s0rc5h73n2vmvli-lld-14.0.0-rc4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The LLVM linker",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/compilers/llvm/14/lld/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.lld_14",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/53lxfld4hjh4gm0v4s0rc5h73n2vmvli-lld-14.0.0-rc4"
+      ],
+      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
+      }
+    }
+  },
+  "14.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.1",
+      "pname": "lld",
+      "name": "lld-14.0.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/1sash77yssfa1rnvpphx7pdk3gbrl1k2-lld-14.0.1-dev",
+        "lib": "/nix/store/15ap3gx9f6hws9nd773arhivpqac5x83-lld-14.0.1-lib",
+        "out": "/nix/store/ma1hsd5gy77czs8lac4v7nfmn76pdzml-lld-14.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The LLVM linker (unwrapped)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/llvm/14/lld/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.lld_14",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ma1hsd5gy77czs8lac4v7nfmn76pdzml-lld-14.0.1"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

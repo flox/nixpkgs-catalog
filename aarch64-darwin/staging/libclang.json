@@ -1,0 +1,41 @@
+{
+  "11.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "11.1.0",
+      "pname": "clang",
+      "name": "clang-11.1.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/g75dv571x7fg10h61lcfh6867babxwdj-clang-11.1.0-dev",
+        "lib": "/nix/store/i202jy6c35m1p2xsngbs2q9kspz4ff4v-clang-11.1.0-lib",
+        "out": "/nix/store/0nwgkxmkvn3phbppb8al8fl1fqmlk343-clang-11.1.0",
+        "python": "/nix/store/mlfwghbym4mjq8nwxyj7q2mfgkh4ar4b-clang-11.1.0-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A C language family frontend for LLVM",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/compilers/llvm/11/clang/default.nix:116",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.staging.libclang",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0nwgkxmkvn3phbppb8al8fl1fqmlk343-clang-11.1.0"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

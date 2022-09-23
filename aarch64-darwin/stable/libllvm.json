@@ -1,0 +1,41 @@
+{
+  "11.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "11.1.0",
+      "pname": "llvm",
+      "name": "llvm-11.1.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/z0xpx0c19npk25r0j2bmxpdpqrcb6cc8-llvm-11.1.0-dev",
+        "lib": "/nix/store/zygxnigvs7khyjw6nfs9f91b3zk3h6nn-llvm-11.1.0-lib",
+        "out": "/nix/store/bdrjg2r5hwh2virqynr1a7a5a9kjywii-llvm-11.1.0",
+        "python": "/nix/store/1ksx371mc5krn4jw8whm0bhaz3xgnyly-llvm-11.1.0-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A collection of modular and reusable compiler and toolchain technologies",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/llvm/11/llvm/default.nix:276",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.libllvm",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bdrjg2r5hwh2virqynr1a7a5a9kjywii-llvm-11.1.0"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

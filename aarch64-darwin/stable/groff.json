@@ -1,0 +1,44 @@
+{
+  "1.22.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22.4",
+      "pname": "groff",
+      "name": "groff-1.22.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/9833zpwrj1kvi2857zxisc7am5g9655z-groff-1.22.4-doc",
+        "info": "/nix/store/vlcnb7a2hrz0gwzf0lvwcb064cwddzm1-groff-1.22.4-info",
+        "man": "/nix/store/nps63bqzdmw2p2lwcsizg82gn0x2m7qv-groff-1.22.4-man",
+        "out": "/nix/store/xnxawv8gcsh4clb273xl1xx1j6w06ccs-groff-1.22.4",
+        "perl": "/nix/store/vjhym8kdqcya7w4i2dlxz21nyj88zrdp-groff-1.22.4-perl"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "perl"
+        ],
+        "description": "GNU Troff, a typesetting package that reads plain text and produces formatted output",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/text/groff/default.nix:122",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.groff",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xnxawv8gcsh4clb273xl1xx1j6w06ccs-groff-1.22.4",
+        "/nix/store/vjhym8kdqcya7w4i2dlxz21nyj88zrdp-groff-1.22.4-perl"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

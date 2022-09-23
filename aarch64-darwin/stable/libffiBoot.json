@@ -1,0 +1,43 @@
+{
+  "3.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.2",
+      "pname": "libffi",
+      "name": "libffi-3.4.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/b9gfrzl80hprns25i4niryjpw9q9gcm8-libffi-3.4.2-dev",
+        "info": "/nix/store/6l6pr7r7l7bp79mfnc8cirn0fki1q264-libffi-3.4.2-info",
+        "man": "/nix/store/9gj3n569v9mx46161hwvi4780f51sqfm-libffi-3.4.2-man",
+        "out": "/nix/store/hfdhcvia4iz08l4hkmfw6rkzr8i4q5yr-libffi-3.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A foreign function call interface library",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libffi/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.libffiBoot",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hfdhcvia4iz08l4hkmfw6rkzr8i4q5yr-libffi-3.4.2",
+        "/nix/store/9gj3n569v9mx46161hwvi4780f51sqfm-libffi-3.4.2-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

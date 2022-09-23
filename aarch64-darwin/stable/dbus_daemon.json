@@ -1,0 +1,44 @@
+{
+  "1.12.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.12.20",
+      "pname": "dbus",
+      "name": "dbus-1.12.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/qyibwqia3vazvk2qh41l0wra9vaq742b-dbus-1.12.20-dev",
+        "doc": "/nix/store/c84d8494g62sfnq5f7my97psj9wvnaxz-dbus-1.12.20-doc",
+        "lib": "/nix/store/mv4qv351sa5ypivvr3v6yak7sjhskwd3-dbus-1.12.20-lib",
+        "man": "/nix/store/2pkkpzqnliqdqraj3p385la3cv6skrz5-dbus-1.12.20-man",
+        "out": "/nix/store/mimls58a88kx5qphw34pfp4k5p3m3z57-dbus-1.12.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Simple interprocess messaging system",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/dbus/default.nix:116",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.dbus_daemon",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mimls58a88kx5qphw34pfp4k5p3m3z57-dbus-1.12.20",
+        "/nix/store/2pkkpzqnliqdqraj3p385la3cv6skrz5-dbus-1.12.20-man"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}

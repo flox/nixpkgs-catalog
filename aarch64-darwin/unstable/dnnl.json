@@ -1,0 +1,40 @@
+{
+  "2.3.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.2",
+      "pname": "oneDNN",
+      "name": "oneDNN-2.3.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/nl795696ykh002j2rv8dccl0h48n273c-oneDNN-2.3.2-dev",
+        "doc": "/nix/store/sq9f1hq3646h1l8ndp0pikwvkwmyppvw-oneDNN-2.3.2-doc",
+        "out": "/nix/store/a9qk4ap7855h3mnijwbvmaa2h5hs7h1a-oneDNN-2.3.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "oneAPI Deep Neural Network Library (oneDNN)",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/oneDNN/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.unstable.dnnl",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a9qk4ap7855h3mnijwbvmaa2h5hs7h1a-oneDNN-2.3.2"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

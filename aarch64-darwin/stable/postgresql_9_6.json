@@ -1,0 +1,43 @@
+{
+  "9.6.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.6.22",
+      "pname": "postgresql",
+      "name": "postgresql-9.6.22",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/715f029wzs1rv3qfprfnph3ysww61zfy-postgresql-9.6.22-doc",
+        "lib": "/nix/store/q6a3zkjhgvfzdfwzkg8lnwwinla5a90z-postgresql-9.6.22-lib",
+        "man": "/nix/store/aiz239iwiil7zq2dwff90c2mn9ixn36b-postgresql-9.6.22-man",
+        "out": "/nix/store/mpvspwsd879bcm5811i0871jign1xlsi-postgresql-9.6.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/sql/postgresql/default.nix:160",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.postgresql_9_6",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mpvspwsd879bcm5811i0871jign1xlsi-postgresql-9.6.22",
+        "/nix/store/aiz239iwiil7zq2dwff90c2mn9ixn36b-postgresql-9.6.22-man"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}

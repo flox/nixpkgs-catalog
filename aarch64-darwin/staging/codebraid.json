@@ -1,0 +1,38 @@
+{
+  "0.5.0-unstable-2020-08-14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0-unstable-2020-08-14",
+      "pname": "codebraid",
+      "name": "codebraid-0.5.0-unstable-2020-08-14",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/g9hgig76kkb0sswdsnb7ya6433jqv7lc-codebraid-0.5.0-unstable-2020-08-14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Live code in Pandoc Markdown.\n\nCodebraid is a Python program that enables executable code in Pandoc\nMarkdown documents. Using Codebraid can be as simple as adding a class to\nyour code blocks' attributes, and then running codebraid rather than\npandoc to convert your document from Markdown to another format.\ncodebraid supports almost all of pandoc's options and passes them to\npandoc internally.\n\nCodebraid provides two options for executing code. It includes a built-in\ncode execution system that currently supports Python 3.5+, Julia, Rust,\nR, Bash, and JavaScript. Code can also be executed using Jupyter kernels,\nwith support for rich output like plots.\n",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/codebraid/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.staging.codebraid",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g9hgig76kkb0sswdsnb7ya6433jqv7lc-codebraid-0.5.0-unstable-2020-08-14"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

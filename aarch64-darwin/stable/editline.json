@@ -1,0 +1,43 @@
+{
+  "1.17.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.17.1",
+      "pname": "editline",
+      "name": "editline-1.17.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/78mskwlrnjwdpyfb5ns092s528mzc4gl-editline-1.17.1-dev",
+        "doc": "/nix/store/8bhx6bxfyd5jvp0r87d1rk7rw7wsw84y-editline-1.17.1-doc",
+        "man": "/nix/store/32vcyb5048my8w7wnkiag8lava0rlkpk-editline-1.17.1-man",
+        "out": "/nix/store/c2yaxlk2ai6lkn48s14p5y4qp4gicj6a-editline-1.17.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A readline() replacement for UNIX without termcap (ncurses)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/editline/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.editline",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c2yaxlk2ai6lkn48s14p5y4qp4gicj6a-editline-1.17.1",
+        "/nix/store/32vcyb5048my8w7wnkiag8lava0rlkpk-editline-1.17.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

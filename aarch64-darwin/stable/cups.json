@@ -1,0 +1,43 @@
+{
+  "2.2.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.6",
+      "pname": "cups",
+      "name": "cups-2.2.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/r88ij156adxi6yyhsz8a7ng8qrci6v32-cups-2.2.6-dev",
+        "lib": "/nix/store/vw0dsm3sbig9i6yvimshwvvhmhj5z0pv-cups-2.2.6-lib",
+        "man": "/nix/store/xixdg5czimmjl4c3f5xp46v48w8g8bca-cups-2.2.6-man",
+        "out": "/nix/store/2sfywhmdfpmnw8ppi2ywfrj6drawvf46-cups-2.2.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A standards-based printing system for UNIX",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/misc/cups/default.nix:142",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.cups",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2sfywhmdfpmnw8ppi2ywfrj6drawvf46-cups-2.2.6",
+        "/nix/store/xixdg5czimmjl4c3f5xp46v48w8g8bca-cups-2.2.6-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

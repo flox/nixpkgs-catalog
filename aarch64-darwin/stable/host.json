@@ -1,0 +1,47 @@
+{
+  "9.16.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.16.16",
+      "pname": "bind",
+      "name": "bind-9.16.16",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/bva03qj6857i3hpx2szgdykhjxahqrqg-bind-9.16.16-dev",
+        "dnsutils": "/nix/store/cqf5mm5ll4phggqkvl2g3dw20f5kkmrs-bind-9.16.16-dnsutils",
+        "host": "/nix/store/lv0z1cg8nqjqvk44zw1rzs76fm00licx-bind-9.16.16-host",
+        "lib": "/nix/store/qh3cq261339sxf5pl59anbivl29cspjk-bind-9.16.16-lib",
+        "man": "/nix/store/icpz6kmxzirkhfhsw45li471y0nzfaxy-bind-9.16.16-man",
+        "out": "/nix/store/yarf1knc59k7px5vz79hihs91xj5l951-bind-9.16.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "dnsutils",
+          "host"
+        ],
+        "description": "Domain name server",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/dns/bind/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-darwin.stable.host",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yarf1knc59k7px5vz79hihs91xj5l951-bind-9.16.16",
+        "/nix/store/cqf5mm5ll4phggqkvl2g3dw20f5kkmrs-bind-9.16.16-dnsutils",
+        "/nix/store/lv0z1cg8nqjqvk44zw1rzs76fm00licx-bind-9.16.16-host"
+      ],
+      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  }
+}
