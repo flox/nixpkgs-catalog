@@ -1,0 +1,43 @@
+{
+  "3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3",
+      "pname": "libsepol",
+      "name": "libsepol-3.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/vblvy4lc33g25mil3wm4fb3hzcsbbxwz-libsepol-3.3-bin",
+        "dev": "/nix/store/4f7l60rh2dz10p5mfwl69df3vgwxzqnn-libsepol-3.3-dev",
+        "man": "/nix/store/d0y9f82njkl90nz6y5ygnpxzjxjf5jps-libsepol-3.3-man",
+        "out": "/nix/store/fg81vwk49534n8dsdm6wkp34ym33sj8p-libsepol-3.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "SELinux binary policy manipulation library",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/libsepol/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.libsepol",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vblvy4lc33g25mil3wm4fb3hzcsbbxwz-libsepol-3.3-bin",
+        "/nix/store/d0y9f82njkl90nz6y5ygnpxzjxjf5jps-libsepol-3.3-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

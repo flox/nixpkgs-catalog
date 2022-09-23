@@ -1,0 +1,45 @@
+{
+  "1.20.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.0",
+      "pname": "wayland",
+      "name": "wayland-1.20.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/pxl4rsx6idcbik734d7vra68im4hk0sc-wayland-1.20.0-bin",
+        "debug": "/nix/store/n6lqliyr9s9ipm0r19xkcapiham0ihgg-wayland-1.20.0-debug",
+        "dev": "/nix/store/ilsgqqj1wc5njh6nfdv9fpd3acdkw5xj-wayland-1.20.0-dev",
+        "doc": "/nix/store/fjld1m2nygl4i6xjwildrffv6iz4clhy-wayland-1.20.0-doc",
+        "man": "/nix/store/vlgxchzi1wrkknf98x6sv540b8x5jnnh-wayland-1.20.0-man",
+        "out": "/nix/store/d3dqsc0i4r0wvfflhb5kki8bgy9kc9cd-wayland-1.20.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Core Wayland window system code and protocol",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/wayland/default.nix:107",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.wayland-scanner",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pxl4rsx6idcbik734d7vra68im4hk0sc-wayland-1.20.0-bin",
+        "/nix/store/vlgxchzi1wrkknf98x6sv540b8x5jnnh-wayland-1.20.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

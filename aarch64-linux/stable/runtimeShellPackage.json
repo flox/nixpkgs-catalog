@@ -1,0 +1,44 @@
+{
+  "5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1",
+      "pname": null,
+      "name": "bash-5.1-p16",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ips4rb1ihsfayy6b6c1vyal6iz9k6k77-bash-5.1-p16-dev",
+        "doc": "/nix/store/lgs57hcvcl9d0qgq7gf89mclfs051dq0-bash-5.1-p16-doc",
+        "info": "/nix/store/bl6ai0n2d2z26fbbl35h76nxxhzc6v31-bash-5.1-p16-info",
+        "man": "/nix/store/rimhgbmzvnchnr4gkssajkx6l7day721-bash-5.1-p16-man",
+        "out": "/nix/store/cfjc49jr1hv5linffcchjc34g87kfdaj-bash-5.1-p16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/shells/bash/5.1.nix:111",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.runtimeShellPackage",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cfjc49jr1hv5linffcchjc34g87kfdaj-bash-5.1-p16",
+        "/nix/store/rimhgbmzvnchnr4gkssajkx6l7day721-bash-5.1-p16-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

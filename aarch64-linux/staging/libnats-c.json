@@ -1,0 +1,40 @@
+{
+  "3.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.0",
+      "pname": "libnats",
+      "name": "libnats-3.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/4p4k4z3284dkfhhdygwn1p941j28mcqc-libnats-3.2.0-debug",
+        "dev": "/nix/store/ap5bd8bfn7cjbxgbggyn3wpjrxsh2ccb-libnats-3.2.0-dev",
+        "out": "/nix/store/zhlng05v402av0vqn5hnq7fmwfhnsfjq-libnats-3.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C API for the NATS messaging system",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libnats-c/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.libnats-c",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zhlng05v402av0vqn5hnq7fmwfhnsfjq-libnats-3.2.0"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

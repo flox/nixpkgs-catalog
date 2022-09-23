@@ -1,0 +1,43 @@
+{
+  "3.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.0",
+      "pname": "libnl",
+      "name": "libnl-3.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/yq8jcbvsxgyww5i8pnrzlhm8v6bb260x-libnl-3.5.0-bin",
+        "dev": "/nix/store/m5zsw883b6sdfr36daxc636x36iily21-libnl-3.5.0-dev",
+        "man": "/nix/store/f3zlkvpdwg6am0cfw7l45iq3p96gvszz-libnl-3.5.0-man",
+        "out": "/nix/store/si7a108lrqfvc6nn2zr59khsk99ccsvf-libnl-3.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Linux Netlink interface library suite",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/libnl/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.libnl",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yq8jcbvsxgyww5i8pnrzlhm8v6bb260x-libnl-3.5.0-bin",
+        "/nix/store/f3zlkvpdwg6am0cfw7l45iq3p96gvszz-libnl-3.5.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

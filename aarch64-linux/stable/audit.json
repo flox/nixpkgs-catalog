@@ -1,0 +1,43 @@
+{
+  "2.8.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.8.5",
+      "pname": "audit",
+      "name": "audit-2.8.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/zz7p331dn1m3ifh2zpgali6zr6qmxczx-audit-2.8.5-bin",
+        "dev": "/nix/store/xrlas6i3dhjw5dlza9swbg2i8yl1za1q-audit-2.8.5-dev",
+        "man": "/nix/store/3cy2ysvnmpqv6zhiy6b23g4ndcw0w7ig-audit-2.8.5-man",
+        "out": "/nix/store/8fzq65vwyndcck1npbavjvhy87zf920l-audit-2.8.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Audit Library",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/audit/default.nix:97",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.audit",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zz7p331dn1m3ifh2zpgali6zr6qmxczx-audit-2.8.5-bin",
+        "/nix/store/3cy2ysvnmpqv6zhiy6b23g4ndcw0w7ig-audit-2.8.5-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

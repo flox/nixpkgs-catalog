@@ -1,0 +1,75 @@
+{
+  "1.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.0",
+      "pname": "gpsbabel",
+      "name": "gpsbabel-1.8.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/xwk352qls30kvn1651zry1x6s0gh5vj2-gpsbabel-1.8.0-doc",
+        "out": "/nix/store/f51vj0xx96z3vx5m1ag8c5z5518kphvq-gpsbabel-1.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Convert, upload and download data from GPS and Map programs",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/gpsbabel/default.nix:99",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.gpsbabel-gui",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f51vj0xx96z3vx5m1ag8c5z5518kphvq-gpsbabel-1.8.0"
+      ],
+      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.0",
+      "pname": "gpsbabel-gui",
+      "name": "gpsbabel-gui-1.7.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/ib1ig7gjnx04s4v4jp3xw8rmwcffm557-gpsbabel-gui-1.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Qt-based GUI for gpsbabel",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/gpsbabel/gui.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.gpsbabel-gui",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ib1ig7gjnx04s4v4jp3xw8rmwcffm557-gpsbabel-gui-1.7.0"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

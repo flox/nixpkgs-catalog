@@ -1,0 +1,82 @@
+{
+  "1.16.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.16.0",
+      "pname": "unbound",
+      "name": "unbound-1.16.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "lib": "/nix/store/sr59bqdlci5nqm1z6cqys3aibd6174hn-unbound-1.16.0-lib",
+        "man": "/nix/store/6cpqsnca3m26hl9892h6gxsg8l4y03w0-unbound-1.16.0-man",
+        "out": "/nix/store/2p1ip44m9qkwll1vn2hi588xc804vgz1-unbound-1.16.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Validating, recursive, and caching DNS resolver",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/unbound/default.nix:148",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.unbound-with-systemd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2p1ip44m9qkwll1vn2hi588xc804vgz1-unbound-1.16.0",
+        "/nix/store/6cpqsnca3m26hl9892h6gxsg8l4y03w0-unbound-1.16.0-man"
+      ],
+      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.14.0",
+      "pname": "unbound",
+      "name": "unbound-1.14.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "lib": "/nix/store/aac1q14yrg88lbnchb7gqq7yzmp51g22-unbound-1.14.0-lib",
+        "man": "/nix/store/cy959kvhwyh9ivgkpjh9x145b5wijipx-unbound-1.14.0-man",
+        "out": "/nix/store/ya7aawndfvc6lv45q5bqvh78y6hmj876-unbound-1.14.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Validating, recursive, and caching DNS resolver",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/unbound/default.nix:148",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.unbound-with-systemd",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ya7aawndfvc6lv45q5bqvh78y6hmj876-unbound-1.14.0",
+        "/nix/store/cy959kvhwyh9ivgkpjh9x145b5wijipx-unbound-1.14.0-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

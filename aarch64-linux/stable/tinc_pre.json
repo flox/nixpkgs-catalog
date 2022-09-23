@@ -1,0 +1,42 @@
+{
+  "1.1pre18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1pre18",
+      "pname": "tinc",
+      "name": "tinc-1.1pre18",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/7gyayh4jyc5c05mv4j99l6rcicv8c72p-tinc-1.1pre18-info",
+        "man": "/nix/store/wjvn9wxplypzg10d8prr8x0pnjc3k14j-tinc-1.1pre18-man",
+        "out": "/nix/store/kjfimk3cnsrvl65hl13k1qrgiyack647-tinc-1.1pre18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "VPN daemon with full mesh routing",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/tinc/pre.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.tinc_pre",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kjfimk3cnsrvl65hl13k1qrgiyack647-tinc-1.1pre18",
+        "/nix/store/wjvn9wxplypzg10d8prr8x0pnjc3k14j-tinc-1.1pre18-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

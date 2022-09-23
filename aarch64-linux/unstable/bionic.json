@@ -1,0 +1,39 @@
+{
+  "ndk-release-r23": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "ndk-release-r23",
+      "pname": "bionic-prebuilt",
+      "name": "aarch64-bionic-prebuilt-ndk-release-r23",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/n04ffycz1pajy7ll9rmw9bgnyjsxphvx-aarch64-bionic-prebuilt-ndk-release-r23-dev",
+        "out": "/nix/store/7pan5lbw3zvhfnn3m2mbhnx1gb5caz8c-aarch64-bionic-prebuilt-ndk-release-r23"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Android libc implementation",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/bionic-prebuilt/default.nix:142",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.bionic",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7pan5lbw3zvhfnn3m2mbhnx1gb5caz8c-aarch64-bionic-prebuilt-ndk-release-r23"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "2.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.1",
+      "pname": "zmap",
+      "name": "zmap-2.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/j51mw9k9z1qkm8cprcrwa9pwv1q685k3-zmap-2.1.1-man",
+        "out": "/nix/store/wkndp163j0q4zf9qqy13jr4w0lbf18li-zmap-2.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Fast single packet network scanner designed for Internet-wide network surveys",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/zmap/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.zmap",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wkndp163j0q4zf9qqy13jr4w0lbf18li-zmap-2.1.1",
+        "/nix/store/j51mw9k9z1qkm8cprcrwa9pwv1q685k3-zmap-2.1.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

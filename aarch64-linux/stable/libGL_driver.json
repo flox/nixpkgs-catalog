@@ -1,0 +1,42 @@
+{
+  "21.3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "21.3.3",
+      "pname": "mesa",
+      "name": "mesa-21.3.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/8b3hi27x2mkyi8kmrpb1ccqyyd8vds54-mesa-21.3.3-dev",
+        "drivers": "/nix/store/smaymp18kbfznl4r444dpsdrm89bjzk3-mesa-21.3.3-drivers",
+        "driversdev": "/nix/store/bm7zz2plzbkbn930w4h9w84rbks5py53-mesa-21.3.3-driversdev",
+        "osmesa": "/nix/store/41dkwr3gpdydf3ffafm039afwvrd2lqc-mesa-21.3.3-osmesa",
+        "out": "/nix/store/f06xrwbm3hgndfpri6nk9sdmh6hq382x-mesa-21.3.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source 3D graphics library",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/mesa/default.nix:263",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.libGL_driver",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f06xrwbm3hgndfpri6nk9sdmh6hq382x-mesa-21.3.3"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

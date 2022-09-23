@@ -1,0 +1,40 @@
+{
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "glew",
+      "name": "glew-2.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/5mp69vy91bqz5x7sf4kncp27ji6kx4nl-glew-2.2.0-bin",
+        "dev": "/nix/store/m7v1amyll5i4hidh0d4nj5bvny29nynp-glew-2.2.0-dev",
+        "out": "/nix/store/vm9zcqqsf8hn0q6z9sp1pm001iq03p0p-glew-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "An OpenGL extension loading library for C/C++",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/glew/default.nix:48",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.glew-egl",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5mp69vy91bqz5x7sf4kncp27ji6kx4nl-glew-2.2.0-bin"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

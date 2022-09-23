@@ -1,0 +1,42 @@
+{
+  "2.1.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.15",
+      "pname": "anki",
+      "name": "anki-2.1.15",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/qqf2wz9wq2r7ai5q4nj7z5py532glhkm-anki-2.1.15-doc",
+        "man": "/nix/store/v489agzjr6fd625bc16rv0r86whr5k0z-anki-2.1.15-man",
+        "out": "/nix/store/ddw2hphwmyx8i0r7j4isvcb2jcydqkay-anki-2.1.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Spaced repetition flashcard program",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/games/anki/default.nix:197",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.anki",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ddw2hphwmyx8i0r7j4isvcb2jcydqkay-anki-2.1.15",
+        "/nix/store/v489agzjr6fd625bc16rv0r86whr5k0z-anki-2.1.15-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "1.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.0",
+      "pname": "lcm",
+      "name": "lcm-1.4.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/sbpn1rzm2b3pdczbqgw3bxswvdbka79r-lcm-1.4.0-dev",
+        "man": "/nix/store/q4zc08gsbcib71mhbl9csf7q8mxmp93j-lcm-1.4.0-man",
+        "out": "/nix/store/yrvh5x2akxc0kjsr1w1ifrlp35vv6ljd-lcm-1.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Lightweight Communications and Marshalling (LCM)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/lcm/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.lcm",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yrvh5x2akxc0kjsr1w1ifrlp35vv6ljd-lcm-1.4.0",
+        "/nix/store/q4zc08gsbcib71mhbl9csf7q8mxmp93j-lcm-1.4.0-man"
+      ],
+      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  }
+}

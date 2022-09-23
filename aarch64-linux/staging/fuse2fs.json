@@ -1,0 +1,45 @@
+{
+  "1.46.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.46.5",
+      "pname": "e2fsprogs",
+      "name": "e2fsprogs-1.46.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/bx4nmq1bgrsabhjmkspknrnwg59kjpxy-e2fsprogs-1.46.5-bin",
+        "dev": "/nix/store/kd3kyrg53ywh1c2313hw7sc5ns8r4pcd-e2fsprogs-1.46.5-dev",
+        "fuse2fs": "/nix/store/ffx1ivabg3y9dbg1khfq6syq2gdx6mg6-e2fsprogs-1.46.5-fuse2fs",
+        "info": "/nix/store/ijb7xcd5gg70xapk2y2v7jbrq45lh999-e2fsprogs-1.46.5-info",
+        "man": "/nix/store/0j2vvgvnw3icz80s17yl8g5vg77i5qca-e2fsprogs-1.46.5-man",
+        "out": "/nix/store/kywrfjjpvzrrmb0b39qwyi0srxnbq6fr-e2fsprogs-1.46.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Tools for creating and checking ext2/ext3/ext4 filesystems",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/filesystems/e2fsprogs/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.fuse2fs",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bx4nmq1bgrsabhjmkspknrnwg59kjpxy-e2fsprogs-1.46.5-bin",
+        "/nix/store/0j2vvgvnw3icz80s17yl8g5vg77i5qca-e2fsprogs-1.46.5-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

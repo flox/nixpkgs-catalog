@@ -1,0 +1,42 @@
+{
+  "6.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.5.0",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-6.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/j2rjwyzrmyd2574qyap8b43h20m32a6x-gcc-wrapper-6.5.0-info",
+        "man": "/nix/store/1pnfjs63s9hr4pxczqjz3p4np1ngv8w9-gcc-wrapper-6.5.0-man",
+        "out": "/nix/store/chvxl3y3mqcr9qbjicgssi0laqw59vzw-gcc-wrapper-6.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 6.5.0 (wrapper script)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/build-support/cc-wrapper/default.nix:534",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.gcc6",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/chvxl3y3mqcr9qbjicgssi0laqw59vzw-gcc-wrapper-6.5.0",
+        "/nix/store/1pnfjs63s9hr4pxczqjz3p4np1ngv8w9-gcc-wrapper-6.5.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

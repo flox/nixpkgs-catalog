@@ -1,0 +1,80 @@
+{
+  "3.10.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.10.1",
+      "pname": "iperf",
+      "name": "iperf-3.10.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/kjkaiipm4bnmmhqc69bk8wq73mxhs4ja-iperf-3.10.1-man",
+        "out": "/nix/store/93wkz57ndqjz46ndg23l7l2y4g5hdv6q-iperf-3.10.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tool to measure IP bandwidth using UDP or TCP",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/networking/iperf/3.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.iperf3",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/93wkz57ndqjz46ndg23l7l2y4g5hdv6q-iperf-3.10.1",
+        "/nix/store/kjkaiipm4bnmmhqc69bk8wq73mxhs4ja-iperf-3.10.1-man"
+      ],
+      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
+      }
+    }
+  },
+  "3.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.11",
+      "pname": "iperf",
+      "name": "iperf-3.11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/ipi7qjnz5ag6p5miwk3l6gdaapwag640-iperf-3.11-man",
+        "out": "/nix/store/zm4ig0jzvpafir44fagsciiy1lk0zgqx-iperf-3.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tool to measure IP bandwidth using UDP or TCP",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/iperf/3.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.iperf3",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zm4ig0jzvpafir44fagsciiy1lk0zgqx-iperf-3.11",
+        "/nix/store/ipi7qjnz5ag6p5miwk3l6gdaapwag640-iperf-3.11-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

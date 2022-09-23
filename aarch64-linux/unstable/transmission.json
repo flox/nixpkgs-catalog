@@ -1,0 +1,39 @@
+{
+  "3.00": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.00",
+      "pname": "transmission",
+      "name": "transmission-3.00",
+      "system": "aarch64-linux",
+      "outputs": {
+        "apparmor": "/nix/store/7wr1325gxi020hnff9bzwdgrq27jzy20-transmission-3.00-apparmor",
+        "out": "/nix/store/9d4z05h26l6hrcd3rm91xanxib08fn72-transmission-3.00"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast, easy and free BitTorrent client",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/p2p/transmission/default.nix:121",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.transmission",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9d4z05h26l6hrcd3rm91xanxib08fn72-transmission-3.00"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

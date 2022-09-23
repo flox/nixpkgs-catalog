@@ -1,0 +1,42 @@
+{
+  "5.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1.1",
+      "pname": "gawk",
+      "name": "gawk-5.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/96087049w0jn1rll2hrdq76jcli3rn1x-gawk-5.1.1-info",
+        "man": "/nix/store/8a72wwzhphh32hdn2agjdsdxsxf6q2yl-gawk-5.1.1-man",
+        "out": "/nix/store/95r2sqan5fhq3p72cgcqkiiyzscliha0-gawk-5.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU implementation of the Awk programming language",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/text/gawk/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.gawk",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/95r2sqan5fhq3p72cgcqkiiyzscliha0-gawk-5.1.1",
+        "/nix/store/8a72wwzhphh32hdn2agjdsdxsxf6q2yl-gawk-5.1.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

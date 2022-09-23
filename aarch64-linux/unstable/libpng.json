@@ -1,0 +1,42 @@
+{
+  "1.6.37": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.37",
+      "pname": "libpng-apng",
+      "name": "libpng-apng-1.6.37",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/0vigf7q7fkmq42rn52ncdl70kd6n8can-libpng-apng-1.6.37-dev",
+        "man": "/nix/store/4bb7q94h9i6ac77iy7lb0wyh0a2wymb1-libpng-apng-1.6.37-man",
+        "out": "/nix/store/bkv3mvqxw2m7ab6shb32dlzr3l153hvw-libpng-apng-1.6.37"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The official reference implementation for the PNG file format with animation patch",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libpng/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.libpng",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bkv3mvqxw2m7ab6shb32dlzr3l153hvw-libpng-apng-1.6.37",
+        "/nix/store/4bb7q94h9i6ac77iy7lb0wyh0a2wymb1-libpng-apng-1.6.37-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

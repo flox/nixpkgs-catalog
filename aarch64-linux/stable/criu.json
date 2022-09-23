@@ -1,0 +1,42 @@
+{
+  "3.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.15",
+      "pname": "criu",
+      "name": "criu-3.15",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/0d311yqvnflnxhskvd901yq5h9cr581b-criu-3.15-dev",
+        "man": "/nix/store/s30y6984ljp1762dwbh89pzwl5gk3c0m-criu-3.15-man",
+        "out": "/nix/store/jyvsspydy1kda8d1zqambcy3llbbkyqm-criu-3.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Userspace checkpoint/restore for Linux",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/criu/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.criu",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jyvsspydy1kda8d1zqambcy3llbbkyqm-criu-3.15",
+        "/nix/store/s30y6984ljp1762dwbh89pzwl5gk3c0m-criu-3.15-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

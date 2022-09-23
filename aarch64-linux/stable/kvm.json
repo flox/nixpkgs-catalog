@@ -1,0 +1,39 @@
+{
+  "6.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.1.0",
+      "pname": "qemu-host-cpu-only",
+      "name": "qemu-host-cpu-only-6.1.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "ga": "/nix/store/cqjhk6hnjfdkib5r5dmhxfcwiz57kqy3-qemu-host-cpu-only-6.1.0-ga",
+        "out": "/nix/store/swi7m4kzf69cfj2kd02rgd61vp90k5m8-qemu-host-cpu-only-6.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A generic and open source machine emulator and virtualizer",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/qemu/default.nix:284",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.kvm",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/swi7m4kzf69cfj2kd02rgd61vp90k5m8-qemu-host-cpu-only-6.1.0"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  }
+}

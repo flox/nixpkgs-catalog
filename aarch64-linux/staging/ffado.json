@@ -1,0 +1,40 @@
+{
+  "2.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.3",
+      "pname": "ffado",
+      "name": "ffado-2.4.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/5j38kas4iqyzhmsqva1spxbfy6kx0v0n-ffado-2.4.3-bin",
+        "dev": "/nix/store/71l1ggfx2vi0xpmys3s7ir1p6hyaw638-ffado-2.4.3-dev",
+        "out": "/nix/store/m97fk2jnwl23qv918hp3jq16vyha945i-ffado-2.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "FireWire audio drivers",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/ffado/default.nix:103",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.ffado",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5j38kas4iqyzhmsqva1spxbfy6kx0v0n-ffado-2.4.3-bin"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

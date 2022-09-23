@@ -1,0 +1,43 @@
+{
+  "2.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.1",
+      "pname": "nfs-utils",
+      "name": "nfs-utils-2.5.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ph29haha90hh7b38d6afb0zzagq9gpic-nfs-utils-2.5.1-dev",
+        "lib": "/nix/store/zff2nkdyzr9ym5lrf3d4jp0f27qahkgk-nfs-utils-2.5.1-lib",
+        "man": "/nix/store/0kx0wvhnlyd4s29ajfzipc9l3rp11kvj-nfs-utils-2.5.1-man",
+        "out": "/nix/store/j6dvr7ffa598dswrcwrafiq6skcb4rpi-nfs-utils-2.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Linux user-space NFS utilities",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/nfs-utils/default.nix:118",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.nfs-utils",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j6dvr7ffa598dswrcwrafiq6skcb4rpi-nfs-utils-2.5.1",
+        "/nix/store/0kx0wvhnlyd4s29ajfzipc9l3rp11kvj-nfs-utils-2.5.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

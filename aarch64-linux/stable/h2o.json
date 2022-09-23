@@ -1,0 +1,43 @@
+{
+  "2.3.0-beta2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.0-beta2",
+      "pname": "h2o",
+      "name": "h2o-2.3.0-beta2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/81dc7kcab8bw117aq59c65l8jbc5a7vh-h2o-2.3.0-beta2-dev",
+        "lib": "/nix/store/qrhv5cc5kh1byvwhyf7pk63010ry4rf7-h2o-2.3.0-beta2-lib",
+        "man": "/nix/store/d3rgw6fi831d4vs50dzqminxc13i6ryv-h2o-2.3.0-beta2-man",
+        "out": "/nix/store/15xb29w8b6amvrfkkjx545fm7i3h0zp4-h2o-2.3.0-beta2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Optimized HTTP/1 and HTTP/2 server",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/http/h2o/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.h2o",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/15xb29w8b6amvrfkkjx545fm7i3h0zp4-h2o-2.3.0-beta2",
+        "/nix/store/d3rgw6fi831d4vs50dzqminxc13i6ryv-h2o-2.3.0-beta2-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

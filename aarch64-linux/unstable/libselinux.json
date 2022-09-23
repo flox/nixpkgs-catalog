@@ -1,0 +1,44 @@
+{
+  "3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3",
+      "pname": "libselinux",
+      "name": "libselinux-3.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/rf3y170v6prb5wh8w65y2h049w9nkdba-libselinux-3.3-bin",
+        "dev": "/nix/store/m3a5f6zmh8xghbr6j7y2vlib704ws1j6-libselinux-3.3-dev",
+        "man": "/nix/store/gyn7v3c02i0cfs7zbn9hkibjp1wfr2z8-libselinux-3.3-man",
+        "out": "/nix/store/rx77dwkfk1jrmldih0k92vbpy4xi350d-libselinux-3.3",
+        "py": "/nix/store/4cf23bfhxpw78pk49b4p7yrlm9fc31nj-libselinux-3.3-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "SELinux core library",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/libselinux/default.nix:83",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.libselinux",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rf3y170v6prb5wh8w65y2h049w9nkdba-libselinux-3.3-bin",
+        "/nix/store/gyn7v3c02i0cfs7zbn9hkibjp1wfr2z8-libselinux-3.3-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "2.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.14",
+      "pname": "powertop",
+      "name": "powertop-2.14",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/lmwvvf26alpd7ig078j3lpm4grzcxsdc-powertop-2.14-man",
+        "out": "/nix/store/f7lk13gd4a6k2mv77wvm4awmv0gabk4h-powertop-2.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Analyze power consumption on Intel-based laptops",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/powertop/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.powertop",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f7lk13gd4a6k2mv77wvm4awmv0gabk4h-powertop-2.14",
+        "/nix/store/lmwvvf26alpd7ig078j3lpm4grzcxsdc-powertop-2.14-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

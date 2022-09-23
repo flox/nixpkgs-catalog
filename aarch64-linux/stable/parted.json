@@ -1,0 +1,43 @@
+{
+  "3.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4",
+      "pname": "parted",
+      "name": "parted-3.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ys9ryh35jg4l2n9a07ibg98k5k8qx393-parted-3.4-dev",
+        "info": "/nix/store/l10vprzlhyisc8jbv3nbrvcr6jlvw2h7-parted-3.4-info",
+        "man": "/nix/store/rk99s8qciv96328pg1zpmvlpdbvv85iw-parted-3.4-man",
+        "out": "/nix/store/69hqjknfyggk8ws1f6jhr5slfk0asdaa-parted-3.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Create, destroy, resize, check, and copy partitions",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/parted/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.parted",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/69hqjknfyggk8ws1f6jhr5slfk0asdaa-parted-3.4",
+        "/nix/store/rk99s8qciv96328pg1zpmvlpdbvv85iw-parted-3.4-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

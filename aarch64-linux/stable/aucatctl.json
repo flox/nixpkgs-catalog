@@ -1,0 +1,41 @@
+{
+  "0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1",
+      "pname": "aucatctl",
+      "name": "aucatctl-0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/5zxg03f87lf833ywx7l8nnzxv9s4xs2z-aucatctl-0.1-man",
+        "out": "/nix/store/mlgiw46mkd294011f2004a2x0yk0lhmw-aucatctl-0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The aucatctl utility sends MIDI messages to control sndiod and/or aucat volumes",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/aucatctl/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.aucatctl",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mlgiw46mkd294011f2004a2x0yk0lhmw-aucatctl-0.1",
+        "/nix/store/5zxg03f87lf833ywx7l8nnzxv9s4xs2z-aucatctl-0.1-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "1.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10",
+      "pname": "dnstracer",
+      "name": "dnstracer-1.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/ypp03iqwggb9gldishhf93fb5qg7wf01-dnstracer-1.10-man",
+        "out": "/nix/store/gp5d1d8rwgvqdcb3fhy8g3xfag1diqqp-dnstracer-1.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Determines where a given Domain Name Server (DNS) gets its information from, and follows the chain of DNS servers back to the servers which know the data",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/dnstracer/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.dnstracer",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gp5d1d8rwgvqdcb3fhy8g3xfag1diqqp-dnstracer-1.10",
+        "/nix/store/ypp03iqwggb9gldishhf93fb5qg7wf01-dnstracer-1.10-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

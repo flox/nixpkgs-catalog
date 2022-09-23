@@ -1,0 +1,42 @@
+{
+  "7.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.5.0",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-7.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/26jd2d2yh2wgagi3x9vgjswk5l9xi2kx-gcc-wrapper-7.5.0-info",
+        "man": "/nix/store/l5qyw5x0jh9lfvjg9zaklbwh6a9gv81h-gcc-wrapper-7.5.0-man",
+        "out": "/nix/store/39q93n7rfrc52migyvscxs6adipsqyky-gcc-wrapper-7.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 7.5.0 (wrapper script)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/build-support/cc-wrapper/default.nix:534",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.gcc7",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/39q93n7rfrc52migyvscxs6adipsqyky-gcc-wrapper-7.5.0",
+        "/nix/store/l5qyw5x0jh9lfvjg9zaklbwh6a9gv81h-gcc-wrapper-7.5.0-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

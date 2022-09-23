@@ -1,0 +1,79 @@
+{
+  "1.8.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.8",
+      "pname": "iptables",
+      "name": "iptables-1.8.8",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/zhmghqb7b6zhhwwj293dki16xnmfpv3a-iptables-1.8.8-dev",
+        "man": "/nix/store/a71b034jkh0a7n6v4vnjjzwmshs5m2r9-iptables-1.8.8-man",
+        "out": "/nix/store/lx8r3va1lv2r2614kd64n10k3sdvn529-iptables-1.8.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A program to configure the Linux IP packet filtering ruleset",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/iptables/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.iptables-nftables-compat",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lx8r3va1lv2r2614kd64n10k3sdvn529-iptables-1.8.8",
+        "/nix/store/a71b034jkh0a7n6v4vnjjzwmshs5m2r9-iptables-1.8.8-man"
+      ],
+      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.8.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.7",
+      "pname": "iptables",
+      "name": "iptables-1.8.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/drs8bvivwglz7s2i4sw9csqw7spmgwad-iptables-1.8.7-dev",
+        "out": "/nix/store/b2xvqd8iy5k8959yvx8zysh22d76n84n-iptables-1.8.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A program to configure the Linux IP packet filtering ruleset",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/iptables/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.iptables-nftables-compat",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b2xvqd8iy5k8959yvx8zysh22d76n84n-iptables-1.8.7"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

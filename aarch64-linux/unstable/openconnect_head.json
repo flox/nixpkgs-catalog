@@ -1,0 +1,76 @@
+{
+  "2021-05-05": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2021-05-05",
+      "pname": "openconnect-head",
+      "name": "openconnect-head-2021-05-05",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/bj8l9xc2vbjhks1sdmk1kxn011f9s2y8-openconnect-head-2021-05-05-dev",
+        "out": "/nix/store/7b9r5q0wg44v5p31h140fgzcg2y85p81-openconnect-head-2021-05-05"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VPN Client for Cisco's AnyConnect SSL VPN",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/openconnect/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.openconnect_head",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7b9r5q0wg44v5p31h140fgzcg2y85p81-openconnect-head-2021-05-05"
+      ],
+      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "unstable-2022-03-14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unstable-2022-03-14",
+      "pname": "openconnect",
+      "name": "openconnect-unstable-2022-03-14",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/jwvy4scckr35vqpnyrmgnp19iqflxxkc-openconnect-unstable-2022-03-14-dev",
+        "out": "/nix/store/9vnpag9fpf8l6aqkwbak2lmgzdr0y8xm-openconnect-unstable-2022-03-14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VPN Client for Cisco's AnyConnect SSL VPN",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/openconnect/common.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.openconnect_head",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9vnpag9fpf8l6aqkwbak2lmgzdr0y8xm-openconnect-unstable-2022-03-14"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

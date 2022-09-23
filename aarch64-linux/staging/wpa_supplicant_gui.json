@@ -1,0 +1,38 @@
+{
+  "2.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.10",
+      "pname": "wpa_gui",
+      "name": "wpa_gui-2.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/alchakpcn8agjh4ln0g1i5rr7bvghk4a-wpa_gui-2.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Qt-based GUI for wpa_supplicant",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/wpa_supplicant/gui.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.wpa_supplicant_gui",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/alchakpcn8agjh4ln0g1i5rr7bvghk4a-wpa_gui-2.10"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "1.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.19",
+      "pname": "lcms",
+      "name": "lcms-1.19",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/6j0zyvvzci9yqwrvrcb2a5gw5iafzkh7-lcms-1.19-bin",
+        "dev": "/nix/store/xjq3vc1zlnlhy1232lwngy37bvvvirxb-lcms-1.19-dev",
+        "man": "/nix/store/jwh3a4zlv64di0aqda4y1plxrczqswhz-lcms-1.19-man",
+        "out": "/nix/store/a7l9psrrbg1w6bj99j3j2gk25dk3shs1-lcms-1.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Color management engine",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/lcms/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.lcms",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6j0zyvvzci9yqwrvrcb2a5gw5iafzkh7-lcms-1.19-bin",
+        "/nix/store/jwh3a4zlv64di0aqda4y1plxrczqswhz-lcms-1.19-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

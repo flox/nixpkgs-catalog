@@ -1,0 +1,44 @@
+{
+  "2.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.3",
+      "pname": "cryptsetup",
+      "name": "cryptsetup-2.4.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/x114254g0smlzh02rbmym90va5g8ydpj-cryptsetup-2.4.3-bin",
+        "debug": "/nix/store/yi50gr4pr6rn6fwg5qfif23mwlfxwv6r-cryptsetup-2.4.3-debug",
+        "dev": "/nix/store/v4khmvk9h0af8gb8116hdmqmhrwpn9j0-cryptsetup-2.4.3-dev",
+        "man": "/nix/store/2qiswr4kqn2c74w5fcnpci1k1qld50dc-cryptsetup-2.4.3-man",
+        "out": "/nix/store/yv4dhg10m909vi8rbgsjzxzfwmyhx0h6-cryptsetup-2.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "LUKS for dm-crypt",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/cryptsetup/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.cryptsetup",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x114254g0smlzh02rbmym90va5g8ydpj-cryptsetup-2.4.3-bin",
+        "/nix/store/2qiswr4kqn2c74w5fcnpci1k1qld50dc-cryptsetup-2.4.3-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "5.18.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18.3",
+      "pname": "linux",
+      "name": "linux-5.18.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/l3qzmc3wy71hkc2r0vsvm10hma1xdj5x-linux-5.18.3-dev",
+        "out": "/nix/store/wbkwmji08w4v0v72dpa4cmwwid0bq6zp-linux-5.18.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.18.3-hardened1)",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.linux_5_18_hardened",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wbkwmji08w4v0v72dpa4cmwwid0bq6zp-linux-5.18.3"
+      ],
+      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
+      }
+    }
+  }
+}

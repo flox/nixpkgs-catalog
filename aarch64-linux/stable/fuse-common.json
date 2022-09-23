@@ -1,0 +1,39 @@
+{
+  "3.10.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.10.5",
+      "pname": "fuse",
+      "name": "fuse-3.10.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "common": "/nix/store/7zlglrsxwwql2j1bx6pypwb550mlb7zj-fuse-3.10.5-common",
+        "out": "/nix/store/ggfy5pwiyp7yiwhrc5bira18wj9w2qja-fuse-3.10.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library that allows filesystems to be implemented in user space",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/fuse/common.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.fuse-common",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ggfy5pwiyp7yiwhrc5bira18wj9w2qja-fuse-3.10.5"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}

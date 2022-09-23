@@ -1,0 +1,42 @@
+{
+  "1.2.59": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.59",
+      "pname": "libpng",
+      "name": "libpng-1.2.59",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/xqp96fb4vakaxv2k7agb9c3mys64llfn-libpng-1.2.59-dev",
+        "man": "/nix/store/prjfl95ds7zlix4riam8ry2a2zk225g7-libpng-1.2.59-man",
+        "out": "/nix/store/raick24kpbz45y4jf8z159vbbwyxiv2h-libpng-1.2.59"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The official reference implementation for the PNG file format",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libpng/12.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.staging.libpng12",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/raick24kpbz45y4jf8z159vbbwyxiv2h-libpng-1.2.59",
+        "/nix/store/prjfl95ds7zlix4riam8ry2a2zk225g7-libpng-1.2.59-man"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3",
+      "pname": "lapack",
+      "name": "lapack-3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/87d89jdxhyr6pdjzifgwix58xjrigf2p-lapack-3-dev",
+        "out": "/nix/store/f8rp9494ian97mz7ic1j9i26acfy78ay-lapack-3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "openblas with just the LAPACK C and FORTRAN ABI",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/build-support/alternatives/lapack/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.unstable.lapack-ilp64",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f8rp9494ian97mz7ic1j9i26acfy78ay-lapack-3"
+      ],
+      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  }
+}

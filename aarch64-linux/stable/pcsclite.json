@@ -1,0 +1,44 @@
+{
+  "1.9.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.5",
+      "pname": "pcsclite",
+      "name": "pcsclite-1.9.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/p1mpbh0iackllz0lj942ra4c6942in22-pcsclite-1.9.5-bin",
+        "dev": "/nix/store/rjhqbswph3z11l97i2i1n1mw7vl9iqf8-pcsclite-1.9.5-dev",
+        "doc": "/nix/store/sv884msvpsm86vq21i940i64sf7cvq1w-pcsclite-1.9.5-doc",
+        "man": "/nix/store/haxyx1v2khginj8y1xpgby8g3v0d1jrg-pcsclite-1.9.5-man",
+        "out": "/nix/store/3b0bbrppf1wa2hds8cz70q1dvivc5cvz-pcsclite-1.9.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Middleware to access a smart card using SCard API (PC/SC)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/pcsclite/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": "legacyPackages.aarch64-linux.stable.pcsclite",
+      "originalUrl": "flake:floxpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p1mpbh0iackllz0lj942ra4c6942in22-pcsclite-1.9.5-bin",
+        "/nix/store/haxyx1v2khginj8y1xpgby8g3v0d1jrg-pcsclite-1.9.5-man"
+      ],
+      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  }
+}
