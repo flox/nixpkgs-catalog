@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-darwin.stable.sane-backends-git",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "sane-backends-git"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gxh9pi25wwxf2qpjpiwb3lhczf2xsrrm-sane-backends-1.0.32",
         "/nix/store/fjzz5bk1nhfhfch1x6l8rpjfrfah6mk1-sane-backends-1.0.32-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

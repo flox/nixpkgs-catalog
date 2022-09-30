@@ -23,13 +23,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-darwin.staging.libclang",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libclang"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/0nwgkxmkvn3phbppb8al8fl1fqmlk343-clang-11.1.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

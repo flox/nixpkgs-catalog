@@ -27,15 +27,19 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-darwin.stable.host",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "host"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/yarf1knc59k7px5vz79hihs91xj5l951-bind-9.16.16",
         "/nix/store/cqf5mm5ll4phggqkvl2g3dw20f5kkmrs-bind-9.16.16-dnsutils",
         "/nix/store/lv0z1cg8nqjqvk44zw1rzs76fm00licx-bind-9.16.16-host"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
