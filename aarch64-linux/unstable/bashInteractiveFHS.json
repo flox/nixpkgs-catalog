@@ -25,14 +25,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.bashInteractiveFHS",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "bashInteractiveFHS"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/9qd177wmjrvql7vrcy51qdhjir314yf7-bash-interactive-5.1-p16",
         "/nix/store/y3bgp3b0qfjv7wslkvqvbgn3gbwbqpjc-bash-interactive-5.1-p16-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

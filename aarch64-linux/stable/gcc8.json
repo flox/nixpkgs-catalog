@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.gcc8",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gcc8"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/pgadhnaxvxh6z7i80cc7j4bjnzdbwnxy-gcc-wrapper-8.5.0",
         "/nix/store/zqxggg0c70jgrprmfcssdn6gl4yq1ngs-gcc-wrapper-8.5.0-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.vulnix",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "vulnix"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gkirx3kbksqp21hg2p0kmdcmcmki2gad-vulnix-1.10.1",
         "/nix/store/78l9v73fkrk98xl3z755plnsf59s9h1a-vulnix-1.10.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

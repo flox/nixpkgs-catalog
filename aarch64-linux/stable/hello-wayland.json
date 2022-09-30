@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.hello-wayland",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "hello-wayland"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/13d3r17014agjd9rp3f94law1bigc0iw-hello-wayland-unstable-2020-07-27"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

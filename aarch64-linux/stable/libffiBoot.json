@@ -24,14 +24,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.libffiBoot",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libffiBoot"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/pyqhxn6y0cqlmvl2ckn9whv9xn1jf1d2-libffi-3.4.2",
         "/nix/store/qyjjbaslhjwrl9nvwr679k6cpnnnswxd-libffi-3.4.2-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

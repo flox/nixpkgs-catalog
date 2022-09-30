@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.gfortran49",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gfortran49"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/0lbz3kawgmg0i2wvlai23vgry3x6nsbn-gfortran-wrapper-4.9.4",
         "/nix/store/wq623kkjkl0vkyn0ccib7ypapxb63jpf-gfortran-wrapper-4.9.4-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

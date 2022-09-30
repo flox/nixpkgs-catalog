@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.armTrustedFirmwareAllwinner",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "armTrustedFirmwareAllwinner"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/pvg95xf4jwv779mj0m4c8kk1sfb0q262-arm-trusted-firmware-sun50i_a64-2.6"
       ],
-      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {

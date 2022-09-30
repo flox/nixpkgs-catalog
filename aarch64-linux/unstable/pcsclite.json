@@ -25,14 +25,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.pcsclite",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pcsclite"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/vlir6jb7szfqzrqxcxidjy1wfjpbm51r-pcsclite-1.9.5-bin",
         "/nix/store/1snr8arcg5m4c9ac0syj1f9gl2xa9syq-pcsclite-1.9.5-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

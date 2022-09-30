@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.blas-reference",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "blas-reference"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1s6hx3rpjq31slp21lpr27s84fgvmcir-blas-3.10.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

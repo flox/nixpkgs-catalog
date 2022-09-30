@@ -24,14 +24,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.libnl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libnl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/6ggwk86qwrch7129zmd11bbjqqvwvmb7-libnl-3.5.0-bin",
         "/nix/store/g4hlkrljc9fwqmjjpvw2vsk729pcmf53-libnl-3.5.0-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

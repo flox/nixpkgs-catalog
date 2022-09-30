@@ -22,14 +22,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.staging.cowsay",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cowsay"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/68xz97z50zkzfampdzf78p3sx8k61v9g-cowsay-3.04",
         "/nix/store/kn120z1m9fpds57wdna4536aczh7p7gw-cowsay-3.04-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

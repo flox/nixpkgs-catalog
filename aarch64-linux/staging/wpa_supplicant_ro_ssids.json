@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.staging.wpa_supplicant_ro_ssids",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "wpa_supplicant_ro_ssids"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1kmi6vqgww6zhdfnxcjwpszbbnafkx9v-wpa_supplicant-2.10"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

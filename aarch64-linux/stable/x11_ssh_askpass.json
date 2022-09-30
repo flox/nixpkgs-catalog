@@ -22,14 +22,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.x11_ssh_askpass",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "x11_ssh_askpass"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/cvn1rlbfrmx5yfrj0frhws29s31j69ml-x11-ssh-askpass-1.2.4.1",
         "/nix/store/cziljvl1v7p9d6bs3hmrpmfdxczd7kmn-x11-ssh-askpass-1.2.4.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

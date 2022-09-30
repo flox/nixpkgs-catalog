@@ -21,13 +21,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.staging.libtensorflow",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libtensorflow"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2zfcxzqydybgv7isfc41k4i7dh0aw45v-tensorflow-2.8.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

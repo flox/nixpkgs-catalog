@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.libudev",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libudev"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/m5jiaf4b48gfinbr40ib641phwfm97ni-systemd-249.7",
         "/nix/store/kw0xrlanfwrj4227bq0xk29jarlp8jin-systemd-249.7-man"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {

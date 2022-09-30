@@ -24,13 +24,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.libGL_driver",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libGL_driver"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/f06xrwbm3hgndfpri6nk9sdmh6hq382x-mesa-21.3.3"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {

@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.gccStdenv",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gccStdenv"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": {
         "out": "/nix/store/5xiqh6jmim0mm8g6vgnfml65s2nzs74h-stdenv-linux"
       },
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

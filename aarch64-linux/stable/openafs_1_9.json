@@ -25,15 +25,19 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.stable.openafs_1_9",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openafs_1_9"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/rncll6jjp6jdka79bs515bwz0545qc7r-openafs-1.9.1",
         "/nix/store/27xhx8hd5mblbj2inhvll82ijagaikzd-openafs-1.9.1-doc",
         "/nix/store/p88r3r2kfcbdp056ipwi2y2dzns2ryip-openafs-1.9.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

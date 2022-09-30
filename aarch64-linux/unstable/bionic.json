@@ -21,13 +21,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.unstable.bionic",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "bionic"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7pan5lbw3zvhfnn3m2mbhnx1gb5caz8c-aarch64-bionic-prebuilt-ndk-release-r23"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

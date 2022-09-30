@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.aarch64-linux.staging.klipper-firmware",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "klipper-firmware"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gkh3vszgf57ryldsczqy7ai340paka2h-klipper-firmware-mcu-unstable-2022-06-18"
       ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
     },
     "source": {
       "locked": {
