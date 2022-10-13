@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.10.124": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.10.124",
-      "pname": "linux",
-      "name": "linux-5.10.124",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/kahffxq9slrnb4rxm9cbnfl39kivaj6z-linux-5.10.124-dev",
-        "out": "/nix/store/k2i74zl181piqnv0a0azmyp05fsrbbc4-linux-5.10.124"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_5_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k2i74zl181piqnv0a0azmyp05fsrbbc4-linux-5.10.124"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "5.10.134": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "5.10.124": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.10.124",
+      "pname": "linux",
+      "name": "linux-5.10.124",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/kahffxq9slrnb4rxm9cbnfl39kivaj6z-linux-5.10.124-dev",
+        "out": "/nix/store/k2i74zl181piqnv0a0azmyp05fsrbbc4-linux-5.10.124"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_5_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k2i74zl181piqnv0a0azmyp05fsrbbc4-linux-5.10.124"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "2022.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.5.1",
-      "pname": "cloudflared",
-      "name": "cloudflared-2022.5.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/afz77z6ar6sclhqvivpspg2ymhsv38g7-cloudflared-2022.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CloudFlare Tunnel daemon (and DNS-over-HTTPS client)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cloudflared/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cloudflared"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/afz77z6ar6sclhqvivpspg2ymhsv38g7-cloudflared-2022.5.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2022.4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 369988,
         "lastModified": 1650161686
+      }
+    }
+  },
+  "2022.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.5.1",
+      "pname": "cloudflared",
+      "name": "cloudflared-2022.5.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/afz77z6ar6sclhqvivpspg2ymhsv38g7-cloudflared-2022.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CloudFlare Tunnel daemon (and DNS-over-HTTPS client)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cloudflared/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cloudflared"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/afz77z6ar6sclhqvivpspg2ymhsv38g7-cloudflared-2022.5.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

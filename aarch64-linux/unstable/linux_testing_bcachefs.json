@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.16.20-bcachefs-unstable-2022-04-08": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.16.20-bcachefs-unstable-2022-04-08",
-      "pname": "linux",
-      "name": "linux-5.16.20-bcachefs-unstable-2022-04-08",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/ff5cs8i63qcahcnqp9xm5k282mw2vi4h-linux-5.16.20-bcachefs-unstable-2022-04-08-dev",
-        "out": "/nix/store/mprfkbb0dll4iyf7kiznd8fy7h7p1iys-linux-5.16.20-bcachefs-unstable-2022-04-08"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bcachefs-6ddf061e68560a2bb263b126af7e894a6c1afb5f, bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/os-specific/linux/kernel/linux-testing-bcachefs.nix:15",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_testing_bcachefs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mprfkbb0dll4iyf7kiznd8fy7h7p1iys-linux-5.16.20-bcachefs-unstable-2022-04-08"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "5.17.7-bcachefs-unstable-2022-04-25": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 378452,
         "lastModified": 1652794215
+      }
+    }
+  },
+  "5.16.20-bcachefs-unstable-2022-04-08": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.16.20-bcachefs-unstable-2022-04-08",
+      "pname": "linux",
+      "name": "linux-5.16.20-bcachefs-unstable-2022-04-08",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ff5cs8i63qcahcnqp9xm5k282mw2vi4h-linux-5.16.20-bcachefs-unstable-2022-04-08-dev",
+        "out": "/nix/store/mprfkbb0dll4iyf7kiznd8fy7h7p1iys-linux-5.16.20-bcachefs-unstable-2022-04-08"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bcachefs-6ddf061e68560a2bb263b126af7e894a6c1afb5f, bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/os-specific/linux/kernel/linux-testing-bcachefs.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_testing_bcachefs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mprfkbb0dll4iyf7kiznd8fy7h7p1iys-linux-5.16.20-bcachefs-unstable-2022-04-08"
+      ],
+      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
+    },
+    "source": {
+      "locked": {
+        "revCount": 369988,
+        "lastModified": 1650161686
       }
     }
   }
