@@ -1,46 +1,4 @@
 {
-  "0.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.0",
-      "pname": "go-containerregistry",
-      "name": "go-containerregistry-0.11.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "crane": "/nix/store/s8r9ajx6578dn7phzd431lcmwi3853cc-go-containerregistry-0.11.0-crane",
-        "gcrane": "/nix/store/iikg9vlpxgr4lj8cybz1jdzpks6inyz8-go-containerregistry-0.11.0-gcrane",
-        "out": "/nix/store/n300liz37qisrfwfkmdpiycilx8l3ix9-go-containerregistry-0.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for interacting with remote images and registries including crane and gcrane",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-containerregistry/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gcrane"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n300liz37qisrfwfkmdpiycilx8l3ix9-go-containerregistry-0.11.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.0",
+      "pname": "go-containerregistry",
+      "name": "go-containerregistry-0.11.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "crane": "/nix/store/s8r9ajx6578dn7phzd431lcmwi3853cc-go-containerregistry-0.11.0-crane",
+        "gcrane": "/nix/store/iikg9vlpxgr4lj8cybz1jdzpks6inyz8-go-containerregistry-0.11.0-gcrane",
+        "out": "/nix/store/n300liz37qisrfwfkmdpiycilx8l3ix9-go-containerregistry-0.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for interacting with remote images and registries including crane and gcrane",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-containerregistry/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gcrane"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n300liz37qisrfwfkmdpiycilx8l3ix9-go-containerregistry-0.11.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },

@@ -1,45 +1,4 @@
 {
-  "1.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20",
-      "pname": "krb5",
-      "name": "krb5-1.20",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/din333bpr0nj4wn5hz064pnnsga8fkqz-krb5-1.20-dev",
-        "out": "/nix/store/gvlsbwv26a15m2wl4k4p3bq6wpz5x017-krb5-1.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "MIT Kerberos 5",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/kerberos/krb5.nix:87",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "krb5Full"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gvlsbwv26a15m2wl4k4p3bq6wpz5x017-krb5-1.20"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.18": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20",
+      "pname": "krb5",
+      "name": "krb5-1.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/din333bpr0nj4wn5hz064pnnsga8fkqz-krb5-1.20-dev",
+        "out": "/nix/store/gvlsbwv26a15m2wl4k4p3bq6wpz5x017-krb5-1.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "MIT Kerberos 5",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/kerberos/krb5.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "krb5Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gvlsbwv26a15m2wl4k4p3bq6wpz5x017-krb5-1.20"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

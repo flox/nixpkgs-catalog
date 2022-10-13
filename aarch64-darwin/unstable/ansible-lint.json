@@ -39,46 +39,6 @@
       }
     }
   },
-  "6.0.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.2",
-      "pname": "ansible-lint",
-      "name": "ansible-lint-6.0.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/321ipcy3ska610ziikk2rg7mv4bkqf0r-python3.9-ansible-lint-6.0.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Best practices checker for Ansible",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/python-modules/ansible-lint/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "ansible-lint"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/321ipcy3ska610ziikk2rg7mv4bkqf0r-python3.9-ansible-lint-6.0.2"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "6.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "6.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.2",
+      "pname": "ansible-lint",
+      "name": "ansible-lint-6.0.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/cmi7xbrw902ggkc5v6wh6ffz46vnfr9q-python3.9-ansible-lint-6.0.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Best practices checker for Ansible",
+        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/development/python-modules/ansible-lint/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "ansible-lint"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cmi7xbrw902ggkc5v6wh6ffz46vnfr9q-python3.9-ansible-lint-6.0.2"
+      ],
+      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
+    },
+    "source": {
+      "locked": {
+        "revCount": 369988,
+        "lastModified": 1650161686
       }
     }
   }
