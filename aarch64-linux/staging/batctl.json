@@ -1,44 +1,4 @@
 {
-  "2022.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.0",
-      "pname": "batctl",
-      "name": "batctl-2022.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/6mz3d7w3a3rykic8ydl9l8crr5w9bypz-batctl-2022.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2, control tool",
-        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/os-specific/linux/batman-adv/batctl.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "batctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6mz3d7w3a3rykic8ydl9l8crr5w9bypz-batctl-2022.0"
-      ],
-      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 378452,
-        "lastModified": 1652794215
-      }
-    }
-  },
   "2021.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2022.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.0",
+      "pname": "batctl",
+      "name": "batctl-2022.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6mz3d7w3a3rykic8ydl9l8crr5w9bypz-batctl-2022.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2, control tool",
+        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/os-specific/linux/batman-adv/batctl.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "batctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6mz3d7w3a3rykic8ydl9l8crr5w9bypz-batctl-2022.0"
+      ],
+      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 378452,
+        "lastModified": 1652794215
       }
     }
   },

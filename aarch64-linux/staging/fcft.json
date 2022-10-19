@@ -1,4 +1,48 @@
 {
+  "2.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.1",
+      "pname": "fcft",
+      "name": "fcft-2.5.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/jggbcxa2dclmpzk2hraszjcbb3bzljka-fcft-2.5.1-doc",
+        "man": "/nix/store/4cv646p8xknh2q9m8w7ixwscpp18g1pq-fcft-2.5.1-man",
+        "out": "/nix/store/89xz7wyxfpwrfiw486pvhdcjfbsmfijr-fcft-2.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Simple library for font loading and glyph rasterization",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/fcft/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fcft"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/89xz7wyxfpwrfiw486pvhdcjfbsmfijr-fcft-2.5.1",
+        "/nix/store/4cv646p8xknh2q9m8w7ixwscpp18g1pq-fcft-2.5.1-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "3.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -40,50 +84,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "3.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.1",
-      "pname": "fcft",
-      "name": "fcft-3.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/nvy48hj4wc6lyqaczd0knn3x2ml8g1hp-fcft-3.0.1-doc",
-        "man": "/nix/store/hlmb79rh56q8jplszkpkyrnqmdmmk2zs-fcft-3.0.1-man",
-        "out": "/nix/store/2732g0szdgyskaqkv1dvcy2q57gasdvs-fcft-3.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Simple library for font loading and glyph rasterization",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/development/libraries/fcft/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fcft"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2732g0szdgyskaqkv1dvcy2q57gasdvs-fcft-3.0.1",
-        "/nix/store/hlmb79rh56q8jplszkpkyrnqmdmmk2zs-fcft-3.0.1-man"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

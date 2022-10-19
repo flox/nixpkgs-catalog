@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.15.58": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.58",
-      "pname": "gpio-utils",
-      "name": "gpio-utils-5.15.58",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/1wkmzz654gdswmk6nvikmn2zpql7gdgr-gpio-utils-5.15.58-debug",
-        "out": "/nix/store/0ilkrdn38pw5yb1ns2nkyk45qgvhrivc-gpio-utils-5.15.58"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linux tools to inspect the gpiochip interface",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/gpio-utils.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gpio-utils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0ilkrdn38pw5yb1ns2nkyk45qgvhrivc-gpio-utils-5.15.58"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "5.15.49": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "5.15.58": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.58",
+      "pname": "gpio-utils",
+      "name": "gpio-utils-5.15.58",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/1wkmzz654gdswmk6nvikmn2zpql7gdgr-gpio-utils-5.15.58-debug",
+        "out": "/nix/store/0ilkrdn38pw5yb1ns2nkyk45qgvhrivc-gpio-utils-5.15.58"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux tools to inspect the gpiochip interface",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/gpio-utils.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gpio-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0ilkrdn38pw5yb1ns2nkyk45qgvhrivc-gpio-utils-5.15.58"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

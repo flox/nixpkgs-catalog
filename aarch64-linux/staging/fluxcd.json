@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.31.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.31.5",
-      "pname": "fluxcd",
-      "name": "fluxcd-0.31.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/7cz3isndh34gp3618dqpichhybpkiphc-fluxcd-0.31.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open and extensible continuous delivery solution for Kubernetes",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/cluster/fluxcd/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fluxcd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7cz3isndh34gp3618dqpichhybpkiphc-fluxcd-0.31.5"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.31.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "0.31.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.31.5",
+      "pname": "fluxcd",
+      "name": "fluxcd-0.31.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/7cz3isndh34gp3618dqpichhybpkiphc-fluxcd-0.31.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open and extensible continuous delivery solution for Kubernetes",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/cluster/fluxcd/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fluxcd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7cz3isndh34gp3618dqpichhybpkiphc-fluxcd-0.31.5"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

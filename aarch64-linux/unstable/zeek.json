@@ -1,4 +1,46 @@
 {
+  "4.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.1",
+      "pname": "zeek",
+      "name": "zeek-4.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "lib": "/nix/store/0pg3inppnwap8d5pyk6fkr5clqm9a190-zeek-4.1.1-lib",
+        "out": "/nix/store/ism3xv4z7bl7zcxbaz7c5vjwazmbhq4w-zeek-4.1.1",
+        "py": "/nix/store/4x0900zq4rpyds38l1rkpwsb652xywdh-zeek-4.1.1-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful network analysis framework much different from a typical IDS",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ids/zeek/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "zeek"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ism3xv4z7bl7zcxbaz7c5vjwazmbhq4w-zeek-4.1.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "4.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.0",
-      "pname": "zeek",
-      "name": "zeek-4.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "lib": "/nix/store/4v8js4s3zgbb8mflq4qmxwa3ww2935qs-zeek-4.2.0-lib",
-        "out": "/nix/store/mb0lvgxic94hwbhxh4s8andark2f5aw4-zeek-4.2.0",
-        "py": "/nix/store/n1r1ih1ixkdigvld7qdyiw01fzy9pvg5-zeek-4.2.0-py"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Network analysis framework much different from a typical IDS",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/applications/networking/ids/zeek/default.nix:74",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "zeek"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mb0lvgxic94hwbhxh4s8andark2f5aw4-zeek-4.2.0"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

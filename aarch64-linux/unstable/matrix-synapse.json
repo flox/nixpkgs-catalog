@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.64.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.64.0",
-      "pname": "matrix-synapse",
-      "name": "matrix-synapse-1.64.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/nf26161pa49ca56a9lh8wi75d25yahml-matrix-synapse-1.64.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Matrix reference homeserver",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/matrix-synapse/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "matrix-synapse"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nf26161pa49ca56a9lh8wi75d25yahml-matrix-synapse-1.64.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.61.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "1.64.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.64.0",
+      "pname": "matrix-synapse",
+      "name": "matrix-synapse-1.64.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/nf26161pa49ca56a9lh8wi75d25yahml-matrix-synapse-1.64.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Matrix reference homeserver",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/matrix-synapse/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "matrix-synapse"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nf26161pa49ca56a9lh8wi75d25yahml-matrix-synapse-1.64.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

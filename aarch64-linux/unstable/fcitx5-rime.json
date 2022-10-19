@@ -1,44 +1,4 @@
 {
-  "5.0.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0.14",
-      "pname": "fcitx5-rime",
-      "name": "fcitx5-rime-5.0.14",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/5vxhfqlphiwaifqdl6n5r37nfflgqp5y-fcitx5-rime-5.0.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "RIME support for Fcitx5",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-rime.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fcitx5-rime"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5vxhfqlphiwaifqdl6n5r37nfflgqp5y-fcitx5-rime-5.0.14"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.0.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.0.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.14",
+      "pname": "fcitx5-rime",
+      "name": "fcitx5-rime-5.0.14",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/5vxhfqlphiwaifqdl6n5r37nfflgqp5y-fcitx5-rime-5.0.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "RIME support for Fcitx5",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-rime.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fcitx5-rime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5vxhfqlphiwaifqdl6n5r37nfflgqp5y-fcitx5-rime-5.0.14"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

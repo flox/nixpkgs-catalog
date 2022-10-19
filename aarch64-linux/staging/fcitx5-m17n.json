@@ -1,44 +1,4 @@
 {
-  "5.0.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0.10",
-      "pname": "fcitx5-m17n",
-      "name": "fcitx5-m17n-5.0.10",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/m5b007vzjcr1v2dbnqis81nlpi1c70fb-fcitx5-m17n-5.0.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "m17n support for Fcitx5",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-m17n.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fcitx5-m17n"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m5b007vzjcr1v2dbnqis81nlpi1c70fb-fcitx5-m17n-5.0.10"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.0.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.0.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.10",
+      "pname": "fcitx5-m17n",
+      "name": "fcitx5-m17n-5.0.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m5b007vzjcr1v2dbnqis81nlpi1c70fb-fcitx5-m17n-5.0.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "m17n support for Fcitx5",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-m17n.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fcitx5-m17n"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m5b007vzjcr1v2dbnqis81nlpi1c70fb-fcitx5-m17n-5.0.10"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

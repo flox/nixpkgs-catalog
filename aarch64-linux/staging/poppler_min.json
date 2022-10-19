@@ -1,4 +1,45 @@
 {
+  "21.06.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "21.06.1",
+      "pname": "poppler-min",
+      "name": "poppler-min-21.06.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/jl7wv5ck7f77fdx360nd2msq6hij1jhp-poppler-min-21.06.1-dev",
+        "out": "/nix/store/gfc45yh5nnnwl0migy9926da7niag2ig-poppler-min-21.06.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A PDF rendering library",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/poppler/default.nix:104",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "poppler_min"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gfc45yh5nnnwl0migy9926da7niag2ig-poppler-min-21.06.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "22.06.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,47 +78,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "22.03.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.03.0",
-      "pname": "poppler-min",
-      "name": "poppler-min-22.03.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/bxnlysj5863c45b9jiqvdzzpbxjy1f1n-poppler-min-22.03.0-dev",
-        "out": "/nix/store/kwccajh72jv2av8clzip3lyjzhjyiqn1-poppler-min-22.03.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A PDF rendering library",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/development/libraries/poppler/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "poppler_min"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kwccajh72jv2av8clzip3lyjzhjyiqn1-poppler-min-22.03.0"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

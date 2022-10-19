@@ -1,4 +1,44 @@
 {
+  "367.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "367.0.0",
+      "pname": "google-cloud-sdk",
+      "name": "google-cloud-sdk-367.0.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/mhs9fjxwlxn72glf7ixcaibm66dw4zgg-google-cloud-sdk-367.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for the google cloud platform",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/admin/google-cloud-sdk/default.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "google-cloud-sdk-gce"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mhs9fjxwlxn72glf7ixcaibm66dw4zgg-google-cloud-sdk-367.0.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "385.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "381.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "381.0.0",
-      "pname": "google-cloud-sdk",
-      "name": "google-cloud-sdk-381.0.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/gyx3886v7ly42pzldaj112q8c3p19zdj-google-cloud-sdk-381.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for the google cloud platform",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/admin/google-cloud-sdk/default.nix:109",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "google-cloud-sdk-gce"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gyx3886v7ly42pzldaj112q8c3p19zdj-google-cloud-sdk-381.0.0"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

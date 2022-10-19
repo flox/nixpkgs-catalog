@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.15.58": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.58",
-      "pname": "freefall",
-      "name": "freefall-5.15.58",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/w8knii33yf2nkawp4qxvbzv2x9igkbq7-freefall-5.15.58"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Free-fall protection for spinning HP/Dell laptop hard drives",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/freefall/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "freefall"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w8knii33yf2nkawp4qxvbzv2x9igkbq7-freefall-5.15.58"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "5.15.49": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "5.15.58": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.58",
+      "pname": "freefall",
+      "name": "freefall-5.15.58",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/w8knii33yf2nkawp4qxvbzv2x9igkbq7-freefall-5.15.58"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Free-fall protection for spinning HP/Dell laptop hard drives",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/freefall/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "freefall"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w8knii33yf2nkawp4qxvbzv2x9igkbq7-freefall-5.15.58"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

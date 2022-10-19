@@ -1,48 +1,4 @@
 {
-  "0.9.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.5",
-      "pname": "herbstluftwm",
-      "name": "herbstluftwm-0.9.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/v44zhs0r0hxcj05lsvrdhqjraa9w6ybb-herbstluftwm-0.9.5-doc",
-        "man": "/nix/store/zhifw6cbrcv5891m5bxg300n0j12qljx-herbstluftwm-0.9.5-man",
-        "out": "/nix/store/wivrg05makl99h32kyqfcbbnq60mpx2a-herbstluftwm-0.9.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A manual tiling window manager for X",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/window-managers/herbstluftwm/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "herbstluftwm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wivrg05makl99h32kyqfcbbnq60mpx2a-herbstluftwm-0.9.5",
-        "/nix/store/zhifw6cbrcv5891m5bxg300n0j12qljx-herbstluftwm-0.9.5-man"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.9.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.5",
+      "pname": "herbstluftwm",
+      "name": "herbstluftwm-0.9.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/v44zhs0r0hxcj05lsvrdhqjraa9w6ybb-herbstluftwm-0.9.5-doc",
+        "man": "/nix/store/zhifw6cbrcv5891m5bxg300n0j12qljx-herbstluftwm-0.9.5-man",
+        "out": "/nix/store/wivrg05makl99h32kyqfcbbnq60mpx2a-herbstluftwm-0.9.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A manual tiling window manager for X",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/window-managers/herbstluftwm/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "herbstluftwm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wivrg05makl99h32kyqfcbbnq60mpx2a-herbstluftwm-0.9.5",
+        "/nix/store/zhifw6cbrcv5891m5bxg300n0j12qljx-herbstluftwm-0.9.5-man"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },

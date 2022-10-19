@@ -1,44 +1,4 @@
 {
-  "5.2.7.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.2.7.7",
-      "pname": "archisteamfarm",
-      "name": "archisteamfarm-5.2.7.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/chpc5rzwhqw0pa7blxkpi2hz46g3ibjc-archisteamfarm-5.2.7.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Application with primary purpose of idling Steam cards from multiple accounts simultaneously",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/ArchiSteamFarm/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ArchiSteamFarm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/chpc5rzwhqw0pa7blxkpi2hz46g3ibjc-archisteamfarm-5.2.7.7"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.2.2.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.2.7.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.7.7",
+      "pname": "archisteamfarm",
+      "name": "archisteamfarm-5.2.7.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/chpc5rzwhqw0pa7blxkpi2hz46g3ibjc-archisteamfarm-5.2.7.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Application with primary purpose of idling Steam cards from multiple accounts simultaneously",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/ArchiSteamFarm/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ArchiSteamFarm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/chpc5rzwhqw0pa7blxkpi2hz46g3ibjc-archisteamfarm-5.2.7.7"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

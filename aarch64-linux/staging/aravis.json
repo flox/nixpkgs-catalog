@@ -1,47 +1,4 @@
 {
-  "0.8.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.22",
-      "pname": "aravis",
-      "name": "aravis-0.8.22",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/s9ipih9b9vlll36a20r7vdcly6yfc98j-aravis-0.8.22-bin",
-        "dev": "/nix/store/skq7a21jvbrdkivfy14var9h2q882z9m-aravis-0.8.22-dev",
-        "lib": "/nix/store/lsrb0gdjs951nkimh5k7ya1dhrd7dhk5-aravis-0.8.22-lib",
-        "out": "/nix/store/j773jlkwfjbfi8058131walq8dk01lyl-aravis-0.8.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Library for video acquisition using GenICam cameras",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/aravis/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "aravis"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s9ipih9b9vlll36a20r7vdcly6yfc98j-aravis-0.8.22-bin"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.6.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.8.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.22",
+      "pname": "aravis",
+      "name": "aravis-0.8.22",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/s9ipih9b9vlll36a20r7vdcly6yfc98j-aravis-0.8.22-bin",
+        "dev": "/nix/store/skq7a21jvbrdkivfy14var9h2q882z9m-aravis-0.8.22-dev",
+        "lib": "/nix/store/lsrb0gdjs951nkimh5k7ya1dhrd7dhk5-aravis-0.8.22-lib",
+        "out": "/nix/store/j773jlkwfjbfi8058131walq8dk01lyl-aravis-0.8.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Library for video acquisition using GenICam cameras",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/aravis/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "aravis"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s9ipih9b9vlll36a20r7vdcly6yfc98j-aravis-0.8.22-bin"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
