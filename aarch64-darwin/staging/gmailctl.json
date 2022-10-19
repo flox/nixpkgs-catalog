@@ -1,4 +1,44 @@
 {
+  "0.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.0",
+      "pname": "gmailctl",
+      "name": "gmailctl-0.8.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/8y55vjsr73l2x4xmyj7zy82c21k1jr0p-gmailctl-0.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Declarative configuration for Gmail filters",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/gmailctl/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gmailctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8y55vjsr73l2x4xmyj7zy82c21k1jr0p-gmailctl-0.8.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
   "0.10.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "unstable-2022-03-24": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unstable-2022-03-24",
-      "pname": "gmailctl",
-      "name": "gmailctl-unstable-2022-03-24",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/nqgwjzrbvki4blp0bl82ic7pjs4fyi58-gmailctl-unstable-2022-03-24"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Declarative configuration for Gmail filters",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/applications/networking/gmailctl/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gmailctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nqgwjzrbvki4blp0bl82ic7pjs4fyi58-gmailctl-unstable-2022-03-24"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

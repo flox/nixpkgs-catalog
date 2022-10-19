@@ -1,44 +1,4 @@
 {
-  "1.13": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.13",
-      "pname": "wlc",
-      "name": "python3.10-wlc-1.13",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/c5wvvw5zs0f8mrgwd3wz1p5y42kmgba5-python3.10-wlc-1.13"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "wlc is a Weblate commandline client using Weblate's REST API.",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/misc/wlc/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "wlc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c5wvvw5zs0f8mrgwd3wz1p5y42kmgba5-python3.10-wlc-1.13"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13",
+      "pname": "wlc",
+      "name": "python3.10-wlc-1.13",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/c5wvvw5zs0f8mrgwd3wz1p5y42kmgba5-python3.10-wlc-1.13"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "wlc is a Weblate commandline client using Weblate's REST API.",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/misc/wlc/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "wlc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c5wvvw5zs0f8mrgwd3wz1p5y42kmgba5-python3.10-wlc-1.13"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.14.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.14.0",
-      "pname": "yq",
-      "name": "yq-2.14.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0i8hzlzh4aqqdslila3r64jnz1xr0yka-python3.9-yq-2.14.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line YAML/XML/TOML processor - jq wrapper for YAML, XML, TOML documents",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/development/python-modules/yq/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "yq"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0i8hzlzh4aqqdslila3r64jnz1xr0yka-python3.9-yq-2.14.0"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "3.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "2.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.0",
+      "pname": "yq",
+      "name": "yq-2.13.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/bsz83mmf2fbdxf0c0rkn7a3fhcxlxccj-python3.9-yq-2.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line YAML processor - jq wrapper for YAML documents",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/yq/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "yq"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bsz83mmf2fbdxf0c0rkn7a3fhcxlxccj-python3.9-yq-2.13.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

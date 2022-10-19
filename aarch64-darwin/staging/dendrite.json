@@ -1,4 +1,44 @@
 {
+  "0.8.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.7",
+      "pname": "matrix-dendrite",
+      "name": "matrix-dendrite-0.8.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/mfx7scm7f6frn7ick5dm4k6kmssppvsj-matrix-dendrite-0.8.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A second-generation Matrix homeserver written in Go",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/dendrite/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "dendrite"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mfx7scm7f6frn7ick5dm4k6kmssppvsj-matrix-dendrite-0.8.7"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
+      }
+    }
+  },
   "0.8.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.1",
-      "pname": "matrix-dendrite",
-      "name": "matrix-dendrite-0.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/l4vmhml4b8vsk82f8x2x2wvza339mkjm-matrix-dendrite-0.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Dendrite is a second-generation Matrix homeserver written in Go!",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/servers/dendrite/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "dendrite"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l4vmhml4b8vsk82f8x2x2wvza339mkjm-matrix-dendrite-0.8.1"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },

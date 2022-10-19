@@ -1,44 +1,4 @@
 {
-  "1.25.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.25.2",
-      "pname": "matterbridge",
-      "name": "matterbridge-1.25.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/c0sgp8jd6svb1lvjjpjkqz7z72q5r78c-matterbridge-1.25.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple bridge between Mattermost, IRC, XMPP, Gitter, Slack, Discord, Telegram, Rocket.Chat, Hipchat(via xmpp), Matrix and Steam",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/matterbridge/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "matterbridge"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c0sgp8jd6svb1lvjjpjkqz7z72q5r78c-matterbridge-1.25.2"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.25.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.25.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.25.2",
+      "pname": "matterbridge",
+      "name": "matterbridge-1.25.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/c0sgp8jd6svb1lvjjpjkqz7z72q5r78c-matterbridge-1.25.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple bridge between Mattermost, IRC, XMPP, Gitter, Slack, Discord, Telegram, Rocket.Chat, Hipchat(via xmpp), Matrix and Steam",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/matterbridge/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "matterbridge"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c0sgp8jd6svb1lvjjpjkqz7z72q5r78c-matterbridge-1.25.2"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

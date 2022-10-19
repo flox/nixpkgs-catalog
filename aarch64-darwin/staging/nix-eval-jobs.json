@@ -1,4 +1,44 @@
 {
+  "0.0.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.3",
+      "pname": "nix-eval-jobs",
+      "name": "nix-eval-jobs-0.0.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/rki8zbw84748171kffmg4mv3cryg9394-nix-eval-jobs-0.0.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Hydra's builtin hydra-eval-jobs as a standalone",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/package-management/nix-eval-jobs/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nix-eval-jobs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rki8zbw84748171kffmg4mv3cryg9394-nix-eval-jobs-0.0.3"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "0.0.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "0.0.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.0.4",
-      "pname": "nix-eval-jobs",
-      "name": "nix-eval-jobs-0.0.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/p8wff0jdy99hi7lk1l1n0aaxh8kn6bw0-nix-eval-jobs-0.0.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Hydra's builtin hydra-eval-jobs as a standalone",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/package-management/nix-eval-jobs/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nix-eval-jobs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p8wff0jdy99hi7lk1l1n0aaxh8kn6bw0-nix-eval-jobs-0.0.4"
-      ],
-      "url": "github:flox/nixpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },
