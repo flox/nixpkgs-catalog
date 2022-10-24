@@ -1,40 +1,4 @@
 {
-  "0.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.10",
-      "pname": "fnc",
-      "name": "fnc-0.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/rbkfagfyfzv1psgl6aggjb3284sk6mrx-fnc-0.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Interactive ncurses browser for Fossil repositories",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/version-management/fnc/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fnc",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rbkfagfyfzv1psgl6aggjb3284sk6mrx-fnc-0.10"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fnc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fnc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/plpysk86dg8siwy5s4wfsqklbikghbbp-fnc-0.12"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,40 +1,4 @@
 {
-  "0.10.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.10.5",
-      "pname": "mill",
-      "name": "mill-0.10.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dj91ya570iywdj5sil6mqzwg1659x6gs-mill-0.10.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A build tool for Scala, Java and more",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/build-managers/mill/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mill",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dj91ya570iywdj5sil6mqzwg1659x6gs-mill-0.10.5"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.10.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mill",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mill"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/n04gz9pkmjsvbc5z221sh6lwd498lsvn-mill-0.10.3"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.10.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.5",
+      "pname": "mill",
+      "name": "mill-0.10.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/dj91ya570iywdj5sil6mqzwg1659x6gs-mill-0.10.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A build tool for Scala, Java and more",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/build-managers/mill/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mill"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dj91ya570iywdj5sil6mqzwg1659x6gs-mill-0.10.5"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mill",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mill"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/43c7nvwvk3lnylv225asgpnkv9drh8i5-mill-0.10.4"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

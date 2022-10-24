@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.pkgconfigUpstream",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pkgconfigUpstream"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/my51707m694p2axawsvc2h13xanm1pbl-pkg-config-wrapper-0.29.2",
         "/nix/store/d9c7r5rkcr1yk6rg98qxn2yzjj2l275g-pkg-config-wrapper-0.29.2-man"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {

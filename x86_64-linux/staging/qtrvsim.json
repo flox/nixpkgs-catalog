@@ -1,40 +1,4 @@
 {
-  "0.9.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.2",
-      "pname": "QtRVSim",
-      "name": "QtRVSim-0.9.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/i7fj2cffq2464wfran9nixhcn7mbpzka-QtRVSim-0.9.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "RISC-V CPU simulator for education purposes",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/science/computer-architecture/qtrvsim/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.qtrvsim",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i7fj2cffq2464wfran9nixhcn7mbpzka-QtRVSim-0.9.2"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.qtrvsim",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "qtrvsim"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gkn2acmxwn9cg4bqhnc323z6hpli112b-QtRVSim-0.9.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

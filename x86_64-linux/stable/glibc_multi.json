@@ -22,13 +22,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.stable.glibc_multi",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "glibc_multi"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/yp29z7lppb0kw7c57sm8v93gswd5la6m-glibc-multi-2.34-210-bin"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

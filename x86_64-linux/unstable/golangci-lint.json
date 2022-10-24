@@ -1,40 +1,4 @@
 {
-  "1.43.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.43.0",
-      "pname": "golangci-lint",
-      "name": "golangci-lint-1.43.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/60h117kfb8940xkmi8fdhmcb7466srsf-golangci-lint-1.43.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast linters Runner for Go",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/golangci-lint/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.golangci-lint",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/60h117kfb8940xkmi8fdhmcb7466srsf-golangci-lint-1.43.0"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.45.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.golangci-lint",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "golangci-lint"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/3fkm9vp62kk2ql65nqgnq08zcrc1y67a-golangci-lint-1.45.2"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.47.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.47.2",
+      "pname": "golangci-lint",
+      "name": "golangci-lint-1.47.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/25crc0vfc921sll61awzw3yn5sgal5x6-golangci-lint-1.47.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast linters Runner for Go",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/golangci-lint/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "golangci-lint"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/25crc0vfc921sll61awzw3yn5sgal5x6-golangci-lint-1.47.2"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.golangci-lint",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "golangci-lint"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/rybkg06ynl86kzdcfwyrv8azbb47hphs-golangci-lint-1.46.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

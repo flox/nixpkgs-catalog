@@ -1,40 +1,4 @@
 {
-  "1.7.3128": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.3128",
-      "pname": "pcsx2",
-      "name": "pcsx2-1.7.3128",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/0dq5gap3nq5fpyxmk6k4jfr7hcgfbs11-pcsx2-1.7.3128"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Playstation 2 emulator",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/emulators/pcsx2/default.nix:92",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.pcsx2",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0dq5gap3nq5fpyxmk6k4jfr7hcgfbs11-pcsx2-1.7.3128"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.7.2105": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.pcsx2",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pcsx2"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8x1pdx7zmz3q0m2v6dm45r4h2xgczzag-pcsx2-1.7.2105"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.7.3128": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.3128",
+      "pname": "pcsx2",
+      "name": "pcsx2-1.7.3128",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/0dq5gap3nq5fpyxmk6k4jfr7hcgfbs11-pcsx2-1.7.3128"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Playstation 2 emulator",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/emulators/pcsx2/default.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pcsx2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0dq5gap3nq5fpyxmk6k4jfr7hcgfbs11-pcsx2-1.7.3128"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.pcsx2",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pcsx2"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/rs9n6z0m066gbchx50ayq68kz1rcpi6s-pcsx2-1.7.2731"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

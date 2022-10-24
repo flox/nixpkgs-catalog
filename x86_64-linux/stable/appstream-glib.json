@@ -24,14 +24,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.stable.appstream-glib",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "appstream-glib"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/b0yv5af2pyvv8fn3ygrfvy6xfdw1nalw-appstream-glib-0.7.18",
         "/nix/store/8lgclfy9a61hg5411g8vnlx87j4gmwch-appstream-glib-0.7.18-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

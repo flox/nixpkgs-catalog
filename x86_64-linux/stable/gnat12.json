@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.stable.gnat12",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnat12"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/dcv6hhdnam9bknns91m4y36xb21w0s90-gnat-wrapper-12.1.0",
         "/nix/store/jmwyybdafpyfl2p9hsrv9g8lfb43088s-gnat-wrapper-12.1.0-man"
       ],
-      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {

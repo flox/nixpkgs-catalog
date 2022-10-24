@@ -1,40 +1,4 @@
 {
-  "0.5.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.10",
-      "pname": "lutris-original",
-      "name": "lutris-original-0.5.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gf0j335gv7arzrgaq3y4ima5nkyirbda-lutris-original-0.5.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open Source gaming platform for GNU/Linux",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/misc/lutris/default.nix:149",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.lutris-unwrapped",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gf0j335gv7arzrgaq3y4ima5nkyirbda-lutris-original-0.5.10"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.5.10.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.lutris-unwrapped",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lutris-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/caxq82gixzgygqnsq9l8n5i3krjjgvwd-lutris-original-0.5.10.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

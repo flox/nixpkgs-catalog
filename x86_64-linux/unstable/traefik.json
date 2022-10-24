@@ -1,40 +1,4 @@
 {
-  "2.7.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.2",
-      "pname": "traefik",
-      "name": "traefik-2.7.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/i11b1549nqw8llpd2w0zsp93nxhg2bcv-traefik-2.7.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modern reverse proxy",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/servers/traefik/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.traefik",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i11b1549nqw8llpd2w0zsp93nxhg2bcv-traefik-2.7.2"
-      ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "2.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.traefik",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "traefik"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1p4vph90z10w207sfpxxi3nw91rpgby0-traefik-2.8.1"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.1",
+      "pname": "traefik",
+      "name": "traefik-2.7.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/wp8fj5kgkk0cy9x59b682vpyb01gkj9q-traefik-2.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modern reverse proxy",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/servers/traefik/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "traefik"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wp8fj5kgkk0cy9x59b682vpyb01gkj9q-traefik-2.7.1"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.traefik",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "traefik"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/zixn1w3a2cq446n0y66jx5dhxi3bm78c-traefik-2.6.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

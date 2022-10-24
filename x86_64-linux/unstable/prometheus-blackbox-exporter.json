@@ -1,37 +1,41 @@
 {
-  "0.19.0": {
+  "0.21.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.19.0",
+      "version": "0.21.0",
       "pname": "blackbox_exporter",
-      "name": "blackbox_exporter-0.19.0",
+      "name": "blackbox_exporter-0.21.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/8dslcdjvl3rpfvndvyczxy1zjklbzmjw-blackbox_exporter-0.19.0"
+        "out": "/nix/store/h3m10axrpv1clq11dnjmap6kp4ja1a78-blackbox_exporter-0.21.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/monitoring/prometheus/blackbox-exporter.nix:22",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/servers/monitoring/prometheus/blackbox-exporter.nix:33",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.prometheus-blackbox-exporter",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "prometheus-blackbox-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8dslcdjvl3rpfvndvyczxy1zjklbzmjw-blackbox_exporter-0.19.0"
+        "/nix/store/h3m10axrpv1clq11dnjmap6kp4ja1a78-blackbox_exporter-0.21.0"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   },
@@ -56,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.prometheus-blackbox-exporter",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "prometheus-blackbox-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/607c6ra62i9pfdk7i0hjgxc0zr04l8mw-blackbox_exporter-0.21.1"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.prometheus-blackbox-exporter",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "prometheus-blackbox-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/869x6cll6vxigk6grmfjqscxblcdcqxj-blackbox_exporter-0.20.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

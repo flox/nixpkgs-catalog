@@ -1,46 +1,4 @@
 {
-  "2.8.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.8.0",
-      "pname": "hwloc",
-      "name": "hwloc-2.8.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/kmdm3vxk3602cqlmv96qw41l57apkfkb-hwloc-2.8.0-dev",
-        "doc": "/nix/store/kj7vkpbab99rbikxkr7wankhrmbdwi6h-hwloc-2.8.0-doc",
-        "lib": "/nix/store/3mxqgplnd9ln6mdlk701zj3pvj6dsskz-hwloc-2.8.0-lib",
-        "man": "/nix/store/5p3lv0b76m0l2hnmr8868dhv1xf9yjfg-hwloc-2.8.0-man",
-        "out": "/nix/store/vg29mhvk9svpl8iwfqrgrrv9gww072ri-hwloc-2.8.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Portable abstraction of hierarchical architectures for high-performance computing",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/hwloc/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.hwloc",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vg29mhvk9svpl8iwfqrgrrv9gww072ri-hwloc-2.8.0",
-        "/nix/store/5p3lv0b76m0l2hnmr8868dhv1xf9yjfg-hwloc-2.8.0-man"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "2.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -67,19 +25,69 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.hwloc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hwloc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/qicpiyz62byagcdaykd7w6px8xyk9g2q-hwloc-2.7.0",
         "/nix/store/n19lyykgq7r921pi5bcb858n2wnnz98r-hwloc-2.7.0-man"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.8.0",
+      "pname": "hwloc",
+      "name": "hwloc-2.8.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/kmdm3vxk3602cqlmv96qw41l57apkfkb-hwloc-2.8.0-dev",
+        "doc": "/nix/store/kj7vkpbab99rbikxkr7wankhrmbdwi6h-hwloc-2.8.0-doc",
+        "lib": "/nix/store/3mxqgplnd9ln6mdlk701zj3pvj6dsskz-hwloc-2.8.0-lib",
+        "man": "/nix/store/5p3lv0b76m0l2hnmr8868dhv1xf9yjfg-hwloc-2.8.0-man",
+        "out": "/nix/store/vg29mhvk9svpl8iwfqrgrrv9gww072ri-hwloc-2.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Portable abstraction of hierarchical architectures for high-performance computing",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/hwloc/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hwloc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vg29mhvk9svpl8iwfqrgrrv9gww072ri-hwloc-2.8.0",
+        "/nix/store/5p3lv0b76m0l2hnmr8868dhv1xf9yjfg-hwloc-2.8.0-man"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -109,14 +117,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.hwloc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hwloc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/c4aq5jxn0ix5rq8mzwwyl3z3g66b9sj3-hwloc-2.7.1",
         "/nix/store/fglaxhrgs6l77qszyj4f1kahkg794pdz-hwloc-2.7.1-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

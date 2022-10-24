@@ -1,40 +1,4 @@
 {
-  "2.0.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.2",
-      "pname": "go-toml",
-      "name": "go-toml-2.0.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/251gpxw3y8djflqdw3yrxj6blnj0ar65-go-toml-2.0.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Go library for the TOML language",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-toml/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.go-toml",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/251gpxw3y8djflqdw3yrxj6blnj0ar65-go-toml-2.0.2"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.9.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.go-toml",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "go-toml"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/l8f9csy7bi59zsf5r5l6v2gnvdhhzzhy-go-toml-1.9.4"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.2",
+      "pname": "go-toml",
+      "name": "go-toml-2.0.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/251gpxw3y8djflqdw3yrxj6blnj0ar65-go-toml-2.0.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Go library for the TOML language",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-toml/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "go-toml"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/251gpxw3y8djflqdw3yrxj6blnj0ar65-go-toml-2.0.2"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.go-toml",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "go-toml"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/jhpk6fzp07cib2kvwf0fgh0pv2idlhj2-go-toml-2.0.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,40 +1,4 @@
 {
-  "0.26": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.26",
-      "pname": "fioctl",
-      "name": "fioctl-0.26",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dm4gvb91jjk6hr742nfd2778rdxs5fkx-fioctl-0.26"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple CLI to manage your Foundries Factory",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/fioctl/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fioctl",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dm4gvb91jjk6hr742nfd2778rdxs5fkx-fioctl-0.26"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.24": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fioctl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fioctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/c8qld0yjx7kr8girbf3q201ndrn8x6l8-fioctl-0.24"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.26": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.26",
+      "pname": "fioctl",
+      "name": "fioctl-0.26",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/dm4gvb91jjk6hr742nfd2778rdxs5fkx-fioctl-0.26"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple CLI to manage your Foundries Factory",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/fioctl/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fioctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dm4gvb91jjk6hr742nfd2778rdxs5fkx-fioctl-0.26"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fioctl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fioctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8bxwai3y0fam5pbdrcwib0ac96jr905g-fioctl-0.25"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

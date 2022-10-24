@@ -1,4 +1,44 @@
 {
+  "2.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.10",
+      "pname": "hello",
+      "name": "hello-2.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/2g13canlyc7b44mbr5fh62pdyvv6xrjl-hello-2.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A program that produces a familiar, friendly greeting",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/misc/hello/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hello"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2g13canlyc7b44mbr5fh62pdyvv6xrjl-hello-2.10"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "2.12.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,30 +48,74 @@
       "name": "hello-2.12.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/mg35qkhk7wqbhhykpakds4fsm1riy8ga-hello-2.12.1"
+        "out": "/nix/store/3ng68pn55h3na7dayydpqrh4bm1ag2sl-hello-2.12.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A program that produces a familiar, friendly greeting",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/misc/hello/default.nix:34",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/misc/hello/default.nix:34",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.hello",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hello"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mg35qkhk7wqbhhykpakds4fsm1riy8ga-hello-2.12.1"
+        "/nix/store/3ng68pn55h3na7dayydpqrh4bm1ag2sl-hello-2.12.1"
       ],
-      "url": "github:flox/floxpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
     },
     "source": {
       "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 397203,
+        "lastModified": 1659487974
+      }
+    }
+  },
+  "2.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.12",
+      "pname": "hello",
+      "name": "hello-2.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/14z9fms0ag980vck7p7lf8bzrc0c3y16-hello-2.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A program that produces a familiar, friendly greeting",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/hello/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hello"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/14z9fms0ag980vck7p7lf8bzrc0c3y16-hello-2.12"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

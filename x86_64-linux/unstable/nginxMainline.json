@@ -1,41 +1,4 @@
 {
-  "1.22.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.0",
-      "pname": "nginx",
-      "name": "nginx-1.22.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/9ymmbb4adck6byy47nass8nhkz1ma0av-nginx-1.22.0-doc",
-        "out": "/nix/store/lqhz1cnsx3syslgvbf0nq46njppvhql3-nginx-1.22.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/http/nginx/generic.nix:180",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.nginxMainline",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lqhz1cnsx3syslgvbf0nq46njppvhql3-nginx-1.22.0"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "1.21.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -58,13 +21,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.nginxMainline",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nginxMainline"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/71falm4qnly96dycq1z61diaifwbs94q-nginx-1.21.6"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
@@ -95,18 +62,63 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.nginxMainline",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nginxMainline"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/m5bs35lwrjhbnkzn26c3vn6yk849llxy-nginx-1.23.0"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.22.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22.0",
+      "pname": "nginx",
+      "name": "nginx-1.22.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/9ymmbb4adck6byy47nass8nhkz1ma0av-nginx-1.22.0-doc",
+        "out": "/nix/store/lqhz1cnsx3syslgvbf0nq46njppvhql3-nginx-1.22.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nginxMainline"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lqhz1cnsx3syslgvbf0nq46njppvhql3-nginx-1.22.0"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

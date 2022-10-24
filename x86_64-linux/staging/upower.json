@@ -1,42 +1,4 @@
 {
-  "1.90.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.90.0",
-      "pname": "upower",
-      "name": "upower-1.90.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/gfw52rpbwh6y7qm4186lrz54zpxxqy07-upower-1.90.0-dev",
-        "devdoc": "/nix/store/6qk7j8wyd91a805v4im90qldya83vv6c-upower-1.90.0-devdoc",
-        "out": "/nix/store/igm2hxwcyd21l5sh7hlhv7x0ji4b2zns-upower-1.90.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A D-Bus service for power management",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/upower/default.nix:148",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.upower",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/igm2hxwcyd21l5sh7hlhv7x0ji4b2zns-upower-1.90.0"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.99.19": {
     "type": "catalogRender",
     "schema": 1,
@@ -60,18 +22,64 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.upower",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "upower"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/p9s85247fyarjs74ccyxd8szn8f2kn4v-upower-0.99.19"
       ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
     },
     "source": {
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.90.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.90.0",
+      "pname": "upower",
+      "name": "upower-1.90.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/gfw52rpbwh6y7qm4186lrz54zpxxqy07-upower-1.90.0-dev",
+        "devdoc": "/nix/store/6qk7j8wyd91a805v4im90qldya83vv6c-upower-1.90.0-devdoc",
+        "out": "/nix/store/igm2hxwcyd21l5sh7hlhv7x0ji4b2zns-upower-1.90.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A D-Bus service for power management",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/upower/default.nix:148",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "upower"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/igm2hxwcyd21l5sh7hlhv7x0ji4b2zns-upower-1.90.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -98,13 +106,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.upower",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "upower"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/3gsy9q9p09wgkvax9lpp1yhdz2kw8yvz-upower-0.99.17"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

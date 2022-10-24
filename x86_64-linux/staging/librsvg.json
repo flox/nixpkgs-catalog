@@ -1,82 +1,4 @@
 {
-  "2.54.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.54.3",
-      "pname": "librsvg",
-      "name": "librsvg-2.54.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/xamr0l4n0d2hkz0ymp3chlz6ahkv0h79-librsvg-2.54.3-dev",
-        "devdoc": "/nix/store/2nmxrv1wrib12vjr2hb1bhj0pwql4q07-librsvg-2.54.3-devdoc",
-        "installedTests": "/nix/store/i7gsa5z5j47kk24ii3wpicj9wzl9w8kh-librsvg-2.54.3-installedTests",
-        "out": "/nix/store/syavaadglkh05gvy2lvjp50jgvp0p1kx-librsvg-2.54.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small library to render SVG images to Cairo surfaces",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/librsvg/default.nix:145",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.librsvg",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/syavaadglkh05gvy2lvjp50jgvp0p1kx-librsvg-2.54.3"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.54.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.54.0",
-      "pname": "librsvg",
-      "name": "librsvg-2.54.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/ab087939w0wrfzwxnimrhv1pgkqmnwsa-librsvg-2.54.0-dev",
-        "devdoc": "/nix/store/7bw9qg3qzzj1f459h0wswd9mq1wi5lkd-librsvg-2.54.0-devdoc",
-        "installedTests": "/nix/store/h39vm01x5l4mm80yfbssjc8iqqbcsybx-librsvg-2.54.0-installedTests",
-        "out": "/nix/store/vlpbx1vg8zh3ll5q89x1v49dlxmrkzra-librsvg-2.54.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small library to render SVG images to Cairo surfaces",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/librsvg/default.nix:145",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.librsvg",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vlpbx1vg8zh3ll5q89x1v49dlxmrkzra-librsvg-2.54.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "2.54.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -101,18 +23,108 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.librsvg",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "librsvg"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7yxmpp55m3n1m6x3gzyrws31i5janhal-librsvg-2.54.4"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.54.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.54.1",
+      "pname": "librsvg",
+      "name": "librsvg-2.54.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/58aq17wl267gq1n8gf6zv6rp1m8jbmrh-librsvg-2.54.1-dev",
+        "devdoc": "/nix/store/5f5j3rsm7l1ps5qcfvdgvsqb9gczc0l8-librsvg-2.54.1-devdoc",
+        "installedTests": "/nix/store/85xhwxcnzhypa9aswimhhgx3awqgbjhw-librsvg-2.54.1-installedTests",
+        "out": "/nix/store/mf3givr12sawky0rh6q23vfnalp79hp8-librsvg-2.54.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small library to render SVG images to Cairo surfaces",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/librsvg/default.nix:145",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "librsvg"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mf3givr12sawky0rh6q23vfnalp79hp8-librsvg-2.54.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2.54.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.54.3",
+      "pname": "librsvg",
+      "name": "librsvg-2.54.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/xamr0l4n0d2hkz0ymp3chlz6ahkv0h79-librsvg-2.54.3-dev",
+        "devdoc": "/nix/store/2nmxrv1wrib12vjr2hb1bhj0pwql4q07-librsvg-2.54.3-devdoc",
+        "installedTests": "/nix/store/i7gsa5z5j47kk24ii3wpicj9wzl9w8kh-librsvg-2.54.3-installedTests",
+        "out": "/nix/store/syavaadglkh05gvy2lvjp50jgvp0p1kx-librsvg-2.54.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small library to render SVG images to Cairo surfaces",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/librsvg/default.nix:145",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "librsvg"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/syavaadglkh05gvy2lvjp50jgvp0p1kx-librsvg-2.54.3"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

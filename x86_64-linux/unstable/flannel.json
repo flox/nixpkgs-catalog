@@ -1,40 +1,4 @@
 {
-  "0.18.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.1",
-      "pname": "flannel",
-      "name": "flannel-0.18.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/ijjpr48y76xkrmajadq4md0j0i8xyj7l-flannel-0.18.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Network fabric for containers, designed for Kubernetes",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/flannel/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.flannel",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ijjpr48y76xkrmajadq4md0j0i8xyj7l-flannel-0.18.1"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.17.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.flannel",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "flannel"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/83dqfw0gc2i6y1pb2vpzkw4p3pwhlibr-flannel-0.17.0"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.18.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.18.1",
+      "pname": "flannel",
+      "name": "flannel-0.18.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ijjpr48y76xkrmajadq4md0j0i8xyj7l-flannel-0.18.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Network fabric for containers, designed for Kubernetes",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/flannel/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "flannel"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ijjpr48y76xkrmajadq4md0j0i8xyj7l-flannel-0.18.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.flannel",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "flannel"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1d0fqy9l3im04giblj0gfdf9mdhkd159-flannel-0.18.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

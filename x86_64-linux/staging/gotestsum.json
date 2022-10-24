@@ -1,40 +1,4 @@
 {
-  "1.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.1",
-      "pname": "gotestsum",
-      "name": "gotestsum-1.8.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/34f9hj13w46yvcxpg4ic62wvhb77xc1k-gotestsum-1.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A human friendly `go test` runner",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/gotestsum/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gotestsum",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/34f9hj13w46yvcxpg4ic62wvhb77xc1k-gotestsum-1.8.1"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gotestsum",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gotestsum"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/k4lcivwf783x46xz7dzawacgz0yq03ih-gotestsum-1.7.0"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.1",
+      "pname": "gotestsum",
+      "name": "gotestsum-1.8.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/34f9hj13w46yvcxpg4ic62wvhb77xc1k-gotestsum-1.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A human friendly `go test` runner",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/gotestsum/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gotestsum"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/34f9hj13w46yvcxpg4ic62wvhb77xc1k-gotestsum-1.8.1"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gotestsum",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gotestsum"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/zq4ibrmxjhrqga90nxfv80h2i2f3lyxl-gotestsum-1.8.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

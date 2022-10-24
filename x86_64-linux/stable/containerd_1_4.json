@@ -22,14 +22,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.stable.containerd_1_4",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "containerd_1_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/z3m7ac39ljs3j0f7pxsvyvwwnqpanbhf-containerd-1.4.11",
         "/nix/store/y61cgkxhxf93h4bv9avmmw0pl3la4r20-containerd-1.4.11-man"
       ],
-      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
     },
     "source": {
       "locked": {

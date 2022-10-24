@@ -1,40 +1,4 @@
 {
-  "0.3.11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.11",
-      "pname": "convco",
-      "name": "convco-0.3.11",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/jixr7bhcd6a3vw2ghj8cv2rk1fn3sgll-convco-0.3.11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Conventional commit cli",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/convco/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.convco",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jixr7bhcd6a3vw2ghj8cv2rk1fn3sgll-convco-0.3.11"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.3.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.convco",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "convco"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/hd8b6n4szknc23q9zjdbi24z01p47rsa-convco-0.3.9"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.3.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.11",
+      "pname": "convco",
+      "name": "convco-0.3.11",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/jixr7bhcd6a3vw2ghj8cv2rk1fn3sgll-convco-0.3.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Conventional commit cli",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/convco/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "convco"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jixr7bhcd6a3vw2ghj8cv2rk1fn3sgll-convco-0.3.11"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.convco",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "convco"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/h9b98qmrsaqv98qy7mrix4gqqdzilrs5-convco-0.3.10"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,41 +1,4 @@
 {
-  "3.2.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.12",
-      "pname": "gmime",
-      "name": "gmime-3.2.12",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/s21mwwiqwr9f66rmhfvdynx1qhlnx8y7-gmime-3.2.12-dev",
-        "out": "/nix/store/hfq714paxl1iwhc14rxfzlrk78pbb7hh-gmime-3.2.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A C/C++ library for creating, editing and parsing MIME messages and structures",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/gmime/3.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.gmime3",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hfq714paxl1iwhc14rxfzlrk78pbb7hh-gmime-3.2.12"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "3.2.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -58,18 +21,63 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.gmime3",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gmime3"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/13vca8n2fdx3xdpib54vzsm87qzdvpkk-gmime-3.2.7"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.2.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.12",
+      "pname": "gmime",
+      "name": "gmime-3.2.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/s21mwwiqwr9f66rmhfvdynx1qhlnx8y7-gmime-3.2.12-dev",
+        "out": "/nix/store/hfq714paxl1iwhc14rxfzlrk78pbb7hh-gmime-3.2.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A C/C++ library for creating, editing and parsing MIME messages and structures",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/gmime/3.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gmime3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hfq714paxl1iwhc14rxfzlrk78pbb7hh-gmime-3.2.12"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -95,13 +103,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.gmime3",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gmime3"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/irq9vr4x845jkw5cmf6khdv9435cvvbv-gmime-3.2.11"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

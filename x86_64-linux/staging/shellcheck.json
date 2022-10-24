@@ -25,15 +25,19 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.shellcheck",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "shellcheck"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/sckispi5fxjk97ka5idchyid7i709f9g-shellcheck-0.8.0-bin",
         "/nix/store/c7n4bid09qjqcbp18qhh6131a28ipnyw-shellcheck-0.8.0-man",
         "/nix/store/da284v4y6z9fbk720p9jd5rfjqkdm8ai-shellcheck-0.8.0-doc"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

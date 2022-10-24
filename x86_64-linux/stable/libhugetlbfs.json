@@ -26,14 +26,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.stable.libhugetlbfs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libhugetlbfs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/528di01fr0wdc16jcdssqhj269r77lqr-libhugetlbfs-2.23-bin",
         "/nix/store/ps22m0bw1cywnv6yy7is6a0jvkc10zc0-libhugetlbfs-2.23-man"
       ],
-      "url": "github:flox/floxpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
     },
     "source": {
       "locked": {

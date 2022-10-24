@@ -1,40 +1,4 @@
 {
-  "0.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.0",
-      "pname": "igrep",
-      "name": "igrep-0.2.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/ayq7z0d0lxrjpm38km26386cingzgqb9-igrep-0.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Interactive Grep",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/text/igrep/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.igrep",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ayq7z0d0lxrjpm38km26386cingzgqb9-igrep-0.2.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.igrep",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "igrep"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8fwkj29mavr6d8k40n2j5ygwkv5a7vk3-igrep-0.5.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

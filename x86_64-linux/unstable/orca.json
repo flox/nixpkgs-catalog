@@ -1,40 +1,4 @@
 {
-  "42.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.1",
-      "pname": "orca",
-      "name": "orca-42.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/b3an43ji9xm332l5qxpbkna29wf9v09r-orca-42.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Screen reader",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/orca/default.nix:100",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.orca",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/b3an43ji9xm332l5qxpbkna29wf9v09r-orca-42.1"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "42.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.orca",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "orca"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/0kw28yxs44i0fxf5c77w3a5m7xmrs0am-orca-42.0"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
@@ -92,18 +60,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.orca",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "orca"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/5vh2nzrzgxval5njnyim8j0pj39yxdvq-orca-42.3"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "42.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.1",
+      "pname": "orca",
+      "name": "orca-42.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/b3an43ji9xm332l5qxpbkna29wf9v09r-orca-42.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Screen reader",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/orca/default.nix:100",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "orca"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b3an43ji9xm332l5qxpbkna29wf9v09r-orca-42.1"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

@@ -1,40 +1,4 @@
 {
-  "1.1.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.6",
-      "pname": "imgcrypt",
-      "name": "imgcrypt-1.1.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/sw94x8klslhcc79b6lj53ly0jxc5qg6x-imgcrypt-1.1.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Image encryption library and command line tool",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/virtualization/imgcrypt/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.imgcrypt",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sw94x8klslhcc79b6lj53ly0jxc5qg6x-imgcrypt-1.1.6"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.imgcrypt",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "imgcrypt"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/xazx98d60n0gvzzhxy7nmpk1g6aw1sm9-imgcrypt-1.1.1"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.6",
+      "pname": "imgcrypt",
+      "name": "imgcrypt-1.1.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/sw94x8klslhcc79b6lj53ly0jxc5qg6x-imgcrypt-1.1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Image encryption library and command line tool",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/virtualization/imgcrypt/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "imgcrypt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sw94x8klslhcc79b6lj53ly0jxc5qg6x-imgcrypt-1.1.6"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.imgcrypt",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "imgcrypt"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/50xks5sgmsz5zxqgqxpgzqdy3vsjs92a-imgcrypt-1.1.4"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

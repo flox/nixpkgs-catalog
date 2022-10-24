@@ -1,41 +1,4 @@
 {
-  "0.56.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.56.0",
-      "pname": "vala",
-      "name": "vala-0.56.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "devdoc": "/nix/store/yflvcybl002lbq4q6k5v51qkfdq3b5g0-vala-0.56.0-devdoc",
-        "out": "/nix/store/yd0cac1dg6rv38w2d4zwsypnscnnhsbr-vala-0.56.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Compiler for GObject type system",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/compilers/vala/default.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.vala_0_56",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yd0cac1dg6rv38w2d4zwsypnscnnhsbr-vala-0.56.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.56.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -58,13 +21,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.vala_0_56",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vala_0_56"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ncb9pwkqmwahrs73l2k6vkaqqlxxif0y-vala-0.56.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

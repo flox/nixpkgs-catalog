@@ -1,40 +1,4 @@
 {
-  "0.4.90": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.90",
-      "pname": "mpris-scrobbler",
-      "name": "mpris-scrobbler-0.4.90",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/yk344gs0wv56bizc0x8ww3ak1l3z8l3g-mpris-scrobbler-0.4.90"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Minimalistic scrobbler for libre.fm & last.fm",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/audio/mpris-scrobbler/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mpris-scrobbler",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yk344gs0wv56bizc0x8ww3ak1l3z8l3g-mpris-scrobbler-0.4.90"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "0.4.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mpris-scrobbler",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mpris-scrobbler"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/lgkgksnvqicimq5pg6ccgkbgj66ms397-mpris-scrobbler-0.4.0.1"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mpris-scrobbler",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mpris-scrobbler"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/9h51n325wfdhmbdaw9v177yzzlknaiam-mpris-scrobbler-0.4.95"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

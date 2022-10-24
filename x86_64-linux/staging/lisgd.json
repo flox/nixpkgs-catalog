@@ -1,40 +1,4 @@
 {
-  "0.3.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.3",
-      "pname": "lisgd",
-      "name": "lisgd-0.3.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/f5cx0dgpz95bv477id33ffiapd3acgxf-lisgd-0.3.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Bind gestures via libinput touch events",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/inputmethods/lisgd/default.nix:45",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.lisgd",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f5cx0dgpz95bv477id33ffiapd3acgxf-lisgd-0.3.3"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "0.3.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.lisgd",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lisgd"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/s77ssw8l4s64srkm2mxnx8gh2vdkd54x-lisgd-0.3.2"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.lisgd",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lisgd"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7mq0d37p3mfv75h2qpq0brq01asqdc0q-lisgd-0.3.4"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

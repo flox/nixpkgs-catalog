@@ -1,40 +1,4 @@
 {
-  "0.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.1",
-      "pname": "vopono",
-      "name": "vopono-0.9.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/3a2rgl259wbjs5qamsj08js5sf7x6anp-vopono-0.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Run applications through VPN connections in network namespaces",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/networking/vopono/default.nix:18",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.vopono",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3a2rgl259wbjs5qamsj08js5sf7x6anp-vopono-0.9.1"
-      ],
-      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "0.10.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.vopono",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vopono"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/nwss8ac3l4gmrppqv37zrbjqv32f4l6x-vopono-0.10.0"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.1",
+      "pname": "vopono",
+      "name": "vopono-0.9.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/3a2rgl259wbjs5qamsj08js5sf7x6anp-vopono-0.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Run applications through VPN connections in network namespaces",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/networking/vopono/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vopono"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3a2rgl259wbjs5qamsj08js5sf7x6anp-vopono-0.9.1"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.vopono",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vopono"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/86c7mqv3p7nskphiphhwmj8w44ky2sfl-vopono-0.8.10"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

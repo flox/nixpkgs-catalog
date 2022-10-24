@@ -1,40 +1,4 @@
 {
-  "2022.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.0",
-      "pname": "alfred",
-      "name": "alfred-2022.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/zppw5wh35n02ls5gn0i5lnpqwb69gzk1-alfred-2022.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2, information distribution tool",
-        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/os-specific/linux/batman-adv/alfred.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.alfred",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zppw5wh35n02ls5gn0i5lnpqwb69gzk1-alfred-2022.0"
-      ],
-      "url": "github:flox/floxpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 378452,
-        "lastModified": 1652794215
-      }
-    }
-  },
   "2021.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.alfred",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "alfred"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/0bhij7ivawyhrr3dkxi0yvdvd0z8wx2v-alfred-2021.4"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2022.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.0",
+      "pname": "alfred",
+      "name": "alfred-2022.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zppw5wh35n02ls5gn0i5lnpqwb69gzk1-alfred-2022.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "B.A.T.M.A.N. routing protocol in a linux kernel module for layer 2, information distribution tool",
+        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/os-specific/linux/batman-adv/alfred.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "alfred"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zppw5wh35n02ls5gn0i5lnpqwb69gzk1-alfred-2022.0"
+      ],
+      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 378452,
+        "lastModified": 1652794215
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.alfred",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "alfred"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/w6yammmv1x9m8axsg4lmsk9xl5hs58ip-alfred-2022.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

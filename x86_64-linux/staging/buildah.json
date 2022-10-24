@@ -1,43 +1,4 @@
 {
-  "1.26.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.2",
-      "pname": "buildah",
-      "name": "buildah-wrapper-1.26.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/lxgp7xidl4j5srx1sr9qjihiwn8b5r54-buildah-wrapper-1.26.2-man",
-        "out": "/nix/store/a9w8ilj8ypsp3zx47wa1idixgzz9k14i-buildah-wrapper-1.26.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A tool which facilitates building OCI images",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/buildah/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a9w8ilj8ypsp3zx47wa1idixgzz9k14i-buildah-wrapper-1.26.2",
-        "/nix/store/lxgp7xidl4j5srx1sr9qjihiwn8b5r54-buildah-wrapper-1.26.2-man"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.25.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -61,19 +22,66 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/mpx0kl6d6737q6zq4n98bwza1kbgrmld-buildah-wrapper-1.25.1",
         "/nix/store/1b0wcvxwsqnflzxrsr6hbs9bqd7lqf9w-buildah-wrapper-1.25.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.26.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.2",
+      "pname": "buildah",
+      "name": "buildah-wrapper-1.26.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/lxgp7xidl4j5srx1sr9qjihiwn8b5r54-buildah-wrapper-1.26.2-man",
+        "out": "/nix/store/a9w8ilj8ypsp3zx47wa1idixgzz9k14i-buildah-wrapper-1.26.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A tool which facilitates building OCI images",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/buildah/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a9w8ilj8ypsp3zx47wa1idixgzz9k14i-buildah-wrapper-1.26.2",
+        "/nix/store/lxgp7xidl4j5srx1sr9qjihiwn8b5r54-buildah-wrapper-1.26.2-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -100,14 +108,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/mw52nx5089kdzf6d3d9vfh4zawyr285f-buildah-wrapper-1.26.1",
         "/nix/store/k3bbbzhw44r42anpiziszvr2ypizcizy-buildah-wrapper-1.26.1-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

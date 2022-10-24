@@ -1,40 +1,4 @@
 {
-  "unstable-2022-02-09": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unstable-2022-02-09",
-      "pname": "input-remapper",
-      "name": "input-remapper-unstable-2022-02-09",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/d29ggyqy6yxfvh3sfmyx5sam2fqcn4i8-input-remapper-unstable-2022-02-09"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An easy to use tool to change the mapping of your input device buttons",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/inputmethods/input-remapper/default.nix:157",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.input-remapper",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d29ggyqy6yxfvh3sfmyx5sam2fqcn4i8-input-remapper-unstable-2022-02-09"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "1.4.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.input-remapper",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "input-remapper"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/m2zlrr9f1wgmbixhli2w410rf1q4qps0-input-remapper-1.4.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

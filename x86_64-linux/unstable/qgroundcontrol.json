@@ -1,40 +1,4 @@
 {
-  "4.1.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.4",
-      "pname": "qgroundcontrol",
-      "name": "qgroundcontrol-4.1.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/ypc7bbs7vn71ax51vd0yqjs7411bk35c-qgroundcontrol-4.1.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Provides full ground station support and configuration for the PX4 and APM Flight Stacks",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/science/robotics/qgroundcontrol/default.nix:70",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.qgroundcontrol",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ypc7bbs7vn71ax51vd0yqjs7411bk35c-qgroundcontrol-4.1.4"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.qgroundcontrol",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "qgroundcontrol"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/65wqzd0s9dwpl8zv21cibhfhbznrvam4-qgroundcontrol-4.2.0"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4.2.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.3",
+      "pname": "qgroundcontrol",
+      "name": "qgroundcontrol-4.2.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/qrwc8hrpqv9aknfgx7z70r9565djvw8k-qgroundcontrol-4.2.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Provides full ground station support and configuration for the PX4 and APM Flight Stacks",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/science/robotics/qgroundcontrol/default.nix:83",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "qgroundcontrol"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qrwc8hrpqv9aknfgx7z70r9565djvw8k-qgroundcontrol-4.2.3"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.qgroundcontrol",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "qgroundcontrol"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/qbc8nnyx8b2hypb1cgg8b1i5qlrajzni-qgroundcontrol-4.2.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

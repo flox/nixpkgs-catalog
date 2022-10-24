@@ -1,40 +1,4 @@
 {
-  "4905": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4905",
-      "pname": "mkgmap",
-      "name": "mkgmap-4905",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/bl68f00s9gqymjla8qwjkm5120xznq02-mkgmap-4905"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Create maps for Garmin GPS devices from OpenStreetMap (OSM) data",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/mkgmap/default.nix:76",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mkgmap",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bl68f00s9gqymjla8qwjkm5120xznq02-mkgmap-4905"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "4897": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mkgmap",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mkgmap"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/6mrgw138w6ryic4n6sqj9pa5dqp0rr18-mkgmap-4897"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4905": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4905",
+      "pname": "mkgmap",
+      "name": "mkgmap-4905",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/bl68f00s9gqymjla8qwjkm5120xznq02-mkgmap-4905"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Create maps for Garmin GPS devices from OpenStreetMap (OSM) data",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/mkgmap/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mkgmap"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bl68f00s9gqymjla8qwjkm5120xznq02-mkgmap-4905"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.mkgmap",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mkgmap"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ll8znh9rqr8v20cvjpqqdlcskj3lm3i1-mkgmap-4904"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

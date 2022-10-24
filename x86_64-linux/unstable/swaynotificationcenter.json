@@ -1,40 +1,4 @@
 {
-  "0.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3",
-      "pname": "SwayNotificationCenter",
-      "name": "SwayNotificationCenter-0.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/wv7x5d62c9ab8anq9sp2f5x5msv3n13w-SwayNotificationCenter-0.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple notification daemon with a GUI built for Sway",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/misc/swaynotificationcenter/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.swaynotificationcenter",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wv7x5d62c9ab8anq9sp2f5x5msv3n13w-SwayNotificationCenter-0.3"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.swaynotificationcenter",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "swaynotificationcenter"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/057kclapkis61wfvpqbshmrha7s9815r-SwayNotificationCenter-0.5"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.swaynotificationcenter",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "swaynotificationcenter"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/bj2qsm73hnfzcbqms948r828092m2qvn-SwayNotificationCenter-0.6.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

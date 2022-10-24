@@ -22,58 +22,23 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.kubectl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gxz0l7ckpkwrqqsmbqkzfcqs65n1pllx-kubectl-1.23.7",
         "/nix/store/05n3idg415nqbnxwc3gclni1d8954j7b-kubectl-1.23.7-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
-      }
-    }
-  },
-  "1.23.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.5",
-      "pname": "kubectl",
-      "name": "kubectl-1.23.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/3113fna22rngbqxfsbhipk7ax07pcabm-kubectl-1.23.5-man",
-        "out": "/nix/store/hr8k6cfqmsh93n9s7kmxig1896as3wzq-kubectl-1.23.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Kubernetes CLI",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.kubectl",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hr8k6cfqmsh93n9s7kmxig1896as3wzq-kubectl-1.23.5",
-        "/nix/store/3113fna22rngbqxfsbhipk7ax07pcabm-kubectl-1.23.5-man"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   },
@@ -101,19 +66,67 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.kubectl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/m06jscr51mw6l6x395wlffv9wps4h4rg-kubectl-1.23.8",
         "/nix/store/snnvlgx29nax1njr89zn6ji7vjffgiy4-kubectl-1.23.8-man"
       ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
     },
     "source": {
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.23.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.9",
+      "pname": "kubectl",
+      "name": "kubectl-1.23.9",
+      "system": "x86_64-linux",
+      "outputs": {
+        "convert": "/nix/store/iqhdrsjnkf23vh7mpmjznxwlaz1hsb81-kubectl-1.23.9-convert",
+        "man": "/nix/store/k6bp8v7v2jdzgf7z52n2nf1h4kjd1bn1-kubectl-1.23.9-man",
+        "out": "/nix/store/g9lvfyshksz5mam16n6la6ramawd06mk-kubectl-1.23.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Kubernetes CLI",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g9lvfyshksz5mam16n6la6ramawd06mk-kubectl-1.23.9",
+        "/nix/store/k6bp8v7v2jdzgf7z52n2nf1h4kjd1bn1-kubectl-1.23.9-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

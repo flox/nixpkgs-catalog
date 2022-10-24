@@ -1,40 +1,4 @@
 {
-  "2022.Q2.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.Q2.3",
-      "pname": "amdvlk",
-      "name": "amdvlk-2022.Q2.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/smhdq5xcklzfj2k1dxs2i4mv45l0wlwr-amdvlk-2022.Q2.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "AMD Open Source Driver For Vulkan",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/libraries/amdvlk/default.nix:102",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.amdvlk",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/smhdq5xcklzfj2k1dxs2i4mv45l0wlwr-amdvlk-2022.Q2.3"
-      ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "2022.Q2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.amdvlk",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "amdvlk"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/qqrrb373niv0v1lsayyfv4kicp7n0rq9-amdvlk-2022.Q2.1"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "2022.Q2.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.Q2.3",
+      "pname": "amdvlk",
+      "name": "amdvlk-2022.Q2.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/smhdq5xcklzfj2k1dxs2i4mv45l0wlwr-amdvlk-2022.Q2.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "AMD Open Source Driver For Vulkan",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/libraries/amdvlk/default.nix:102",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "amdvlk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/smhdq5xcklzfj2k1dxs2i4mv45l0wlwr-amdvlk-2022.Q2.3"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.amdvlk",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "amdvlk"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/sxpwiv2sfjdkspsl2zr89s1901rl4dp5-amdvlk-2022.Q2.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

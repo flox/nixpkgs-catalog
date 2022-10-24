@@ -1,40 +1,4 @@
 {
-  "3.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.2",
-      "pname": "polybar",
-      "name": "polybar-3.6.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/9nmkv0m4gj1gzig8qpsw1iy2n7id0dz8-polybar-3.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast and easy-to-use tool for creating status bars",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/applications/misc/polybar/default.nix:116",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.polybar",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9nmkv0m4gj1gzig8qpsw1iy2n7id0dz8-polybar-3.6.2"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "3.5.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.polybar",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "polybar"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/82nllsxd24vim1cqal623iapx65h0qlk-polybar-3.5.7"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.polybar",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "polybar"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/97fn2pc75rzqhf3npjiwvyp584bs2k9m-polybar-3.6.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

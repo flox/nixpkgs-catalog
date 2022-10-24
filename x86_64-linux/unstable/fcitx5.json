@@ -1,40 +1,4 @@
 {
-  "5.0.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0.16",
-      "pname": "fcitx5",
-      "name": "fcitx5-5.0.16",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/4xr32issj118zpp1imh554b3clai61k4-fcitx5-5.0.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Next generation of fcitx",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/inputmethods/fcitx5/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcitx5",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4xr32issj118zpp1imh554b3clai61k4-fcitx5-5.0.16"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "5.0.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcitx5",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8zd19irkgmkgqamvc1jjnayq7vh0amdw-fcitx5-5.0.15"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
@@ -92,18 +60,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcitx5",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/4izdbzm2zh66msgjznvnjd835d9qa86n-fcitx5-5.0.18"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "5.0.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.16",
+      "pname": "fcitx5",
+      "name": "fcitx5-5.0.16",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/4xr32issj118zpp1imh554b3clai61k4-fcitx5-5.0.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Next generation of fcitx",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/inputmethods/fcitx5/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4xr32issj118zpp1imh554b3clai61k4-fcitx5-5.0.16"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

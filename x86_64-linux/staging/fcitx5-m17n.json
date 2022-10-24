@@ -1,40 +1,4 @@
 {
-  "5.0.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0.10",
-      "pname": "fcitx5-m17n",
-      "name": "fcitx5-m17n-5.0.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/n296axk132jw1ldpn7dvfz9zqdn727wv-fcitx5-m17n-5.0.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "m17n support for Fcitx5",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-m17n.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fcitx5-m17n",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n296axk132jw1ldpn7dvfz9zqdn727wv-fcitx5-m17n-5.0.10"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.0.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fcitx5-m17n",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5-m17n"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/xa53h104whvmliw8dysvlrpi5mqyldn9-fcitx5-m17n-5.0.8"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.0.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.10",
+      "pname": "fcitx5-m17n",
+      "name": "fcitx5-m17n-5.0.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/n296axk132jw1ldpn7dvfz9zqdn727wv-fcitx5-m17n-5.0.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "m17n support for Fcitx5",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/inputmethods/fcitx5/fcitx5-m17n.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5-m17n"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n296axk132jw1ldpn7dvfz9zqdn727wv-fcitx5-m17n-5.0.10"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fcitx5-m17n",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcitx5-m17n"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ccd7gm0nbfmfl6fy0d8pm74shqwszv0n-fcitx5-m17n-5.0.9"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

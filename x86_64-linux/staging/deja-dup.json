@@ -1,40 +1,4 @@
 {
-  "43.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "43.4",
-      "pname": "deja-dup",
-      "name": "deja-dup-43.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/ss8xd3qqwrxsm8k4brmj677ilzc5w3il-deja-dup-43.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple backup tool",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/backup/deja-dup/default.nix:68",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.deja-dup",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ss8xd3qqwrxsm8k4brmj677ilzc5w3il-deja-dup-43.4"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "43.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.deja-dup",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "deja-dup"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/fllgln49x2cplhhmipi8lbvz51s58kfg-deja-dup-43.2"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "43.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "43.4",
+      "pname": "deja-dup",
+      "name": "deja-dup-43.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ss8xd3qqwrxsm8k4brmj677ilzc5w3il-deja-dup-43.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple backup tool",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/backup/deja-dup/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "deja-dup"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ss8xd3qqwrxsm8k4brmj677ilzc5w3il-deja-dup-43.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.deja-dup",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "deja-dup"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/bzr22hbbj588pgkskls85lvzqg0fd4kr-deja-dup-43.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

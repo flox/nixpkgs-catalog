@@ -1,76 +1,4 @@
 {
-  "2.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.2",
-      "pname": "feroxbuster",
-      "name": "feroxbuster-2.6.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/v8lbhal2ji37pqxxy2hlfbj1f0cakbhr-feroxbuster-2.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast, simple, recursive content discovery tool",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/security/feroxbuster/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.feroxbuster",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v8lbhal2ji37pqxxy2hlfbj1f0cakbhr-feroxbuster-2.6.2"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
-  "2.6.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.4",
-      "pname": "feroxbuster",
-      "name": "feroxbuster-2.6.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/2cj7xjqil28zflknsmdv1pygl41fdd4f-feroxbuster-2.6.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast, simple, recursive content discovery tool",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/security/feroxbuster/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.feroxbuster",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2cj7xjqil28zflknsmdv1pygl41fdd4f-feroxbuster-2.6.4"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "2.7.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.feroxbuster",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "feroxbuster"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/xd4c6h7aspbpqh6s5ifn8ysqlxxsac97-feroxbuster-2.7.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

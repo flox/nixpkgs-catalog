@@ -1,40 +1,4 @@
 {
-  "2.2.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.7",
-      "pname": "fluidsynth",
-      "name": "fluidsynth-2.2.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6k83qiq3fgq8b4lnjs5w2sxigjhjj8f6-fluidsynth-2.2.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Real-time software synthesizer based on the SoundFont 2 specifications",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/audio/fluidsynth/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fluidsynth",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6k83qiq3fgq8b4lnjs5w2sxigjhjj8f6-fluidsynth-2.2.7"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "2.2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fluidsynth",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fluidsynth"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1cqjdlzr2yrgbdhd9k7q88hc0zgwxi2s-fluidsynth-2.2.3"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.7",
+      "pname": "fluidsynth",
+      "name": "fluidsynth-2.2.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/6k83qiq3fgq8b4lnjs5w2sxigjhjj8f6-fluidsynth-2.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Real-time software synthesizer based on the SoundFont 2 specifications",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/audio/fluidsynth/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fluidsynth"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6k83qiq3fgq8b4lnjs5w2sxigjhjj8f6-fluidsynth-2.2.7"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.fluidsynth",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fluidsynth"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/9mnlqd7qr5c99g4wv8jq2n1vi7i38mpq-fluidsynth-2.2.5"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

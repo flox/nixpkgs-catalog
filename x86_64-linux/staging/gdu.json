@@ -1,40 +1,4 @@
 {
-  "5.12.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.12.1",
-      "pname": "gdu",
-      "name": "gdu-5.12.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/xc9hi5fmwq49hrkmypps99c9idqrfmkm-gdu-5.12.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Disk usage analyzer with console interface",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/system/gdu/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gdu",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xc9hi5fmwq49hrkmypps99c9idqrfmkm-gdu-5.12.1"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "5.13.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gdu",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gdu"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/i9zdsd2i4zy48fw68ag9xf750zysvb3b-gdu-5.13.2"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.0",
+      "pname": "gdu",
+      "name": "gdu-5.15.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/qfcz3y5li5pvsv0g0i1jj36jdnks61r7-gdu-5.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Disk usage analyzer with console interface",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/system/gdu/default.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gdu"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qfcz3y5li5pvsv0g0i1jj36jdnks61r7-gdu-5.15.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.gdu",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gdu"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/89qsx3wkliqwi4nfs49r5vhhzpaq8wpr-gdu-5.14.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

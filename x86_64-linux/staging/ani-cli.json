@@ -1,40 +1,4 @@
 {
-  "2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1",
-      "pname": "ani-cli",
-      "name": "ani-cli-2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/mia44kv1rkgibcpssg590l2rp81cql82-ani-cli-2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A cli tool to browse and play anime",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/video/ani-cli/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.ani-cli",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mia44kv1rkgibcpssg590l2rp81cql82-ani-cli-2.1"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "3.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.ani-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ani-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2gz76p1r7ckg681dclxjz751c9gy5ahr-ani-cli-3.3"
       ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
     },
     "source": {
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1",
+      "pname": "ani-cli",
+      "name": "ani-cli-2.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/mia44kv1rkgibcpssg590l2rp81cql82-ani-cli-2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cli tool to browse and play anime",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/video/ani-cli/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ani-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mia44kv1rkgibcpssg590l2rp81cql82-ani-cli-2.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.ani-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ani-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/lrhpfxq2akpxqsmfavx5jjm47aq68vz5-ani-cli-2.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

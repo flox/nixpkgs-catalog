@@ -1,43 +1,4 @@
 {
-  "1.26.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.2",
-      "pname": "buildah",
-      "name": "buildah-1.26.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/dkwybjmx19294rn598phn77fii9s334a-buildah-1.26.2-man",
-        "out": "/nix/store/cyghwh8bwk143a3abhcy3v8b9jrb17xx-buildah-1.26.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A tool which facilitates building OCI images",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/buildah/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah-unwrapped",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cyghwh8bwk143a3abhcy3v8b9jrb17xx-buildah-1.26.2",
-        "/nix/store/dkwybjmx19294rn598phn77fii9s334a-buildah-1.26.2-man"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.25.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -61,19 +22,66 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah-unwrapped",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/6fvjjd67kjz1pvanv94npq3llqxqjrh2-buildah-1.25.1",
         "/nix/store/cbmhpim7agb52k56h1pzpnpd66g9vlv4-buildah-1.25.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.26.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.2",
+      "pname": "buildah",
+      "name": "buildah-1.26.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/dkwybjmx19294rn598phn77fii9s334a-buildah-1.26.2-man",
+        "out": "/nix/store/cyghwh8bwk143a3abhcy3v8b9jrb17xx-buildah-1.26.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A tool which facilitates building OCI images",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/buildah/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cyghwh8bwk143a3abhcy3v8b9jrb17xx-buildah-1.26.2",
+        "/nix/store/dkwybjmx19294rn598phn77fii9s334a-buildah-1.26.2-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -100,14 +108,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.buildah-unwrapped",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "buildah-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1y7rbzq947z9yshqq4bgr68dik5d02jv-buildah-1.26.1",
         "/nix/store/ms1bv47qsabhfickgaqyy34s1jih63dz-buildah-1.26.1-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

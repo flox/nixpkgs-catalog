@@ -1,40 +1,4 @@
 {
-  "0.13.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.1",
-      "pname": "mutagen",
-      "name": "mutagen-0.13.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/45li8whycnl1d4ipdf0q6w7x8aq5m8cp-mutagen-0.13.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Make remote development work with your local tools",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/misc/mutagen/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mutagen",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/45li8whycnl1d4ipdf0q6w7x8aq5m8cp-mutagen-0.13.1"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "0.11.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mutagen",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mutagen"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/bjrz5xfwwympvpn2j8ad32kgfaiccgy1-mutagen-0.11.8"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.mutagen",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mutagen"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/9jyc6bwbjmxgppdasb9pp6gg1f5401ip-mutagen-0.14.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

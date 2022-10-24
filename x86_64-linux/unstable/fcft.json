@@ -1,4 +1,48 @@
 {
+  "2.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.1",
+      "pname": "fcft",
+      "name": "fcft-2.5.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/cy1f57yfx8apw6z84b1zx6svw0bmpb3s-fcft-2.5.1-doc",
+        "man": "/nix/store/9y1y23isyx4w70xmzm59if24h5y7y0ia-fcft-2.5.1-man",
+        "out": "/nix/store/5b70n3zcj4d8x6vb8gb6kxhi5fvig3im-fcft-2.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Simple library for font loading and glyph rasterization",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/fcft/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcft"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5b70n3zcj4d8x6vb8gb6kxhi5fvig3im-fcft-2.5.1",
+        "/nix/store/9y1y23isyx4w70xmzm59if24h5y7y0ia-fcft-2.5.1-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "3.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -23,59 +67,23 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcft",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcft"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/fy5pwsh09jpkk2k51q08jqh3ddhkm3ik-fcft-3.1.1",
         "/nix/store/7bcca3zcn5ixpdi9hgrgy56k2hsqrnjc-fcft-3.1.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "3.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.1",
-      "pname": "fcft",
-      "name": "fcft-3.0.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/0q9ar6jzhljlrl0dxl873gar2zvnyszx-fcft-3.0.1-doc",
-        "man": "/nix/store/bzg5y0wp823fhxq2nax53wcykpqjwwnq-fcft-3.0.1-man",
-        "out": "/nix/store/4smh6ib7a0p8fxwk3glfwrk1898i9p69-fcft-3.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Simple library for font loading and glyph rasterization",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/fcft/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcft",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4smh6ib7a0p8fxwk3glfwrk1898i9p69-fcft-3.0.1",
-        "/nix/store/bzg5y0wp823fhxq2nax53wcykpqjwwnq-fcft-3.0.1-man"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },
@@ -103,14 +111,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.fcft",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fcft"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/mbwrkghvywgqgbhzhp18whvknpsq59an-fcft-3.1.2",
         "/nix/store/mldfsfd6jzjcx6v8hsirigwa7a3jmjpf-fcft-3.1.2-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

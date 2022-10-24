@@ -1,40 +1,4 @@
 {
-  "0.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.0",
-      "pname": "rnote",
-      "name": "rnote-0.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/bry4gfvq1qj0ypbgkigncj81dxdkf8bl-rnote-0.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple drawing application to create handwritten notes",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/graphics/rnote/default.nix:73",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.rnote",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bry4gfvq1qj0ypbgkigncj81dxdkf8bl-rnote-0.4.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.rnote",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rnote"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/dw7gl8dynii695avzqmxvryjqhvjglrn-rnote-0.5.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

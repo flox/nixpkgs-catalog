@@ -1,38 +1,42 @@
 {
-  "1.19.2": {
+  "1.18": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.19.2",
-      "pname": "krb5",
-      "name": "krb5-1.19.2",
+      "version": "1.18",
+      "pname": null,
+      "name": "krb5-1.18",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/24pg5n1pw4m4hvx02c5kbgk6zzid0hdq-krb5-1.19.2-dev",
-        "out": "/nix/store/3phfdc71s9rgmdy9ldkdmpc3kpnr41i2-krb5-1.19.2"
+        "dev": "/nix/store/isk3igric58pyfm32bl4yz9sybl8mhv2-krb5-1.18-dev",
+        "out": "/nix/store/dr3jbb2v7rk6k1xq67il40hshrq2r5lk-krb5-1.18"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "MIT Kerberos 5",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/kerberos/krb5.nix:80",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/kerberos/krb5.nix:90",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.krb5Full",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "krb5Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3phfdc71s9rgmdy9ldkdmpc3kpnr41i2-krb5-1.19.2"
+        "/nix/store/dr3jbb2v7rk6k1xq67il40hshrq2r5lk-krb5-1.18"
       ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },
@@ -58,13 +62,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.krb5Full",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "krb5Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/h2vadwzw562sqzkp1g6p4mpmmr9j8x5y-krb5-1.20"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -95,13 +103,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.krb5Full",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "krb5Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/dwrsl1v7akrd100pq96wv835s63wcjrw-krb5-1.19.3"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

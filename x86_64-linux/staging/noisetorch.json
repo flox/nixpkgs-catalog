@@ -1,40 +1,4 @@
 {
-  "0.11.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.5",
-      "pname": "NoiseTorch",
-      "name": "NoiseTorch-0.11.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/v3da1fdkk54i1rgy9af6skx7hz477r42-NoiseTorch-0.11.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Virtual microphone device with noise supression for PulseAudio",
-        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/applications/audio/noisetorch/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.noisetorch",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v3da1fdkk54i1rgy9af6skx7hz477r42-NoiseTorch-0.11.5"
-      ],
-      "url": "github:flox/floxpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 378452,
-        "lastModified": 1652794215
-      }
-    }
-  },
   "0.11.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.noisetorch",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "noisetorch"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/zvhdx5n07spkjl5nwn837qwfm6mhs04s-NoiseTorch-0.11.4"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.11.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.5",
+      "pname": "NoiseTorch",
+      "name": "NoiseTorch-0.11.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/v3da1fdkk54i1rgy9af6skx7hz477r42-NoiseTorch-0.11.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Virtual microphone device with noise supression for PulseAudio",
+        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/applications/audio/noisetorch/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "noisetorch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v3da1fdkk54i1rgy9af6skx7hz477r42-NoiseTorch-0.11.5"
+      ],
+      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 378452,
+        "lastModified": 1652794215
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.noisetorch",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "noisetorch"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/41gfwb47574p1xq0vi5qmi8wvfvj8s17-NoiseTorch-0.12.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

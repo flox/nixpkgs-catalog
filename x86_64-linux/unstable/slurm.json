@@ -1,78 +1,4 @@
 {
-  "22.05.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.05.0.1",
-      "pname": "slurm",
-      "name": "slurm-22.05.0.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/qiyck6w8bg2w5cdg8wkhaybklvjly71y-slurm-22.05.0.1-dev",
-        "out": "/nix/store/w7hp2sbb4nifh7x6adl7xaw4wz70y4ij-slurm-22.05.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple Linux Utility for Resource Management",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/computing/slurm/default.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.slurm",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w7hp2sbb4nifh7x6adl7xaw4wz70y4ij-slurm-22.05.0.1"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "21.08.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "21.08.6.1",
-      "pname": "slurm",
-      "name": "slurm-21.08.6.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/lsbvjxzkzj4dnh3ylr0mi69qmkkwycni-slurm-21.08.6.1-dev",
-        "out": "/nix/store/2nhpglr6qbshq75z9ppz90bxacxh2dz4-slurm-21.08.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple Linux Utility for Resource Management",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/servers/computing/slurm/default.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.slurm",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2nhpglr6qbshq75z9ppz90bxacxh2dz4-slurm-21.08.6.1"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "22.05.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -95,18 +21,104 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.slurm",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "slurm"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8pva2vssrgc92yba3rzl16zsj6wq72ac-slurm-22.05.2.1"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "21.08.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "21.08.8.2",
+      "pname": "slurm",
+      "name": "slurm-21.08.8.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/w2hlabpx53sa1qcmdz7wdgh9clb155g8-slurm-21.08.8.2-dev",
+        "out": "/nix/store/k84mgmkbbv5p58iccjgc6xf2xsydmxi5-slurm-21.08.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple Linux Utility for Resource Management",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/computing/slurm/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "slurm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k84mgmkbbv5p58iccjgc6xf2xsydmxi5-slurm-21.08.8.2"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "22.05.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.05.0.1",
+      "pname": "slurm",
+      "name": "slurm-22.05.0.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/qiyck6w8bg2w5cdg8wkhaybklvjly71y-slurm-22.05.0.1-dev",
+        "out": "/nix/store/w7hp2sbb4nifh7x6adl7xaw4wz70y4ij-slurm-22.05.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple Linux Utility for Resource Management",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/computing/slurm/default.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "slurm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w7hp2sbb4nifh7x6adl7xaw4wz70y4ij-slurm-22.05.0.1"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

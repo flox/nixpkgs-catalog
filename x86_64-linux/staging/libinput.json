@@ -1,39 +1,43 @@
 {
-  "1.20.0": {
+  "1.19.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.20.0",
+      "version": "1.19.1",
       "pname": "libinput",
-      "name": "libinput-1.20.0",
+      "name": "libinput-1.19.1",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/4812xh4bj9l35wd6garlfb727djync9w-libinput-1.20.0-bin",
-        "dev": "/nix/store/31rq5r26zfzyb2d9zgp5zcxvj85yljc6-libinput-1.20.0-dev",
-        "out": "/nix/store/0n3wdx8djibn3dd80viz4vq193mpijgh-libinput-1.20.0"
+        "bin": "/nix/store/j0bxqpnwpz03sp4jl5w4im9dpm3zghw1-libinput-1.19.1-bin",
+        "dev": "/nix/store/l9nk0mf0h2m2gdg10hfdpvsa7ankqfd7-libinput-1.19.1-dev",
+        "out": "/nix/store/90cccb7wyzxqaafz1aczlpd0jk96ql2r-libinput-1.19.1"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/libinput/default.nix:131",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libinput/default.nix:85",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.libinput",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libinput"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4812xh4bj9l35wd6garlfb727djync9w-libinput-1.20.0-bin"
+        "/nix/store/j0bxqpnwpz03sp4jl5w4im9dpm3zghw1-libinput-1.19.1-bin"
       ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },
@@ -60,13 +64,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.libinput",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libinput"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/l819sblaaisb9i43vn97gk9i7nl3p5xz-libinput-1.21.0-bin"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -98,13 +106,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.libinput",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libinput"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kh5v36fiday06rdnr1ks2pj0vs0lj045-libinput-1.20.1-bin"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

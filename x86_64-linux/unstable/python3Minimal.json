@@ -1,78 +1,4 @@
 {
-  "3.9.13": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9.13",
-      "pname": "python3-minimal",
-      "name": "python3-minimal-3.9.13",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/qmg17fibj5j5mbk4bjfx2kwr1vrvknbk-python3-minimal-3.9.13-debug",
-        "out": "/nix/store/xvlv5bxzs0zvaziq0jqls0jsj8hmnhz4-python3-minimal-3.9.13"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/interpreters/python/cpython/default.nix:493",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.python3Minimal",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xvlv5bxzs0zvaziq0jqls0jsj8hmnhz4-python3-minimal-3.9.13"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "3.9.11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9.11",
-      "pname": "python3-minimal",
-      "name": "python3-minimal-3.9.11",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/cbx1p16hklb2bhiaf9k60fn6sncdq2dp-python3-minimal-3.9.11-debug",
-        "out": "/nix/store/bz208ymvad5cbiz39y4wk9c26n5xn60g-python3-minimal-3.9.11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/interpreters/python/cpython/default.nix:491",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.python3Minimal",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bz208ymvad5cbiz39y4wk9c26n5xn60g-python3-minimal-3.9.11"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "3.10.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -95,18 +21,104 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.python3Minimal",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "python3Minimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/5r4ky6h3xj3fn9kz3dzlr5qgyy26mbzh-python3-minimal-3.10.5"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "3.9.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.12",
+      "pname": "python3-minimal",
+      "name": "python3-minimal-3.9.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/abbz852rf04jx5nk0rk0p8rlnp138q7k-python3-minimal-3.9.12-debug",
+        "out": "/nix/store/q1qbkcnjfc3l8qv0x1bf343ai72lkawq-python3-minimal-3.9.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high-level dynamically-typed programming language",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/interpreters/python/cpython/default.nix:497",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "python3Minimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/q1qbkcnjfc3l8qv0x1bf343ai72lkawq-python3-minimal-3.9.12"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.9.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.13",
+      "pname": "python3-minimal",
+      "name": "python3-minimal-3.9.13",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/qmg17fibj5j5mbk4bjfx2kwr1vrvknbk-python3-minimal-3.9.13-debug",
+        "out": "/nix/store/xvlv5bxzs0zvaziq0jqls0jsj8hmnhz4-python3-minimal-3.9.13"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high-level dynamically-typed programming language",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/interpreters/python/cpython/default.nix:493",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "python3Minimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xvlv5bxzs0zvaziq0jqls0jsj8hmnhz4-python3-minimal-3.9.13"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

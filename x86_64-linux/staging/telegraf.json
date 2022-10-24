@@ -1,40 +1,4 @@
 {
-  "1.20.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.4",
-      "pname": "telegraf",
-      "name": "telegraf-1.20.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/z584pdwn82jmy642n1kfc5s325887xwg-telegraf-1.20.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The plugin-driven server agent for collecting & reporting metrics",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/monitoring/telegraf/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.telegraf",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z584pdwn82jmy642n1kfc5s325887xwg-telegraf-1.20.4"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.22.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.telegraf",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "telegraf"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gxxd71r1asw618fza3qxf1plpxn7dx6c-telegraf-1.22.1"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.23.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.3",
+      "pname": "telegraf",
+      "name": "telegraf-1.23.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/149zdhdcac9dnsmiyimsq9l2pajqlrng-telegraf-1.23.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The plugin-driven server agent for collecting & reporting metrics",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/monitoring/telegraf/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "telegraf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/149zdhdcac9dnsmiyimsq9l2pajqlrng-telegraf-1.23.3"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.telegraf",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "telegraf"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/79q09nibyvbifslg60yfl7n2vzx7by8h-telegraf-1.22.4"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

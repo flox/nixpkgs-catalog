@@ -1,40 +1,4 @@
 {
-  "5.62": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.62",
-      "pname": "stunnel",
-      "name": "stunnel-5.62",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/plff7mfdiqw6v6pb5i3lrskaqipi6rn1-stunnel-5.62"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Universal tls/ssl wrapper",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/stunnel/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.stunnel",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/plff7mfdiqw6v6pb5i3lrskaqipi6rn1-stunnel-5.62"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "5.63": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.stunnel",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "stunnel"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/fk1h4nldjn0q80fvps76hp4lsvndc562-stunnel-5.63"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "5.65": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.65",
+      "pname": "stunnel",
+      "name": "stunnel-5.65",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/v6lf7pwh53v8igf4qszm7bmn0gnnymn9-stunnel-5.65"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Universal tls/ssl wrapper",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/networking/stunnel/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "stunnel"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v6lf7pwh53v8igf4qszm7bmn0gnnymn9-stunnel-5.65"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.stunnel",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "stunnel"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8s94an4l8kf6h0jqz1ln00hiiks7gqb8-stunnel-5.64"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

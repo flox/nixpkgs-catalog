@@ -20,54 +20,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.clash",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "clash"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ving7i23rwpn9pwm17q9fmb0hsb24rm8-clash-1.10.6"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
-      }
-    }
-  },
-  "1.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.0",
-      "pname": "clash",
-      "name": "clash-1.10.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/44qwwk29my4nwy482h68m927dz4zzgh1-clash-1.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A rule-based tunnel in Go",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/clash/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.clash",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/44qwwk29my4nwy482h68m927dz4zzgh1-clash-1.10.0"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   },
@@ -92,18 +60,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.clash",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "clash"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ii6yjmy2652y2ai6h815n61n0vjmrjmm-clash-1.11.0"
       ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
     },
     "source": {
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.11.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.4",
+      "pname": "clash",
+      "name": "clash-1.11.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/s12nhdqsikmgpfad4nvp5i5biaiifq5q-clash-1.11.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A rule-based tunnel in Go",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/clash/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "clash"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s12nhdqsikmgpfad4nvp5i5biaiifq5q-clash-1.11.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

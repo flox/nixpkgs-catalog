@@ -1,40 +1,4 @@
 {
-  "7.20.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.20.1",
-      "pname": "boinc",
-      "name": "boinc-7.20.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6a7akps3n2rpz0rpvq631dw3mw4v7ylh-boinc-7.20.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Free software for distributed and grid computing",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/science/misc/boinc/default.nix:45",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.boinc",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6a7akps3n2rpz0rpvq631dw3mw4v7ylh-boinc-7.20.1"
-      ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "7.20.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.boinc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "boinc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/8m6fhk2lvsvrrks68kjn0hpscbbxpz0n-boinc-7.20.2"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "7.20.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.20.0",
+      "pname": "boinc",
+      "name": "boinc-7.20.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/plmg50fpqw325xhq5xb7rabljfr5iyr8-boinc-7.20.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Free software for distributed and grid computing",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/science/misc/boinc/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "boinc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/plmg50fpqw325xhq5xb7rabljfr5iyr8-boinc-7.20.0"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.boinc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "boinc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/1nj07b1fwc5jx7pdjjspd16fbifpvh0j-boinc-7.18.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,44 +1,4 @@
 {
-  "2.35.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.35.2",
-      "pname": "binutils",
-      "name": "binutils-2.35.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "info": "/nix/store/gspwma7wrwqw8g2v093znr44rb9h40sf-binutils-2.35.2-info",
-        "man": "/nix/store/md9p118d5y481b20jybachz40zqs7dqg-binutils-2.35.2-man",
-        "out": "/nix/store/0bsn24r69sc4nayf7a0awijhqcwwpbqc-binutils-2.35.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/tools/misc/binutils/default.nix:187",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.binutils-unwrapped-all-targets",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0bsn24r69sc4nayf7a0awijhqcwwpbqc-binutils-2.35.2",
-        "/nix/store/md9p118d5y481b20jybachz40zqs7dqg-binutils-2.35.2-man"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -63,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.binutils-unwrapped-all-targets",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "binutils-unwrapped-all-targets"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/l66l6ll7wz5x7pzzp517f1pnfklplsjs-binutils-2.38",
         "/nix/store/1xv2sp5vmcdadldf24igsaa8cig0v7mx-binutils-2.38-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,4 +1,47 @@
 {
+  "5.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1.1",
+      "pname": "wolfssl",
+      "name": "wolfssl-5.1.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/12242whzc04w7dqm68vvd3sdmqqyh9yp-wolfssl-5.1.1-dev",
+        "doc": "/nix/store/mzxvircp34dxlsdis87bk3awlrg9piy3-wolfssl-5.1.1-doc",
+        "lib": "/nix/store/qb7byz2mwzmaq6if1yqmica8qps5yrzp-wolfssl-5.1.1-lib",
+        "out": "/nix/store/cy6dfrwwys41y90nkvc9qy1msm6z6ckk-wolfssl-5.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/wolfssl/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wolfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cy6dfrwwys41y90nkvc9qy1msm6z6ckk-wolfssl-5.1.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "5.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -23,57 +66,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.wolfssl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wolfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/yknz5xvsq4c13y3wxvi3032f03756xbk-wolfssl-5.4.0"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "5.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.2.0",
-      "pname": "wolfssl",
-      "name": "wolfssl-5.2.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/f8lhr8cpmna5csm87d3iay3gjgl7lk66-wolfssl-5.2.0-dev",
-        "doc": "/nix/store/36fsl4cdxp50y70mmdvr46vnryqni1yr-wolfssl-5.2.0-doc",
-        "lib": "/nix/store/hribipfp0nx8s54j269jbr74bj2zz58j-wolfssl-5.2.0-lib",
-        "out": "/nix/store/8jpq6wykv4sq8vm3qx96w8idc9kgv5wb-wolfssl-5.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/wolfssl/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.wolfssl",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8jpq6wykv4sq8vm3qx96w8idc9kgv5wb-wolfssl-5.2.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },
@@ -101,13 +109,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.wolfssl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wolfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7wfdcbh2xgzcsyb77fph37cp44cnnlxs-wolfssl-5.3.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

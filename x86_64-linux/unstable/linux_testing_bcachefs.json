@@ -21,55 +21,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.linux_testing_bcachefs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_testing_bcachefs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/a0y2x64y039ka2jsfnh4qd6g8s77fdkk-linux-5.17.11-bcachefs-unstable-2022-04-25"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
-      }
-    }
-  },
-  "5.16.20-bcachefs-unstable-2022-04-08": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.16.20-bcachefs-unstable-2022-04-08",
-      "pname": "linux",
-      "name": "linux-5.16.20-bcachefs-unstable-2022-04-08",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/77w7v0s4lrnpbxvkknkf1f9sb78h3kjw-linux-5.16.20-bcachefs-unstable-2022-04-08-dev",
-        "out": "/nix/store/dr8h9rlhdws2ghiksih5yjydzc33wii8-linux-5.16.20-bcachefs-unstable-2022-04-08"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bcachefs-6ddf061e68560a2bb263b126af7e894a6c1afb5f, bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/os-specific/linux/kernel/linux-testing-bcachefs.nix:15",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.linux_testing_bcachefs",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dr8h9rlhdws2ghiksih5yjydzc33wii8-linux-5.16.20-bcachefs-unstable-2022-04-08"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
       }
     }
   },
@@ -95,18 +62,63 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.linux_testing_bcachefs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_testing_bcachefs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ca7qzv33sb9jiqk1dwmqv0rmxg09558q-linux-5.17.7-bcachefs-unstable-2022-04-25"
       ],
-      "url": "github:flox/floxpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
+      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
     },
     "source": {
       "locked": {
         "revCount": 378452,
         "lastModified": 1652794215
+      }
+    }
+  },
+  "5.15.16-bcachefs-unstable-2021-12-26": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.16-bcachefs-unstable-2021-12-26",
+      "pname": "linux",
+      "name": "linux-5.15.16-bcachefs-unstable-2021-12-26",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/np5jivlj864ykf1y7ln7krmvwv97dr58-linux-5.15.16-bcachefs-unstable-2021-12-26-dev",
+        "out": "/nix/store/hx707nhz0fmfqn6vbvikisq08k4s7ghi-linux-5.15.16-bcachefs-unstable-2021-12-26"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bcachefs-b034dfb24fece43a7677b9a29781495aeb62767f, bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-testing-bcachefs.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_testing_bcachefs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hx707nhz0fmfqn6vbvikisq08k4s7ghi-linux-5.15.16-bcachefs-unstable-2021-12-26"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

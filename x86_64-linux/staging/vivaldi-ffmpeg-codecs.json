@@ -1,40 +1,4 @@
 {
-  "102.0.5005.49": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "102.0.5005.49",
-      "pname": "chromium-codecs-ffmpeg-extra",
-      "name": "chromium-codecs-ffmpeg-extra-102.0.5005.49",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/i3k9b7fpdlri7b49571p7r5609d5riyn-chromium-codecs-ffmpeg-extra-102.0.5005.49"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Additional support for proprietary codecs for Vivaldi",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/vivaldi/ffmpeg-codecs.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.vivaldi-ffmpeg-codecs",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i3k9b7fpdlri7b49571p7r5609d5riyn-chromium-codecs-ffmpeg-extra-102.0.5005.49"
-      ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "103.0.5060.53": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.vivaldi-ffmpeg-codecs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vivaldi-ffmpeg-codecs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/24di2kv65rxv79d3sxp67sqr1fzlpck6-chromium-codecs-ffmpeg-extra-103.0.5060.53"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "102.0.5005.49": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "102.0.5005.49",
+      "pname": "chromium-codecs-ffmpeg-extra",
+      "name": "chromium-codecs-ffmpeg-extra-102.0.5005.49",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/i3k9b7fpdlri7b49571p7r5609d5riyn-chromium-codecs-ffmpeg-extra-102.0.5005.49"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Additional support for proprietary codecs for Vivaldi",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/vivaldi/ffmpeg-codecs.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vivaldi-ffmpeg-codecs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i3k9b7fpdlri7b49571p7r5609d5riyn-chromium-codecs-ffmpeg-extra-102.0.5005.49"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.vivaldi-ffmpeg-codecs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vivaldi-ffmpeg-codecs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/46dm89yv032s871lgl2rikghma5mnags-chromium-codecs-ffmpeg-extra-101.0.4951.15"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

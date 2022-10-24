@@ -1,40 +1,4 @@
 {
-  "0.6.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.15",
-      "pname": "termusic",
-      "name": "termusic-0.6.15",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/xlgkk1rga7fcwk3a591cqa85ygvr2i6b-termusic-0.6.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Terminal Music Player TUI written in Rust",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/termusic/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.termusic",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xlgkk1rga7fcwk3a591cqa85ygvr2i6b-termusic-0.6.15"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "0.6.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.termusic",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "termusic"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/0sjg9x55844pjgl8x76m60m9xlnmk4y7-termusic-0.6.17"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.6.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.15",
+      "pname": "termusic",
+      "name": "termusic-0.6.15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/xlgkk1rga7fcwk3a591cqa85ygvr2i6b-termusic-0.6.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Terminal Music Player TUI written in Rust",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/termusic/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "termusic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xlgkk1rga7fcwk3a591cqa85ygvr2i6b-termusic-0.6.15"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.unstable.termusic",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "termusic"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/v5c36vyf1m5f48nlk8rkbm6r0lfvw835-termusic-0.6.16"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,76 +1,4 @@
 {
-  "1.7.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.1",
-      "pname": "starship",
-      "name": "starship-1.7.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/n68gyr1zagrlrm0j1bzci3mp03dhsv6d-starship-1.7.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A minimal, blazing fast, and extremely customizable prompt for any shell",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/starship/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.starship",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n68gyr1zagrlrm0j1bzci3mp03dhsv6d-starship-1.7.1"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.2",
-      "pname": "starship",
-      "name": "starship-1.6.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gshvl4641lnf8mk616xd3l21037gxryi-starship-1.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A minimal, blazing fast, and extremely customizable prompt for any shell",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/misc/starship/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.starship",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gshvl4641lnf8mk616xd3l21037gxryi-starship-1.6.2"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "1.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,18 +20,102 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.starship",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "starship"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kicdvz4dh0f4ddhfbvrx9xzhwqg6kzz9-starship-1.9.1"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.3",
+      "pname": "starship",
+      "name": "starship-1.6.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/yk8cy09dq267f0z431ygwhkm3y7jb22q-starship-1.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A minimal, blazing fast, and extremely customizable prompt for any shell",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/starship/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "starship"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yk8cy09dq267f0z431ygwhkm3y7jb22q-starship-1.6.3"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.1",
+      "pname": "starship",
+      "name": "starship-1.7.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/n68gyr1zagrlrm0j1bzci3mp03dhsv6d-starship-1.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A minimal, blazing fast, and extremely customizable prompt for any shell",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/starship/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "starship"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n68gyr1zagrlrm0j1bzci3mp03dhsv6d-starship-1.7.1"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

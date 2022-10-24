@@ -1,40 +1,4 @@
 {
-  "1.16.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.16.0",
-      "pname": "nifi",
-      "name": "nifi-1.16.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/ia7bhk81jlx47hgl5qmmwd66yzrxp1fz-nifi-1.16.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Easy to use, powerful, and reliable system to process and distribute data",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/servers/web-apps/nifi/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.nifi",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ia7bhk81jlx47hgl5qmmwd66yzrxp1fz-nifi-1.16.0"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "1.16.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-linux.staging.nifi",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nifi"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/3s5hi30wm4aq6pwyfs2mwws2nrh3p00g-nifi-1.16.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
