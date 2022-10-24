@@ -20,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.openjdk16_headless",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "openjdk16_headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/66zbyxkmj7bw7cd47r5p81hjyy0vhxc6-zulu16.30.15-ca-jdk-16.0.1"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {

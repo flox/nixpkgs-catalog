@@ -1,40 +1,4 @@
 {
-  "0.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.0",
-      "pname": "sqlx-cli",
-      "name": "sqlx-cli-0.6.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/kfxkhrrb320lmcvwrxi0qr3cnf6if06y-sqlx-cli-0.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "SQLx's associated command-line utility for managing databases, migrations, and enabling offline mode with sqlx::query!() and friends.",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/sqlx-cli/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.sqlx-cli",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kfxkhrrb320lmcvwrxi0qr3cnf6if06y-sqlx-cli-0.6.0"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.5.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.sqlx-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sqlx-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/nghkiy0pyxnli05miavqmpaj10d7m1af-sqlx-cli-0.5.11"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "sqlx-cli",
+      "name": "sqlx-cli-0.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/kfxkhrrb320lmcvwrxi0qr3cnf6if06y-sqlx-cli-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "SQLx's associated command-line utility for managing databases, migrations, and enabling offline mode with sqlx::query!() and friends.",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/sqlx-cli/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sqlx-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kfxkhrrb320lmcvwrxi0qr3cnf6if06y-sqlx-cli-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.sqlx-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sqlx-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/y245kgf9kkq3g4gl3c76vgpvr903p27a-sqlx-cli-0.5.13"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,40 +1,4 @@
 {
-  "0.9.18": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.18",
-      "pname": "polkadot",
-      "name": "polkadot-0.9.18",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/6n0w0xi29v65crbidr0bks8zzz7m0kc5-polkadot-0.9.18"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Polkadot Node Implementation",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/blockchains/polkadot/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.polkadot",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6n0w0xi29v65crbidr0bks8zzz7m0kc5-polkadot-0.9.18"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.9.21": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.polkadot",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "polkadot"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/wdvq8qz4c9j1ll24adqw5ci091qhf4yw-polkadot-0.9.21"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

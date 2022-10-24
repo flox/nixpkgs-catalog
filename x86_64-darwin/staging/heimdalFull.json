@@ -24,14 +24,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.heimdalFull",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "heimdalFull"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kysja9il3ba0bar6yl9rlryrmff0rrc0-heimdal-7.7.0",
         "/nix/store/wni407w6cqdkvapdrcvy9pxbp4zyb4k6-heimdal-7.7.0-man"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {

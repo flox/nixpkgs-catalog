@@ -1,76 +1,4 @@
 {
-  "0.18.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.0",
-      "pname": "xplr",
-      "name": "xplr-0.18.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/bj0dbkwa5hiwg7db7i6gibxrxa2c7nbk-xplr-0.18.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A hackable, minimal, fast TUI file explorer",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/xplr/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.xplr",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bj0dbkwa5hiwg7db7i6gibxrxa2c7nbk-xplr-0.18.0"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.17.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.17.3",
-      "pname": "xplr",
-      "name": "xplr-0.17.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/v52qjqiw6f2fhm4ky75q99dgghi1iicq-xplr-0.17.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A hackable, minimal, fast TUI file explorer",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/misc/xplr/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.xplr",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v52qjqiw6f2fhm4ky75q99dgghi1iicq-xplr-0.17.3"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.19.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,18 +20,102 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.xplr",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "xplr"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/955113hamj30s7lgsaqlafxgcjp0rnbh-xplr-0.19.0"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.17.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.17.6",
+      "pname": "xplr",
+      "name": "xplr-0.17.6",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/72inipdlpkq2fq3s2lnkn6l8lzzg431f-xplr-0.17.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A hackable, minimal, fast TUI file explorer",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/xplr/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "xplr"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/72inipdlpkq2fq3s2lnkn6l8lzzg431f-xplr-0.17.6"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.18.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.18.0",
+      "pname": "xplr",
+      "name": "xplr-0.18.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/bj0dbkwa5hiwg7db7i6gibxrxa2c7nbk-xplr-0.18.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A hackable, minimal, fast TUI file explorer",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/misc/xplr/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "xplr"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bj0dbkwa5hiwg7db7i6gibxrxa2c7nbk-xplr-0.18.0"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

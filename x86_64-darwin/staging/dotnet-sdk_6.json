@@ -1,76 +1,4 @@
 {
-  "6.0.300": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.300",
-      "pname": "dotnet-sdk",
-      "name": "dotnet-sdk-6.0.300",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/176d46v6x5l6mdwypywjl59s6g465b6b-dotnet-sdk-6.0.300"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": ".NET SDK 6.0.300",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/compilers/dotnet/build-dotnet.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.dotnet-sdk_6",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/176d46v6x5l6mdwypywjl59s6g465b6b-dotnet-sdk-6.0.300"
-      ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "6.0.201": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.201",
-      "pname": "dotnet-sdk",
-      "name": "dotnet-sdk-6.0.201",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/z8jq6prfrzycnkwlyarm5qc2zhmf053f-dotnet-sdk-6.0.201"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": ".NET SDK 6.0.201",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/compilers/dotnet/build-dotnet.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.dotnet-sdk_6",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z8jq6prfrzycnkwlyarm5qc2zhmf053f-dotnet-sdk-6.0.201"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "6.0.301": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,18 +20,102 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.dotnet-sdk_6",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dotnet-sdk_6"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/022g0j730v5w7xi8dda0ksw2sla3i07w-dotnet-sdk-6.0.301"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "6.0.202": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.202",
+      "pname": "dotnet-sdk",
+      "name": "dotnet-sdk-6.0.202",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/vrddik7kkh9bkvmbgm1vajnsa0mdnx30-dotnet-sdk-6.0.202"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": ".NET SDK 6.0.202",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/dotnet/build-dotnet.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dotnet-sdk_6"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vrddik7kkh9bkvmbgm1vajnsa0mdnx30-dotnet-sdk-6.0.202"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "6.0.300": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.300",
+      "pname": "dotnet-sdk",
+      "name": "dotnet-sdk-6.0.300",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/176d46v6x5l6mdwypywjl59s6g465b6b-dotnet-sdk-6.0.300"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": ".NET SDK 6.0.300",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/compilers/dotnet/build-dotnet.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dotnet-sdk_6"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/176d46v6x5l6mdwypywjl59s6g465b6b-dotnet-sdk-6.0.300"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

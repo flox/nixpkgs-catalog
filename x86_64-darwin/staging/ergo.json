@@ -1,40 +1,4 @@
 {
-  "4.0.34": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.34",
-      "pname": "ergo",
-      "name": "ergo-4.0.34",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/xsmy6bhpa8y1w1rpykb9j9qn98bm5qpr-ergo-4.0.34"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open protocol that implements modern scientific ideas in the blockchain area",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/blockchains/ergo/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.ergo",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xsmy6bhpa8y1w1rpykb9j9qn98bm5qpr-ergo-4.0.34"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "4.0.23": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.ergo",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ergo"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/z1jpc05a2hdnwmhm93r014dfs4x11dqs-ergo-4.0.23"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4.0.35": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.35",
+      "pname": "ergo",
+      "name": "ergo-4.0.35",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/zazhrv06bypxvrr6cabbjq3sbgiwnzhm-ergo-4.0.35"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open protocol that implements modern scientific ideas in the blockchain area",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/blockchains/ergo/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ergo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zazhrv06bypxvrr6cabbjq3sbgiwnzhm-ergo-4.0.35"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.ergo",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ergo"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/wy4yas759vwv6wxkkz3a5drhyb8dm4mx-ergo-4.0.30"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

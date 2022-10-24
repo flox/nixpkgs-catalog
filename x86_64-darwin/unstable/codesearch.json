@@ -1,40 +1,4 @@
 {
-  "1.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.0",
-      "pname": "codesearch",
-      "name": "codesearch-1.0.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/gmw622flbvzgg8zbzfnk1w23s8zfqsa4-codesearch-1.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast, indexed regexp search over large file trees",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/text/codesearch/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.codesearch",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gmw622flbvzgg8zbzfnk1w23s8zfqsa4-codesearch-1.0.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "20150717-a45d81b": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.codesearch",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "codesearch"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/vkq2sh4y9qss163naf6xilbb3s2idmsk-codesearch-20150717-a45d81b"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
@@ -92,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.codesearch",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "codesearch"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/770l7s7dljfvr0qivlz18jmlasnnlgih-codesearch-1.2.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

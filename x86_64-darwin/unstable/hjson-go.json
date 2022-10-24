@@ -1,40 +1,4 @@
 {
-  "4.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.0",
-      "pname": "hjson-go",
-      "name": "hjson-go-4.0.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/wc39pjhh0k6489n9vdn7c7i9rb7mlkkm-hjson-go-4.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Utility to convert JSON to and from HJSON",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/hjson-go/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.hjson-go",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wc39pjhh0k6489n9vdn7c7i9rb7mlkkm-hjson-go-4.0.0"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "3.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.hjson-go",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "hjson-go"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/237gyh3jbah8lhbl9kp9g4pc27k29y8y-hjson-go-3.1.1"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.0",
+      "pname": "hjson-go",
+      "name": "hjson-go-4.0.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/wc39pjhh0k6489n9vdn7c7i9rb7mlkkm-hjson-go-4.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Utility to convert JSON to and from HJSON",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/hjson-go/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "hjson-go"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wc39pjhh0k6489n9vdn7c7i9rb7mlkkm-hjson-go-4.0.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.hjson-go",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "hjson-go"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/vn55lci3h3i1kxvjm8wqf95l206ap16p-hjson-go-3.2.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

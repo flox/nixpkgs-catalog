@@ -1,40 +1,4 @@
 {
-  "0.43.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.43.1",
-      "pname": "dnsproxy",
-      "name": "dnsproxy-0.43.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/i0ar4wlvymg1mj2dhpfvm2aw0fn3qy7x-dnsproxy-0.43.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple DNS proxy with DoH, DoT, and DNSCrypt support",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/dnsproxy/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.dnsproxy",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i0ar4wlvymg1mj2dhpfvm2aw0fn3qy7x-dnsproxy-0.43.1"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.42.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.dnsproxy",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dnsproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2rwvr3ziaz0xdil7dxphwz3rx9dmzvzm-dnsproxy-0.42.1"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.43.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.43.1",
+      "pname": "dnsproxy",
+      "name": "dnsproxy-0.43.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/i0ar4wlvymg1mj2dhpfvm2aw0fn3qy7x-dnsproxy-0.43.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple DNS proxy with DoH, DoT, and DNSCrypt support",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/dnsproxy/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dnsproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i0ar4wlvymg1mj2dhpfvm2aw0fn3qy7x-dnsproxy-0.43.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.dnsproxy",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dnsproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/g2fd9xd9xpgz6bkyfzig02ki2vp46jck-dnsproxy-0.43.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

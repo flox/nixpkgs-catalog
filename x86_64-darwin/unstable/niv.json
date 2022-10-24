@@ -1,42 +1,4 @@
 {
-  "0.2.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.20",
-      "pname": "niv",
-      "name": "niv-0.2.20",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/28f8x1g0zr960zfskja2y897djhxlv6j-niv-0.2.20-bin",
-        "data": "/nix/store/01f7g3nh6w5r0qwwcad0c3sh6qhpawv5-niv-0.2.20-data",
-        "out": "/nix/store/5qk4a6x0xv6za6ssr20y4ymddjd0qf3z-niv-0.2.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Easy dependency management for Nix projects",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/haskell-modules/hackage-packages.nix:194954",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.niv",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/28f8x1g0zr960zfskja2y897djhxlv6j-niv-0.2.20-bin"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.2.19": {
     "type": "catalogRender",
     "schema": 1,
@@ -60,13 +22,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.niv",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "niv"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/j519545d9wpvifqnc3vyb3q6jjrhlkxz-niv-0.2.19-bin"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
@@ -98,13 +64,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.niv",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "niv"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/733ysq80zl70ypif6kfc7zr2fn4kh0m8-niv-0.2.21-bin"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

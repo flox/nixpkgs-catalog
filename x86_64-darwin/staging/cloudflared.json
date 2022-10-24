@@ -1,40 +1,4 @@
 {
-  "2022.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.5.1",
-      "pname": "cloudflared",
-      "name": "cloudflared-2022.5.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/dg2gsnfk0n270zl6bg6ckhdf3zsilwlb-cloudflared-2022.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CloudFlare Tunnel daemon (and DNS-over-HTTPS client)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cloudflared/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.cloudflared",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dg2gsnfk0n270zl6bg6ckhdf3zsilwlb-cloudflared-2022.5.1"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2022.7.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.cloudflared",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cloudflared"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kpz95k6vfpgv3lkfi47bd3xj80jj2m2d-cloudflared-2022.7.1"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2022.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.5.1",
+      "pname": "cloudflared",
+      "name": "cloudflared-2022.5.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/dg2gsnfk0n270zl6bg6ckhdf3zsilwlb-cloudflared-2022.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CloudFlare Tunnel daemon (and DNS-over-HTTPS client)",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cloudflared/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cloudflared"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dg2gsnfk0n270zl6bg6ckhdf3zsilwlb-cloudflared-2022.5.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.cloudflared",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cloudflared"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/h3xmh9i1yhdlf0d3hhn3db1v00pflvx1-cloudflared-2022.5.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

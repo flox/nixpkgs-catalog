@@ -1,40 +1,4 @@
 {
-  "0.4.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.20",
-      "pname": "mdbook",
-      "name": "mdbook-0.4.20",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/d2k30fpijfl3vhnkd77dlqc6qn5zrvpy-mdbook-0.4.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Create books from MarkDown",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/text/mdbook/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.mdbook",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d2k30fpijfl3vhnkd77dlqc6qn5zrvpy-mdbook-0.4.20"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.4.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.mdbook",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mdbook"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/i8sxrbkmrws5ffdayiprnmd112slk5vw-mdbook-0.4.12"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.4.21": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.21",
+      "pname": "mdbook",
+      "name": "mdbook-0.4.21",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/hbrm3xm76a5nm5qjhkzgx4vlg5ljcrcc-mdbook-0.4.21"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Create books from MarkDown",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/text/mdbook/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mdbook"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hbrm3xm76a5nm5qjhkzgx4vlg5ljcrcc-mdbook-0.4.21"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.mdbook",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mdbook"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7kdrqjk15986nj49by7qajxscwl6xnrk-mdbook-0.4.17"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

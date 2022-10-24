@@ -1,40 +1,4 @@
 {
-  "0.2.81": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.81",
-      "pname": "wasm-bindgen-cli",
-      "name": "wasm-bindgen-cli-0.2.81",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/mdmaac9rh19aax9ciyfinv5fg51k1kfx-wasm-bindgen-cli-0.2.81"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Facilitating high-level interactions between wasm modules and JavaScript",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/wasm-bindgen-cli/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.wasm-bindgen-cli",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mdmaac9rh19aax9ciyfinv5fg51k1kfx-wasm-bindgen-cli-0.2.81"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "0.2.79": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.wasm-bindgen-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "wasm-bindgen-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/w6m8kxzchg7l82n2f2kbvyigg6v8z2hk-wasm-bindgen-cli-0.2.79"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.2.81": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.81",
+      "pname": "wasm-bindgen-cli",
+      "name": "wasm-bindgen-cli-0.2.81",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/mdmaac9rh19aax9ciyfinv5fg51k1kfx-wasm-bindgen-cli-0.2.81"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Facilitating high-level interactions between wasm modules and JavaScript",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/wasm-bindgen-cli/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "wasm-bindgen-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mdmaac9rh19aax9ciyfinv5fg51k1kfx-wasm-bindgen-cli-0.2.81"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.wasm-bindgen-cli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "wasm-bindgen-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/4i23ixzzp5a1jjlqcjzilff4fpwm6vlc-wasm-bindgen-cli-0.2.80"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

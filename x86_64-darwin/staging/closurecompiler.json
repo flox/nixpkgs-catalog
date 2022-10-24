@@ -1,40 +1,4 @@
 {
-  "20200719": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20200719",
-      "pname": "closure-compiler",
-      "name": "closure-compiler-20200719",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/64aqmp073hk5y1hcjc5qsz617jvpg4h7-closure-compiler-20200719"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool for making JavaScript download and run faster",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/closure/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.closurecompiler",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/64aqmp073hk5y1hcjc5qsz617jvpg4h7-closure-compiler-20200719"
-      ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "20220502": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.closurecompiler",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "closurecompiler"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/y51r2b702hfq7ihaqfpd1irlqzya0isi-closure-compiler-20220502"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "20220719": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220719",
+      "pname": "closure-compiler",
+      "name": "closure-compiler-20220719",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/8k0qzpb6njq1mwdhiqxjhqbafdnww4w2-closure-compiler-20220719"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool for making JavaScript download and run faster",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/compilers/closure/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "closurecompiler"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8k0qzpb6njq1mwdhiqxjhqbafdnww4w2-closure-compiler-20220719"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.closurecompiler",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "closurecompiler"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/fshg6016mdwag12jsy7kdds7k481cpq9-closure-compiler-20220202"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

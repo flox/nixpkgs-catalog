@@ -21,13 +21,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.nodejs-slim",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nodejs-slim"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/rjh1ghcq1xya4wn3wzw7y6haa38rgrlj-nodejs-slim-16.15.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
@@ -58,13 +62,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.nodejs-slim",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nodejs-slim"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7n2nyyb7y6hcacwr14pml5gj9rgh11n7-nodejs-slim-16.15.0"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
@@ -73,40 +81,44 @@
       }
     }
   },
-  "16.14.2": {
+  "16.16.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "16.14.2",
+      "version": "16.16.0",
       "pname": "nodejs-slim",
-      "name": "nodejs-slim-16.14.2",
+      "name": "nodejs-slim-16.16.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "libv8": "/nix/store/31pz9y2zas9f67m2azdhxr3qwmppxpjr-nodejs-slim-16.14.2-libv8",
-        "out": "/nix/store/m82y1djcgjc35mlaap4pw6xylp24dkq9-nodejs-slim-16.14.2"
+        "libv8": "/nix/store/qnk5pkixqljllhv4lqavz057c3823yxs-nodejs-slim-16.16.0-libv8",
+        "out": "/nix/store/fiq28c23x60dpncsy3gvc1ypd2fd7x05-nodejs-slim-16.16.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/web/nodejs/v16.nix:11",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/web/nodejs/v16.nix:11",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.nodejs-slim",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nodejs-slim"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/m82y1djcgjc35mlaap4pw6xylp24dkq9-nodejs-slim-16.14.2"
+        "/nix/store/fiq28c23x60dpncsy3gvc1ypd2fd7x05-nodejs-slim-16.16.0"
       ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

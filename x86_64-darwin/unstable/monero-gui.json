@@ -1,40 +1,4 @@
 {
-  "0.17.3.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.17.3.1",
-      "pname": "monero-gui",
-      "name": "monero-gui-0.17.3.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/rm3d9agxbmkj7f8cmlkyl4ayldyr56v6-monero-gui-0.17.3.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Private, secure, untraceable currency",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/applications/blockchains/monero-gui/default.nix:97",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.monero-gui",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rm3d9agxbmkj7f8cmlkyl4ayldyr56v6-monero-gui-0.17.3.1"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "0.17.3.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.monero-gui",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "monero-gui"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/hmwkhwgag04bcxi22pxbgx512miq1s4a-monero-gui-0.17.3.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

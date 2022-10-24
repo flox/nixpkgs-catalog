@@ -22,58 +22,23 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.kubectl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/3q47szcv40x7hz883pmhhwif9jgi8dqx-kubectl-1.23.7",
         "/nix/store/hn34xv4vf6v1cpfazjf93xc6r3436c1x-kubectl-1.23.7-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
-      }
-    }
-  },
-  "1.23.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.5",
-      "pname": "kubectl",
-      "name": "kubectl-1.23.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "man": "/nix/store/p4xdn2ll9zwf4cs7599dql3gipm2bg14-kubectl-1.23.5-man",
-        "out": "/nix/store/f8ajf6c8y41w481662qvsw7q8xc5d025-kubectl-1.23.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Kubernetes CLI",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.kubectl",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f8ajf6c8y41w481662qvsw7q8xc5d025-kubectl-1.23.5",
-        "/nix/store/p4xdn2ll9zwf4cs7599dql3gipm2bg14-kubectl-1.23.5-man"
-      ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   },
@@ -101,19 +66,67 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.kubectl",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/jk8x2w7asra4sv7gplfcvl1bxbjjjkbh-kubectl-1.23.8",
         "/nix/store/p814gbjd4vc83zrcylxbjjwc6h22bij7-kubectl-1.23.8-man"
       ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
     },
     "source": {
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.23.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.9",
+      "pname": "kubectl",
+      "name": "kubectl-1.23.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "convert": "/nix/store/6r940a3mpxpr6d7nbqgnw59innn583yf-kubectl-1.23.9-convert",
+        "man": "/nix/store/cyljvpg98gma5lsf36d5d7dd43f5v08c-kubectl-1.23.9-man",
+        "out": "/nix/store/bck6c4jw7m429c01aa7qz1rjwlybk28y-kubectl-1.23.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Kubernetes CLI",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kubectl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bck6c4jw7m429c01aa7qz1rjwlybk28y-kubectl-1.23.9",
+        "/nix/store/cyljvpg98gma5lsf36d5d7dd43f5v08c-kubectl-1.23.9-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

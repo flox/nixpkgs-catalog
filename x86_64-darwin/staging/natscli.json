@@ -1,4 +1,44 @@
 {
+  "0.0.25": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.25",
+      "pname": "natscli",
+      "name": "natscli-0.0.25",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/90hdxb23jln1y07fbl7q0fcvlxav745w-natscli-0.0.25"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "NATS Command Line Interface",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/system/natscli/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "natscli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/90hdxb23jln1y07fbl7q0fcvlxav745w-natscli-0.0.25"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
   "0.0.32": {
     "type": "catalogRender",
     "schema": 1,
@@ -20,54 +60,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.natscli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "natscli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/6gyrajxzzmpdsx50aq15c5rgf2x38xlx-natscli-0.0.32"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "0.0.30": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.0.30",
-      "pname": "natscli",
-      "name": "natscli-0.0.30",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/xh3p89vh6zznlv807lfd3bkwscpv9lsc-natscli-0.0.30"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "NATS Command Line Interface",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/system/natscli/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.natscli",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xh3p89vh6zznlv807lfd3bkwscpv9lsc-natscli-0.0.30"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.natscli",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "natscli"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/hs5mqfb7hji76amclzmj7cwrnbjbh0n8-natscli-0.0.33"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

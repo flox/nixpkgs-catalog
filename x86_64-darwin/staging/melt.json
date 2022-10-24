@@ -1,76 +1,4 @@
 {
-  "0.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.0",
-      "pname": "melt",
-      "name": "melt-0.2.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/g9l9dd82923viyav4vk4lxiw2wdpzbmq-melt-0.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Backup and restore Ed25519 SSH keys with seed words",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/security/melt/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.melt",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g9l9dd82923viyav4vk4lxiw2wdpzbmq-melt-0.2.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
-  "0.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.0",
-      "pname": "melt",
-      "name": "melt-0.3.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/0frdslc3jahssxfrlbqc2fjd9biyh7n8-melt-0.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Backup and restore Ed25519 SSH keys with seed words",
-        "position": "/nix/store/h96rpxzp4q192r3fnwzclg3rmdg4nlqk-source/pkgs/tools/security/melt/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.melt",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0frdslc3jahssxfrlbqc2fjd9biyh7n8-melt-0.3.0"
-      ],
-      "url": "github:flox/floxpkgs/1ffba9f2f683063c2b14c9f4d12c55ad5f4ed887"
-    },
-    "source": {
-      "locked": {
-        "revCount": 369988,
-        "lastModified": 1650161686
-      }
-    }
-  },
   "0.4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.melt",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "melt"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2d2f983qcnw734fdnzkqh3zk40s43iic-melt-0.4.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

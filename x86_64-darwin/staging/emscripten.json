@@ -1,4 +1,44 @@
 {
+  "3.1.17": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.17",
+      "pname": "emscripten",
+      "name": "emscripten-3.1.17",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/xm863b6p8n1yjhni82ljp3ylzr2lzg8c-emscripten-3.1.17"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An LLVM-to-JavaScript Compiler",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/compilers/emscripten/default.nix:121",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "emscripten"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xm863b6p8n1yjhni82ljp3ylzr2lzg8c-emscripten-3.1.17"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
+      }
+    }
+  },
   "3.1.14": {
     "type": "catalogRender",
     "schema": 1,
@@ -20,54 +60,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.emscripten",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "emscripten"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/mgbaz8k4mynbl1mkxp560p09jnxkk1kb-emscripten-3.1.14"
       ],
-      "url": "github:flox/floxpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
     },
     "source": {
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
-      }
-    }
-  },
-  "3.1.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.15",
-      "pname": "emscripten",
-      "name": "emscripten-3.1.15",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/8czxmjqqc2ml68cl0l8wnppzqfi489aj-emscripten-3.1.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An LLVM-to-JavaScript Compiler",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/compilers/emscripten/default.nix:121",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.emscripten",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8czxmjqqc2ml68cl0l8wnppzqfi489aj-emscripten-3.1.15"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.emscripten",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "emscripten"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2fwpg5gfdzcg4bgaf30pdcvjbk5rdm69-emscripten-3.0.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

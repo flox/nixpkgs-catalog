@@ -1,4 +1,46 @@
 {
+  "4.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.0",
+      "pname": "zeek",
+      "name": "zeek-4.1.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "lib": "/nix/store/sj6il0mqks74yrjszvv5kf56chqxyhyr-zeek-4.1.0-lib",
+        "out": "/nix/store/cpxvkmjl13mj8q89338y85zn1sy3n5mi-zeek-4.1.0",
+        "py": "/nix/store/clgnafph59wpbkg0y007sxnr1i0gr2zh-zeek-4.1.0-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful network analysis framework much different from a typical IDS",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/ids/zeek/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bro"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cpxvkmjl13mj8q89338y85zn1sy3n5mi-zeek-4.1.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
   "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -22,56 +64,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.bro",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bro"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/vcjqh8xplgc3pwh34flar8fhb4jx1336-zeek-4.2.1"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "4.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.0",
-      "pname": "zeek",
-      "name": "zeek-4.2.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "lib": "/nix/store/v8piw95adwvflbp7iiskllkja8m76pcx-zeek-4.2.0-lib",
-        "out": "/nix/store/xqp8mlln6wq6pp7av01f4nq03liynv9n-zeek-4.2.0",
-        "py": "/nix/store/r9y0x388qfy1p87z8qvhlkhdgak25px3-zeek-4.2.0-py"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Network analysis framework much different from a typical IDS",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/networking/ids/zeek/default.nix:74",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.bro",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xqp8mlln6wq6pp7av01f4nq03liynv9n-zeek-4.2.0"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },
@@ -98,13 +106,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.bro",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bro"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/94c85h1r9zq5raqp8frxsy5zblcls5cv-zeek-4.2.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

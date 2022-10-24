@@ -1,40 +1,4 @@
 {
-  "1.0.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.5",
-      "pname": "lefthook",
-      "name": "lefthook-1.0.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/wcxs4v52cfcc8dhngjjqpy0pfk4vcpq9-lefthook-1.0.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast and powerful Git hooks manager for any type of projects",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/git-and-tools/lefthook/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.lefthook",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wcxs4v52cfcc8dhngjjqpy0pfk4vcpq9-lefthook-1.0.5"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.0.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.lefthook",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lefthook"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/c535l2d4di6brs00cp9dwsnkk74gfq3g-lefthook-1.0.4"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.0.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.5",
+      "pname": "lefthook",
+      "name": "lefthook-1.0.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/wcxs4v52cfcc8dhngjjqpy0pfk4vcpq9-lefthook-1.0.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast and powerful Git hooks manager for any type of projects",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/git-and-tools/lefthook/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lefthook"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wcxs4v52cfcc8dhngjjqpy0pfk4vcpq9-lefthook-1.0.5"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.lefthook",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lefthook"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/2yjmkvwi7909c8x45i2jswxvrhwic215-lefthook-0.7.7"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

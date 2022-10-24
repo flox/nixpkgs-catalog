@@ -1,41 +1,4 @@
 {
-  "22.06.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.06.0",
-      "pname": "poppler-glib",
-      "name": "poppler-glib-22.06.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/rsr1ynq8rdv29gfrw9fcv8al6g8yxsqx-poppler-glib-22.06.0-dev",
-        "out": "/nix/store/fr7sf4y0527ppqxw1xxgvigjcbscsgxi-poppler-glib-22.06.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A PDF rendering library",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/poppler/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.poppler_gi",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fr7sf4y0527ppqxw1xxgvigjcbscsgxi-poppler-glib-22.06.0"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "21.06.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -58,18 +21,63 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.poppler_gi",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "poppler_gi"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/nx5fs22b5bm69v7l9s6k7pic3vaihchs-poppler-glib-21.06.1"
       ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "22.06.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.06.0",
+      "pname": "poppler-glib",
+      "name": "poppler-glib-22.06.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/rsr1ynq8rdv29gfrw9fcv8al6g8yxsqx-poppler-glib-22.06.0-dev",
+        "out": "/nix/store/fr7sf4y0527ppqxw1xxgvigjcbscsgxi-poppler-glib-22.06.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A PDF rendering library",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/poppler/default.nix:106",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "poppler_gi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fr7sf4y0527ppqxw1xxgvigjcbscsgxi-poppler-glib-22.06.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -95,13 +103,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.poppler_gi",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "poppler_gi"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/z7h1a47j7xm52hxxs1gmfx2s2lgx59ar-poppler-glib-22.04.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,46 +1,4 @@
 {
-  "7.82.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.82.0",
-      "pname": "curl",
-      "name": "curl-7.82.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/0qw182x69c0wydfagcb43whk7cds5zik-curl-7.82.0-bin",
-        "dev": "/nix/store/38zk6pnw90l0xv7ygsprrn3yzjbw1k0d-curl-7.82.0-dev",
-        "devdoc": "/nix/store/kmb8bdm12jabama6mwiawm0ah6p1k8b4-curl-7.82.0-devdoc",
-        "man": "/nix/store/s4s63hwf5kfckvphpm30bbdqb8qrd1sq-curl-7.82.0-man",
-        "out": "/nix/store/6avw6k75xbdhzwvfzp3mrpgzckpgk198-curl-7.82.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A command line tool for transferring files with URL syntax",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/tools/networking/curl/default.nix:162",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.curlHTTP3",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0qw182x69c0wydfagcb43whk7cds5zik-curl-7.82.0-bin",
-        "/nix/store/s4s63hwf5kfckvphpm30bbdqb8qrd1sq-curl-7.82.0-man"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "7.84.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -67,14 +25,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.curlHTTP3",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "curlHTTP3"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/ann29jy5kmc4rww7y7fkiw2qca4rrj7p-curl-7.84.0-bin",
         "/nix/store/5qc77cv6q581vkxp35p123r6cc4gbiqm-curl-7.84.0-man"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -109,14 +71,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.curlHTTP3",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "curlHTTP3"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/f038ngk7jafx6dm0v0fh2s8s3rfijqrv-curl-7.83.1-bin",
         "/nix/store/fa16xdzdw662hv5dl7phjznqfln2nw5a-curl-7.83.1-man"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

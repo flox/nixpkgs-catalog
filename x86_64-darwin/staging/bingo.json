@@ -1,40 +1,4 @@
 {
-  "0.5.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.2",
-      "pname": "bingo",
-      "name": "bingo-0.5.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/7ma43biwgjqp28mdwh5z8b3gbgchv1rd-bingo-0.5.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Like `go get` but for Go tools! CI Automating versioning of Go binaries in a nested, isolated Go modules.",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/tools/bingo/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.bingo",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7ma43biwgjqp28mdwh5z8b3gbgchv1rd-bingo-0.5.2"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.bingo",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bingo"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/px8rfzygidiyjh1zk16nfx9mnv4zyhh6-bingo-0.6.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

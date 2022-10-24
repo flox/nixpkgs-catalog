@@ -1,44 +1,4 @@
 {
-  "0.3.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.7",
-      "pname": "libxmlb",
-      "name": "libxmlb-0.3.7",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/c6v3lfgznniskd77ywhbi93ydl53y066-libxmlb-0.3.7-dev",
-        "devdoc": "/nix/store/6fw0a4jdpj4x323rbkv8mq0a638fzqsf-libxmlb-0.3.7-devdoc",
-        "installedTests": "/nix/store/m4mcfl241vwbxmxprw5c4gig6cggvbia-libxmlb-0.3.7-installedTests",
-        "lib": "/nix/store/wmsp496l40dkrhhz0l8i9fnfmk4i0a6g-libxmlb-0.3.7-lib",
-        "out": "/nix/store/hbx9r7x0c3h8i8rafmlzahlhlja29z9r-libxmlb-0.3.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library to help create and query binary XML blobs",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/libxmlb/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.libxmlb",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hbx9r7x0c3h8i8rafmlzahlhlja29z9r-libxmlb-0.3.7"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "0.3.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -64,13 +24,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.libxmlb",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libxmlb"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7448na11y47jmj23mqlyqbfwcvm7ys1k-libxmlb-0.3.9"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -104,13 +68,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.libxmlb",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libxmlb"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/vr63j5cqkcl30g7m6502mm0ja10d9k3n-libxmlb-0.3.8"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

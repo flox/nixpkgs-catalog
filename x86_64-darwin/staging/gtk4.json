@@ -1,75 +1,42 @@
 {
-  "4.6.5": {
+  "4.6.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.6.5",
+      "version": "4.6.4",
       "pname": "gtk4",
-      "name": "gtk4-4.6.5",
+      "name": "gtk4-4.6.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/4v7xz2bsng2rgmgz9n69i26c32r71cg2-gtk4-4.6.5-dev",
-        "out": "/nix/store/8551wfiy3l2l0zgizl835cd14mb11g74-gtk4-4.6.5"
+        "dev": "/nix/store/xzm0z8jh2xv9k5y0mygyc6drm12360lw-gtk4-4.6.4-dev",
+        "out": "/nix/store/qyrvjf1arf55c3gzsspnw0d65hcljap1-gtk4-4.6.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A multi-platform toolkit for creating graphical user interfaces",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/gtk/4.x.nix:232",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/gtk/4.x.nix:232",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gtk4",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gtk4"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8551wfiy3l2l0zgizl835cd14mb11g74-gtk4-4.6.5"
+        "/nix/store/qyrvjf1arf55c3gzsspnw0d65hcljap1-gtk4-4.6.4"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "4.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.6.2",
-      "pname": "gtk4",
-      "name": "gtk4-4.6.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/6ribkhk6ymcj1kfj9cwkpnkpb2idd981-gtk4-4.6.2-dev",
-        "out": "/nix/store/vryw42lgpkrm7xpxr122ls7khk9fmz9v-gtk4-4.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A multi-platform toolkit for creating graphical user interfaces",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gtk/4.x.nix:232",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gtk4",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vryw42lgpkrm7xpxr122ls7khk9fmz9v-gtk4-4.6.2"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },
@@ -95,18 +62,63 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gtk4",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gtk4"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gr3qp0i0z0pna2svfn1a84bxm05gd9wk-gtk4-4.6.6"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "4.6.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.6.5",
+      "pname": "gtk4",
+      "name": "gtk4-4.6.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/4v7xz2bsng2rgmgz9n69i26c32r71cg2-gtk4-4.6.5-dev",
+        "out": "/nix/store/8551wfiy3l2l0zgizl835cd14mb11g74-gtk4-4.6.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A multi-platform toolkit for creating graphical user interfaces",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/gtk/4.x.nix:232",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gtk4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8551wfiy3l2l0zgizl835cd14mb11g74-gtk4-4.6.5"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

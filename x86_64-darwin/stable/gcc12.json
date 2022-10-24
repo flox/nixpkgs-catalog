@@ -23,14 +23,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.stable.gcc12",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gcc12"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/7gvzwmdgc78vribv2wkvabflvbnnwkpn-gcc-wrapper-12.1.0",
         "/nix/store/yf1y7xjglcviyg4pb4ww0fmyh6mz1wxi-gcc-wrapper-12.1.0-man"
       ],
-      "url": "github:flox/floxpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {

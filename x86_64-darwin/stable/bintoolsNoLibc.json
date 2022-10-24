@@ -22,14 +22,18 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.stable.bintoolsNoLibc",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bintoolsNoLibc"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/b42gvaf0cg1qlcs1pagixg0biv451bdd-cctools-binutils-darwin-wrapper-949.0.1",
         "/nix/store/6d0ng5285dnpmsmf7y2c8dmwxk5sw813-cctools-binutils-darwin-wrapper-949.0.1-man"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {

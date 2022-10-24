@@ -1,4 +1,45 @@
 {
+  "2.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.11.0",
+      "pname": "freetype",
+      "name": "freetype-2.11.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/p4nkdxf00761qrs3mvipfkwl6frkqd0x-freetype-2.11.0-dev",
+        "out": "/nix/store/j32zfn66d8w96fbd1lqz33x7d9kycm7l-freetype-2.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A font rendering engine",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/freetype/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "freetype"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j32zfn66d8w96fbd1lqz33x7d9kycm7l-freetype-2.11.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
   "2.12.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -21,55 +62,22 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.freetype",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "freetype"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/lvnj144qfsq94izjs759w3n30baq0hjy-freetype-2.12.0"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "2.11.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.11.1",
-      "pname": "freetype",
-      "name": "freetype-2.11.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/llw44s72d8aq69z15j194dsqal0rhvvk-freetype-2.11.1-dev",
-        "out": "/nix/store/pg9by25c12b4psw3awhgi7lj371q3zm6-freetype-2.11.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A font rendering engine",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/freetype/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.freetype",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pg9by25c12b4psw3awhgi7lj371q3zm6-freetype-2.11.1"
-      ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
       }
     }
   },
@@ -95,13 +103,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.freetype",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "freetype"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/6gw47082b091isahjylbnchv2ni0gfdh-freetype-2.12.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

@@ -1,40 +1,4 @@
 {
-  "0.18.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.0",
-      "pname": "pack",
-      "name": "pack-0.18.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/5qji2s5c97hs94sv02w0dj2gp2mw5mnz-pack-0.18.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI for building apps using Cloud Native Buildpacks",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/buildpack/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.buildpack",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5qji2s5c97hs94sv02w0dj2gp2mw5mnz-pack-0.18.0"
-      ],
-      "url": "github:flox/floxpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.24.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,18 +20,62 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.buildpack",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "buildpack"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/r0vq5b1s0a48fxi1ad8pj451qkg3zf9y-pack-0.24.1"
       ],
-      "url": "github:flox/floxpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.27.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.27.0",
+      "pname": "pack",
+      "name": "pack-0.27.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/lq9lb1x33wd9wwyxf0q9sp51gn6bblgb-pack-0.27.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI for building apps using Cloud Native Buildpacks",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/buildpack/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "buildpack"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lq9lb1x33wd9wwyxf0q9sp51gn6bblgb-pack-0.27.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.buildpack",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "buildpack"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/78c8jivsvrcwwmnk4i2x94aczkbvj08l-pack-0.26.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

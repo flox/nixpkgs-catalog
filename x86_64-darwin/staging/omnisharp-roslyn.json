@@ -1,40 +1,4 @@
 {
-  "1.38.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.38.1",
-      "pname": "omnisharp-roslyn",
-      "name": "omnisharp-roslyn-1.38.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/fjqpyidk5x78cs8g146v4mpi4wx427h2-omnisharp-roslyn-1.38.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "OmniSharp based on roslyn workspaces",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/tools/omnisharp-roslyn/default.nix:104",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.omnisharp-roslyn",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fjqpyidk5x78cs8g146v4mpi4wx427h2-omnisharp-roslyn-1.38.1"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "1.38.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.omnisharp-roslyn",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "omnisharp-roslyn"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kwjgdlpmmv0k16w0d14sk752ry9pmls9-omnisharp-roslyn-1.38.2"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

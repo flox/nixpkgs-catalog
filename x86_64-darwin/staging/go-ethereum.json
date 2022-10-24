@@ -1,42 +1,4 @@
 {
-  "1.10.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.20",
-      "pname": "go-ethereum",
-      "name": "go-ethereum-1.10.20",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "clef": "/nix/store/i92z78aibcmyli7mrgcnlirpzmg5cjrd-go-ethereum-1.10.20-clef",
-        "geth": "/nix/store/a1kv5m1746aq9pw21c2l1sqcsq02hv3j-go-ethereum-1.10.20-geth",
-        "out": "/nix/store/16wl0fqgjr1vcwkm9cg2rqsgbm7ll7ak-go-ethereum-1.10.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Official golang implementation of the Ethereum protocol",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/blockchains/go-ethereum/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.go-ethereum",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/16wl0fqgjr1vcwkm9cg2rqsgbm7ll7ak-go-ethereum-1.10.20"
-      ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.10.21": {
     "type": "catalogRender",
     "schema": 1,
@@ -60,18 +22,64 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.go-ethereum",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "go-ethereum"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/djblj0yxj04dsd72196czgmllz37rbli-go-ethereum-1.10.21"
       ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
     },
     "source": {
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "1.10.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.18",
+      "pname": "go-ethereum",
+      "name": "go-ethereum-1.10.18",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "clef": "/nix/store/6jsd0mhnpacn0pcjwm45ian447i3cga4-go-ethereum-1.10.18-clef",
+        "geth": "/nix/store/3p08f306i6x8q8hrwsbjf23ixyk8wz6h-go-ethereum-1.10.18-geth",
+        "out": "/nix/store/w7r9dw1zvqp0bcyn2fvw9vmy7nl2rm6r-go-ethereum-1.10.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official golang implementation of the Ethereum protocol",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/blockchains/go-ethereum/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "go-ethereum"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w7r9dw1zvqp0bcyn2fvw9vmy7nl2rm6r-go-ethereum-1.10.18"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   },
@@ -98,13 +106,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.go-ethereum",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "go-ethereum"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/kz7p4zm9kbpfaip4pxpdd97rmxs4h432-go-ethereum-1.10.17"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

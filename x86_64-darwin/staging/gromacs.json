@@ -1,37 +1,41 @@
 {
-  "2022": {
+  "2020.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2022",
+      "version": "2020.4",
       "pname": "gromacs",
-      "name": "gromacs-2022",
+      "name": "gromacs-2020.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/fn1jqzkvjmb3n604hc2lw0i7qssbz5ph-gromacs-2022"
+        "out": "/nix/store/kfvyvs25wnqmrk2dbm8asr99lli9c43f-gromacs-2020.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Molecular dynamics software package",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/applications/science/molecular-dynamics/gromacs/default.nix:69",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/science/molecular-dynamics/gromacs/default.nix:60",
         "unfree": false
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gromacs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gromacs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/fn1jqzkvjmb3n604hc2lw0i7qssbz5ph-gromacs-2022"
+        "/nix/store/kfvyvs25wnqmrk2dbm8asr99lli9c43f-gromacs-2020.4"
       ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
     },
     "source": {
       "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },
@@ -56,13 +60,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gromacs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gromacs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/rld07zwka3gsdhri6qbak8y1dlagvjsk-gromacs-2022.2"
       ],
-      "url": "github:flox/floxpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
@@ -92,13 +100,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.staging.gromacs",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gromacs"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/gaxd6qbmf3z84l72cf2mbccq3p4p2g6v-gromacs-2022.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

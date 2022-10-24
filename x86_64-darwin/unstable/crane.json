@@ -1,42 +1,4 @@
 {
-  "0.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.0",
-      "pname": "go-containerregistry",
-      "name": "go-containerregistry-0.11.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "crane": "/nix/store/r0phrj3s98jjx60svn58b2mnb201x02p-go-containerregistry-0.11.0-crane",
-        "gcrane": "/nix/store/axndmaj1gjbqk859mig62kkhiqgshk8a-go-containerregistry-0.11.0-gcrane",
-        "out": "/nix/store/bgjrg8hqz6m5c6lmqv1qrqr6gh1y6vii-go-containerregistry-0.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for interacting with remote images and registries including crane and gcrane",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-containerregistry/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.crane",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bgjrg8hqz6m5c6lmqv1qrqr6gh1y6vii-go-containerregistry-0.11.0"
-      ],
-      "url": "github:flox/floxpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -60,18 +22,64 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.crane",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "crane"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/62kk4j34ykrdf8d390sbirsr1ysrylmq-go-containerregistry-0.6.0"
       ],
-      "url": "github:flox/floxpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.0",
+      "pname": "go-containerregistry",
+      "name": "go-containerregistry-0.11.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "crane": "/nix/store/r0phrj3s98jjx60svn58b2mnb201x02p-go-containerregistry-0.11.0-crane",
+        "gcrane": "/nix/store/axndmaj1gjbqk859mig62kkhiqgshk8a-go-containerregistry-0.11.0-gcrane",
+        "out": "/nix/store/bgjrg8hqz6m5c6lmqv1qrqr6gh1y6vii-go-containerregistry-0.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for interacting with remote images and registries including crane and gcrane",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/go-containerregistry/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "crane"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bgjrg8hqz6m5c6lmqv1qrqr6gh1y6vii-go-containerregistry-0.11.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -98,13 +106,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.crane",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "crane"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/15qsbj05410sq3kx623z7gwz28hkmpp4-go-containerregistry-0.8.0"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {

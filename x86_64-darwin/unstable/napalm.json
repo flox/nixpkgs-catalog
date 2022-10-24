@@ -1,40 +1,4 @@
 {
-  "3.3.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.1",
-      "pname": "napalm",
-      "name": "napalm-3.3.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/mmmjzskb1vcirvvxnx2s0zhsbk9l0yww-python3.9-napalm-3.3.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Network Automation and Programmability Abstraction Layer with Multivendor support",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/python-modules/napalm/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.napalm",
-      "originalUrl": "flake:floxpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mmmjzskb1vcirvvxnx2s0zhsbk9l0yww-python3.9-napalm-3.3.1"
-      ],
-      "url": "github:flox/floxpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
-      }
-    }
-  },
   "3.4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -56,13 +20,17 @@
       }
     },
     "element": {
-      "attrPath": "legacyPackages.x86_64-darwin.unstable.napalm",
-      "originalUrl": "flake:floxpkgs",
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "napalm"
+      ],
+      "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
         "/nix/store/17rm5pm2afcjycbpvc4jnf998vvwhaa0-python3.9-napalm-3.4.1"
       ],
-      "url": "github:flox/floxpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
