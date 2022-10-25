@@ -1,1 +1,46 @@
-null
+{
+  "3.3.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.10",
+      "pname": "fftw-double",
+      "name": "fftw-double-3.3.10",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/6i8jnp40rda4hsysrhrb6n7zcf4f6kih-fftw-double-3.3.10-dev",
+        "man": "/nix/store/slq9b400xd6jli7wc9bq7b62mpc69zdc-fftw-double-3.3.10-man",
+        "out": "/nix/store/s0lwm1l5p5jgy0gk6xq0l48ppp4ghs8r-fftw-double-3.3.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Fastest Fourier Transform in the West library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/fftw/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fftwMpi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s0lwm1l5p5jgy0gk6xq0l48ppp4ghs8r-fftw-double-3.3.10",
+        "/nix/store/slq9b400xd6jli7wc9bq7b62mpc69zdc-fftw-double-3.3.10-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  }
+}

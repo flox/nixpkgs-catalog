@@ -1,21 +1,22 @@
 {
-  "3.2.0": {
+  "3.3.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.2.0",
+      "version": "3.3.0",
       "pname": "Mopidy-MPD",
-      "name": "Mopidy-MPD-3.2.0",
+      "name": "Mopidy-MPD-3.3.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/lq7pin1y2lmw2gwy4gy9jp9yh4kvzfm4-Mopidy-MPD-3.2.0"
+        "dist": "/nix/store/ay1d6mlci27g9lifw87664cc95k0ij6g-Mopidy-MPD-3.3.0-dist",
+        "out": "/nix/store/xm0zf7bf7jxi64gwqys3i26c4zcl87xc-Mopidy-MPD-3.3.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Mopidy extension for controlling playback from MPD clients",
-        "position": "/nix/store/r0mv3b6a77xgixsmrg5biz2i19rwxz9m-source/pkgs/applications/audio/mopidy/mpd.nix:20",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/audio/mopidy/mpd.nix:20",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lq7pin1y2lmw2gwy4gy9jp9yh4kvzfm4-Mopidy-MPD-3.2.0"
+        "/nix/store/xm0zf7bf7jxi64gwqys3i26c4zcl87xc-Mopidy-MPD-3.3.0"
       ],
-      "url": "github:flox/nixpkgs/614a842b74b7a1497e8cfca7c61bec38f51911b3"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 393074,
-        "lastModified": 1658290795
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "3.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.0",
+      "pname": "Mopidy-MPD",
+      "name": "Mopidy-MPD-3.2.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/n3k6dkjsyxqc1g4z2jmy6n4271ms8b8l-Mopidy-MPD-3.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mopidy extension for controlling playback from MPD clients",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/mopidy/mpd.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mopidy-mpd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n3k6dkjsyxqc1g4z2jmy6n4271ms8b8l-Mopidy-MPD-3.2.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

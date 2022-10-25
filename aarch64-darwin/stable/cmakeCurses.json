@@ -43,50 +43,6 @@
       }
     }
   },
-  "3.22.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.22.1",
-      "pname": "cmake-cursesUI",
-      "name": "cmake-cursesUI-3.22.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "info": "/nix/store/bqpwpkjvwyh0q2g96490qlhvs3ksm2kg-cmake-cursesUI-3.22.1-info",
-        "man": "/nix/store/8lcg01pc9ic7qkgfkv42ggabi55shwyf-cmake-cursesUI-3.22.1-man",
-        "out": "/nix/store/3mq3larv5k1hvinsyjr0pc7lvi8jxnk0-cmake-cursesUI-3.22.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Cross-Platform Makefile Generator",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/build-managers/cmake/default.nix:123",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "cmakeCurses"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3mq3larv5k1hvinsyjr0pc7lvi8jxnk0-cmake-cursesUI-3.22.1",
-        "/nix/store/8lcg01pc9ic7qkgfkv42ggabi55shwyf-cmake-cursesUI-3.22.1-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.19.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "3.22.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.22.1",
+      "pname": "cmake-cursesUI",
+      "name": "cmake-cursesUI-3.22.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "info": "/nix/store/bqpwpkjvwyh0q2g96490qlhvs3ksm2kg-cmake-cursesUI-3.22.1-info",
+        "man": "/nix/store/8lcg01pc9ic7qkgfkv42ggabi55shwyf-cmake-cursesUI-3.22.1-man",
+        "out": "/nix/store/3mq3larv5k1hvinsyjr0pc7lvi8jxnk0-cmake-cursesUI-3.22.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Cross-Platform Makefile Generator",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/build-managers/cmake/default.nix:123",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "cmakeCurses"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3mq3larv5k1hvinsyjr0pc7lvi8jxnk0-cmake-cursesUI-3.22.1",
+        "/nix/store/8lcg01pc9ic7qkgfkv42ggabi55shwyf-cmake-cursesUI-3.22.1-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

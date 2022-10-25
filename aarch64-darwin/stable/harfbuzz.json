@@ -41,48 +41,6 @@
       }
     }
   },
-  "3.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.2",
-      "pname": "harfbuzz",
-      "name": "harfbuzz-3.1.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/71260xlgj4jjlb5qxxh04ifc8i6q7d2k-harfbuzz-3.1.2-dev",
-        "devdoc": "/nix/store/m5yz8x1yir8j32rrlm4d6bas6zfzl4l9-harfbuzz-3.1.2-devdoc",
-        "out": "/nix/store/ipw6j8paq7ifcx1wmbpiqlnjzc29bh90-harfbuzz-3.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An OpenType text shaping engine",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/harfbuzz/default.nix:103",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "harfbuzz"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ipw6j8paq7ifcx1wmbpiqlnjzc29bh90-harfbuzz-3.1.2"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "unknown": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "3.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.2",
+      "pname": "harfbuzz",
+      "name": "harfbuzz-3.1.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/71260xlgj4jjlb5qxxh04ifc8i6q7d2k-harfbuzz-3.1.2-dev",
+        "devdoc": "/nix/store/m5yz8x1yir8j32rrlm4d6bas6zfzl4l9-harfbuzz-3.1.2-devdoc",
+        "out": "/nix/store/ipw6j8paq7ifcx1wmbpiqlnjzc29bh90-harfbuzz-3.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An OpenType text shaping engine",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/harfbuzz/default.nix:103",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "harfbuzz"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ipw6j8paq7ifcx1wmbpiqlnjzc29bh90-harfbuzz-3.1.2"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

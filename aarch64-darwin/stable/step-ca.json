@@ -1,21 +1,21 @@
 {
-  "0.18.1": {
+  "0.22.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.18.1",
+      "version": "0.22.1",
       "pname": "step-ca",
-      "name": "step-ca-0.18.1",
+      "name": "step-ca-0.22.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/5zfbaj36haq3x277j9agq2pgk30ff5yz-step-ca-0.18.1"
+        "out": "/nix/store/mhzapmjzv92x4yx2dnxipqjqw5jxfi6c-step-ca-0.22.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/step-ca/default.nix:53",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/step-ca/default.nix:53",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5zfbaj36haq3x277j9agq2pgk30ff5yz-step-ca-0.18.1"
+        "/nix/store/mhzapmjzv92x4yx2dnxipqjqw5jxfi6c-step-ca-0.22.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.21.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.21.0",
+      "pname": "step-ca",
+      "name": "step-ca-0.21.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/fdiw973h14r0frph5nsiij6qa84ynlff-step-ca-0.21.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/security/step-ca/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "step-ca"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fdiw973h14r0frph5nsiij6qa84ynlff-step-ca-0.21.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "3.3.111": {
+  "3.3.113": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.3.111",
+      "version": "3.3.113",
       "pname": "gtkwave",
-      "name": "gtkwave-3.3.111",
+      "name": "gtkwave-3.3.113",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/v3csf9k3812w2kqi7xl70k4cbrs3hd0x-gtkwave-3.3.111"
+        "out": "/nix/store/27zy9xq21jzrcp85xkfmc86ja9h0n1l0-gtkwave-3.3.113"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "VCD/Waveform viewer for Unix and Win32",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/science/electronics/gtkwave/default.nix:46",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/science/electronics/gtkwave/default.nix:46",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/v3csf9k3812w2kqi7xl70k4cbrs3hd0x-gtkwave-3.3.111"
+        "/nix/store/27zy9xq21jzrcp85xkfmc86ja9h0n1l0-gtkwave-3.3.113"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "3.3.111": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.111",
+      "pname": "gtkwave",
+      "name": "gtkwave-3.3.111",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/4p7yy109k1jrap131jgn5wbsssfb36ly-gtkwave-3.3.111"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VCD/Waveform viewer for Unix and Win32",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/electronics/gtkwave/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gtkwave"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4p7yy109k1jrap131jgn5wbsssfb36ly-gtkwave-3.3.111"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "1.4.1": {
+  "1.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.4.1",
+      "version": "1.8.0",
       "pname": "kuma-experimental",
-      "name": "kuma-experimental-1.4.1",
+      "name": "kuma-experimental-1.8.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/i1c5f8pg8nn4l0gip06mkynbpqdbw8xk-kuma-experimental-1.4.1"
+        "out": "/nix/store/pxv7xfbbvd6w5xv31w7in0czmvpzn4xn-kuma-experimental-1.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Service mesh controller",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/i1c5f8pg8nn4l0gip06mkynbpqdbw8xk-kuma-experimental-1.4.1"
+        "/nix/store/pxv7xfbbvd6w5xv31w7in0czmvpzn4xn-kuma-experimental-1.8.0"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.1",
+      "pname": "kuma-experimental",
+      "name": "kuma-experimental-1.7.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/jzjii710b8ysk47yraz3b6h4ingbj6fn-kuma-experimental-1.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Service mesh controller",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kuma-experimental"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jzjii710b8ysk47yraz3b6h4ingbj6fn-kuma-experimental-1.7.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.0",
-      "pname": "kuma-experimental",
-      "name": "kuma-experimental-1.5.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/z611xpqpxnqkabwchc36wc1jcmvdphn4-kuma-experimental-1.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Service mesh controller",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kuma-experimental"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z611xpqpxnqkabwchc36wc1jcmvdphn4-kuma-experimental-1.5.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

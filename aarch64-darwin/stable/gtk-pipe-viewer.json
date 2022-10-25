@@ -1,22 +1,22 @@
 {
-  "0.1.4": {
+  "0.3.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.1.4",
-      "pname": "perl5.34.1-pipe-viewer",
-      "name": "perl5.34.1-pipe-viewer-0.1.4",
+      "version": "0.3.0",
+      "pname": "pipe-viewer",
+      "name": "perl5.36.0-pipe-viewer-0.3.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "devdoc": "/nix/store/45rwakg968m272551pgcd77x55pvxpnx-perl5.34.1-pipe-viewer-0.1.4-devdoc",
-        "out": "/nix/store/1df2fijbc86kw57cvbagaag7w1iz572b-perl5.34.1-pipe-viewer-0.1.4"
+        "devdoc": "/nix/store/b4q70ah60lqgqzqhw4dngq8xzaw68ix6-perl5.36.0-pipe-viewer-0.3.0-devdoc",
+        "out": "/nix/store/zf27snd2n4nzgvm4p6z3ja9qf2dhm1a0-perl5.36.0-pipe-viewer-0.3.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI+GUI YouTube Client",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/video/pipe-viewer/default.nix:81",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/video/pipe-viewer/default.nix:83",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1df2fijbc86kw57cvbagaag7w1iz572b-perl5.34.1-pipe-viewer-0.1.4"
+        "/nix/store/zf27snd2n4nzgvm4p6z3ja9qf2dhm1a0-perl5.36.0-pipe-viewer-0.3.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.1.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.4",
+      "pname": "pipe-viewer",
+      "name": "perl5.34.1-pipe-viewer-0.1.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "devdoc": "/nix/store/fwf2i4bir4c69avhz2364v49aq7azzm9-perl5.34.1-pipe-viewer-0.1.4-devdoc",
+        "out": "/nix/store/fihy0n86gr14kdlypfj1xz6nddc0x2dw-perl5.34.1-pipe-viewer-0.1.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI+GUI YouTube Client",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/video/pipe-viewer/default.nix:81",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gtk-pipe-viewer"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fihy0n86gr14kdlypfj1xz6nddc0x2dw-perl5.34.1-pipe-viewer-0.1.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

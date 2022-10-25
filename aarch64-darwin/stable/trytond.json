@@ -1,21 +1,21 @@
 {
-  "6.2.3": {
+  "6.4.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.2.3",
+      "version": "6.4.2",
       "pname": "trytond",
-      "name": "trytond-6.2.3",
+      "name": "trytond-6.4.2",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/72y97fwz1438bv0qy86fiq97r2969sw1-trytond-6.2.3"
+        "out": "/nix/store/mwssqmbh6a5q9ixamrm0j7dlkl668i7b-python3.10-trytond-6.4.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The server of the Tryton application platform",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/python-modules/trytond/default.nix:70",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/trytond/default.nix:73",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/72y97fwz1438bv0qy86fiq97r2969sw1-trytond-6.2.3"
+        "/nix/store/mwssqmbh6a5q9ixamrm0j7dlkl668i7b-python3.10-trytond-6.4.2"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "6.4.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.4.4",
+      "pname": "trytond",
+      "name": "trytond-6.4.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/07h0lhmmk5k1lnixhj2lpyxnls4znach-python3.10-trytond-6.4.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The server of the Tryton application platform",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/trytond/default.nix:73",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "trytond"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/07h0lhmmk5k1lnixhj2lpyxnls4znach-python3.10-trytond-6.4.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

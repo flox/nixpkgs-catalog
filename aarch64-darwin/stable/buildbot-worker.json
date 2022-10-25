@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.0",
-      "pname": "buildbot-worker",
-      "name": "buildbot-worker-3.3.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/rf8mlvy18i80pmpnsvh8rsbqwn017rax-python3.9-buildbot-worker-3.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Buildbot Worker Daemon",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/python-modules/buildbot/worker.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "buildbot-worker"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rf8mlvy18i80pmpnsvh8rsbqwn017rax-python3.9-buildbot-worker-3.3.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "3.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.0",
+      "pname": "buildbot-worker",
+      "name": "buildbot-worker-3.3.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/rf8mlvy18i80pmpnsvh8rsbqwn017rax-python3.9-buildbot-worker-3.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Buildbot Worker Daemon",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/python-modules/buildbot/worker.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "buildbot-worker"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rf8mlvy18i80pmpnsvh8rsbqwn017rax-python3.9-buildbot-worker-3.3.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

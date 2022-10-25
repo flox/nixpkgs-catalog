@@ -1,4 +1,44 @@
 {
+  "1.20.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.4",
+      "pname": "syncthing",
+      "name": "syncthing-1.20.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/clkshxa0k716dpxj3hdaa0j6j87gwsan-syncthing-1.20.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open Source Continuous File Synchronization",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/syncthing/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "syncthing"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/clkshxa0k716dpxj3hdaa0j6j87gwsan-syncthing-1.20.4"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.20.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "1.20.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.4",
-      "pname": "syncthing",
-      "name": "syncthing-1.20.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/pxrry70y05g21690l2j50v3k3g2mqznj-syncthing-1.20.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open Source Continuous File Synchronization",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/syncthing/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "syncthing"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pxrry70y05g21690l2j50v3k3g2mqznj-syncthing-1.20.4"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   },

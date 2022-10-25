@@ -1,21 +1,21 @@
 {
-  "4.0.8": {
+  "4.0.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.0.8",
+      "version": "4.0.9",
       "pname": "yubikey-manager",
-      "name": "python3.9-yubikey-manager-4.0.8",
+      "name": "python3.10-yubikey-manager-4.0.9",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/p5vrv7qrkmsi4q9bmdx4w3xflij997dw-python3.9-yubikey-manager-4.0.8"
+        "out": "/nix/store/ah88g98mpw3d0glvcf7svrgx9xfnsmpz-python3.10-yubikey-manager-4.0.9"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command line tool for configuring any YubiKey over all USB transports",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/misc/yubikey-manager/default.nix:60",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/yubikey-manager/default.nix:66",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/p5vrv7qrkmsi4q9bmdx4w3xflij997dw-python3.9-yubikey-manager-4.0.8"
+        "/nix/store/ah88g98mpw3d0glvcf7svrgx9xfnsmpz-python3.10-yubikey-manager-4.0.9"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
-  "4.0.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.7",
-      "pname": "yubikey-manager",
-      "name": "python3.9-yubikey-manager-4.0.7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/l9hjryg48wr8bhhr7a9hapskswl7c02s-python3.9-yubikey-manager-4.0.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command line tool for configuring any YubiKey over all USB transports",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/yubikey-manager/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "yubikey-manager"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l9hjryg48wr8bhhr7a9hapskswl7c02s-python3.9-yubikey-manager-4.0.7"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "4.0.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.7",
+      "pname": "yubikey-manager",
+      "name": "python3.9-yubikey-manager-4.0.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/l9hjryg48wr8bhhr7a9hapskswl7c02s-python3.9-yubikey-manager-4.0.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command line tool for configuring any YubiKey over all USB transports",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/yubikey-manager/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "yubikey-manager"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/l9hjryg48wr8bhhr7a9hapskswl7c02s-python3.9-yubikey-manager-4.0.7"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

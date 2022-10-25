@@ -1,22 +1,22 @@
 {
-  "1.19.2": {
+  "1.19.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.19.2",
-      "pname": null,
-      "name": "libkrb5-1.19.2",
+      "version": "1.19.3",
+      "pname": "libkrb5",
+      "name": "libkrb5-1.19.3",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/svwz89fqkmazpga1gdmqvxxcnk02gjcz-libkrb5-1.19.2-dev",
-        "out": "/nix/store/sj2lw3qzk6jr412iyxdbvnps60p233l1-libkrb5-1.19.2"
+        "dev": "/nix/store/irlxyy49wln3vc6596nvg2dly3pn7ljl-libkrb5-1.19.3-dev",
+        "out": "/nix/store/3hfm7vrv30kals1w0vh32112347vq9lw-libkrb5-1.19.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "MIT Kerberos 5",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/kerberos/krb5.nix:80",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/kerberos/krb5.nix:80",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sj2lw3qzk6jr412iyxdbvnps60p233l1-libkrb5-1.19.2"
+        "/nix/store/3hfm7vrv30kals1w0vh32112347vq9lw-libkrb5-1.19.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20",
+      "pname": "libkrb5",
+      "name": "libkrb5-1.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3mn2r4xkaq7ks1qkk14rw448h1di1y2p-libkrb5-1.20-dev",
+        "out": "/nix/store/m37ny5x561d10d14kx5fs2qk5vvlfbpq-libkrb5-1.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "MIT Kerberos 5",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/kerberos/krb5.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libkrb5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m37ny5x561d10d14kx5fs2qk5vvlfbpq-libkrb5-1.20"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "1.19.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.19.3",
-      "pname": "libkrb5",
-      "name": "libkrb5-1.19.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/irlxyy49wln3vc6596nvg2dly3pn7ljl-libkrb5-1.19.3-dev",
-        "out": "/nix/store/3hfm7vrv30kals1w0vh32112347vq9lw-libkrb5-1.19.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "MIT Kerberos 5",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/kerberos/krb5.nix:80",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libkrb5"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3hfm7vrv30kals1w0vh32112347vq9lw-libkrb5-1.19.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

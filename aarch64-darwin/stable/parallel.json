@@ -1,16 +1,16 @@
 {
-  "20220322": {
+  "20220222": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "20220322",
+      "version": "20220222",
       "pname": "parallel",
-      "name": "parallel-20220322",
+      "name": "parallel-20220222",
       "system": "aarch64-darwin",
       "outputs": {
-        "doc": "/nix/store/ji7ysy6fk9bxc8b51s4d2fpvs7m7q5q9-parallel-20220322-doc",
-        "man": "/nix/store/va1lc3vv1893vqi0jgr1hwmx5anr38wf-parallel-20220322-man",
-        "out": "/nix/store/5l2w7l8y0z3vxfnfyh0nixml9rp55nsp-parallel-20220322"
+        "doc": "/nix/store/pfyszl75mscw5v9fn3fndbgkia2lybrp-parallel-20220222-doc",
+        "man": "/nix/store/1fjhknqhx1vmzg8mffgcavnan11l6xhq-parallel-20220222-man",
+        "out": "/nix/store/dh5ih8q2kb85k73g3kq48aypp5s15vnw-parallel-20220222"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "Shell tool for executing jobs in parallel",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/parallel/default.nix:25",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/misc/parallel/default.nix:25",
         "unfree": false
       }
     },
@@ -31,59 +31,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5l2w7l8y0z3vxfnfyh0nixml9rp55nsp-parallel-20220322",
-        "/nix/store/va1lc3vv1893vqi0jgr1hwmx5anr38wf-parallel-20220322-man"
+        "/nix/store/dh5ih8q2kb85k73g3kq48aypp5s15vnw-parallel-20220222",
+        "/nix/store/1fjhknqhx1vmzg8mffgcavnan11l6xhq-parallel-20220222-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "20211222": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20211222",
-      "pname": "parallel",
-      "name": "parallel-20211222",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "doc": "/nix/store/0sbz2w605k29rb63pzy2nxwml12w7n6g-parallel-20211222-doc",
-        "man": "/nix/store/7pl4b78xv3rlmsvvm1m6b2zc9adkp5nq-parallel-20211222-man",
-        "out": "/nix/store/jnpv329a3944dg9jrw6fjcplj9qxgb5g-parallel-20211222"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Shell tool for executing jobs in parallel",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/parallel/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "parallel"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jnpv329a3944dg9jrw6fjcplj9qxgb5g-parallel-20211222",
-        "/nix/store/7pl4b78xv3rlmsvvm1m6b2zc9adkp5nq-parallel-20211222-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   },
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "20220322": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220322",
+      "pname": "parallel",
+      "name": "parallel-20220322",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/ji7ysy6fk9bxc8b51s4d2fpvs7m7q5q9-parallel-20220322-doc",
+        "man": "/nix/store/va1lc3vv1893vqi0jgr1hwmx5anr38wf-parallel-20220322-man",
+        "out": "/nix/store/5l2w7l8y0z3vxfnfyh0nixml9rp55nsp-parallel-20220322"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Shell tool for executing jobs in parallel",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/parallel/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "parallel"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5l2w7l8y0z3vxfnfyh0nixml9rp55nsp-parallel-20220322",
+        "/nix/store/va1lc3vv1893vqi0jgr1hwmx5anr38wf-parallel-20220322-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

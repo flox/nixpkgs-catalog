@@ -1,4 +1,44 @@
 {
+  "3.14.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.14.1",
+      "pname": "fortune-mod",
+      "name": "fortune-mod-3.14.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/90k6cgbn7a3rawfnv4kihchfxpid3in8-fortune-mod-3.14.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A program that displays a pseudorandom message from a database of quotations",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/fortune/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fortune"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/90k6cgbn7a3rawfnv4kihchfxpid3in8-fortune-mod-3.14.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.10.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.1",
-      "pname": "fortune-mod",
-      "name": "fortune-mod-3.6.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/7x108qzvyg7zc112rxzwh6absplk7jdx-fortune-mod-3.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A program that displays a pseudorandom message from a database of quotations",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/fortune/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "fortune"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7x108qzvyg7zc112rxzwh6absplk7jdx-fortune-mod-3.6.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

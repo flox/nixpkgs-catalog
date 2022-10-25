@@ -1,21 +1,22 @@
 {
-  "2.4.3": {
+  "2.4.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.4.3",
+      "version": "2.4.4",
       "pname": "pip-audit",
-      "name": "pip-audit-2.4.3",
+      "name": "pip-audit-2.4.4",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/afvlydr30zwc858rxpkzp0vn3pxhf70b-pip-audit-2.4.3"
+        "dist": "/nix/store/dq6drflaw8zjksiz0kmcdv3sap6zgzff-pip-audit-2.4.4-dist",
+        "out": "/nix/store/x06jj4lh2w6sszmk5krxqpdylvrp1mis-pip-audit-2.4.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Tool for scanning Python environments for known vulnerabilities",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/pip-audit/default.nix:85",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/pip-audit/default.nix:85",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/afvlydr30zwc858rxpkzp0vn3pxhf70b-pip-audit-2.4.3"
+        "/nix/store/x06jj4lh2w6sszmk5krxqpdylvrp1mis-pip-audit-2.4.4"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.3",
+      "pname": "pip-audit",
+      "name": "pip-audit-2.4.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/kzshvrxcr55d5hgldhmxcr623q6kbh16-pip-audit-2.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tool for scanning Python environments for known vulnerabilities",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/pip-audit/default.nix:85",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pip-audit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kzshvrxcr55d5hgldhmxcr623q6kbh16-pip-audit-2.4.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

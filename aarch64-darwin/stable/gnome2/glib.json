@@ -1,4 +1,48 @@
 {
+  "2.72.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.72.1",
+      "pname": "glib",
+      "name": "glib-2.72.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/y5im2f7hqlh9dklhj4m9w3lsm7r0xpgs-glib-2.72.1-bin",
+        "dev": "/nix/store/gvmsfdgfbxwqn10ddklf09dyngfjfknh-glib-2.72.1-dev",
+        "devdoc": "/nix/store/1f2589y541wkwfvh5fcv80yhlc22fm00-glib-2.72.1-devdoc",
+        "out": "/nix/store/0bf7mv3zfm76nq3hj9hz4081997mpw2b-glib-2.72.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "C library of programming buildings blocks",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/glib/default.nix:220",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gnome2",
+        "glib"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y5im2f7hqlh9dklhj4m9w3lsm7r0xpgs-glib-2.72.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "2.68.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,50 +128,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "2.72.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.72.1",
-      "pname": "glib",
-      "name": "glib-2.72.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/y5im2f7hqlh9dklhj4m9w3lsm7r0xpgs-glib-2.72.1-bin",
-        "dev": "/nix/store/gvmsfdgfbxwqn10ddklf09dyngfjfknh-glib-2.72.1-dev",
-        "devdoc": "/nix/store/1f2589y541wkwfvh5fcv80yhlc22fm00-glib-2.72.1-devdoc",
-        "out": "/nix/store/0bf7mv3zfm76nq3hj9hz4081997mpw2b-glib-2.72.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "C library of programming buildings blocks",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/glib/default.nix:220",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gnome2",
-        "glib"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y5im2f7hqlh9dklhj4m9w3lsm7r0xpgs-glib-2.72.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

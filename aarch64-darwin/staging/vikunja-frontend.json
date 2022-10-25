@@ -1,21 +1,21 @@
 {
-  "0.17.0": {
+  "0.19.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.17.0",
+      "version": "0.19.1",
       "pname": "vikunja-frontend",
-      "name": "vikunja-frontend-0.17.0",
+      "name": "vikunja-frontend-0.19.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/vfbvz4xk1m0rzgbx1cywh30flm29jymf-vikunja-frontend-0.17.0"
+        "out": "/nix/store/m30qk0gqrmw4dfpdnqsj3rqqsgm6nncq-vikunja-frontend-0.19.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Frontend of the Vikunja to-do list app",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/web-apps/vikunja/frontend.nix:27",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/web-apps/vikunja/frontend.nix:27",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vfbvz4xk1m0rzgbx1cywh30flm29jymf-vikunja-frontend-0.17.0"
+        "/nix/store/m30qk0gqrmw4dfpdnqsj3rqqsgm6nncq-vikunja-frontend-0.19.1"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.19.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.19.0",
+      "pname": "vikunja-frontend",
+      "name": "vikunja-frontend-0.19.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/fja634qbwx9w03fzp9c23xwr51xl9v2x-vikunja-frontend-0.19.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Frontend of the Vikunja to-do list app",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/web-apps/vikunja/frontend.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "vikunja-frontend"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fja634qbwx9w03fzp9c23xwr51xl9v2x-vikunja-frontend-0.19.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.12.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.12.0",
-      "pname": "operator-sdk",
-      "name": "operator-sdk-1.12.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/kgpbd6yrz02zgfcmaln113myp6sxbx5z-operator-sdk-1.12.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/operator-sdk/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "operator-sdk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kgpbd6yrz02zgfcmaln113myp6sxbx5z-operator-sdk-1.12.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.12.0",
+      "pname": "operator-sdk",
+      "name": "operator-sdk-1.12.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/kgpbd6yrz02zgfcmaln113myp6sxbx5z-operator-sdk-1.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/operator-sdk/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "operator-sdk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kgpbd6yrz02zgfcmaln113myp6sxbx5z-operator-sdk-1.12.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

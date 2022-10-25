@@ -1,4 +1,44 @@
 {
+  "2.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.0",
+      "pname": "pueue",
+      "name": "pueue-2.1.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/08fxdas4mxw72ig7jvv056j057s8vk4w-pueue-2.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A daemon for managing long running shell commands",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/pueue/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pueue"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/08fxdas4mxw72ig7jvv056j057s8vk4w-pueue-2.1.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.0.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.12.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.12.1",
-      "pname": "pueue",
-      "name": "pueue-0.12.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/izc9jqiwvabj06r61s5wh1da08qxyjxv-pueue-0.12.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A daemon for managing long running shell commands",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/misc/pueue/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "pueue"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/izc9jqiwvabj06r61s5wh1da08qxyjxv-pueue-0.12.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

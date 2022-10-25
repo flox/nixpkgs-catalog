@@ -1,4 +1,45 @@
 {
+  "1.23.1-quic": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.1-quic",
+      "pname": "nginx",
+      "name": "nginx-1.23.1-quic",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/s910al2pzmg4qjbddr2ikkr1ygph5an5-nginx-1.23.1-quic-doc",
+        "out": "/nix/store/wgr08xymfnf184jxqvhx943xj9va8jpq-nginx-1.23.1-quic"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nginxQuic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wgr08xymfnf184jxqvhx943xj9va8jpq-nginx-1.23.1-quic"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.21.5-quic": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +77,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "quic": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "quic",
-      "pname": "nginx",
-      "name": "nginx-quic",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/gfni8jaixjh2dlggqr6w0zdqvy2mvgss-nginx-quic"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/http/nginx/generic.nix:153",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nginxQuic"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gfni8jaixjh2dlggqr6w0zdqvy2mvgss-nginx-quic"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

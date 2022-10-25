@@ -1,44 +1,4 @@
 {
-  "5.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.3.0",
-      "pname": "kube3d",
-      "name": "kube3d-5.3.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/ncxn7w23xm8fgiky5llbqpbxp3ck36w2-kube3d-5.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container - k3d",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/kube3d/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kube3d"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ncxn7w23xm8fgiky5llbqpbxp3ck36w2-kube3d-5.3.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "5.2.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.4.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.4",
+      "pname": "kube3d",
+      "name": "kube3d-5.4.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/kk86f593x833lyj3cwg9njjjdayzvdwv-kube3d-5.4.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A helper to run k3s (Lightweight Kubernetes. 5 less than k8s) in a docker container - k3d",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kube3d/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kube3d"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kk86f593x833lyj3cwg9njjjdayzvdwv-kube3d-5.4.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "3.2.5": {
+  "3.2.7": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.2.5",
+      "version": "3.2.7",
       "pname": "terraform-provider-nsxt",
-      "name": "terraform-provider-nsxt-3.2.5",
+      "name": "terraform-provider-nsxt-3.2.7",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/xk8rzgi5bmw5nkvqlfbnz82iasj2dbw9-terraform-provider-nsxt-3.2.5"
+        "out": "/nix/store/bgcxh57s5zy55kv9rawi19f0wslsx8iq-terraform-provider-nsxt-3.2.7"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xk8rzgi5bmw5nkvqlfbnz82iasj2dbw9-terraform-provider-nsxt-3.2.5"
+        "/nix/store/bgcxh57s5zy55kv9rawi19f0wslsx8iq-terraform-provider-nsxt-3.2.7"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.2.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.8",
+      "pname": "terraform-provider-nsxt",
+      "name": "terraform-provider-nsxt-3.2.8",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/5k96wj1vf22nclkqcn3l2gxi9hb2dirx-terraform-provider-nsxt-3.2.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "nsxt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5k96wj1vf22nclkqcn3l2gxi9hb2dirx-terraform-provider-nsxt-3.2.8"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "3.2.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.7",
-      "pname": "terraform-provider-nsxt",
-      "name": "terraform-provider-nsxt-3.2.7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/bgcxh57s5zy55kv9rawi19f0wslsx8iq-terraform-provider-nsxt-3.2.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "terraform-providers",
-        "nsxt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bgcxh57s5zy55kv9rawi19f0wslsx8iq-terraform-provider-nsxt-3.2.7"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

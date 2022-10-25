@@ -1,21 +1,21 @@
 {
-  "0.1.6": {
+  "0.1.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.1.6",
+      "version": "0.1.10",
       "pname": "witness",
-      "name": "witness-0.1.6",
+      "name": "witness-0.1.10",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/d5mq078b0iyr19kdh7n0lcyvsr3dvn8l-witness-0.1.6"
+        "out": "/nix/store/yrqsjrdzwmams9f42qx566lkw768mvy2-witness-0.1.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A pluggable framework for software supply chain security. Witness prevents tampering of build materials and verifies the integrity of the build process from source to target",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/witness/default.nix:42",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/security/witness/default.nix:49",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/d5mq078b0iyr19kdh7n0lcyvsr3dvn8l-witness-0.1.6"
+        "/nix/store/yrqsjrdzwmams9f42qx566lkw768mvy2-witness-0.1.10"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
+      }
+    }
+  },
+  "0.1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.6",
+      "pname": "witness",
+      "name": "witness-0.1.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/d5mq078b0iyr19kdh7n0lcyvsr3dvn8l-witness-0.1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A pluggable framework for software supply chain security. Witness prevents tampering of build materials and verifies the integrity of the build process from source to target",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/witness/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "witness"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d5mq078b0iyr19kdh7n0lcyvsr3dvn8l-witness-0.1.6"
+      ],
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   }

@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.49.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.49.0",
+      "pname": "golangci-lint",
+      "name": "golangci-lint-1.49.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/rl50532g98rf0nipwr85pp91qypv40ab-golangci-lint-1.49.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast linters Runner for Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/golangci-lint/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "golangci-lint"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rl50532g98rf0nipwr85pp91qypv40ab-golangci-lint-1.49.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.46.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "1.47.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.47.2",
-      "pname": "golangci-lint",
-      "name": "golangci-lint-1.47.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/9y04h7zq4nx5xzpxa6g7qq8f78cj9123-golangci-lint-1.47.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast linters Runner for Go",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/golangci-lint/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "golangci-lint"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9y04h7zq4nx5xzpxa6g7qq8f78cj9123-golangci-lint-1.47.2"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   }

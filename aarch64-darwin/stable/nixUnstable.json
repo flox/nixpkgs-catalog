@@ -44,51 +44,6 @@
       }
     }
   },
-  "2.4pre20210802_47e96bb": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4pre20210802_47e96bb",
-      "pname": "nix",
-      "name": "nix-2.4pre20210802_47e96bb",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/3n4fla124j8dgys1v17pxanysp9k1mjy-nix-2.4pre20210802_47e96bb-dev",
-        "doc": "/nix/store/pzqaq6v8mzhk72gqp0686ql52mx7qqhf-nix-2.4pre20210802_47e96bb-doc",
-        "man": "/nix/store/d2afk63lbndj3qh0msp4a8ik3z2q152j-nix-2.4pre20210802_47e96bb-man",
-        "out": "/nix/store/v4a5a7b4jcb02yhay922f247vlf95nxi-nix-2.4pre20210802_47e96bb"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Powerful package manager that makes package management reliable and reproducible",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/package-management/nix/default.nix:160",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nixUnstable"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v4a5a7b4jcb02yhay922f247vlf95nxi-nix-2.4pre20210802_47e96bb",
-        "/nix/store/d2afk63lbndj3qh0msp4a8ik3z2q152j-nix-2.4pre20210802_47e96bb-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.6pre20211217_6e6e998": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.4pre20210802_47e96bb": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4pre20210802_47e96bb",
+      "pname": "nix",
+      "name": "nix-2.4pre20210802_47e96bb",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3n4fla124j8dgys1v17pxanysp9k1mjy-nix-2.4pre20210802_47e96bb-dev",
+        "doc": "/nix/store/pzqaq6v8mzhk72gqp0686ql52mx7qqhf-nix-2.4pre20210802_47e96bb-doc",
+        "man": "/nix/store/d2afk63lbndj3qh0msp4a8ik3z2q152j-nix-2.4pre20210802_47e96bb-man",
+        "out": "/nix/store/v4a5a7b4jcb02yhay922f247vlf95nxi-nix-2.4pre20210802_47e96bb"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Powerful package manager that makes package management reliable and reproducible",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/package-management/nix/default.nix:160",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nixUnstable"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v4a5a7b4jcb02yhay922f247vlf95nxi-nix-2.4pre20210802_47e96bb",
+        "/nix/store/d2afk63lbndj3qh0msp4a8ik3z2q152j-nix-2.4pre20210802_47e96bb-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

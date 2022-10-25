@@ -1,21 +1,21 @@
 {
-  "6.10.0": {
+  "6.13.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.10.0",
+      "version": "6.13.1",
       "pname": "terraform-provider-signalfx",
-      "name": "terraform-provider-signalfx-6.10.0",
+      "name": "terraform-provider-signalfx-6.13.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/a75z6lpiqqgir9mj093jdc46jnf0qm0g-terraform-provider-signalfx-6.10.0"
+        "out": "/nix/store/dm1b5zfrm2khlfcb7hd9g0s1yiywapf9-terraform-provider-signalfx-6.13.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/a75z6lpiqqgir9mj093jdc46jnf0qm0g-terraform-provider-signalfx-6.10.0"
+        "/nix/store/dm1b5zfrm2khlfcb7hd9g0s1yiywapf9-terraform-provider-signalfx-6.13.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "6.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.15.0",
+      "pname": "terraform-provider-signalfx",
+      "name": "terraform-provider-signalfx-6.15.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/rh3p0ysi3hz349rp9c237sm7wqg3kbk9-terraform-provider-signalfx-6.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "signalfx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rh3p0ysi3hz349rp9c237sm7wqg3kbk9-terraform-provider-signalfx-6.15.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "6.13.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.13.1",
-      "pname": "terraform-provider-signalfx",
-      "name": "terraform-provider-signalfx-6.13.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/dm1b5zfrm2khlfcb7hd9g0s1yiywapf9-terraform-provider-signalfx-6.13.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "terraform-providers",
-        "signalfx"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dm1b5zfrm2khlfcb7hd9g0s1yiywapf9-terraform-provider-signalfx-6.13.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

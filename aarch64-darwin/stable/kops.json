@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.21.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.21.0",
-      "pname": "kops",
-      "name": "kops-1.21.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0bm0a0qcv4fb26k7gykp0j03r2r0v20b-kops-1.21.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Easiest way to get a production Kubernetes up and running",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/kops/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kops"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0bm0a0qcv4fb26k7gykp0j03r2r0v20b-kops-1.21.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.22.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.21.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.21.0",
+      "pname": "kops",
+      "name": "kops-1.21.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/0bm0a0qcv4fb26k7gykp0j03r2r0v20b-kops-1.21.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Easiest way to get a production Kubernetes up and running",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/kops/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kops"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0bm0a0qcv4fb26k7gykp0j03r2r0v20b-kops-1.21.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -1,22 +1,23 @@
 {
-  "unstable-2021-12-22": {
+  "0.5.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "unstable-2021-12-22",
+      "version": "0.5.0",
       "pname": "nghttp3",
-      "name": "nghttp3-unstable-2021-12-22",
+      "name": "nghttp3-0.5.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/20997k1bf1r58z2afma7rphvixn1nydx-nghttp3-unstable-2021-12-22-dev",
-        "out": "/nix/store/xz9sqnllsqxnb8hrb3imkd5zkc1wixbn-nghttp3-unstable-2021-12-22"
+        "dev": "/nix/store/pyz3v1i5qqsqnapiki5r5d1vvw8imljc-nghttp3-0.5.0-dev",
+        "doc": "/nix/store/nb4p9yc9719wz070f1dp64la27c3h6as-nghttp3-0.5.0-doc",
+        "out": "/nix/store/z22vbi7m8q9fm4npq2wq4w7m0fc4k0jk-nghttp3-0.5.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "nghttp3 is an implementation of HTTP/3 mapping over QUIC and QPACK in C.",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/nghttp3/default.nix:31",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/nghttp3/default.nix:31",
         "unfree": false
       }
     },
@@ -29,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xz9sqnllsqxnb8hrb3imkd5zkc1wixbn-nghttp3-unstable-2021-12-22"
+        "/nix/store/z22vbi7m8q9fm4npq2wq4w7m0fc4k0jk-nghttp3-0.5.0"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "nghttp3",
+      "name": "nghttp3-0.6.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/b85lf9cq2bjsjbsmm5b5ivqjhpgvvs4m-nghttp3-0.6.0-dev",
+        "doc": "/nix/store/8dz9ybgnsq4yn5nzq35lizizyn6bjnxp-nghttp3-0.6.0-doc",
+        "out": "/nix/store/735nrbz96qn8vj4zppmf4k3a1a23drm8-nghttp3-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "nghttp3 is an implementation of HTTP/3 mapping over QUIC and QPACK in C.",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nghttp3/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nghttp3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/735nrbz96qn8vj4zppmf4k3a1a23drm8-nghttp3-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

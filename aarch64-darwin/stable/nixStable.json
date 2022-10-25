@@ -44,51 +44,6 @@
       }
     }
   },
-  "2.3.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.15",
-      "pname": "nix",
-      "name": "nix-2.3.15",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/qrbyhsqxy2njlchl8mgmh3lyrisqphql-nix-2.3.15-dev",
-        "doc": "/nix/store/3daqjhd5vq5kr2z57zc0xxs262wnpi26-nix-2.3.15-doc",
-        "man": "/nix/store/i3mhhmbicvm4x1m87cnalh0kjrm9a9x1-nix-2.3.15-man",
-        "out": "/nix/store/8z92ilyhqncsisjkbr5lizbysp477k3q-nix-2.3.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Powerful package manager that makes package management reliable and reproducible",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/package-management/nix/default.nix:160",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nixStable"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8z92ilyhqncsisjkbr5lizbysp477k3q-nix-2.3.15",
-        "/nix/store/i3mhhmbicvm4x1m87cnalh0kjrm9a9x1-nix-2.3.15-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.3.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.15",
+      "pname": "nix",
+      "name": "nix-2.3.15",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/qrbyhsqxy2njlchl8mgmh3lyrisqphql-nix-2.3.15-dev",
+        "doc": "/nix/store/3daqjhd5vq5kr2z57zc0xxs262wnpi26-nix-2.3.15-doc",
+        "man": "/nix/store/i3mhhmbicvm4x1m87cnalh0kjrm9a9x1-nix-2.3.15-man",
+        "out": "/nix/store/8z92ilyhqncsisjkbr5lizbysp477k3q-nix-2.3.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Powerful package manager that makes package management reliable and reproducible",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/package-management/nix/default.nix:160",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nixStable"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8z92ilyhqncsisjkbr5lizbysp477k3q-nix-2.3.15",
+        "/nix/store/i3mhhmbicvm4x1m87cnalh0kjrm9a9x1-nix-2.3.15-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -40,6 +40,46 @@
       }
     }
   },
+  "16.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.6.2",
+      "pname": null,
+      "name": "nodejs-16.6.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/vng8yqrx4p9k61gf9fxmglv5n82zq3gy-nodejs-16.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event-driven I/O framework for the V8 JavaScript engine",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/web/nodejs/v16.nix:11",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nodejs_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vng8yqrx4p9k61gf9fxmglv5n82zq3gy-nodejs-16.6.2"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
+      }
+    }
+  },
   "16.13.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,46 +118,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "16.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "16.6.2",
-      "pname": null,
-      "name": "nodejs-16.6.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vng8yqrx4p9k61gf9fxmglv5n82zq3gy-nodejs-16.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/web/nodejs/v16.nix:11",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nodejs_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vng8yqrx4p9k61gf9fxmglv5n82zq3gy-nodejs-16.6.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

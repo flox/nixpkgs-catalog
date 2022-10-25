@@ -1,22 +1,22 @@
 {
-  "1.11.1": {
+  "1.12.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.11.1",
+      "version": "1.12.0",
       "pname": "gspell",
-      "name": "gspell-1.11.1",
+      "name": "gspell-1.12.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/9chi19jm8cshqazk8zc1a2a6a3ifwks8-gspell-1.11.1-dev",
-        "out": "/nix/store/dgbbmj80s48y90li5glqayl67vvhbxqm-gspell-1.11.1"
+        "dev": "/nix/store/grv10k48c6m0nm8ai47ap8zdx43ka29s-gspell-1.12.0-dev",
+        "out": "/nix/store/v0gzw498v7qna11vl9crfiq4wc2zk153-gspell-1.12.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A spell-checking library for GTK applications",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/gspell/default.nix:64",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/gspell/default.nix:70",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dgbbmj80s48y90li5glqayl67vvhbxqm-gspell-1.11.1"
+        "/nix/store/v0gzw498v7qna11vl9crfiq4wc2zk153-gspell-1.12.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.11.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.1",
+      "pname": "gspell",
+      "name": "gspell-1.11.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/7p23wp40plxy2sh5hqhgwi2bkn7m477p-gspell-1.11.1-dev",
+        "out": "/nix/store/vb92xb9hwpl43inb7hwbqw7wbi0d9qar-gspell-1.11.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A spell-checking library for GTK applications",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gspell/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gspell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vb92xb9hwpl43inb7hwbqw7wbi0d9qar-gspell-1.11.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

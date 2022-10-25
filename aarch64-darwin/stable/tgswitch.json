@@ -1,21 +1,21 @@
 {
-  "0.5.382": {
+  "0.5.389": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5.382",
+      "version": "0.5.389",
       "pname": "tgswitch",
-      "name": "tgswitch-0.5.382",
+      "name": "tgswitch-0.5.389",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/0bn0grs76smcigfzcb4iyrs4psrfpad1-tgswitch-0.5.382"
+        "out": "/nix/store/i69xvv86fcd6nr86f0pry8y8qcphjkcn-tgswitch-0.5.389"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A command line tool to switch between different versions of terragrunt",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/tgswitch/default.nix:16",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/tgswitch/default.nix:16",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0bn0grs76smcigfzcb4iyrs4psrfpad1-tgswitch-0.5.382"
+        "/nix/store/i69xvv86fcd6nr86f0pry8y8qcphjkcn-tgswitch-0.5.389"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "tgswitch",
+      "name": "tgswitch-0.6.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/0iys2s4m09a60zlvxa7hcrpr7vdfimsy-tgswitch-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command line tool to switch between different versions of terragrunt",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/tgswitch/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "tgswitch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0iys2s4m09a60zlvxa7hcrpr7vdfimsy-tgswitch-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.5.389": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.389",
-      "pname": "tgswitch",
-      "name": "tgswitch-0.5.389",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/i69xvv86fcd6nr86f0pry8y8qcphjkcn-tgswitch-0.5.389"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A command line tool to switch between different versions of terragrunt",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/tgswitch/default.nix:16",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "tgswitch"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i69xvv86fcd6nr86f0pry8y8qcphjkcn-tgswitch-0.5.389"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "0.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.1",
-      "pname": "headscale",
-      "name": "headscale-0.6.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/gmy4574nv1b1a7hbbhddlq8nrlgp8fnc-headscale-0.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An implementation of the Tailscale coordination server",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/headscale/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "headscale"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gmy4574nv1b1a7hbbhddlq8nrlgp8fnc-headscale-0.6.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.16.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16.4",
+      "pname": "headscale",
+      "name": "headscale-0.16.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/fkr4np8fqh2hba4xm9dd8r0p9w9rlf30-headscale-0.16.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source, self-hosted implementation of the Tailscale control server",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/headscale/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "headscale"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fkr4np8fqh2hba4xm9dd8r0p9w9rlf30-headscale-0.16.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

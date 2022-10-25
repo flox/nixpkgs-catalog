@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.10.0",
-      "pname": "kopia",
-      "name": "kopia-0.10.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/r654ldi6qm427f910i69mizsdf5qaicl-kopia-0.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/backup/kopia/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kopia"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r654ldi6qm427f910i69mizsdf5qaicl-kopia-0.10.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "0.8.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "kopia",
+      "name": "kopia-0.10.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/r654ldi6qm427f910i69mizsdf5qaicl-kopia-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/backup/kopia/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kopia"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r654ldi6qm427f910i69mizsdf5qaicl-kopia-0.10.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

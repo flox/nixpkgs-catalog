@@ -1,22 +1,22 @@
 {
-  "0.3.20": {
+  "0.3.19": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.3.20",
+      "version": "0.3.19",
       "pname": "openblas",
-      "name": "openblas-0.3.20",
+      "name": "openblas-0.3.19",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/2mv9s33pfl6s9c8wxjqvahk44s5gfvlk-openblas-0.3.20-dev",
-        "out": "/nix/store/sfb816ckd470hs5gs37dpqngdd126n71-openblas-0.3.20"
+        "dev": "/nix/store/4362sc4k5vba0w26p3bpbcc77ppxb486-openblas-0.3.19-dev",
+        "out": "/nix/store/mxhpc8h1ip19b1qp8zqsbjm2gcjzyisw-openblas-0.3.19"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Basic Linear Algebra Subprograms",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/science/math/openblas/default.nix:229",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/science/math/openblas/default.nix:229",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sfb816ckd470hs5gs37dpqngdd126n71-openblas-0.3.20"
+        "/nix/store/mxhpc8h1ip19b1qp8zqsbjm2gcjzyisw-openblas-0.3.19"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.3.18": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.18",
-      "pname": "openblas",
-      "name": "openblas-0.3.18",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/z50wmgn72ybxrljrp2r1syrzyiaw55c0-openblas-0.3.18-dev",
-        "out": "/nix/store/40d23yhprh65zgkiwvv7fpnfiaw4flsg-openblas-0.3.18"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Basic Linear Algebra Subprograms",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/science/math/openblas/default.nix:229",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "openblasCompat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/40d23yhprh65zgkiwvv7fpnfiaw4flsg-openblas-0.3.18"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.3.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.20",
+      "pname": "openblas",
+      "name": "openblas-0.3.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/2mv9s33pfl6s9c8wxjqvahk44s5gfvlk-openblas-0.3.20-dev",
+        "out": "/nix/store/sfb816ckd470hs5gs37dpqngdd126n71-openblas-0.3.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Basic Linear Algebra Subprograms",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/science/math/openblas/default.nix:229",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "openblasCompat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sfb816ckd470hs5gs37dpqngdd126n71-openblas-0.3.20"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

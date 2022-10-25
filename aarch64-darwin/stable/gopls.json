@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.9.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.4",
+      "pname": "gopls",
+      "name": "gopls-0.9.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/0ck9k396b8indc1h3g08jxf8p1xhdiy9-gopls-0.9.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official language server for the Go language",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/tools/gopls/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gopls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0ck9k396b8indc1h3g08jxf8p1xhdiy9-gopls-0.9.4"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "0.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "0.8.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.4",
-      "pname": "gopls",
-      "name": "gopls-0.8.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/mzdvar2fh1vm3w8snwk689n4g31x57bl-gopls-0.8.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Official language server for the Go language",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/gopls/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gopls"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mzdvar2fh1vm3w8snwk689n4g31x57bl-gopls-0.8.4"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

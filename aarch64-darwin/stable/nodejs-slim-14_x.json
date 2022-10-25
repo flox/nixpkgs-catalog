@@ -40,6 +40,47 @@
       }
     }
   },
+  "14.20.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.20.0",
+      "pname": "nodejs-slim",
+      "name": "nodejs-slim-14.20.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "libv8": "/nix/store/19z1amgm9h2i6nn2h0f0alljwvmhhgj3-nodejs-slim-14.20.0-libv8",
+        "out": "/nix/store/idbqa251vj4j9jqmyb9kaxpmamxhcqzi-nodejs-slim-14.20.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event-driven I/O framework for the V8 JavaScript engine",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/web/nodejs/v14.nix:11",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nodejs-slim-14_x"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/idbqa251vj4j9jqmyb9kaxpmamxhcqzi-nodejs-slim-14.20.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "14.18.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,46 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "14.17.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "14.17.5",
-      "pname": null,
-      "name": "nodejs-slim-14.17.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/gwg04wvln4bd239d52hhs1arbmsw75d8-nodejs-slim-14.17.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/web/nodejs/v14.nix:10",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nodejs-slim-14_x"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gwg04wvln4bd239d52hhs1arbmsw75d8-nodejs-slim-14.17.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

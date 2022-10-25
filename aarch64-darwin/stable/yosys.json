@@ -1,21 +1,21 @@
 {
-  "0.15": {
+  "0.16": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.15",
+      "version": "0.16",
       "pname": "yosys",
-      "name": "yosys-0.15",
+      "name": "yosys-0.16",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/0xy4af9kv6jzvdq8pxvahzp3bdv7d4qv-yosys-0.15"
+        "out": "/nix/store/lszi8ppsy72infjkaylidk3wbh38p10j-yosys-0.16"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Open RTL synthesis framework and tools",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/compilers/yosys/default.nix:145",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/yosys/default.nix:145",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0xy4af9kv6jzvdq8pxvahzp3bdv7d4qv-yosys-0.15"
+        "/nix/store/lszi8ppsy72infjkaylidk3wbh38p10j-yosys-0.16"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.20",
+      "pname": "yosys",
+      "name": "yosys-0.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/wncnyxmwp6834mbkry77fhs68iigkkxd-yosys-0.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open RTL synthesis framework and tools",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/yosys/default.nix:145",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "yosys"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wncnyxmwp6834mbkry77fhs68iigkkxd-yosys-0.20"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16",
-      "pname": "yosys",
-      "name": "yosys-0.16",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/lszi8ppsy72infjkaylidk3wbh38p10j-yosys-0.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open RTL synthesis framework and tools",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/yosys/default.nix:145",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "yosys"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lszi8ppsy72infjkaylidk3wbh38p10j-yosys-0.16"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

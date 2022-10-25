@@ -1,21 +1,21 @@
 {
-  "2.7.1": {
+  "2.19.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.7.1",
+      "version": "2.19.0",
       "pname": "terraform-provider-docker",
-      "name": "terraform-provider-docker-2.7.1",
+      "name": "terraform-provider-docker-2.19.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/562vhp40dzw8ls2m4xgnvj8796yribsy-terraform-provider-docker-2.7.1"
+        "out": "/nix/store/b71hyilksvsqqn0mrjqlrafry37m41q8-terraform-provider-docker-2.19.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/562vhp40dzw8ls2m4xgnvj8796yribsy-terraform-provider-docker-2.7.1"
+        "/nix/store/b71hyilksvsqqn0mrjqlrafry37m41q8-terraform-provider-docker-2.19.0"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "2.20.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.20.2",
+      "pname": "terraform-provider-docker",
+      "name": "terraform-provider-docker-2.20.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/45ck9bqgkykrg4zv22b557zvvv5xdxn9-terraform-provider-docker-2.20.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "docker"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/45ck9bqgkykrg4zv22b557zvvv5xdxn9-terraform-provider-docker-2.20.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

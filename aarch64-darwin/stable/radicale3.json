@@ -39,6 +39,46 @@
       }
     }
   },
+  "3.1.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.8",
+      "pname": "radicale",
+      "name": "radicale-3.1.8",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/gyjc4cpy0s4vn5fvrxirbwf76b1k45j8-radicale-3.1.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CalDAV and CardDAV server",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/radicale/3.x.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "radicale3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gyjc4cpy0s4vn5fvrxirbwf76b1k45j8-radicale-3.1.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.0.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.6",
-      "pname": "radicale",
-      "name": "radicale-3.0.6",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vd39s8c8kbw2zhc7h3kb0d0fqfwxpwi5-radicale-3.0.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CalDAV and CardDAV server",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/radicale/3.x.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "radicale3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vd39s8c8kbw2zhc7h3kb0d0fqfwxpwi5-radicale-3.0.6"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

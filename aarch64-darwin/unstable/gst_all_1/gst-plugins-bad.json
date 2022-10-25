@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gst-plugins-bad",
+      "name": "gst-plugins-bad-1.20.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/4cnl52qp5vvnyhlq2nvh8k4ihdgyjr46-gst-plugins-bad-1.20.3-dev",
+        "out": "/nix/store/pfg2xj7mhiwawsld0mjx0d3jkpax35lb-gst-plugins-bad-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GStreamer Bad Plugins",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/bad/default.nix:322",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gst_all_1",
+        "gst-plugins-bad"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pfg2xj7mhiwawsld0mjx0d3jkpax35lb-gst-plugins-bad-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gst-plugins-bad",
-      "name": "gst-plugins-bad-1.20.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/v7bi92hpg9792rix0sfc2rz6ba5cnhac-gst-plugins-bad-1.20.0-dev",
-        "out": "/nix/store/ir74qmg15ig1mxqk351ggcr703d2i2pr-gst-plugins-bad-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GStreamer Bad Plugins",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/bad/default.nix:322",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gst_all_1",
-        "gst-plugins-bad"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ir74qmg15ig1mxqk351ggcr703d2i2pr-gst-plugins-bad-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

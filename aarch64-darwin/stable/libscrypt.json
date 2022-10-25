@@ -1,44 +1,4 @@
 {
-  "1.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22",
-      "pname": "libscrypt",
-      "name": "libscrypt-1.22",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/3p1n3mldqwkk45py47l51jahsk944fns-libscrypt-1.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Shared library that implements scrypt() functionality",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/libscrypt/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libscrypt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3p1n3mldqwkk45py47l51jahsk944fns-libscrypt-1.22"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.21": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22",
+      "pname": "libscrypt",
+      "name": "libscrypt-1.22",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/jpv393q8anm0j2af48k3q13lffnbpibn-libscrypt-1.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Shared library that implements scrypt() functionality",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libscrypt/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libscrypt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jpv393q8anm0j2af48k3q13lffnbpibn-libscrypt-1.22"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,23 +1,23 @@
 {
-  "4.0.0": {
+  "4.2.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.0.0",
+      "version": "4.2.0",
       "pname": "libgweather",
-      "name": "libgweather-4.0.0",
+      "name": "libgweather-4.2.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/n9cxsijd40kck92v85kas24v93q5j4d4-libgweather-4.0.0-dev",
-        "devdoc": "/nix/store/2k6x21nc22q7gf9z3sv6ddbnifjhs4am-libgweather-4.0.0-devdoc",
-        "out": "/nix/store/pag26hnz03ppdv76ybk1la0jb9h9v61d-libgweather-4.0.0"
+        "dev": "/nix/store/f5ry4ih7zkxihzrglziagixi66jlh492-libgweather-4.2.0-dev",
+        "devdoc": "/nix/store/99vh2gpkkklyvyd19gassrlbs6jf6bm8-libgweather-4.2.0-devdoc",
+        "out": "/nix/store/rj1mg8lyf5l9swjp75xj47h8m0904k0q-libgweather-4.2.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A library to access weather information from online services for numerous locations",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/libgweather/default.nix:81",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libgweather/default.nix:99",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/pag26hnz03ppdv76ybk1la0jb9h9v61d-libgweather-4.0.0"
+        "/nix/store/rj1mg8lyf5l9swjp75xj47h8m0904k0q-libgweather-4.2.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "4.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.0",
+      "pname": "libgweather",
+      "name": "libgweather-4.0.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/98xwa1sp07n1anixp5akczswl64k03xr-libgweather-4.0.0-dev",
+        "devdoc": "/nix/store/qn2bv410skf5j69w5ynxi3483495wdlf-libgweather-4.0.0-devdoc",
+        "out": "/nix/store/dg91j756yay5q9mlf9mpb6zkn0a0qn5v-libgweather-4.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library to access weather information from online services for numerous locations",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libgweather/default.nix:81",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libgweather"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dg91j756yay5q9mlf9mpb6zkn0a0qn5v-libgweather-4.0.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

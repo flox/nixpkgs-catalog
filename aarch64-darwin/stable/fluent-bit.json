@@ -1,22 +1,22 @@
 {
-  "1.9.3": {
+  "1.9.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.9.3",
+      "version": "1.9.8",
       "pname": "fluent-bit",
-      "name": "fluent-bit-1.9.3",
+      "name": "fluent-bit-1.9.8",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/6bzl86s77ay5108469mxqr60jk1nz8ia-fluent-bit-1.9.3-dev",
-        "out": "/nix/store/sx1i2y0jdi6hhx73xm18ba1csyvbybb6-fluent-bit-1.9.3"
+        "dev": "/nix/store/2rx22h3h53xhfql72h5bplmzg1k5ml7f-fluent-bit-1.9.8-dev",
+        "out": "/nix/store/x66s2k0j06hdkjznk290zif40fc3288d-fluent-bit-1.9.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/fluent-bit/default.nix:38",
         "unfree": false
       }
     },
@@ -29,14 +29,96 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sx1i2y0jdi6hhx73xm18ba1csyvbybb6-fluent-bit-1.9.3"
+        "/nix/store/x66s2k0j06hdkjznk290zif40fc3288d-fluent-bit-1.9.8"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.3",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3mf7grf7iac0bv9an0gh3hrhzhdfdikr-fluent-bit-1.9.3-dev",
+        "out": "/nix/store/w3rx38mpcn9l8gz6nrvikxg08jynqv40-fluent-bit-1.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w3rx38mpcn9l8gz6nrvikxg08jynqv40-fluent-bit-1.9.3"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.7",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/zida9bxs2bfxsviips3m4ir7gamz68x7-fluent-bit-1.9.7-dev",
+        "out": "/nix/store/8jv8yypn3g4c7anq4dppcsf6zlq6iplb-fluent-bit-1.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8jv8yypn3g4c7anq4dppcsf6zlq6iplb-fluent-bit-1.9.7"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

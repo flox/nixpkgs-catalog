@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.14.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.14.0",
-      "pname": "vale",
-      "name": "vale-2.14.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "data": "/nix/store/6k7n8hyqv1vbv4rm7ar3spgwhh93ljpr-vale-2.14.0-data",
-        "out": "/nix/store/fwy7lmvb2jv9d8gz6b1nbav65xxrjhb1-vale-2.14.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A syntax-aware linter for prose built with speed and extensibility in mind",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/text/vale/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "vale"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fwy7lmvb2jv9d8gz6b1nbav65xxrjhb1-vale-2.14.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "2.10.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "2.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.14.0",
+      "pname": "vale",
+      "name": "vale-2.14.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "data": "/nix/store/6k7n8hyqv1vbv4rm7ar3spgwhh93ljpr-vale-2.14.0-data",
+        "out": "/nix/store/fwy7lmvb2jv9d8gz6b1nbav65xxrjhb1-vale-2.14.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A syntax-aware linter for prose built with speed and extensibility in mind",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/text/vale/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "vale"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fwy7lmvb2jv9d8gz6b1nbav65xxrjhb1-vale-2.14.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

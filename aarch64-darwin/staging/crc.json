@@ -8,14 +8,14 @@
       "name": "crc-2.4.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/k30jfjyjcfzdz1931m908vqmnimmwbwl-crc-2.4.1"
+        "out": "/nix/store/k5rykn7cdcp1w7kmfws3iza68a4winvw-crc-2.4.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Manages a local OpenShift 4.x cluster or a Podman VM optimized for testing and development purposes",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/cluster/crc/default.nix:69",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/crc/default.nix:69",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/k30jfjyjcfzdz1931m908vqmnimmwbwl-crc-2.4.1"
+        "/nix/store/k5rykn7cdcp1w7kmfws3iza68a4winvw-crc-2.4.1"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "2.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.0",
+      "pname": "crc",
+      "name": "crc-2.6.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/0c3f5xjgm1pma1fj0n1ayp3p3clhpq9j-crc-2.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Manages a local OpenShift 4.x cluster or a Podman VM optimized for testing and development purposes",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/crc/default.nix:69",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "crc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0c3f5xjgm1pma1fj0n1ayp3p3clhpq9j-crc-2.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

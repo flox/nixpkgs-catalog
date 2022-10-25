@@ -39,6 +39,46 @@
       }
     }
   },
+  "9.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.6.0",
+      "pname": "croc",
+      "name": "croc-9.6.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/ifa0427hrdy1s61ha93v651733m74v67-croc-9.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Easily and securely send things from one computer to another",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/croc/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "croc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ifa0427hrdy1s61ha93v651733m74v67-croc-9.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "9.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "9.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.3.0",
-      "pname": "croc",
-      "name": "croc-9.3.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/ap7aibclw4qmh9w4ykyvpz428kl40spc-croc-9.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Easily and securely send things from one computer to another",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/croc/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "croc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ap7aibclw4qmh9w4ykyvpz428kl40spc-croc-9.3.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

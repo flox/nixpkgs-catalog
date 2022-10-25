@@ -1,1 +1,46 @@
-null
+{
+  "1.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10",
+      "pname": "plzip",
+      "name": "plzip-1.10",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "info": "/nix/store/57279ca25rglf3sywiilzhx2jzfxv8n4-plzip-1.10-info",
+        "man": "/nix/store/9m0xs5cc4fw0smliqbfbl5300p4swc2p-plzip-1.10-man",
+        "out": "/nix/store/0l12g4yz3drbiwpzyyaj0zkmvxi1jnll-plzip-1.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A massively parallel lossless data compressor based on the lzlib compression library",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/compression/plzip/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "plzip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0l12g4yz3drbiwpzyyaj0zkmvxi1jnll-plzip-1.10",
+        "/nix/store/9m0xs5cc4fw0smliqbfbl5300p4swc2p-plzip-1.10-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  }
+}

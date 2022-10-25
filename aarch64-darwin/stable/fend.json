@@ -1,4 +1,44 @@
 {
+  "1.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.1",
+      "pname": "fend",
+      "name": "fend-1.0.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/12ic2q21rwmzx2ah3hxkpy6rz3y1p222-fend-1.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Arbitrary-precision unit-aware calculator",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/fend/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fend"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/12ic2q21rwmzx2ah3hxkpy6rz3y1p222-fend-1.0.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.1.27": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "1.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.1",
-      "pname": "fend",
-      "name": "fend-1.0.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/12ic2q21rwmzx2ah3hxkpy6rz3y1p222-fend-1.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Arbitrary-precision unit-aware calculator",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/fend/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "fend"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/12ic2q21rwmzx2ah3hxkpy6rz3y1p222-fend-1.0.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.2.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.6",
-      "pname": "gping",
-      "name": "gping-1.2.6",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/2vgx9n2qz5qpyyfz6jmmyr6281r1il7q-gping-1.2.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Ping, but with a graph",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/gping/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gping"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2vgx9n2qz5qpyyfz6jmmyr6281r1il7q-gping-1.2.6"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.2.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.6",
+      "pname": "gping",
+      "name": "gping-1.2.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/2vgx9n2qz5qpyyfz6jmmyr6281r1il7q-gping-1.2.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Ping, but with a graph",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/gping/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gping"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2vgx9n2qz5qpyyfz6jmmyr6281r1il7q-gping-1.2.6"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

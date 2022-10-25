@@ -1,4 +1,44 @@
 {
+  "1.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.0",
+      "pname": "oapi-codegen",
+      "name": "oapi-codegen-1.11.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/i79ryqchlaprpgswm9zqhgm11g4xk7p5-oapi-codegen-1.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Go client and server OpenAPI 3 generator",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/oapi-codegen/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "oapi-codegen"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i79ryqchlaprpgswm9zqhgm11g4xk7p5-oapi-codegen-1.11.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.9.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.8.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.2",
-      "pname": "oapi-codegen",
-      "name": "oapi-codegen-1.8.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/91671sliac6pbx9fypw57zip00q0xws0-oapi-codegen-1.8.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Go client and server OpenAPI 3 generator",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/oapi-codegen/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "oapi-codegen"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/91671sliac6pbx9fypw57zip00q0xws0-oapi-codegen-1.8.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

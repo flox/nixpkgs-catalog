@@ -1,16 +1,16 @@
 {
-  "0.23.5": {
+  "0.23.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.23.5",
+      "version": "0.23.9",
       "pname": "mpd",
-      "name": "mpd-0.23.5",
+      "name": "mpd-0.23.9",
       "system": "aarch64-darwin",
       "outputs": {
-        "doc": "/nix/store/wf0zr2y9z4gpx0rdkqiimiswx95ng1r4-mpd-0.23.5-doc",
-        "man": "/nix/store/74qbfn2df51kqc7663vs4k3d77xh5myv-mpd-0.23.5-man",
-        "out": "/nix/store/npxmslpn0kdlx87sbn4gad2laf0p6g9i-mpd-0.23.5"
+        "doc": "/nix/store/i09f2c99mwf9labkz4y3zbq6yxfcp47s-mpd-0.23.9-doc",
+        "man": "/nix/store/7aacy4xg77v0fc3y6g4dzfhf7751qbj5-mpd-0.23.9-man",
+        "out": "/nix/store/3i7q7d6ysnflyrdgc5pq3yhyi91ph3yy-mpd-0.23.9"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "A flexible, powerful daemon for playing music",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/mpd/default.nix:179",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/mpd/default.nix:185",
         "unfree": false
       }
     },
@@ -31,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/npxmslpn0kdlx87sbn4gad2laf0p6g9i-mpd-0.23.5",
-        "/nix/store/74qbfn2df51kqc7663vs4k3d77xh5myv-mpd-0.23.5-man"
+        "/nix/store/3i7q7d6ysnflyrdgc5pq3yhyi91ph3yy-mpd-0.23.9",
+        "/nix/store/7aacy4xg77v0fc3y6g4dzfhf7751qbj5-mpd-0.23.9-man"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.23.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.23.8",
+      "pname": "mpd",
+      "name": "mpd-0.23.8",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/w8yimf3wc5b1ry08irqplrd1ywwzddlh-mpd-0.23.8-doc",
+        "man": "/nix/store/6gwr4bjq6s34mldpahchb0l7dn3k6bgk-mpd-0.23.8-man",
+        "out": "/nix/store/pgp9s5r1r622846ir3y1fpqc2f4ksdav-mpd-0.23.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A flexible, powerful daemon for playing music",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/mpd/default.nix:185",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mpd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pgp9s5r1r622846ir3y1fpqc2f4ksdav-mpd-0.23.8",
+        "/nix/store/6gwr4bjq6s34mldpahchb0l7dn3k6bgk-mpd-0.23.8-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.11.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.7",
-      "pname": "cilium-cli",
-      "name": "cilium-cli-0.11.7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/szg87f7v205icw2m7ghgxhiajjs5i31v-cilium-cli-0.11.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/cilium/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "cilium-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/szg87f7v205icw2m7ghgxhiajjs5i31v-cilium-cli-0.11.7"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "0.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.12.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.1",
+      "pname": "cilium-cli",
+      "name": "cilium-cli-0.12.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/6xa5y0gaaxm2vwxkm5hafm8axwlq5jyx-cilium-cli-0.12.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/cilium/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "cilium-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6xa5y0gaaxm2vwxkm5hafm8axwlq5jyx-cilium-cli-0.12.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "5.0": {
+  "12.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.0",
+      "version": "12.0",
       "pname": "airwindows-lv2",
-      "name": "airwindows-lv2-5.0",
+      "name": "airwindows-lv2-12.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/af8zxmsqbigqdllggdzpycm6l4llyak4-airwindows-lv2-5.0"
+        "out": "/nix/store/k1bdki0x6ap73x0iafikz19kqrddpq66-airwindows-lv2-12.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Airwindows plugins (ported to LV2)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/airwindows-lv2/default.nix:19",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/audio/airwindows-lv2/default.nix:17",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/af8zxmsqbigqdllggdzpycm6l4llyak4-airwindows-lv2-5.0"
+        "/nix/store/k1bdki0x6ap73x0iafikz19kqrddpq66-airwindows-lv2-12.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0",
+      "pname": "airwindows-lv2",
+      "name": "airwindows-lv2-5.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/328mzfbcv3bpaxxg91m463fhkij2hliy-airwindows-lv2-5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Airwindows plugins (ported to LV2)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/airwindows-lv2/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "airwindows-lv2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/328mzfbcv3bpaxxg91m463fhkij2hliy-airwindows-lv2-5.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

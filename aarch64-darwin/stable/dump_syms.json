@@ -39,23 +39,23 @@
       }
     }
   },
-  "1.0.1": {
+  "2.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.1",
+      "version": "2.0.0",
       "pname": "dump_syms",
-      "name": "dump_syms-1.0.1",
+      "name": "dump_syms-2.0.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/5agvsfap24hh1id3h01s1qlp9f04x3w0-dump_syms-1.0.1"
+        "out": "/nix/store/x90i6iwn9592f9iqbgq3sql4hxn3k9am-dump_syms-2.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command-line utility for parsing the debugging information the compiler provides in ELF or stand-alone PDB files",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/dump_syms/default.nix:47",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/dump_syms/default.nix:47",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5agvsfap24hh1id3h01s1qlp9f04x3w0-dump_syms-1.0.1"
+        "/nix/store/x90i6iwn9592f9iqbgq3sql4hxn3k9am-dump_syms-2.0.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.1",
+      "pname": "dump_syms",
+      "name": "dump_syms-1.0.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/hsai3aczak2q3iz778az0anypzh5zaym-dump_syms-1.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line utility for parsing the debugging information the compiler provides in ELF or stand-alone PDB files",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/dump_syms/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "dump_syms"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hsai3aczak2q3iz778az0anypzh5zaym-dump_syms-1.0.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

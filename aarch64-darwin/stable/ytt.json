@@ -1,4 +1,44 @@
 {
+  "0.40.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.40.1",
+      "pname": "ytt",
+      "name": "ytt-0.40.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/zv2lflgcd5dl087jj1l1fd6h25cv9b5c-ytt-0.40.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "YAML templating tool that allows configuration of complex software via reusable templates with user-provided values",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/ytt/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "ytt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zv2lflgcd5dl087jj1l1fd6h25cv9b5c-ytt-0.40.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.31.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.40.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.40.1",
-      "pname": "ytt",
-      "name": "ytt-0.40.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/zv2lflgcd5dl087jj1l1fd6h25cv9b5c-ytt-0.40.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "YAML templating tool that allows configuration of complex software via reusable templates with user-provided values",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/ytt/default.nix:18",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "ytt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zv2lflgcd5dl087jj1l1fd6h25cv9b5c-ytt-0.40.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

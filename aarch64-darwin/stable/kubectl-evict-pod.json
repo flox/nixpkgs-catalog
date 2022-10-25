@@ -1,4 +1,44 @@
 {
+  "0.0.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.12",
+      "pname": "kubectl-evict-pod",
+      "name": "kubectl-evict-pod-0.0.12",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/002m71ihg4ilfs97k1d0kpv2awnzqy1m-kubectl-evict-pod-0.0.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "This plugin evicts the given pod and is useful for testing pod disruption budget rules",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kubectl-evict-pod/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kubectl-evict-pod"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/002m71ihg4ilfs97k1d0kpv2awnzqy1m-kubectl-evict-pod-0.0.12"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.0.10": {
     "type": "catalogRender",
     "schema": 1,

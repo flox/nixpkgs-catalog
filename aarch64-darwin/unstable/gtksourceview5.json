@@ -1,23 +1,23 @@
 {
-  "5.4.2": {
+  "5.6.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.4.2",
+      "version": "5.6.1",
       "pname": "gtksourceview",
-      "name": "gtksourceview-5.4.2",
+      "name": "gtksourceview-5.6.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/2jifyhlcm63x7pdsfn9f9792qydrv6mi-gtksourceview-5.4.2-dev",
-        "devdoc": "/nix/store/dkhr8vb4bgwai55khcjjswpyrrj7fx1s-gtksourceview-5.4.2-devdoc",
-        "out": "/nix/store/7r479hc1qmhg3fji4398s62x7w0yjw88-gtksourceview-5.4.2"
+        "dev": "/nix/store/761dajsgbv0lzn5yzj2fvn65kc6n5n5a-gtksourceview-5.6.1-dev",
+        "devdoc": "/nix/store/04vn5j86l432vrh3n2i5jrhzffbwdn4r-gtksourceview-5.6.1-devdoc",
+        "out": "/nix/store/84dk4acm5jp95xv06ccyyyi3y3m77inw-gtksourceview-5.6.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Source code editing widget for GTK",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/gtksourceview/5.x.nix:104",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/gtksourceview/5.x.nix:104",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7r479hc1qmhg3fji4398s62x7w0yjw88-gtksourceview-5.4.2"
+        "/nix/store/84dk4acm5jp95xv06ccyyyi3y3m77inw-gtksourceview-5.6.1"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.2",
+      "pname": "gtksourceview",
+      "name": "gtksourceview-5.4.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/7nyr1cr6ya4cip05p6429fl5rhyjhvi4-gtksourceview-5.4.2-dev",
+        "devdoc": "/nix/store/qnbbd58ggx88m28lznm8hk62c3k73jqy-gtksourceview-5.4.2-devdoc",
+        "out": "/nix/store/f7ccvliy0l65hsvk0h969w2rnf85xhvj-gtksourceview-5.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Source code editing widget for GTK",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gtksourceview/5.x.nix:104",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gtksourceview5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f7ccvliy0l65hsvk0h969w2rnf85xhvj-gtksourceview-5.4.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

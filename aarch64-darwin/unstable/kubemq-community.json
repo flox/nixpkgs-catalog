@@ -1,21 +1,21 @@
 {
-  "2.2.13": {
+  "2.3.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2.13",
+      "version": "2.3.1",
       "pname": "kubemq-community",
-      "name": "kubemq-community-2.2.13",
+      "name": "kubemq-community-2.3.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/0wgxzfp56kfc74b21dj1k86x75q7mxqs-kubemq-community-2.2.13"
+        "out": "/nix/store/sy86b207sgcrzkycv6vkqg2615hspi1p-kubemq-community-2.3.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "KubeMQ Community is the open-source version of KubeMQ, the Kubernetes native message broker.",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/kubemq-community/default.nix:23",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/kubemq-community/default.nix:23",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0wgxzfp56kfc74b21dj1k86x75q7mxqs-kubemq-community-2.2.13"
+        "/nix/store/sy86b207sgcrzkycv6vkqg2615hspi1p-kubemq-community-2.3.1"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.2.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.13",
+      "pname": "kubemq-community",
+      "name": "kubemq-community-2.2.13",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/vxa7vrd8bzr4xknpsgzlhb99303a0b2w-kubemq-community-2.2.13"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "KubeMQ Community is the open-source version of KubeMQ, the Kubernetes native message broker.",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/kubemq-community/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kubemq-community"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vxa7vrd8bzr4xknpsgzlhb99303a0b2w-kubemq-community-2.2.13"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

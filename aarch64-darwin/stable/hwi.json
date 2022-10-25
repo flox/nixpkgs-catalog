@@ -39,6 +39,46 @@
       }
     }
   },
+  "2.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.1",
+      "pname": "hwi",
+      "name": "hwi-2.1.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/z7zzbgyfswgl91fdflrjrca003vyd4gc-python3.10-hwi-2.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Bitcoin Hardware Wallet Interface",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/hwi/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "hwi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z7zzbgyfswgl91fdflrjrca003vyd4gc-python3.10-hwi-2.1.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "2.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.1",
-      "pname": "hwi",
-      "name": "hwi-2.1.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/xf9dpnp0x2903aaqayb1xqc71gfxv04y-python3.9-hwi-2.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Bitcoin Hardware Wallet Interface",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/python-modules/hwi/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "hwi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xf9dpnp0x2903aaqayb1xqc71gfxv04y-python3.9-hwi-2.1.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

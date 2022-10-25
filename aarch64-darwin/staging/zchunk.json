@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.2",
-      "pname": "zchunk",
-      "name": "zchunk-1.2.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/l0ymcqzfyvmxzwnwgpbnp52727ymcb2g-zchunk-1.2.2-dev",
-        "lib": "/nix/store/c153k3bfyj1sllfzkl418k2v2v9gfzz4-zchunk-1.2.2-lib",
-        "out": "/nix/store/6yym7wp7bk7kayrh6jmpk50ks2c9i9xl-zchunk-1.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "File format designed for highly efficient deltas while maintaining good compression",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/zchunk/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "zchunk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6yym7wp7bk7kayrh6jmpk50ks2c9i9xl-zchunk-1.2.2"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.2",
+      "pname": "zchunk",
+      "name": "zchunk-1.2.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/zii1ba0ac03ipnmvsrphjgrlc44986gg-zchunk-1.2.2-dev",
+        "lib": "/nix/store/ihcqxjf72ymyhww0hlyg18hpmshzhcp3-zchunk-1.2.2-lib",
+        "out": "/nix/store/qah3i96bz75jmx2lxh95xifn7789jksk-zchunk-1.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "File format designed for highly efficient deltas while maintaining good compression",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/zchunk/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "zchunk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qah3i96bz75jmx2lxh95xifn7789jksk-zchunk-1.2.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,4 +1,47 @@
 {
+  "42.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.2",
+      "pname": "ghex",
+      "name": "ghex-42.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/2ah57kq5ndcbgwcgxsf06qmmpmgaaj1c-ghex-42.2-dev",
+        "devdoc": "/nix/store/3868kc3ipf35hnp80ky3hlzxkfza8rjc-ghex-42.2-devdoc",
+        "out": "/nix/store/bq9anzd390xz4d2cyrwk1655apmbbrlk-ghex-42.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Hex editor for GNOME desktop environment",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/desktops/gnome/apps/ghex/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gnome",
+        "ghex"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bq9anzd390xz4d2cyrwk1655apmbbrlk-ghex-42.2"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "3.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,49 +123,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "42.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.2",
-      "pname": "ghex",
-      "name": "ghex-42.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/2ah57kq5ndcbgwcgxsf06qmmpmgaaj1c-ghex-42.2-dev",
-        "devdoc": "/nix/store/3868kc3ipf35hnp80ky3hlzxkfza8rjc-ghex-42.2-devdoc",
-        "out": "/nix/store/bq9anzd390xz4d2cyrwk1655apmbbrlk-ghex-42.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Hex editor for GNOME desktop environment",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/desktops/gnome/apps/ghex/default.nix:76",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gnome",
-        "ghex"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bq9anzd390xz4d2cyrwk1655apmbbrlk-ghex-42.2"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

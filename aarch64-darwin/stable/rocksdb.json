@@ -1,4 +1,44 @@
 {
+  "7.5.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.5.3",
+      "pname": "rocksdb",
+      "name": "rocksdb-7.5.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/par35b9rsg2706h0jj85n1pspm3z8xf9-rocksdb-7.5.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library that provides an embeddable, persistent key-value store for fast storage",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/rocksdb/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "rocksdb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/par35b9rsg2706h0jj85n1pspm3z8xf9-rocksdb-7.5.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "6.27.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "6.23.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.23.2",
-      "pname": "rocksdb",
-      "name": "rocksdb-6.23.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/70q3xdbyhpda2wawj9p7l3r5g0fyll4q-rocksdb-6.23.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library that provides an embeddable, persistent key-value store for fast storage",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/rocksdb/default.nix:62",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "rocksdb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/70q3xdbyhpda2wawj9p7l3r5g0fyll4q-rocksdb-6.23.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

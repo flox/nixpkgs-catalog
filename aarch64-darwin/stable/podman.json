@@ -42,49 +42,6 @@
       }
     }
   },
-  "3.4.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.4",
-      "pname": "podman",
-      "name": "podman-3.4.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "man": "/nix/store/m8r413k5d85y4rlpbpfpzxgn63cifgr3-podman-3.4.4-man",
-        "out": "/nix/store/jzz07qk86v6igaw2qshnd7zrarij0d5c-podman-3.4.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A program for managing pods, containers and container images",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/podman/default.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "podman"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jzz07qk86v6igaw2qshnd7zrarij0d5c-podman-3.4.4",
-        "/nix/store/m8r413k5d85y4rlpbpfpzxgn63cifgr3-podman-3.4.4-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "3.4.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.4",
+      "pname": "podman",
+      "name": "podman-3.4.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "man": "/nix/store/m8r413k5d85y4rlpbpfpzxgn63cifgr3-podman-3.4.4-man",
+        "out": "/nix/store/jzz07qk86v6igaw2qshnd7zrarij0d5c-podman-3.4.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A program for managing pods, containers and container images",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/podman/default.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "podman"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jzz07qk86v6igaw2qshnd7zrarij0d5c-podman-3.4.4",
+        "/nix/store/m8r413k5d85y4rlpbpfpzxgn63cifgr3-podman-3.4.4-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

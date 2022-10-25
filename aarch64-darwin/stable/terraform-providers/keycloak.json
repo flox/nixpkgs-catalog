@@ -1,21 +1,21 @@
 {
-  "3.7.0": {
+  "3.8.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.7.0",
+      "version": "3.8.1",
       "pname": "terraform-provider-keycloak",
-      "name": "terraform-provider-keycloak-3.7.0",
+      "name": "terraform-provider-keycloak-3.8.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/rad51r0x6g9v7cddjzh5kap86p352289-terraform-provider-keycloak-3.7.0"
+        "out": "/nix/store/05m1bbhwr0xrh8lm12ld09384lihb5q6-terraform-provider-keycloak-3.8.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rad51r0x6g9v7cddjzh5kap86p352289-terraform-provider-keycloak-3.7.0"
+        "/nix/store/05m1bbhwr0xrh8lm12ld09384lihb5q6-terraform-provider-keycloak-3.8.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.10.0",
+      "pname": "terraform-provider-keycloak",
+      "name": "terraform-provider-keycloak-3.10.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/zd3y28aj3m2y9i0h6sacjv2m5lz9p6nn-terraform-provider-keycloak-3.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "keycloak"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zd3y28aj3m2y9i0h6sacjv2m5lz9p6nn-terraform-provider-keycloak-3.10.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "3.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.8.1",
-      "pname": "terraform-provider-keycloak",
-      "name": "terraform-provider-keycloak-3.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/05m1bbhwr0xrh8lm12ld09384lihb5q6-terraform-provider-keycloak-3.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "terraform-providers",
-        "keycloak"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/05m1bbhwr0xrh8lm12ld09384lihb5q6-terraform-provider-keycloak-3.8.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "2.16.7": {
+  "3.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.16.7",
+      "version": "3.8.0",
       "pname": "imgproxy",
-      "name": "imgproxy-2.16.7",
+      "name": "imgproxy-3.8.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/1bgkzj87zf5p5ml08272lan6s3xl4r94-imgproxy-2.16.7"
+        "out": "/nix/store/bivgvvlsipl2knvkil7il08g1f6w6q8f-imgproxy-3.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Fast and secure on-the-fly image processing server written in Go",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/imgproxy/default.nix:29",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/imgproxy/default.nix:27",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1bgkzj87zf5p5ml08272lan6s3xl4r94-imgproxy-2.16.7"
+        "/nix/store/bivgvvlsipl2knvkil7il08g1f6w6q8f-imgproxy-3.8.0"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "3.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.7.2",
+      "pname": "imgproxy",
+      "name": "imgproxy-3.7.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/dxfzw5zxi5x8dadk360iskp1xdhz0k0v-imgproxy-3.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast and secure on-the-fly image processing server written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/imgproxy/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "imgproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dxfzw5zxi5x8dadk360iskp1xdhz0k0v-imgproxy-3.7.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

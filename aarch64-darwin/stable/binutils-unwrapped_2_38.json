@@ -1,1 +1,46 @@
-null
+{
+  "2.38": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.38",
+      "pname": "binutils",
+      "name": "binutils-2.38",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "info": "/nix/store/d0i8vkdwjvaz0n773fnf4ylspy3ijkyv-binutils-2.38-info",
+        "man": "/nix/store/yd9cd309ivn93mrfjd7m9zzwzqviffjr-binutils-2.38-man",
+        "out": "/nix/store/g9qxrm283as331sbbz0882917ri9w4ks-binutils-2.38"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/misc/binutils/2.38/default.nix:224",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "binutils-unwrapped_2_38"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g9qxrm283as331sbbz0882917ri9w4ks-binutils-2.38",
+        "/nix/store/yd9cd309ivn93mrfjd7m9zzwzqviffjr-binutils-2.38-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  }
+}

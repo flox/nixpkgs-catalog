@@ -1,21 +1,21 @@
 {
-  "0.14.1": {
+  "0.14.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.14.1",
+      "version": "0.14.8",
       "pname": "faas-cli",
-      "name": "faas-cli-0.14.1",
+      "name": "faas-cli-0.14.8",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/k5lb905rgravimb14z2i3l7zpg869hnl-faas-cli-0.14.1"
+        "out": "/nix/store/rhha3c688l233g61l1d4qyvg1955h11h-faas-cli-0.14.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Official CLI for OpenFaaS ",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/faas-cli/default.nix:38",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/development/tools/faas-cli/default.nix:60",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/k5lb905rgravimb14z2i3l7zpg869hnl-faas-cli-0.14.1"
+        "/nix/store/rhha3c688l233g61l1d4qyvg1955h11h-faas-cli-0.14.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 416449,
+        "lastModified": 1665449268
+      }
+    }
+  },
+  "0.14.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.6",
+      "pname": "faas-cli",
+      "name": "faas-cli-0.14.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/ams7mh77fvbb9vz6f1218lznpzglw6nb-faas-cli-0.14.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official CLI for OpenFaaS ",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/faas-cli/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "faas-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ams7mh77fvbb9vz6f1218lznpzglw6nb-faas-cli-0.14.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

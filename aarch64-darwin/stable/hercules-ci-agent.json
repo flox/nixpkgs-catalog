@@ -40,6 +40,47 @@
       }
     }
   },
+  "0.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.7",
+      "pname": "hercules-ci-agent",
+      "name": "hercules-ci-agent-0.9.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "data": "/nix/store/42w6fcr53jfivijs7l92adgks3shvwxj-hercules-ci-agent-0.9.7-data",
+        "out": "/nix/store/hi44r34h2qwpa6rhp9m4l222h6a77lx9-hercules-ci-agent-0.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Runs Continuous Integration tasks on your machines",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/haskell-modules/hackage-packages.nix:135504",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "hercules-ci-agent"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hi44r34h2qwpa6rhp9m4l222h6a77lx9-hercules-ci-agent-0.9.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.9.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,46 +119,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "0.8.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.5",
-      "pname": "hercules-ci-agent",
-      "name": "hercules-ci-agent-0.8.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/7w35xrdy6vbmzfvvcc3prnvj1rmzjsf5-hercules-ci-agent-0.8.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Runs Continuous Integration tasks on your machines",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/haskell-modules/hackage-packages.nix:132381",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "hercules-ci-agent"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7w35xrdy6vbmzfvvcc3prnvj1rmzjsf5-hercules-ci-agent-0.8.5"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
       }
     }
   }

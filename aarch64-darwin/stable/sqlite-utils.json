@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.19",
-      "pname": "sqlite-utils",
-      "name": "sqlite-utils-3.19",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/h9dv7n91fhdjcp4j7ga8xlhwz4gr12kr-python3.9-sqlite-utils-3.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python CLI utility and library for manipulating SQLite databases",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/sqlite-utils/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "sqlite-utils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h9dv7n91fhdjcp4j7ga8xlhwz4gr12kr-python3.9-sqlite-utils-3.19"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "3.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.19",
+      "pname": "sqlite-utils",
+      "name": "sqlite-utils-3.19",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/h9dv7n91fhdjcp4j7ga8xlhwz4gr12kr-python3.9-sqlite-utils-3.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python CLI utility and library for manipulating SQLite databases",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/sqlite-utils/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "sqlite-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h9dv7n91fhdjcp4j7ga8xlhwz4gr12kr-python3.9-sqlite-utils-3.19"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

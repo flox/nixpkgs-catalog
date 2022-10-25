@@ -42,49 +42,6 @@
       }
     }
   },
-  "1.5.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.2",
-      "pname": "skopeo",
-      "name": "skopeo-1.5.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "man": "/nix/store/gy7c200dvp9i3ggpkg8qkxbfw5j4lql5-skopeo-1.5.2-man",
-        "out": "/nix/store/39d6rn8i289g4mha90d048q8h7qfdz1s-skopeo-1.5.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A command line utility for various operations on container images and image repositories",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/skopeo/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "skopeo"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/39d6rn8i289g4mha90d048q8h7qfdz1s-skopeo-1.5.2",
-        "/nix/store/gy7c200dvp9i3ggpkg8qkxbfw5j4lql5-skopeo-1.5.2-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.2",
+      "pname": "skopeo",
+      "name": "skopeo-1.5.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "man": "/nix/store/gy7c200dvp9i3ggpkg8qkxbfw5j4lql5-skopeo-1.5.2-man",
+        "out": "/nix/store/39d6rn8i289g4mha90d048q8h7qfdz1s-skopeo-1.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A command line utility for various operations on container images and image repositories",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/skopeo/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "skopeo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/39d6rn8i289g4mha90d048q8h7qfdz1s-skopeo-1.5.2",
+        "/nix/store/gy7c200dvp9i3ggpkg8qkxbfw5j4lql5-skopeo-1.5.2-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

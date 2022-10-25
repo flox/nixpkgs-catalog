@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gst-editing-services",
+      "name": "gst-editing-services-1.20.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/yjl271g8ic8zmcpl45vqw1qz6phhxdz8-gst-editing-services-1.20.3-dev",
+        "out": "/nix/store/vn7ji1nr51ab77n28i5anb9s733wkhgs-gst-editing-services-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library for creation of audio/video non-linear editors",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/ges/default.nix:67",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gst_all_1",
+        "gst-editing-services"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vn7ji1nr51ab77n28i5anb9s733wkhgs-gst-editing-services-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gst-editing-services",
-      "name": "gst-editing-services-1.20.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/f7gzn6k7ygjn4n6gackfpgbw8kzbgvy0-gst-editing-services-1.20.0-dev",
-        "out": "/nix/store/6irjmv9rfxvwh0q7r0dr6brapkpm5yb2-gst-editing-services-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Library for creation of audio/video non-linear editors",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/ges/default.nix:68",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gst_all_1",
-        "gst-editing-services"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6irjmv9rfxvwh0q7r0dr6brapkpm5yb2-gst-editing-services-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

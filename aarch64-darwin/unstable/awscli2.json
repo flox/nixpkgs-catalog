@@ -1,21 +1,21 @@
 {
-  "2.7.20": {
+  "2.5.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.7.20",
+      "version": "2.5.6",
       "pname": "awscli2",
-      "name": "awscli2-2.7.20",
+      "name": "awscli2-2.5.6",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/chrdl36fmxs3jn0dph0sm27nqpmjbib5-awscli2-2.7.20"
+        "out": "/nix/store/nkny375r5kgi3dm5bfqbyykwdxd98j00-awscli2-2.5.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Unified tool to manage your AWS services",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/admin/awscli2/default.nix:95",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/admin/awscli2/default.nix:101",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/chrdl36fmxs3jn0dph0sm27nqpmjbib5-awscli2-2.7.20"
+        "/nix/store/nkny375r5kgi3dm5bfqbyykwdxd98j00-awscli2-2.5.6"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2.7.33": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.33",
+      "pname": "awscli2",
+      "name": "awscli2-2.7.33",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/3y93v6za6lsv2zv2zrimsg8dp20ay0rj-awscli2-2.7.33"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Unified tool to manage your AWS services",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/awscli2/default.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "awscli2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3y93v6za6lsv2zv2zrimsg8dp20ay0rj-awscli2-2.7.33"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "2.5.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.5.6",
-      "pname": "awscli2",
-      "name": "awscli2-2.5.6",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/nkny375r5kgi3dm5bfqbyykwdxd98j00-awscli2-2.5.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Unified tool to manage your AWS services",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/admin/awscli2/default.nix:101",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "awscli2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nkny375r5kgi3dm5bfqbyykwdxd98j00-awscli2-2.5.6"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

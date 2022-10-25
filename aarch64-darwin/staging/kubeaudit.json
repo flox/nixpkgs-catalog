@@ -1,4 +1,44 @@
 {
+  "0.20.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.20.0",
+      "pname": "kubeaudit",
+      "name": "kubeaudit-0.20.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/msai38qin4xvb1plma227g9w2r4dc8ka-kubeaudit-0.20.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Audit tool for Kubernetes",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/kubeaudit/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kubeaudit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/msai38qin4xvb1plma227g9w2r4dc8ka-kubeaudit-0.20.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.19.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.18.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.0",
-      "pname": "kubeaudit",
-      "name": "kubeaudit-0.18.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/cic6z41qddvclwizb1j6wi2nnzpmmb53-kubeaudit-0.18.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Audit tool for Kubernetes",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/security/kubeaudit/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kubeaudit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cic6z41qddvclwizb1j6wi2nnzpmmb53-kubeaudit-0.18.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
       }
     }
   },

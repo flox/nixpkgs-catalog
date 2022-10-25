@@ -1,4 +1,44 @@
 {
+  "22.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.8.2",
+      "pname": "linkerd-edge",
+      "name": "linkerd-edge-22.8.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/dvqmzpnszk3d0k0in79w8d8kpy7jgf9j-linkerd-edge-22.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple Kubernetes service mesh that improves security, observability and reliability",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/linkerd/generic.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "linkerd_edge"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dvqmzpnszk3d0k0in79w8d8kpy7jgf9j-linkerd-edge-22.8.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "21.10.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "21.8.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "21.8.2",
-      "pname": "linkerd-edge",
-      "name": "linkerd-edge-21.8.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0wllwqv410c7nx8kdvl0dgvjj2b8l33k-linkerd-edge-21.8.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple Kubernetes service mesh that improves security, observability and reliability",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/linkerd/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "linkerd_edge"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0wllwqv410c7nx8kdvl0dgvjj2b8l33k-linkerd-edge-21.8.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },
