@@ -8,9 +8,9 @@
       "name": "systemd-stage-1-network-251.3",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/0vwz537rpjxq50g9rj502grflq7h9rmv-systemd-stage-1-network-251.3-dev",
-        "man": "/nix/store/35k5bdi1bmwqj1n4h1j1j69lxffn7kij-systemd-stage-1-network-251.3-man",
-        "out": "/nix/store/l6hj7w95bv1m6vrzv60qj7fz1lc1ff03-systemd-stage-1-network-251.3"
+        "dev": "/nix/store/g66vvp5xv5mj11d11jgggdblyx6pr3c3-systemd-stage-1-network-251.3-dev",
+        "man": "/nix/store/9zx7vamiar60b393amiwidkqmmm9vb4n-systemd-stage-1-network-251.3-man",
+        "out": "/nix/store/dbviw7ba89rg12fc9xbv1684rrss1pdz-systemd-stage-1-network-251.3"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "A system and service manager for Linux",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/systemd/default.nix:689",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/systemd/default.nix:689",
         "unfree": false
       }
     },
@@ -31,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l6hj7w95bv1m6vrzv60qj7fz1lc1ff03-systemd-stage-1-network-251.3",
-        "/nix/store/35k5bdi1bmwqj1n4h1j1j69lxffn7kij-systemd-stage-1-network-251.3-man"
+        "/nix/store/dbviw7ba89rg12fc9xbv1684rrss1pdz-systemd-stage-1-network-251.3",
+        "/nix/store/9zx7vamiar60b393amiwidkqmmm9vb4n-systemd-stage-1-network-251.3-man"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "251.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "251.4",
+      "pname": "systemd-stage-1-network",
+      "name": "systemd-stage-1-network-251.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/hw5f17l65px4hcrx20w0a7lv11a0ldmj-systemd-stage-1-network-251.4-dev",
+        "man": "/nix/store/723v3dz2bpnqikrka4r7f7zkcdcqj5mf-systemd-stage-1-network-251.4-man",
+        "out": "/nix/store/kgvmgg94c2mbg3562yyabhzydsxzmp4z-systemd-stage-1-network-251.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A system and service manager for Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/systemd/default.nix:689",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "systemdStage1Network"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kgvmgg94c2mbg3562yyabhzydsxzmp4z-systemd-stage-1-network-251.4",
+        "/nix/store/723v3dz2bpnqikrka4r7f7zkcdcqj5mf-systemd-stage-1-network-251.4-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

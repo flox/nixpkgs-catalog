@@ -1,21 +1,21 @@
 {
-  "5.9.4": {
+  "5.9.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.9.4",
+      "version": "5.9.8",
       "pname": "strongswan",
-      "name": "strongswan-5.9.4",
+      "name": "strongswan-5.9.8",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/z59gg56vnwx6nncrbcagcd6lqz76m9mj-strongswan-5.9.4"
+        "out": "/nix/store/gh03ynjbywa2z1c47krwslfr1y6v3k3q-strongswan-5.9.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "OpenSource IPsec-based VPN Solution",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/strongswan/default.nix:105",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/strongswan/default.nix:108",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/z59gg56vnwx6nncrbcagcd6lqz76m9mj-strongswan-5.9.4"
+        "/nix/store/gh03ynjbywa2z1c47krwslfr1y6v3k3q-strongswan-5.9.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.9.7",
+      "pname": "strongswan",
+      "name": "strongswan-5.9.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/cl0h4jykwj6hlcyc73d2i75ss9pyyy39-strongswan-5.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "OpenSource IPsec-based VPN Solution",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/strongswan/default.nix:108",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "strongswanNM"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cl0h4jykwj6hlcyc73d2i75ss9pyyy39-strongswan-5.9.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

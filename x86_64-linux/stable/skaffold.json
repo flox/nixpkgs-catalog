@@ -1,21 +1,21 @@
 {
-  "1.36.0": {
+  "1.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.36.0",
+      "version": "1.38.0",
       "pname": "skaffold",
-      "name": "skaffold-1.36.0",
+      "name": "skaffold-1.38.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/y8fz3ki5vq3awbp096rx10gacylrjnsr-skaffold-1.36.0"
+        "out": "/nix/store/avs642b5l9y0gbi70fr339ilq0i5i67v-skaffold-1.38.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Easy and Repeatable Kubernetes Development",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/tools/skaffold/default.nix:41",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/skaffold/default.nix:41",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/y8fz3ki5vq3awbp096rx10gacylrjnsr-skaffold-1.36.0"
+        "/nix/store/avs642b5l9y0gbi70fr339ilq0i5i67v-skaffold-1.38.0"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.39.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.39.2",
+      "pname": "skaffold",
+      "name": "skaffold-1.39.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/y65y2fd88kciw578rm0g10dkzayckzvi-skaffold-1.39.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Easy and Repeatable Kubernetes Development",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/skaffold/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "skaffold"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y65y2fd88kciw578rm0g10dkzayckzvi-skaffold-1.39.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.38.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.38.0",
-      "pname": "skaffold",
-      "name": "skaffold-1.38.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/avs642b5l9y0gbi70fr339ilq0i5i67v-skaffold-1.38.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Easy and Repeatable Kubernetes Development",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/skaffold/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "skaffold"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/avs642b5l9y0gbi70fr339ilq0i5i67v-skaffold-1.38.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -43,6 +43,50 @@
       }
     }
   },
+  "1.4.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.20",
+      "pname": "xapian",
+      "name": "xapian-1.4.20",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/i7zslqcrh1nbjgjimxl82vb3g6v8gl23-xapian-1.4.20-doc",
+        "man": "/nix/store/nryfnmvj31fdnk08ygncidkzz0flapqx-xapian-1.4.20-man",
+        "out": "/nix/store/zavjnpmap5md0zc7058qmszigskmcdsf-xapian-1.4.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Search engine library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/xapian/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xapian_1_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zavjnpmap5md0zc7058qmszigskmcdsf-xapian-1.4.20",
+        "/nix/store/nryfnmvj31fdnk08ygncidkzz0flapqx-xapian-1.4.20-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.4.19": {
     "type": "catalogRender",
     "schema": 1,

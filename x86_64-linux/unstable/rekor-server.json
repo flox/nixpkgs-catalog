@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.10.0",
-      "pname": "rekor-server",
-      "name": "rekor-server-0.10.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/a4bx95jdm4cnnls5nqmm46171sbq20la-rekor-server-0.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Sigstore server, the Signature Transparency Log",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/security/rekor/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "rekor-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a4bx95jdm4cnnls5nqmm46171sbq20la-rekor-server-0.10.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "0.8.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "rekor-server",
+      "name": "rekor-server-0.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/f7inpg18w21x667zn3xqskhj6rb940sj-rekor-server-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sigstore server, the Signature Transparency Log",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/security/rekor/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rekor-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f7inpg18w21x667zn3xqskhj6rb940sj-rekor-server-0.10.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

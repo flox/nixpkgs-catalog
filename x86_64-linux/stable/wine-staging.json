@@ -78,5 +78,45 @@
         "lastModified": 1652991527
       }
     }
+  },
+  "7.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.15",
+      "pname": "wine",
+      "name": "wine-7.15-staging",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/9fvbpbg0my4mq47qbiyi2b139n3v4m7k-wine-7.15-staging"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix (with staging patches)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/emulators/wine/base.nix:198",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wine-staging"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9fvbpbg0my4mq47qbiyi2b139n3v4m7k-wine-7.15-staging"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
   }
 }

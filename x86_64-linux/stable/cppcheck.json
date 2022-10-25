@@ -42,49 +42,6 @@
       }
     }
   },
-  "2.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.8",
-      "pname": "cppcheck",
-      "name": "cppcheck-2.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/0jyjaks8drnnkk0wg79rzwl7494h1zsw-cppcheck-2.8-man",
-        "out": "/nix/store/q8pwlbzar7kw8syr9p2x1mpabcl49662-cppcheck-2.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A static analysis tool for C/C++ code",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/analysis/cppcheck/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "cppcheck"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/q8pwlbzar7kw8syr9p2x1mpabcl49662-cppcheck-2.8",
-        "/nix/store/0jyjaks8drnnkk0wg79rzwl7494h1zsw-cppcheck-2.8-man"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "2.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.8.2",
+      "pname": "cppcheck",
+      "name": "cppcheck-2.8.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/ac9ays767hvc2fb6qc9p17njcdjlfbqb-cppcheck-2.8.2-man",
+        "out": "/nix/store/6bxifsy7k4a0dyhj74r4sbi0zrjlx8gj-cppcheck-2.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A static analysis tool for C/C++ code",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/analysis/cppcheck/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cppcheck"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6bxifsy7k4a0dyhj74r4sbi0zrjlx8gj-cppcheck-2.8.2",
+        "/nix/store/ac9ays767hvc2fb6qc9p17njcdjlfbqb-cppcheck-2.8.2-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

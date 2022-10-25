@@ -1,21 +1,21 @@
 {
-  "1.6": {
+  "2.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.6",
+      "version": "2.0",
       "pname": "xdgmenumaker",
-      "name": "xdgmenumaker-1.6",
+      "name": "xdgmenumaker-2.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/j5fyrxjm1aaml9rrw1nsh39jqdi6chvk-xdgmenumaker-1.6"
+        "out": "/nix/store/lij4mlsr8fx8bvmjvqzwwzimifbbibn5-xdgmenumaker-2.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command line tool that generates XDG menus for several window managers",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/misc/xdgmenumaker/default.nix:58",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/xdgmenumaker/default.nix:58",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j5fyrxjm1aaml9rrw1nsh39jqdi6chvk-xdgmenumaker-1.6"
+        "/nix/store/lij4mlsr8fx8bvmjvqzwwzimifbbibn5-xdgmenumaker-2.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6",
+      "pname": "xdgmenumaker",
+      "name": "xdgmenumaker-1.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/6a58amyzpggk9pkvqxxryrz6cnfjahqv-xdgmenumaker-1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command line tool that generates XDG menus for several window managers",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/xdgmenumaker/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xdgmenumaker"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6a58amyzpggk9pkvqxxryrz6cnfjahqv-xdgmenumaker-1.6"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

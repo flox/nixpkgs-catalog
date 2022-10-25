@@ -1,21 +1,21 @@
 {
-  "3.37.2": {
+  "3.38.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.37.2",
+      "version": "3.38.5",
       "pname": "sqldiff",
-      "name": "sqldiff-3.37.2",
+      "name": "sqldiff-3.38.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/0mj39aj2bzxxpwnkdddhkyx8267n5k35-sqldiff-3.37.2"
+        "out": "/nix/store/n6l4afrx3pq6a3ph9y7h8h9733nmsx8g-sqldiff-3.38.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A tool that displays the differences between SQLite databases",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/sqlite/tools.nix:23",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/sqlite/tools.nix:23",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0mj39aj2bzxxpwnkdddhkyx8267n5k35-sqldiff-3.37.2"
+        "/nix/store/n6l4afrx3pq6a3ph9y7h8h9733nmsx8g-sqldiff-3.38.5"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.39.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.39.2",
+      "pname": "sqldiff",
+      "name": "sqldiff-3.39.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/4g40a68y0sx54lsk72l4shaypyr8ym4w-sqldiff-3.39.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool that displays the differences between SQLite databases",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sqlite/tools.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "sqldiff"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4g40a68y0sx54lsk72l4shaypyr8ym4w-sqldiff-3.39.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.38.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.38.5",
-      "pname": "sqldiff",
-      "name": "sqldiff-3.38.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/n6l4afrx3pq6a3ph9y7h8h9733nmsx8g-sqldiff-3.38.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool that displays the differences between SQLite databases",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/sqlite/tools.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "sqldiff"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n6l4afrx3pq6a3ph9y7h8h9733nmsx8g-sqldiff-3.38.5"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

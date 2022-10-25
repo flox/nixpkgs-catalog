@@ -45,6 +45,52 @@
       }
     }
   },
+  "1.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.1",
+      "pname": "flac",
+      "name": "flac-1.4.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/85jmps08xns6h9dzwg79wkdd6iyk000d-flac-1.4.1-bin",
+        "dev": "/nix/store/jq6avvc26i92bci7yc6w5vhlk8g043v0-flac-1.4.1-dev",
+        "doc": "/nix/store/a8hil1b2rhiyn2nzw6mv81nyjnvbi2rb-flac-1.4.1-doc",
+        "man": "/nix/store/y6kpa2kcczpslv058g1ij9nvqhsyfj3r-flac-1.4.1-man",
+        "out": "/nix/store/wkdm3qdnkc90v4v5wncxgvqkbqk7icvi-flac-1.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Library and tools for encoding and decoding the FLAC lossless audio file format",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/audio/flac/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "flac"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/85jmps08xns6h9dzwg79wkdd6iyk000d-flac-1.4.1-bin",
+        "/nix/store/y6kpa2kcczpslv058g1ij9nvqhsyfj3r-flac-1.4.1-man"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "1.3.4": {
     "type": "catalogRender",
     "schema": 1,

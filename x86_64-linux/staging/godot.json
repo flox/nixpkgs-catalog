@@ -1,16 +1,16 @@
 {
-  "3.4.2": {
+  "3.5.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.2",
+      "version": "3.5.1",
       "pname": "godot",
-      "name": "godot-3.4.2",
+      "name": "godot-3.5.1",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/hly4731lc8w5r8qwssv0m2sjxa03122h-godot-3.4.2-dev",
-        "man": "/nix/store/hhh7mfdcpq5d299s7jjpk0w82kw9p7vs-godot-3.4.2-man",
-        "out": "/nix/store/4jgh82p7lqmzasxnbd0iwcrzd0zj57ga-godot-3.4.2"
+        "dev": "/nix/store/anda6py13ggc0vxkrym77hrvf98qwsnd-godot-3.5.1-dev",
+        "man": "/nix/store/2wvy6ms0ddpadrsbf4nbj6dk41rlspax-godot-3.5.1-man",
+        "out": "/nix/store/8yyw01cqwbm1a3wmyavhxrl0r1gwka36-godot-3.5.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "Free and Open Source 2D and 3D game engine",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/godot/default.nix:98",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/godot/default.nix:103",
         "unfree": false
       }
     },
@@ -31,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4jgh82p7lqmzasxnbd0iwcrzd0zj57ga-godot-3.4.2",
-        "/nix/store/hhh7mfdcpq5d299s7jjpk0w82kw9p7vs-godot-3.4.2-man"
+        "/nix/store/8yyw01cqwbm1a3wmyavhxrl0r1gwka36-godot-3.5.1",
+        "/nix/store/2wvy6ms0ddpadrsbf4nbj6dk41rlspax-godot-3.5.1-man"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "3.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5",
+      "pname": "godot",
+      "name": "godot-3.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/j80d6glz56dw1b8a25a13b8lv27dmw8b-godot-3.5-dev",
+        "man": "/nix/store/pzarprb5rky6csqf07qaqlm9l9km9lcp-godot-3.5-man",
+        "out": "/nix/store/bq7dvn97n0vh7mqd57p26gr1sa3a3az3-godot-3.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Free and Open Source 2D and 3D game engine",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/godot/default.nix:103",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "godot"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bq7dvn97n0vh7mqd57p26gr1sa3a3az3-godot-3.5",
+        "/nix/store/pzarprb5rky6csqf07qaqlm9l9km9lcp-godot-3.5-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

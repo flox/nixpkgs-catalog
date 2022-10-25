@@ -1,19 +1,19 @@
 {
-  "7.81.0": {
+  "7.83.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.81.0",
+      "version": "7.83.1",
       "pname": "curl",
-      "name": "curl-7.81.0",
+      "name": "curl-7.83.1",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/frsknxf0yh7hal9za50diwmr7zbbwhmw-curl-7.81.0-bin",
-        "debug": "/nix/store/a7vi7s1nbh1kmfabiy8gdwhs8qalqakb-curl-7.81.0-debug",
-        "dev": "/nix/store/vna17488s0s01h09hcj4rlizvlmdd6da-curl-7.81.0-dev",
-        "devdoc": "/nix/store/zizi24nhygmb8y6hyllnl794a1ib6d1h-curl-7.81.0-devdoc",
-        "man": "/nix/store/bx9pg0fqky1fr7pyn7p6s0zj9ym39dhq-curl-7.81.0-man",
-        "out": "/nix/store/4cm8r85awxdh2h0vz1v84aqr4sfi71k1-curl-7.81.0"
+        "bin": "/nix/store/r3xcbdh8kgzzzl87hwaf04pm23ys5bkd-curl-7.83.1-bin",
+        "debug": "/nix/store/2gcky1gfa0qv18gbi3cacpp1bb0h7b4c-curl-7.83.1-debug",
+        "dev": "/nix/store/wjq3gswb0q9dxlpfxadqs96lyjp64qry-curl-7.83.1-dev",
+        "devdoc": "/nix/store/4jnsph8fp0vbhzsrp45pi40jk5kc2bv8-curl-7.83.1-devdoc",
+        "man": "/nix/store/hba72ccfkcdl32wqii32qimzniik3g5m-curl-7.83.1-man",
+        "out": "/nix/store/0d1gsryrj0ng8xrdd898hxy2gzp4f5rb-curl-7.83.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -21,7 +21,7 @@
           "man"
         ],
         "description": "A command line tool for transferring files with URL syntax",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/networking/curl/default.nix:162",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/curl/default.nix:191",
         "unfree": false
       }
     },
@@ -34,15 +34,62 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/frsknxf0yh7hal9za50diwmr7zbbwhmw-curl-7.81.0-bin",
-        "/nix/store/bx9pg0fqky1fr7pyn7p6s0zj9ym39dhq-curl-7.81.0-man"
+        "/nix/store/r3xcbdh8kgzzzl87hwaf04pm23ys5bkd-curl-7.83.1-bin",
+        "/nix/store/hba72ccfkcdl32wqii32qimzniik3g5m-curl-7.83.1-man"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "7.84.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.84.0",
+      "pname": "curl",
+      "name": "curl-7.84.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/3s8p9cwzx7da9jnmlhq97mqrxb65a7gi-curl-7.84.0-bin",
+        "debug": "/nix/store/z6xbs7zcgk4l9hbn3qs0qmqf0ivrf7af-curl-7.84.0-debug",
+        "dev": "/nix/store/w75jnn1g348dacfqn8xzrdpln28f9dyg-curl-7.84.0-dev",
+        "devdoc": "/nix/store/gj3saz4vqlnfnddj1lvn2a7zw9vj9m92-curl-7.84.0-devdoc",
+        "man": "/nix/store/kh2h03z926qaiy2w3j0k4drbidpm3138-curl-7.84.0-man",
+        "out": "/nix/store/901d6wpkqg29bjhkzxqsws799mai9khl-curl-7.84.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A command line tool for transferring files with URL syntax",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/curl/default.nix:188",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "curlMinimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3s8p9cwzx7da9jnmlhq97mqrxb65a7gi-curl-7.84.0-bin",
+        "/nix/store/kh2h03z926qaiy2w3j0k4drbidpm3138-curl-7.84.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -90,53 +137,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "7.83.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.83.1",
-      "pname": "curl",
-      "name": "curl-7.83.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/r3xcbdh8kgzzzl87hwaf04pm23ys5bkd-curl-7.83.1-bin",
-        "debug": "/nix/store/2gcky1gfa0qv18gbi3cacpp1bb0h7b4c-curl-7.83.1-debug",
-        "dev": "/nix/store/wjq3gswb0q9dxlpfxadqs96lyjp64qry-curl-7.83.1-dev",
-        "devdoc": "/nix/store/4jnsph8fp0vbhzsrp45pi40jk5kc2bv8-curl-7.83.1-devdoc",
-        "man": "/nix/store/hba72ccfkcdl32wqii32qimzniik3g5m-curl-7.83.1-man",
-        "out": "/nix/store/0d1gsryrj0ng8xrdd898hxy2gzp4f5rb-curl-7.83.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A command line tool for transferring files with URL syntax",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/curl/default.nix:191",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "curlMinimal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r3xcbdh8kgzzzl87hwaf04pm23ys5bkd-curl-7.83.1-bin",
-        "/nix/store/hba72ccfkcdl32wqii32qimzniik3g5m-curl-7.83.1-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

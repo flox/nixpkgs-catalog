@@ -40,6 +40,47 @@
       }
     }
   },
+  "4.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.1",
+      "pname": "terraform-provider-tls",
+      "name": "terraform-provider-tls-4.0.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zxkgjfcxqxqann15c0w3mchxmlhbfslv-terraform-provider-tls-4.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "terraform-providers",
+        "tls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zxkgjfcxqxqann15c0w3mchxmlhbfslv-terraform-provider-tls-4.0.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "3.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "3.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.0",
-      "pname": "terraform-provider-tls",
-      "name": "terraform-provider-tls-3.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gld91j0d79xcign6pqi3s8c5y0200fxi-terraform-provider-tls-3.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "terraform-providers",
-        "tls"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gld91j0d79xcign6pqi3s8c5y0200fxi-terraform-provider-tls-3.4.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

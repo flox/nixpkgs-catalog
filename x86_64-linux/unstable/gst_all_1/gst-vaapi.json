@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gstreamer-vaapi",
+      "name": "gstreamer-vaapi-1.20.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/gz2c5f4xwik1svkq7b18afzs6l75rpj5-gstreamer-vaapi-1.20.3-dev",
+        "out": "/nix/store/bqpwhw44rj84xaiwba8b0nv9vh99w0mm-gstreamer-vaapi-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Set of VAAPI GStreamer Plug-ins",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/vaapi/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gst_all_1",
+        "gst-vaapi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bqpwhw44rj84xaiwba8b0nv9vh99w0mm-gstreamer-vaapi-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gstreamer-vaapi",
-      "name": "gstreamer-vaapi-1.20.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/g9f2qs5rj45w0wmzgk08gxz0lfaiyjlq-gstreamer-vaapi-1.20.0-dev",
-        "out": "/nix/store/j0596df68ywcz79b4wz01pc1vhiqi3gn-gstreamer-vaapi-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Set of VAAPI GStreamer Plug-ins",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/vaapi/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gst_all_1",
-        "gst-vaapi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j0596df68ywcz79b4wz01pc1vhiqi3gn-gstreamer-vaapi-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

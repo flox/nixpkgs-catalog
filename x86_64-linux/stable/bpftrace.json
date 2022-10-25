@@ -1,4 +1,47 @@
 {
+  "0.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.0",
+      "pname": "bpftrace",
+      "name": "bpftrace-0.15.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/s9d7iifk4a4r4lxvv7i92kg62x8p5z77-bpftrace-0.15.0-man",
+        "out": "/nix/store/p2zbl0whpjd3wwcy4msma5liqjcpxcyy-bpftrace-0.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "High-level tracing language for Linux eBPF",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/bpftrace/default.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "bpftrace"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p2zbl0whpjd3wwcy4msma5liqjcpxcyy-bpftrace-0.15.0",
+        "/nix/store/s9d7iifk4a4r4lxvv7i92kg62x8p5z77-bpftrace-0.15.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.14.1": {
     "type": "catalogRender",
     "schema": 1,

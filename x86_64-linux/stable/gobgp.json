@@ -1,21 +1,21 @@
 {
-  "2.34.0": {
+  "3.6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.34.0",
+      "version": "3.6.0",
       "pname": "gobgp",
-      "name": "gobgp-2.34.0",
+      "name": "gobgp-3.6.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/aidy8qhn6vyaqwlqicbd4xyj8r9i3skz-gobgp-2.34.0"
+        "out": "/nix/store/601parixchxwfhr20id9p783pm26yj04-gobgp-3.6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A CLI tool for GoBGP",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/gobgp/default.nix:27",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/gobgp/default.nix:27",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/aidy8qhn6vyaqwlqicbd4xyj8r9i3skz-gobgp-2.34.0"
+        "/nix/store/601parixchxwfhr20id9p783pm26yj04-gobgp-3.6.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.0",
+      "pname": "gobgp",
+      "name": "gobgp-3.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/iwldkc672yx751yxzvpl6qidisab5w5i-gobgp-3.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A CLI tool for GoBGP",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/networking/gobgp/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gobgp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/iwldkc672yx751yxzvpl6qidisab5w5i-gobgp-3.5.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "4.1.0": {
+  "4.1.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.1.0",
+      "version": "4.1.1",
       "pname": "peertube",
-      "name": "peertube-4.1.0",
+      "name": "peertube-4.1.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/830k9zw6fkav2hbyxcai9l0fpbn2q0cl-peertube-4.1.0"
+        "out": "/nix/store/g0s87p88g9qbmzxdd2rxjzsxa5ypk93a-peertube-4.1.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A free software to take back control of your videos",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/peertube/default.nix:100",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/peertube/default.nix:105",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/830k9zw6fkav2hbyxcai9l0fpbn2q0cl-peertube-4.1.0"
+        "/nix/store/g0s87p88g9qbmzxdd2rxjzsxa5ypk93a-peertube-4.1.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "4.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.2",
+      "pname": "peertube",
+      "name": "peertube-4.2.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/0fnx47b5w2pgy1f81nz3ysxbv04l2pxj-peertube-4.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A free software to take back control of your videos",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/peertube/default.nix:105",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "peertube"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0fnx47b5w2pgy1f81nz3ysxbv04l2pxj-peertube-4.2.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "4.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.1",
-      "pname": "peertube",
-      "name": "peertube-4.1.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/g0s87p88g9qbmzxdd2rxjzsxa5ypk93a-peertube-4.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A free software to take back control of your videos",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/peertube/default.nix:105",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "peertube"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g0s87p88g9qbmzxdd2rxjzsxa5ypk93a-peertube-4.1.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.15.46": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.46",
-      "pname": "linux",
-      "name": "linux-5.15.46",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/y82jklyzh2zzb1y1b2d9sdl4d2lpikwc-linux-5.15.46-dev",
-        "out": "/nix/store/6w0c8mrrm59b019jbyg8kawv3a6g7jhy-linux-5.15.46"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.15.46-hardened1)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/top-level/linux-kernels.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6w0c8mrrm59b019jbyg8kawv3a6g7jhy-linux-5.15.46"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "5.10.92": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.15.60": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.60",
+      "pname": "linux",
+      "name": "linux-5.15.60",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/xrwvmgfaphbrslwz28df1hz8bdahlm1c-linux-5.15.60-dev",
+        "out": "/nix/store/1c95s014qsjhipbgvacsa6iszivkxlpp-linux-5.15.60"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.15.60-hardened1)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1c95s014qsjhipbgvacsa6iszivkxlpp-linux-5.15.60"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

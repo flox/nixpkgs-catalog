@@ -1,23 +1,23 @@
 {
-  "3.74": {
+  "3.68.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.74",
+      "version": "3.68.3",
       "pname": "nss",
-      "name": "nss-3.74",
+      "name": "nss-3.68.3",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/c9zc6h28lxpl65jv1zh053i2ay0qs8i6-nss-3.74-dev",
-        "out": "/nix/store/2m2rswvz86f3mb24acy5nb2fkws1wsj5-nss-3.74",
-        "tools": "/nix/store/9sapl4y80lfmnay1nsfa7czw5g4rgcjm-nss-3.74-tools"
+        "dev": "/nix/store/gnc75kvx149bxm4pjwlzgry74zm8xixy-nss-3.68.3-dev",
+        "out": "/nix/store/4fb72j1i202ipqmqa6xgi8dcbbml1850-nss-3.68.3",
+        "tools": "/nix/store/wvwf2vshy7a6xrxwgnjfaz0q84q5zkir-nss-3.68.3-tools"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A set of libraries for development of security-enabled client and server applications",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/nss/default.nix:192",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/nss/generic.nix:191",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/2m2rswvz86f3mb24acy5nb2fkws1wsj5-nss-3.74"
+        "/nix/store/4fb72j1i202ipqmqa6xgi8dcbbml1850-nss-3.68.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.68.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.68.4",
+      "pname": "nss",
+      "name": "nss-3.68.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/asdr7rr9aw5z3ijp98p6l98avbj8xvc5-nss-3.68.4-dev",
+        "out": "/nix/store/20l0kali9dmbm73dgz3bzkvhcahj2i1f-nss-3.68.4",
+        "tools": "/nix/store/9mfnxfyzw3v00m9agsjc8rfwbkl5frw2-nss-3.68.4-tools"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A set of libraries for development of security-enabled client and server applications",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nss/generic.nix:183",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nss"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/20l0kali9dmbm73dgz3bzkvhcahj2i1f-nss-3.68.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.68.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.68.3",
-      "pname": "nss",
-      "name": "nss-3.68.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/gnc75kvx149bxm4pjwlzgry74zm8xixy-nss-3.68.3-dev",
-        "out": "/nix/store/4fb72j1i202ipqmqa6xgi8dcbbml1850-nss-3.68.3",
-        "tools": "/nix/store/wvwf2vshy7a6xrxwgnjfaz0q84q5zkir-nss-3.68.3-tools"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A set of libraries for development of security-enabled client and server applications",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/nss/generic.nix:191",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nss"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4fb72j1i202ipqmqa6xgi8dcbbml1850-nss-3.68.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

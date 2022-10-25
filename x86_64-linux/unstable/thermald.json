@@ -1,22 +1,22 @@
 {
-  "2.4.8": {
+  "2.5.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.4.8",
+      "version": "2.5.1",
       "pname": "thermald",
-      "name": "thermald-2.4.8",
+      "name": "thermald-2.5.1",
       "system": "x86_64-linux",
       "outputs": {
-        "devdoc": "/nix/store/djinpzsygwvxk5blx9ks2bkaixmn3dpn-thermald-2.4.8-devdoc",
-        "out": "/nix/store/zr9kalc36bkarsvp1pjm527x2yajc3li-thermald-2.4.8"
+        "devdoc": "/nix/store/cdl6asj4h1dqvxcqnsxpg992lw8g4mqg-thermald-2.5.1-devdoc",
+        "out": "/nix/store/99wynx4w6yjvqpcgy1g0ygzq4kh7nxls-thermald-2.5.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Thermal Daemon",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/system/thermald/default.nix:67",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/system/thermald/default.nix:68",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zr9kalc36bkarsvp1pjm527x2yajc3li-thermald-2.4.8"
+        "/nix/store/99wynx4w6yjvqpcgy1g0ygzq4kh7nxls-thermald-2.5.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5",
+      "pname": "thermald",
+      "name": "thermald-2.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "devdoc": "/nix/store/vw90dcx2xlsi76g53jgw5155daw5d38r-thermald-2.5-devdoc",
+        "out": "/nix/store/gbda7wnywnczqb7ylp2d8gg8slf4dwsa-thermald-2.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Thermal Daemon",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/thermald/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "thermald"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gbda7wnywnczqb7ylp2d8gg8slf4dwsa-thermald-2.5"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

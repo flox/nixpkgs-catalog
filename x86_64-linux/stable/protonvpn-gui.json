@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "protonvpn-gui",
+      "name": "protonvpn-gui-1.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/khvv8r5ansllipmm9kc1a51lr69wvbg0-protonvpn-gui-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official ProtonVPN Linux app",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/protonvpn-gui/default.nix:69",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "protonvpn-gui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/khvv8r5ansllipmm9kc1a51lr69wvbg0-protonvpn-gui-1.10.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "1.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.0",
-      "pname": "protonvpn-gui",
-      "name": "protonvpn-gui-1.10.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/n8f9a85s0v8qnigvz4884gay8v2zjl53-protonvpn-gui-1.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Official ProtonVPN Linux app",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/protonvpn-gui/default.nix:67",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "protonvpn-gui"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n8f9a85s0v8qnigvz4884gay8v2zjl53-protonvpn-gui-1.10.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

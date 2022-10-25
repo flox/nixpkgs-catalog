@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.16.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.16.8",
-      "pname": "gitea",
-      "name": "gitea-1.16.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "data": "/nix/store/kbw3dv6v7pnrg1cc3a74imqcg5ykc1js-gitea-1.16.8-data",
-        "out": "/nix/store/zrhz2q05rpw7gvxp165sikp4z4ikjdmc-gitea-1.16.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Git with a cup of tea",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/version-management/gitea/default.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gitea"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zrhz2q05rpw7gvxp165sikp4z4ikjdmc-gitea-1.16.8"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.15.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.17.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.17.1",
+      "pname": "gitea",
+      "name": "gitea-1.17.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "data": "/nix/store/jmqg9iz7pa42ija8vmrzaq44b9y0y6k9-gitea-1.17.1-data",
+        "out": "/nix/store/blkanba27d7wjv9vsn8w379kmwgjm3aa-gitea-1.17.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Git with a cup of tea",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/gitea/default.nix:67",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gitea"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/blkanba27d7wjv9vsn8w379kmwgjm3aa-gitea-1.17.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

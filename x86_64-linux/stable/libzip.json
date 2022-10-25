@@ -1,4 +1,48 @@
 {
+  "1.9.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.2",
+      "pname": "libzip",
+      "name": "libzip-1.9.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/sw1xraq3dahvgjdfy4xz5984jacbj87j-libzip-1.9.2-dev",
+        "man": "/nix/store/405qnydfmp0jh6b06cjf6lgn3prf492j-libzip-1.9.2-man",
+        "out": "/nix/store/r8a04bvq4aj71k5ck1fpzqhry9x9l6r3-libzip-1.9.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A C library for reading, creating and modifying zip archives",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libzip/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libzip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r8a04bvq4aj71k5ck1fpzqhry9x9l6r3-libzip-1.9.2",
+        "/nix/store/405qnydfmp0jh6b06cjf6lgn3prf492j-libzip-1.9.2-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.8.0": {
     "type": "catalogRender",
     "schema": 1,

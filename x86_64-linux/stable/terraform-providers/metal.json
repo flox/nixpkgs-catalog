@@ -1,21 +1,21 @@
 {
-  "3.3.0-alpha.1": {
+  "3.2.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.3.0-alpha.1",
+      "version": "3.2.2",
       "pname": "terraform-provider-metal",
-      "name": "terraform-provider-metal-3.3.0-alpha.1",
+      "name": "terraform-provider-metal-3.2.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/3ic5xx13lv904j5mkamdann1ncgdxqr8-terraform-provider-metal-3.3.0-alpha.1"
+        "out": "/nix/store/8ydwlhm2w1z08iw2g8qn56h8b3knhp1j-terraform-provider-metal-3.2.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3ic5xx13lv904j5mkamdann1ncgdxqr8-terraform-provider-metal-3.3.0-alpha.1"
+        "/nix/store/8ydwlhm2w1z08iw2g8qn56h8b3knhp1j-terraform-provider-metal-3.2.2"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.0",
+      "pname": "terraform-provider-metal",
+      "name": "terraform-provider-metal-3.3.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/s878bqjzd465mh1ycmdyi0sw305aqpkc-terraform-provider-metal-3.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "terraform-providers",
+        "metal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s878bqjzd465mh1ycmdyi0sw305aqpkc-terraform-provider-metal-3.3.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.2",
-      "pname": "terraform-provider-metal",
-      "name": "terraform-provider-metal-3.2.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/8ydwlhm2w1z08iw2g8qn56h8b3knhp1j-terraform-provider-metal-3.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "terraform-providers",
-        "metal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8ydwlhm2w1z08iw2g8qn56h8b3knhp1j-terraform-provider-metal-3.2.2"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -39,6 +39,46 @@
       }
     }
   },
+  "7.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.0.4",
+      "pname": "redis",
+      "name": "redis-7.0.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/2knyshshy3b37hf6x1zsidjsag35ijc4-redis-7.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source, advanced key-value store",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/nosql/redis/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "redis"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2knyshshy3b37hf6x1zsidjsag35ijc4-redis-7.0.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "6.2.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "7.0.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.0.2",
-      "pname": "redis",
-      "name": "redis-7.0.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6y4njls6s7fg7qkvd92bf18a726rr2zy-redis-7.0.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source, advanced key-value store",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/nosql/redis/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "redis"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6y4njls6s7fg7qkvd92bf18a726rr2zy-redis-7.0.2"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

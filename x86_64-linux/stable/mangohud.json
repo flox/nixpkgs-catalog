@@ -8,9 +8,9 @@
       "name": "mangohud-0.6.7-1",
       "system": "x86_64-linux",
       "outputs": {
-        "doc": "/nix/store/jgji15g37yrr7h22dcxq4ca0q1x3l49y-mangohud-0.6.7-1-doc",
-        "man": "/nix/store/cx6zs35gc8jfsg44ws4mqwg61m4kprvb-mangohud-0.6.7-1-man",
-        "out": "/nix/store/301959scgkhgmxn5qv9h3776iw9fazxj-mangohud-0.6.7-1"
+        "doc": "/nix/store/bd45l51pwxzj69m2m31g53bsdpz9b8kq-mangohud-0.6.7-1-doc",
+        "man": "/nix/store/gkkp52hfgi1ppx7r6idkcpcjf1h3vg8x-mangohud-0.6.7-1-man",
+        "out": "/nix/store/1bg318yvr93lphfg0dwa2lpni80pw1z5-mangohud-0.6.7-1"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/graphics/mangohud/default.nix:146",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/graphics/mangohud/default.nix:174",
         "unfree": false
       }
     },
@@ -31,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/301959scgkhgmxn5qv9h3776iw9fazxj-mangohud-0.6.7-1",
-        "/nix/store/cx6zs35gc8jfsg44ws4mqwg61m4kprvb-mangohud-0.6.7-1-man"
+        "/nix/store/1bg318yvr93lphfg0dwa2lpni80pw1z5-mangohud-0.6.7-1",
+        "/nix/store/gkkp52hfgi1ppx7r6idkcpcjf1h3vg8x-mangohud-0.6.7-1-man"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.6.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.8",
+      "pname": "mangohud",
+      "name": "mangohud-0.6.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/r4lz9n64r02kdc4cjm95zl66k15ych43-mangohud-0.6.8-doc",
+        "man": "/nix/store/gd7q85ngapb0x2slv3d4bjg9lpcav4q3-mangohud-0.6.8-man",
+        "out": "/nix/store/s2561aldv335qd6akhzq0xdx5m2cyhck-mangohud-0.6.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/graphics/mangohud/default.nix:188",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mangohud"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s2561aldv335qd6akhzq0xdx5m2cyhck-mangohud-0.6.8",
+        "/nix/store/gd7q85ngapb0x2slv3d4bjg9lpcav4q3-mangohud-0.6.8-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

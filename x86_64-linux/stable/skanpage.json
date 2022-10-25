@@ -1,21 +1,21 @@
 {
-  "1.0.0": {
+  "22.08.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.0",
+      "version": "22.08.1",
       "pname": "skanpage",
-      "name": "skanpage-1.0.0",
+      "name": "skanpage-22.08.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/qd8m60ypi4v2cph690cjly8zj3qqyzr7-skanpage-1.0.0"
+        "out": "/nix/store/6xwdsm3hkvl6smdgzwqbdn2dfl9lbqns-skanpage-22.08.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "KDE utility to scan images and multi-page documents",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/graphics/skanpage/default.nix:30",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/kde/skanpage.nix:26",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qd8m60ypi4v2cph690cjly8zj3qqyzr7-skanpage-1.0.0"
+        "/nix/store/6xwdsm3hkvl6smdgzwqbdn2dfl9lbqns-skanpage-22.08.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "22.04.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.04.3",
+      "pname": "skanpage",
+      "name": "skanpage-22.04.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/brg0327qx8n6v3dl4x203li8fkc3nq93-skanpage-22.04.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "KDE utility to scan images and multi-page documents",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/kde/skanpage.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "skanpage"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/brg0327qx8n6v3dl4x203li8fkc3nq93-skanpage-22.04.3"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

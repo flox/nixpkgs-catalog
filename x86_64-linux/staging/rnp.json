@@ -1,23 +1,23 @@
 {
-  "0.15.2": {
+  "0.16.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.15.2",
+      "version": "0.16.1",
       "pname": "rnp",
-      "name": "rnp-0.15.2",
+      "name": "rnp-0.16.1",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/m4r4760f8r2anddmahzlypx3q8i6i8wx-rnp-0.15.2-dev",
-        "lib": "/nix/store/a0lczcf768mil01ma53v20ppvs5z4f1i-rnp-0.15.2-lib",
-        "out": "/nix/store/vw4z6a1ig3wps1x1vqvdg6nvkyhysq1a-rnp-0.15.2"
+        "dev": "/nix/store/2aa6g04xd0z9vr7mdhr83a3d8kd9n4sj-rnp-0.16.1-dev",
+        "lib": "/nix/store/mhcvg7zfz3jgdlcjrxnjdmfvg35xz9qd-rnp-0.16.1-lib",
+        "out": "/nix/store/ml7ac0qkn7gjgqxwpfj07g61043nw1lp-rnp-0.16.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/rnp/default.nix:53",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/rnp/default.nix:51",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vw4z6a1ig3wps1x1vqvdg6nvkyhysq1a-rnp-0.15.2"
+        "/nix/store/ml7ac0qkn7gjgqxwpfj07g61043nw1lp-rnp-0.16.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.16.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16.2",
+      "pname": "rnp",
+      "name": "rnp-0.16.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/jjldaz2ml0jwkfw64pfh9kabh1fhm4iz-rnp-0.16.2-dev",
+        "lib": "/nix/store/y2s0fr6fapp48h52qpzahnijd355whi1-rnp-0.16.2-lib",
+        "out": "/nix/store/4x1kws0bbkbzf32fdrvai81psx3nl8ic-rnp-0.16.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/security/rnp/default.nix:51",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rnp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4x1kws0bbkbzf32fdrvai81psx3nl8ic-rnp-0.16.2"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

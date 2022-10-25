@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.0",
-      "pname": "clickhouse-backup",
-      "name": "clickhouse-backup-1.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/drhzw7n9a95rx5af01famqmjzzszyfqy-clickhouse-backup-1.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tool for easy ClickHouse backup and restore with cloud storages support",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/database/clickhouse-backup/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "clickhouse-backup"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/drhzw7n9a95rx5af01famqmjzzszyfqy-clickhouse-backup-1.4.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.2.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.2",
+      "pname": "clickhouse-backup",
+      "name": "clickhouse-backup-1.5.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/q351j35s3cfx7i3a7amsp82cqknavfq1-clickhouse-backup-1.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tool for easy ClickHouse backup and restore with cloud storages support",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/tools/database/clickhouse-backup/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "clickhouse-backup"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/q351j35s3cfx7i3a7amsp82cqknavfq1-clickhouse-backup-1.5.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

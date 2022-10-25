@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.18.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.18.3",
-      "pname": "bpftools",
-      "name": "bpftools-5.18.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/r95fy3akg57wgnlmdyd8r7wnx2dq2nr9-bpftools-5.18.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Debugging/program analysis tools for the eBPF subsystem",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/bpftools/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "bpftools"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r95fy3akg57wgnlmdyd8r7wnx2dq2nr9-bpftools-5.18.3"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "5.16.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.19.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.19.2",
+      "pname": "bpftools",
+      "name": "bpftools-5.19.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/f693rirjjqdgdrd3vf2cryba5smacilw-bpftools-5.19.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Debugging/program analysis tools for the eBPF subsystem",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/bpftools/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "bpftools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f693rirjjqdgdrd3vf2cryba5smacilw-bpftools-5.19.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

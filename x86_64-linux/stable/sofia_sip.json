@@ -1,21 +1,21 @@
 {
-  "1.13.6": {
+  "1.13.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.13.6",
+      "version": "1.13.9",
       "pname": "sofia-sip",
-      "name": "sofia-sip-1.13.6",
+      "name": "sofia-sip-1.13.9",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/df0ni9wna6iymi9vrkqrv4g4b8yylnmd-sofia-sip-1.13.6"
+        "out": "/nix/store/l26pfk8p9ks3cij3xzwvsyviwka3x4iw-sofia-sip-1.13.9"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Open-source SIP User-Agent library, compliant with the IETF RFC3261 specification",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/sofia-sip/default.nix:18",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sofia-sip/default.nix:18",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/df0ni9wna6iymi9vrkqrv4g4b8yylnmd-sofia-sip-1.13.6"
+        "/nix/store/l26pfk8p9ks3cij3xzwvsyviwka3x4iw-sofia-sip-1.13.9"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.13.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13.8",
+      "pname": "sofia-sip",
+      "name": "sofia-sip-1.13.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/fcnpjgp53qn3gl0ms9pmdzl2bzz5vp4r-sofia-sip-1.13.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open-source SIP User-Agent library, compliant with the IETF RFC3261 specification",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/sofia-sip/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "sofia_sip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fcnpjgp53qn3gl0ms9pmdzl2bzz5vp4r-sofia-sip-1.13.8"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

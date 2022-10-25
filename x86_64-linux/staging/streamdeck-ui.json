@@ -1,21 +1,22 @@
 {
-  "2.0.4": {
+  "2.0.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.0.4",
+      "version": "2.0.6",
       "pname": "streamdeck-ui",
-      "name": "streamdeck-ui-2.0.4",
+      "name": "streamdeck-ui-2.0.6",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/784ighr3w47m5064bcwpwviqnlgxlx5g-streamdeck-ui-2.0.4"
+        "dist": "/nix/store/5c1lnrqsc2266sa09iiiikvqs9qg0l7r-streamdeck-ui-2.0.6-dist",
+        "out": "/nix/store/ynbymzlpbmqdm47gh1018my79gg0ciaz-streamdeck-ui-2.0.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Linux compatible UI for the Elgato Stream Deck",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/streamdeck-ui/default.nix:90",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/misc/streamdeck-ui/default.nix:86",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/784ighr3w47m5064bcwpwviqnlgxlx5g-streamdeck-ui-2.0.4"
+        "/nix/store/ynbymzlpbmqdm47gh1018my79gg0ciaz-streamdeck-ui-2.0.6"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.4",
+      "pname": "streamdeck-ui",
+      "name": "streamdeck-ui-2.0.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ws3ayvb8hhl5f4pjbg70iydwg0vp40rq-streamdeck-ui-2.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux compatible UI for the Elgato Stream Deck",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/streamdeck-ui/default.nix:90",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "streamdeck-ui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ws3ayvb8hhl5f4pjbg70iydwg0vp40rq-streamdeck-ui-2.0.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

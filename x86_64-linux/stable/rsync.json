@@ -1,21 +1,21 @@
 {
-  "3.2.4": {
+  "3.2.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.2.4",
+      "version": "3.2.5",
       "pname": "rsync",
-      "name": "rsync-3.2.4",
+      "name": "rsync-3.2.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/9w7rq0hdji8drshz9dizyis52x0s8b70-rsync-3.2.4"
+        "out": "/nix/store/kppj6air5i40yxlyfisfyizfwisx6wcr-rsync-3.2.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "A fast incremental file transfer utility",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/sync/rsync/default.nix:56",
+        "description": "Fast incremental file transfer utility",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/sync/rsync/default.nix:53",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9w7rq0hdji8drshz9dizyis52x0s8b70-rsync-3.2.4"
+        "/nix/store/kppj6air5i40yxlyfisfyizfwisx6wcr-rsync-3.2.5"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.4",
+      "pname": "rsync",
+      "name": "rsync-3.2.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/p59ga4mgim3i68l3pam41wi1z0ik11lw-rsync-3.2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast incremental file transfer utility",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/sync/rsync/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rsync"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p59ga4mgim3i68l3pam41wi1z0ik11lw-rsync-3.2.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

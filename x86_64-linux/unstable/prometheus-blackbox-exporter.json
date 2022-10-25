@@ -1,44 +1,4 @@
 {
-  "0.21.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.21.0",
-      "pname": "blackbox_exporter",
-      "name": "blackbox_exporter-0.21.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/h3m10axrpv1clq11dnjmap6kp4ja1a78-blackbox_exporter-0.21.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/servers/monitoring/prometheus/blackbox-exporter.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "prometheus-blackbox-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h3m10axrpv1clq11dnjmap6kp4ja1a78-blackbox_exporter-0.21.0"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "0.21.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.22.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.22.0",
+      "pname": "blackbox_exporter",
+      "name": "blackbox_exporter-0.22.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/iw6ldjqfwm5gbjxj5x64k37yzddzs701-blackbox_exporter-0.22.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/blackbox-exporter.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "prometheus-blackbox-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/iw6ldjqfwm5gbjxj5x64k37yzddzs701-blackbox_exporter-0.22.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "0.23.0": {
+  "0.23.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.23.0",
+      "version": "0.23.1",
       "pname": "cargo-crev",
-      "name": "cargo-crev-0.23.0",
+      "name": "cargo-crev-0.23.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/kdrm0vdzybnwshc5yxvy24lyrwrpv5d2-cargo-crev-0.23.0"
+        "out": "/nix/store/2g878blrjppn1ivv340qmdk5darrk84m-cargo-crev-0.23.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A cryptographically verifiable code review system for the cargo (Rust) package manager",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/tools/rust/cargo-crev/default.nix:40",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/rust/cargo-crev/default.nix:40",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kdrm0vdzybnwshc5yxvy24lyrwrpv5d2-cargo-crev-0.23.0"
+        "/nix/store/2g878blrjppn1ivv340qmdk5darrk84m-cargo-crev-0.23.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.23.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.23.3",
+      "pname": "cargo-crev",
+      "name": "cargo-crev-0.23.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zvk2m8xnx9bckn47df7dmsj66pjvkd7m-cargo-crev-0.23.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cryptographically verifiable code review system for the cargo (Rust) package manager",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rust/cargo-crev/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cargo-crev"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zvk2m8xnx9bckn47df7dmsj66pjvkd7m-cargo-crev-0.23.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.23.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.23.1",
-      "pname": "cargo-crev",
-      "name": "cargo-crev-0.23.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/2g878blrjppn1ivv340qmdk5darrk84m-cargo-crev-0.23.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A cryptographically verifiable code review system for the cargo (Rust) package manager",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/rust/cargo-crev/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "cargo-crev"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2g878blrjppn1ivv340qmdk5darrk84m-cargo-crev-0.23.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

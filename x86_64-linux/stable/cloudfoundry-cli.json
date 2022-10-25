@@ -1,21 +1,21 @@
 {
-  "8.0.0": {
+  "8.5.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "8.0.0",
+      "version": "8.5.0",
       "pname": "cloudfoundry-cli",
-      "name": "cloudfoundry-cli-8.0.0",
+      "name": "cloudfoundry-cli-8.5.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/rkgiaipi5gzk3031xfj3w501rfm4pr5a-cloudfoundry-cli-8.0.0"
+        "out": "/nix/store/5llwcixqn2gbkvg5p13hxca0i518xgir-cloudfoundry-cli-8.5.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The official command line client for Cloud Foundry",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/cloudfoundry-cli/default.nix:39",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/cloudfoundry-cli/default.nix:39",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rkgiaipi5gzk3031xfj3w501rfm4pr5a-cloudfoundry-cli-8.0.0"
+        "/nix/store/5llwcixqn2gbkvg5p13hxca0i518xgir-cloudfoundry-cli-8.5.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "8.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.4.0",
+      "pname": "cloudfoundry-cli",
+      "name": "cloudfoundry-cli-8.4.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/a7z1bzyc16h23wap2zp18k7q210zmlh2-cloudfoundry-cli-8.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The official command line client for Cloud Foundry",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/cloudfoundry-cli/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cloudfoundry-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a7z1bzyc16h23wap2zp18k7q210zmlh2-cloudfoundry-cli-8.4.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

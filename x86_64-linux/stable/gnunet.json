@@ -1,21 +1,21 @@
 {
-  "0.16.0": {
+  "0.16.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.16.0",
+      "version": "0.16.3",
       "pname": "gnunet",
-      "name": "gnunet-0.16.0",
+      "name": "gnunet-0.16.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/81rw33ajzwl5lpzixcxd3aib57ds7mpj-gnunet-0.16.0"
+        "out": "/nix/store/pd5ql5zxwa5njbpm4rnad0la8m7aq557-gnunet-0.16.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/p2p/gnunet/default.nix:52",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/p2p/gnunet/default.nix:52",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/81rw33ajzwl5lpzixcxd3aib57ds7mpj-gnunet-0.16.0"
+        "/nix/store/pd5ql5zxwa5njbpm4rnad0la8m7aq557-gnunet-0.16.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.17.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.17.2",
+      "pname": "gnunet",
+      "name": "gnunet-0.17.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/w8b62p537wi3lqia82mcn7ragzry3s0l-gnunet-0.17.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/p2p/gnunet/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnunet"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w8b62p537wi3lqia82mcn7ragzry3s0l-gnunet-0.17.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.16.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16.3",
-      "pname": "gnunet",
-      "name": "gnunet-0.16.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/pd5ql5zxwa5njbpm4rnad0la8m7aq557-gnunet-0.16.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GNU's decentralized anonymous and censorship-resistant P2P framework",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/p2p/gnunet/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnunet"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pd5ql5zxwa5njbpm4rnad0la8m7aq557-gnunet-0.16.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

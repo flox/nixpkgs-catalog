@@ -1,21 +1,21 @@
 {
-  "1.04-1": {
+  "1.06-2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.04-1",
+      "version": "1.06-2",
       "pname": "er-patcher",
       "name": "er-patcher",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/c51p3g794f87pimwqxkx29vp7id1zjrx-er-patcher"
+        "out": "/nix/store/6qss9l9s1j44bl6spr20kj8gzyfk9llm-er-patcher"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Enhancement patches for Elden Ring adding ultrawide support, custom frame rate limits and more",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/games/er-patcher/default.nix:25",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/games/er-patcher/default.nix:25",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/c51p3g794f87pimwqxkx29vp7id1zjrx-er-patcher"
+        "/nix/store/6qss9l9s1j44bl6spr20kj8gzyfk9llm-er-patcher"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.04-1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.04-1",
+      "pname": "er-patcher",
+      "name": "er-patcher",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/sz9f0ikmgxv3vhb4bb937pbks38a19b0-er-patcher"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Enhancement patches for Elden Ring adding ultrawide support, custom frame rate limits and more",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/games/er-patcher/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "er-patcher"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sz9f0ikmgxv3vhb4bb937pbks38a19b0-er-patcher"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "1.1.9": {
+  "1.2.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.1.9",
+      "version": "1.2.2",
       "pname": "wayshot",
-      "name": "wayshot-1.1.9",
+      "name": "wayshot-1.2.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/qba7ck1jd9rvqgn2pz83wvhkh69z8c4l-wayshot-1.1.9"
+        "out": "/nix/store/nfm2vn86ffa70950ic7r41vlq6rqzz4s-wayshot-1.2.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A native, blazing-fast screenshot tool for wlroots based compositors such as sway and river",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/wayshot/default.nix:17",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/misc/wayshot/default.nix:17",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qba7ck1jd9rvqgn2pz83wvhkh69z8c4l-wayshot-1.1.9"
+        "/nix/store/nfm2vn86ffa70950ic7r41vlq6rqzz4s-wayshot-1.2.2"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.1.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.9",
+      "pname": "wayshot",
+      "name": "wayshot-1.1.9",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/p9022m5zgddyqb7c9g5rip6jvsc99pjd-wayshot-1.1.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A native, blazing-fast screenshot tool for wlroots based compositors such as sway and river",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/wayshot/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wayshot"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p9022m5zgddyqb7c9g5rip6jvsc99pjd-wayshot-1.1.9"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.0",
-      "pname": "mautrix-whatsapp",
-      "name": "mautrix-whatsapp-0.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/3mjisayfmqcmh8jf181jral1m90diq65-mautrix-whatsapp-0.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Matrix <-> Whatsapp hybrid puppeting/relaybot bridge",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/servers/mautrix-whatsapp/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "mautrix-whatsapp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3mjisayfmqcmh8jf181jral1m90diq65-mautrix-whatsapp-0.5.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "mautrix-whatsapp",
+      "name": "mautrix-whatsapp-0.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/3mjisayfmqcmh8jf181jral1m90diq65-mautrix-whatsapp-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Matrix <-> Whatsapp hybrid puppeting/relaybot bridge",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/servers/mautrix-whatsapp/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mautrix-whatsapp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3mjisayfmqcmh8jf181jral1m90diq65-mautrix-whatsapp-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "3.21.2": {
+  "3.21.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.21.2",
+      "version": "3.21.6",
       "pname": "protobuf",
-      "name": "protobuf-3.21.2",
+      "name": "protobuf-3.21.6",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/7pqam5kl8d99kjbq00jf1z819137a172-protobuf-3.21.2"
+        "out": "/nix/store/8i8qasy6c40gggn7kfphw867c6pkz636-protobuf-3.21.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Google's data interchange format",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/protobuf/generic-v3-cmake.nix:94",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/protobuf/generic-v3-cmake.nix:96",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7pqam5kl8d99kjbq00jf1z819137a172-protobuf-3.21.2"
+        "/nix/store/8i8qasy6c40gggn7kfphw867c6pkz636-protobuf-3.21.6"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "3.21.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.21.2",
+      "pname": "protobuf",
+      "name": "protobuf-3.21.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/080rs58j89r07ba68n94w9chb2m618ws-protobuf-3.21.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Google's data interchange format",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/protobuf/generic-v3-cmake.nix:94",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "protobuf3_21"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/080rs58j89r07ba68n94w9chb2m618ws-protobuf-3.21.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

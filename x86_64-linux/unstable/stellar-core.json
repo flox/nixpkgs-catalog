@@ -1,21 +1,21 @@
 {
-  "17.0.0": {
+  "19.4.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "17.0.0",
+      "version": "19.4.0",
       "pname": "stellar-core",
-      "name": "stellar-core-17.0.0",
+      "name": "stellar-core-19.4.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/312yhh84a48lds4v31jpv05y3lnc3yjl-stellar-core-17.0.0"
+        "out": "/nix/store/fs28q41zvwi4qi08krm61va8rll2anvj-stellar-core-19.4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Implements the Stellar Consensus Protocol, a federated consensus protocol",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/blockchains/stellar-core/default.nix:34",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/blockchains/stellar-core/default.nix:38",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/312yhh84a48lds4v31jpv05y3lnc3yjl-stellar-core-17.0.0"
+        "/nix/store/fs28q41zvwi4qi08krm61va8rll2anvj-stellar-core-19.4.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "19.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "19.3.0",
+      "pname": "stellar-core",
+      "name": "stellar-core-19.3.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/yg28mw4wridspljdmik5ri2ymckyjsh3-stellar-core-19.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Implements the Stellar Consensus Protocol, a federated consensus protocol",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/stellar-core/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "stellar-core"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yg28mw4wridspljdmik5ri2ymckyjsh3-stellar-core-19.3.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

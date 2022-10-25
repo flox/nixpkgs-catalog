@@ -1,49 +1,4 @@
 {
-  "0.11.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.8",
-      "pname": "janus-gateway",
-      "name": "janus-gateway-0.11.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/pwyzc3hxj2jpc0ykk8br56cg17an2i4z-janus-gateway-0.11.8-dev",
-        "doc": "/nix/store/y3pkdp24ji6wxbwngrqamk45bfljijb4-janus-gateway-0.11.8-doc",
-        "man": "/nix/store/m1hr69n7lsi4isi7fwpbqigq54xa22y3-janus-gateway-0.11.8-man",
-        "out": "/nix/store/372z5kk4srsz6mssj0zfsmggifajqlk6-janus-gateway-0.11.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "General purpose WebRTC server",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/janus-gateway/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "janus-gateway"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/372z5kk4srsz6mssj0zfsmggifajqlk6-janus-gateway-0.11.8",
-        "/nix/store/m1hr69n7lsi4isi7fwpbqigq54xa22y3-janus-gateway-0.11.8-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "0.11.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.4",
+      "pname": "janus-gateway",
+      "name": "janus-gateway-1.0.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/1k4m4rr0xrx6091b5vx5f7rgmxshd09y-janus-gateway-1.0.4-dev",
+        "doc": "/nix/store/ai4jiv9ds1ac0lw2jgd020knhr4lbhnj-janus-gateway-1.0.4-doc",
+        "man": "/nix/store/hpm9hfl04yqiq8vin26jng88v5q0qaac-janus-gateway-1.0.4-man",
+        "out": "/nix/store/1qgg20gfjknhg8f5rlb75b75sva1qskl-janus-gateway-1.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "General purpose WebRTC server",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/janus-gateway/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "janus-gateway"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1qgg20gfjknhg8f5rlb75b75sva1qskl-janus-gateway-1.0.4",
+        "/nix/store/hpm9hfl04yqiq8vin26jng88v5q0qaac-janus-gateway-1.0.4-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

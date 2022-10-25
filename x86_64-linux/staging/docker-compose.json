@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.29.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.29.2",
-      "pname": "docker-compose",
-      "name": "docker-compose-1.29.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/n8wmn1f0gqr8yzl0bmxd1y2v1q0317dy-docker-compose-1.29.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Multi-container orchestration for Docker",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/docker-compose/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "docker-compose"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n8wmn1f0gqr8yzl0bmxd1y2v1q0317dy-docker-compose-1.29.2"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2.6.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "2.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9.0",
+      "pname": "docker-compose",
+      "name": "docker-compose-2.9.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/hl0w1slqzbav2v8ynbc9mmhmlm096hda-docker-compose-2.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Docker CLI plugin to define and run multi-container applications with Docker",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/virtualization/docker/compose.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "docker-compose"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hl0w1slqzbav2v8ynbc9mmhmlm096hda-docker-compose-2.9.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

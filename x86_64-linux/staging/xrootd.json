@@ -1,17 +1,17 @@
 {
-  "5.4.3": {
+  "5.5.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.4.3",
+      "version": "5.5.0",
       "pname": "xrootd",
-      "name": "xrootd-5.4.3",
+      "name": "xrootd-5.5.0",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/35idshzav180x2ph8fqswbhn0k4b674p-xrootd-5.4.3-bin",
-        "dev": "/nix/store/w8sv8k3p09bpdqggfqy6sgvs7kr5zj55-xrootd-5.4.3-dev",
-        "man": "/nix/store/lspay6kppdn1nwz5zm773p1p1d99v7r2-xrootd-5.4.3-man",
-        "out": "/nix/store/9vchplacfz4a7xjc8aif96fna3fm57h2-xrootd-5.4.3"
+        "bin": "/nix/store/s80khmj1hgcf9ayrig8a10g85s0nqz3j-xrootd-5.5.0-bin",
+        "dev": "/nix/store/1g11j1lpmb5pq0108z4ivml9vqjvr1li-xrootd-5.5.0-dev",
+        "man": "/nix/store/ipcsymsb4mljspmd5s2wrvh5c556jad6-xrootd-5.5.0-man",
+        "out": "/nix/store/m3iv5wy1xfrvzr3rnw248598s93dpkdc-xrootd-5.5.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -19,7 +19,7 @@
           "man"
         ],
         "description": "High performance, scalable fault tolerant data access",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/xrootd/default.nix:100",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/xrootd/default.nix:100",
         "unfree": false
       }
     },
@@ -32,15 +32,60 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/35idshzav180x2ph8fqswbhn0k4b674p-xrootd-5.4.3-bin",
-        "/nix/store/lspay6kppdn1nwz5zm773p1p1d99v7r2-xrootd-5.4.3-man"
+        "/nix/store/s80khmj1hgcf9ayrig8a10g85s0nqz3j-xrootd-5.5.0-bin",
+        "/nix/store/ipcsymsb4mljspmd5s2wrvh5c556jad6-xrootd-5.5.0-man"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.3",
+      "pname": "xrootd",
+      "name": "xrootd-5.4.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/2qjl5q78yfba1szbxvppmkx549w9bxa9-xrootd-5.4.3-bin",
+        "dev": "/nix/store/s2nrzgm2wjbnyq8agz0aswxgzph0l7nc-xrootd-5.4.3-dev",
+        "man": "/nix/store/ba5xzpmn69cn0asxg133j6a3c8hipwmg-xrootd-5.4.3-man",
+        "out": "/nix/store/jd5i3yh6n0ch0f6ns7d10r9iy34mbxi6-xrootd-5.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "High performance, scalable fault tolerant data access",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/xrootd/default.nix:100",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xrootd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2qjl5q78yfba1szbxvppmkx549w9bxa9-xrootd-5.4.3-bin",
+        "/nix/store/ba5xzpmn69cn0asxg133j6a3c8hipwmg-xrootd-5.4.3-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

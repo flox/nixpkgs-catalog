@@ -40,6 +40,47 @@
       }
     }
   },
+  "17.0.4+8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "17.0.4+8",
+      "pname": "openjdk-headless",
+      "name": "openjdk-headless-17.0.4+8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/3rq2j1kf3x1ad607mwc0adam0ychyzan-openjdk-headless-17.0.4+8-debug",
+        "out": "/nix/store/fng7y0s5gpr8rk6k5z0zdf378pjhf7yc-openjdk-headless-17.0.4+8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The open-source Java Development Kit",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/openjdk/meta.nix:4",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "openjdk17_headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fng7y0s5gpr8rk6k5z0zdf378pjhf7yc-openjdk-headless-17.0.4+8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "17.0.3+7": {
     "type": "catalogRender",
     "schema": 1,

@@ -1,48 +1,4 @@
 {
-  "1.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20",
-      "pname": "iwd",
-      "name": "iwd-1.20",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/lygyhwxb5llaq8ks0p1y7mj1mwgdmycz-iwd-1.20-man",
-        "out": "/nix/store/pj6kqs3bx60v3ir20z7cc34hvkzvi07n-iwd-1.20",
-        "test": "/nix/store/hybiidnnx2y503kcbd47j7nix9vkib9q-iwd-1.20-test"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Wireless daemon for Linux",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/iwd/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "iwd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pj6kqs3bx60v3ir20z7cc34hvkzvi07n-iwd-1.20",
-        "/nix/store/lygyhwxb5llaq8ks0p1y7mj1mwgdmycz-iwd-1.20-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.28": {
     "type": "catalogRender",
     "schema": 1,
@@ -85,6 +41,51 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.29": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.29",
+      "pname": "iwd",
+      "name": "iwd-1.29",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/brs5cfc31zcwrk04lv05mij7kc3hscy2-iwd-1.29-doc",
+        "man": "/nix/store/yvgqm73yn7230b5sd9vvks7vfb1dm70r-iwd-1.29-man",
+        "out": "/nix/store/fqyzh93i2rhnjpx2qfw0j127gi0y0z5h-iwd-1.29",
+        "test": "/nix/store/rfkhcx3q2ih2i6p7h226p3x959br113m-iwd-1.29-test"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Wireless daemon for Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/iwd/default.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "iwd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fqyzh93i2rhnjpx2qfw0j127gi0y0z5h-iwd-1.29",
+        "/nix/store/yvgqm73yn7230b5sd9vvks7vfb1dm70r-iwd-1.29-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

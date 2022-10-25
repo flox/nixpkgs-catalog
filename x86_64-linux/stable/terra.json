@@ -1,24 +1,24 @@
 {
-  "1.0.0-beta5": {
+  "1.0.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.0-beta5",
+      "version": "1.0.6",
       "pname": "terra",
-      "name": "terra-1.0.0-beta5",
+      "name": "terra-1.0.6",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/bi6mia5lsvj8qk8n3hrdhl55xs3gfcda-terra-1.0.0-beta5-bin",
-        "dev": "/nix/store/0s485816igzqpcv9mbg1g4f4w481iyln-terra-1.0.0-beta5-dev",
-        "out": "/nix/store/00wxqxz2mw020qdf3icab2y54m613wn0-terra-1.0.0-beta5",
-        "static": "/nix/store/h11w4jjhp2bsgy1kjglh7my8gkji4az1-terra-1.0.0-beta5-static"
+        "bin": "/nix/store/fx9naij4a9sd7slq1l9wy1276ggx6a3v-terra-1.0.6-bin",
+        "dev": "/nix/store/ygkbpny5069cvszxnmd5d92x04qqwwdd-terra-1.0.6-dev",
+        "out": "/nix/store/w221hy3bjvblb12pbvdynnqwmppbh7az-terra-1.0.6",
+        "static": "/nix/store/jngzqf5zrla0d0xh0wvj1b182yi5ycqz-terra-1.0.6-static"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "A low-level counterpart to Lua",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/compilers/terra/default.nix:84",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/terra/default.nix:87",
         "unfree": false
       }
     },
@@ -31,14 +31,57 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bi6mia5lsvj8qk8n3hrdhl55xs3gfcda-terra-1.0.0-beta5-bin"
+        "/nix/store/fx9naij4a9sd7slq1l9wy1276ggx6a3v-terra-1.0.6-bin"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.0.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.5",
+      "pname": "terra",
+      "name": "terra-1.0.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/jlm3v36d2bkpz5dm1v7km4gww5frq662-terra-1.0.5-bin",
+        "dev": "/nix/store/j3myashz0za5bynf671nxnjnb9h94a4g-terra-1.0.5-dev",
+        "out": "/nix/store/87mmkpabpcawwzlx2qgqq379ap3mldpv-terra-1.0.5",
+        "static": "/nix/store/49ngsab0qx3bgq52r8barqmifyna6yy0-terra-1.0.5-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A low-level counterpart to Lua",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/terra/default.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "terra"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jlm3v36d2bkpz5dm1v7km4gww5frq662-terra-1.0.5-bin"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

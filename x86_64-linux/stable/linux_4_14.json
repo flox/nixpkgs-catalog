@@ -40,47 +40,6 @@
       }
     }
   },
-  "4.14.282": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.14.282",
-      "pname": "linux",
-      "name": "linux-4.14.282",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/vmm9w06gfh81xld6y3v5za77vg26a7lj-linux-4.14.282-dev",
-        "out": "/nix/store/rh55casbngjabcm2p2xcxaldnxbswks7-linux-4.14.282"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_14"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rh55casbngjabcm2p2xcxaldnxbswks7-linux-4.14.282"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "4.14.262": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.14.290": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.14.290",
+      "pname": "linux",
+      "name": "linux-4.14.290",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/990az4w1bgpjzcm5jb9ch2l6yxb2y48k-linux-4.14.290-dev",
+        "out": "/nix/store/z64dxvs61k8b60mlr1l70zxjn72q06xl-linux-4.14.290"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z64dxvs61k8b60mlr1l70zxjn72q06xl-linux-4.14.290"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

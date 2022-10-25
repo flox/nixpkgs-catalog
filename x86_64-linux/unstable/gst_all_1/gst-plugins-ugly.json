@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gst-plugins-ugly",
+      "name": "gst-plugins-ugly-1.20.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/alri2n38rlygv95gh6qy1xarvgiqgx7a-gst-plugins-ugly-1.20.3-dev",
+        "out": "/nix/store/w2z2vz3c7dr77bh00z7g3lj4am06cx2q-gst-plugins-ugly-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Gstreamer Ugly Plugins",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/ugly/default.nix:82",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gst_all_1",
+        "gst-plugins-ugly"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w2z2vz3c7dr77bh00z7g3lj4am06cx2q-gst-plugins-ugly-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gst-plugins-ugly",
-      "name": "gst-plugins-ugly-1.20.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/cyad68n044n324rzbbc34riplrw08p26-gst-plugins-ugly-1.20.0-dev",
-        "out": "/nix/store/wv3g8nazcrznisramkd1gba2i4ff9say-gst-plugins-ugly-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Gstreamer Ugly Plugins",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/ugly/default.nix:82",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gst_all_1",
-        "gst-plugins-ugly"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wv3g8nazcrznisramkd1gba2i4ff9say-gst-plugins-ugly-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

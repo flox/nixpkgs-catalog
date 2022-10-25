@@ -1,50 +1,4 @@
 {
-  "42.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.1",
-      "pname": "gnome-bluetooth",
-      "name": "gnome-bluetooth-42.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/5rwkjy3qhygz1zp6v4vmi270f1wgg4b0-gnome-bluetooth-42.1-dev",
-        "devdoc": "/nix/store/24l72sr9914nzq8ml22s5hki1kkn9rd9-gnome-bluetooth-42.1-devdoc",
-        "man": "/nix/store/r1xc2s7n37phyqr9065s3kx6zan6046n-gnome-bluetooth-42.1-man",
-        "out": "/nix/store/g820z50cky3dh61zl968553dnb3j2gzx-gnome-bluetooth-42.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Application that lets you manage Bluetooth in the GNOME desktop",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/desktops/gnome/core/gnome-bluetooth/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome",
-        "gnome-bluetooth"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g820z50cky3dh61zl968553dnb3j2gzx-gnome-bluetooth-42.1",
-        "/nix/store/r1xc2s7n37phyqr9065s3kx6zan6046n-gnome-bluetooth-42.1-man"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "42.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "42.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.1",
+      "pname": "gnome-bluetooth",
+      "name": "gnome-bluetooth-42.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/5rwkjy3qhygz1zp6v4vmi270f1wgg4b0-gnome-bluetooth-42.1-dev",
+        "devdoc": "/nix/store/24l72sr9914nzq8ml22s5hki1kkn9rd9-gnome-bluetooth-42.1-devdoc",
+        "man": "/nix/store/r1xc2s7n37phyqr9065s3kx6zan6046n-gnome-bluetooth-42.1-man",
+        "out": "/nix/store/g820z50cky3dh61zl968553dnb3j2gzx-gnome-bluetooth-42.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Application that lets you manage Bluetooth in the GNOME desktop",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/desktops/gnome/core/gnome-bluetooth/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome",
+        "gnome-bluetooth"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g820z50cky3dh61zl968553dnb3j2gzx-gnome-bluetooth-42.1",
+        "/nix/store/r1xc2s7n37phyqr9065s3kx6zan6046n-gnome-bluetooth-42.1-man"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   },

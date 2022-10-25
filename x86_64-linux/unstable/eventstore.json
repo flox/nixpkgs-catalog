@@ -1,21 +1,21 @@
 {
-  "21.10.5": {
+  "22.6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "21.10.5",
+      "version": "22.6.0",
       "pname": "EventStore",
-      "name": "EventStore-21.10.5",
+      "name": "EventStore-22.6.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/vibg1j07zabvx9slscj1ka53hy54prfd-EventStore-21.10.5"
+        "out": "/nix/store/8yp4hqrwmw2kx0792z1983f23x4nw4j9-EventStore-22.6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Event sourcing database with processing logic in JavaScript",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/nosql/eventstore/default.nix:76",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/nosql/eventstore/default.nix:78",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vibg1j07zabvx9slscj1ka53hy54prfd-EventStore-21.10.5"
+        "/nix/store/8yp4hqrwmw2kx0792z1983f23x4nw4j9-EventStore-22.6.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "21.10.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "21.10.5",
+      "pname": "EventStore",
+      "name": "EventStore-21.10.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/d069b6qadd93p8vyzxwmqgr61ham19b0-EventStore-21.10.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event sourcing database with processing logic in JavaScript",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/nosql/eventstore/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "eventstore"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d069b6qadd93p8vyzxwmqgr61ham19b0-EventStore-21.10.5"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "4.2.0": {
+  "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.2.0",
+      "version": "4.2.1",
       "pname": "yara",
-      "name": "yara-4.2.0",
+      "name": "yara-4.2.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/dq3iv3rsl8cx61big88izad2skmxxm56-yara-4.2.0"
+        "out": "/nix/store/jr9n185kfnsr12ni128mgzyd0wni4mxh-yara-4.2.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The pattern matching swiss knife for malware researchers",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/yara/default.nix:58",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/yara/default.nix:58",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dq3iv3rsl8cx61big88izad2skmxxm56-yara-4.2.0"
+        "/nix/store/jr9n185kfnsr12ni128mgzyd0wni4mxh-yara-4.2.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "4.2.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.3",
+      "pname": "yara",
+      "name": "yara-4.2.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/7fndlyydafcmgcpfncqv276kkcl0z3g0-yara-4.2.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The pattern matching swiss knife for malware researchers",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/yara/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "yara"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7fndlyydafcmgcpfncqv276kkcl0z3g0-yara-4.2.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "4.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.1",
-      "pname": "yara",
-      "name": "yara-4.2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/jr9n185kfnsr12ni128mgzyd0wni4mxh-yara-4.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The pattern matching swiss knife for malware researchers",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/yara/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "yara"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jr9n185kfnsr12ni128mgzyd0wni4mxh-yara-4.2.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

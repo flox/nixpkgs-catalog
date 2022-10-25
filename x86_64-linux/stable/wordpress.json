@@ -1,21 +1,21 @@
 {
-  "5.9": {
+  "5.9.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.9",
+      "version": "5.9.3",
       "pname": "wordpress",
-      "name": "wordpress-5.9",
+      "name": "wordpress-5.9.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/ajq2mmbhy8z96p037dwa436w266bgj9f-wordpress-5.9"
+        "out": "/nix/store/69rmdr49pw0c72fqwyflrg56lai7x87k-wordpress-5.9.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "WordPress is open source software you can use to create a beautiful website, blog, or app",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/web-apps/wordpress/default.nix:23",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/web-apps/wordpress/default.nix:23",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ajq2mmbhy8z96p037dwa436w266bgj9f-wordpress-5.9"
+        "/nix/store/69rmdr49pw0c72fqwyflrg56lai7x87k-wordpress-5.9.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "6.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.1",
+      "pname": "wordpress",
+      "name": "wordpress-6.0.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/bnfwky7csnnblibhrgzp8pdnnwr3pqbq-wordpress-6.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "WordPress is open source software you can use to create a beautiful website, blog, or app",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/web-apps/wordpress/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wordpress"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bnfwky7csnnblibhrgzp8pdnnwr3pqbq-wordpress-6.0.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "5.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.9.3",
-      "pname": "wordpress",
-      "name": "wordpress-5.9.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/69rmdr49pw0c72fqwyflrg56lai7x87k-wordpress-5.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "WordPress is open source software you can use to create a beautiful website, blog, or app",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/web-apps/wordpress/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "wordpress"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/69rmdr49pw0c72fqwyflrg56lai7x87k-wordpress-5.9.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

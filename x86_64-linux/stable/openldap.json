@@ -8,10 +8,10 @@
       "name": "openldap-2.6.2",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/g7zbnk25vkdyprdrsdzl0lz8ddsf9ifi-openldap-2.6.2-dev",
-        "devdoc": "/nix/store/z7dmxawgmpbzbz8y9nyamksmh6sf0z2j-openldap-2.6.2-devdoc",
-        "man": "/nix/store/1vg2lzrdblp4125jh0awn7g8jrdgpfy5-openldap-2.6.2-man",
-        "out": "/nix/store/j8vwkv4wnd2ph8pv9wl77x5rbad4fwsb-openldap-2.6.2"
+        "dev": "/nix/store/jhabbb77l7xgbvqjfkg9gqm9snb9a776-openldap-2.6.2-dev",
+        "devdoc": "/nix/store/k4ya4x8n482nxm382iynfibg8vn6ncgq-openldap-2.6.2-devdoc",
+        "man": "/nix/store/q1r3wqg1c3hgwk5r1ccj391868lqnykk-openldap-2.6.2-man",
+        "out": "/nix/store/ay0a0phrkgmmwd70dxqbg9dfgg7bflp7-openldap-2.6.2"
       },
       "meta": {
         "outputsToInstall": [
@@ -19,7 +19,7 @@
           "man"
         ],
         "description": "An open source implementation of the Lightweight Directory Access Protocol",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/openldap/default.nix:116",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/openldap/default.nix:150",
         "unfree": false
       }
     },
@@ -32,15 +32,60 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j8vwkv4wnd2ph8pv9wl77x5rbad4fwsb-openldap-2.6.2",
-        "/nix/store/1vg2lzrdblp4125jh0awn7g8jrdgpfy5-openldap-2.6.2-man"
+        "/nix/store/ay0a0phrkgmmwd70dxqbg9dfgg7bflp7-openldap-2.6.2",
+        "/nix/store/q1r3wqg1c3hgwk5r1ccj391868lqnykk-openldap-2.6.2-man"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "2.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.3",
+      "pname": "openldap",
+      "name": "openldap-2.6.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/rzvfw7yi8jsyqlyc70fdxprgvyrwd776-openldap-2.6.3-dev",
+        "devdoc": "/nix/store/4nwsjjgi78alwmba6j7ci5knajnjx77g-openldap-2.6.3-devdoc",
+        "man": "/nix/store/8rdra54hizy3vnj0h930mzcfhhnxib54-openldap-2.6.3-man",
+        "out": "/nix/store/8s8azija8zyhpzsb4b86fydrdqmys1mq-openldap-2.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An open source implementation of the Lightweight Directory Access Protocol",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/openldap/default.nix:118",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "openldap"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8s8azija8zyhpzsb4b86fydrdqmys1mq-openldap-2.6.3",
+        "/nix/store/8rdra54hizy3vnj0h930mzcfhhnxib54-openldap-2.6.3-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

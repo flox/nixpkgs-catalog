@@ -1,21 +1,21 @@
 {
-  "2021.6": {
+  "2022.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2021.6",
+      "version": "2022.4",
       "pname": "mullvad-vpn",
-      "name": "mullvad-vpn-2021.6",
+      "name": "mullvad-vpn-2022.4",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/d394wq5qwnqpc2ssl7mivhvddq62lpxh-mullvad-vpn-2021.6"
+        "out": "/nix/store/ydra6n2aqv93gva8anh2qn98klqibv9y-mullvad-vpn-2022.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Client for Mullvad VPN",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/mullvad-vpn/default.nix:87",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/mullvad-vpn/default.nix:90",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/d394wq5qwnqpc2ssl7mivhvddq62lpxh-mullvad-vpn-2021.6"
+        "/nix/store/ydra6n2aqv93gva8anh2qn98klqibv9y-mullvad-vpn-2022.4"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "2022.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.2",
+      "pname": "mullvad-vpn",
+      "name": "mullvad-vpn-2022.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/nl7m291dy3r2jwrkbz1j6fx35y7gird7-mullvad-vpn-2022.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Client for Mullvad VPN",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/mullvad-vpn/default.nix:90",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mullvad-vpn"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nl7m291dy3r2jwrkbz1j6fx35y7gird7-mullvad-vpn-2022.2"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

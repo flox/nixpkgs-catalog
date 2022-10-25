@@ -8,14 +8,14 @@
       "name": "cargo-geiger-0.11.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/7i2v8c4kl3wh07r5alx14kpg9qfawl8j-cargo-geiger-0.11.3"
+        "out": "/nix/store/av8v17vqky0was19nk93m4j2j7vikkia-cargo-geiger-0.11.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Detects usage of unsafe Rust in a Rust crate and its dependencies",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/rust/cargo-geiger/default.nix:51",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-geiger/default.nix:51",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7i2v8c4kl3wh07r5alx14kpg9qfawl8j-cargo-geiger-0.11.3"
+        "/nix/store/av8v17vqky0was19nk93m4j2j7vikkia-cargo-geiger-0.11.3"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.11.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.4",
+      "pname": "cargo-geiger",
+      "name": "cargo-geiger-0.11.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/kmm1c4z47cqm6hksn4y3g08afwzr4bq2-cargo-geiger-0.11.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Detects usage of unsafe Rust in a Rust crate and its dependencies",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rust/cargo-geiger/default.nix:51",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cargo-geiger"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kmm1c4z47cqm6hksn4y3g08afwzr4bq2-cargo-geiger-0.11.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

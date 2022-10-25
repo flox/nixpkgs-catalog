@@ -1,21 +1,21 @@
 {
-  "unstable-2021-12-05": {
+  "unstable-2022-04-11": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "unstable-2021-12-05",
+      "version": "unstable-2022-04-11",
       "pname": "qbe",
-      "name": "qbe-unstable-2021-12-05",
+      "name": "qbe-unstable-2022-04-11",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/49k335yxadq5hbcnhcr6z9gv6106fya6-qbe-unstable-2021-12-05"
+        "out": "/nix/store/852d3ldmbpfb8nl690h5zf9wc1532hyn-qbe-unstable-2022-04-11"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A small compiler backend written in C",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/compilers/qbe/default.nix:28",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/qbe/default.nix:28",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/49k335yxadq5hbcnhcr6z9gv6106fya6-qbe-unstable-2021-12-05"
+        "/nix/store/852d3ldmbpfb8nl690h5zf9wc1532hyn-qbe-unstable-2022-04-11"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0",
+      "pname": "qbe",
+      "name": "qbe-1.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/k52x71y3h57jvqpxarff5fq3sxwnf8dv-qbe-1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small compiler backend written in C",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/qbe/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "qbe"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k52x71y3h57jvqpxarff5fq3sxwnf8dv-qbe-1.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "unstable-2022-04-11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unstable-2022-04-11",
-      "pname": "qbe",
-      "name": "qbe-unstable-2022-04-11",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/852d3ldmbpfb8nl690h5zf9wc1532hyn-qbe-unstable-2022-04-11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small compiler backend written in C",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/qbe/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "qbe"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/852d3ldmbpfb8nl690h5zf9wc1532hyn-qbe-unstable-2022-04-11"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

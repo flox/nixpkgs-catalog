@@ -1,44 +1,4 @@
 {
-  "1.7.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.1",
-      "pname": "julia-bin",
-      "name": "julia-bin-1.7.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/15kh8pp59zbnhxcxh2l66xr1hzly00y9-julia-bin-1.7.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High-level, high-performance, dynamic language for technical computing",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/julia/1.7-bin.nix:64",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "julia-stable-bin"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/15kh8pp59zbnhxcxh2l66xr1hzly00y9-julia-bin-1.7.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.7.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.2",
+      "pname": "julia-bin",
+      "name": "julia-bin-1.8.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/2z1cysryy1kq95fvb5lpfs7wgsllyg1z-julia-bin-1.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High-level, high-performance, dynamic language for technical computing",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/compilers/julia/1.8-bin.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "julia-stable-bin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2z1cysryy1kq95fvb5lpfs7wgsllyg1z-julia-bin-1.8.2"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

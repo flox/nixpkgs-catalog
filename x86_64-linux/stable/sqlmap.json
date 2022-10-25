@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.6.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.6",
-      "pname": "sqlmap",
-      "name": "sqlmap-1.6.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/4654y132r4dsq7sdd4f78phn36nv49jd-python3.9-sqlmap-1.6.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Automatic SQL injection and database takeover tool",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/python-modules/sqlmap/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "sqlmap"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4654y132r4dsq7sdd4f78phn36nv49jd-python3.9-sqlmap-1.6.6"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.6.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.8",
+      "pname": "sqlmap",
+      "name": "sqlmap-1.6.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/1qv058cz6dvh1a48yv7v2vnsvivj9nia-python3.10-sqlmap-1.6.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Automatic SQL injection and database takeover tool",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/python-modules/sqlmap/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "sqlmap"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1qv058cz6dvh1a48yv7v2vnsvivj9nia-python3.10-sqlmap-1.6.8"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

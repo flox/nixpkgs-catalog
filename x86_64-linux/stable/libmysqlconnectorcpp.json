@@ -1,21 +1,21 @@
 {
-  "8.0.27": {
+  "8.0.30": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "8.0.27",
+      "version": "8.0.30",
       "pname": "libmysqlconnectorcpp",
-      "name": "libmysqlconnectorcpp-8.0.27",
+      "name": "libmysqlconnectorcpp-8.0.30",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/jm92l679hfx159g1mvqa6hp0xfclya5h-libmysqlconnectorcpp-8.0.27"
+        "out": "/nix/store/7i8qwf4crrnycjldi5r9s27y4m71yzqk-libmysqlconnectorcpp-8.0.30"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "C++ library for connecting to mysql servers",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libmysqlconnectorcpp/default.nix:37",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libmysqlconnectorcpp/default.nix:37",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jm92l679hfx159g1mvqa6hp0xfclya5h-libmysqlconnectorcpp-8.0.27"
+        "/nix/store/7i8qwf4crrnycjldi5r9s27y4m71yzqk-libmysqlconnectorcpp-8.0.30"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "8.0.29": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.0.29",
+      "pname": "libmysqlconnectorcpp",
+      "name": "libmysqlconnectorcpp-8.0.29",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/jlwpk85qh5wmdllzjdbjnrvj3m0wxg6z-libmysqlconnectorcpp-8.0.29"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C++ library for connecting to mysql servers",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/libmysqlconnectorcpp/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libmysqlconnectorcpp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jlwpk85qh5wmdllzjdbjnrvj3m0wxg6z-libmysqlconnectorcpp-8.0.29"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

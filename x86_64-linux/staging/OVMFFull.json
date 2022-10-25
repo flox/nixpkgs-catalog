@@ -40,6 +40,47 @@
       }
     }
   },
+  "202205": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "202205",
+      "pname": "OVMF",
+      "name": "OVMF-202205",
+      "system": "x86_64-linux",
+      "outputs": {
+        "fd": "/nix/store/8kfscgxmd6ma104izh1jq3z197zya9rc-OVMF-202205-fd",
+        "out": "/nix/store/91crc9n1h80vnhm0n6srhnj392mcsii6-OVMF-202205"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sample UEFI firmware for QEMU and KVM",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/virtualization/OVMF/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "OVMFFull"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/91crc9n1h80vnhm0n6srhnj392mcsii6-OVMF-202205"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "202202": {
     "type": "catalogRender",
     "schema": 1,

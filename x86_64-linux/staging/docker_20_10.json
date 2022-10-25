@@ -42,49 +42,6 @@
       }
     }
   },
-  "20.10.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20.10.15",
-      "pname": "docker",
-      "name": "docker-20.10.15",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/w54vf8sbyyawv3p1qlwaqy2h7rzjfc2s-docker-20.10.15-man",
-        "out": "/nix/store/v5id1fiajgh91dndz9a4ym9vk8g7a60f-docker-20.10.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An open source project to pack, ship and run any application as a lightweight container",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/docker/default.nix:233",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "docker_20_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v5id1fiajgh91dndz9a4ym9vk8g7a60f-docker-20.10.15",
-        "/nix/store/w54vf8sbyyawv3p1qlwaqy2h7rzjfc2s-docker-20.10.15-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "20.10.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "20.10.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20.10.18",
+      "pname": "docker",
+      "name": "docker-20.10.18",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/9swxcfl1csa4918ai0gax0jnx7z4f8kp-docker-20.10.18-man",
+        "out": "/nix/store/bzxan8idlj1kwhrqj6ncwcihzqar5hkp-docker-20.10.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An open source project to pack, ship and run any application as a lightweight container",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/docker/default.nix:233",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "docker_20_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bzxan8idlj1kwhrqj6ncwcihzqar5hkp-docker-20.10.18",
+        "/nix/store/9swxcfl1csa4918ai0gax0jnx7z4f8kp-docker-20.10.18-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "3.4.0": {
+  "3.7.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.0",
+      "version": "3.7.0",
       "pname": "ceph-csi",
-      "name": "ceph-csi-3.4.0",
+      "name": "ceph-csi-3.7.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/4b96cnd8sarfnbicpkijbwd7z0a1xdxn-ceph-csi-3.4.0"
+        "out": "/nix/store/qc4al78py8lqxws806qakr1bnsv30362-ceph-csi-3.7.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Container Storage Interface (CSI) driver for Ceph RBD and CephFS",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/filesystems/ceph-csi/default.nix:28",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/filesystems/ceph-csi/default.nix:28",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4b96cnd8sarfnbicpkijbwd7z0a1xdxn-ceph-csi-3.4.0"
+        "/nix/store/qc4al78py8lqxws806qakr1bnsv30362-ceph-csi-3.7.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.7.1",
+      "pname": "ceph-csi",
+      "name": "ceph-csi-3.7.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/3f0w8c7rsqgx1gf3x28843ipk257x2g5-ceph-csi-3.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Container Storage Interface (CSI) driver for Ceph RBD and CephFS",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/filesystems/ceph-csi/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ceph-csi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3f0w8c7rsqgx1gf3x28843ipk257x2g5-ceph-csi-3.7.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

@@ -39,6 +39,46 @@
       }
     }
   },
+  "6.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.12",
+      "pname": "pgadmin",
+      "name": "pgadmin-6.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/j1n39gd300kbml18acb1prx1h0myx28l-pgadmin-6.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Administration and development platform for PostgreSQL",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/admin/pgadmin/default.nix:181",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pgadmin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j1n39gd300kbml18acb1prx1h0myx28l-pgadmin-6.12"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "6.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "6.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.5",
-      "pname": "pgadmin",
-      "name": "pgadmin-6.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/iyzijkqlznnkhgcms3whi8pj49iik6lh-pgadmin-6.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Administration and development platform for PostgreSQL",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/admin/pgadmin/default.nix:158",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "pgadmin"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/iyzijkqlznnkhgcms3whi8pj49iik6lh-pgadmin-6.5"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
       }
     }
   }

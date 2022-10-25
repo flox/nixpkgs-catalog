@@ -1,22 +1,22 @@
 {
-  "3.17.1": {
+  "3.19.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.17.1",
+      "version": "3.19.2",
       "pname": "amass",
-      "name": "amass-3.17.1",
+      "name": "amass-3.19.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/d1n19l467i5dxhb54pl1cvaiqax14rb2-amass-3.17.1",
-        "wordlists": "/nix/store/a47qynn002pmnnm0xhk1432f43390kn1-amass-3.17.1-wordlists"
+        "out": "/nix/store/rgxa4yrfmld4s5q6jg8zn4s72i6s9p7z-amass-3.19.2",
+        "wordlists": "/nix/store/r15sif1pkj3ca3pk6ijsf45v0wg72hq9-amass-3.19.2-wordlists"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "In-Depth DNS Enumeration and Network Mapping",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/networking/amass/default.nix:31",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/amass/default.nix:31",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/d1n19l467i5dxhb54pl1cvaiqax14rb2-amass-3.17.1"
+        "/nix/store/rgxa4yrfmld4s5q6jg8zn4s72i6s9p7z-amass-3.19.2"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.19.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.19.3",
+      "pname": "amass",
+      "name": "amass-3.19.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/wv08pkwr9fklr9bp8fnn6yl4r5c9kzj2-amass-3.19.3",
+        "wordlists": "/nix/store/ypqrb3i3fxnrwvzxm86hkbj3c075a3ya-amass-3.19.3-wordlists"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "In-Depth DNS Enumeration and Network Mapping",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/amass/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "amass"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wv08pkwr9fklr9bp8fnn6yl4r5c9kzj2-amass-3.19.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.19.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.19.2",
-      "pname": "amass",
-      "name": "amass-3.19.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/rgxa4yrfmld4s5q6jg8zn4s72i6s9p7z-amass-3.19.2",
-        "wordlists": "/nix/store/r15sif1pkj3ca3pk6ijsf45v0wg72hq9-amass-3.19.2-wordlists"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "In-Depth DNS Enumeration and Network Mapping",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/amass/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "amass"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rgxa4yrfmld4s5q6jg8zn4s72i6s9p7z-amass-3.19.2"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

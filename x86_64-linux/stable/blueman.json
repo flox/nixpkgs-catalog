@@ -1,21 +1,21 @@
 {
-  "2.2.3": {
+  "2.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2.3",
+      "version": "2.3",
       "pname": "blueman",
-      "name": "blueman-2.2.3",
+      "name": "blueman-2.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/rz1jcnl8lxdfg5ylf0grcwk4saxy2s0n-blueman-2.2.3"
+        "out": "/nix/store/r3jzy68qwwflnchn22w498p6cjlngmas-blueman-2.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "GTK-based Bluetooth Manager",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/bluetooth/blueman/default.nix:53",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/bluetooth/blueman/default.nix:53",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rz1jcnl8lxdfg5ylf0grcwk4saxy2s0n-blueman-2.2.3"
+        "/nix/store/r3jzy68qwwflnchn22w498p6cjlngmas-blueman-2.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "2.3.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.2",
+      "pname": "blueman",
+      "name": "blueman-2.3.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zndwmamxgivcc2sdm239nc9d71r72yx4-blueman-2.3.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GTK-based Bluetooth Manager",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/bluetooth/blueman/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "blueman"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zndwmamxgivcc2sdm239nc9d71r72yx4-blueman-2.3.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

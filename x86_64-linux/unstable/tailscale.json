@@ -1,44 +1,4 @@
 {
-  "1.28.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.28.0",
-      "pname": "tailscale",
-      "name": "tailscale-1.28.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/p9f87w8bvgybmzks4viwa89jjvndgf3v-tailscale-1.28.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The node agent for Tailscale, a mesh VPN built on WireGuard",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/tailscale/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "tailscale"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p9f87w8bvgybmzks4viwa89jjvndgf3v-tailscale-1.28.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.26.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.28.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.28.0",
+      "pname": "tailscale",
+      "name": "tailscale-1.28.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/p9f87w8bvgybmzks4viwa89jjvndgf3v-tailscale-1.28.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The node agent for Tailscale, a mesh VPN built on WireGuard",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/tailscale/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "tailscale"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p9f87w8bvgybmzks4viwa89jjvndgf3v-tailscale-1.28.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

@@ -1,16 +1,16 @@
 {
-  "42.1": {
+  "42.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "42.1",
+      "version": "42.2",
       "pname": "mutter",
-      "name": "mutter-42.1",
+      "name": "mutter-42.2",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/dm1g4b63c45ds2xn4q3k59splh7yrv8c-mutter-42.1-dev",
-        "man": "/nix/store/31d57pl8cl11ic0ng7pfnrlx7w6q7lbm-mutter-42.1-man",
-        "out": "/nix/store/rs4iw9s7gdz589acs8zi8i3nn1nd2p4f-mutter-42.1"
+        "dev": "/nix/store/6w1ysyvm8v06yxf8m0kq6n94yl6vs2pg-mutter-42.2-dev",
+        "man": "/nix/store/5dwg5d892acpvm21lw7905wbr8zwlasz-mutter-42.2-man",
+        "out": "/nix/store/096jhpx3p35wfyxy3lwf1pcnl6ry4cs2-mutter-42.2"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "A window manager for GNOME",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/desktops/gnome/core/mutter/default.nix:160",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/desktops/gnome/core/mutter/default.nix:158",
         "unfree": false
       }
     },
@@ -32,15 +32,60 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rs4iw9s7gdz589acs8zi8i3nn1nd2p4f-mutter-42.1",
-        "/nix/store/31d57pl8cl11ic0ng7pfnrlx7w6q7lbm-mutter-42.1-man"
+        "/nix/store/096jhpx3p35wfyxy3lwf1pcnl6ry4cs2-mutter-42.2",
+        "/nix/store/5dwg5d892acpvm21lw7905wbr8zwlasz-mutter-42.2-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
+  "42.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.4",
+      "pname": "mutter",
+      "name": "mutter-42.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/qz81bxgvhqjg4icw3vhnsj1ci4rkl8l6-mutter-42.4-dev",
+        "man": "/nix/store/nvx2453gxc993s3ppd4qq78xz16valcb-mutter-42.4-man",
+        "out": "/nix/store/px7l6rch0yb53cy84p36jhcpnpap9ia5-mutter-42.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A window manager for GNOME",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/desktops/gnome/core/mutter/default.nix:158",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome",
+        "mutter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/px7l6rch0yb53cy84p36jhcpnpap9ia5-mutter-42.4",
+        "/nix/store/nvx2453gxc993s3ppd4qq78xz16valcb-mutter-42.4-man"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },
@@ -86,51 +131,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "42.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.2",
-      "pname": "mutter",
-      "name": "mutter-42.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/6w1ysyvm8v06yxf8m0kq6n94yl6vs2pg-mutter-42.2-dev",
-        "man": "/nix/store/5dwg5d892acpvm21lw7905wbr8zwlasz-mutter-42.2-man",
-        "out": "/nix/store/096jhpx3p35wfyxy3lwf1pcnl6ry4cs2-mutter-42.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A window manager for GNOME",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/desktops/gnome/core/mutter/default.nix:158",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome",
-        "mutter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/096jhpx3p35wfyxy3lwf1pcnl6ry4cs2-mutter-42.2",
-        "/nix/store/5dwg5d892acpvm21lw7905wbr8zwlasz-mutter-42.2-man"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

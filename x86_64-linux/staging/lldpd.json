@@ -44,6 +44,51 @@
       }
     }
   },
+  "1.0.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.15",
+      "pname": "lldpd",
+      "name": "lldpd-1.0.15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/r86898siy50sk2a33bv5x1yax864hid8-lldpd-1.0.15-dev",
+        "doc": "/nix/store/h3znn8shr54kghkh5x6y73x8apkrd69a-lldpd-1.0.15-doc",
+        "man": "/nix/store/r4gi2fg1v8bk3xaisgqk48q75606wibd-lldpd-1.0.15-man",
+        "out": "/nix/store/4gm65sam8jlws1xf9mclsnbxvsvglji3-lldpd-1.0.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "802.1ab implementation (LLDP) to help you locate neighbors of all your equipments",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/lldpd/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lldpd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4gm65sam8jlws1xf9mclsnbxvsvglji3-lldpd-1.0.15",
+        "/nix/store/r4gi2fg1v8bk3xaisgqk48q75606wibd-lldpd-1.0.15-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.0.13": {
     "type": "catalogRender",
     "schema": 1,

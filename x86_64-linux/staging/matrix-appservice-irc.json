@@ -1,21 +1,21 @@
 {
-  "0.32.1": {
+  "0.35.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.32.1",
+      "version": "0.35.0",
       "pname": "matrix-appservice-irc",
-      "name": "matrix-appservice-irc-0.32.1",
+      "name": "matrix-appservice-irc-0.35.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/0svp1i3hwkhvp2fjj4ak44cymv5xcfnq-matrix-appservice-irc-0.32.1"
+        "out": "/nix/store/p3lfird6z9ygwhirgz8s7pngr0l0mx05-matrix-appservice-irc-0.35.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Node.js IRC bridge for Matrix",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/matrix-synapse/matrix-appservice-irc/default.nix:33",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/matrix-synapse/matrix-appservice-irc/default.nix:60",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0svp1i3hwkhvp2fjj4ak44cymv5xcfnq-matrix-appservice-irc-0.32.1"
+        "/nix/store/p3lfird6z9ygwhirgz8s7pngr0l0mx05-matrix-appservice-irc-0.35.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.35.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.35.1",
+      "pname": "matrix-appservice-irc",
+      "name": "matrix-appservice-irc-0.35.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ddd86dvmq71pccixvwj9pr1c2lsnbscl-matrix-appservice-irc-0.35.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Node.js IRC bridge for Matrix",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/matrix-synapse/matrix-appservice-irc/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "matrix-appservice-irc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ddd86dvmq71pccixvwj9pr1c2lsnbscl-matrix-appservice-irc-0.35.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

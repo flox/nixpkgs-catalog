@@ -1,21 +1,21 @@
 {
-  "4.2.0p2": {
+  "4.3.1p2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.2.0p2",
+      "version": "4.3.1p2",
       "pname": "singular",
-      "name": "singular-4.2.0p2",
+      "name": "singular-4.3.1p2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/snqcp2263xwl2ai4yy9hnp07933yp9r1-singular-4.2.0p2"
+        "out": "/nix/store/x87k13r2c3xab2la49ldfn8k9wsbhnmm-singular-4.3.1p2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A CAS for polynomial computations",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/science/math/singular/default.nix:206",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/math/singular/default.nix:163",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/snqcp2263xwl2ai4yy9hnp07933yp9r1-singular-4.2.0p2"
+        "/nix/store/x87k13r2c3xab2la49ldfn8k9wsbhnmm-singular-4.3.1p2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "4.3.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.3.1",
+      "pname": "singular",
+      "name": "singular-4.3.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/0awh8hmac01m0rcbzkpbpzakhdgv1m31-singular-4.3.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A CAS for polynomial computations",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/science/math/singular/default.nix:162",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "singular"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0awh8hmac01m0rcbzkpbpzakhdgv1m31-singular-4.3.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

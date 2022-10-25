@@ -39,6 +39,46 @@
       }
     }
   },
+  "6.0.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.8",
+      "pname": "aspnetcore-runtime",
+      "name": "aspnetcore-runtime-6.0.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/pk0q0bbc3q4k7h61ggqsizga32fahxkk-aspnetcore-runtime-6.0.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ASP.NET Core Runtime 6.0.8",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/dotnet/build-dotnet.nix:146",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "dotnet-aspnetcore"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pk0q0bbc3q4k7h61ggqsizga32fahxkk-aspnetcore-runtime-6.0.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "6.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "6.0.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.5",
-      "pname": "aspnetcore-runtime",
-      "name": "aspnetcore-runtime-6.0.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/izj036i9kak0k47m7y753w65jbjsciw8-aspnetcore-runtime-6.0.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ASP.NET Core Runtime 6.0.5",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/compilers/dotnet/build-dotnet.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "dotnet-aspnetcore"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/izj036i9kak0k47m7y753w65jbjsciw8-aspnetcore-runtime-6.0.5"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

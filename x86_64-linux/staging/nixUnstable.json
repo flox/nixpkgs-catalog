@@ -45,52 +45,6 @@
       }
     }
   },
-  "2.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.9.1",
-      "pname": "nix",
-      "name": "nix-2.9.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/qx5qkbf0aqcclg2v3aixl4k7dycriqvl-nix-2.9.1-debug",
-        "dev": "/nix/store/i0dkap8xfx4f7fncx0qfq35fpr6sspv9-nix-2.9.1-dev",
-        "doc": "/nix/store/scap52nj2i87l7y5ga7qi472l1jlzq1p-nix-2.9.1-doc",
-        "man": "/nix/store/55fpzfikr6ap13vi9j5s49cqa1rv7ijw-nix-2.9.1-man",
-        "out": "/nix/store/1psw6gi16i6188ww3clbnxaqr3mp9hqy-nix-2.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Powerful package manager that makes package management reliable and reproducible",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/package-management/nix/common.nix:194",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nixUnstable"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1psw6gi16i6188ww3clbnxaqr3mp9hqy-nix-2.9.1",
-        "/nix/store/55fpzfikr6ap13vi9j5s49cqa1rv7ijw-nix-2.9.1-man"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "2.10.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -134,6 +88,52 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.11.0",
+      "pname": "nix",
+      "name": "nix-2.11.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/7j2gwxmicjz2fa2lchvjs5lqrmqs2hvn-nix-2.11.0-debug",
+        "dev": "/nix/store/xvsafj8ahsyrm3aay4wmzg1x7knni0k7-nix-2.11.0-dev",
+        "doc": "/nix/store/8ci5lsdvsrpq12hx7nc4pd3hy9f4abf0-nix-2.11.0-doc",
+        "man": "/nix/store/k9w84gyml5bs0prg8f3rxvi6v215s89h-nix-2.11.0-man",
+        "out": "/nix/store/3h985ga4wbpnpvi0llvbamhva69wl2k2-nix-2.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Powerful package manager that makes package management reliable and reproducible",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nix/common.nix:211",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nixUnstable"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3h985ga4wbpnpvi0llvbamhva69wl2k2-nix-2.11.0",
+        "/nix/store/k9w84gyml5bs0prg8f3rxvi6v215s89h-nix-2.11.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

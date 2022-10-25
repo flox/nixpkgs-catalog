@@ -1,21 +1,21 @@
 {
-  "0.24.0": {
+  "0.25.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.24.0",
+      "version": "0.25.0",
       "pname": "lab",
-      "name": "lab-0.24.0",
+      "name": "lab-0.25.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/g8hcl9d77zrg3vv1wgdbq69sjv9zfadz-lab-0.24.0"
+        "out": "/nix/store/0vm5d40wmskqx9qk1zsxar0zn915jzqc-lab-0.25.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/version-management/git-and-tools/lab/default.nix:33",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/lab/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/g8hcl9d77zrg3vv1wgdbq69sjv9zfadz-lab-0.24.0"
+        "/nix/store/0vm5d40wmskqx9qk1zsxar0zn915jzqc-lab-0.25.0"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.25.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.25.1",
+      "pname": "lab",
+      "name": "lab-0.25.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/3cg532w5f3a3hqy6r512bph1iy7j1f2p-lab-0.25.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/version-management/git-and-tools/lab/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lab"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3cg532w5f3a3hqy6r512bph1iy7j1f2p-lab-0.25.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.25.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.25.0",
-      "pname": "lab",
-      "name": "lab-0.25.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/0vm5d40wmskqx9qk1zsxar0zn915jzqc-lab-0.25.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lab wraps Git or Hub, making it simple to clone, fork, and interact with repositories on GitLab",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/lab/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "lab"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0vm5d40wmskqx9qk1zsxar0zn915jzqc-lab-0.25.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

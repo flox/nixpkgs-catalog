@@ -1,4 +1,47 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gstreamer",
+      "name": "gstreamer-1.20.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/sy36w2hmg5l4l5ihx6x43ln4sn8qdjnz-gstreamer-1.20.3-bin",
+        "dev": "/nix/store/xys460s1r699kh0f6w5wa77snwzpiwj3-gstreamer-1.20.3-dev",
+        "out": "/nix/store/283k5cck45kxvird9bak5lxr2iqg9rpb-gstreamer-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Open source multimedia framework",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/core/default.nix:112",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gst_all_1",
+        "gstreamer"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sy36w2hmg5l4l5ihx6x43ln4sn8qdjnz-gstreamer-1.20.3-bin"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,49 +81,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gstreamer",
-      "name": "gstreamer-1.20.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/pign9i8s8dpwlmdgln5ac2rj7mwwia04-gstreamer-1.20.0-bin",
-        "dev": "/nix/store/dxy9cm56xbs9aswr6ydlpkxyhwvf18cj-gstreamer-1.20.0-dev",
-        "out": "/nix/store/pkr5zqg92q1ixygfrzfnf0c1sldgycms-gstreamer-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Open source multimedia framework",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/core/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gst_all_1",
-        "gstreamer"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pign9i8s8dpwlmdgln5ac2rj7mwwia04-gstreamer-1.20.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

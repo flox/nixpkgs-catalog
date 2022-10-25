@@ -1,44 +1,4 @@
 {
-  "81.12871.0.0-rc1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "81.12871.0.0-rc1",
-      "pname": "crosvm",
-      "name": "crosvm-81.12871.0.0-rc1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/anagbmap6vf6fh7z8szy9yrd1adshn3c-crosvm-81.12871.0.0-rc1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A secure virtual machine monitor for KVM",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/virtualization/crosvm/default.nix:87",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "crosvm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/anagbmap6vf6fh7z8szy9yrd1adshn3c-crosvm-81.12871.0.0-rc1"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "100.14526.0.0-rc1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,87 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "104.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "104.0",
+      "pname": "crosvm",
+      "name": "crosvm-104.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/vc3lw92vd4zd0s6ba8nhz7f1c7vrvw3l-crosvm-104.0-debug",
+        "out": "/nix/store/i0vc32fbi246x6zyah3qqd2q2y5fj76z-crosvm-104.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A secure virtual machine monitor for KVM",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/crosvm/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "crosvm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i0vc32fbi246x6zyah3qqd2q2y5fj76z-crosvm-104.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "81.12871.0.0-rc1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "81.12871.0.0-rc1",
+      "pname": "crosvm",
+      "name": "crosvm-81.12871.0.0-rc1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/anagbmap6vf6fh7z8szy9yrd1adshn3c-crosvm-81.12871.0.0-rc1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A secure virtual machine monitor for KVM",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/virtualization/crosvm/default.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "crosvm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/anagbmap6vf6fh7z8szy9yrd1adshn3c-crosvm-81.12871.0.0-rc1"
+      ],
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   }

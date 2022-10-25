@@ -40,47 +40,6 @@
       }
     }
   },
-  "4.9.317": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.9.317",
-      "pname": "linux",
-      "name": "linux-4.9.317",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/aa1v5nyx76bg3kcra2vz5jm1lag9y7hs-linux-4.9.317-dev",
-        "out": "/nix/store/mqpcz5kb7iym7ix89zss2y063fppjh99-linux-4.9.317"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_9"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mqpcz5kb7iym7ix89zss2y063fppjh99-linux-4.9.317"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "4.9.297": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.9.325": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.9.325",
+      "pname": "linux",
+      "name": "linux-4.9.325",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/g9h2xbs80a50d0mchg5071lxja76s8mb-linux-4.9.325-dev",
+        "out": "/nix/store/1hzpw5lj2b0f5i5194ky80dpsakcrpbv-linux-4.9.325"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_9"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1hzpw5lj2b0f5i5194ky80dpsakcrpbv-linux-4.9.325"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

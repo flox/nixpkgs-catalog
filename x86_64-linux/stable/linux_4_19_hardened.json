@@ -40,47 +40,6 @@
       }
     }
   },
-  "4.19.246": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.19.246",
-      "pname": "linux",
-      "name": "linux-4.19.246",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/vv5f9r50rs97fnx3rl4s4bb55r2pvi28-linux-4.19.246-dev",
-        "out": "/nix/store/biib2k3kay4hsvb0gj0ha27sxxibrzf4-linux-4.19.246"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.246-hardened1)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/top-level/linux-kernels.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_19_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/biib2k3kay4hsvb0gj0ha27sxxibrzf4-linux-4.19.246"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "4.19.225": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.19.255": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.19.255",
+      "pname": "linux",
+      "name": "linux-4.19.255",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/rhsvsrk6pngrjsjrfab5vs2qsc9f054q-linux-4.19.255-dev",
+        "out": "/nix/store/2ly1ry0dzc40p2rcj2wz1671v4j224mx-linux-4.19.255"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.255-hardened1)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_19_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2ly1ry0dzc40p2rcj2wz1671v4j224mx-linux-4.19.255"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

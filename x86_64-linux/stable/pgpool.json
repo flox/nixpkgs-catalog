@@ -8,14 +8,14 @@
       "name": "pgpool-II-4.3.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/m9ay4zw5dzgi3kz0bh0dav6s39q6rj3m-pgpool-II-4.3.2"
+        "out": "/nix/store/wa20x1z7z4597ai8av8b09gdhd0w1jyn-pgpool-II-4.3.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A middleware that works between postgresql servers and postgresql clients",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/sql/pgpool/default.nix:30",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/sql/pgpool/default.nix:30",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/m9ay4zw5dzgi3kz0bh0dav6s39q6rj3m-pgpool-II-4.3.2"
+        "/nix/store/wa20x1z7z4597ai8av8b09gdhd0w1jyn-pgpool-II-4.3.2"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "4.3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.3.3",
+      "pname": "pgpool-II",
+      "name": "pgpool-II-4.3.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/f07f3ifc5s2dscna0ir15q2lhrk1fmwl-pgpool-II-4.3.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A middleware that works between postgresql servers and postgresql clients",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/pgpool/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pgpool"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f07f3ifc5s2dscna0ir15q2lhrk1fmwl-pgpool-II-4.3.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

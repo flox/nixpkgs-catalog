@@ -1,21 +1,21 @@
 {
-  "0.12.2": {
+  "0.13.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.12.2",
+      "version": "0.13.4",
       "pname": "steampipe",
-      "name": "steampipe-0.12.2",
+      "name": "steampipe-0.13.4",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/lxn5wan2s3x63hbk8p14qlgwv57m25fc-steampipe-0.12.2"
+        "out": "/nix/store/3whhkvddfcxc1kyl7d4x3iqyv1ykxq5q-steampipe-0.13.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "select * from cloud;",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/misc/steampipe/default.nix:37",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/steampipe/default.nix:34",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lxn5wan2s3x63hbk8p14qlgwv57m25fc-steampipe-0.12.2"
+        "/nix/store/3whhkvddfcxc1kyl7d4x3iqyv1ykxq5q-steampipe-0.13.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.15.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.3",
+      "pname": "steampipe",
+      "name": "steampipe-0.15.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/rypxh9326f41cp0pkdn6wav2pqpnmv45-steampipe-0.15.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "select * from cloud;",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/steampipe/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "steampipe"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rypxh9326f41cp0pkdn6wav2pqpnmv45-steampipe-0.15.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.13.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.4",
-      "pname": "steampipe",
-      "name": "steampipe-0.13.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/3whhkvddfcxc1kyl7d4x3iqyv1ykxq5q-steampipe-0.13.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "select * from cloud;",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/steampipe/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "steampipe"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3whhkvddfcxc1kyl7d4x3iqyv1ykxq5q-steampipe-0.13.4"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

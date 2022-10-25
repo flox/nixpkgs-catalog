@@ -1,21 +1,21 @@
 {
-  "4.5.2": {
+  "4.5.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.5.2",
+      "version": "4.5.4",
       "pname": "whalebird",
-      "name": "whalebird-4.5.2",
+      "name": "whalebird-4.5.4",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/65y9y2hyp6vyhr5p723kbvpr68ysl011-whalebird-4.5.2"
+        "out": "/nix/store/qd1652vb5qdd8vl0fjdws7jwgkbqggzw-whalebird-4.5.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Electron based Mastodon, Pleroma and Misskey client for Windows, Mac and Linux",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/misc/whalebird/default.nix:55",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/whalebird/default.nix:55",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/65y9y2hyp6vyhr5p723kbvpr68ysl011-whalebird-4.5.2"
+        "/nix/store/qd1652vb5qdd8vl0fjdws7jwgkbqggzw-whalebird-4.5.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "4.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.6.0",
+      "pname": "whalebird",
+      "name": "whalebird-4.6.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/0y4il00cfmsrpf5qqg3fw5b5dglcwvv2-whalebird-4.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Electron based Mastodon, Pleroma and Misskey client for Windows, Mac and Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/whalebird/default.nix:83",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "whalebird"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0y4il00cfmsrpf5qqg3fw5b5dglcwvv2-whalebird-4.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "4.5.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.5.4",
-      "pname": "whalebird",
-      "name": "whalebird-4.5.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/qd1652vb5qdd8vl0fjdws7jwgkbqggzw-whalebird-4.5.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Electron based Mastodon, Pleroma and Misskey client for Windows, Mac and Linux",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/whalebird/default.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "whalebird"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qd1652vb5qdd8vl0fjdws7jwgkbqggzw-whalebird-4.5.4"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

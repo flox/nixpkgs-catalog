@@ -1,4 +1,45 @@
 {
+  "6.2.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.2.8",
+      "pname": "easyeffects",
+      "name": "easyeffects-6.2.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/jjlgmpz9mndh58k2mdzvzzhzlhhjynrj-easyeffects-6.2.8-debug",
+        "out": "/nix/store/9c5k5lh7w6jlj3dw0x4nsgr6m11w1fi3-easyeffects-6.2.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Audio effects for PipeWire applications.",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/audio/easyeffects/default.nix:106",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pulseeffects-pw"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9c5k5lh7w6jlj3dw0x4nsgr6m11w1fi3-easyeffects-6.2.8"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "6.2.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,47 +78,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "6.2.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.2.8",
-      "pname": "easyeffects",
-      "name": "easyeffects-6.2.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/vmkd8pzb0jaf4480i98ilvzvvln51m0f-easyeffects-6.2.8-debug",
-        "out": "/nix/store/jdk82aiihd34jk973r3np0qqcndr7j02-easyeffects-6.2.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Audio effects for PipeWire applications.",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/audio/easyeffects/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "pulseeffects-pw"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jdk82aiihd34jk973r3np0qqcndr7j02-easyeffects-6.2.8"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   },

@@ -1,47 +1,4 @@
 {
-  "1.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.1",
-      "pname": "skopeo",
-      "name": "skopeo-1.9.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/n42qvzzb6cyqbkzcnn99k33fz65r0gdx-skopeo-1.9.1-man",
-        "out": "/nix/store/zinzzywfycb95xsn4n4cjiq3mdz0q5wr-skopeo-1.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A command line utility for various operations on container images and image repositories",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/skopeo/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "skopeo"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zinzzywfycb95xsn4n4cjiq3mdz0q5wr-skopeo-1.9.1",
-        "/nix/store/n42qvzzb6cyqbkzcnn99k33fz65r0gdx-skopeo-1.9.1-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.9.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -51,8 +8,8 @@
       "name": "skopeo-1.9.2",
       "system": "x86_64-linux",
       "outputs": {
-        "man": "/nix/store/i0bj0nb4pwsmdw9r23y3f0nwclqszbqq-skopeo-1.9.2-man",
-        "out": "/nix/store/hkydz4b44157ykg39y90s8fyv1qfpg5k-skopeo-1.9.2"
+        "man": "/nix/store/kd6wbfhlv5ml298qjdpzpwj5mywabb8l-skopeo-1.9.2-man",
+        "out": "/nix/store/jq3vxi73s9d5f3z72vyjwyp8j52kwgh4-skopeo-1.9.2"
       },
       "meta": {
         "outputsToInstall": [
@@ -60,7 +17,7 @@
           "man"
         ],
         "description": "A command line utility for various operations on container images and image repositories",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/skopeo/default.nix:61",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/skopeo/default.nix:61",
         "unfree": false
       }
     },
@@ -73,15 +30,58 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/hkydz4b44157ykg39y90s8fyv1qfpg5k-skopeo-1.9.2",
-        "/nix/store/i0bj0nb4pwsmdw9r23y3f0nwclqszbqq-skopeo-1.9.2-man"
+        "/nix/store/jq3vxi73s9d5f3z72vyjwyp8j52kwgh4-skopeo-1.9.2",
+        "/nix/store/kd6wbfhlv5ml298qjdpzpwj5mywabb8l-skopeo-1.9.2-man"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "skopeo",
+      "name": "skopeo-1.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/qa0p3haicz4xfaibs3980k3anlygw4a4-skopeo-1.10.0-man",
+        "out": "/nix/store/s81lrnl635nhfh2xj86divvjbllwr50y-skopeo-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A command line utility for various operations on container images and image repositories",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/skopeo/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "skopeo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s81lrnl635nhfh2xj86divvjbllwr50y-skopeo-1.10.0",
+        "/nix/store/qa0p3haicz4xfaibs3980k3anlygw4a4-skopeo-1.10.0-man"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "4.5.2": {
+  "5.2.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.5.2",
+      "version": "5.2.3",
       "pname": "hip",
-      "name": "hip-4.5.2",
+      "name": "hip-5.2.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/a3j1gxg2xf9rfaq84a5yp1v9cx0ndmvn-hip-4.5.2"
+        "out": "/nix/store/jrwaihg74h4s78sn17skk0a4s0ab5ynq-hip-5.2.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "C++ Heterogeneous-Compute Interface for Portability",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/hip/default.nix:153",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/hip/default.nix:189",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/a3j1gxg2xf9rfaq84a5yp1v9cx0ndmvn-hip-4.5.2"
+        "/nix/store/jrwaihg74h4s78sn17skk0a4s0ab5ynq-hip-5.2.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "5.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.1",
+      "pname": "hip",
+      "name": "hip-5.2.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/z43phjkf0ks3v8y48d90r6ds64k1dn8m-hip-5.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C++ Heterogeneous-Compute Interface for Portability",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/hip/default.nix:172",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z43phjkf0ks3v8y48d90r6ds64k1dn8m-hip-5.2.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

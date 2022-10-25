@@ -1,50 +1,4 @@
 {
-  "13.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "13.5",
-      "pname": "postgresql",
-      "name": "postgresql-13.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/gawwjgvw78bmmv274d4q6s9ln81ryldz-postgresql-13.5-debug",
-        "doc": "/nix/store/djhnmqiksa1kxqdk3qnqp6g8mgk9y8wa-postgresql-13.5-doc",
-        "lib": "/nix/store/r0pxqmxa4v13madqfcx31lfch5jjkn7a-postgresql-13.5-lib",
-        "man": "/nix/store/5h58a6c9s47rllk079yylhabjhdfi20i-postgresql-13.5-man",
-        "out": "/nix/store/jj7qs3k6g68f7r2w8zzwclsjhbcgd9wb-postgresql-13.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/sql/postgresql/default.nix:164",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "postgresql_13"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jj7qs3k6g68f7r2w8zzwclsjhbcgd9wb-postgresql-13.5",
-        "/nix/store/5h58a6c9s47rllk079yylhabjhdfi20i-postgresql-13.5-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "13.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "13.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "13.8",
+      "pname": "postgresql",
+      "name": "postgresql-13.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/any0f9ycqrzfnvzb60n1yl13jamzl4wa-postgresql-13.8-debug",
+        "doc": "/nix/store/ahxi1y9s23lhj18jswv5h8157n2hmlyy-postgresql-13.8-doc",
+        "lib": "/nix/store/vq0bwnzy5h9hzinq7mpzrbc0fszxg60b-postgresql-13.8-lib",
+        "man": "/nix/store/7p7mmrqzfbfc61njxhf70pn4dcmgd8wq-postgresql-13.8-man",
+        "out": "/nix/store/96dp4mhbvh16sxlsvqqscdckx6hhq0qg-postgresql-13.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/postgresql/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "postgresql_13"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/96dp4mhbvh16sxlsvqqscdckx6hhq0qg-postgresql-13.8",
+        "/nix/store/7p7mmrqzfbfc61njxhf70pn4dcmgd8wq-postgresql-13.8-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,22 @@
 {
-  "0.8.4": {
+  "0.8.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.8.4",
+      "version": "0.8.5",
       "pname": "trackma",
-      "name": "trackma-0.8.4",
+      "name": "trackma-0.8.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/p3g7z6rqw8lgs0504a9a89gkx520pna3-trackma-0.8.4"
+        "dist": "/nix/store/00bak2fq5m0np42v6iqrn0hkshdvgjqa-trackma-0.8.5-dist",
+        "out": "/nix/store/40w5h0yrl1r352naz14iycamqr3cxkmy-trackma-0.8.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Open multi-site list manager for Unix-like systems (ex-wMAL)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/trackma/default.nix:79",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/misc/trackma/default.nix:79",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/p3g7z6rqw8lgs0504a9a89gkx520pna3-trackma-0.8.4"
+        "/nix/store/40w5h0yrl1r352naz14iycamqr3cxkmy-trackma-0.8.5"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.8.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.4",
+      "pname": "trackma",
+      "name": "trackma-0.8.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/vjmpd5rj7jrxwh8hw4pb67x6aqj67na3-trackma-0.8.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open multi-site list manager for Unix-like systems (ex-wMAL)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/trackma/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "trackma"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vjmpd5rj7jrxwh8hw4pb67x6aqj67na3-trackma-0.8.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

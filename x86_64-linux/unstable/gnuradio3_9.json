@@ -1,44 +1,4 @@
 {
-  "unknown": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unknown",
-      "pname": null,
-      "name": "gnuradio-wrapped-3.9.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/yw1nkaa7xp1mwiy9jicgw347zxj7jbyz-gnuradio-wrapped-3.9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Software Defined Radio (SDR) software",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/radio/gnuradio/shared.nix:115",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnuradio3_9"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yw1nkaa7xp1mwiy9jicgw347zxj7jbyz-gnuradio-wrapped-3.9.5.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.9.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "3.9.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.8.0",
+      "pname": "gnuradio-wrapped",
+      "name": "gnuradio-wrapped-3.9.8.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/093zc4r8b2798pvwazgn39lcixmgf9d4-gnuradio-wrapped-3.9.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Software Defined Radio (SDR) software",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/radio/gnuradio/shared.nix:116",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnuradio3_9"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/093zc4r8b2798pvwazgn39lcixmgf9d4-gnuradio-wrapped-3.9.8.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

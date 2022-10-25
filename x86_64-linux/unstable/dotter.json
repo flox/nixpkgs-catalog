@@ -1,21 +1,21 @@
 {
-  "0.12.11": {
+  "0.12.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.12.11",
+      "version": "0.12.10",
       "pname": "dotter",
-      "name": "dotter-0.12.11",
+      "name": "dotter-0.12.10",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/ccqpmm4cfxxq0av3z6iv509gaf181g5f-dotter-0.12.11"
+        "out": "/nix/store/6dz682z8a855nxp0iyksfyhjpz4bswxf-dotter-0.12.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A dotfile manager and templater written in rust 🦀",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/misc/dotter/default.nix:28",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/dotter/default.nix:21",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ccqpmm4cfxxq0av3z6iv509gaf181g5f-dotter-0.12.11"
+        "/nix/store/6dz682z8a855nxp0iyksfyhjpz4bswxf-dotter-0.12.10"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.12.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.14",
+      "pname": "dotter",
+      "name": "dotter-0.12.14",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/bi95yxkn0w6c6c4xjpc2wa612cjs2z7k-dotter-0.12.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A dotfile manager and templater written in rust 🦀",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/dotter/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "dotter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bi95yxkn0w6c6c4xjpc2wa612cjs2z7k-dotter-0.12.14"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.12.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.12.10",
-      "pname": "dotter",
-      "name": "dotter-0.12.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6dz682z8a855nxp0iyksfyhjpz4bswxf-dotter-0.12.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A dotfile manager and templater written in rust 🦀",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/dotter/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "dotter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6dz682z8a855nxp0iyksfyhjpz4bswxf-dotter-0.12.10"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

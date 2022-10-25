@@ -39,6 +39,46 @@
       }
     }
   },
+  "13.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "13.7.0",
+      "pname": "ocrmypdf",
+      "name": "ocrmypdf-13.7.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/x9xlg3a8ls76nivwm6bi2wsqwkjz2sbz-python3.10-ocrmypdf-13.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Adds an OCR text layer to scanned PDF files, allowing them to be searched",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/ocrmypdf/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ocrmypdf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x9xlg3a8ls76nivwm6bi2wsqwkjz2sbz-python3.10-ocrmypdf-13.7.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "13.4.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "13.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "13.4.0",
-      "pname": "ocrmypdf",
-      "name": "ocrmypdf-13.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/vlj9mdi4wqq36kw19rby4lc11bvgzf07-python3.9-ocrmypdf-13.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Adds an OCR text layer to scanned PDF files, allowing them to be searched",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/python-modules/ocrmypdf/default.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ocrmypdf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vlj9mdi4wqq36kw19rby4lc11bvgzf07-python3.9-ocrmypdf-13.4.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
       }
     }
   }

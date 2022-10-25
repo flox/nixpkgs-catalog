@@ -1,21 +1,21 @@
 {
-  "2.3.14": {
+  "2.6.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.3.14",
+      "version": "2.6.5",
       "pname": "haproxy",
-      "name": "haproxy-2.3.14",
+      "name": "haproxy-2.6.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/5z3wdw53l8sglidf1crc47y2izn8zday-haproxy-2.3.14"
+        "out": "/nix/store/ck36miz859ica3chliczc2bjl38ril5k-haproxy-2.6.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Reliable, high performance TCP/HTTP load balancer",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/haproxy/default.nix:58",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/haproxy/default.nix:58",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5z3wdw53l8sglidf1crc47y2izn8zday-haproxy-2.3.14"
+        "/nix/store/ck36miz859ica3chliczc2bjl38ril5k-haproxy-2.6.5"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "2.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.2",
+      "pname": "haproxy",
+      "name": "haproxy-2.6.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/09jgcaqparnc85vg60rah6vg1kq0sq0r-haproxy-2.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Reliable, high performance TCP/HTTP load balancer",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/networking/haproxy/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "haproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/09jgcaqparnc85vg60rah6vg1kq0sq0r-haproxy-2.6.2"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },

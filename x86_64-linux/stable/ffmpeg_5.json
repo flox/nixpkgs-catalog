@@ -1,4 +1,50 @@
 {
+  "5.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.1",
+      "pname": "ffmpeg",
+      "name": "ffmpeg-5.0.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/66aljfsdicn6hd9nmin9wcb9s5sl9c9m-ffmpeg-5.0.1-bin",
+        "dev": "/nix/store/6a56l8rznqz0fpwzzvds7ks0vx9d52hs-ffmpeg-5.0.1-dev",
+        "doc": "/nix/store/v440awnqqncya57x4kkh045yyngf3dg0-ffmpeg-5.0.1-doc",
+        "man": "/nix/store/48kabqjj0d5dnd4gni080fa4k77cs9fi-ffmpeg-5.0.1-man",
+        "out": "/nix/store/x2xjb2493h7n569rscqbqj5lgaj8fj9q-ffmpeg-5.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A complete, cross-platform solution to record, convert and stream audio and video",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/ffmpeg/generic.nix:230",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ffmpeg_5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/66aljfsdicn6hd9nmin9wcb9s5sl9c9m-ffmpeg-5.0.1-bin",
+        "/nix/store/48kabqjj0d5dnd4gni080fa4k77cs9fi-ffmpeg-5.0.1-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -45,20 +91,20 @@
       }
     }
   },
-  "5.0.1": {
+  "5.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.0.1",
+      "version": "5.1",
       "pname": "ffmpeg",
-      "name": "ffmpeg-5.0.1",
+      "name": "ffmpeg-5.1",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/66aljfsdicn6hd9nmin9wcb9s5sl9c9m-ffmpeg-5.0.1-bin",
-        "dev": "/nix/store/6a56l8rznqz0fpwzzvds7ks0vx9d52hs-ffmpeg-5.0.1-dev",
-        "doc": "/nix/store/v440awnqqncya57x4kkh045yyngf3dg0-ffmpeg-5.0.1-doc",
-        "man": "/nix/store/48kabqjj0d5dnd4gni080fa4k77cs9fi-ffmpeg-5.0.1-man",
-        "out": "/nix/store/x2xjb2493h7n569rscqbqj5lgaj8fj9q-ffmpeg-5.0.1"
+        "bin": "/nix/store/bs25dlvh921lhcicv7d46w39pgjywa98-ffmpeg-5.1-bin",
+        "dev": "/nix/store/9dibwyk1f1lwpdvvl9zln9pjfs5hk374-ffmpeg-5.1-dev",
+        "doc": "/nix/store/r15hcykl9pv5yv6s421g47j3i52x6mc4-ffmpeg-5.1-doc",
+        "man": "/nix/store/f8g1wfcp6jswcg8mdfmapavg3kkf38cj-ffmpeg-5.1-man",
+        "out": "/nix/store/cbbvbgjhdg15qsijwr81qy3zvxbph865-ffmpeg-5.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -66,7 +112,7 @@
           "man"
         ],
         "description": "A complete, cross-platform solution to record, convert and stream audio and video",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/ffmpeg/generic.nix:230",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/ffmpeg/generic.nix:230",
         "unfree": false
       }
     },
@@ -79,15 +125,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/66aljfsdicn6hd9nmin9wcb9s5sl9c9m-ffmpeg-5.0.1-bin",
-        "/nix/store/48kabqjj0d5dnd4gni080fa4k77cs9fi-ffmpeg-5.0.1-man"
+        "/nix/store/bs25dlvh921lhcicv7d46w39pgjywa98-ffmpeg-5.1-bin",
+        "/nix/store/f8g1wfcp6jswcg8mdfmapavg3kkf38cj-ffmpeg-5.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

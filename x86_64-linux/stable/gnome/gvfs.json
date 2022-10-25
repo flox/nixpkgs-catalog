@@ -40,6 +40,47 @@
       }
     }
   },
+  "1.50.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.50.2",
+      "pname": "gvfs",
+      "name": "gvfs-1.50.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/imjdb2hva2080hcczqf59yfrz0gfz4li-gvfs-1.50.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Virtual Filesystem support library (full GNOME support)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/gvfs/default.nix:129",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome",
+        "gvfs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/imjdb2hva2080hcczqf59yfrz0gfz4li-gvfs-1.50.2"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
   "1.48.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "1.50.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.50.2",
-      "pname": "gvfs",
-      "name": "gvfs-1.50.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/7ff8ics93rs98q0zzpyl792jlgilc964-gvfs-1.50.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Virtual Filesystem support library (full GNOME support)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/gvfs/default.nix:129",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome",
-        "gvfs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7ff8ics93rs98q0zzpyl792jlgilc964-gvfs-1.50.2"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

@@ -41,6 +41,48 @@
       }
     }
   },
+  "14.0.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.6",
+      "pname": "lld",
+      "name": "lld-14.0.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/4w2ypcdjgn5wqavca34qqjkggqacaps7-lld-14.0.6-dev",
+        "lib": "/nix/store/rzlkj5n89iny88s814bggw8xgjpwhfax-lld-14.0.6-lib",
+        "out": "/nix/store/xdsrxk11f9cngw28j7nzhvyacl33rjrw-lld-14.0.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The LLVM linker (unwrapped)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/llvm/14/lld/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lld_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xdsrxk11f9cngw28j7nzhvyacl33rjrw-lld-14.0.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "14.0.1": {
     "type": "catalogRender",
     "schema": 1,

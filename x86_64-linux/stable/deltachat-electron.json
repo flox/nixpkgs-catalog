@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.30.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.30.1",
+      "pname": "deltachat-desktop",
+      "name": "deltachat-desktop-1.30.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/lkaj8gx0l42q8yghscwnjg6b4qvmly7h-deltachat-desktop-1.30.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Email-based instant messaging for Desktop",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/instant-messengers/deltachat-desktop/default.nix:121",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "deltachat-electron"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lkaj8gx0l42q8yghscwnjg6b4qvmly7h-deltachat-desktop-1.30.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.26.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "1.30.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.30.1",
-      "pname": "deltachat-desktop",
-      "name": "deltachat-desktop-1.30.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/rhl0hdmijcmhw520brc5flfmwyznp01x-deltachat-desktop-1.30.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Email-based instant messaging for Desktop",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/instant-messengers/deltachat-desktop/default.nix:121",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "deltachat-electron"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rhl0hdmijcmhw520brc5flfmwyznp01x-deltachat-desktop-1.30.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

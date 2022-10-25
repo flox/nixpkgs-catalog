@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gst-libav",
+      "name": "gst-libav-1.20.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/kjs0lmmx2ny191v6y38n0z9m39x7nlrc-gst-libav-1.20.3-dev",
+        "out": "/nix/store/ralnbbnn6jxbpg06944lwc0zq1s5cj91-gst-libav-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "FFmpeg/libav plugin for GStreamer",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/libav/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gst_all_1",
+        "gst-libav"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ralnbbnn6jxbpg06944lwc0zq1s5cj91-gst-libav-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gst-libav",
-      "name": "gst-libav-1.20.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/fnjzg8a7vphrxkjnlkb7bvqyw12gjvbn-gst-libav-1.20.0-dev",
-        "out": "/nix/store/j4kxvhpkip0irkdlgx246cf1b20k4h09-gst-libav-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "FFmpeg/libav plugin for GStreamer",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/libav/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gst_all_1",
-        "gst-libav"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j4kxvhpkip0irkdlgx246cf1b20k4h09-gst-libav-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

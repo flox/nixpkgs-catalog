@@ -1,21 +1,21 @@
 {
-  "0.14.0": {
+  "0.15.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.14.0",
+      "version": "0.15.10",
       "pname": "starboard",
-      "name": "starboard-0.14.0",
+      "name": "starboard-0.15.10",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/kx0mql4a7haaf75z6v3vm31xjlpifnwk-starboard-0.14.0"
+        "out": "/nix/store/k2jxvi3p39yxcdcf5641kwsw1hggxwnm-starboard-0.15.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Kubernetes-native security tool kit",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/starboard/default.nix:65",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/cluster/starboard/default.nix:71",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kx0mql4a7haaf75z6v3vm31xjlpifnwk-starboard-0.14.0"
+        "/nix/store/k2jxvi3p39yxcdcf5641kwsw1hggxwnm-starboard-0.15.10"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.15.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.8",
+      "pname": "starboard",
+      "name": "starboard-0.15.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/1xf4qrbwa1g8hzg5gqppwq25qryw12cl-starboard-0.15.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Kubernetes-native security tool kit",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/starboard/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "starboard"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1xf4qrbwa1g8hzg5gqppwq25qryw12cl-starboard-0.15.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

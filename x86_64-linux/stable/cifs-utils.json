@@ -1,21 +1,21 @@
 {
-  "6.15": {
+  "7.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.15",
+      "version": "7.0",
       "pname": "cifs-utils",
-      "name": "cifs-utils-6.15",
+      "name": "cifs-utils-7.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/j923y4dq7mz7w51lk55avl79acg67gw2-cifs-utils-6.15"
+        "out": "/nix/store/rs4bg8a1l7d7iz5mmm9alvda69hdcf6d-cifs-utils-7.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Tools for managing Linux CIFS client filesystems",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/cifs-utils/default.nix:25",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/cifs-utils/default.nix:25",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j923y4dq7mz7w51lk55avl79acg67gw2-cifs-utils-6.15"
+        "/nix/store/rs4bg8a1l7d7iz5mmm9alvda69hdcf6d-cifs-utils-7.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "6.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.15",
+      "pname": "cifs-utils",
+      "name": "cifs-utils-6.15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/fsam8vxjf4z29xvilzdqp2aanxnmk2b7-cifs-utils-6.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for managing Linux CIFS client filesystems",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/cifs-utils/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cifs-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fsam8vxjf4z29xvilzdqp2aanxnmk2b7-cifs-utils-6.15"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

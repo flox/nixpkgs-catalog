@@ -1,44 +1,4 @@
 {
-  "12.4.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "12.4.4",
-      "pname": "sysstat",
-      "name": "sysstat-12.4.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/06cjfv94szscxrxlias913viblazh18v-sysstat-12.4.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A collection of performance monitoring tools for Linux (such as sar, iostat and pidstat)",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/os-specific/linux/sysstat/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "sysstat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/06cjfv94szscxrxlias913viblazh18v-sysstat-12.4.4"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "12.4.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "12.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.6.0",
+      "pname": "sysstat",
+      "name": "sysstat-12.6.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/jvvkcfx7r1vr6xjld0nmcp1f029mvwi5-sysstat-12.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A collection of performance monitoring tools for Linux (such as sar, iostat and pidstat)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/sysstat/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "sysstat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jvvkcfx7r1vr6xjld0nmcp1f029mvwi5-sysstat-12.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

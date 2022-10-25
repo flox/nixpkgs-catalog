@@ -1,22 +1,22 @@
 {
-  "2.3.57.10": {
+  "2.3.57.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.3.57.10",
+      "version": "2.3.57.12",
       "pname": "super-slicer",
-      "name": "super-slicer-2.3.57.10",
+      "name": "super-slicer-2.3.57.12",
       "system": "x86_64-linux",
       "outputs": {
-        "debug": "/nix/store/skvllqwvw09akzmxghja27h9sbc4qccz-super-slicer-2.3.57.10-debug",
-        "out": "/nix/store/7wsl56caya3gdqgjffck05a5w1cs4ymw-super-slicer-2.3.57.10"
+        "debug": "/nix/store/8i8y5hz0qpmaqhhani2flnss4wyfzb8x-super-slicer-2.3.57.12-debug",
+        "out": "/nix/store/lbpgmj9laf9x2yhpv3ldzsyx187m4qwg-super-slicer-2.3.57.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "PrusaSlicer fork with more features and faster development cycle",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:47",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:47",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7wsl56caya3gdqgjffck05a5w1cs4ymw-super-slicer-2.3.57.10"
+        "/nix/store/lbpgmj9laf9x2yhpv3ldzsyx187m4qwg-super-slicer-2.3.57.12"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2.4.58.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.58.3",
+      "pname": "super-slicer",
+      "name": "super-slicer-2.4.58.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/i4ccqb2vc2526hnnddsmkzwxbrinpsh1-super-slicer-2.4.58.3-debug",
+        "out": "/nix/store/k3y7cv0kc9q2sjkpwk45s7zgxb3lycc7-super-slicer-2.4.58.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "PrusaSlicer fork with more features and faster development cycle",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "super-slicer-latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k3y7cv0kc9q2sjkpwk45s7zgxb3lycc7-super-slicer-2.4.58.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "2.3.57.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.57.12",
-      "pname": "super-slicer",
-      "name": "super-slicer-2.3.57.12",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/8i8y5hz0qpmaqhhani2flnss4wyfzb8x-super-slicer-2.3.57.12-debug",
-        "out": "/nix/store/lbpgmj9laf9x2yhpv3ldzsyx187m4qwg-super-slicer-2.3.57.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "PrusaSlicer fork with more features and faster development cycle",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:47",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "super-slicer-latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lbpgmj9laf9x2yhpv3ldzsyx187m4qwg-super-slicer-2.3.57.12"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

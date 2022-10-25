@@ -1,21 +1,21 @@
 {
-  "0.9.2": {
+  "0.12.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.9.2",
+      "version": "0.12.3",
       "pname": "charm",
-      "name": "charm-0.9.2",
+      "name": "charm-0.12.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/9kjq8z5nd7q4fqfgvvs3g4gk0f1645nv-charm-0.9.2"
+        "out": "/nix/store/yhxzm700rras7cs7psayawqnc48qms47-charm-0.12.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Manage your charm account on the CLI",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/misc/charm/default.nix:21",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/misc/charm/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9kjq8z5nd7q4fqfgvvs3g4gk0f1645nv-charm-0.9.2"
+        "/nix/store/yhxzm700rras7cs7psayawqnc48qms47-charm-0.12.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "0.12.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.4",
+      "pname": "charm",
+      "name": "charm-0.12.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/p7wlrmrzp2d7jgv76qqpzpqdbpd543xs-charm-0.12.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Manage your charm account on the CLI",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/charm/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "charm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p7wlrmrzp2d7jgv76qqpzpqdbpd543xs-charm-0.12.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

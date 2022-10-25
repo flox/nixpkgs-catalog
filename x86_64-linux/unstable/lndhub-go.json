@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "lndhub-go",
+      "name": "lndhub-go-0.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/h15i0v679s7i8hnn68i2v4c1ijaldfs3-lndhub-go-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Accounting wrapper for the Lightning Network",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/lndhub-go/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lndhub-go"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h15i0v679s7i8hnn68i2v4c1ijaldfs3-lndhub-go-0.10.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.9.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.8.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.0",
-      "pname": "lndhub-go",
-      "name": "lndhub-go-0.8.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/c1pr5zwmkdwibvjb0206f0vpd40hkxyd-lndhub-go-0.8.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Accounting wrapper for the Lightning Network",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/blockchains/lndhub-go/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "lndhub-go"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c1pr5zwmkdwibvjb0206f0vpd40hkxyd-lndhub-go-0.8.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
       }
     }
   }

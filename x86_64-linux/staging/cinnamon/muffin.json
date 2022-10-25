@@ -1,4 +1,49 @@
 {
+  "5.4.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.6",
+      "pname": "muffin",
+      "name": "muffin-5.4.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/278vfnbsh1yx5qizvqyzdivf06xqkcbx-muffin-5.4.6-dev",
+        "man": "/nix/store/8q8d3swrml12czfz7w17s553a4p3d4sy-muffin-5.4.6-man",
+        "out": "/nix/store/vjyn35xi83zpg28s4p9p9pw7azspq7hc-muffin-5.4.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The window management library for the Cinnamon desktop (libmuffin) and its sample WM binary (muffin)",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/desktops/cinnamon/muffin/default.nix:100",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cinnamon",
+        "muffin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vjyn35xi83zpg28s4p9p9pw7azspq7hc-muffin-5.4.6",
+        "/nix/store/8q8d3swrml12czfz7w17s553a4p3d4sy-muffin-5.4.6-man"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "5.2.0": {
     "type": "catalogRender",
     "schema": 1,

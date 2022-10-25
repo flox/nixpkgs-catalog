@@ -1,46 +1,4 @@
 {
-  "1.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.2",
-      "pname": "libtraceevent",
-      "name": "libtraceevent-1.6.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/kmb58fjh461l561a777amli1gs8l7sr3-libtraceevent-1.6.2-dev",
-        "devman": "/nix/store/hx51dksqia7i0yxlgx07v56xpsnaixvi-libtraceevent-1.6.2-devman",
-        "out": "/nix/store/xc54k0xa0mnwqf25biq2r46k5s7z3vz4-libtraceevent-1.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linux kernel trace event library",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/libtraceevent/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libtraceevent"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xc54k0xa0mnwqf25biq2r46k5s7z3vz4-libtraceevent-1.6.2"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
   "1.6.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.2",
+      "pname": "libtraceevent",
+      "name": "libtraceevent-1.6.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/bqm1rp91cksyg4skx5fc644n6q9igbcc-libtraceevent-1.6.2-dev",
+        "devman": "/nix/store/7q8j8phagjd6xicbxawwpk4s4lkl7x6l-libtraceevent-1.6.2-devman",
+        "out": "/nix/store/blzn69ily247s7y8xgp39wpcb6fwvfxh-libtraceevent-1.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux kernel trace event library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/libtraceevent/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libtraceevent"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/blzn69ily247s7y8xgp39wpcb6fwvfxh-libtraceevent-1.6.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

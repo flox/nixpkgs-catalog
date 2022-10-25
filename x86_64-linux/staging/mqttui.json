@@ -1,21 +1,21 @@
 {
-  "0.13.0": {
+  "0.17.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.13.0",
+      "version": "0.17.0",
       "pname": "mqttui",
-      "name": "mqttui-0.13.0",
+      "name": "mqttui-0.17.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/0iiaibsd8xpxsawmr8vr00pc14hsgb1k-mqttui-0.13.0"
+        "out": "/nix/store/xpvqp685xni6qan826pkiwwda3qp96zz-mqttui-0.17.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Terminal client for MQTT",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/mqttui/default.nix:24",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/mqttui/default.nix:24",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0iiaibsd8xpxsawmr8vr00pc14hsgb1k-mqttui-0.13.0"
+        "/nix/store/xpvqp685xni6qan826pkiwwda3qp96zz-mqttui-0.17.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.18.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.18.0",
+      "pname": "mqttui",
+      "name": "mqttui-0.18.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/szn4ni4d47a3p1avifj6s36cckgplsg6-mqttui-0.18.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Terminal client for MQTT",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/mqttui/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mqttui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/szn4ni4d47a3p1avifj6s36cckgplsg6-mqttui-0.18.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

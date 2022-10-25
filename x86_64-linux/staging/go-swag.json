@@ -1,21 +1,21 @@
 {
-  "1.6.7": {
+  "1.8.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.6.7",
+      "version": "1.8.4",
       "pname": "go-swag",
-      "name": "go-swag-1.6.7",
+      "name": "go-swag-1.8.4",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/1whb234ld1jar1xiywwgy632zyjwm8ca-go-swag-1.6.7"
+        "out": "/nix/store/6663cjz2g1pwm2pbwgd5wb9w0z3kapbw-go-swag-1.8.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Automatically generate RESTful API documentation with Swagger 2.0 for Go",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/go-swag/default.nix:19",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/tools/go-swag/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1whb234ld1jar1xiywwgy632zyjwm8ca-go-swag-1.6.7"
+        "/nix/store/6663cjz2g1pwm2pbwgd5wb9w0z3kapbw-go-swag-1.8.4"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "1.8.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.6",
+      "pname": "go-swag",
+      "name": "go-swag-1.8.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/5hdfbyrwn9pbq1hkyx6pjcqa8rbxz5mm-go-swag-1.8.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Automatically generate RESTful API documentation with Swagger 2.0 for Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/go-swag/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "go-swag"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5hdfbyrwn9pbq1hkyx6pjcqa8rbxz5mm-go-swag-1.8.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

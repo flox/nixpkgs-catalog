@@ -1,44 +1,4 @@
 {
-  "2.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.0",
-      "pname": "rancher-cli",
-      "name": "rancher-cli-2.6.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/g6fb75ch8bi4p7jgs6hp220ifbskfll9-rancher-cli-2.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Rancher Command Line Interface (CLI) is a unified tool for interacting with your Rancher Server",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/rancher/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "rancher"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g6fb75ch8bi4p7jgs6hp220ifbskfll9-rancher-cli-2.6.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "2.6.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.6.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.7",
+      "pname": "rancher",
+      "name": "rancher-2.6.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/sg2ymd26wlpkg712gvk846mx1nb1lpsk-rancher-2.6.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Rancher Command Line Interface (CLI) is a unified tool for interacting with your Rancher Server",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/rancher/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rancher"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sg2ymd26wlpkg712gvk846mx1nb1lpsk-rancher-2.6.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

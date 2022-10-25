@@ -1,47 +1,4 @@
 {
-  "1.22.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.1",
-      "pname": "cri-o",
-      "name": "cri-o-1.22.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/rnp6gg92s2x6jzzhnb4ax66qmx0cc0an-cri-o-1.22.1-man",
-        "out": "/nix/store/pgl1s44zb268vfxwgssf6xyzil30hj9w-cri-o-1.22.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/cri-o/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "cri-o-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pgl1s44zb268vfxwgssf6xyzil30hj9w-cri-o-1.22.1",
-        "/nix/store/rnp6gg92s2x6jzzhnb4ax66qmx0cc0an-cri-o-1.22.1-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.23.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.24.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.24.2",
+      "pname": "cri-o",
+      "name": "cri-o-1.24.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/d8hkay1syy8lbjkk8x51aprd32lrgz89-cri-o-1.24.2-man",
+        "out": "/nix/store/h208rwcsxz8pps735g58zq1x0krr46nl-cri-o-1.24.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/virtualization/cri-o/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cri-o-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h208rwcsxz8pps735g58zq1x0krr46nl-cri-o-1.24.2",
+        "/nix/store/d8hkay1syy8lbjkk8x51aprd32lrgz89-cri-o-1.24.2-man"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },

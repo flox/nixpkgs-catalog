@@ -39,6 +39,46 @@
       }
     }
   },
+  "2.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9.0",
+      "pname": "nix-eval-jobs",
+      "name": "nix-eval-jobs-2.9.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/if7pb83y7z9861xyc73xw8zgh9mf7a2d-nix-eval-jobs-2.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Hydra's builtin hydra-eval-jobs as a standalone",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nix-eval-jobs/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nix-eval-jobs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/if7pb83y7z9861xyc73xw8zgh9mf7a2d-nix-eval-jobs-2.9.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.0.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "2.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.9.0",
-      "pname": "nix-eval-jobs",
-      "name": "nix-eval-jobs-2.9.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/qzl253whhkkazdj0x4fskix5p7qrnb40-nix-eval-jobs-2.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Hydra's builtin hydra-eval-jobs as a standalone",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/package-management/nix-eval-jobs/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nix-eval-jobs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qzl253whhkkazdj0x4fskix5p7qrnb40-nix-eval-jobs-2.9.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

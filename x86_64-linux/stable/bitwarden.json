@@ -1,21 +1,21 @@
 {
-  "1.31.3": {
+  "1.32.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.31.3",
+      "version": "1.32.1",
       "pname": "bitwarden",
-      "name": "bitwarden-1.31.3",
+      "name": "bitwarden-1.32.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/4c9nh807cfs28baihm4s85dzypq1vlws-bitwarden-1.31.3"
+        "out": "/nix/store/zz6gnm7cc7l0fadzrx75nb5vqk9acyay-bitwarden-1.32.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A secure and free password manager for all of your devices",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/bitwarden/default.nix:66",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/bitwarden/default.nix:66",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4c9nh807cfs28baihm4s85dzypq1vlws-bitwarden-1.31.3"
+        "/nix/store/zz6gnm7cc7l0fadzrx75nb5vqk9acyay-bitwarden-1.32.1"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2022.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.8.1",
+      "pname": "bitwarden",
+      "name": "bitwarden-2022.8.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/nn1hnl7204hzhvdkjsbmxc2nmfjm8x88-bitwarden-2022.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A secure and free password manager for all of your devices",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/bitwarden/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "bitwarden"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nn1hnl7204hzhvdkjsbmxc2nmfjm8x88-bitwarden-2022.8.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.32.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.32.1",
-      "pname": "bitwarden",
-      "name": "bitwarden-1.32.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/zz6gnm7cc7l0fadzrx75nb5vqk9acyay-bitwarden-1.32.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A secure and free password manager for all of your devices",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/bitwarden/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "bitwarden"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zz6gnm7cc7l0fadzrx75nb5vqk9acyay-bitwarden-1.32.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

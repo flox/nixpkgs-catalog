@@ -1,4 +1,45 @@
 {
+  "12.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.0.0",
+      "pname": "open-vm-tools",
+      "name": "open-vm-tools-12.0.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/fqbbf3xfmi1wkhdrljdx77i4kpa0q3bw-open-vm-tools-12.0.0-dev",
+        "out": "/nix/store/kwslacfinc6zc1ws46hdk33r61jpz5sj-open-vm-tools-12.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Set of tools for VMWare guests to improve host-guest interaction",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/open-vm-tools/default.nix:83",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "open-vm-tools-headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kwslacfinc6zc1ws46hdk33r61jpz5sj-open-vm-tools-12.0.0"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "11.3.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -49,15 +90,15 @@
       "name": "open-vm-tools-12.0.5",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/j0wywff3kbfjpxk78jps4nxg0n0gkrj2-open-vm-tools-12.0.5-dev",
-        "out": "/nix/store/8yk3sh0jkj4lc2crw8inj9dbd5vqz26w-open-vm-tools-12.0.5"
+        "dev": "/nix/store/z6k3nvdqg3vn7hy8ijh80nyplg3ncndy-open-vm-tools-12.0.5-dev",
+        "out": "/nix/store/v5zap7azbsfl1q40yr0cmf8mrk97jqaj-open-vm-tools-12.0.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Set of tools for VMWare guests to improve host-guest interaction",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/virtualization/open-vm-tools/default.nix:76",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/virtualization/open-vm-tools/default.nix:76",
         "unfree": false
       }
     },
@@ -70,55 +111,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8yk3sh0jkj4lc2crw8inj9dbd5vqz26w-open-vm-tools-12.0.5"
+        "/nix/store/v5zap7azbsfl1q40yr0cmf8mrk97jqaj-open-vm-tools-12.0.5"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
-  "12.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "12.0.0",
-      "pname": "open-vm-tools",
-      "name": "open-vm-tools-12.0.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/fqbbf3xfmi1wkhdrljdx77i4kpa0q3bw-open-vm-tools-12.0.0-dev",
-        "out": "/nix/store/kwslacfinc6zc1ws46hdk33r61jpz5sj-open-vm-tools-12.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Set of tools for VMWare guests to improve host-guest interaction",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/open-vm-tools/default.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "open-vm-tools-headless"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kwslacfinc6zc1ws46hdk33r61jpz5sj-open-vm-tools-12.0.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

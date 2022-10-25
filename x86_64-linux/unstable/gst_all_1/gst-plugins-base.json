@@ -1,4 +1,46 @@
 {
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "gst-plugins-base",
+      "name": "gst-plugins-base-1.20.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/7wy026nr4r3m5637ny328xqq9d5d42w3-gst-plugins-base-1.20.3-dev",
+        "out": "/nix/store/bisx9c9h9pzplbi94xck05qlkdamxy3c-gst-plugins-base-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Base GStreamer plug-ins and helper libraries",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/gstreamer/base/default.nix:151",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gst_all_1",
+        "gst-plugins-base"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bisx9c9h9pzplbi94xck05qlkdamxy3c-gst-plugins-base-1.20.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.0",
-      "pname": "gst-plugins-base",
-      "name": "gst-plugins-base-1.20.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/x0zz6wh23ra2jcgf191zay2ljxh6znzc-gst-plugins-base-1.20.0-dev",
-        "out": "/nix/store/mvf7pqzf1pfldd5597nzrjyn4lbmmc1p-gst-plugins-base-1.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Base GStreamer plug-ins and helper libraries",
-        "position": "/nix/store/vxwfi369rh6dzp2la7dh3vlyvlwbxrnw-source/pkgs/development/libraries/gstreamer/base/default.nix:147",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gst_all_1",
-        "gst-plugins-base"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mvf7pqzf1pfldd5597nzrjyn4lbmmc1p-gst-plugins-base-1.20.0"
-      ],
-      "url": "github:flox/nixpkgs/33772708c6d0e33f697426ba386aa0149cbcbecb"
-    },
-    "source": {
-      "locked": {
-        "revCount": 368735,
-        "lastModified": 1649673231
       }
     }
   },

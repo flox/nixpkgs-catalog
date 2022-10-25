@@ -1,21 +1,21 @@
 {
-  "0.8.1": {
+  "0.12.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.8.1",
+      "version": "0.12.2",
       "pname": "wl-mirror",
-      "name": "wl-mirror-0.8.1",
+      "name": "wl-mirror-0.12.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/6lvz6kwivy9hapy6gaw74gkd9964xxlx-wl-mirror-0.8.1"
+        "out": "/nix/store/13kma7ll79mnqcbc2gph0a4qwzk7jxj4-wl-mirror-0.12.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Mirrors an output onto a Wayland surface.",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/wayland/wl-mirror/default.nix:57",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/wayland/wl-mirror/default.nix:62",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6lvz6kwivy9hapy6gaw74gkd9964xxlx-wl-mirror-0.8.1"
+        "/nix/store/13kma7ll79mnqcbc2gph0a4qwzk7jxj4-wl-mirror-0.12.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.12.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.1",
+      "pname": "wl-mirror",
+      "name": "wl-mirror-0.12.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zcj6r4nfhqbdgqkk7jyadm4zndp3k65v-wl-mirror-0.12.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mirrors an output onto a Wayland surface.",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/wayland/wl-mirror/default.nix:62",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wl-mirror"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zcj6r4nfhqbdgqkk7jyadm4zndp3k65v-wl-mirror-0.12.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "5.9.0": {
+  "5.9.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.9.0",
+      "version": "5.9.3",
       "pname": "keybase-gui",
-      "name": "keybase-gui-5.9.0",
+      "name": "keybase-gui-5.9.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/4mgwjb2x6bywv8mdlhdksynvlyw02dah-keybase-gui-5.9.0"
+        "out": "/nix/store/dasd1mmf4pc2cjslmk36ry5zfrkg2rvc-keybase-gui-5.9.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Keybase official GUI",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/keybase/gui.nix:111",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/keybase/gui.nix:111",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4mgwjb2x6bywv8mdlhdksynvlyw02dah-keybase-gui-5.9.0"
+        "/nix/store/dasd1mmf4pc2cjslmk36ry5zfrkg2rvc-keybase-gui-5.9.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "6.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.2",
+      "pname": "keybase-gui",
+      "name": "keybase-gui-6.0.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ff8h405p35dgn0f3z5wahr5b73p514nf-keybase-gui-6.0.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Keybase official GUI",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/keybase/gui.nix:111",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "keybase-gui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ff8h405p35dgn0f3z5wahr5b73p514nf-keybase-gui-6.0.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "5.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.9.3",
-      "pname": "keybase-gui",
-      "name": "keybase-gui-5.9.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dasd1mmf4pc2cjslmk36ry5zfrkg2rvc-keybase-gui-5.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Keybase official GUI",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/keybase/gui.nix:111",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "keybase-gui"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dasd1mmf4pc2cjslmk36ry5zfrkg2rvc-keybase-gui-5.9.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

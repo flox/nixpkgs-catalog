@@ -40,6 +40,47 @@
       }
     }
   },
+  "9.01": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.01",
+      "pname": "openconnect",
+      "name": "openconnect-9.01",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/6spb901dg1hfsrrf72r5avik8rn8cyzn-openconnect-9.01-dev",
+        "out": "/nix/store/4wx65clpinzjnc8abjfh5a4sa5afwi4z-openconnect-9.01"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VPN Client for Cisco's AnyConnect SSL VPN",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/openconnect/common.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "openconnect_gnutls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4wx65clpinzjnc8abjfh5a4sa5afwi4z-openconnect-9.01"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "8.20": {
     "type": "catalogRender",
     "schema": 1,
