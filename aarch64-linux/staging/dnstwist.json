@@ -1,21 +1,22 @@
 {
-  "20220120": {
+  "20221008": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "20220120",
+      "version": "20221008",
       "pname": "dnstwist",
-      "name": "dnstwist-20220120",
+      "name": "dnstwist-20221008",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/lrzf2dmwwzh4d8hqx7d4zh8r5k5l6zcb-dnstwist-20220120"
+        "dist": "/nix/store/181n2k9iawdh7i13d62lfgzbrjw60yqq-dnstwist-20221008-dist",
+        "out": "/nix/store/vm66d4fk3p8i1h85rcyh2g7s6992zf69-dnstwist-20221008"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Domain name permutation engine for detecting homograph phishing attacks",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/dnstwist/default.nix:34",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/tools/networking/dnstwist/default.nix:34",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lrzf2dmwwzh4d8hqx7d4zh8r5k5l6zcb-dnstwist-20220120"
+        "/nix/store/vm66d4fk3p8i1h85rcyh2g7s6992zf69-dnstwist-20221008"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 416449,
+        "lastModified": 1665449268
+      }
+    }
+  },
+  "20220815": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220815",
+      "pname": "dnstwist",
+      "name": "dnstwist-20220815",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/mnvgnrqzrp7kp6bk3gcj11p4c3gdcjm6-dnstwist-20220815"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Domain name permutation engine for detecting homograph phishing attacks",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/dnstwist/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dnstwist"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mnvgnrqzrp7kp6bk3gcj11p4c3gdcjm6-dnstwist-20220815"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

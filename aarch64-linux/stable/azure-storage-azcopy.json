@@ -39,6 +39,46 @@
       }
     }
   },
+  "10.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.15.0",
+      "pname": "azure-storage-azcopy",
+      "name": "azure-storage-azcopy-10.15.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/jjmgivlfnyjahpfcz57n83fv767yly3g-azure-storage-azcopy-10.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The new Azure Storage data transfer utility - AzCopy v10",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/azcopy/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "azure-storage-azcopy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jjmgivlfnyjahpfcz57n83fv767yly3g-azure-storage-azcopy-10.15.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
   "10.13.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "10.15.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.15.0",
-      "pname": "azure-storage-azcopy",
-      "name": "azure-storage-azcopy-10.15.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/qfqvwpqc92skyycyw13hhm4sg1yv9igd-azure-storage-azcopy-10.15.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The new Azure Storage data transfer utility - AzCopy v10",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/azcopy/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "azure-storage-azcopy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qfqvwpqc92skyycyw13hhm4sg1yv9igd-azure-storage-azcopy-10.15.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

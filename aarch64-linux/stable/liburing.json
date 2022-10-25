@@ -1,4 +1,50 @@
 {
+  "2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2",
+      "pname": "liburing",
+      "name": "liburing-2.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/8f7mfdkakma971b2vzachlmp1f0dkh2w-liburing-2.2-bin",
+        "debug": "/nix/store/hzs9r38lgcxirww6yhphwdc63gjjxdn5-liburing-2.2-debug",
+        "dev": "/nix/store/x0swz5dyffv6jaqiw2545k21lpfv5yxb-liburing-2.2-dev",
+        "man": "/nix/store/c8lhglg2fi367hj92gzlvmxwmb80qb4r-liburing-2.2-man",
+        "out": "/nix/store/w6bvqrjx0p0dkxcvl536b5szy4px58r5-liburing-2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Userspace library for the Linux io_uring API",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/liburing/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "liburing"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8f7mfdkakma971b2vzachlmp1f0dkh2w-liburing-2.2-bin",
+        "/nix/store/c8lhglg2fi367hj92gzlvmxwmb80qb4r-liburing-2.2-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.1": {
     "type": "catalogRender",
     "schema": 1,

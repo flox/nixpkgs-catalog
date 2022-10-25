@@ -1,48 +1,4 @@
 {
-  "249.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "249.7",
-      "pname": "systemd",
-      "name": "systemd-249.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/pfmjy2i811vv3ikflbhvg8mnzx3dza5i-systemd-249.7-dev",
-        "man": "/nix/store/kw0xrlanfwrj4227bq0xk29jarlp8jin-systemd-249.7-man",
-        "out": "/nix/store/m5jiaf4b48gfinbr40ib641phwfm97ni-systemd-249.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A system and service manager for Linux",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/systemd/default.nix:613",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "udev"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m5jiaf4b48gfinbr40ib641phwfm97ni-systemd-249.7",
-        "/nix/store/kw0xrlanfwrj4227bq0xk29jarlp8jin-systemd-249.7-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "251.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -52,9 +8,9 @@
       "name": "systemd-251.3",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/v9kmyq3300im9131hq0hr6ldrnlfs2j9-systemd-251.3-dev",
-        "man": "/nix/store/zdf3y4a10abkpmwqikjykxj83z37qnjj-systemd-251.3-man",
-        "out": "/nix/store/rlp1385d37qwbqfl085i47irizmk9k14-systemd-251.3"
+        "dev": "/nix/store/mfywflksxv5xg7p79665p5xyc38i1i6q-systemd-251.3-dev",
+        "man": "/nix/store/24nlwkra9b1kq6yvxkn65j0qn8cqpmsa-systemd-251.3-man",
+        "out": "/nix/store/wrahrwni1clrd7jy30gdw999d4pazprm-systemd-251.3"
       },
       "meta": {
         "outputsToInstall": [
@@ -62,7 +18,7 @@
           "man"
         ],
         "description": "A system and service manager for Linux",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/systemd/default.nix:689",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/systemd/default.nix:689",
         "unfree": false
       }
     },
@@ -75,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rlp1385d37qwbqfl085i47irizmk9k14-systemd-251.3",
-        "/nix/store/zdf3y4a10abkpmwqikjykxj83z37qnjj-systemd-251.3-man"
+        "/nix/store/wrahrwni1clrd7jy30gdw999d4pazprm-systemd-251.3",
+        "/nix/store/24nlwkra9b1kq6yvxkn65j0qn8cqpmsa-systemd-251.3-man"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "251.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "251.4",
+      "pname": "systemd",
+      "name": "systemd-251.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/f2wybj6mv85hphrn3f518byanibgjx3y-systemd-251.4-dev",
+        "man": "/nix/store/97gbqv39gpk0nadv3a9w6bg1391inhq1-systemd-251.4-man",
+        "out": "/nix/store/hywkj4v16v5yy79k1fv1vlyqiz28b4ws-systemd-251.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A system and service manager for Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/systemd/default.nix:689",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "udev"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hywkj4v16v5yy79k1fv1vlyqiz28b4ws-systemd-251.4",
+        "/nix/store/97gbqv39gpk0nadv3a9w6bg1391inhq1-systemd-251.4-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

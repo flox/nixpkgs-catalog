@@ -1,21 +1,21 @@
 {
-  "4.3.15": {
+  "4.3.17": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.3.15",
+      "version": "4.3.17",
       "pname": "libamqpcpp",
-      "name": "libamqpcpp-4.3.15",
+      "name": "libamqpcpp-4.3.17",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/5pvwwjymhgvvmzh7c2vgllbvy39r5mqm-libamqpcpp-4.3.15"
+        "out": "/nix/store/8060mwc7b2d8z6vz1vpvh3yw5xg4f161-libamqpcpp-4.3.17"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Library for communicating with a RabbitMQ server",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libamqpcpp/default.nix:23",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libamqpcpp/default.nix:23",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5pvwwjymhgvvmzh7c2vgllbvy39r5mqm-libamqpcpp-4.3.15"
+        "/nix/store/8060mwc7b2d8z6vz1vpvh3yw5xg4f161-libamqpcpp-4.3.17"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "4.3.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.3.18",
+      "pname": "libamqpcpp",
+      "name": "libamqpcpp-4.3.18",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/343d1qg92wy246skskjrs3sw8nnksysz-libamqpcpp-4.3.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library for communicating with a RabbitMQ server",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libamqpcpp/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libamqpcpp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/343d1qg92wy246skskjrs3sw8nnksysz-libamqpcpp-4.3.18"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

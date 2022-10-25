@@ -1,50 +1,4 @@
 {
-  "12.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "12.9",
-      "pname": "postgresql",
-      "name": "postgresql-12.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/0wrlbcrcphrakc652ngxyjd5f00fm0i8-postgresql-12.9-debug",
-        "doc": "/nix/store/24xsc1znssnr5hlfyyfi9vmwfm523gbm-postgresql-12.9-doc",
-        "lib": "/nix/store/jswq5wjg8llfdyjrrfz81xn1f5i4la37-postgresql-12.9-lib",
-        "man": "/nix/store/s4780z38h9nk7mwdyk22ddj9w2drs5y0-postgresql-12.9-man",
-        "out": "/nix/store/abmqdxhmimvjz0476jbckyrjm3q33h76-postgresql-12.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/sql/postgresql/default.nix:164",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "postgresql_12"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/abmqdxhmimvjz0476jbckyrjm3q33h76-postgresql-12.9",
-        "/nix/store/s4780z38h9nk7mwdyk22ddj9w2drs5y0-postgresql-12.9-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "12.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "12.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.12",
+      "pname": "postgresql",
+      "name": "postgresql-12.12",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/n8n5pqyhjx2kbbszgw5in37s3x98ijlr-postgresql-12.12-debug",
+        "doc": "/nix/store/dfi6layijw352gh2z0xk8nl7c0gsybv7-postgresql-12.12-doc",
+        "lib": "/nix/store/j3bb6lsrxj42sbhaxcysbf2j0zd6w5r2-postgresql-12.12-lib",
+        "man": "/nix/store/4k82pdydvvn7l6666rgk6zxwzc211jsd-postgresql-12.12-man",
+        "out": "/nix/store/2rwnpz31p0vr7g3hrw5z30fb5jpyg4hp-postgresql-12.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/postgresql/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "postgresql_12"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2rwnpz31p0vr7g3hrw5z30fb5jpyg4hp-postgresql-12.12",
+        "/nix/store/4k82pdydvvn7l6666rgk6zxwzc211jsd-postgresql-12.12-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

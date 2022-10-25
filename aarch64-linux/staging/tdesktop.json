@@ -1,21 +1,21 @@
 {
-  "3.4.8": {
+  "3.7.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.8",
+      "version": "3.7.3",
       "pname": "telegram-desktop",
-      "name": "telegram-desktop-3.4.8",
+      "name": "telegram-desktop-3.7.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/6aiq2acgflab05szd1xn8y6ghi0jlphq-telegram-desktop-3.4.8"
+        "out": "/nix/store/kr66vicsfbh463yy9gqp9frkj6nvdk94-telegram-desktop-3.7.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Telegram Desktop messaging app",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/instant-messengers/telegram/tdesktop/default.nix:183",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/instant-messengers/telegram/tdesktop/default.nix:184",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6aiq2acgflab05szd1xn8y6ghi0jlphq-telegram-desktop-3.4.8"
+        "/nix/store/kr66vicsfbh463yy9gqp9frkj6nvdk94-telegram-desktop-3.7.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
+  "4.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.1",
+      "pname": "telegram-desktop",
+      "name": "telegram-desktop-4.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6a3hbs8pcb83fxz42cpbm0sgnbz0sni5-telegram-desktop-4.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Telegram Desktop messaging app",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/instant-messengers/telegram/tdesktop/default.nix:188",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "tdesktop"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6a3hbs8pcb83fxz42cpbm0sgnbz0sni5-telegram-desktop-4.1.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "3.7.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.7.3",
-      "pname": "telegram-desktop",
-      "name": "telegram-desktop-3.7.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/kr66vicsfbh463yy9gqp9frkj6nvdk94-telegram-desktop-3.7.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Telegram Desktop messaging app",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/instant-messengers/telegram/tdesktop/default.nix:184",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "tdesktop"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kr66vicsfbh463yy9gqp9frkj6nvdk94-telegram-desktop-3.7.3"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

@@ -41,48 +41,6 @@
       }
     }
   },
-  "101.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "101.0.1",
-      "pname": null,
-      "name": "firefox-unwrapped-101.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/79waj0jlf8jr3ifn6pdyp5vqykxpndbg-firefox-unwrapped-101.0.1-debug",
-        "out": "/nix/store/kkl2cx5lfvvzqppawajlnx08z06niqy7-firefox-unwrapped-101.0.1",
-        "symbols": "/nix/store/zc712jkdv7smci271k17hxb8nn2hxk28-firefox-unwrapped-101.0.1-symbols"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A web browser built from Firefox source tree",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/browsers/firefox/packages.nix:13",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "firefox-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kkl2cx5lfvvzqppawajlnx08z06niqy7-firefox-unwrapped-101.0.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "96.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -121,6 +79,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "103.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "103.0.2",
+      "pname": "firefox-unwrapped",
+      "name": "firefox-unwrapped-103.0.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/q6yq6zk79kki4i5pnmnh5z3ny70fcw3s-firefox-unwrapped-103.0.2-debug",
+        "out": "/nix/store/pvf3fwxn733bpyn4n0jcky3rzaz1v4nc-firefox-unwrapped-103.0.2",
+        "symbols": "/nix/store/4wl16n1rpmai5nw71zzxkkfka4xw4khz-firefox-unwrapped-103.0.2-symbols"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A web browser built from Firefox source tree",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/browsers/firefox/packages.nix:13",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "firefox-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pvf3fwxn733bpyn4n0jcky3rzaz1v4nc-firefox-unwrapped-103.0.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

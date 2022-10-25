@@ -1,21 +1,21 @@
 {
-  "0.23.0": {
+  "0.30.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.23.0",
+      "version": "0.30.0",
       "pname": "vendir",
-      "name": "vendir-0.23.0",
+      "name": "vendir-0.30.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/pz8dqipl8fpwwn9n81pjh9g9cfff11bd-vendir-0.23.0"
+        "out": "/nix/store/m9df90cx7z00nfpmlvxn59ghgnb1s2an-vendir-0.30.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI tool to vendor portions of git repos, github releases, helm charts, docker image contents, etc. declaratively",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/vendir/default.nix:19",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/tools/vendir/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/pz8dqipl8fpwwn9n81pjh9g9cfff11bd-vendir-0.23.0"
+        "/nix/store/m9df90cx7z00nfpmlvxn59ghgnb1s2an-vendir-0.30.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "0.31.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.31.0",
+      "pname": "vendir",
+      "name": "vendir-0.31.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/i9r8jvcmcmh6gm1vy0nxr447f82vxp4g-vendir-0.31.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI tool to vendor portions of git repos, github releases, helm charts, docker image contents, etc. declaratively",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/vendir/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "vendir"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i9r8jvcmcmh6gm1vy0nxr447f82vxp4g-vendir-0.31.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

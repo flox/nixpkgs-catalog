@@ -42,6 +42,49 @@
       }
     }
   },
+  "1.0.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.8.0",
+      "pname": "s6-linux-init",
+      "name": "s6-linux-init-1.0.8.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/wdkxyif0bw5rm86sixyxgcf94nzghmgh-s6-linux-init-1.0.8.0-bin",
+        "dev": "/nix/store/ww9qibm5ghjwm414bxac4k4s4drz0l7x-s6-linux-init-1.0.8.0-dev",
+        "doc": "/nix/store/gv3bign7nycw6gmxj6i25w0infjjlh8z-s6-linux-init-1.0.8.0-doc",
+        "out": "/nix/store/wq6srx2p375byfkws9y1d2b4yayl9kck-s6-linux-init-1.0.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A set of minimalistic tools used to create a s6-based init system, including a /sbin/init binary, on a Linux kernel",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "s6-linux-init"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wdkxyif0bw5rm86sixyxgcf94nzghmgh-s6-linux-init-1.0.8.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.0.7.3": {
     "type": "catalogRender",
     "schema": 1,

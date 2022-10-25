@@ -44,6 +44,51 @@
       }
     }
   },
+  "3.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.0",
+      "pname": "freeradius",
+      "name": "freeradius-3.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/d64ln4sjaw5zvh1ml6613nxxgzygh5ls-freeradius-3.2.0-dev",
+        "doc": "/nix/store/74jsgk3928llglykj4m4j9znvxlgrpdp-freeradius-3.2.0-doc",
+        "man": "/nix/store/v06bvrhhismx5cg3sz1vzyyw7f2aixhh-freeradius-3.2.0-man",
+        "out": "/nix/store/jymhq5v54mskymv0nh8wb1zddm7ay3aa-freeradius-3.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A modular, high performance free RADIUS suite",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/freeradius/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "freeradius"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jymhq5v54mskymv0nh8wb1zddm7ay3aa-freeradius-3.2.0",
+        "/nix/store/v06bvrhhismx5cg3sz1vzyyw7f2aixhh-freeradius-3.2.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.0.25": {
     "type": "catalogRender",
     "schema": 1,

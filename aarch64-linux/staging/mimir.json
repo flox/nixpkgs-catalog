@@ -1,21 +1,21 @@
 {
-  "2.2.0": {
+  "2.3.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2.0",
+      "version": "2.3.1",
       "pname": "mimir",
-      "name": "mimir-2.2.0",
+      "name": "mimir-2.3.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/4cm1zlrmd3q0i94nzh537xzvcim0qdsb-mimir-2.2.0"
+        "out": "/nix/store/4bf3qghd1aaivicn2c1f7mg11hdv6gdh-mimir-2.3.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. ",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/monitoring/mimir/default.nix:35",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/monitoring/mimir/default.nix:35",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4cm1zlrmd3q0i94nzh537xzvcim0qdsb-mimir-2.2.0"
+        "/nix/store/4bf3qghd1aaivicn2c1f7mg11hdv6gdh-mimir-2.3.1"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "mimir",
+      "name": "mimir-2.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/pjlgw1dan660zqchchsxb4czikpixclm-mimir-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. ",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/mimir/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mimir"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pjlgw1dan660zqchchsxb4czikpixclm-mimir-2.2.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

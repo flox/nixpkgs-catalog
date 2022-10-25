@@ -1,21 +1,21 @@
 {
-  "3.8.0": {
+  "3.9.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.8.0",
+      "version": "3.9.0",
       "pname": "microdnf",
-      "name": "microdnf-3.8.0",
+      "name": "microdnf-3.9.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/9g2668z1gf5mwv0zz7b4h9jmf8fmv19m-microdnf-3.8.0"
+        "out": "/nix/store/aqdw3klxgcp3lg2k4jaznagb1jc9bqww-microdnf-3.9.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Lightweight implementation of dnf in C",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/package-management/microdnf/default.nix:18",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/package-management/microdnf/default.nix:18",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9g2668z1gf5mwv0zz7b4h9jmf8fmv19m-microdnf-3.8.0"
+        "/nix/store/aqdw3klxgcp3lg2k4jaznagb1jc9bqww-microdnf-3.9.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "3.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.1",
+      "pname": "microdnf",
+      "name": "microdnf-3.9.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m07q13xjpkzn4h4a6dp371b65pzqgid3-microdnf-3.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightweight implementation of dnf in C",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/microdnf/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "microdnf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m07q13xjpkzn4h4a6dp371b65pzqgid3-microdnf-3.9.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

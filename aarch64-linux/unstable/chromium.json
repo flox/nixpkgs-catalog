@@ -40,47 +40,6 @@
       }
     }
   },
-  "103.0.5060.53": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "103.0.5060.53",
-      "pname": "chromium",
-      "name": "chromium-103.0.5060.53",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/yi507vmbj3icgb8y81pishh8rx3h2kdz-chromium-103.0.5060.53",
-        "sandbox": "/nix/store/3wy9qzmz9k1d4v78bcjdsk7g10ny2l8z-chromium-103.0.5060.53-sandbox"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source web browser from Google",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/chromium/browser.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "chromium"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yi507vmbj3icgb8y81pishh8rx3h2kdz-chromium-103.0.5060.53"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "103.0.5060.134": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "103.0.5060.53": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "103.0.5060.53",
+      "pname": "chromium",
+      "name": "chromium-103.0.5060.53",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/yi507vmbj3icgb8y81pishh8rx3h2kdz-chromium-103.0.5060.53",
+        "sandbox": "/nix/store/3wy9qzmz9k1d4v78bcjdsk7g10ny2l8z-chromium-103.0.5060.53-sandbox"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source web browser from Google",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/chromium/browser.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "chromium"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yi507vmbj3icgb8y81pishh8rx3h2kdz-chromium-103.0.5060.53"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

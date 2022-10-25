@@ -39,6 +39,46 @@
       }
     }
   },
+  "7.2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.2.4",
+      "pname": "powershell",
+      "name": "powershell-7.2.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/n6vpsll48snx08kdcgk2ijhdqvjbvhs1-powershell-7.2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful cross-platform (Windows, Linux, and macOS) shell and scripting language based on .NET",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/shells/powershell/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "powershell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n6vpsll48snx08kdcgk2ijhdqvjbvhs1-powershell-7.2.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "7.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "7.2.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.2.4",
-      "pname": "powershell",
-      "name": "powershell-7.2.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/n240m987v37xjjpcls6kvhsfyapix33m-powershell-7.2.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful cross-platform (Windows, Linux, and macOS) shell and scripting language based on .NET",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/shells/powershell/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "powershell"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n240m987v37xjjpcls6kvhsfyapix33m-powershell-7.2.4"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

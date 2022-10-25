@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.15.46": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.46",
-      "pname": "linux",
-      "name": "linux-5.15.46",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/r8xr4kjg81f4y2danc2c6ghda6505ylf-linux-5.15.46"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/kernel/manual-config.nix:296",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linuxPackages_custom_tinyconfig_kernel"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r8xr4kjg81f4y2danc2c6ghda6505ylf-linux-5.15.46"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "5.10.93": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.15.61": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.61",
+      "pname": "linux",
+      "name": "linux-5.15.61",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/bv7ih9nlyynwn6hkil5wj1a9gjcz8g9z-linux-5.15.61"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/kernel/manual-config.nix:341",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linuxPackages_custom_tinyconfig_kernel"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bv7ih9nlyynwn6hkil5wj1a9gjcz8g9z-linux-5.15.61"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

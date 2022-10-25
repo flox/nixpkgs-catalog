@@ -1,21 +1,22 @@
 {
-  "5.0.1": {
+  "5.2.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.0.1",
+      "version": "5.2.2",
       "pname": "nix-prefetch-github",
-      "name": "nix-prefetch-github-5.0.1",
+      "name": "nix-prefetch-github-5.2.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/an453yd29n39mzjdv7212ibiyv86ww99-python3.9-nix-prefetch-github-5.0.1"
+        "dist": "/nix/store/gk1ngdpykyndfrdn9qy17fj0jwj7c7n9-python3.10-nix-prefetch-github-5.2.2-dist",
+        "out": "/nix/store/myfnfhdcbrla47dwx91k1sxmfbcjfz9b-python3.10-nix-prefetch-github-5.2.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Prefetch sources from github",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/nix-prefetch-github/default.nix:30",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/python-modules/nix-prefetch-github/default.nix:29",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/an453yd29n39mzjdv7212ibiyv86ww99-python3.9-nix-prefetch-github-5.0.1"
+        "/nix/store/myfnfhdcbrla47dwx91k1sxmfbcjfz9b-python3.10-nix-prefetch-github-5.2.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.1",
+      "pname": "nix-prefetch-github",
+      "name": "nix-prefetch-github-5.2.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/zhs2z9xw0bj07ws090agfwldsqb92h63-python3.10-nix-prefetch-github-5.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Prefetch sources from github",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/nix-prefetch-github/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nix-prefetch-github"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zhs2z9xw0bj07ws090agfwldsqb92h63-python3.10-nix-prefetch-github-5.2.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

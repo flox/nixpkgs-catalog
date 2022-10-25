@@ -1,21 +1,21 @@
 {
-  "6.4.1": {
+  "6.8.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.4.1",
+      "version": "6.8.1",
       "pname": "sensu-go-backend",
-      "name": "sensu-go-backend-6.4.1",
+      "name": "sensu-go-backend-6.8.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/za8lssq1dpshx2vsganp88lip949d1vl-sensu-go-backend-6.4.1"
+        "out": "/nix/store/6b0n8ls25lba4h0jimnjlrn5bpm4qink-sensu-go-backend-6.8.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Open source monitoring tool for ephemeral infrastructure & distributed applications",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/monitoring/sensu-go/default.nix:33",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/sensu-go/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/za8lssq1dpshx2vsganp88lip949d1vl-sensu-go-backend-6.4.1"
+        "/nix/store/6b0n8ls25lba4h0jimnjlrn5bpm4qink-sensu-go-backend-6.8.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "6.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.8.2",
+      "pname": "sensu-go-backend",
+      "name": "sensu-go-backend-6.8.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/db7vbvqla0r4y8r1976frs7973cikr94-sensu-go-backend-6.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source monitoring tool for ephemeral infrastructure & distributed applications",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/monitoring/sensu-go/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sensu-go-backend"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/db7vbvqla0r4y8r1976frs7973cikr94-sensu-go-backend-6.8.2"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

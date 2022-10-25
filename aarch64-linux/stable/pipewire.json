@@ -1,21 +1,21 @@
 {
-  "0.3.48": {
+  "0.3.51": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.3.48",
+      "version": "0.3.51",
       "pname": "pipewire",
-      "name": "pipewire-0.3.48",
+      "name": "pipewire-0.3.51",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/d21r1q99w6jpiq7nqjxln6fn65ka2v9w-pipewire-0.3.48-dev",
-        "doc": "/nix/store/ncqn3p4xar89153pwzrsipkghyd7wv8n-pipewire-0.3.48-doc",
-        "installedTests": "/nix/store/b8zddnqld166l0wlnc2ggihvdgaxgqc5-pipewire-0.3.48-installedTests",
-        "jack": "/nix/store/x1li5zkslf0kii0rv837xxi9zzmzljrf-pipewire-0.3.48-jack",
-        "lib": "/nix/store/m9kgxkjhdsxf63afkzdn1qy6llr42i9l-pipewire-0.3.48-lib",
-        "man": "/nix/store/sspgxx8gjbsnij3sg9v637a95anzj5zn-pipewire-0.3.48-man",
-        "out": "/nix/store/g2kcyjksg9hc746pyhcacx777zqrbj96-pipewire-0.3.48",
-        "pulse": "/nix/store/sv4nd8g9xwhbkr22xzgwd5mcsma09d31-pipewire-0.3.48-pulse"
+        "dev": "/nix/store/faya90hd00bkg5m3vgfg1dy4bhq8khjg-pipewire-0.3.51-dev",
+        "doc": "/nix/store/zi0f7f12j42rsfmd0kjr7d9z839x39g6-pipewire-0.3.51-doc",
+        "installedTests": "/nix/store/7l3k49417c8m3s9k1bh3jm9asdn94dkc-pipewire-0.3.51-installedTests",
+        "jack": "/nix/store/fxljqy58jw2ahqlikpvvgnnqh0dxpgy6-pipewire-0.3.51-jack",
+        "lib": "/nix/store/j4jk8wbg78hdq40wz9bksbxw4v5hlfh7-pipewire-0.3.51-lib",
+        "man": "/nix/store/i72hmly51j65y2d2fz9xm6sl59d4qmzw-pipewire-0.3.51-man",
+        "out": "/nix/store/jrv22krzpxdmnw0cci4s0051s133vcj5-pipewire-0.3.51",
+        "pulse": "/nix/store/fladkpms94vm7g2kkk5hf407kzxqrah9-pipewire-0.3.51-pulse"
       },
       "meta": {
         "outputsToInstall": [
@@ -23,7 +23,7 @@
           "man"
         ],
         "description": "Server and user space API to deal with multimedia pipelines",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/pipewire/default.nix:230",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/pipewire/default.nix:228",
         "unfree": false
       }
     },
@@ -36,15 +36,64 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/g2kcyjksg9hc746pyhcacx777zqrbj96-pipewire-0.3.48",
-        "/nix/store/sspgxx8gjbsnij3sg9v637a95anzj5zn-pipewire-0.3.48-man"
+        "/nix/store/jrv22krzpxdmnw0cci4s0051s133vcj5-pipewire-0.3.51",
+        "/nix/store/i72hmly51j65y2d2fz9xm6sl59d4qmzw-pipewire-0.3.51-man"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.3.56": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.56",
+      "pname": "pipewire",
+      "name": "pipewire-0.3.56",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/wa1i21nqbrj645089lrms68svragd1zn-pipewire-0.3.56-dev",
+        "doc": "/nix/store/9svivrmv12dy71dl3njrizi6p8ivj44x-pipewire-0.3.56-doc",
+        "installedTests": "/nix/store/52c072chhkbh5n8z7smy28hpniwkyxhh-pipewire-0.3.56-installedTests",
+        "jack": "/nix/store/a1yb3b3dkbfarvvdvqaq8k43a7gnmqb7-pipewire-0.3.56-jack",
+        "lib": "/nix/store/7pvr8rvqwd66nnfvl9hwjphd5q72a5yb-pipewire-0.3.56-lib",
+        "man": "/nix/store/6r5r3g3zhwm6il1zpqy1bqz561xxgwc2-pipewire-0.3.56-man",
+        "out": "/nix/store/kmp9l1yi96x68y0xnvj70a49gpyaf25g-pipewire-0.3.56",
+        "pulse": "/nix/store/zdzrhap9vvk28cdv1ixmajrh7ab2h9jp-pipewire-0.3.56-pulse"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Server and user space API to deal with multimedia pipelines",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/pipewire/default.nix:237",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pipewire"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kmp9l1yi96x68y0xnvj70a49gpyaf25g-pipewire-0.3.56",
+        "/nix/store/6r5r3g3zhwm6il1zpqy1bqz561xxgwc2-pipewire-0.3.56-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -94,55 +143,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.3.51": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.51",
-      "pname": "pipewire",
-      "name": "pipewire-0.3.51",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/faya90hd00bkg5m3vgfg1dy4bhq8khjg-pipewire-0.3.51-dev",
-        "doc": "/nix/store/zi0f7f12j42rsfmd0kjr7d9z839x39g6-pipewire-0.3.51-doc",
-        "installedTests": "/nix/store/7l3k49417c8m3s9k1bh3jm9asdn94dkc-pipewire-0.3.51-installedTests",
-        "jack": "/nix/store/fxljqy58jw2ahqlikpvvgnnqh0dxpgy6-pipewire-0.3.51-jack",
-        "lib": "/nix/store/j4jk8wbg78hdq40wz9bksbxw4v5hlfh7-pipewire-0.3.51-lib",
-        "man": "/nix/store/i72hmly51j65y2d2fz9xm6sl59d4qmzw-pipewire-0.3.51-man",
-        "out": "/nix/store/jrv22krzpxdmnw0cci4s0051s133vcj5-pipewire-0.3.51",
-        "pulse": "/nix/store/fladkpms94vm7g2kkk5hf407kzxqrah9-pipewire-0.3.51-pulse"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Server and user space API to deal with multimedia pipelines",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/pipewire/default.nix:228",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "pipewire"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jrv22krzpxdmnw0cci4s0051s133vcj5-pipewire-0.3.51",
-        "/nix/store/i72hmly51j65y2d2fz9xm6sl59d4qmzw-pipewire-0.3.51-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

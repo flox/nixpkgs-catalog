@@ -1,23 +1,23 @@
 {
-  "1.19.3": {
+  "1.20.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.19.3",
+      "version": "1.20.1",
       "pname": "libinput",
-      "name": "libinput-1.19.3",
+      "name": "libinput-1.20.1",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/islzqr48b8wr14n5fqd3506x5zimsdf0-libinput-1.19.3-bin",
-        "dev": "/nix/store/63dq2sqjks3l3g0m2955b1kmbsrjkxza-libinput-1.19.3-dev",
-        "out": "/nix/store/zls3k4crqkzgna7rd96qg8wyix74nnk6-libinput-1.19.3"
+        "bin": "/nix/store/psn33mb57z3q5fc9dp9mqjxjlng10ywi-libinput-1.20.1-bin",
+        "dev": "/nix/store/1qmn2l48j212v8am62am5j6w4fg64cah-libinput-1.20.1-dev",
+        "out": "/nix/store/7ac56vxnrwm11wm3x3zm0bdlfzrzmw3j-libinput-1.20.1"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/libinput/default.nix:121",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libinput/default.nix:131",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/islzqr48b8wr14n5fqd3506x5zimsdf0-libinput-1.19.3-bin"
+        "/nix/store/psn33mb57z3q5fc9dp9mqjxjlng10ywi-libinput-1.20.1-bin"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.21.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.21.0",
+      "pname": "libinput",
+      "name": "libinput-1.21.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/4293vkl16f56mf1yvxi2cz9bpvfpi002-libinput-1.21.0-bin",
+        "dev": "/nix/store/rrm8cprb0mhv67i10xv0di2zblw9x52c-libinput-1.21.0-dev",
+        "out": "/nix/store/sadssyrdffnhs82x67dpiwzdka08vjj8-libinput-1.21.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libinput/default.nix:131",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libinput"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4293vkl16f56mf1yvxi2cz9bpvfpi002-libinput-1.21.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.20.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.1",
-      "pname": "libinput",
-      "name": "libinput-1.20.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/psn33mb57z3q5fc9dp9mqjxjlng10ywi-libinput-1.20.1-bin",
-        "dev": "/nix/store/1qmn2l48j212v8am62am5j6w4fg64cah-libinput-1.20.1-dev",
-        "out": "/nix/store/7ac56vxnrwm11wm3x3zm0bdlfzrzmw3j-libinput-1.20.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libinput/default.nix:131",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libinput"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/psn33mb57z3q5fc9dp9mqjxjlng10ywi-libinput-1.20.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "2.1": {
+  "2.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.1",
+      "version": "2.3",
       "pname": "gcompris",
-      "name": "gcompris-2.1",
+      "name": "gcompris-2.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/6rs24f086d80qwz5ivba9ih34k3q6y5n-gcompris-2.1"
+        "out": "/nix/store/z822za1wr1bmr9j9alcrmm624szjs33p-gcompris-2.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A high quality educational software suite, including a large number of activities for children aged 2 to 10",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/games/gcompris/default.nix:49",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/games/gcompris/default.nix:58",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6rs24f086d80qwz5ivba9ih34k3q6y5n-gcompris-2.1"
+        "/nix/store/z822za1wr1bmr9j9alcrmm624szjs33p-gcompris-2.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4",
+      "pname": "gcompris",
+      "name": "gcompris-2.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/0kwdv5vx1y1f6aib25llx6qz9fhv51l1-gcompris-2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high quality educational software suite, including a large number of activities for children aged 2 to 10",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/games/gcompris/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gcompris"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0kwdv5vx1y1f6aib25llx6qz9fhv51l1-gcompris-2.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "2.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3",
-      "pname": "gcompris",
-      "name": "gcompris-2.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/z822za1wr1bmr9j9alcrmm624szjs33p-gcompris-2.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high quality educational software suite, including a large number of activities for children aged 2 to 10",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/games/gcompris/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gcompris"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z822za1wr1bmr9j9alcrmm624szjs33p-gcompris-2.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

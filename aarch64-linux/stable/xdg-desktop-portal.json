@@ -1,22 +1,22 @@
 {
-  "1.12.1": {
+  "1.14.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.12.1",
+      "version": "1.14.4",
       "pname": "xdg-desktop-portal",
-      "name": "xdg-desktop-portal-1.12.1",
+      "name": "xdg-desktop-portal-1.14.4",
       "system": "aarch64-linux",
       "outputs": {
-        "installedTests": "/nix/store/ssabxx2zlpcdxr73vzvw64x59x278fqp-xdg-desktop-portal-1.12.1-installedTests",
-        "out": "/nix/store/vish2p9zrf3asarljbap1nhgpzadrf7s-xdg-desktop-portal-1.12.1"
+        "installedTests": "/nix/store/pcw1g468hqyssdm0msgcnh2zmwqz1xrq-xdg-desktop-portal-1.14.4-installedTests",
+        "out": "/nix/store/v77v39ivv06c0ycvzbrhrn2jj3rh4kgb-xdg-desktop-portal-1.14.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Desktop integration portals for sandboxed apps",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/xdg-desktop-portal/default.nix:84",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/xdg-desktop-portal/default.nix:90",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vish2p9zrf3asarljbap1nhgpzadrf7s-xdg-desktop-portal-1.12.1"
+        "/nix/store/v77v39ivv06c0ycvzbrhrn2jj3rh4kgb-xdg-desktop-portal-1.14.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.15.0",
+      "pname": "xdg-desktop-portal",
+      "name": "xdg-desktop-portal-1.15.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "installedTests": "/nix/store/pcyixj5p2c6d3ih5c9p3m6id53ksw35x-xdg-desktop-portal-1.15.0-installedTests",
+        "out": "/nix/store/pq86y1xxbdpiy552ryg6bfjlxw1a6f3g-xdg-desktop-portal-1.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Desktop integration portals for sandboxed apps",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/xdg-desktop-portal/default.nix:90",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "xdg-desktop-portal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pq86y1xxbdpiy552ryg6bfjlxw1a6f3g-xdg-desktop-portal-1.15.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.14.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.14.4",
-      "pname": "xdg-desktop-portal",
-      "name": "xdg-desktop-portal-1.14.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "installedTests": "/nix/store/pcw1g468hqyssdm0msgcnh2zmwqz1xrq-xdg-desktop-portal-1.14.4-installedTests",
-        "out": "/nix/store/v77v39ivv06c0ycvzbrhrn2jj3rh4kgb-xdg-desktop-portal-1.14.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Desktop integration portals for sandboxed apps",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/xdg-desktop-portal/default.nix:90",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "xdg-desktop-portal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v77v39ivv06c0ycvzbrhrn2jj3rh4kgb-xdg-desktop-portal-1.14.4"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

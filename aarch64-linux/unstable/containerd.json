@@ -1,47 +1,4 @@
 {
-  "1.5.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.9",
-      "pname": "containerd",
-      "name": "containerd-1.5.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/1xwpaamap112ykpxqx747xncla17mzbl-containerd-1.5.9-man",
-        "out": "/nix/store/2xv188r0a29nzpk5slk0zi8v602pavvy-containerd-1.5.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A daemon to control runC",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/containerd/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "containerd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2xv188r0a29nzpk5slk0zi8v602pavvy-containerd-1.5.9",
-        "/nix/store/1xwpaamap112ykpxqx747xncla17mzbl-containerd-1.5.9-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.6.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -79,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.6.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.8",
+      "pname": "containerd",
+      "name": "containerd-1.6.8",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8z56zfnawwdllaqx01wzb11rlsi9ph27-containerd-1.6.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A daemon to control runC",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/containerd/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "containerd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8z56zfnawwdllaqx01wzb11rlsi9ph27-containerd-1.6.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

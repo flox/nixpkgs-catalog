@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9.0",
-      "pname": "kubernetes-helm",
-      "name": "kubernetes-helm-3.9.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/pwzd2yhy09d3mygrabilka6z9ac1gga5-kubernetes-helm-3.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A package manager for kubernetes",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/helm/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kubernetes-helm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pwzd2yhy09d3mygrabilka6z9ac1gga5-kubernetes-helm-3.9.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "3.7.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.3",
+      "pname": "kubernetes-helm",
+      "name": "kubernetes-helm-3.9.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/hmrs6xdl6m15vm9i3446s688j4ibas22-kubernetes-helm-3.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A package manager for kubernetes",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/helm/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kubernetes-helm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hmrs6xdl6m15vm9i3446s688j4ibas22-kubernetes-helm-3.9.3"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

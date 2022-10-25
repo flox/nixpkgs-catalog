@@ -8,15 +8,15 @@
       "name": "sundials-6.2.0",
       "system": "aarch64-linux",
       "outputs": {
-        "examples": "/nix/store/ipczr9l1p4hr0wbx076d4mkvgci64gfr-sundials-6.2.0-examples",
-        "out": "/nix/store/3782i05jpnf39z1yfjvrm7bjqxggsazh-sundials-6.2.0"
+        "examples": "/nix/store/ya9nzysl3xwfqbabg0hhwjsdgcddn81f-sundials-6.2.0-examples",
+        "out": "/nix/store/n8b6b5fjh4rq3ap3ybvf6jaar9ylcgax-sundials-6.2.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Suite of nonlinear differential/algebraic equation solvers",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/sundials/default.nix:83",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/sundials/default.nix:83",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3782i05jpnf39z1yfjvrm7bjqxggsazh-sundials-6.2.0"
+        "/nix/store/n8b6b5fjh4rq3ap3ybvf6jaar9ylcgax-sundials-6.2.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "6.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.3.0",
+      "pname": "sundials",
+      "name": "sundials-6.3.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "examples": "/nix/store/2r2vjs1x95gd5pdzgqsbgisj9bfpfmyr-sundials-6.3.0-examples",
+        "out": "/nix/store/0mk7cxapwh1nk3l6p3x5b8mxjrp5ib0p-sundials-6.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Suite of nonlinear differential/algebraic equation solvers",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sundials/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sundials"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0mk7cxapwh1nk3l6p3x5b8mxjrp5ib0p-sundials-6.3.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

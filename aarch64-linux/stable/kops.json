@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.23.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.2",
-      "pname": "kops",
-      "name": "kops-1.23.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/2a2g62vcpgzx0cywkprmpanqj8f43cwd-kops-1.23.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Easiest way to get a production Kubernetes up and running",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/kops/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kops"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2a2g62vcpgzx0cywkprmpanqj8f43cwd-kops-1.23.2"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.22.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.24.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.24.1",
+      "pname": "kops",
+      "name": "kops-1.24.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/hmg558pqnc3a2nql1fi31n45zg2nqxbw-kops-1.24.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Easiest way to get a production Kubernetes up and running",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/kops/default.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kops"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hmg558pqnc3a2nql1fi31n45zg2nqxbw-kops-1.24.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

@@ -1,4 +1,44 @@
 {
+  "3.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.1",
+      "pname": "multus-cni",
+      "name": "multus-cni-3.9.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/45i99z3xk7y0k0axamp161a6nxmiphfs-multus-cni-3.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/multus-cni/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "multus-cni"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/45i99z3xk7y0k0axamp161a6nxmiphfs-multus-cni-3.9.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.8": {
     "type": "catalogRender",
     "schema": 1,

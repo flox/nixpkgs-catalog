@@ -1,49 +1,4 @@
 {
-  "1.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20",
-      "pname": "iwd",
-      "name": "iwd-1.20",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/jfn0pqv5r56xfvcqwf9pdjrqx473xf0y-iwd-1.20-doc",
-        "man": "/nix/store/4bmr9sj0544s3diy3q4985qz38mmgf65-iwd-1.20-man",
-        "out": "/nix/store/08yjkbx4n7viwz1ygm4a89sm3v3vlgm6-iwd-1.20",
-        "test": "/nix/store/lqvyax8rbc5gf62iglf68c950njxjrg7-iwd-1.20-test"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Wireless daemon for Linux",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/os-specific/linux/iwd/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "iwd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/08yjkbx4n7viwz1ygm4a89sm3v3vlgm6-iwd-1.20",
-        "/nix/store/4bmr9sj0544s3diy3q4985qz38mmgf65-iwd-1.20-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "1.27": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,96 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.29": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.29",
+      "pname": "iwd",
+      "name": "iwd-1.29",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/fsmv7apy4gax3im62gvlgsjfs3s82qnh-iwd-1.29-doc",
+        "man": "/nix/store/f28phba2fhpij7k931bczanllq7jlv58-iwd-1.29-man",
+        "out": "/nix/store/j1371h6mv76b47ld1pz9iq9ddpvmq06v-iwd-1.29",
+        "test": "/nix/store/7la0zss94cm79sz32rjbjvgqm1am35hq-iwd-1.29-test"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Wireless daemon for Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/iwd/default.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "iwd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j1371h6mv76b47ld1pz9iq9ddpvmq06v-iwd-1.29",
+        "/nix/store/f28phba2fhpij7k931bczanllq7jlv58-iwd-1.29-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20",
+      "pname": "iwd",
+      "name": "iwd-1.20",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/jfn0pqv5r56xfvcqwf9pdjrqx473xf0y-iwd-1.20-doc",
+        "man": "/nix/store/4bmr9sj0544s3diy3q4985qz38mmgf65-iwd-1.20-man",
+        "out": "/nix/store/08yjkbx4n7viwz1ygm4a89sm3v3vlgm6-iwd-1.20",
+        "test": "/nix/store/lqvyax8rbc5gf62iglf68c950njxjrg7-iwd-1.20-test"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Wireless daemon for Linux",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/os-specific/linux/iwd/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "iwd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/08yjkbx4n7viwz1ygm4a89sm3v3vlgm6-iwd-1.20",
+        "/nix/store/4bmr9sj0544s3diy3q4985qz38mmgf65-iwd-1.20-man"
+      ],
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   }

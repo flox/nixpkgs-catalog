@@ -1,21 +1,21 @@
 {
-  "1.0.2": {
+  "1.0.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.2",
+      "version": "1.0.4",
       "pname": "hilbish",
-      "name": "hilbish-1.0.2",
+      "name": "hilbish-1.0.4",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/nxm7l85yaiqlxygl5b4xchqp2k5397yr-hilbish-1.0.2"
+        "out": "/nix/store/jw05qsj2pfhr4vbn4g8cx9wbzc700bnw-hilbish-1.0.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An interactive Unix-like shell written in Go",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/shells/hilbish/default.nix:37",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/shells/hilbish/default.nix:37",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/nxm7l85yaiqlxygl5b4xchqp2k5397yr-hilbish-1.0.2"
+        "/nix/store/jw05qsj2pfhr4vbn4g8cx9wbzc700bnw-hilbish-1.0.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.0",
+      "pname": "hilbish",
+      "name": "hilbish-1.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/qs3f9m7zlhdqm131w0d12jshd7inha7w-hilbish-1.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An interactive Unix-like shell written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/shells/hilbish/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "hilbish"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qs3f9m7zlhdqm131w0d12jshd7inha7w-hilbish-1.2.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.0.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.4",
-      "pname": "hilbish",
-      "name": "hilbish-1.0.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/jw05qsj2pfhr4vbn4g8cx9wbzc700bnw-hilbish-1.0.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An interactive Unix-like shell written in Go",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/shells/hilbish/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "hilbish"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jw05qsj2pfhr4vbn4g8cx9wbzc700bnw-hilbish-1.0.4"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

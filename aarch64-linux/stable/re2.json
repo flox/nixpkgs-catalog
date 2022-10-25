@@ -1,21 +1,21 @@
 {
-  "2022-02-01": {
+  "2022-04-01": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2022-02-01",
+      "version": "2022-04-01",
       "pname": "re2",
-      "name": "re2-2022-02-01",
+      "name": "re2-2022-04-01",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/jl4razgfmxgag3nhcaz07nm6sqkfqa8p-re2-2022-02-01"
+        "out": "/nix/store/zcgk4dj4n0crsbr2k21hcwzr3rxihg7w-re2-2022-04-01"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An efficient, principled regular expression library",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/re2/default.nix:46",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/re2/default.nix:69",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jl4razgfmxgag3nhcaz07nm6sqkfqa8p-re2-2022-02-01"
+        "/nix/store/zcgk4dj4n0crsbr2k21hcwzr3rxihg7w-re2-2022-04-01"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2022-06-01": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022-06-01",
+      "pname": "re2",
+      "name": "re2-2022-06-01",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/zppdhvz31ahz2hzb6mgrq1zms9r2f0cw-re2-2022-06-01"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An efficient, principled regular expression library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/re2/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "re2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zppdhvz31ahz2hzb6mgrq1zms9r2f0cw-re2-2022-06-01"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "2022-04-01": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022-04-01",
-      "pname": "re2",
-      "name": "re2-2022-04-01",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/zcgk4dj4n0crsbr2k21hcwzr3rxihg7w-re2-2022-04-01"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An efficient, principled regular expression library",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/re2/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "re2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zcgk4dj4n0crsbr2k21hcwzr3rxihg7w-re2-2022-04-01"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

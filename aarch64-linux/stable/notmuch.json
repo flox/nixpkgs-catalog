@@ -1,4 +1,51 @@
 {
+  "0.35": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.35",
+      "pname": "notmuch",
+      "name": "notmuch-0.35",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bindingconfig": "/nix/store/37b7gxvimq7si9c65kiqqk93vpzgq87h-notmuch-0.35-bindingconfig",
+        "emacs": "/nix/store/2kbvyzkzay3i29iwwr8ha6lsn927pk3p-notmuch-0.35-emacs",
+        "info": "/nix/store/4phq21hiw6kiwwrnbcwypy1x8nj5y6z9-notmuch-0.35-info",
+        "man": "/nix/store/2jjs6dak5l0k4p8110m90l47g8kfpbxf-notmuch-0.35-man",
+        "out": "/nix/store/r3p1s41aw1dvi58jz80bshx9ssax22d0-notmuch-0.35",
+        "ruby": "/nix/store/zdhxaclz7rkwxbb6vkbxd6fbladzy71z-notmuch-0.35-ruby"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Mail indexer",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/mailreaders/notmuch/default.nix:115",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "notmuch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r3p1s41aw1dvi58jz80bshx9ssax22d0-notmuch-0.35",
+        "/nix/store/2jjs6dak5l0k4p8110m90l47g8kfpbxf-notmuch-0.35-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.34.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -53,12 +100,12 @@
       "name": "notmuch-0.36",
       "system": "aarch64-linux",
       "outputs": {
-        "bindingconfig": "/nix/store/4xqr3lc9wkhhngyfyb9h3qbl5498p6gm-notmuch-0.36-bindingconfig",
-        "emacs": "/nix/store/7km3h06p5ry1vk7br09pihima1pjggwh-notmuch-0.36-emacs",
-        "info": "/nix/store/lrzsi0488lsf6ymdcicmd0lvrvnxy2g0-notmuch-0.36-info",
-        "man": "/nix/store/wxi9hp9115gjvzqjwcp4jbn76w8p7sr8-notmuch-0.36-man",
-        "out": "/nix/store/qfxi49jh4y88mr4k28q8kr2gzq2xhshm-notmuch-0.36",
-        "ruby": "/nix/store/fjnm22bm3zwap1gw6n42pkcdnmxfjy55-notmuch-0.36-ruby"
+        "bindingconfig": "/nix/store/19sr999xpsy04lrip1p6fmxajsghi7bm-notmuch-0.36-bindingconfig",
+        "emacs": "/nix/store/3i7cr72kbc3q14x962qpj7qwnh0cd2ww-notmuch-0.36-emacs",
+        "info": "/nix/store/8by6d3b9551s4jj8zp0j5zxbvz2n5g1q-notmuch-0.36-info",
+        "man": "/nix/store/s6rc8l5y0xdwg4jd73np1xzqps6gq991-notmuch-0.36-man",
+        "out": "/nix/store/82y3z5iddzzwhryrxlyw1kw9sr52wrpn-notmuch-0.36",
+        "ruby": "/nix/store/329005lidh2n7bp4w88ff359h0cfk2kp-notmuch-0.36-ruby"
       },
       "meta": {
         "outputsToInstall": [
@@ -66,7 +113,7 @@
           "man"
         ],
         "description": "Mail indexer",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/mailreaders/notmuch/default.nix:110",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/mailreaders/notmuch/default.nix:110",
         "unfree": false
       }
     },
@@ -79,62 +126,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qfxi49jh4y88mr4k28q8kr2gzq2xhshm-notmuch-0.36",
-        "/nix/store/wxi9hp9115gjvzqjwcp4jbn76w8p7sr8-notmuch-0.36-man"
+        "/nix/store/82y3z5iddzzwhryrxlyw1kw9sr52wrpn-notmuch-0.36",
+        "/nix/store/s6rc8l5y0xdwg4jd73np1xzqps6gq991-notmuch-0.36-man"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
-  "0.35": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.35",
-      "pname": "notmuch",
-      "name": "notmuch-0.35",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bindingconfig": "/nix/store/37b7gxvimq7si9c65kiqqk93vpzgq87h-notmuch-0.35-bindingconfig",
-        "emacs": "/nix/store/2kbvyzkzay3i29iwwr8ha6lsn927pk3p-notmuch-0.35-emacs",
-        "info": "/nix/store/4phq21hiw6kiwwrnbcwypy1x8nj5y6z9-notmuch-0.35-info",
-        "man": "/nix/store/2jjs6dak5l0k4p8110m90l47g8kfpbxf-notmuch-0.35-man",
-        "out": "/nix/store/r3p1s41aw1dvi58jz80bshx9ssax22d0-notmuch-0.35",
-        "ruby": "/nix/store/zdhxaclz7rkwxbb6vkbxd6fbladzy71z-notmuch-0.35-ruby"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Mail indexer",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/mailreaders/notmuch/default.nix:115",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "notmuch"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r3p1s41aw1dvi58jz80bshx9ssax22d0-notmuch-0.35",
-        "/nix/store/2jjs6dak5l0k4p8110m90l47g8kfpbxf-notmuch-0.35-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

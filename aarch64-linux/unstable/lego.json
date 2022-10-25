@@ -1,21 +1,21 @@
 {
-  "4.8.0": {
+  "4.9.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.8.0",
+      "version": "4.9.0",
       "pname": "lego",
-      "name": "lego-4.8.0",
+      "name": "lego-4.9.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/bm2d10n8j76xm6mw3my5prfh4x7h75b5-lego-4.8.0"
+        "out": "/nix/store/jbqpf6r6hp31dlbbic62dvnj9nlnxffl-lego-4.9.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Let's Encrypt client and ACME library written in Go",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/admin/lego/default.nix:25",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/lego/default.nix:25",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bm2d10n8j76xm6mw3my5prfh4x7h75b5-lego-4.8.0"
+        "/nix/store/jbqpf6r6hp31dlbbic62dvnj9nlnxffl-lego-4.9.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "4.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.8.0",
+      "pname": "lego",
+      "name": "lego-4.8.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/nv780hx7rgidq71d57r4v1fjks0cry5w-lego-4.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Let's Encrypt client and ACME library written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/lego/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "lego"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nv780hx7rgidq71d57r4v1fjks0cry5w-lego-4.8.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

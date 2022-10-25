@@ -1,21 +1,21 @@
 {
-  "3.4.0": {
+  "3.6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.0",
+      "version": "3.6.0",
       "pname": "buildbot-with-plugins",
-      "name": "buildbot-with-plugins-3.4.0",
+      "name": "buildbot-with-plugins-3.6.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/5aiijxgvgcmn7r04b81vmx44wadgprhj-python3.9-buildbot-with-plugins-3.4.0"
+        "out": "/nix/store/x73zcvc6z2rwhdg4pr9sqm7sv6df993q-python3.10-buildbot-with-plugins-3.6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/buildbot/default.nix:12",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/buildbot/default.nix:13",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5aiijxgvgcmn7r04b81vmx44wadgprhj-python3.9-buildbot-with-plugins-3.4.0"
+        "/nix/store/x73zcvc6z2rwhdg4pr9sqm7sv6df993q-python3.10-buildbot-with-plugins-3.6.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.1",
+      "pname": "buildbot-with-plugins",
+      "name": "buildbot-with-plugins-3.6.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/4rgh6wfyf5x6yc410h7n0xk6wp09yxlh-python3.10-buildbot-with-plugins-3.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/python-modules/buildbot/default.nix:13",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "buildbot-ui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4rgh6wfyf5x6yc410h7n0xk6wp09yxlh-python3.10-buildbot-with-plugins-3.6.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

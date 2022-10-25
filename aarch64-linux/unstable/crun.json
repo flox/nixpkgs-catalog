@@ -1,44 +1,4 @@
 {
-  "1.4.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.1",
-      "pname": "crun",
-      "name": "crun-1.4.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/2239d24cr6sra3g7rks2cbhz2j63z1ip-crun-1.4.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/virtualization/crun/default.nix:74",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "crun"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2239d24cr6sra3g7rks2cbhz2j63z1ip-crun-1.4.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6",
+      "pname": "crun",
+      "name": "crun-1.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/89363y6vfmxp756jcvcfix4k8d0mz4aq-crun-1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/crun/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "crun"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/89363y6vfmxp756jcvcfix4k8d0mz4aq-crun-1.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,21 +1,21 @@
 {
-  "2.4.16": {
+  "2.4.17": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.4.16",
+      "version": "2.4.17",
       "pname": "onedrive",
-      "name": "onedrive-2.4.16",
+      "name": "onedrive-2.4.17",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/b9vg7sk2a9pjha6z7vc33hn7ggjnabd1-onedrive-2.4.16"
+        "out": "/nix/store/95wp2b1i42j5062qdjddvj5irjhkkdpl-onedrive-2.4.17"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A complete tool to interact with OneDrive on Linux",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/sync/onedrive/default.nix:49",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/sync/onedrive/default.nix:49",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/b9vg7sk2a9pjha6z7vc33hn7ggjnabd1-onedrive-2.4.16"
+        "/nix/store/95wp2b1i42j5062qdjddvj5irjhkkdpl-onedrive-2.4.17"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "2.4.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.20",
+      "pname": "onedrive",
+      "name": "onedrive-2.4.20",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/5i7ibsm6l66i868ji0yqp5isxf7sd95p-onedrive-2.4.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A complete tool to interact with OneDrive on Linux",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/sync/onedrive/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "onedrive"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5i7ibsm6l66i868ji0yqp5isxf7sd95p-onedrive-2.4.20"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "2.4.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.17",
-      "pname": "onedrive",
-      "name": "onedrive-2.4.17",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/95wp2b1i42j5062qdjddvj5irjhkkdpl-onedrive-2.4.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A complete tool to interact with OneDrive on Linux",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/sync/onedrive/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "onedrive"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/95wp2b1i42j5062qdjddvj5irjhkkdpl-onedrive-2.4.17"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

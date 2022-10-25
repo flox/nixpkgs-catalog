@@ -1,21 +1,22 @@
 {
-  "3.0.4": {
+  "3.0.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.0.4",
+      "version": "3.0.8",
       "pname": "libmodsecurity",
-      "name": "libmodsecurity-3.0.4",
+      "name": "libmodsecurity-3.0.8",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gnbzal75r0ihsf8kppm96ydybswrrkkm-libmodsecurity-3.0.4"
+        "dev": "/nix/store/n38f1xzlzmzqvkrgxd466n58g0qfrjgy-libmodsecurity-3.0.8-dev",
+        "out": "/nix/store/k0c2nbzw18l12ay8vznhwayb98kw2q82-libmodsecurity-3.0.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "ModSecurity v3 library component.\n",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/libmodsecurity/default.nix:32",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/libmodsecurity/default.nix:65",
         "unfree": false
       }
     },
@@ -28,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gnbzal75r0ihsf8kppm96ydybswrrkkm-libmodsecurity-3.0.4"
+        "/nix/store/k0c2nbzw18l12ay8vznhwayb98kw2q82-libmodsecurity-3.0.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.0.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.7",
+      "pname": "libmodsecurity",
+      "name": "libmodsecurity-3.0.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/r0xy3gyn8iyk5b8k0aam2dnsc8minsaq-libmodsecurity-3.0.7-dev",
+        "out": "/nix/store/lvi5wp8j2vpvza9w4h1m071as75gs83m-libmodsecurity-3.0.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ModSecurity v3 library component.\n",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/security/libmodsecurity/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libmodsecurity"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lvi5wp8j2vpvza9w4h1m071as75gs83m-libmodsecurity-3.0.7"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

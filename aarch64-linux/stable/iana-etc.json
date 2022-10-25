@@ -39,6 +39,46 @@
       }
     }
   },
+  "20220520": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220520",
+      "pname": "iana-etc",
+      "name": "iana-etc-20220520",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/zjprlx00zh5il1w4n1fjmgx9jl3ma42c-iana-etc-20220520"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "IANA protocol and port number assignments (/etc/protocols and /etc/services)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/data/misc/iana-etc/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "iana-etc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zjprlx00zh5il1w4n1fjmgx9jl3ma42c-iana-etc-20220520"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "unknown": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "20220520": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20220520",
-      "pname": "iana-etc",
-      "name": "iana-etc-20220520",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/g1i2bwz7acw3qpqi3p4x52gxz40rbak1-iana-etc-20220520"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "IANA protocol and port number assignments (/etc/protocols and /etc/services)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/data/misc/iana-etc/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "iana-etc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g1i2bwz7acw3qpqi3p4x52gxz40rbak1-iana-etc-20220520"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

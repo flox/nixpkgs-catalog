@@ -1,21 +1,21 @@
 {
-  "100.5.1": {
+  "100.5.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "100.5.1",
+      "version": "100.5.4",
       "pname": "mongo-tools",
-      "name": "mongo-tools-100.5.1",
+      "name": "mongo-tools-100.5.4",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/0w2f0z90fppnh0frx2k5nmz83iyd168z-mongo-tools-100.5.1"
+        "out": "/nix/store/wi8i4f2yzawdkq2k71mpff69pb0l71w7-mongo-tools-100.5.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Tools for the MongoDB",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/mongodb-tools/default.nix:54",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/mongodb-tools/default.nix:46",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0w2f0z90fppnh0frx2k5nmz83iyd168z-mongo-tools-100.5.1"
+        "/nix/store/wi8i4f2yzawdkq2k71mpff69pb0l71w7-mongo-tools-100.5.4"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "100.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "100.6.0",
+      "pname": "mongo-tools",
+      "name": "mongo-tools-100.6.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/dkj43kywpx9wi6cs6nz61r9rixjif0ly-mongo-tools-100.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for the MongoDB",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/mongodb-tools/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mongodb-tools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dkj43kywpx9wi6cs6nz61r9rixjif0ly-mongo-tools-100.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

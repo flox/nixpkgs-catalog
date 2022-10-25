@@ -1,21 +1,21 @@
 {
-  "10.8.0": {
+  "10.8.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "10.8.0",
+      "version": "10.8.1",
       "pname": "jellyfin-web",
-      "name": "jellyfin-web-10.8.0",
+      "name": "jellyfin-web-10.8.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/lp91r278rihsi301sph2c724dkmd4ya7-jellyfin-web-10.8.0"
+        "out": "/nix/store/4r6hw703y173vvn2mcnfp7sllbdaja78-jellyfin-web-10.8.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Web Client for Jellyfin",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/jellyfin/web.nix:61",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/jellyfin/web.nix:61",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lp91r278rihsi301sph2c724dkmd4ya7-jellyfin-web-10.8.0"
+        "/nix/store/4r6hw703y173vvn2mcnfp7sllbdaja78-jellyfin-web-10.8.1"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "10.8.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.8.4",
+      "pname": "jellyfin-web",
+      "name": "jellyfin-web-10.8.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/azap7aw56l0jks9km8bsbdlj660y778j-jellyfin-web-10.8.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Web Client for Jellyfin",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/jellyfin/web.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "jellyfin-web"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/azap7aw56l0jks9km8bsbdlj660y778j-jellyfin-web-10.8.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

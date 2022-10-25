@@ -1,21 +1,21 @@
 {
-  "1.4.0": {
+  "1.4.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.4.0",
+      "version": "1.4.3",
       "pname": "libgit2",
-      "name": "libgit2-1.4.0",
+      "name": "libgit2-1.4.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/wrpxmd41jq3c679lbvxqvv545avi60il-libgit2-1.4.0"
+        "out": "/nix/store/p7l93mqywx8sf05j2l9qfh5d2k4i2hb1-libgit2-1.4.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Linkable library implementation of Git that you can use in your application",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/libgit2/default.nix:52",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libgit2/default.nix:44",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/wrpxmd41jq3c679lbvxqvv545avi60il-libgit2-1.4.0"
+        "/nix/store/p7l93mqywx8sf05j2l9qfh5d2k4i2hb1-libgit2-1.4.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.0",
+      "pname": "libgit2",
+      "name": "libgit2-1.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/lpv87v49m86c0bgg2c6z3f17igxwl4q5-libgit2-1.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linkable library implementation of Git that you can use in your application",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libgit2/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libgit2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lpv87v49m86c0bgg2c6z3f17igxwl4q5-libgit2-1.5.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.4.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.3",
-      "pname": "libgit2",
-      "name": "libgit2-1.4.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/p7l93mqywx8sf05j2l9qfh5d2k4i2hb1-libgit2-1.4.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linkable library implementation of Git that you can use in your application",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libgit2/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libgit2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p7l93mqywx8sf05j2l9qfh5d2k4i2hb1-libgit2-1.4.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -39,6 +39,46 @@
       }
     }
   },
+  "3.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.4",
+      "pname": "acme.sh",
+      "name": "acme.sh-3.0.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/a21s34x2hkgcj0h8qsz9q7kq93h6is5b-acme.sh-3.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A pure Unix shell script implementing ACME client protocol",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/acme-sh/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "acme-sh"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a21s34x2hkgcj0h8qsz9q7kq93h6is5b-acme.sh-3.0.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.0.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.4",
-      "pname": "acme.sh",
-      "name": "acme.sh-3.0.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/7p0qhsp8xajv7k2jli97fnxk3njyicrl-acme.sh-3.0.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A pure Unix shell script implementing ACME client protocol",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/admin/acme-sh/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "acme-sh"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7p0qhsp8xajv7k2jli97fnxk3njyicrl-acme.sh-3.0.4"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

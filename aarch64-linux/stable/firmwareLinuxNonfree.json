@@ -39,46 +39,6 @@
       }
     }
   },
-  "20211216": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20211216",
-      "pname": "linux-firmware",
-      "name": "linux-firmware-20211216",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/lzjiykqsvyclr6ij7jq6gzxqgzdsnsml-linux-firmware-20211216"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Binary firmware collection packaged by kernel.org",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/firmware/linux-firmware/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "firmwareLinuxNonfree"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lzjiykqsvyclr6ij7jq6gzxqgzdsnsml-linux-firmware-20211216"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "2021-07-16": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "20211216": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20211216",
+      "pname": "linux-firmware",
+      "name": "linux-firmware-20211216",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/lzjiykqsvyclr6ij7jq6gzxqgzdsnsml-linux-firmware-20211216"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Binary firmware collection packaged by kernel.org",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/firmware/linux-firmware/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "firmwareLinuxNonfree"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lzjiykqsvyclr6ij7jq6gzxqgzdsnsml-linux-firmware-20211216"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

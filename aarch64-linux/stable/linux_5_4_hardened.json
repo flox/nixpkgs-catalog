@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.4.197": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.4.197",
-      "pname": "linux",
-      "name": "linux-5.4.197",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/919g6h20cdylj08k49lnx3dckazah1p5-linux-5.4.197-dev",
-        "out": "/nix/store/v1rw45d0xrgbviwsmvzanz4abr7pqp06-linux-5.4.197"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, rtl8761b-support, linux-hardened-5.4.197-hardened1)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/top-level/linux-kernels.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_5_4_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v1rw45d0xrgbviwsmvzanz4abr7pqp06-linux-5.4.197"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "5.4.172": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.4.210": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.210",
+      "pname": "linux",
+      "name": "linux-5.4.210",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ni76m93icsidh72rn0b8s0dwwiigzd2c-linux-5.4.210-dev",
+        "out": "/nix/store/6k2xq21qhq7ylklxbgk05vizm89cij2f-linux-5.4.210"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, rtl8761b-support, linux-hardened-5.4.210-hardened1)",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_5_4_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6k2xq21qhq7ylklxbgk05vizm89cij2f-linux-5.4.210"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

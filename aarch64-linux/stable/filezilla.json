@@ -1,21 +1,21 @@
 {
-  "3.57.0": {
+  "3.60.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.57.0",
+      "version": "3.60.1",
       "pname": "filezilla",
-      "name": "filezilla-3.57.0",
+      "name": "filezilla-3.60.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/c1hcfhr71n090qk9ww8cdv7zwwrgjkyf-filezilla-3.57.0"
+        "out": "/nix/store/6x7z5x2h1xlac5di66sg6s9i1vfxpnhx-filezilla-3.60.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Graphical FTP, FTPS and SFTP client",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ftp/filezilla/default.nix:60",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/ftp/filezilla/default.nix:54",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/c1hcfhr71n090qk9ww8cdv7zwwrgjkyf-filezilla-3.57.0"
+        "/nix/store/6x7z5x2h1xlac5di66sg6s9i1vfxpnhx-filezilla-3.60.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "3.60.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.60.2",
+      "pname": "filezilla",
+      "name": "filezilla-3.60.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/02vpdj8pfyqc467xzj49sg1610w1fkpz-filezilla-3.60.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Graphical FTP, FTPS and SFTP client",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/ftp/filezilla/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "filezilla"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/02vpdj8pfyqc467xzj49sg1610w1fkpz-filezilla-3.60.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

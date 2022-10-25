@@ -1,21 +1,21 @@
 {
-  "1.4.9": {
+  "1.6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.4.9",
+      "version": "1.6.0",
       "pname": "sngrep",
-      "name": "sngrep-1.4.9",
+      "name": "sngrep-1.6.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/ashpjy55wnw3135cdrvwrwrlmfmksyxa-sngrep-1.4.9"
+        "out": "/nix/store/14yi9c3x3l9mcv285169j4vi54ldgwy7-sngrep-1.6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A tool for displaying SIP calls message flows from terminal",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sniffers/sngrep/default.nix:59",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/sniffers/sngrep/default.nix:48",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ashpjy55wnw3135cdrvwrwrlmfmksyxa-sngrep-1.4.9"
+        "/nix/store/14yi9c3x3l9mcv285169j4vi54ldgwy7-sngrep-1.6.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.0",
+      "pname": "sngrep",
+      "name": "sngrep-1.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/ki6pi1alqbaqpczxa9pb8cagkddsxqj1-sngrep-1.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool for displaying SIP calls message flows from terminal",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/sniffers/sngrep/default.nix:48",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sngrep"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ki6pi1alqbaqpczxa9pb8cagkddsxqj1-sngrep-1.5.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

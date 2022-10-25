@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.1",
+      "pname": "dmarc-metrics-exporter",
+      "name": "dmarc-metrics-exporter-0.6.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/xdwi07b0rmi4x2a23dazq4jha7vxzj3p-dmarc-metrics-exporter-0.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Export Prometheus metrics from DMARC reports",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/dmarc-metrics-exporter/default.nix:55",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dmarc-metrics-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xdwi07b0rmi4x2a23dazq4jha7vxzj3p-dmarc-metrics-exporter-0.6.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.1",
-      "pname": "dmarc-metrics-exporter",
-      "name": "dmarc-metrics-exporter-0.6.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/hhlm0v92k80lplfsnzp54ylxd8r0k7vb-dmarc-metrics-exporter-0.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Export Prometheus metrics from DMARC reports",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/monitoring/prometheus/dmarc-metrics-exporter/default.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "dmarc-metrics-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hhlm0v92k80lplfsnzp54ylxd8r0k7vb-dmarc-metrics-exporter-0.6.1"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   }

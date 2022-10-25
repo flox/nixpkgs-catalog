@@ -1,21 +1,21 @@
 {
-  "2.2.0": {
+  "3.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2.0",
+      "version": "3.0.0",
       "pname": "pg_activity",
-      "name": "pg_activity-2.2.0",
+      "name": "pg_activity-3.0.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/lb00sqxhcqa5k11q5cw58awz8q04xwqg-pg_activity-2.2.0"
+        "out": "/nix/store/wal3wzdp67mlcxjyqsbw455d4z0kckpi-pg_activity-3.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A top like application for PostgreSQL server activity monitoring",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/database/pg_activity/default.nix:26",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/database/pg_activity/default.nix:26",
         "unfree": false
       }
     },
@@ -28,14 +28,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lb00sqxhcqa5k11q5cw58awz8q04xwqg-pg_activity-2.2.0"
+        "/nix/store/wal3wzdp67mlcxjyqsbw455d4z0kckpi-pg_activity-3.0.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.1",
+      "pname": "pg_activity",
+      "name": "pg_activity-3.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/37r5azyml4fs6vadq5jb1nxi5nrck9nk-pg_activity-3.0.1-dist",
+        "out": "/nix/store/0fcf2i7alniyr9g79dlfddfqk8dsxc1h-pg_activity-3.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A top like application for PostgreSQL server activity monitoring",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/database/pg_activity/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pg_activity"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0fcf2i7alniyr9g79dlfddfqk8dsxc1h-pg_activity-3.0.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

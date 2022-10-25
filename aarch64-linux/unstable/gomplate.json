@@ -1,21 +1,21 @@
 {
-  "3.9.0": {
+  "3.11.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.9.0",
+      "version": "3.11.2",
       "pname": "gomplate",
-      "name": "gomplate-3.9.0",
+      "name": "gomplate-3.11.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/1irm3q7pck348gy3c9kgckjdc0bpr58q-gomplate-3.9.0"
+        "out": "/nix/store/a1y8nx0qj6phgh63p0s5q1sss3dcll7a-gomplate-3.11.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A flexible commandline tool for template rendering",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/gomplate/default.nix:29",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/tools/gomplate/default.nix:39",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1irm3q7pck348gy3c9kgckjdc0bpr58q-gomplate-3.9.0"
+        "/nix/store/a1y8nx0qj6phgh63p0s5q1sss3dcll7a-gomplate-3.11.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "3.11.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.11.3",
+      "pname": "gomplate",
+      "name": "gomplate-3.11.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/y0z3imsr34lqzc2v9r24fqjcz5fn907b-gomplate-3.11.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A flexible commandline tool for template rendering",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/gomplate/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gomplate"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y0z3imsr34lqzc2v9r24fqjcz5fn907b-gomplate-3.11.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

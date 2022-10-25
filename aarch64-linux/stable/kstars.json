@@ -1,21 +1,21 @@
 {
-  "3.5.7": {
+  "3.5.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.5.7",
+      "version": "3.5.8",
       "pname": "kstars",
-      "name": "kstars-3.5.7",
+      "name": "kstars-3.5.8",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/n7p3mq0sn5wsl5avqpg8yl916ybfzcrl-kstars-3.5.7"
+        "out": "/nix/store/4rq15qmjb7q9cl5w6x3p3x2b2gsh0y3p-kstars-3.5.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Virtual planetarium astronomy software",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/science/astronomy/kstars/default.nix:42",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/science/astronomy/kstars/default.nix:42",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/n7p3mq0sn5wsl5avqpg8yl916ybfzcrl-kstars-3.5.7"
+        "/nix/store/4rq15qmjb7q9cl5w6x3p3x2b2gsh0y3p-kstars-3.5.8"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.0",
+      "pname": "kstars",
+      "name": "kstars-3.6.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/hs0x47nkxl23gvr93f20n7phwnl0j8mr-kstars-3.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Virtual planetarium astronomy software",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/astronomy/kstars/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kstars"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hs0x47nkxl23gvr93f20n7phwnl0j8mr-kstars-3.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.5.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5.8",
-      "pname": "kstars",
-      "name": "kstars-3.5.8",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/4rq15qmjb7q9cl5w6x3p3x2b2gsh0y3p-kstars-3.5.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Virtual planetarium astronomy software",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/science/astronomy/kstars/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kstars"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4rq15qmjb7q9cl5w6x3p3x2b2gsh0y3p-kstars-3.5.8"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

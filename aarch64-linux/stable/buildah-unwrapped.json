@@ -42,49 +42,6 @@
       }
     }
   },
-  "1.26.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.1",
-      "pname": "buildah",
-      "name": "buildah-1.26.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/vylch3wfp3qgs9bz920xaakx1ljrganv-buildah-1.26.1-man",
-        "out": "/nix/store/c074l800p0nca5xrmcpi23pgby4xd8pz-buildah-1.26.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A tool which facilitates building OCI images",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/buildah/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "buildah-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c074l800p0nca5xrmcpi23pgby4xd8pz-buildah-1.26.1",
-        "/nix/store/vylch3wfp3qgs9bz920xaakx1ljrganv-buildah-1.26.1-man"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.23.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.27.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.27.0",
+      "pname": "buildah",
+      "name": "buildah-1.27.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/l96qdc18m5hq2w04kk93cc59msr1jaqr-buildah-1.27.0-man",
+        "out": "/nix/store/zyr6b83k8rzif2rmhwxlm0cmy15kxmfj-buildah-1.27.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A tool which facilitates building OCI images",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/tools/buildah/default.nix:62",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "buildah-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zyr6b83k8rzif2rmhwxlm0cmy15kxmfj-buildah-1.27.0",
+        "/nix/store/l96qdc18m5hq2w04kk93cc59msr1jaqr-buildah-1.27.0-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

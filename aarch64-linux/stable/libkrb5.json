@@ -1,22 +1,22 @@
 {
-  "1.19.2": {
+  "1.19.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.19.2",
-      "pname": null,
-      "name": "libkrb5-1.19.2",
+      "version": "1.19.3",
+      "pname": "libkrb5",
+      "name": "libkrb5-1.19.3",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/k7ycw8vjd0ipafvvdfvdzk95c6zag7md-libkrb5-1.19.2-dev",
-        "out": "/nix/store/8djnp194di01f8s12yy3adz5xhghhi0x-libkrb5-1.19.2"
+        "dev": "/nix/store/g1qvy9wya8smab53ipmmdvfhfg8rxs9r-libkrb5-1.19.3-dev",
+        "out": "/nix/store/4m381v6zpf1pmypsbp72vf9yg9dfn55h-libkrb5-1.19.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "MIT Kerberos 5",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/kerberos/krb5.nix:80",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/kerberos/krb5.nix:80",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8djnp194di01f8s12yy3adz5xhghhi0x-libkrb5-1.19.2"
+        "/nix/store/4m381v6zpf1pmypsbp72vf9yg9dfn55h-libkrb5-1.19.3"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20",
+      "pname": "libkrb5",
+      "name": "libkrb5-1.20",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/wqri6465dwlzsf6n2d8ypbi2j8yx4gdr-libkrb5-1.20-dev",
+        "out": "/nix/store/0vasjsn8b09lcmxicznvcz86a8rgq7iz-libkrb5-1.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "MIT Kerberos 5",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/kerberos/krb5.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libkrb5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0vasjsn8b09lcmxicznvcz86a8rgq7iz-libkrb5-1.20"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.19.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.19.3",
-      "pname": "libkrb5",
-      "name": "libkrb5-1.19.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/g1qvy9wya8smab53ipmmdvfhfg8rxs9r-libkrb5-1.19.3-dev",
-        "out": "/nix/store/4m381v6zpf1pmypsbp72vf9yg9dfn55h-libkrb5-1.19.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "MIT Kerberos 5",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/kerberos/krb5.nix:80",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libkrb5"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4m381v6zpf1pmypsbp72vf9yg9dfn55h-libkrb5-1.19.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

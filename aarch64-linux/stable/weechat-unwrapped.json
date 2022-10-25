@@ -1,21 +1,21 @@
 {
-  "3.4.1": {
+  "3.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.1",
+      "version": "3.5",
       "pname": "weechat",
-      "name": "weechat-3.4.1",
+      "name": "weechat-3.5",
       "system": "aarch64-linux",
       "outputs": {
-        "guile": "/nix/store/k5yas3fbcij9ypa84243v4bnvsmv5b4p-weechat-3.4.1-guile",
-        "lua": "/nix/store/b6qqlf5siklawp9grbv965a27xjznz31-weechat-3.4.1-lua",
-        "man": "/nix/store/73df1i96g7bgpj4khvsa05hy4bgvra45-weechat-3.4.1-man",
-        "out": "/nix/store/jmyd46f4brs9qb58h3ss76bpl2rqm3gw-weechat-3.4.1",
-        "perl": "/nix/store/nsv0iv5nbbpcqv9iyi9lwipbq3w0c2fn-weechat-3.4.1-perl",
-        "python": "/nix/store/6v85fqbh9ny9fj6x2pzcpaz6kk04wfa4-weechat-3.4.1-python",
-        "ruby": "/nix/store/im446hh0wzjfn0gigzvqhaaw8i9bpfr3-weechat-3.4.1-ruby",
-        "tcl": "/nix/store/clq7i6hfs6x5q764prx8lxxjn6ahjmmm-weechat-3.4.1-tcl"
+        "guile": "/nix/store/yv58xgjsf915vsgvslbwl496m69id62b-weechat-3.5-guile",
+        "lua": "/nix/store/amdblnaw58hmmm4za9sd6572gv2xzn0m-weechat-3.5-lua",
+        "man": "/nix/store/ddkrwjkp2rvgj92fnmdpwaxga56qd3mb-weechat-3.5-man",
+        "out": "/nix/store/g1582c9w6kvp3pqgg8qz041g9gcs359c-weechat-3.5",
+        "perl": "/nix/store/ac0x5gwr9ghh1ilk426ijr2yhammxa52-weechat-3.5-perl",
+        "python": "/nix/store/xqymnnd5njaq3xagajm4j5m684lbqmzm-weechat-3.5-python",
+        "ruby": "/nix/store/2yglk1n2940r412s2wxi5pxxc4pj6105-weechat-3.5-ruby",
+        "tcl": "/nix/store/m6mbk4mgzl33b5ndkdp52qvsqvcp7vvx-weechat-3.5-tcl"
       },
       "meta": {
         "outputsToInstall": [
@@ -23,7 +23,7 @@
           "man"
         ],
         "description": "A fast, light and extensible chat client",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/irc/weechat/default.nix:81",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/irc/weechat/default.nix:81",
         "unfree": false
       }
     },
@@ -36,15 +36,64 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jmyd46f4brs9qb58h3ss76bpl2rqm3gw-weechat-3.4.1",
-        "/nix/store/73df1i96g7bgpj4khvsa05hy4bgvra45-weechat-3.4.1-man"
+        "/nix/store/g1582c9w6kvp3pqgg8qz041g9gcs359c-weechat-3.5",
+        "/nix/store/ddkrwjkp2rvgj92fnmdpwaxga56qd3mb-weechat-3.5-man"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6",
+      "pname": "weechat",
+      "name": "weechat-3.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "guile": "/nix/store/vk0h2ni5jsmpbiw3bqjwd4b695b3xr9g-weechat-3.6-guile",
+        "lua": "/nix/store/vig92s543m4fq4inh6q3s5hlyzjzhr6l-weechat-3.6-lua",
+        "man": "/nix/store/yi3gfdgl5rqw1iqd8lg4b434kqwf46an-weechat-3.6-man",
+        "out": "/nix/store/40y1xm0q1wj4bdn8977m99h11jhn9mn4-weechat-3.6",
+        "perl": "/nix/store/1w5q5jc8minhasc3z37kfypb1y69y307-weechat-3.6-perl",
+        "python": "/nix/store/6c05ml6ka7dmpalh7zdjs34pnilb0hvf-weechat-3.6-python",
+        "ruby": "/nix/store/1rvnz4h1in5c0gwvncji0qm3rlzv9cwa-weechat-3.6-ruby",
+        "tcl": "/nix/store/hln1az9a5pivb0g0nrj5jcs0in67al77-weechat-3.6-tcl"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A fast, light and extensible chat client",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/irc/weechat/default.nix:81",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "weechat-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/40y1xm0q1wj4bdn8977m99h11jhn9mn4-weechat-3.6",
+        "/nix/store/yi3gfdgl5rqw1iqd8lg4b434kqwf46an-weechat-3.6-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -94,55 +143,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5",
-      "pname": "weechat",
-      "name": "weechat-3.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "guile": "/nix/store/yv58xgjsf915vsgvslbwl496m69id62b-weechat-3.5-guile",
-        "lua": "/nix/store/amdblnaw58hmmm4za9sd6572gv2xzn0m-weechat-3.5-lua",
-        "man": "/nix/store/ddkrwjkp2rvgj92fnmdpwaxga56qd3mb-weechat-3.5-man",
-        "out": "/nix/store/g1582c9w6kvp3pqgg8qz041g9gcs359c-weechat-3.5",
-        "perl": "/nix/store/ac0x5gwr9ghh1ilk426ijr2yhammxa52-weechat-3.5-perl",
-        "python": "/nix/store/xqymnnd5njaq3xagajm4j5m684lbqmzm-weechat-3.5-python",
-        "ruby": "/nix/store/2yglk1n2940r412s2wxi5pxxc4pj6105-weechat-3.5-ruby",
-        "tcl": "/nix/store/m6mbk4mgzl33b5ndkdp52qvsqvcp7vvx-weechat-3.5-tcl"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A fast, light and extensible chat client",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/irc/weechat/default.nix:81",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "weechat-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g1582c9w6kvp3pqgg8qz041g9gcs359c-weechat-3.5",
-        "/nix/store/ddkrwjkp2rvgj92fnmdpwaxga56qd3mb-weechat-3.5-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

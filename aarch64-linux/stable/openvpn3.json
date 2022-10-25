@@ -8,14 +8,14 @@
       "name": "openvpn3-17_beta",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/7zchbrghljpz7j4dgv3739n9sgv976x0-openvpn3-17_beta"
+        "out": "/nix/store/k9r3bnfi9dp0icn0j71yi46ywdrqbl1f-openvpn3-17_beta"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "OpenVPN 3 Linux client",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/networking/openvpn3/default.nix:119",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/openvpn3/default.nix:119",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7zchbrghljpz7j4dgv3739n9sgv976x0-openvpn3-17_beta"
+        "/nix/store/k9r3bnfi9dp0icn0j71yi46ywdrqbl1f-openvpn3-17_beta"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "18_beta": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "18_beta",
+      "pname": "openvpn3",
+      "name": "openvpn3-18_beta",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/k6p5v55932ixg3n2kynyrpc7dc25lacx-openvpn3-18_beta"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "OpenVPN 3 Linux client",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/openvpn3/default.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openvpn3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k6p5v55932ixg3n2kynyrpc7dc25lacx-openvpn3-18_beta"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

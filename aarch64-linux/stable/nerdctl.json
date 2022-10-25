@@ -1,21 +1,21 @@
 {
-  "0.17.1": {
+  "0.23.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.17.1",
+      "version": "0.23.0",
       "pname": "nerdctl",
-      "name": "nerdctl-0.17.1",
+      "name": "nerdctl-0.23.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/r6dmw3i1p8yi8q6vrcrs63vlbfn5hpsn-nerdctl-0.17.1"
+        "out": "/nix/store/8pp33bq8z9cvp1431v89hsfa2xky52f5-nerdctl-0.23.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A Docker-compatible CLI for containerd",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/nerdctl/default.nix:54",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/nerdctl/default.nix:54",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/r6dmw3i1p8yi8q6vrcrs63vlbfn5hpsn-nerdctl-0.17.1"
+        "/nix/store/8pp33bq8z9cvp1431v89hsfa2xky52f5-nerdctl-0.23.0"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.22.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.22.2",
+      "pname": "nerdctl",
+      "name": "nerdctl-0.22.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/jlpv8iznj0yiij208ipmvffjkv7mf5rn-nerdctl-0.22.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Docker-compatible CLI for containerd",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/nerdctl/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nerdctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jlpv8iznj0yiij208ipmvffjkv7mf5rn-nerdctl-0.22.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.20.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.20.0",
-      "pname": "nerdctl",
-      "name": "nerdctl-0.20.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/qzajq8z3v6xg2jymspfc57xmv5fn3gc6-nerdctl-0.20.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Docker-compatible CLI for containerd",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/nerdctl/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nerdctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qzajq8z3v6xg2jymspfc57xmv5fn3gc6-nerdctl-0.20.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

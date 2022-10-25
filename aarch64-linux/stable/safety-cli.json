@@ -1,4 +1,44 @@
 {
+  "2.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.1",
+      "pname": "safety",
+      "name": "safety-2.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/v25zhbyz0kxiyzqfyj9x99r2nib3sl16-python3.10-safety-2.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Checks installed dependencies for known vulnerabilities",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/safety/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "safety-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v25zhbyz0kxiyzqfyj9x99r2nib3sl16-python3.10-safety-2.1.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.10.3": {
     "type": "catalogRender",
     "schema": 1,

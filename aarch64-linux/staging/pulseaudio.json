@@ -40,6 +40,47 @@
       }
     }
   },
+  "16.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.1",
+      "pname": "pulseaudio",
+      "name": "pulseaudio-16.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/8gfxsz9vqbih8wbkz94nwjjpal29c5dj-pulseaudio-16.1-dev",
+        "out": "/nix/store/32wxqicm0cp71npwxrwg0xm47zj1y0pa-pulseaudio-16.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sound server for POSIX and Win32 systems",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/pulseaudio/default.nix:157",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pulseaudio"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/32wxqicm0cp71npwxrwg0xm47zj1y0pa-pulseaudio-16.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "15.0": {
     "type": "catalogRender",
     "schema": 1,

@@ -39,6 +39,46 @@
       }
     }
   },
+  "3.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.1",
+      "pname": "htop",
+      "name": "htop-3.2.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/xxicbqckk5byw1p5jq3r4hlrjdrip7v3-htop-3.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An interactive process viewer",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/htop/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "htop"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xxicbqckk5byw1p5jq3r4hlrjdrip7v3-htop-3.2.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.1.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "3.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.1",
-      "pname": "htop",
-      "name": "htop-3.2.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/59w1sk7yxh2r0sx913d2lx8211v87ym8-htop-3.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An interactive process viewer",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/system/htop/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "htop"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/59w1sk7yxh2r0sx913d2lx8211v87ym8-htop-3.2.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

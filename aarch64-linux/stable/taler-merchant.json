@@ -1,4 +1,44 @@
 {
+  "unstable-2022-07-11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unstable-2022-07-11",
+      "pname": "taler-merchant",
+      "name": "taler-merchant-unstable-2022-07-11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/q070yzbi55npx3xyiiagf70y7b499rw5-taler-merchant-unstable-2022-07-11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "This is the GNU Taler merchant backend. It provides the logic that should run\nat every GNU Taler merchant.  The GNU Taler merchant is a RESTful backend that\ncan be used to setup orders and process payments.  This component allows\nmerchants to receive payments without invading the customers' privacy. Of\ncourse, this applies mostly for digital goods, as the merchant does not need\nto know the customer's physical address.\n",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/taler/default.nix:108",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "taler-merchant"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/q070yzbi55npx3xyiiagf70y7b499rw5-taler-merchant-unstable-2022-07-11"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.8.0": {
     "type": "catalogRender",
     "schema": 1,

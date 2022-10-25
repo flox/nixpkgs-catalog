@@ -39,6 +39,46 @@
       }
     }
   },
+  "2.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.12.0",
+      "pname": "linkerd-stable",
+      "name": "linkerd-stable-2.12.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/60k27a6xy1ri99y54s8idy90rdi586cg-linkerd-stable-2.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple Kubernetes service mesh that improves security, observability and reliability",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/linkerd/generic.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linkerd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/60k27a6xy1ri99y54s8idy90rdi586cg-linkerd-stable-2.12.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.11.1": {
     "type": "catalogRender",
     "schema": 1,

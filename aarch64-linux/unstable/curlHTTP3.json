@@ -1,19 +1,19 @@
 {
-  "7.84.0": {
+  "7.85.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.84.0",
+      "version": "7.85.0",
       "pname": "curl",
-      "name": "curl-7.84.0",
+      "name": "curl-7.85.0",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/s61rp0h2i6l4mmrvqp3mjbhkyg0syh0a-curl-7.84.0-bin",
-        "debug": "/nix/store/vgxaxcaj2fqfjsw0cfd1v33rxyfhln6s-curl-7.84.0-debug",
-        "dev": "/nix/store/8gr3fcqk98sff74bh51lx33hcwbb6a8y-curl-7.84.0-dev",
-        "devdoc": "/nix/store/kxzg2fwhd16s47fsd3s123rxsjjzl629-curl-7.84.0-devdoc",
-        "man": "/nix/store/9pnism5z7pqz9kas2ddqhqsb41ssqpbh-curl-7.84.0-man",
-        "out": "/nix/store/h39la9lq0ylc0h97pagnhabb562mw70x-curl-7.84.0"
+        "bin": "/nix/store/m9p6a2vzxshl9kzfp64sy7i75sg9n279-curl-7.85.0-bin",
+        "debug": "/nix/store/i7z7bcq1bhkqrfraysxiq58wx40x5742-curl-7.85.0-debug",
+        "dev": "/nix/store/ilyr5ph53vn9i77k7a784jsz5dqjs2g8-curl-7.85.0-dev",
+        "devdoc": "/nix/store/yamw03byaf74ngrqxya6810iqnrrq2if-curl-7.85.0-devdoc",
+        "man": "/nix/store/m8pphxqa87sl1j0bb7hqfwbyhq9y12d3-curl-7.85.0-man",
+        "out": "/nix/store/s9x3lm7yy3xqhl052r61c855mqcykxfm-curl-7.85.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -21,7 +21,7 @@
           "man"
         ],
         "description": "A command line tool for transferring files with URL syntax",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/curl/default.nix:186",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/curl/default.nix:185",
         "unfree": false
       }
     },
@@ -34,15 +34,62 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/s61rp0h2i6l4mmrvqp3mjbhkyg0syh0a-curl-7.84.0-bin",
-        "/nix/store/9pnism5z7pqz9kas2ddqhqsb41ssqpbh-curl-7.84.0-man"
+        "/nix/store/m9p6a2vzxshl9kzfp64sy7i75sg9n279-curl-7.85.0-bin",
+        "/nix/store/m8pphxqa87sl1j0bb7hqfwbyhq9y12d3-curl-7.85.0-man"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "7.84.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.84.0",
+      "pname": "curl",
+      "name": "curl-7.84.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/jgcr0m5riykf6f52scschhxilpy4drwb-curl-7.84.0-bin",
+        "debug": "/nix/store/wj0ll7hpmjyl2w3rkgs6d2cfgg05b7ph-curl-7.84.0-debug",
+        "dev": "/nix/store/bd52cibq917j7d4mybdf3brksx48v0bd-curl-7.84.0-dev",
+        "devdoc": "/nix/store/1rpbbryjb04dsk24v2gzhdpkr39ln3bi-curl-7.84.0-devdoc",
+        "man": "/nix/store/nazzql8i0aha31zxpm6admfxvi6z2920-curl-7.84.0-man",
+        "out": "/nix/store/rgjwgxjax0z4b3cf83gw5sk7arqx47in-curl-7.84.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A command line tool for transferring files with URL syntax",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/curl/default.nix:188",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "curlHTTP3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jgcr0m5riykf6f52scschhxilpy4drwb-curl-7.84.0-bin",
+        "/nix/store/nazzql8i0aha31zxpm6admfxvi6z2920-curl-7.84.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -40,6 +40,47 @@
       }
     }
   },
+  "7.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.1.0",
+      "pname": "qemu",
+      "name": "qemu-7.1.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "ga": "/nix/store/fclrw6hdz2zwvas0jcaf8v0bs234zwnf-qemu-7.1.0-ga",
+        "out": "/nix/store/si8w0702g2k9b7gx2mj91lk46z1q20mj-qemu-7.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A generic and open source machine emulator and virtualizer",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/qemu/default.nix:243",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "qemu_full"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/si8w0702g2k9b7gx2mj91lk46z1q20mj-qemu-7.1.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "7.0.0": {
     "type": "catalogRender",
     "schema": 1,

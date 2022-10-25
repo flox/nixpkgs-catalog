@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.0",
-      "pname": "cosign",
-      "name": "cosign-1.9.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/n062dh26bhq2yjk7vxgaizynd4szriww-cosign-1.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Container Signing CLI with support for ephemeral keys and Sigstore signing",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/security/cosign/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cosign"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n062dh26bhq2yjk7vxgaizynd4szriww-cosign-1.9.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.0",
+      "pname": "cosign",
+      "name": "cosign-1.11.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/bp7ypxa39w816mk78v6nf1ckwvb5jmj0-cosign-1.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Container Signing CLI with support for ephemeral keys and Sigstore signing",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/security/cosign/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cosign"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bp7ypxa39w816mk78v6nf1ckwvb5jmj0-cosign-1.11.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

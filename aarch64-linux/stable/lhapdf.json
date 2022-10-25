@@ -8,14 +8,14 @@
       "name": "lhapdf-6.5.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/m2028b297w2k6kjmgp7s7jxpk5059w8f-lhapdf-6.5.1"
+        "out": "/nix/store/qhqfj00815rxysvsg1q86lrwphlj5rfr-lhapdf-6.5.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A general purpose interpolator, used for evaluating Parton Distribution Functions from discretised data files",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/physics/lhapdf/default.nix:39",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/physics/lhapdf/default.nix:39",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/m2028b297w2k6kjmgp7s7jxpk5059w8f-lhapdf-6.5.1"
+        "/nix/store/qhqfj00815rxysvsg1q86lrwphlj5rfr-lhapdf-6.5.1"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "6.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.5.2",
+      "pname": "lhapdf",
+      "name": "lhapdf-6.5.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/hsc4y48wisa5d7yx74sxirdx083y4qd6-lhapdf-6.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A general purpose interpolator, used for evaluating Parton Distribution Functions from discretised data files",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/physics/lhapdf/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "lhapdf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hsc4y48wisa5d7yx74sxirdx083y4qd6-lhapdf-6.5.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

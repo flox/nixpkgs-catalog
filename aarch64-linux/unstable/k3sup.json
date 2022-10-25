@@ -1,21 +1,21 @@
 {
-  "0.12.0": {
+  "0.12.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.12.0",
+      "version": "0.12.3",
       "pname": "k3sup",
-      "name": "k3sup-0.12.0",
+      "name": "k3sup-0.12.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/jldy4mypgbq5jhrd7901a0dbfxgcdhva-k3sup-0.12.0"
+        "out": "/nix/store/2yqvi3966sw972v6i21gvgjcqlsbqrmf-k3sup-0.12.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Bootstrap Kubernetes with k3s over SSH",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/cluster/k3sup/default.nix:50",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/k3sup/default.nix:50",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jldy4mypgbq5jhrd7901a0dbfxgcdhva-k3sup-0.12.0"
+        "/nix/store/2yqvi3966sw972v6i21gvgjcqlsbqrmf-k3sup-0.12.3"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.0",
+      "pname": "k3sup",
+      "name": "k3sup-0.12.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/fn40phlwqbmapxjq3d5izl3pfd9brhdc-k3sup-0.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Bootstrap Kubernetes with k3s over SSH",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/k3sup/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "k3sup"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fn40phlwqbmapxjq3d5izl3pfd9brhdc-k3sup-0.12.0"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },

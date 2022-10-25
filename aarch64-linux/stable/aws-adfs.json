@@ -39,6 +39,46 @@
       }
     }
   },
+  "2.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.1",
+      "pname": "aws-adfs",
+      "name": "aws-adfs-2.2.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/lfd5jm355wzvzjaay2k5h444jqk7r7z2-python3.10-aws-adfs-2.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command line tool to ease AWS CLI authentication against ADFS",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/aws-adfs/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "aws-adfs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lfd5jm355wzvzjaay2k5h444jqk7r7z2-python3.10-aws-adfs-2.2.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.24.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "2.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.1",
-      "pname": "aws-adfs",
-      "name": "aws-adfs-2.2.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/qyicwxandmw495wd4xxw6k4bq7qk4h65-python3.9-aws-adfs-2.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command line tool to ease AWS CLI authentication against ADFS",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/python-modules/aws-adfs/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "aws-adfs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qyicwxandmw495wd4xxw6k4bq7qk4h65-python3.9-aws-adfs-2.2.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

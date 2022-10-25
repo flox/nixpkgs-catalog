@@ -1,21 +1,21 @@
 {
-  "1.3.3": {
+  "1.3.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.3.3",
+      "version": "1.3.5",
       "pname": "jadx",
-      "name": "jadx-1.3.3",
+      "name": "jadx-1.3.5",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/ys5pxn8yw0mhbij9967gz17jhayl69z0-jadx-1.3.3"
+        "out": "/nix/store/3vxj5fmb74d2x5kvz24h06ss0mh8ahmr-jadx-1.3.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Dex to Java decompiler",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/jadx/default.nix:101",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/jadx/default.nix:101",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ys5pxn8yw0mhbij9967gz17jhayl69z0-jadx-1.3.3"
+        "/nix/store/3vxj5fmb74d2x5kvz24h06ss0mh8ahmr-jadx-1.3.5"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.4.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.4",
+      "pname": "jadx",
+      "name": "jadx-1.4.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/nc2xx8ri78c3chah15adfmax9kv2k42x-jadx-1.4.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Dex to Java decompiler",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/jadx/default.nix:101",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "jadx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nc2xx8ri78c3chah15adfmax9kv2k42x-jadx-1.4.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.3.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.3.5",
-      "pname": "jadx",
-      "name": "jadx-1.3.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/3vxj5fmb74d2x5kvz24h06ss0mh8ahmr-jadx-1.3.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Dex to Java decompiler",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/jadx/default.nix:101",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "jadx"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3vxj5fmb74d2x5kvz24h06ss0mh8ahmr-jadx-1.3.5"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

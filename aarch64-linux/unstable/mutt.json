@@ -1,4 +1,46 @@
 {
+  "2.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.7",
+      "pname": "mutt",
+      "name": "mutt-2.2.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/6hbk9a0p2lg7sy35mrga2bc0zym94gvx-mutt-2.2.7-doc",
+        "info": "/nix/store/3gw63s4pw9d16pakjbxnx5vq7awlzwv3-mutt-2.2.7-info",
+        "out": "/nix/store/zzbwl6qzyj6dgmgwwwn25ijrk2vlq5vy-mutt-2.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small but very powerful text-based mail client",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/mailreaders/mutt/default.nix:97",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mutt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zzbwl6qzyj6dgmgwwwn25ijrk2vlq5vy-mutt-2.2.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.2.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "2.2.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.5",
-      "pname": "mutt",
-      "name": "mutt-2.2.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/1f1cyh9axbg09d8zszsgcz3j92w18vn9-mutt-2.2.5-doc",
-        "info": "/nix/store/2mn3jr3gzd2gfsxnb837iz9yhydggwix-mutt-2.2.5-info",
-        "out": "/nix/store/3pxdhdg2qca6g0mawh4fl85z2dayj6j8-mutt-2.2.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small but very powerful text-based mail client",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/mailreaders/mutt/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "mutt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3pxdhdg2qca6g0mawh4fl85z2dayj6j8-mutt-2.2.5"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   },

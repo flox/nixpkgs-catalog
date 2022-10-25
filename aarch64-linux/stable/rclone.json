@@ -1,4 +1,47 @@
 {
+  "1.58.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.58.1",
+      "pname": "rclone",
+      "name": "rclone-1.58.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man",
+        "out": "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Command line program to sync files and directories to and from major cloud storage",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/sync/rclone/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rclone"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1",
+        "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "1.57.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -42,17 +85,17 @@
       }
     }
   },
-  "1.58.1": {
+  "1.59.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.58.1",
+      "version": "1.59.1",
       "pname": "rclone",
-      "name": "rclone-1.58.1",
+      "name": "rclone-1.59.1",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man",
-        "out": "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1"
+        "man": "/nix/store/hvzjjjja5sa9m6l7afw0bxa9i753wa8z-rclone-1.59.1-man",
+        "out": "/nix/store/kwm6y5bjamxs4sq08jgp003m4q0wjiyy-rclone-1.59.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -60,7 +103,7 @@
           "man"
         ],
         "description": "Command line program to sync files and directories to and from major cloud storage",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/sync/rclone/default.nix:53",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/sync/rclone/default.nix:53",
         "unfree": false
       }
     },
@@ -73,15 +116,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1",
-        "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man"
+        "/nix/store/kwm6y5bjamxs4sq08jgp003m4q0wjiyy-rclone-1.59.1",
+        "/nix/store/hvzjjjja5sa9m6l7afw0bxa9i753wa8z-rclone-1.59.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

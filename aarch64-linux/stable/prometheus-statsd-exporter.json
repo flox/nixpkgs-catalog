@@ -1,21 +1,21 @@
 {
-  "0.20.2": {
+  "0.22.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.20.2",
+      "version": "0.22.8",
       "pname": "statsd_exporter",
-      "name": "statsd_exporter-0.20.2",
+      "name": "statsd_exporter-0.22.8",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/1azp2hnjsji8h7is4jjs1cnwfmyzbcb3-statsd_exporter-0.20.2"
+        "out": "/nix/store/ylsnhhyk1jy3b2dy5qdy6hw513rhzcc4-statsd_exporter-0.22.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Receives StatsD-style metrics and exports them to Prometheus",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/monitoring/prometheus/statsd-exporter.nix:17",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/statsd-exporter.nix:17",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1azp2hnjsji8h7is4jjs1cnwfmyzbcb3-statsd_exporter-0.20.2"
+        "/nix/store/ylsnhhyk1jy3b2dy5qdy6hw513rhzcc4-statsd_exporter-0.22.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.22.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.22.7",
+      "pname": "statsd_exporter",
+      "name": "statsd_exporter-0.22.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/lhvp0gvq7fmmb5ian8hr2ri6w5pqsk16-statsd_exporter-0.22.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Receives StatsD-style metrics and exports them to Prometheus",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/monitoring/prometheus/statsd-exporter.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "prometheus-statsd-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lhvp0gvq7fmmb5ian8hr2ri6w5pqsk16-statsd_exporter-0.22.7"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

@@ -40,6 +40,47 @@
       }
     }
   },
+  "1.0.26": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.26",
+      "pname": "libusb",
+      "name": "libusb-1.0.26",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/6rxfls68lf3i8m1wrnr3q1ph5467bmmv-libusb-1.0.26-dev",
+        "out": "/nix/store/8k4yfwd6lvvpi3swzrqmvg6zhiki5cfb-libusb-1.0.26"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "cross-platform user-mode USB device library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libusb1/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libusb1"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8k4yfwd6lvvpi3swzrqmvg6zhiki5cfb-libusb-1.0.26"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.0.25": {
     "type": "catalogRender",
     "schema": 1,

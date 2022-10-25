@@ -45,6 +45,52 @@
       }
     }
   },
+  "1.20.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.3",
+      "pname": "mupdf",
+      "name": "mupdf-1.20.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/mgscw7jycpljrncf75r1dbdaasq4jnn8-mupdf-1.20.3-bin",
+        "dev": "/nix/store/2n5hjrxsc830ankkiiifxxlc6kykyj85-mupdf-1.20.3-dev",
+        "doc": "/nix/store/r59g17f3ym2svjc797a7w1zz3i3js1j6-mupdf-1.20.3-doc",
+        "man": "/nix/store/49al5gzhc01n6jac37znqaf0mma62j13-mupdf-1.20.3-man",
+        "out": "/nix/store/d9dbclw2ngwc7kddv9650503pr0mjrsn-mupdf-1.20.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Lightweight PDF, XPS, and E-book viewer and toolkit written in portable C",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/mupdf/default.nix:151",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mupdf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mgscw7jycpljrncf75r1dbdaasq4jnn8-mupdf-1.20.3-bin",
+        "/nix/store/49al5gzhc01n6jac37znqaf0mma62j13-mupdf-1.20.3-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.19.0": {
     "type": "catalogRender",
     "schema": 1,

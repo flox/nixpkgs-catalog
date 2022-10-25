@@ -1,21 +1,21 @@
 {
-  "1.9.7-sc.1": {
+  "1.11.4-sc.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.9.7-sc.1",
+      "version": "1.11.4-sc.1",
       "pname": "schildichat-desktop",
-      "name": "schildichat-desktop-1.9.7-sc.1",
+      "name": "schildichat-desktop-1.11.4-sc.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/p633xgm1cvs6kpfwjzlgd0rf1c7j16sl-schildichat-desktop-1.9.7-sc.1"
+        "out": "/nix/store/p3aglbqch2bg9jlhrbc9vmf91bppks3j-schildichat-desktop-1.11.4-sc.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Matrix client / Element Desktop fork",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/instant-messengers/schildichat/schildichat-desktop.nix:121",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/instant-messengers/schildichat/schildichat-desktop.nix:120",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/p633xgm1cvs6kpfwjzlgd0rf1c7j16sl-schildichat-desktop-1.9.7-sc.1"
+        "/nix/store/p3aglbqch2bg9jlhrbc9vmf91bppks3j-schildichat-desktop-1.11.4-sc.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.11.8-sc.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.8-sc.1",
+      "pname": "schildichat-desktop",
+      "name": "schildichat-desktop-1.11.8-sc.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/mm46hr2wv3dalzk1zaivi45i2mc8bgp2-schildichat-desktop-1.11.8-sc.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Matrix client / Element Desktop fork",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/instant-messengers/schildichat/schildichat-desktop.nix:120",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "schildichat-desktop"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mm46hr2wv3dalzk1zaivi45i2mc8bgp2-schildichat-desktop-1.11.8-sc.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

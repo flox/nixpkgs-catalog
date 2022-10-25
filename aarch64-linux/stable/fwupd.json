@@ -47,54 +47,6 @@
       }
     }
   },
-  "1.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.1",
-      "pname": "fwupd",
-      "name": "fwupd-1.8.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/yn31693jy3fpwn8mv00wvx7jlzd1vw3f-fwupd-1.8.1-debug",
-        "dev": "/nix/store/r7s4sqzm5ikyks6gg1l2whp27x73i6y8-fwupd-1.8.1-dev",
-        "devdoc": "/nix/store/ly3xkfsln2fz0ycb5p2c8x39g6gzyznw-fwupd-1.8.1-devdoc",
-        "installedTests": "/nix/store/cvpvfc5040m0x61whw5p4ck5ab781wlb-fwupd-1.8.1-installedTests",
-        "lib": "/nix/store/kf1zkf3i6rckk1vqls73gjbja5734n43-fwupd-1.8.1-lib",
-        "man": "/nix/store/x7daris7rc25j02yifsc6gkx99f4j7bc-fwupd-1.8.1-man",
-        "out": "/nix/store/s0b0zrh1q9807p4f7158k61jh7sa956j-fwupd-1.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/firmware/fwupd/default.nix:120",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fwupd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s0b0zrh1q9807p4f7158k61jh7sa956j-fwupd-1.8.1",
-        "/nix/store/x7daris7rc25j02yifsc6gkx99f4j7bc-fwupd-1.8.1-man"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.7.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -140,6 +92,54 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.8.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.3",
+      "pname": "fwupd",
+      "name": "fwupd-1.8.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/x14lzk1pv1lkw4m9f01ngx8nb6szkqfs-fwupd-1.8.3-debug",
+        "dev": "/nix/store/9dp953fanqpwx8yva4p9vhikpvgx8g6v-fwupd-1.8.3-dev",
+        "devdoc": "/nix/store/g2hg06b714w28c3qxw01vb66941j50w1-fwupd-1.8.3-devdoc",
+        "installedTests": "/nix/store/c6fgv53gh28wn66w3fij487ywzavb8py-fwupd-1.8.3-installedTests",
+        "lib": "/nix/store/0h4ga33i4n5x02r66ff784hvlis9h79z-fwupd-1.8.3-lib",
+        "man": "/nix/store/hn6mclwyj5s38nr4rzdv71bmyg6rn9jp-fwupd-1.8.3-man",
+        "out": "/nix/store/mlyia310vrn0j9dxj8aivxkgj53dbhbk-fwupd-1.8.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/firmware/fwupd/default.nix:117",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fwupd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mlyia310vrn0j9dxj8aivxkgj53dbhbk-fwupd-1.8.3",
+        "/nix/store/hn6mclwyj5s38nr4rzdv71bmyg6rn9jp-fwupd-1.8.3-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

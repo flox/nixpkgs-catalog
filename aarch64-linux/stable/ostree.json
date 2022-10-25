@@ -1,49 +1,4 @@
 {
-  "2022.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.1",
-      "pname": "ostree",
-      "name": "ostree-2022.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/fzx1rdxj72krkablxm906c9dpdr7spmi-ostree-2022.1-dev",
-        "installedTests": "/nix/store/6wlb0ir95j03vp5lxy0mwrc67qzpinrv-ostree-2022.1-installedTests",
-        "man": "/nix/store/sdly0528i674k2ppahvdjdprcqvb27ra-ostree-2022.1-man",
-        "out": "/nix/store/vi85p94q1vfnc6jy09vcsa760i7ky9s0-ostree-2022.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Git for operating system binaries",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/misc/ostree/default.nix:143",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ostree"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vi85p94q1vfnc6jy09vcsa760i7ky9s0-ostree-2022.1",
-        "/nix/store/sdly0528i674k2ppahvdjdprcqvb27ra-ostree-2022.1-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "2021.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2022.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.5",
+      "pname": "ostree",
+      "name": "ostree-2022.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/71jvcr1341g6rhjn2kky77spjfgr4nqb-ostree-2022.5-dev",
+        "installedTests": "/nix/store/2y1hwvdr6x62l5lrsynms5bnmknjacsy-ostree-2022.5-installedTests",
+        "man": "/nix/store/qi484w86p9l0zp0my5ci423zac3bp9b8-ostree-2022.5-man",
+        "out": "/nix/store/gk3hpd0pw4wlmzfg6kjimz7znmyf88xf-ostree-2022.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Git for operating system binaries",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/ostree/default.nix:144",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ostree"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gk3hpd0pw4wlmzfg6kjimz7znmyf88xf-ostree-2022.5",
+        "/nix/store/qi484w86p9l0zp0my5ci423zac3bp9b8-ostree-2022.5-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

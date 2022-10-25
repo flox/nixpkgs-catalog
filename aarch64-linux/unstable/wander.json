@@ -1,21 +1,21 @@
 {
-  "0.7.0": {
+  "0.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.7.0",
+      "version": "0.8.0",
       "pname": "wander",
-      "name": "wander-0.7.0",
+      "name": "wander-0.8.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/s1jkajzld2a8sx9w1dmjih07b3rvihw6-wander-0.7.0"
+        "out": "/nix/store/qlmsbzx9p7d8rgl8qkkg4f2fdh9id0kl-wander-0.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Terminal app/TUI for HashiCorp Nomad",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/admin/wander/default.nix:17",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/wander/default.nix:41",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/s1jkajzld2a8sx9w1dmjih07b3rvihw6-wander-0.7.0"
+        "/nix/store/qlmsbzx9p7d8rgl8qkkg4f2fdh9id0kl-wander-0.8.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.7.0",
+      "pname": "wander",
+      "name": "wander-0.7.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/nd1qgf85xmm6ccqqgj3pf3wqjl23w2fa-wander-0.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Terminal app/TUI for HashiCorp Nomad",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/wander/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "wander"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nd1qgf85xmm6ccqqgj3pf3wqjl23w2fa-wander-0.7.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

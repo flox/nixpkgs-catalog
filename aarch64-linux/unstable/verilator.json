@@ -1,21 +1,21 @@
 {
-  "4.210": {
+  "4.226": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.210",
+      "version": "4.226",
       "pname": "verilator",
-      "name": "verilator-4.210",
+      "name": "verilator-4.226",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gbwj0q9drvj4nwifh2i5pgzjjnfmfn6h-verilator-4.210"
+        "out": "/nix/store/cg1r97mhd2bcymfh4zy98bq2i1cf1r7z-verilator-4.226"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Fast and robust (System)Verilog simulator/compiler",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/science/electronics/verilator/default.nix:30",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/science/electronics/verilator/default.nix:36",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gbwj0q9drvj4nwifh2i5pgzjjnfmfn6h-verilator-4.210"
+        "/nix/store/cg1r97mhd2bcymfh4zy98bq2i1cf1r7z-verilator-4.226"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "4.224": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.224",
+      "pname": "verilator",
+      "name": "verilator-4.224",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/fw69vw47jfpiagbnblikmrvkhjav94cv-verilator-4.224"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast and robust (System)Verilog simulator/compiler",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/electronics/verilator/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "verilator"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fw69vw47jfpiagbnblikmrvkhjav94cv-verilator-4.224"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

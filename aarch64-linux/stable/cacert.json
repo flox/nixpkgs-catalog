@@ -1,23 +1,23 @@
 {
-  "3.74": {
+  "3.77": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.74",
+      "version": "3.77",
       "pname": "nss-cacert",
-      "name": "nss-cacert-3.74",
+      "name": "nss-cacert-3.77",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/1r5h57cq3c8qsr2wjqpvf26f8jn6vypy-nss-cacert-3.74",
-        "p11kit": "/nix/store/q7k1mflv8vqs9ri1hmaljiimhdspl6rv-nss-cacert-3.74-p11kit",
-        "unbundled": "/nix/store/syqkx8xxys84f5yaq8l2ss2vrj8ahpcd-nss-cacert-3.74-unbundled"
+        "out": "/nix/store/6bdb973h1d0swhfz2s0a8qfma3f35mff-nss-cacert-3.77",
+        "p11kit": "/nix/store/71n60nka059f8gj3bvms09prwp2h0y6l-nss-cacert-3.77-p11kit",
+        "unbundled": "/nix/store/bm2ddnfibglbqa5h6a7xl70hr5ri59vw-nss-cacert-3.77-unbundled"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A bundle of X.509 certificates of public Certificate Authorities (CA)",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/data/misc/cacert/default.nix:27",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/data/misc/cacert/default.nix:27",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1r5h57cq3c8qsr2wjqpvf26f8jn6vypy-nss-cacert-3.74"
+        "/nix/store/6bdb973h1d0swhfz2s0a8qfma3f35mff-nss-cacert-3.77"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.80": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.80",
+      "pname": "nss-cacert",
+      "name": "nss-cacert-3.80",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/h6nggq1a92agqsm98r65930gh1hhk4gd-nss-cacert-3.80",
+        "p11kit": "/nix/store/3ki2w5ll3r22l5gnszl1cdrnp32va0al-nss-cacert-3.80-p11kit",
+        "unbundled": "/nix/store/rn6ip76d7b3wrm4byp6xqvdnrsjrnlwj-nss-cacert-3.80-unbundled"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A bundle of X.509 certificates of public Certificate Authorities (CA)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/data/misc/cacert/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cacert"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h6nggq1a92agqsm98r65930gh1hhk4gd-nss-cacert-3.80"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.77": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.77",
-      "pname": "nss-cacert",
-      "name": "nss-cacert-3.77",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/6bdb973h1d0swhfz2s0a8qfma3f35mff-nss-cacert-3.77",
-        "p11kit": "/nix/store/71n60nka059f8gj3bvms09prwp2h0y6l-nss-cacert-3.77-p11kit",
-        "unbundled": "/nix/store/bm2ddnfibglbqa5h6a7xl70hr5ri59vw-nss-cacert-3.77-unbundled"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A bundle of X.509 certificates of public Certificate Authorities (CA)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/data/misc/cacert/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cacert"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6bdb973h1d0swhfz2s0a8qfma3f35mff-nss-cacert-3.77"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.2.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.5",
+      "pname": "rnix-lsp",
+      "name": "rnix-lsp-0.2.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8s0jfq040pacic3m8h0dj6b05hdnfizd-rnix-lsp-0.2.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A work-in-progress language server for Nix, with syntax checking and basic completion",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rnix-lsp/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rnix-lsp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8s0jfq040pacic3m8h0dj6b05hdnfizd-rnix-lsp-0.2.5"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.2.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.5",
-      "pname": "rnix-lsp",
-      "name": "rnix-lsp-0.2.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/5d72bcxy7pjabs14wl463fc6z3ibkqv8-rnix-lsp-0.2.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A work-in-progress language server for Nix, with syntax checking and basic completion",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/rnix-lsp/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "rnix-lsp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5d72bcxy7pjabs14wl463fc6z3ibkqv8-rnix-lsp-0.2.5"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

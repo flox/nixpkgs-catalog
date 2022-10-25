@@ -1,4 +1,47 @@
 {
+  "0.30.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.30.0",
+      "pname": "fzf",
+      "name": "fzf-0.30.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/pi70pjzfs8jy1hi9l3lgpp6nrksniv6v-fzf-0.30.0-man",
+        "out": "/nix/store/d2s3gvynfi3ggrjc60a8dk2dkh95zppv-fzf-0.30.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A command-line fuzzy finder written in Go",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/fzf/default.nix:70",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fzf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d2s3gvynfi3ggrjc60a8dk2dkh95zppv-fzf-0.30.0",
+        "/nix/store/pi70pjzfs8jy1hi9l3lgpp6nrksniv6v-fzf-0.30.0-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.29.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -42,17 +85,17 @@
       }
     }
   },
-  "0.30.0": {
+  "0.32.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.30.0",
+      "version": "0.32.1",
       "pname": "fzf",
-      "name": "fzf-0.30.0",
+      "name": "fzf-0.32.1",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/pi70pjzfs8jy1hi9l3lgpp6nrksniv6v-fzf-0.30.0-man",
-        "out": "/nix/store/d2s3gvynfi3ggrjc60a8dk2dkh95zppv-fzf-0.30.0"
+        "man": "/nix/store/ndc8h4w1143848r58nn5vd37h1i4im8g-fzf-0.32.1-man",
+        "out": "/nix/store/ax5dyi9zlx464hn02wy6kz5hycgbxydx-fzf-0.32.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -60,7 +103,7 @@
           "man"
         ],
         "description": "A command-line fuzzy finder written in Go",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/fzf/default.nix:70",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/misc/fzf/default.nix:68",
         "unfree": false
       }
     },
@@ -73,15 +116,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/d2s3gvynfi3ggrjc60a8dk2dkh95zppv-fzf-0.30.0",
-        "/nix/store/pi70pjzfs8jy1hi9l3lgpp6nrksniv6v-fzf-0.30.0-man"
+        "/nix/store/ax5dyi9zlx464hn02wy6kz5hycgbxydx-fzf-0.32.1",
+        "/nix/store/ndc8h4w1143848r58nn5vd37h1i4im8g-fzf-0.32.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

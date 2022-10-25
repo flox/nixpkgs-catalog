@@ -1,18 +1,18 @@
 {
-  "3.7.2": {
+  "3.7.7": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.7.2",
+      "version": "3.7.7",
       "pname": "gnutls",
-      "name": "gnutls-3.7.2",
+      "name": "gnutls-3.7.7",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/aqnjjxzbsnvzdql74bp70hh8q6dkm47h-gnutls-3.7.2-bin",
-        "dev": "/nix/store/wbgr1z0b9anqsd9jlvh03nrdx263akq4-gnutls-3.7.2-dev",
-        "devdoc": "/nix/store/cxdg5pnrd3h4mx7hhirck1hcdy4yiqw5-gnutls-3.7.2-devdoc",
-        "man": "/nix/store/g4wxwgaj9pjggid2q6s06k22nzrg9sw6-gnutls-3.7.2-man",
-        "out": "/nix/store/0s6zcp7zlmpsjh48d0b0ffyqs86f5bjd-gnutls-3.7.2"
+        "bin": "/nix/store/3q12fica1nh7kqfkfwk3dzqq4lrlcpa0-gnutls-3.7.7-bin",
+        "dev": "/nix/store/w0pahsdz97xmpi41sfwr38hri63l7chy-gnutls-3.7.7-dev",
+        "devdoc": "/nix/store/hfxgxl03kzj9smdj3lzza0sbyafym71x-gnutls-3.7.7-devdoc",
+        "man": "/nix/store/nwkxzivdaalijzdmm9g79xxd3ihmg8zq-gnutls-3.7.7-man",
+        "out": "/nix/store/1w6pk194hj2j3klzdsbcq75a1bs5gd3v-gnutls-3.7.7"
       },
       "meta": {
         "outputsToInstall": [
@@ -20,7 +20,7 @@
           "man"
         ],
         "description": "The GNU Transport Layer Security Library",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/gnutls/default.nix:105",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gnutls/default.nix:109",
         "unfree": false
       }
     },
@@ -33,15 +33,61 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/aqnjjxzbsnvzdql74bp70hh8q6dkm47h-gnutls-3.7.2-bin",
-        "/nix/store/g4wxwgaj9pjggid2q6s06k22nzrg9sw6-gnutls-3.7.2-man"
+        "/nix/store/3q12fica1nh7kqfkfwk3dzqq4lrlcpa0-gnutls-3.7.7-bin",
+        "/nix/store/nwkxzivdaalijzdmm9g79xxd3ihmg8zq-gnutls-3.7.7-man"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.7.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.7.6",
+      "pname": "gnutls",
+      "name": "gnutls-3.7.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/9yc0z6pfbdmcwdmn1yxkhp05lr37flwi-gnutls-3.7.6-bin",
+        "dev": "/nix/store/rqkm6j154i16gdnaglrri187c78l23nv-gnutls-3.7.6-dev",
+        "devdoc": "/nix/store/74xhraspzd0g0vbqn161p82mv1z032h3-gnutls-3.7.6-devdoc",
+        "man": "/nix/store/qryrd3gv1p5gym6a45n45ckmdaspl004-gnutls-3.7.6-man",
+        "out": "/nix/store/dfwwpssvpqxf1d1pynfwvnjra66m4xaw-gnutls-3.7.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "The GNU Transport Layer Security Library",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/gnutls/default.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gnutls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9yc0z6pfbdmcwdmn1yxkhp05lr37flwi-gnutls-3.7.6-bin",
+        "/nix/store/qryrd3gv1p5gym6a45n45ckmdaspl004-gnutls-3.7.6-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

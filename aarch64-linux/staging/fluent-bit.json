@@ -1,45 +1,4 @@
 {
-  "1.8.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.9",
-      "pname": "fluent-bit",
-      "name": "fluent-bit-1.8.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/20q71hwmkpmjaxxm1h9h6xsacw3c65lq-fluent-bit-1.8.9-dev",
-        "out": "/nix/store/pg1blgadv4n1ky0j8wcl2ks9pfrfmvxi-fluent-bit-1.8.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/fluent-bit/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fluent-bit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pg1blgadv4n1ky0j8wcl2ks9pfrfmvxi-fluent-bit-1.8.9"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.8.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.7",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/damjlhcbpz2fviw7sg45b6w0zxzm6i3r-fluent-bit-1.9.7-dev",
+        "out": "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },

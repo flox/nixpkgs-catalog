@@ -1,23 +1,23 @@
 {
-  "0.99.15": {
+  "0.99.17": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.99.15",
+      "version": "0.99.17",
       "pname": "upower",
-      "name": "upower-0.99.15",
+      "name": "upower-0.99.17",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/dj36l4vq0j7l3cw6h84n30iv4c7mxsnr-upower-0.99.15-dev",
-        "devdoc": "/nix/store/cwra4hmnm20b5z84195yw50gff65592y-upower-0.99.15-devdoc",
-        "out": "/nix/store/rskyyv4b5c8dpdq1iryazj61q6ym59y5-upower-0.99.15"
+        "dev": "/nix/store/p1vrnk1v28jb6a48fwnbs870614lf8x2-upower-0.99.17-dev",
+        "devdoc": "/nix/store/2b6wgn1fmmn3sbn130hflw9rh3wir87x-upower-0.99.17-devdoc",
+        "out": "/nix/store/rkgqnjhdiyz54ykzr9wdk0ih4284c3b7-upower-0.99.17"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A D-Bus service for power management",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/os-specific/linux/upower/default.nix:102",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/upower/default.nix:113",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rskyyv4b5c8dpdq1iryazj61q6ym59y5-upower-0.99.15"
+        "/nix/store/rkgqnjhdiyz54ykzr9wdk0ih4284c3b7-upower-0.99.17"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.90.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.90.0",
+      "pname": "upower",
+      "name": "upower-1.90.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/1drgnh6c0lm0vcq0jh0vwldqkd9fzpnm-upower-1.90.0-dev",
+        "devdoc": "/nix/store/pc3bdsxahhqd66qm85a3i2rzcnzf10xx-upower-1.90.0-devdoc",
+        "out": "/nix/store/9qcxlpfn00l9p8ykw8v0mbhzln6070lj-upower-1.90.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A D-Bus service for power management",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/upower/default.nix:150",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "upower"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9qcxlpfn00l9p8ykw8v0mbhzln6070lj-upower-1.90.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -79,48 +121,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.99.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.99.17",
-      "pname": "upower",
-      "name": "upower-0.99.17",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/p1vrnk1v28jb6a48fwnbs870614lf8x2-upower-0.99.17-dev",
-        "devdoc": "/nix/store/2b6wgn1fmmn3sbn130hflw9rh3wir87x-upower-0.99.17-devdoc",
-        "out": "/nix/store/rkgqnjhdiyz54ykzr9wdk0ih4284c3b7-upower-0.99.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A D-Bus service for power management",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/upower/default.nix:113",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "upower"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rkgqnjhdiyz54ykzr9wdk0ih4284c3b7-upower-0.99.17"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

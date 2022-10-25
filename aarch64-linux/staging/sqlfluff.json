@@ -1,4 +1,44 @@
 {
+  "0.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.13.2",
+      "pname": "sqlfluff",
+      "name": "sqlfluff-0.13.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/rf7yrpdkhq6xchgachqllxy29szdxwd3-sqlfluff-0.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "SQL linter and auto-formatter",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sqlfluff"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rf7yrpdkhq6xchgachqllxy29szdxwd3-sqlfluff-0.13.2"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
   "1.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.13.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.2",
-      "pname": "sqlfluff",
-      "name": "sqlfluff-0.13.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/rf7yrpdkhq6xchgachqllxy29szdxwd3-sqlfluff-0.13.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "SQL linter and auto-formatter",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "sqlfluff"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rf7yrpdkhq6xchgachqllxy29szdxwd3-sqlfluff-0.13.2"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

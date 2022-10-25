@@ -1,16 +1,16 @@
 {
-  "1.23.4": {
+  "1.23.11": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.23.4",
+      "version": "1.23.11",
       "pname": "kubernetes",
-      "name": "kubernetes-1.23.4",
+      "name": "kubernetes-1.23.11",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/73xi81bffl273da9kbxk3fi30cqz2ic8-kubernetes-1.23.4-man",
-        "out": "/nix/store/k1mzvzmafy9snlmj6k8v4j756pnlmjk9-kubernetes-1.23.4",
-        "pause": "/nix/store/ylmjf4diw57rkc3i7rp598dvkhip9wgg-kubernetes-1.23.4-pause"
+        "man": "/nix/store/dm02l92cynfmmyra9na9qkzfnm7bnqr0-kubernetes-1.23.11-man",
+        "out": "/nix/store/81rkywp1203pv60ylp885q4rn20d0fhg-kubernetes-1.23.11",
+        "pause": "/nix/store/pzl95bvll1la8bpfj2r4rrydysnbpla0-kubernetes-1.23.11-pause"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "Production-Grade Container Scheduling and Management",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/cluster/kubernetes/default.nix:96",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kubernetes/default.nix:87",
         "unfree": false
       }
     },
@@ -31,15 +31,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/k1mzvzmafy9snlmj6k8v4j756pnlmjk9-kubernetes-1.23.4",
-        "/nix/store/73xi81bffl273da9kbxk3fi30cqz2ic8-kubernetes-1.23.4-man"
+        "/nix/store/81rkywp1203pv60ylp885q4rn20d0fhg-kubernetes-1.23.11",
+        "/nix/store/dm02l92cynfmmyra9na9qkzfnm7bnqr0-kubernetes-1.23.11-man"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.23.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.10",
+      "pname": "kubernetes",
+      "name": "kubernetes-1.23.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/ks968r6hcvypsbfrg6krl3lslkx417sn-kubernetes-1.23.10-man",
+        "out": "/nix/store/xlpywy0rljim8z4pldr8mm2rs0r9pw3z-kubernetes-1.23.10",
+        "pause": "/nix/store/qis3k23hk6fj4mmmdbb9gvaqsxdzm1nw-kubernetes-1.23.10-pause"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Production-Grade Container Scheduling and Management",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/kubernetes/default.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kubernetes"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xlpywy0rljim8z4pldr8mm2rs0r9pw3z-kubernetes-1.23.10",
+        "/nix/store/ks968r6hcvypsbfrg6krl3lslkx417sn-kubernetes-1.23.10-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -84,50 +128,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.23.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.7",
-      "pname": "kubernetes",
-      "name": "kubernetes-1.23.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/r0h527mak8ls5wh5gn4ibdwc4yz67kad-kubernetes-1.23.7-man",
-        "out": "/nix/store/cg2z1wjb7fcf1d0w09mzjazmdr8b18r7-kubernetes-1.23.7",
-        "pause": "/nix/store/s5mxlrg0rmh5byrqwzb9q1df6sa7x2qm-kubernetes-1.23.7-pause"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Production-Grade Container Scheduling and Management",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/kubernetes/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kubernetes"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cg2z1wjb7fcf1d0w09mzjazmdr8b18r7-kubernetes-1.23.7",
-        "/nix/store/r0h527mak8ls5wh5gn4ibdwc4yz67kad-kubernetes-1.23.7-man"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

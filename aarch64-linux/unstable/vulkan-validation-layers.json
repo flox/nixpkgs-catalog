@@ -1,22 +1,22 @@
 {
-  "1.2.198.0": {
+  "1.3.224.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.2.198.0",
+      "version": "1.3.224.0",
       "pname": "vulkan-validation-layers",
-      "name": "vulkan-validation-layers-1.2.198.0",
+      "name": "vulkan-validation-layers-1.3.224.0",
       "system": "aarch64-linux",
       "outputs": {
-        "headers": "/nix/store/vkfzzbwcdx7s8hs5nx36xxfk5r3g0kba-vulkan-validation-layers-1.2.198.0-headers",
-        "out": "/nix/store/4xgdi2qr75blwq91sbvif18lay1csii3-vulkan-validation-layers-1.2.198.0"
+        "headers": "/nix/store/qb5586rfl7220rjw94qqlkzyy07db4cn-vulkan-validation-layers-1.3.224.0-headers",
+        "out": "/nix/store/yg5yj1v3h22lxykfdsfn9djcdbc2h9yv-vulkan-validation-layers-1.3.224.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The official Khronos Vulkan validation layers",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/vulkan-validation-layers/default.nix:72",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/vulkan-validation-layers/default.nix:78",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4xgdi2qr75blwq91sbvif18lay1csii3-vulkan-validation-layers-1.2.198.0"
+        "/nix/store/yg5yj1v3h22lxykfdsfn9djcdbc2h9yv-vulkan-validation-layers-1.3.224.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.3.224.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.3.224.1",
+      "pname": "vulkan-validation-layers",
+      "name": "vulkan-validation-layers-1.3.224.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "headers": "/nix/store/4pqfalzrrp4pwxj545mggalx44lcwl0x-vulkan-validation-layers-1.3.224.1-headers",
+        "out": "/nix/store/pfz7hgwy0bkd2l7zkf3mrd5z4vchwbcc-vulkan-validation-layers-1.3.224.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The official Khronos Vulkan validation layers",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/vulkan-validation-layers/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "vulkan-validation-layers"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pfz7hgwy0bkd2l7zkf3mrd5z4vchwbcc-vulkan-validation-layers-1.3.224.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

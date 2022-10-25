@@ -1,21 +1,21 @@
 {
-  "1.25.0": {
+  "1.25.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.25.0",
+      "version": "1.25.3",
       "pname": "kubelogin",
-      "name": "kubelogin-1.25.0",
+      "name": "kubelogin-1.25.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/nqxqvrzvx5fmj08k2i4svjv5nn7l32n8-kubelogin-1.25.0"
+        "out": "/nix/store/gradfyh577lli1yzm26jyr5glhj4nxv2-kubelogin-1.25.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A Kubernetes credential plugin implementing OpenID Connect (OIDC) authentication",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/kubelogin-oidc/default.nix:25",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kubelogin-oidc/default.nix:25",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/nqxqvrzvx5fmj08k2i4svjv5nn7l32n8-kubelogin-1.25.0"
+        "/nix/store/gradfyh577lli1yzm26jyr5glhj4nxv2-kubelogin-1.25.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.25.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.25.2",
+      "pname": "kubelogin",
+      "name": "kubelogin-1.25.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/lns6yrpahzd0bbhc0pjiy9jhgr3455nv-kubelogin-1.25.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Kubernetes credential plugin implementing OpenID Connect (OIDC) authentication",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/kubelogin-oidc/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kubelogin-oidc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lns6yrpahzd0bbhc0pjiy9jhgr3455nv-kubelogin-1.25.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },

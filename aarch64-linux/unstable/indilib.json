@@ -1,21 +1,21 @@
 {
-  "1.9.3": {
+  "1.9.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.9.3",
+      "version": "1.9.8",
       "pname": "indilib",
-      "name": "indilib-1.9.3",
+      "name": "indilib-1.9.8",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/vawh2rcghshln12gnn4nc5r5q0q6rw9v-indilib-1.9.3"
+        "out": "/nix/store/dgm0vsxyx1my30464cx1dn9cpqlbf2rn-indilib-1.9.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Implementation of the INDI protocol for POSIX operating systems",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/science/astronomy/indilib/default.nix:50",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/science/astronomy/indilib/default.nix:52",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vawh2rcghshln12gnn4nc5r5q0q6rw9v-indilib-1.9.3"
+        "/nix/store/dgm0vsxyx1my30464cx1dn9cpqlbf2rn-indilib-1.9.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.9.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.6",
+      "pname": "indilib",
+      "name": "indilib-1.9.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/q8b078zg9nlhwc5irz20db170h32fv5h-indilib-1.9.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Implementation of the INDI protocol for POSIX operating systems",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/science/astronomy/indilib/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "indilib"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/q8b078zg9nlhwc5irz20db170h32fv5h-indilib-1.9.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

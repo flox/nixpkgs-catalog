@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.0",
-      "pname": "timescaledb",
-      "name": "timescaledb-2.7.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/ja9mrsc82wpygd7c5wx52r4ggzs8wmga-timescaledb-2.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "timescaledb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ja9mrsc82wpygd7c5wx52r4ggzs8wmga-timescaledb-2.7.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "2.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.2",
+      "pname": "timescaledb",
+      "name": "timescaledb-2.7.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/mqb08n4zyplranx9yvsa6chbwsxr07v7-timescaledb-2.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "timescaledb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mqb08n4zyplranx9yvsa6chbwsxr07v7-timescaledb-2.7.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

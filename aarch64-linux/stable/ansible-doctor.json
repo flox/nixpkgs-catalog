@@ -39,23 +39,23 @@
       }
     }
   },
-  "1.4.0": {
+  "1.4.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "pname": "ansible-doctor",
-      "name": "ansible-doctor-1.4.0",
+      "name": "ansible-doctor-1.4.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/xkz2ih6s2s283xi6y68yf0897bq586xc-python3.9-ansible-doctor-1.4.0"
+        "out": "/nix/store/hddkxw55rg445z9r70sjb1kp48bml6rj-python3.10-ansible-doctor-1.4.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Annotation based documentation for your Ansible roles",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/python-modules/ansible-doctor/default.nix:71",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/python-modules/ansible-doctor/default.nix:72",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xkz2ih6s2s283xi6y68yf0897bq586xc-python3.9-ansible-doctor-1.4.0"
+        "/nix/store/hddkxw55rg445z9r70sjb1kp48bml6rj-python3.10-ansible-doctor-1.4.1"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "1.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.0",
+      "pname": "ansible-doctor",
+      "name": "ansible-doctor-1.4.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/vqw0x88qkqipj6vyqlidvfjrsabw33h5-python3.10-ansible-doctor-1.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Annotation based documentation for your Ansible roles",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-doctor/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ansible-doctor"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vqw0x88qkqipj6vyqlidvfjrsabw33h5-python3.10-ansible-doctor-1.4.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

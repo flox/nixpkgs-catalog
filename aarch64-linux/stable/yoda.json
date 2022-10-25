@@ -8,14 +8,14 @@
       "name": "yoda-1.9.5",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/zrczq6rqddbqz8j6v9aqjcsfz3myaciw-yoda-1.9.5"
+        "out": "/nix/store/banqpm0a1z7rcnf1mza7g8h7vlhf7n13-yoda-1.9.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Provides small set of data analysis (specifically histogramming) classes",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/physics/yoda/default.nix:37",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/physics/yoda/default.nix:37",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zrczq6rqddbqz8j6v9aqjcsfz3myaciw-yoda-1.9.5"
+        "/nix/store/banqpm0a1z7rcnf1mza7g8h7vlhf7n13-yoda-1.9.5"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.9.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.6",
+      "pname": "yoda",
+      "name": "yoda-1.9.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/acp68x4fwn12qv98bckfh9j62smh0nrf-yoda-1.9.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Provides small set of data analysis (specifically histogramming) classes",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/physics/yoda/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "yoda"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/acp68x4fwn12qv98bckfh9j62smh0nrf-yoda-1.9.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

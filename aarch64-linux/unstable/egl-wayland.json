@@ -40,6 +40,47 @@
       }
     }
   },
+  "1.1.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.11",
+      "pname": "egl-wayland",
+      "name": "egl-wayland-1.1.11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/5ml2jbgi67177v28sp57x49aq08zf0bp-egl-wayland-1.1.11-dev",
+        "out": "/nix/store/x25slni8fc1573kgnrpx1w56dxsbf3fp-egl-wayland-1.1.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The EGLStream-based Wayland external platform",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/egl-wayland/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "egl-wayland"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x25slni8fc1573kgnrpx1w56dxsbf3fp-egl-wayland-1.1.11"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.1.9": {
     "type": "catalogRender",
     "schema": 1,

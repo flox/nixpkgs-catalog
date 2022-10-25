@@ -42,6 +42,49 @@
       }
     }
   },
+  "14.0.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.6",
+      "pname": "llvm",
+      "name": "llvm-14.0.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/d5mbpc30vprxfjp3mbgh2v84rdd5l812-llvm-14.0.6-dev",
+        "lib": "/nix/store/r01hy0c0bd1azmbgm9r1rndxdh78s53s-llvm-14.0.6-lib",
+        "out": "/nix/store/sqj05h2k4psw7a2jix5n1dzf6hd3x32h-llvm-14.0.6",
+        "python": "/nix/store/q0pjx5vnawwpahcyam81sxq43lq8q2z0-llvm-14.0.6-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A collection of modular and reusable compiler and toolchain technologies",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/llvm/14/llvm/default.nix:236",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "llvm_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sqj05h2k4psw7a2jix5n1dzf6hd3x32h-llvm-14.0.6"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "14.0.1": {
     "type": "catalogRender",
     "schema": 1,

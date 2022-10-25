@@ -1,21 +1,21 @@
 {
-  "0.14.0": {
+  "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.14.0",
+      "version": "0.16.0",
       "pname": "cargo-generate",
-      "name": "cargo-generate-0.14.0",
+      "name": "cargo-generate-0.16.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/k3xypzlj7nkgqm9pmkzy2x0l89vy5s8z-cargo-generate-0.14.0"
+        "out": "/nix/store/82f7fr13cs69gzgrr53b9xkxbdbvnxh9-cargo-generate-0.16.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "cargo, make me a project",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/rust/cargo-generate/default.nix:34",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rust/cargo-generate/default.nix:45",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/k3xypzlj7nkgqm9pmkzy2x0l89vy5s8z-cargo-generate-0.14.0"
+        "/nix/store/82f7fr13cs69gzgrr53b9xkxbdbvnxh9-cargo-generate-0.16.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.0",
+      "pname": "cargo-generate",
+      "name": "cargo-generate-0.14.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6ik88wdkj9f4lsxyivqqi7al2i7mbfhc-cargo-generate-0.14.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "cargo, make me a project",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-generate/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cargo-generate"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6ik88wdkj9f4lsxyivqqi7al2i7mbfhc-cargo-generate-0.14.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

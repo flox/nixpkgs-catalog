@@ -1,4 +1,47 @@
 {
+  "3.39.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.39.2",
+      "pname": "sqlite-interactive",
+      "name": "sqlite-interactive-3.39.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/x4rx7scy19mf0p7kv7yq9mc2gw9b76bx-sqlite-interactive-3.39.2-bin",
+        "debug": "/nix/store/siyvsib3dvy34rramj95ird52k3r7dx4-sqlite-interactive-3.39.2-debug",
+        "dev": "/nix/store/40lly4mrjvj9iz5nm7vadz3yjvfhm8iv-sqlite-interactive-3.39.2-dev",
+        "out": "/nix/store/5ww10yrh078y2i36mg6sbxzq042c165f-sqlite-interactive-3.39.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sqlite/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sqlite-interactive"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x4rx7scy19mf0p7kv7yq9mc2gw9b76bx-sqlite-interactive-3.39.2-bin"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.39.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -39,49 +82,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "3.39.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.39.0",
-      "pname": "sqlite-interactive",
-      "name": "sqlite-interactive-3.39.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/0v1crj876id22fpszn4bxi6p8b3ldcpm-sqlite-interactive-3.39.0-bin",
-        "debug": "/nix/store/ygsgf6ffacc6x5axx1rfdk6pz51020d2-sqlite-interactive-3.39.0-debug",
-        "dev": "/nix/store/jfpkwcvsy9dzmm25sr0qndzkv75z5gmb-sqlite-interactive-3.39.0-dev",
-        "out": "/nix/store/91xvx3dy9wqxj9isy4a8q9abmkgjidsc-sqlite-interactive-3.39.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/sqlite/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "sqlite-interactive"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0v1crj876id22fpszn4bxi6p8b3ldcpm-sqlite-interactive-3.39.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

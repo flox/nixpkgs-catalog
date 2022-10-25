@@ -8,15 +8,15 @@
       "name": "libmt32emu-2.6.3",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/7cjh721hyzhfwg4jqxky8k7gxap5d7dv-libmt32emu-2.6.3-dev",
-        "out": "/nix/store/i99917vw0d53cm3zb2zs2sxzbk3av7gi-libmt32emu-2.6.3"
+        "dev": "/nix/store/x7zbin0zvnqa79f6lss5v50g7aqmgj8v-libmt32emu-2.6.3-dev",
+        "out": "/nix/store/i28aidkrrcf5l2afx8zy1pc180v9kwcc-libmt32emu-2.6.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A library to emulate Roland MT-32, CM-32L, CM-64 and LAPC-I devices",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/audio/munt/libmt32emu.nix:33",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/munt/libmt32emu.nix:33",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/i99917vw0d53cm3zb2zs2sxzbk3av7gi-libmt32emu-2.6.3"
+        "/nix/store/i28aidkrrcf5l2afx8zy1pc180v9kwcc-libmt32emu-2.6.3"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "2.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.0",
+      "pname": "libmt32emu",
+      "name": "libmt32emu-2.7.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/0b6hha3155f7v0pj9pfi4gb4cr0wli9g-libmt32emu-2.7.0-dev",
+        "out": "/nix/store/v875dgv7i53d8b7xxscg9vwyrcr1qfrb-libmt32emu-2.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library to emulate Roland MT-32, CM-32L, CM-64 and LAPC-I devices",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/munt/libmt32emu.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libmt32emu"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v875dgv7i53d8b7xxscg9vwyrcr1qfrb-libmt32emu-2.7.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

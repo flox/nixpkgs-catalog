@@ -1,4 +1,48 @@
 {
+  "2.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.39",
+      "pname": "binutils",
+      "name": "binutils-2.39",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/sij1bqrh15fn7sx9s1i902y9mwa677ys-binutils-2.39-info",
+        "man": "/nix/store/r6rk23fg5fk4654h3j1mpc4hmq97wmsp-binutils-2.39-man",
+        "out": "/nix/store/nfjvsykfzccck4yk9firb4qylpag2ycf-binutils-2.39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/misc/binutils/default.nix:209",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "binutils-unwrapped-all-targets"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nfjvsykfzccck4yk9firb4qylpag2ycf-binutils-2.39",
+        "/nix/store/r6rk23fg5fk4654h3j1mpc4hmq97wmsp-binutils-2.39-man"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,

@@ -46,6 +46,53 @@
       }
     }
   },
+  "1.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.14.0",
+      "pname": "flatpak",
+      "name": "flatpak-1.14.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/89wcrq54z7n18pnsk6hjr8p6vnir780z-flatpak-1.14.0-dev",
+        "devdoc": "/nix/store/4b6cqfll9jvq95f815212chaq2rp9x55-flatpak-1.14.0-devdoc",
+        "doc": "/nix/store/jalgd2rq13i0xjdmr75lbc5fk9zca1bb-flatpak-1.14.0-doc",
+        "installedTests": "/nix/store/yqcn8c5afw7lbsqch37q7sb2ky9r2aac-flatpak-1.14.0-installedTests",
+        "man": "/nix/store/gv34x47p5nm7bf8dkl61hh7507z3i87i-flatpak-1.14.0-man",
+        "out": "/nix/store/vyq8pg7v61xabn8ir52fm28pdwsqwq92-flatpak-1.14.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Linux application sandboxing and distribution framework",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/flatpak/default.nix:207",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "flatpak"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vyq8pg7v61xabn8ir52fm28pdwsqwq92-flatpak-1.14.0",
+        "/nix/store/gv34x47p5nm7bf8dkl61hh7507z3i87i-flatpak-1.14.0-man"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "1.12.7": {
     "type": "catalogRender",
     "schema": 1,

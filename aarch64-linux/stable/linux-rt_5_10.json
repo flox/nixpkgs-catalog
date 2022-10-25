@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.10.120-rt70": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.10.120-rt70",
-      "pname": "linux",
-      "name": "linux-5.10.120-rt70",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/qrv33fj8my8l42nsa8sv1s0xdmiw6zym-linux-5.10.120-rt70-dev",
-        "out": "/nix/store/fsnxjwg1fkmygprz0qc5bq0h2ydxq5xl-linux-5.10.120-rt70"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux-rt_5_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fsnxjwg1fkmygprz0qc5bq0h2ydxq5xl-linux-5.10.120-rt70"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "5.10.90-rt60": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "5.10.131-rt72": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.10.131-rt72",
+      "pname": "linux",
+      "name": "linux-5.10.131-rt72",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/gln0cs27wsj86my6vjxxda3wga59mcd1-linux-5.10.131-rt72-dev",
+        "out": "/nix/store/pza1n6ax5wxb4nnvgynpfnnxrbghaqg8-linux-5.10.131-rt72"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux-rt_5_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pza1n6ax5wxb4nnvgynpfnnxrbghaqg8-linux-5.10.131-rt72"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

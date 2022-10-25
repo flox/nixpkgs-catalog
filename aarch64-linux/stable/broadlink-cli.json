@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.18.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.18.2",
+      "pname": "broadlink-cli",
+      "name": "broadlink-cli-0.18.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m8r1fjdi0232skfacy0d4nx3vh2d5h5q-broadlink-cli-0.18.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for interfacing with Broadlink RM2/3 (Pro) remote controls, A1 sensor platforms and SP2/3 smartplugs",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/broadlink-cli/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "broadlink-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m8r1fjdi0232skfacy0d4nx3vh2d5h5q-broadlink-cli-0.18.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.18.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "0.18.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.2",
-      "pname": "broadlink-cli",
-      "name": "broadlink-cli-0.18.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/wd6djc4ddzfwq84z8mn0hr0yzbsvjafk-broadlink-cli-0.18.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for interfacing with Broadlink RM2/3 (Pro) remote controls, A1 sensor platforms and SP2/3 smartplugs",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/misc/broadlink-cli/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "broadlink-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wd6djc4ddzfwq84z8mn0hr0yzbsvjafk-broadlink-cli-0.18.2"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

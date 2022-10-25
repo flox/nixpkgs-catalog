@@ -1,21 +1,21 @@
 {
-  "5.6": {
+  "5.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.6",
+      "version": "5.9",
       "pname": "LanguageTool",
-      "name": "LanguageTool-5.6",
+      "name": "LanguageTool-5.9",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/df45xhg32xnch5n4aia9zd59shkn7h9v-LanguageTool-5.6"
+        "out": "/nix/store/fzh6jqzphzxwwl5jgrj3yqll26r3xza1-LanguageTool-5.9"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A proofreading program for English, French German, Polish, and more",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/text/languagetool/default.nix:36",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/text/languagetool/default.nix:39",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/df45xhg32xnch5n4aia9zd59shkn7h9v-LanguageTool-5.6"
+        "/nix/store/fzh6jqzphzxwwl5jgrj3yqll26r3xza1-LanguageTool-5.9"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.8",
+      "pname": "LanguageTool",
+      "name": "LanguageTool-5.8",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/bw3m0x2zfiifbbdfwsz0xl56bjv34hnz-LanguageTool-5.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A proofreading program for English, French German, Polish, and more",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/text/languagetool/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "languagetool"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bw3m0x2zfiifbbdfwsz0xl56bjv34hnz-LanguageTool-5.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

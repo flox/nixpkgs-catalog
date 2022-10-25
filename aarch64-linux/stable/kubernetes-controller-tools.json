@@ -8,14 +8,14 @@
       "name": "controller-tools-0.8.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/llskccrv3xw4hh0rn9yqizwslib28h5h-controller-tools-0.8.0"
+        "out": "/nix/store/rrmvsnf100360wzyqwr1xch0y179gyhb-controller-tools-0.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Tools to use with the Kubernetes controller-runtime libraries",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/llskccrv3xw4hh0rn9yqizwslib28h5h-controller-tools-0.8.0"
+        "/nix/store/rrmvsnf100360wzyqwr1xch0y179gyhb-controller-tools-0.8.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.9.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.2",
+      "pname": "controller-tools",
+      "name": "controller-tools-0.9.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/qkf6fnpf713jw7npp3q3d7k18pmqd38y-controller-tools-0.9.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools to use with the Kubernetes controller-runtime libraries",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kubernetes-controller-tools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qkf6fnpf713jw7npp3q3d7k18pmqd38y-controller-tools-0.9.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

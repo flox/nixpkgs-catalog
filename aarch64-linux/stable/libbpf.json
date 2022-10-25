@@ -1,21 +1,21 @@
 {
-  "0.6.1": {
+  "0.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.6.1",
+      "version": "0.8.0",
       "pname": "libbpf",
-      "name": "libbpf-0.6.1",
+      "name": "libbpf-0.8.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/zhjnj6qbglja3qmgkkffkwgsmw47zi3i-libbpf-0.6.1"
+        "out": "/nix/store/ibfjyicm3fx8kx7qs4c7449s0hd1lsav-libbpf-0.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Upstream mirror of libbpf",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/libbpf/default.nix:47",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/libbpf/default.nix:43",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zhjnj6qbglja3qmgkkffkwgsmw47zi3i-libbpf-0.6.1"
+        "/nix/store/ibfjyicm3fx8kx7qs4c7449s0hd1lsav-libbpf-0.8.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.1",
+      "pname": "libbpf",
+      "name": "libbpf-0.8.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/khqqm0yz2mm5dnkvj14vl1gkwyc6xwxs-libbpf-0.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Upstream mirror of libbpf",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/libbpf/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libbpf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/khqqm0yz2mm5dnkvj14vl1gkwyc6xwxs-libbpf-0.8.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -48,14 +48,14 @@
       "name": "krita-5.0.8",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gw5cysx2cd6p23dk07amw376wjv9ffvd-krita-5.0.8"
+        "out": "/nix/store/94j98bvhdm4l4fnxm3yrxg2073axcaak-krita-5.0.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A free and open source painting application",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/graphics/krita/generic.nix:62",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/graphics/krita/generic.nix:62",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gw5cysx2cd6p23dk07amw376wjv9ffvd-krita-5.0.8"
+        "/nix/store/94j98bvhdm4l4fnxm3yrxg2073axcaak-krita-5.0.8"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "5.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1.1",
+      "pname": "krita",
+      "name": "krita-5.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/462i6y55jzp6zpw104vaw3nn9ncn4zd4-krita-5.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A free and open source painting application",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/graphics/krita/generic.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "krita-beta"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/462i6y55jzp6zpw104vaw3nn9ncn4zd4-krita-5.1.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

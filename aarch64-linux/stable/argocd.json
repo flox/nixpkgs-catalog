@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.3.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.4",
-      "pname": "argocd",
-      "name": "argocd-2.3.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/zyvxnpxkvsqw5qfjcgq9cvbiyqig7kyg-argocd-2.3.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Declarative continuous deployment for Kubernetes",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/networking/cluster/argocd/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "argocd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zyvxnpxkvsqw5qfjcgq9cvbiyqig7kyg-argocd-2.3.4"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "2.2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.4.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.10",
+      "pname": "argocd",
+      "name": "argocd-2.4.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/35cyn4ljbvbh48x8sz1ay4myvkph52r0-argocd-2.4.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Declarative continuous deployment for Kubernetes",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/argocd/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "argocd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/35cyn4ljbvbh48x8sz1ay4myvkph52r0-argocd-2.4.10"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

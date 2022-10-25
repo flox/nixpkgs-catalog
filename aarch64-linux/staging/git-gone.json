@@ -1,21 +1,21 @@
 {
-  "0.3.7": {
+  "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.3.7",
+      "version": "0.4.0",
       "pname": "git-gone",
-      "name": "git-gone-0.3.7",
+      "name": "git-gone-0.4.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/igyi9pp2bk7vfmh0pda9mn7zd9bzhbvy-git-gone-0.3.7"
+        "out": "/nix/store/qrk71mfab3d90lycig2am1wfvmsll2wb-git-gone-0.4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "Cleanup stale Git branches of pull requests",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/git-and-tools/git-gone/default.nix:30",
+        "description": "Cleanup stale Git branches of merge requests",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/version-management/git-and-tools/git-gone/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/igyi9pp2bk7vfmh0pda9mn7zd9bzhbvy-git-gone-0.3.7"
+        "/nix/store/qrk71mfab3d90lycig2am1wfvmsll2wb-git-gone-0.4.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.1",
+      "pname": "git-gone",
+      "name": "git-gone-0.4.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/0mjapym4923gpzsna3ln1rs3zr6hw9ns-git-gone-0.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cleanup stale Git branches of merge requests",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/version-management/git-and-tools/git-gone/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "git-gone"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0mjapym4923gpzsna3ln1rs3zr6hw9ns-git-gone-0.4.1"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   },

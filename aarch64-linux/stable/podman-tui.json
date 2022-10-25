@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "podman-tui",
+      "name": "podman-tui-0.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/9w5lzy8zzliq6swqzqxvf5fc2dlwb0zf-podman-tui-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Podman Terminal UI",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/podman-tui/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "podman-tui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9w5lzy8zzliq6swqzqxvf5fc2dlwb0zf-podman-tui-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "0.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.1.0",
-      "pname": "podman-tui",
-      "name": "podman-tui-0.1.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/pv89l7laavzfj5dklkjvj0ivfm7gmrw1-podman-tui-0.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Podman Terminal UI",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/virtualization/podman-tui/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "podman-tui"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pv89l7laavzfj5dklkjvj0ivfm7gmrw1-podman-tui-0.1.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
       }
     }
   }

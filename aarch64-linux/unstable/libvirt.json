@@ -1,4 +1,44 @@
 {
+  "8.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.6.0",
+      "pname": "libvirt",
+      "name": "libvirt-8.6.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/vp4a36hxank3fz1jynpwi2fsnhnvr6i5-libvirt-8.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux and other OSes",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/libvirt/default.nix:357",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libvirt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vp4a36hxank3fz1jynpwi2fsnhnvr6i5-libvirt-8.6.0"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "8.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "8.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.4.0",
-      "pname": "libvirt",
-      "name": "libvirt-8.4.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/2pnz9w08hxcn3jwx905bbhyzp0s4l1fs-libvirt-8.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A toolkit to interact with the virtualization capabilities of recent\nversions of Linux (and other OSes)\n",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/libraries/libvirt/default.nix:346",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libvirt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2pnz9w08hxcn3jwx905bbhyzp0s4l1fs-libvirt-8.4.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
       }
     }
   },

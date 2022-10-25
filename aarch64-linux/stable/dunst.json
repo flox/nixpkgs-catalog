@@ -42,6 +42,49 @@
       }
     }
   },
+  "1.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.0",
+      "pname": "dunst",
+      "name": "dunst-1.9.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/0rr7k3kbyczfhb3r20a4vnkby09b95n8-dunst-1.9.0-man",
+        "out": "/nix/store/wg73iddzj0345j3kjgaqqrm9d8zfvay5-dunst-1.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Lightweight and customizable notification daemon",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/dunst/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dunst"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wg73iddzj0345j3kjgaqqrm9d8zfvay5-dunst-1.9.0",
+        "/nix/store/0rr7k3kbyczfhb3r20a4vnkby09b95n8-dunst-1.9.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.8.1": {
     "type": "catalogRender",
     "schema": 1,

@@ -1,21 +1,21 @@
 {
-  "11.1.0": {
+  "13.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "11.1.0",
+      "version": "13.0.0",
       "pname": "kak-lsp",
-      "name": "kak-lsp-11.1.0",
+      "name": "kak-lsp-13.0.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/vywnlrmi9jr1x89433sx3apv32r0qqs6-kak-lsp-11.1.0"
+        "out": "/nix/store/7rp1pvb1xxw86kij1758sb7m23hb4pqz-kak-lsp-13.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Kakoune Language Server Protocol Client",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/kak-lsp/default.nix:19",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/misc/kak-lsp/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vywnlrmi9jr1x89433sx3apv32r0qqs6-kak-lsp-11.1.0"
+        "/nix/store/7rp1pvb1xxw86kij1758sb7m23hb4pqz-kak-lsp-13.0.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "14.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.0",
+      "pname": "kak-lsp",
+      "name": "kak-lsp-14.0.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/vn9svk7rl5qq55nvcyv0lg7vbz8hkd7h-kak-lsp-14.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Kakoune Language Server Protocol Client",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/kak-lsp/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kak-lsp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vn9svk7rl5qq55nvcyv0lg7vbz8hkd7h-kak-lsp-14.0.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

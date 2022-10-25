@@ -1,22 +1,22 @@
 {
-  "0.3.5": {
+  "0.6.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.3.5",
+      "version": "0.6.1",
       "pname": "galene",
-      "name": "galene-0.3.5",
+      "name": "galene-0.6.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/8yfqwv6nbinjn6nxa5h8ni2bgm89c0x3-galene-0.3.5",
-        "static": "/nix/store/1x2w5p23rrl60nlqr9id60iz94iyr6bs-galene-0.3.5-static"
+        "out": "/nix/store/zg6syrp3vy8nq4g2m2yp13qn6zgdbnqa-galene-0.6.1",
+        "static": "/nix/store/b5mz51qjfddxgxzay31kq6hdslardwwy-galene-0.6.1-static"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Videoconferencing server that is easy to deploy, written in Go",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/web-apps/galene/default.nix:24",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/web-apps/galene/default.nix:27",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8yfqwv6nbinjn6nxa5h8ni2bgm89c0x3-galene-0.3.5"
+        "/nix/store/zg6syrp3vy8nq4g2m2yp13qn6zgdbnqa-galene-0.6.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.5.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.5",
+      "pname": "galene",
+      "name": "galene-0.5.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/0k9yb7s75fxlmialwdw93qkrzmbmv1fg-galene-0.5.5",
+        "static": "/nix/store/42zczhmsg7x3ycraq6jpm0c21wlbpw4n-galene-0.5.5-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Videoconferencing server that is easy to deploy, written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/web-apps/galene/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "galene"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0k9yb7s75fxlmialwdw93qkrzmbmv1fg-galene-0.5.5"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

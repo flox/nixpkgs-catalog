@@ -44,6 +44,51 @@
       }
     }
   },
+  "0.14.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.2",
+      "pname": "sile",
+      "name": "sile-0.14.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/c6w7zw64qdgs2sd144lacjlaqxaf6ixd-sile-0.14.2-dev",
+        "doc": "/nix/store/93a4039y0s3vdmkvg2afjh2f1997v8ig-sile-0.14.2-doc",
+        "man": "/nix/store/vwwwnf156vkw52p7sa9h2rr5hklp3q81-sile-0.14.2-man",
+        "out": "/nix/store/86s4lv3q4540vk3ck0jps1f2svqi0j0z-sile-0.14.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A typesetting system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/typesetting/sile/default.nix:110",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sile"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/86s4lv3q4540vk3ck0jps1f2svqi0j0z-sile-0.14.2",
+        "/nix/store/vwwwnf156vkw52p7sa9h2rr5hklp3q81-sile-0.14.2-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "0.12.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,51 +131,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.0",
-      "pname": "sile",
-      "name": "sile-0.13.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/i1xmv7p0z4l1q6r9vqy41nw73dqaddxa-sile-0.13.0-dev",
-        "doc": "/nix/store/20ixl40b9im6fnn1dpfayvk7s1jgca22-sile-0.13.0-doc",
-        "man": "/nix/store/i7jz8lcxz1fhd6lfihhpz14nlvbsw2cb-sile-0.13.0-man",
-        "out": "/nix/store/k13gr3wqpz3l18kzdb8q44v8p9ldnpmk-sile-0.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A typesetting system",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/typesetting/sile/default.nix:111",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "sile"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k13gr3wqpz3l18kzdb8q44v8p9ldnpmk-sile-0.13.0",
-        "/nix/store/i7jz8lcxz1fhd6lfihhpz14nlvbsw2cb-sile-0.13.0-man"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

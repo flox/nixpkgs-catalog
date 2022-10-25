@@ -1,23 +1,23 @@
 {
-  "0.4.8": {
+  "0.4.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.4.8",
+      "version": "0.4.10",
       "pname": "wireplumber",
-      "name": "wireplumber-0.4.8",
+      "name": "wireplumber-0.4.10",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/hhmnc85brc6dpy95pk4bwavb91z8b727-wireplumber-0.4.8-dev",
-        "doc": "/nix/store/p3v5c9vhha8xgfkvwsx50q0jscvc84gs-wireplumber-0.4.8-doc",
-        "out": "/nix/store/f3lmylgqbjcj2f1061zig7h23fk49b7b-wireplumber-0.4.8"
+        "dev": "/nix/store/890wlc0qvcdcxafpwr23dbf3r78fblzp-wireplumber-0.4.10-dev",
+        "doc": "/nix/store/hczf3yxzi68157vlf306aidq0f9vkam7-wireplumber-0.4.10-doc",
+        "out": "/nix/store/vp4lcmaffpac1p2bd9fjchbb2831v84b-wireplumber-0.4.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A modular session / policy manager for PipeWire",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/pipewire/wireplumber.nix:90",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/pipewire/wireplumber.nix:79",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/f3lmylgqbjcj2f1061zig7h23fk49b7b-wireplumber-0.4.8"
+        "/nix/store/vp4lcmaffpac1p2bd9fjchbb2831v84b-wireplumber-0.4.10"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.4.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.11",
+      "pname": "wireplumber",
+      "name": "wireplumber-0.4.11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/rs0bzihhbqp86q28i3zvgz7nq9qdal4f-wireplumber-0.4.11-dev",
+        "doc": "/nix/store/8z6sy8x4gm6i8f43m89k0qdmcma6zs4c-wireplumber-0.4.11-doc",
+        "out": "/nix/store/75fv1045d1v66lmkqkw4spz1r812cxy8-wireplumber-0.4.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modular session / policy manager for PipeWire",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/pipewire/wireplumber.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "wireplumber"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/75fv1045d1v66lmkqkw4spz1r812cxy8-wireplumber-0.4.11"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.4.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.10",
-      "pname": "wireplumber",
-      "name": "wireplumber-0.4.10",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/890wlc0qvcdcxafpwr23dbf3r78fblzp-wireplumber-0.4.10-dev",
-        "doc": "/nix/store/hczf3yxzi68157vlf306aidq0f9vkam7-wireplumber-0.4.10-doc",
-        "out": "/nix/store/vp4lcmaffpac1p2bd9fjchbb2831v84b-wireplumber-0.4.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modular session / policy manager for PipeWire",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/pipewire/wireplumber.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "wireplumber"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vp4lcmaffpac1p2bd9fjchbb2831v84b-wireplumber-0.4.10"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

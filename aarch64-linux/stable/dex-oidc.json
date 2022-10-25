@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.32.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.32.0",
-      "pname": "dex",
-      "name": "dex-2.32.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/fd117p93mmb2bdnaqjvvrb9a1mdkzajh-dex-2.32.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "OpenID Connect and OAuth2 identity provider with pluggable connectors",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/dex/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "dex-oidc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fd117p93mmb2bdnaqjvvrb9a1mdkzajh-dex-2.32.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "2.30.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.33.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.33.0",
+      "pname": "dex",
+      "name": "dex-2.33.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/kq7hk8zz011k3h57wrr3ghl2mpxmldd2-dex-2.33.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "OpenID Connect and OAuth2 identity provider with pluggable connectors",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/dex/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dex-oidc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kq7hk8zz011k3h57wrr3ghl2mpxmldd2-dex-2.33.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

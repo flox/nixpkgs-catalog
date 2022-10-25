@@ -39,6 +39,46 @@
       }
     }
   },
+  "5.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.9.7",
+      "pname": "strongswan",
+      "name": "strongswan-5.9.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/sj8z89n0h8mp0iklzb0f2zxkg3jp84kh-strongswan-5.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "OpenSource IPsec-based VPN Solution",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/strongswan/default.nix:108",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "strongswanTNC"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sj8z89n0h8mp0iklzb0f2zxkg3jp84kh-strongswan-5.9.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "5.9.5": {
     "type": "catalogRender",
     "schema": 1,
