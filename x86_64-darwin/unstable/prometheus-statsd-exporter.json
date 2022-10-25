@@ -1,4 +1,44 @@
 {
+  "0.22.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.22.8",
+      "pname": "statsd_exporter",
+      "name": "statsd_exporter-0.22.8",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/r4bb1sdca1286pikqlka29380fw3mjbi-statsd_exporter-0.22.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Receives StatsD-style metrics and exports them to Prometheus",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/statsd-exporter.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "prometheus-statsd-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r4bb1sdca1286pikqlka29380fw3mjbi-statsd_exporter-0.22.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.20.2": {
     "type": "catalogRender",
     "schema": 1,

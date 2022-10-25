@@ -1,21 +1,21 @@
 {
-  "0.4.1": {
+  "0.5.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.4.1",
+      "version": "0.5.1",
       "pname": "nix-du",
-      "name": "nix-du-0.4.1",
+      "name": "nix-du-0.5.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/sw4ixfki8sfqzric8p64x18j6x5fngq7-nix-du-0.4.1"
+        "out": "/nix/store/y0y3s4820qywnjhpsam48q6jfcvzg38q-nix-du-0.5.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A tool to determine which gc-roots take space in your nix store",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/package-management/nix-du/default.nix:38",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/package-management/nix-du/default.nix:38",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sw4ixfki8sfqzric8p64x18j6x5fngq7-nix-du-0.4.1"
+        "/nix/store/y0y3s4820qywnjhpsam48q6jfcvzg38q-nix-du-0.5.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "nix-du",
+      "name": "nix-du-0.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/2pr57sv7vj9lcqal180i3v21apck62cl-nix-du-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool to determine which gc-roots take space in your nix store",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nix-du/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nix-du"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2pr57sv7vj9lcqal180i3v21apck62cl-nix-du-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "0.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.1",
-      "pname": "nix-du",
-      "name": "nix-du-0.5.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/y0y3s4820qywnjhpsam48q6jfcvzg38q-nix-du-0.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool to determine which gc-roots take space in your nix store",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/package-management/nix-du/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nix-du"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y0y3s4820qywnjhpsam48q6jfcvzg38q-nix-du-0.5.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

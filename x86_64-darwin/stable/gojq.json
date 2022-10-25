@@ -48,14 +48,14 @@
       "name": "gojq-0.12.8",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/rjk484wy4l407r65p7hfa3x33kmwhy73-gojq-0.12.8"
+        "out": "/nix/store/w8grv6flm7yz05c4mnhs3lh36iy10yfx-gojq-0.12.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Pure Go implementation of jq",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/tools/gojq/default.nix:23",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/gojq/default.nix:23",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rjk484wy4l407r65p7hfa3x33kmwhy73-gojq-0.12.8"
+        "/nix/store/w8grv6flm7yz05c4mnhs3lh36iy10yfx-gojq-0.12.8"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.12.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.9",
+      "pname": "gojq",
+      "name": "gojq-0.12.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/by2crnhzmnpvn84n3cmw1p3147afhba6-gojq-0.12.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Pure Go implementation of jq",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/gojq/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gojq"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/by2crnhzmnpvn84n3cmw1p3147afhba6-gojq-0.12.9"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

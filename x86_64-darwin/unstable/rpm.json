@@ -43,6 +43,50 @@
       }
     }
   },
+  "4.17.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.17.1",
+      "pname": "rpm",
+      "name": "rpm-4.17.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/f4k65810c9vc2fdacxnpsh7v00lv4glc-rpm-4.17.1-dev",
+        "man": "/nix/store/94ca5db2crr52m7n39633vmzbha3v0mq-rpm-4.17.1-man",
+        "out": "/nix/store/33r26hlhr9wcy6pnd69b74pllbdznh4f-rpm-4.17.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The RPM Package Manager",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/rpm/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "rpm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/33r26hlhr9wcy6pnd69b74pllbdznh4f-rpm-4.17.1",
+        "/nix/store/94ca5db2crr52m7n39633vmzbha3v0mq-rpm-4.17.1-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "4.17.0": {
     "type": "catalogRender",
     "schema": 1,

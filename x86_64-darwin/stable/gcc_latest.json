@@ -1,4 +1,48 @@
 {
+  "12.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.2.0",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-12.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "info": "/nix/store/xp1spx3j7m0qk69d2d4fg70acsnr4s18-gcc-wrapper-12.2.0-info",
+        "man": "/nix/store/imzsdyynhy167s0d3g44c5zd74753rim-gcc-wrapper-12.2.0-man",
+        "out": "/nix/store/zavy57cdhcjx58fvrkw7ng7shb30y7dn-gcc-wrapper-12.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 12.2.0 (wrapper script)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gcc_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zavy57cdhcjx58fvrkw7ng7shb30y7dn-gcc-wrapper-12.2.0",
+        "/nix/store/imzsdyynhy167s0d3g44c5zd74753rim-gcc-wrapper-12.2.0-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "12.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,9 +52,9 @@
       "name": "gcc-wrapper-12.1.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "info": "/nix/store/ladmzxlarya55mm0qjc3jcvkybdjglwv-gcc-wrapper-12.1.0-info",
-        "man": "/nix/store/yf1y7xjglcviyg4pb4ww0fmyh6mz1wxi-gcc-wrapper-12.1.0-man",
-        "out": "/nix/store/7gvzwmdgc78vribv2wkvabflvbnnwkpn-gcc-wrapper-12.1.0"
+        "info": "/nix/store/8idmvrjh7sfn1k01n6dcq7hhpsarkgk6-gcc-wrapper-12.1.0-info",
+        "man": "/nix/store/xwaqlk5gk4x30pq0hi1vbxamhcg9xjjr-gcc-wrapper-12.1.0-man",
+        "out": "/nix/store/xqzs306pay2fs8vyfhadg1la6ramx02y-gcc-wrapper-12.1.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +62,7 @@
           "man"
         ],
         "description": "GNU Compiler Collection, version 12.1.0 (wrapper script)",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/build-support/cc-wrapper/default.nix:542",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/build-support/cc-wrapper/default.nix:545",
         "unfree": false
       }
     },
@@ -31,59 +75,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7gvzwmdgc78vribv2wkvabflvbnnwkpn-gcc-wrapper-12.1.0",
-        "/nix/store/yf1y7xjglcviyg4pb4ww0fmyh6mz1wxi-gcc-wrapper-12.1.0-man"
+        "/nix/store/xqzs306pay2fs8vyfhadg1la6ramx02y-gcc-wrapper-12.1.0",
+        "/nix/store/xwaqlk5gk4x30pq0hi1vbxamhcg9xjjr-gcc-wrapper-12.1.0-man"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
-  "11.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "11.1.0",
-      "pname": "gcc-wrapper",
-      "name": "gcc-wrapper-11.1.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "info": "/nix/store/5jmg67knapwrhjlmcjfqvj9c3lg6zh84-gcc-wrapper-11.1.0-info",
-        "man": "/nix/store/mr3a0337ghkar93fp8y10lgybi0h1md5-gcc-wrapper-11.1.0-man",
-        "out": "/nix/store/7j5g43032vkpn4ph76xsbvgvv8sn0h6k-gcc-wrapper-11.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 11.1.0 (wrapper script)",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/cc-wrapper/default.nix:531",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gcc_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7j5g43032vkpn4ph76xsbvgvv8sn0h6k-gcc-wrapper-11.1.0",
-        "/nix/store/mr3a0337ghkar93fp8y10lgybi0h1md5-gcc-wrapper-11.1.0-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

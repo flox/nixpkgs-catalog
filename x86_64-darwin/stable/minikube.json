@@ -1,4 +1,44 @@
 {
+  "1.27.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.27.0",
+      "pname": "minikube",
+      "name": "minikube-1.27.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/dr4fgaqmmb2s0z73vwwkx34f1khff8lp-minikube-1.27.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool that makes it easy to run Kubernetes locally",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "minikube"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dr4fgaqmmb2s0z73vwwkx34f1khff8lp-minikube-1.27.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.24.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.22.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.0",
-      "pname": "minikube",
-      "name": "minikube-1.22.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/y4ybikx9xrfcpn6as62bnnd47cp3hqgy-minikube-1.22.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool that makes it easy to run Kubernetes locally",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "minikube"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y4ybikx9xrfcpn6as62bnnd47cp3hqgy-minikube-1.22.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

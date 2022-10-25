@@ -1,21 +1,21 @@
 {
-  "1.9.2": {
+  "1.9.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.9.2",
+      "version": "1.9.4",
       "pname": "aws-sso-cli",
-      "name": "aws-sso-cli-1.9.2",
+      "name": "aws-sso-cli-1.9.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/lwyizcbz18iv95pw52z9lwijpnrpxspj-aws-sso-cli-1.9.2"
+        "out": "/nix/store/r28qn30hx1kbq9b65x5kwqg4ajjra136-aws-sso-cli-1.9.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "AWS SSO CLI is a secure replacement for using the aws configure sso wizard",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/aws-sso-cli/default.nix:29",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/aws-sso-cli/default.nix:28",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lwyizcbz18iv95pw52z9lwijpnrpxspj-aws-sso-cli-1.9.2"
+        "/nix/store/r28qn30hx1kbq9b65x5kwqg4ajjra136-aws-sso-cli-1.9.4"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.9.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.2",
+      "pname": "aws-sso-cli",
+      "name": "aws-sso-cli-1.9.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/wyk6m5s2nhmk9v63kdxz971bpx9383y2-aws-sso-cli-1.9.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "AWS SSO CLI is a secure replacement for using the aws configure sso wizard",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/aws-sso-cli/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "aws-sso-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wyk6m5s2nhmk9v63kdxz971bpx9383y2-aws-sso-cli-1.9.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

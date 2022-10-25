@@ -1,4 +1,44 @@
 {
+  "3.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5",
+      "pname": "mopidy-youtube",
+      "name": "mopidy-youtube-3.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/lsqmm7spp1pp25l0wx3l27qk731ifii0-mopidy-youtube-3.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mopidy extension for playing music from YouTube",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/mopidy/youtube.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mopidy-youtube"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lsqmm7spp1pp25l0wx3l27qk731ifii0-mopidy-youtube-3.5"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "3.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "3.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5",
-      "pname": "mopidy-youtube",
-      "name": "mopidy-youtube-3.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/lsqmm7spp1pp25l0wx3l27qk731ifii0-mopidy-youtube-3.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mopidy extension for playing music from YouTube",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/mopidy/youtube.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mopidy-youtube"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lsqmm7spp1pp25l0wx3l27qk731ifii0-mopidy-youtube-3.5"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

@@ -42,49 +42,6 @@
       }
     }
   },
-  "1.50.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.50.0",
-      "pname": "pango",
-      "name": "pango-1.50.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/qhkcnyhyi1famv7wgfg75l0gfngvcs9h-pango-1.50.0-bin",
-        "dev": "/nix/store/360vaw19bipsjqa5w5ndi2nmibss2j29-pango-1.50.0-dev",
-        "devdoc": "/nix/store/xzmn1n3bl733g3yyx1r302bi28c8c326-pango-1.50.0-devdoc",
-        "out": "/nix/store/hah34lylpsavwvxnyc79bq2a3hk2wc78-pango-1.50.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A library for laying out and rendering of text, with an emphasis on internationalization",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/pango/default.nix:103",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "pango"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qhkcnyhyi1famv7wgfg75l0gfngvcs9h-pango-1.50.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.48.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.50.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.50.0",
+      "pname": "pango",
+      "name": "pango-1.50.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/qhkcnyhyi1famv7wgfg75l0gfngvcs9h-pango-1.50.0-bin",
+        "dev": "/nix/store/360vaw19bipsjqa5w5ndi2nmibss2j29-pango-1.50.0-dev",
+        "devdoc": "/nix/store/xzmn1n3bl733g3yyx1r302bi28c8c326-pango-1.50.0-devdoc",
+        "out": "/nix/store/hah34lylpsavwvxnyc79bq2a3hk2wc78-pango-1.50.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A library for laying out and rendering of text, with an emphasis on internationalization",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/pango/default.nix:103",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "pango"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qhkcnyhyi1famv7wgfg75l0gfngvcs9h-pango-1.50.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

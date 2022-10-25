@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.57.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.57.0",
-      "pname": null,
-      "name": "cargo-1.57.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/2i6zbhq84a4szjykk8x5718i0bhv6618-cargo-1.57.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Downloads your Rust project's dependencies and builds your project",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/rust/cargo.nix:71",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "cargo"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2i6zbhq84a4szjykk8x5718i0bhv6618-cargo-1.57.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.53.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.57.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.57.0",
+      "pname": null,
+      "name": "cargo-1.57.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/2i6zbhq84a4szjykk8x5718i0bhv6618-cargo-1.57.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Downloads your Rust project's dependencies and builds your project",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/rust/cargo.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cargo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2i6zbhq84a4szjykk8x5718i0bhv6618-cargo-1.57.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

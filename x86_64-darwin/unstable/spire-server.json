@@ -1,4 +1,46 @@
 {
+  "1.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.1",
+      "pname": "spire",
+      "name": "spire-1.4.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "agent": "/nix/store/f1smnk8w7926wi66ydy49652vm73pc25-spire-1.4.1-agent",
+        "out": "/nix/store/3y3s3mij02m4yv2xvnybbrm5z5cppjhj-spire-1.4.1",
+        "server": "/nix/store/8sjlbm5wcz00d7iv9yq19l0h6pdh9980-spire-1.4.1-server"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The SPIFFE Runtime Environment",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/spire/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "spire-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3y3s3mij02m4yv2xvnybbrm5z5cppjhj-spire-1.4.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.3.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "1.3.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.3.1",
-      "pname": "spire",
-      "name": "spire-1.3.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "agent": "/nix/store/l67r61wwqmhillwvg80wcybdmvjnz5c9-spire-1.3.1-agent",
-        "out": "/nix/store/2fy5l75asa03pdp8q29rm2y89vp7cg8g-spire-1.3.1",
-        "server": "/nix/store/i6l2ja407ar99d4by8z5187b6aydf3j5-spire-1.3.1-server"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The SPIFFE Runtime Environment",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/security/spire/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "spire-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2fy5l75asa03pdp8q29rm2y89vp7cg8g-spire-1.3.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

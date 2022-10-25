@@ -1,4 +1,44 @@
 {
+  "2.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.2",
+      "pname": "nix-direnv",
+      "name": "nix-direnv-2.1.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/zk291j68rrg4jgnvfrk95q02nlc8cxw9-nix-direnv-2.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast, persistent use_nix implementation for direnv",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/nix-direnv/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nix-direnv"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zk291j68rrg4jgnvfrk95q02nlc8cxw9-nix-direnv-2.1.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "1.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.0",
-      "pname": "nix-direnv",
-      "name": "nix-direnv-1.4.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/jpy5qm09jsk228hn2sa871b3hb7hly9q-nix-direnv-1.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast, persistent use_nix implementation for direnv",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/nix-direnv/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nix-direnv"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jpy5qm09jsk228hn2sa871b3hb7hly9q-nix-direnv-1.4.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

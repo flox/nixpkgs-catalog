@@ -1,4 +1,44 @@
 {
+  "0.35.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.35.12",
+      "pname": "cargo-make",
+      "name": "cargo-make-0.35.12",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/p449wl4wy2cx58dkzmsxrc864wgr1871-cargo-make-0.35.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Rust task runner and build tool",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/rust/cargo-make/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cargo-make"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p449wl4wy2cx58dkzmsxrc864wgr1871-cargo-make-0.35.12"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.35.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "0.35.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.35.12",
-      "pname": "cargo-make",
-      "name": "cargo-make-0.35.12",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/p449wl4wy2cx58dkzmsxrc864wgr1871-cargo-make-0.35.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Rust task runner and build tool",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/rust/cargo-make/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "cargo-make"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p449wl4wy2cx58dkzmsxrc864wgr1871-cargo-make-0.35.12"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

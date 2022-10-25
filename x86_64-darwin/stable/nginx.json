@@ -1,45 +1,4 @@
 {
-  "1.22.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.0",
-      "pname": "nginx",
-      "name": "nginx-1.22.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/va85hqybzbi9qr9l1giziyfy6mjkzsm1-nginx-1.22.0-doc",
-        "out": "/nix/store/143lhh60x6hcily6wkm765n9d689yjf4-nginx-1.22.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/http/nginx/generic.nix:180",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nginx"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/143lhh60x6hcily6wkm765n9d689yjf4-nginx-1.22.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "1.20.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.22.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22.0",
+      "pname": "nginx",
+      "name": "nginx-1.22.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/ppy0psf86yvsrz6k2gsifjp9cbbgswwr-nginx-1.22.0-doc",
+        "out": "/nix/store/lwb5150pf1jv4phkhc78dz59wgm9brmd-nginx-1.22.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nginx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lwb5150pf1jv4phkhc78dz59wgm9brmd-nginx-1.22.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

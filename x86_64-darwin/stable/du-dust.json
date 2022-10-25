@@ -1,4 +1,44 @@
 {
+  "0.8.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.3",
+      "pname": "du-dust",
+      "name": "du-dust-0.8.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/yzhwc47spipv7idpjdxzx3s6rypx1awz-du-dust-0.8.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "du + rust = dust. Like du but more intuitive",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/dust/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "du-dust"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yzhwc47spipv7idpjdxzx3s6rypx1awz-du-dust-0.8.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.7.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.2",
-      "pname": "du-dust",
-      "name": "du-dust-0.6.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/6zd0k7rzzvni0f0hcapzd5g1151hx3k8-du-dust-0.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "du + rust = dust. Like du but more intuitive",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/dust/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "du-dust"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6zd0k7rzzvni0f0hcapzd5g1151hx3k8-du-dust-0.6.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

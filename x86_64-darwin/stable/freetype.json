@@ -40,6 +40,47 @@
       }
     }
   },
+  "2.12.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.12.1",
+      "pname": "freetype",
+      "name": "freetype-2.12.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/jd0p4a77g203vrq559w6i4i0s7w0q6af-freetype-2.12.1-dev",
+        "out": "/nix/store/ha4386cy0xi3aa9v3zcf4ci9rbky92ra-freetype-2.12.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A font rendering engine",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/freetype/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "freetype"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ha4386cy0xi3aa9v3zcf4ci9rbky92ra-freetype-2.12.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.11.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "2.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.11.0",
-      "pname": "freetype",
-      "name": "freetype-2.11.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/p4nkdxf00761qrs3mvipfkwl6frkqd0x-freetype-2.11.0-dev",
-        "out": "/nix/store/j32zfn66d8w96fbd1lqz33x7d9kycm7l-freetype-2.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A font rendering engine",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/freetype/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "freetype"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j32zfn66d8w96fbd1lqz33x7d9kycm7l-freetype-2.11.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "1.18rc1": {
+  "1.18.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.18rc1",
+      "version": "1.18.4",
       "pname": "go",
-      "name": "go-1.18rc1",
+      "name": "go-1.18.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/fndlqaiy32z2ggj55r20fqgzdd7nnnva-go-1.18rc1"
+        "out": "/nix/store/2c2bc10ci7wacla061s853cd86ijg00g-go-1.18.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Go Programming language",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/compilers/go/1.18.nix:270",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/compilers/go/1.18.nix:281",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/fndlqaiy32z2ggj55r20fqgzdd7nnnva-go-1.18rc1"
+        "/nix/store/2c2bc10ci7wacla061s853cd86ijg00g-go-1.18.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "1.18.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.18.5",
+      "pname": "go",
+      "name": "go-1.18.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/81hx17lnmjafllfl1125g4n8qgwp5j9w-go-1.18.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Go Programming language",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/go/1.18.nix:175",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "go_1_18"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/81hx17lnmjafllfl1125g4n8qgwp5j9w-go-1.18.5"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

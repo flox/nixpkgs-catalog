@@ -1,21 +1,21 @@
 {
-  "0.7.3": {
+  "0.7.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.7.3",
+      "version": "0.7.4",
       "pname": "metal-cli",
-      "name": "metal-cli-0.7.3",
+      "name": "metal-cli-0.7.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/mfn6jzrcy4ldicbm1f6rd0q3kzli619v-metal-cli-0.7.3"
+        "out": "/nix/store/lwiyzf9lh4yvaiwhj5b6a7hry068jjfs-metal-cli-0.7.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Official Equinix Metal CLI",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/tools/metal-cli/default.nix:23",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/metal-cli/default.nix:29",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mfn6jzrcy4ldicbm1f6rd0q3kzli619v-metal-cli-0.7.3"
+        "/nix/store/lwiyzf9lh4yvaiwhj5b6a7hry068jjfs-metal-cli-0.7.4"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.0",
+      "pname": "metal-cli",
+      "name": "metal-cli-0.9.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/kka3immqa26b624s3njyfk88ryrhg65h-metal-cli-0.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official Equinix Metal CLI",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/metal-cli/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "metal-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kka3immqa26b624s3njyfk88ryrhg65h-metal-cli-0.9.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.7.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.7.4",
-      "pname": "metal-cli",
-      "name": "metal-cli-0.7.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/lwiyzf9lh4yvaiwhj5b6a7hry068jjfs-metal-cli-0.7.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Official Equinix Metal CLI",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/metal-cli/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "metal-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lwiyzf9lh4yvaiwhj5b6a7hry068jjfs-metal-cli-0.7.4"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

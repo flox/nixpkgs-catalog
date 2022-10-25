@@ -39,46 +39,6 @@
       }
     }
   },
-  "8.2.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.2.7",
-      "pname": "gitleaks",
-      "name": "gitleaks-8.2.7",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/k1n9rslg1nbd0wzci2kqfqp01xdic217-gitleaks-8.2.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Scan git repos (or files) for secrets",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/gitleaks/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gitleaks"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k1n9rslg1nbd0wzci2kqfqp01xdic217-gitleaks-8.2.7"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "7.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "8.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.2.7",
+      "pname": "gitleaks",
+      "name": "gitleaks-8.2.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/k1n9rslg1nbd0wzci2kqfqp01xdic217-gitleaks-8.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Scan git repos (or files) for secrets",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/gitleaks/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gitleaks"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k1n9rslg1nbd0wzci2kqfqp01xdic217-gitleaks-8.2.7"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

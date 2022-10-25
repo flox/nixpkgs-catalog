@@ -39,23 +39,23 @@
       }
     }
   },
-  "7.10.0": {
+  "8.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.10.0",
+      "version": "8.8.0",
       "pname": "libvirt",
-      "name": "libvirt-7.10.0",
+      "name": "libvirt-8.8.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/c26jhmvlni40idgccdipk9yxf5iw9j9z-libvirt-7.10.0"
+        "out": "/nix/store/9sq5svjk69hrz0pvbc8fccinn03q2bvh-libvirt-8.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "A toolkit to interact with the virtualization capabilities of recent\nversions of Linux (and other OSes)\n",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libvirt/default.nix:242",
+        "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux and other OSes",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libvirt/default.nix:371",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/c26jhmvlni40idgccdipk9yxf5iw9j9z-libvirt-7.10.0"
+        "/nix/store/9sq5svjk69hrz0pvbc8fccinn03q2bvh-libvirt-8.8.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "8.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.6.0",
+      "pname": "libvirt",
+      "name": "libvirt-8.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/nwqr7y70i4wv77jcp10ys316m02ad7h4-libvirt-8.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A toolkit to interact with the virtualization capabilities of recent versions of Linux and other OSes",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/libvirt/default.nix:357",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libvirt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nwqr7y70i4wv77jcp10ys316m02ad7h4-libvirt-8.6.0"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

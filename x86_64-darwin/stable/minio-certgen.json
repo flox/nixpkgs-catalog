@@ -1,44 +1,4 @@
 {
-  "1.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.0",
-      "pname": "minio-certgen",
-      "name": "minio-certgen-1.1.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/j1kg9dk19g6v6xzj82j4yvngpa6gip6b-minio-certgen-1.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple Minio tool to generate self-signed certificates, and provides SAN certificates with DNS and IP entries",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/security/minio-certgen/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "minio-certgen"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j1kg9dk19g6v6xzj82j4yvngpa6gip6b-minio-certgen-1.1.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "0.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "1.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.1",
+      "pname": "minio-certgen",
+      "name": "minio-certgen-1.2.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/kv6dh2dw9pir24hjii40q250kp3787sb-minio-certgen-1.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple Minio tool to generate self-signed certificates, and provides SAN certificates with DNS and IP entries",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/minio-certgen/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "minio-certgen"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kv6dh2dw9pir24hjii40q250kp3787sb-minio-certgen-1.2.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

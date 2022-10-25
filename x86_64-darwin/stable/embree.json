@@ -1,4 +1,44 @@
 {
+  "3.13.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.13.4",
+      "pname": "embree",
+      "name": "embree-3.13.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/x0bi7w6dwqv4lzsd1kala11y1mh1wfkg-embree-3.13.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High performance ray tracing kernels from Intel",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/embree/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "embree"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x0bi7w6dwqv4lzsd1kala11y1mh1wfkg-embree-3.13.4"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "3.13.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.13.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.13.1",
-      "pname": "embree",
-      "name": "embree-3.13.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/vsswa5q7rnp3bg6z77q19d7xfcabxq2i-embree-3.13.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High performance ray tracing kernels from Intel",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/embree/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "embree"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vsswa5q7rnp3bg6z77q19d7xfcabxq2i-embree-3.13.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

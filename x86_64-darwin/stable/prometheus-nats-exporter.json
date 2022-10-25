@@ -8,14 +8,14 @@
       "name": "prometheus-nats-exporter-0.9.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/8fif5jma8s28b7dfx1h98jrara2fb3yf-prometheus-nats-exporter-0.9.3"
+        "out": "/nix/store/j92hm3cz6sghgiknq6iaq95vl6am64ip-prometheus-nats-exporter-0.9.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Exporter for NATS metrics",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/monitoring/prometheus/nats-exporter.nix:17",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/monitoring/prometheus/nats-exporter.nix:17",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8fif5jma8s28b7dfx1h98jrara2fb3yf-prometheus-nats-exporter-0.9.3"
+        "/nix/store/j92hm3cz6sghgiknq6iaq95vl6am64ip-prometheus-nats-exporter-0.9.3"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "prometheus-nats-exporter",
+      "name": "prometheus-nats-exporter-0.10.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/zvyy9k3z28gncm3lb0mb1c1359rbh9c4-prometheus-nats-exporter-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Exporter for NATS metrics",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/nats-exporter.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "prometheus-nats-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zvyy9k3z28gncm3lb0mb1c1359rbh9c4-prometheus-nats-exporter-0.10.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

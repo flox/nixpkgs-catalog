@@ -1,21 +1,21 @@
 {
-  "13.5.0": {
+  "13.4.7": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "13.5.0",
+      "version": "13.4.7",
       "pname": "ocrmypdf",
-      "name": "ocrmypdf-13.5.0",
+      "name": "ocrmypdf-13.4.7",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/87jpiyp28cwj2b2ny6li5hr590ymyin6-python3.10-ocrmypdf-13.5.0"
+        "out": "/nix/store/ppyqpg1s60lz6zlg8w8fwdiq74rqkp54-python3.9-ocrmypdf-13.4.7"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Adds an OCR text layer to scanned PDF files, allowing them to be searched",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/python-modules/ocrmypdf/default.nix:96",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ocrmypdf/default.nix:96",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/87jpiyp28cwj2b2ny6li5hr590ymyin6-python3.10-ocrmypdf-13.5.0"
+        "/nix/store/ppyqpg1s60lz6zlg8w8fwdiq74rqkp54-python3.9-ocrmypdf-13.4.7"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
+  "13.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "13.7.0",
+      "pname": "ocrmypdf",
+      "name": "ocrmypdf-13.7.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/w724c8vdv3b1hqcgqwfcymbramffbmyj-python3.10-ocrmypdf-13.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Adds an OCR text layer to scanned PDF files, allowing them to be searched",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/ocrmypdf/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ocrmypdf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w724c8vdv3b1hqcgqwfcymbramffbmyj-python3.10-ocrmypdf-13.7.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "13.4.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "13.4.7",
-      "pname": "ocrmypdf",
-      "name": "ocrmypdf-13.4.7",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/ppyqpg1s60lz6zlg8w8fwdiq74rqkp54-python3.9-ocrmypdf-13.4.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Adds an OCR text layer to scanned PDF files, allowing them to be searched",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ocrmypdf/default.nix:96",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ocrmypdf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ppyqpg1s60lz6zlg8w8fwdiq74rqkp54-python3.9-ocrmypdf-13.4.7"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

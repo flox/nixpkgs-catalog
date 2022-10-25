@@ -1,21 +1,21 @@
 {
-  "0.8.11": {
+  "0.8.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.8.11",
+      "version": "0.8.12",
       "pname": "grcov",
-      "name": "grcov-0.8.11",
+      "name": "grcov-0.8.12",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/x4870gwx0qkkckf7dw512w8wqkfy3pf5-grcov-0.8.11"
+        "out": "/nix/store/nvbk9c9l43ijlvhms1zfrz5j71df7bjv-grcov-0.8.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Rust tool to collect and aggregate code coverage data for multiple source files",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/misc/grcov/default.nix:32",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/misc/grcov/default.nix:32",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/x4870gwx0qkkckf7dw512w8wqkfy3pf5-grcov-0.8.11"
+        "/nix/store/nvbk9c9l43ijlvhms1zfrz5j71df7bjv-grcov-0.8.12"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.8.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.11",
+      "pname": "grcov",
+      "name": "grcov-0.8.11",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/gjfzlhj2d1cc5ylsridxprwmzsy2xjjj-grcov-0.8.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Rust tool to collect and aggregate code coverage data for multiple source files",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/misc/grcov/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "grcov"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gjfzlhj2d1cc5ylsridxprwmzsy2xjjj-grcov-0.8.11"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

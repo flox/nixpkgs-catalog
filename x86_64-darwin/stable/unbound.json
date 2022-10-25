@@ -1,4 +1,48 @@
 {
+  "1.16.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.16.2",
+      "pname": "unbound",
+      "name": "unbound-1.16.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "lib": "/nix/store/sb996d3vvnqyd3hdg8c5damhkyz7fy79-unbound-1.16.2-lib",
+        "man": "/nix/store/bg6bhv3njj6safcph2a0fgps2a02qfa0-unbound-1.16.2-man",
+        "out": "/nix/store/c8q640x2wb9hr137r1sdmv7cznrg3047-unbound-1.16.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Validating, recursive, and caching DNS resolver",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/unbound/default.nix:156",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "unbound"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c8q640x2wb9hr137r1sdmv7cznrg3047-unbound-1.16.2",
+        "/nix/store/bg6bhv3njj6safcph2a0fgps2a02qfa0-unbound-1.16.2-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.13.1": {
     "type": "catalogRender",
     "schema": 1,

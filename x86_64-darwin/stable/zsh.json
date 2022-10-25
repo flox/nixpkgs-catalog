@@ -48,14 +48,18 @@
       "name": "zsh-5.9",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/jgp3h453l54y783i3qwfginihgmik8sx-zsh-5.9"
+        "doc": "/nix/store/jz42dxjswv48jb0n25aqsl46fadl1bh0-zsh-5.9-doc",
+        "info": "/nix/store/0n2r1njvnp84mbfmldwfpwcmjv1q6kg9-zsh-5.9-info",
+        "man": "/nix/store/7az0v7wcs50mnfl5c89bk1smikkab6m6-zsh-5.9-man",
+        "out": "/nix/store/720arfbngvblnwv7hxg66giqaap0fjp5-zsh-5.9"
       },
       "meta": {
         "outputsToInstall": [
-          "out"
+          "out",
+          "man"
         ],
         "description": "The Z shell",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/shells/zsh/default.nix:91",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/shells/zsh/default.nix:93",
         "unfree": false
       }
     },
@@ -68,14 +72,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jgp3h453l54y783i3qwfginihgmik8sx-zsh-5.9"
+        "/nix/store/720arfbngvblnwv7hxg66giqaap0fjp5-zsh-5.9",
+        "/nix/store/7az0v7wcs50mnfl5c89bk1smikkab6m6-zsh-5.9-man"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,23 +1,23 @@
 {
-  "0.4.34": {
+  "0.4.36": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.4.34",
+      "version": "0.4.36",
       "pname": "gegl",
-      "name": "gegl-0.4.34",
+      "name": "gegl-0.4.36",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/f2r9yyq1b62bmyhsygs360phj1zrb6hb-gegl-0.4.34-dev",
-        "devdoc": "/nix/store/haajyccchzlpn1nbi1plym95qg8wwy3d-gegl-0.4.34-devdoc",
-        "out": "/nix/store/7p2c4n8gp4q047n62xf39l1h57hgi5fr-gegl-0.4.34"
+        "dev": "/nix/store/chg2d3ag7lym4yc9lcng5q84zmf88rdi-gegl-0.4.36-dev",
+        "devdoc": "/nix/store/jqimnqyc5jc190cng4nwgpqf86z5van7-gegl-0.4.36-devdoc",
+        "out": "/nix/store/qhg8bsnimd3bv5vdgdzrxfh5cm05502p-gegl-0.4.36"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Graph-based image processing framework",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/gegl/default.nix:115",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/gegl/default.nix:115",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7p2c4n8gp4q047n62xf39l1h57hgi5fr-gegl-0.4.34"
+        "/nix/store/qhg8bsnimd3bv5vdgdzrxfh5cm05502p-gegl-0.4.36"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.4.38": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.38",
+      "pname": "gegl",
+      "name": "gegl-0.4.38",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/a5w0qhbq8mlfl0mag2dz2hkspjfhcfi6-gegl-0.4.38-dev",
+        "devdoc": "/nix/store/69ngrrh9dm9nmb9dbxgcwas72p82rmsd-gegl-0.4.38-devdoc",
+        "out": "/nix/store/nxhbkdcln3rk87l00jkh8gkm02akxfrn-gegl-0.4.38"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Graph-based image processing framework",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gegl/default.nix:115",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gegl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nxhbkdcln3rk87l00jkh8gkm02akxfrn-gegl-0.4.38"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "0.4.36": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.36",
-      "pname": "gegl",
-      "name": "gegl-0.4.36",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/chg2d3ag7lym4yc9lcng5q84zmf88rdi-gegl-0.4.36-dev",
-        "devdoc": "/nix/store/jqimnqyc5jc190cng4nwgpqf86z5van7-gegl-0.4.36-devdoc",
-        "out": "/nix/store/qhg8bsnimd3bv5vdgdzrxfh5cm05502p-gegl-0.4.36"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Graph-based image processing framework",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/gegl/default.nix:115",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gegl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qhg8bsnimd3bv5vdgdzrxfh5cm05502p-gegl-0.4.36"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

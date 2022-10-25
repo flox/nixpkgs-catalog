@@ -48,6 +48,55 @@
       }
     }
   },
+  "9.18.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.18.5",
+      "pname": "bind",
+      "name": "bind-9.18.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/xad88acnl7gp05cp2rd9j7vnyvk3bpx1-bind-9.18.5-dev",
+        "dnsutils": "/nix/store/pscziz767s3z60wb98vp7rla89imzjia-bind-9.18.5-dnsutils",
+        "host": "/nix/store/rxavirxa3dpxv1hsqjb0l3mgwyyspmcb-bind-9.18.5-host",
+        "lib": "/nix/store/fg8q2dwgrv9pihi70qbk518pw3pmkxvi-bind-9.18.5-lib",
+        "man": "/nix/store/6a1bk481mlwywlb84x2js9mc0dl3fkcx-bind-9.18.5-man",
+        "out": "/nix/store/rmavl93r4wbz3b148sfbwc91c2l5wdri-bind-9.18.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "dnsutils",
+          "host"
+        ],
+        "description": "Domain name server",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/dns/bind/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "host"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rmavl93r4wbz3b148sfbwc91c2l5wdri-bind-9.18.5",
+        "/nix/store/pscziz767s3z60wb98vp7rla89imzjia-bind-9.18.5-dnsutils",
+        "/nix/store/rxavirxa3dpxv1hsqjb0l3mgwyyspmcb-bind-9.18.5-host"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "9.16.16": {
     "type": "catalogRender",
     "schema": 1,
@@ -94,55 +143,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "9.18.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.18.3",
-      "pname": "bind",
-      "name": "bind-9.18.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/hzjw8wkgwih069brhads3i72303qnbcc-bind-9.18.3-dev",
-        "dnsutils": "/nix/store/b68irg9b9khm7fs7km9r9yzkbg7l3bij-bind-9.18.3-dnsutils",
-        "host": "/nix/store/zjjjv95k9szahnmaviv2vvk4q3zxcb58-bind-9.18.3-host",
-        "lib": "/nix/store/zpzxcwk7ng7nkgvqwrccxnwk1972fi92-bind-9.18.3-lib",
-        "man": "/nix/store/r8b88289c7332ijn7i9qxfjipfqlcgw7-bind-9.18.3-man",
-        "out": "/nix/store/gs1jj5h2w7v0ih4y83sd9a2vvks7zhy4-bind-9.18.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "dnsutils",
-          "host"
-        ],
-        "description": "Domain name server",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/dns/bind/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "host"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gs1jj5h2w7v0ih4y83sd9a2vvks7zhy4-bind-9.18.3",
-        "/nix/store/b68irg9b9khm7fs7km9r9yzkbg7l3bij-bind-9.18.3-dnsutils",
-        "/nix/store/zjjjv95k9szahnmaviv2vvk4q3zxcb58-bind-9.18.3-host"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

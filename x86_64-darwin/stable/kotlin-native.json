@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.7.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.10",
+      "pname": "kotlin-native",
+      "name": "kotlin-native-1.7.10",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/865wm78r28v0crh7xvgslay2d8vxfnq2-kotlin-native-1.7.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modern programming language that makes developers happier",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/kotlin/native.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kotlin-native"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/865wm78r28v0crh7xvgslay2d8vxfnq2-kotlin-native-1.7.10"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.6.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "1.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.0",
-      "pname": "kotlin-native",
-      "name": "kotlin-native-1.7.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/sl009kqvz6ppdy3xgmxr54qcq8ks8gqm-kotlin-native-1.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modern programming language that makes developers happier",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/compilers/kotlin/native.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "kotlin-native"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sl009kqvz6ppdy3xgmxr54qcq8ks8gqm-kotlin-native-1.7.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

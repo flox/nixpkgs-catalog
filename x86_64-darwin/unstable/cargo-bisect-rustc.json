@@ -1,21 +1,21 @@
 {
-  "0.6.3": {
+  "0.6.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.6.3",
+      "version": "0.6.4",
       "pname": "cargo-bisect-rustc",
-      "name": "cargo-bisect-rustc-0.6.3",
+      "name": "cargo-bisect-rustc-0.6.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/an2mjk8d828jwha9f1qp0yyvpm5l0381-cargo-bisect-rustc-0.6.3"
+        "out": "/nix/store/bfqbj7lxc184kbc434ckng16k1qb715y-cargo-bisect-rustc-0.6.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Bisects rustc, either nightlies or CI artifacts",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-bisect-rustc/default.nix:52",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/rust/cargo-bisect-rustc/default.nix:57",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/an2mjk8d828jwha9f1qp0yyvpm5l0381-cargo-bisect-rustc-0.6.3"
+        "/nix/store/bfqbj7lxc184kbc434ckng16k1qb715y-cargo-bisect-rustc-0.6.4"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "0.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.3",
+      "pname": "cargo-bisect-rustc",
+      "name": "cargo-bisect-rustc-0.6.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/h2dg9scgbbgyalka7n2l53kf0v56s3w8-cargo-bisect-rustc-0.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Bisects rustc, either nightlies or CI artifacts",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rust/cargo-bisect-rustc/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cargo-bisect-rustc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h2dg9scgbbgyalka7n2l53kf0v56s3w8-cargo-bisect-rustc-0.6.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

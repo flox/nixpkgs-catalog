@@ -1,21 +1,21 @@
 {
-  "1.22.1": {
+  "1.23.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.22.1",
+      "version": "1.23.0",
       "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.22.1",
+      "name": "ffmpeg-normalize-1.23.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/0gbxvb64448sskripxai8anndy03z0qb-ffmpeg-normalize-1.22.1"
+        "out": "/nix/store/sfyc5fh9k1jai9krhxdz7kmy4v8hazkl-ffmpeg-normalize-1.23.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0gbxvb64448sskripxai8anndy03z0qb-ffmpeg-normalize-1.22.1"
+        "/nix/store/sfyc5fh9k1jai9krhxdz7kmy4v8hazkl-ffmpeg-normalize-1.23.0"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
+  "1.25.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.25.0",
+      "pname": "ffmpeg-normalize",
+      "name": "ffmpeg-normalize-1.25.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/qdxs6nqrlyhhpsmgb0nfzj2c2mdqfspv-ffmpeg-normalize-1.25.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Normalize audio via ffmpeg",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ffmpeg-normalize"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qdxs6nqrlyhhpsmgb0nfzj2c2mdqfspv-ffmpeg-normalize-1.25.0"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "1.23.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.0",
-      "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.23.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/sfyc5fh9k1jai9krhxdz7kmy4v8hazkl-ffmpeg-normalize-1.23.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ffmpeg-normalize"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sfyc5fh9k1jai9krhxdz7kmy4v8hazkl-ffmpeg-normalize-1.23.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

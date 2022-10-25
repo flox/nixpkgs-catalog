@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.14.1-beta": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.14.1-beta",
-      "pname": "lnd",
-      "name": "lnd-0.14.1-beta",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lightning Network Daemon",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/blockchains/lnd/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "lnd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "0.13.1-beta": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.14.1-beta": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.1-beta",
+      "pname": "lnd",
+      "name": "lnd-0.14.1-beta",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightning Network Daemon",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/blockchains/lnd/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lnd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

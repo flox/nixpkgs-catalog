@@ -39,6 +39,46 @@
       }
     }
   },
+  "9.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.1.0",
+      "pname": "grafana",
+      "name": "grafana-9.1.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/9ls0682hxdix0yrnk6822hvsysd0bjhy-grafana-9.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/monitoring/grafana/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "grafana"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9ls0682hxdix0yrnk6822hvsysd0bjhy-grafana-9.1.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "8.3.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "8.5.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.5.5",
-      "pname": "grafana",
-      "name": "grafana-8.5.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/x8ckl6rd36k48m2b5d0c95cgh6a2aycm-grafana-8.5.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/monitoring/grafana/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "grafana"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x8ckl6rd36k48m2b5d0c95cgh6a2aycm-grafana-8.5.5"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
       }
     }
   }

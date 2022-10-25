@@ -1,4 +1,45 @@
 {
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "kea-exporter",
+      "name": "kea-exporter-0.5.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/86fkkjv6vbwdz2rm3f0nax4p3pb74nn7-kea-exporter-0.5.0-dist",
+        "out": "/nix/store/zxf5lnfa2382r6r13h6yf2krdhfibvcn-kea-exporter-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Export Kea Metrics in the Prometheus Exposition Format",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/monitoring/prometheus/kea-exporter.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "prometheus-kea-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zxf5lnfa2382r6r13h6yf2krdhfibvcn-kea-exporter-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "0.4.2": {
     "type": "catalogRender",
     "schema": 1,

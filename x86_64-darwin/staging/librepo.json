@@ -41,6 +41,48 @@
       }
     }
   },
+  "1.14.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.14.3",
+      "pname": "librepo",
+      "name": "librepo-1.14.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/20j0lh947wfl1hq3sik585z78x2xwzlj-librepo-1.14.3-dev",
+        "out": "/nix/store/sy5qm94h44y4q18y2jagprkrksjynh2r-librepo-1.14.3",
+        "py": "/nix/store/81l599795hqz2bljyndy5sjqrk5i0qcz-librepo-1.14.3-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library providing C and Python (libcURL like) API for downloading linux repository metadata and packages",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/package-management/librepo/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "librepo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sy5qm94h44y4q18y2jagprkrksjynh2r-librepo-1.14.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "1.14.2": {
     "type": "catalogRender",
     "schema": 1,

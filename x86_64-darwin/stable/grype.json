@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.32.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.32.0",
-      "pname": "grype",
-      "name": "grype-0.32.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/fga9pvjayrym5r7m04zjcfsww0p6k1gj-grype-0.32.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Vulnerability scanner for container images and filesystems",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/grype/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "grype"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fga9pvjayrym5r7m04zjcfsww0p6k1gj-grype-0.32.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "0.15.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.32.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.32.0",
+      "pname": "grype",
+      "name": "grype-0.32.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/fga9pvjayrym5r7m04zjcfsww0p6k1gj-grype-0.32.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Vulnerability scanner for container images and filesystems",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/grype/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "grype"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fga9pvjayrym5r7m04zjcfsww0p6k1gj-grype-0.32.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

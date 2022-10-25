@@ -1,4 +1,44 @@
 {
+  "0.8.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.3",
+      "pname": "gpg-tui",
+      "name": "gpg-tui-0.8.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/3z2m4as4i9ibs0lzdj9k75nxnm9iwqnb-gpg-tui-0.8.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Terminal user interface for GnuPG",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/gpg-tui/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gpg-tui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3z2m4as4i9ibs0lzdj9k75nxnm9iwqnb-gpg-tui-0.8.3"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "0.7.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.8.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.3",
-      "pname": "gpg-tui",
-      "name": "gpg-tui-0.8.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/3z2m4as4i9ibs0lzdj9k75nxnm9iwqnb-gpg-tui-0.8.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Terminal user interface for GnuPG",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/gpg-tui/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gpg-tui"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3z2m4as4i9ibs0lzdj9k75nxnm9iwqnb-gpg-tui-0.8.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

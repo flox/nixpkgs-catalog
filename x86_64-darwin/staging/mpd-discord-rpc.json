@@ -1,21 +1,21 @@
 {
-  "1.5.2": {
+  "1.5.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "pname": "mpd-discord-rpc",
-      "name": "mpd-discord-rpc-1.5.2",
+      "name": "mpd-discord-rpc-1.5.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/z77jlnw31hs0lw41210cd8799axn869b-mpd-discord-rpc-1.5.2"
+        "out": "/nix/store/f7zrxh6y5r8zknc0v3b8ma70i480vbn6-mpd-discord-rpc-1.5.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Rust application which displays your currently playing song / album / artist from MPD in Discord using Rich Presence",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/audio/mpd-discord-rpc/default.nix:28",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/audio/mpd-discord-rpc/default.nix:28",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/z77jlnw31hs0lw41210cd8799axn869b-mpd-discord-rpc-1.5.2"
+        "/nix/store/f7zrxh6y5r8zknc0v3b8ma70i480vbn6-mpd-discord-rpc-1.5.3"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.2",
+      "pname": "mpd-discord-rpc",
+      "name": "mpd-discord-rpc-1.5.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/gy6lz6jngsqjz7dl363ngrdwd7qsmpn1-mpd-discord-rpc-1.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Rust application which displays your currently playing song / album / artist from MPD in Discord using Rich Presence",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/audio/mpd-discord-rpc/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mpd-discord-rpc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gy6lz6jngsqjz7dl363ngrdwd7qsmpn1-mpd-discord-rpc-1.5.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

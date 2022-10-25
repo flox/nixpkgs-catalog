@@ -1,21 +1,21 @@
 {
-  "7.0.4": {
+  "8.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.0.4",
+      "version": "8.0.0",
       "pname": "mitmproxy",
-      "name": "mitmproxy-7.0.4",
+      "name": "mitmproxy-8.0.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/7hyghjnkksbwfh0p20rg8cz5jygx0f7p-python3.9-mitmproxy-7.0.4"
+        "out": "/nix/store/wgwjdswl09ngq6qbmazpvqh2g5lxz7jw-python3.9-mitmproxy-8.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Man-in-the-middle proxy",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/mitmproxy/default.nix:123",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/python-modules/mitmproxy/default.nix:119",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7hyghjnkksbwfh0p20rg8cz5jygx0f7p-python3.9-mitmproxy-7.0.4"
+        "/nix/store/wgwjdswl09ngq6qbmazpvqh2g5lxz7jw-python3.9-mitmproxy-8.0.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "8.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.1.1",
+      "pname": "mitmproxy",
+      "name": "mitmproxy-8.1.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/n771z42cina5vzj8lfz5m8kwwms8czhd-python3.10-mitmproxy-8.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Man-in-the-middle proxy",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/mitmproxy/default.nix:126",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mitmproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n771z42cina5vzj8lfz5m8kwwms8czhd-python3.10-mitmproxy-8.1.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "8.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.0.0",
-      "pname": "mitmproxy",
-      "name": "mitmproxy-8.0.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/wgwjdswl09ngq6qbmazpvqh2g5lxz7jw-python3.9-mitmproxy-8.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Man-in-the-middle proxy",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/python-modules/mitmproxy/default.nix:119",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mitmproxy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wgwjdswl09ngq6qbmazpvqh2g5lxz7jw-python3.9-mitmproxy-8.0.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

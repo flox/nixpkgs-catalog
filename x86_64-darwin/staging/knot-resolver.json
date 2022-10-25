@@ -1,45 +1,4 @@
 {
-  "5.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.4.0",
-      "pname": "knot-resolver",
-      "name": "knot-resolver-5.4.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/6xk92z7bvz1bnzcwany1dxc81mzy8i4h-knot-resolver-5.4.0-dev",
-        "out": "/nix/store/2wbijakpsb3dwwvsw05sbv3smhhygzwg-knot-resolver-5.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Caching validating DNS resolver, from .cz domain registry",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/dns/knot-resolver/default.nix:90",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "knot-resolver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2wbijakpsb3dwwvsw05sbv3smhhygzwg-knot-resolver-5.4.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "5.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "5.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.5.2",
+      "pname": "knot-resolver",
+      "name": "knot-resolver-5.5.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/s6r1jbsy71q81iinhfycq3lpqmjrf6ng-knot-resolver-5.5.2-dev",
+        "out": "/nix/store/1xfp33cvg9655359nzbdcs5bsxwildk2-knot-resolver-5.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Caching validating DNS resolver, from .cz domain registry",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/dns/knot-resolver/default.nix:110",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "knot-resolver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1xfp33cvg9655359nzbdcs5bsxwildk2-knot-resolver-5.5.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

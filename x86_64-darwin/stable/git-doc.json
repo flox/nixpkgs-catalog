@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.34.1",
-      "pname": "git",
-      "name": "git-2.34.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/3jy5kjq4nwf54by1n2i2cc05ahls7xpk-git-2.34.1-doc",
-        "out": "/nix/store/vfd0426jcnbndp84a2nwmw5rrsnhnjni-git-2.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Additional documentation for Git",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/git-and-tools/git/default.nix:369",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "git-doc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vfd0426jcnbndp84a2nwmw5rrsnhnjni-git-2.34.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "2.32.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "2.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.34.1",
+      "pname": "git",
+      "name": "git-2.34.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/3jy5kjq4nwf54by1n2i2cc05ahls7xpk-git-2.34.1-doc",
+        "out": "/nix/store/vfd0426jcnbndp84a2nwmw5rrsnhnjni-git-2.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Additional documentation for Git",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/git-and-tools/git/default.nix:369",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "git-doc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vfd0426jcnbndp84a2nwmw5rrsnhnjni-git-2.34.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

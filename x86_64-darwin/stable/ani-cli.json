@@ -39,23 +39,23 @@
       }
     }
   },
-  "2.2": {
+  "3.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2",
+      "version": "3.3",
       "pname": "ani-cli",
-      "name": "ani-cli-2.2",
+      "name": "ani-cli-3.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/jzmqys75sdzz9nl0fj774zf2l35rglaj-ani-cli-2.2"
+        "out": "/nix/store/9dqwxq63qvc3j0gamh819zqfz7vfsdll-ani-cli-3.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A cli tool to browse and play anime",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/video/ani-cli/default.nix:39",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/video/ani-cli/default.nix:39",
         "unfree": false
       }
     },
@@ -68,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jzmqys75sdzz9nl0fj774zf2l35rglaj-ani-cli-2.2"
+        "/nix/store/9dqwxq63qvc3j0gamh819zqfz7vfsdll-ani-cli-3.3"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2",
+      "pname": "ani-cli",
+      "name": "ani-cli-2.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/w2365yj6qc9hwf46dq3p7nnnrjfbz5sr-ani-cli-2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cli tool to browse and play anime",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/video/ani-cli/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ani-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w2365yj6qc9hwf46dq3p7nnnrjfbz5sr-ani-cli-2.2"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

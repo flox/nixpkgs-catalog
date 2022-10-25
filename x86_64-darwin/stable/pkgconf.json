@@ -43,6 +43,50 @@
       }
     }
   },
+  "1.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.3",
+      "pname": "pkgconf-wrapper",
+      "name": "pkgconf-wrapper-1.9.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/fs0dcs8r2089vjv8q6wbdw9w48vwfkw0-pkgconf-wrapper-1.9.3-doc",
+        "man": "/nix/store/98ds78jq27zkca0vdx0yqv3v5x38pa2h-pkgconf-wrapper-1.9.3-man",
+        "out": "/nix/store/nyirywap7s4mn6w19ny4n1zy7qm29319-pkgconf-wrapper-1.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Package compiler and linker metadata toolkit (wrapper script)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/pkg-config-wrapper/default.nix:126",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "pkgconf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nyirywap7s4mn6w19ny4n1zy7qm29319-pkgconf-wrapper-1.9.3",
+        "/nix/store/98ds78jq27zkca0vdx0yqv3v5x38pa2h-pkgconf-wrapper-1.9.3-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "1.8.0": {
     "type": "catalogRender",
     "schema": 1,

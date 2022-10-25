@@ -1,15 +1,15 @@
 {
-  "5.0.2": {
+  "5.2.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.0.2",
+      "version": "5.2.0",
       "pname": "tuptime",
-      "name": "tuptime-5.0.2",
+      "name": "tuptime-5.2.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "man": "/nix/store/w5ps54lzykn3prv4d6h8mgc2yqnc9y1d-tuptime-5.0.2-man",
-        "out": "/nix/store/39zfwf48pn8lydr1m0xnqxay50nn29l5-tuptime-5.0.2"
+        "man": "/nix/store/wsgbn3vrvzj01sakzg378imm0l0rwr9l-tuptime-5.2.0-man",
+        "out": "/nix/store/xsfw35xy77pkyzmk14sq0m04i31cv8cs-tuptime-5.2.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "Total uptime & downtime statistics utility",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/system/tuptime/default.nix:38",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/system/tuptime/default.nix:42",
         "unfree": false
       }
     },
@@ -30,15 +30,58 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/39zfwf48pn8lydr1m0xnqxay50nn29l5-tuptime-5.0.2",
-        "/nix/store/w5ps54lzykn3prv4d6h8mgc2yqnc9y1d-tuptime-5.0.2-man"
+        "/nix/store/xsfw35xy77pkyzmk14sq0m04i31cv8cs-tuptime-5.2.0",
+        "/nix/store/wsgbn3vrvzj01sakzg378imm0l0rwr9l-tuptime-5.2.0-man"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "5.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.1",
+      "pname": "tuptime",
+      "name": "tuptime-5.2.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "man": "/nix/store/xllwqk7wvyiwa36a9s6yhgii94s407dz-tuptime-5.2.1-man",
+        "out": "/nix/store/j1ab7nk02si3l7axjrrkkb252a2bqn7y-tuptime-5.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Total uptime & downtime statistics utility",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/tuptime/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "tuptime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j1ab7nk02si3l7axjrrkkb252a2bqn7y-tuptime-5.2.1",
+        "/nix/store/xllwqk7wvyiwa36a9s6yhgii94s407dz-tuptime-5.2.1-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

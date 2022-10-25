@@ -1,45 +1,4 @@
 {
-  "9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.1",
-      "pname": "coreutils",
-      "name": "coreutils-9.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "info": "/nix/store/vi3lkrs1p28xvfn7bikd7ww6qdgz752p-coreutils-9.1-info",
-        "out": "/nix/store/510p5y9b828lwwqww8knvk46ijz9fxr6-coreutils-9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The basic file, shell and text manipulation utilities of the GNU operating system",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/tools/misc/coreutils/default.nix:142",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "coreutils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/510p5y9b828lwwqww8knvk46ijz9fxr6-coreutils-9.1"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "8.32": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.1",
+      "pname": "coreutils",
+      "name": "coreutils-9.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "info": "/nix/store/5vnnh1n8wvznd9wwb7fxg7j1q9vsyjh0-coreutils-9.1-info",
+        "out": "/nix/store/hd977ad741kszfrirkmvksyd9zfll60j-coreutils-9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The GNU Core Utilities",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/coreutils/default.nix:173",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "coreutils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hd977ad741kszfrirkmvksyd9zfll60j-coreutils-9.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

@@ -1,4 +1,44 @@
 {
+  "0.1.33": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.33",
+      "pname": "cargo-udeps",
+      "name": "cargo-udeps-0.1.33",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/rrwfsmsdw508qig44izxbnh7kip53rgb-cargo-udeps-0.1.33"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Find unused dependencies in Cargo.toml",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/rust/cargo-udeps/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cargo-udeps"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rrwfsmsdw508qig44izxbnh7kip53rgb-cargo-udeps-0.1.33"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.1.26": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.1.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.1.22",
-      "pname": "cargo-udeps",
-      "name": "cargo-udeps-0.1.22",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/2i0kmzxidwx6qgi9jwfssza76vf79d3s-cargo-udeps-0.1.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Find unused dependencies in Cargo.toml",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/rust/cargo-udeps/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "cargo-udeps"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2i0kmzxidwx6qgi9jwfssza76vf79d3s-cargo-udeps-0.1.22"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

@@ -1,4 +1,44 @@
 {
+  "0.35.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.35.9",
+      "pname": "tendermint",
+      "name": "tendermint-0.35.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/hlgby1d87g6f5h463qw0s12k0n57hbmq-tendermint-0.35.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Byzantine-Fault Tolerant State Machines. Or Blockchain, for short",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/tendermint/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "tendermint"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hlgby1d87g6f5h463qw0s12k0n57hbmq-tendermint-0.35.9"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "0.35.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "0.34.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.34.8",
-      "pname": "tendermint",
-      "name": "tendermint-0.34.8",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/fd2mpkrq7gqb6nil4gh19dvym7i0m069-tendermint-0.34.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Byzantine-Fault Tolerant State Machines. Or Blockchain, for short",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/tendermint/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "tendermint"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fd2mpkrq7gqb6nil4gh19dvym7i0m069-tendermint-0.34.8"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.18.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.18.0",
-      "pname": "step-ca",
-      "name": "step-ca-0.18.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/mmsmndpf5p3d6w58dn09kp7fj7j7lq5l-step-ca-0.18.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/step-ca/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "step-ca"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mmsmndpf5p3d6w58dn09kp7fj7j7lq5l-step-ca-0.18.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "0.18.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.18.0",
+      "pname": "step-ca",
+      "name": "step-ca-0.18.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/mmsmndpf5p3d6w58dn09kp7fj7j7lq5l-step-ca-0.18.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/step-ca/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "step-ca"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mmsmndpf5p3d6w58dn09kp7fj7j7lq5l-step-ca-0.18.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

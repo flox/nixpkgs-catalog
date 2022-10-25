@@ -1,4 +1,45 @@
 {
+  "2.72.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.72.0",
+      "pname": "glib-networking",
+      "name": "glib-networking-2.72.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "installedTests": "/nix/store/9vhbf8na4xp66l35kkgl1094vvfpb2ya-glib-networking-2.72.0-installedTests",
+        "out": "/nix/store/613z44q6qs5kxrgb3ysjw2xwxnddwykr-glib-networking-2.72.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Network-related giomodules for glib",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/glib-networking/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "glib-networking"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/613z44q6qs5kxrgb3ysjw2xwxnddwykr-glib-networking-2.72.0"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "2.68.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "2.72.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.72.0",
-      "pname": "glib-networking",
-      "name": "glib-networking-2.72.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "installedTests": "/nix/store/9vhbf8na4xp66l35kkgl1094vvfpb2ya-glib-networking-2.72.0-installedTests",
-        "out": "/nix/store/613z44q6qs5kxrgb3ysjw2xwxnddwykr-glib-networking-2.72.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Network-related giomodules for glib",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/glib-networking/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "glib-networking"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/613z44q6qs5kxrgb3ysjw2xwxnddwykr-glib-networking-2.72.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

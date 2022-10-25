@@ -1,21 +1,21 @@
 {
-  "2.13.2": {
+  "2.13.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.13.2",
+      "version": "2.13.0",
       "pname": "ansible-core",
-      "name": "ansible-core-2.13.2",
+      "name": "ansible-core-2.13.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/4kyh4v83bb8n2hdfl8qldcy5c4x9kj0s-python3.10-ansible-core-2.13.2"
+        "out": "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Radically simple IT automation",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ansible/core.nix:77",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4kyh4v83bb8n2hdfl8qldcy5c4x9kj0s-python3.10-ansible-core-2.13.2"
+        "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 384129,
+        "lastModified": 1654682581
+      }
+    }
+  },
+  "2.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.2",
+      "pname": "ansible-core",
+      "name": "ansible-core-2.13.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Radically simple IT automation",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ansible_2_13"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "2.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.13.0",
-      "pname": "ansible-core",
-      "name": "ansible-core-2.13.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Radically simple IT automation",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ansible/core.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ansible_2_13"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.3.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.3.3",
-      "pname": "ombi",
-      "name": "ombi-4.3.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/b2vaqc6fpm6kx06q2jlsaycwdb5zhxn3-ombi-4.3.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/ombi/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ombi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/b2vaqc6fpm6kx06q2jlsaycwdb5zhxn3-ombi-4.3.3"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.0.1430": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
+      }
+    }
+  },
+  "4.3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.3.3",
+      "pname": "ombi",
+      "name": "ombi-4.3.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/b2vaqc6fpm6kx06q2jlsaycwdb5zhxn3-ombi-4.3.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/ombi/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ombi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b2vaqc6fpm6kx06q2jlsaycwdb5zhxn3-ombi-4.3.3"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

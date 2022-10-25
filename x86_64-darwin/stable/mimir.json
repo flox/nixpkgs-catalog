@@ -8,14 +8,14 @@
       "name": "mimir-2.1.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/c052r8iafjhi4x1w8pd5wxrbmc50c74z-mimir-2.1.0"
+        "out": "/nix/store/gm5i8cmdyjgxiigv11bxmppkrsxfh50x-mimir-2.1.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. ",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/monitoring/mimir/default.nix:35",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/monitoring/mimir/default.nix:35",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/c052r8iafjhi4x1w8pd5wxrbmc50c74z-mimir-2.1.0"
+        "/nix/store/gm5i8cmdyjgxiigv11bxmppkrsxfh50x-mimir-2.1.0"
       ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "mimir",
+      "name": "mimir-2.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/bp36pzzh6r9nxw6b8sswlm5gmpgskld4-mimir-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. ",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/mimir/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mimir"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bp36pzzh6r9nxw6b8sswlm5gmpgskld4-mimir-2.2.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

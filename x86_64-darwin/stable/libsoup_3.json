@@ -1,22 +1,22 @@
 {
-  "3.0.4": {
+  "3.0.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.0.4",
+      "version": "3.0.6",
       "pname": "libsoup",
-      "name": "libsoup-3.0.4",
+      "name": "libsoup-3.0.6",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/024m9brpxh2f0am6a5vy2s5k2hiax8w3-libsoup-3.0.4-dev",
-        "out": "/nix/store/znp4nsgmdhcijln3px64idni9xk25gcm-libsoup-3.0.4"
+        "dev": "/nix/store/1d6z5jw8p206kgaszk3ij68z80r3629q-libsoup-3.0.6-dev",
+        "out": "/nix/store/sf9xyprin5h438nfl0fgvf30jndwzlfy-libsoup-3.0.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "HTTP client/server library for GNOME",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/libsoup/3.x.nix:97",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libsoup/3.x.nix:97",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/znp4nsgmdhcijln3px64idni9xk25gcm-libsoup-3.0.4"
+        "/nix/store/sf9xyprin5h438nfl0fgvf30jndwzlfy-libsoup-3.0.6"
       ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "3.0.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.7",
+      "pname": "libsoup",
+      "name": "libsoup-3.0.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/1f68y1n1jkp68ypfj29h1lqxhhs0mxgm-libsoup-3.0.7-dev",
+        "out": "/nix/store/3nn52i1bmd94ipbg2qh4vfz5iz02jssm-libsoup-3.0.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "HTTP client/server library for GNOME",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libsoup/3.x.nix:97",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libsoup_3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3nn52i1bmd94ipbg2qh4vfz5iz02jssm-libsoup-3.0.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "3.0.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.6",
-      "pname": "libsoup",
-      "name": "libsoup-3.0.6",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/1d6z5jw8p206kgaszk3ij68z80r3629q-libsoup-3.0.6-dev",
-        "out": "/nix/store/sf9xyprin5h438nfl0fgvf30jndwzlfy-libsoup-3.0.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "HTTP client/server library for GNOME",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/libsoup/3.x.nix:97",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libsoup_3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sf9xyprin5h438nfl0fgvf30jndwzlfy-libsoup-3.0.6"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }
