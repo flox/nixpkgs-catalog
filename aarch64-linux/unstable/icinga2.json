@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.13.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.13.5",
-      "pname": "icinga2",
-      "name": "icinga2-2.13.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/7b652cgm9b74px97krddw62v006j8cpw-icinga2-2.13.5-doc",
-        "out": "/nix/store/9imvl8lhabpc7fhnn8hx0hchh95ayxm6-icinga2-2.13.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open source monitoring system",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/icinga2/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "icinga2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9imvl8lhabpc7fhnn8hx0hchh95ayxm6-icinga2-2.13.5"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.13.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.13.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.5",
+      "pname": "icinga2",
+      "name": "icinga2-2.13.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/lvfq83pvnal3iq3crml0kc64ndvh68a9-icinga2-2.13.5-doc",
+        "out": "/nix/store/567n31figf53ihxrkaj0a88gn0n5qkgr-icinga2-2.13.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source monitoring system",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/icinga2/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "icinga2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/567n31figf53ihxrkaj0a88gn0n5qkgr-icinga2-2.13.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

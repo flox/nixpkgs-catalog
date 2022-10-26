@@ -1,21 +1,22 @@
 {
-  "2022.6.22.1": {
+  "2022.10.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2022.6.22.1",
+      "version": "2022.10.4",
       "pname": "yt-dlp",
-      "name": "yt-dlp-2022.6.22.1",
+      "name": "yt-dlp-2022.10.4",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/dw8svzmkqvmd6snmp2dn2gsn3a1dcxib-python3.10-yt-dlp-2022.6.22.1"
+        "dist": "/nix/store/2a5wbl9r6646hvgqd3gih0dby5lkaxrl-python3.10-yt-dlp-2022.10.4-dist",
+        "out": "/nix/store/b3p5xi8rcmpfbv4snk41dw9vkc6g1z2j-python3.10-yt-dlp-2022.10.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/tools/misc/yt-dlp/default.nix:59",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/yt-dlp/default.nix:58",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dw8svzmkqvmd6snmp2dn2gsn3a1dcxib-python3.10-yt-dlp-2022.6.22.1"
+        "/nix/store/b3p5xi8rcmpfbv4snk41dw9vkc6g1z2j-python3.10-yt-dlp-2022.10.4"
       ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
-  "2022.07.18": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.07.18",
-      "pname": "yt-dlp",
-      "name": "yt-dlp-2022.07.18",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/5cnv3lg6w3n1w95gxg65p4472fihpab1-python3.10-yt-dlp-2022.07.18"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/yt-dlp/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "yt-dlp-light"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5cnv3lg6w3n1w95gxg65p4472fihpab1-python3.10-yt-dlp-2022.07.18"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2022.07.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.07.18",
+      "pname": "yt-dlp",
+      "name": "yt-dlp-2022.07.18",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/5cnv3lg6w3n1w95gxg65p4472fihpab1-python3.10-yt-dlp-2022.07.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/yt-dlp/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "yt-dlp-light"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5cnv3lg6w3n1w95gxg65p4472fihpab1-python3.10-yt-dlp-2022.07.18"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

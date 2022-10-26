@@ -1,21 +1,22 @@
 {
-  "2022.6.3": {
+  "2022.10.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2022.6.3",
+      "version": "2022.10.5",
       "pname": "homeassistant",
-      "name": "homeassistant-2022.6.3",
+      "name": "homeassistant-2022.10.5",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/zpvjlv5lv95aj8wn5w50zcffkw6vfjdp-homeassistant-2022.6.3"
+        "dist": "/nix/store/xansc5sbnl75fm3g76qhn3a7ymksawzx-homeassistant-2022.10.5-dist",
+        "out": "/nix/store/7i13k7yqhvw0q4birpvjs6irxrairvhn-homeassistant-2022.10.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Open source home automation that puts local control and privacy first",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/home-assistant/default.nix:336",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/home-assistant/default.nix:432",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zpvjlv5lv95aj8wn5w50zcffkw6vfjdp-homeassistant-2022.6.3"
+        "/nix/store/7i13k7yqhvw0q4birpvjs6irxrairvhn-homeassistant-2022.10.5"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2022.7.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.7.5",
-      "pname": "homeassistant",
-      "name": "homeassistant-2022.7.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/h0zm0753hf9hdw319iwcsdl8nl866s6m-homeassistant-2022.7.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open source home automation that puts local control and privacy first",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/home-assistant/default.nix:351",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "home-assistant"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h0zm0753hf9hdw319iwcsdl8nl866s6m-homeassistant-2022.7.5"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "2022.7.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.7.5",
+      "pname": "homeassistant",
+      "name": "homeassistant-2022.7.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/h0zm0753hf9hdw319iwcsdl8nl866s6m-homeassistant-2022.7.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source home automation that puts local control and privacy first",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/home-assistant/default.nix:351",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "home-assistant"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h0zm0753hf9hdw319iwcsdl8nl866s6m-homeassistant-2022.7.5"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "2.33.0": {
+  "2.36.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.33.0",
+      "version": "2.36.1",
       "pname": "saml2aws",
-      "name": "saml2aws-2.33.0",
+      "name": "saml2aws-2.36.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/6a5hffdga4ycklac8qcidcsfai4q87g3-saml2aws-2.33.0"
+        "out": "/nix/store/534qmr3a4rh8an43z5swjxgadarn0cyw-saml2aws-2.36.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/security/saml2aws/default.nix:27",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/saml2aws/default.nix:25",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6a5hffdga4ycklac8qcidcsfai4q87g3-saml2aws-2.33.0"
+        "/nix/store/534qmr3a4rh8an43z5swjxgadarn0cyw-saml2aws-2.36.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "2.36.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.36.0",
-      "pname": "saml2aws",
-      "name": "saml2aws-2.36.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/yh6rc0nw3farx77mvsc2z6bqqm48vhvp-saml2aws-2.36.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/saml2aws/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "saml2aws"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yh6rc0nw3farx77mvsc2z6bqqm48vhvp-saml2aws-2.36.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.36.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.36.0",
+      "pname": "saml2aws",
+      "name": "saml2aws-2.36.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/yh6rc0nw3farx77mvsc2z6bqqm48vhvp-saml2aws-2.36.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/saml2aws/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "saml2aws"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yh6rc0nw3farx77mvsc2z6bqqm48vhvp-saml2aws-2.36.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

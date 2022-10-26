@@ -39,47 +39,6 @@
       }
     }
   },
-  "3.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.1",
-      "pname": "pg_activity",
-      "name": "pg_activity-3.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/37r5azyml4fs6vadq5jb1nxi5nrck9nk-pg_activity-3.0.1-dist",
-        "out": "/nix/store/0fcf2i7alniyr9g79dlfddfqk8dsxc1h-pg_activity-3.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A top like application for PostgreSQL server activity monitoring",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/database/pg_activity/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "pg_activity"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0fcf2i7alniyr9g79dlfddfqk8dsxc1h-pg_activity-3.0.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.3.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.1",
+      "pname": "pg_activity",
+      "name": "pg_activity-3.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/4xrly0f4qnfzwl9d2azkddq83mk0h4sr-pg_activity-3.0.1-dist",
+        "out": "/nix/store/qgjk6yvbzpndyqa4xw95kb1y8c72y0cy-pg_activity-3.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A top like application for PostgreSQL server activity monitoring",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/database/pg_activity/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pg_activity"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qgjk6yvbzpndyqa4xw95kb1y8c72y0cy-pg_activity-3.0.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

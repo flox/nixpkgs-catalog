@@ -1,44 +1,4 @@
 {
-  "7.2.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.2.4",
-      "pname": "fastly-exporter",
-      "name": "fastly-exporter-7.2.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/s31yaj95xn70j4nfcz84gw8pr2wdyq5b-fastly-exporter-7.2.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Prometheus exporter for the Fastly Real-time Analytics API",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/fastly-exporter.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "prometheus-fastly-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s31yaj95xn70j4nfcz84gw8pr2wdyq5b-fastly-exporter-7.2.4"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "7.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "7.2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.2.4",
+      "pname": "fastly-exporter",
+      "name": "fastly-exporter-7.2.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8p2hdriyzwy93dj6kvpgwb3zlfzf99wj-fastly-exporter-7.2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Prometheus exporter for the Fastly Real-time Analytics API",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/prometheus/fastly-exporter.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "prometheus-fastly-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8p2hdriyzwy93dj6kvpgwb3zlfzf99wj-fastly-exporter-7.2.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

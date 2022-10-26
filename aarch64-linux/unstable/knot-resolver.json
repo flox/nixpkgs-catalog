@@ -1,22 +1,22 @@
 {
-  "5.5.1": {
+  "5.5.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.5.1",
+      "version": "5.5.3",
       "pname": "knot-resolver",
-      "name": "knot-resolver-5.5.1",
+      "name": "knot-resolver-5.5.3",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/2rb9493q5hsc8kc0b426vrl5cjn03b35-knot-resolver-5.5.1-dev",
-        "out": "/nix/store/vcfqzkcvzc9vghysrfx5blfyzslq57i5-knot-resolver-5.5.1"
+        "dev": "/nix/store/8k79y5imkdr97fhm0ngxm5029fhfv3v6-knot-resolver-5.5.3-dev",
+        "out": "/nix/store/b919g5jz75mx4j63b8vvq7j68q023gnd-knot-resolver-5.5.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Caching validating DNS resolver, from .cz domain registry",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dns/knot-resolver/default.nix:89",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/dns/knot-resolver/default.nix:96",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vcfqzkcvzc9vghysrfx5blfyzslq57i5-knot-resolver-5.5.1"
+        "/nix/store/b919g5jz75mx4j63b8vvq7j68q023gnd-knot-resolver-5.5.3"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "5.5.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.5.2",
-      "pname": "knot-resolver",
-      "name": "knot-resolver-5.5.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/vcms4wfhxyf1sircgfyh0fgi7yvkgaza-knot-resolver-5.5.2-dev",
-        "out": "/nix/store/kn37bnpix8cy5f56fv49mmh1smd2zcxa-knot-resolver-5.5.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Caching validating DNS resolver, from .cz domain registry",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/dns/knot-resolver/default.nix:110",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "knot-resolver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kn37bnpix8cy5f56fv49mmh1smd2zcxa-knot-resolver-5.5.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.5.1",
+      "pname": "knot-resolver",
+      "name": "knot-resolver-5.5.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/2rb9493q5hsc8kc0b426vrl5cjn03b35-knot-resolver-5.5.1-dev",
+        "out": "/nix/store/vcfqzkcvzc9vghysrfx5blfyzslq57i5-knot-resolver-5.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Caching validating DNS resolver, from .cz domain registry",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dns/knot-resolver/default.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "knot-resolver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vcfqzkcvzc9vghysrfx5blfyzslq57i5-knot-resolver-5.5.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

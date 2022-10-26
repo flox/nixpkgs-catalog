@@ -1,16 +1,16 @@
 {
-  "1.23.11": {
+  "1.25.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.23.11",
+      "version": "1.25.3",
       "pname": "kubectl",
-      "name": "kubectl-1.23.11",
+      "name": "kubectl-1.25.3",
       "system": "aarch64-linux",
       "outputs": {
-        "convert": "/nix/store/mdfpd5rzw9nk4bq9ff6m60r5618m0jm0-kubectl-1.23.11-convert",
-        "man": "/nix/store/6mz344jg1xffaxvgmqq281z28n8wzmix-kubectl-1.23.11-man",
-        "out": "/nix/store/ch7khzgl260xrw789fh5q9ybdjxb3vjm-kubectl-1.23.11"
+        "convert": "/nix/store/kd7mkhka04vn6pmgics83c725dbypnna-kubectl-1.25.3-convert",
+        "man": "/nix/store/m0xkvrlbl6n3xv65jakh1p9pnzp8iv5q-kubectl-1.25.3-man",
+        "out": "/nix/store/l1x4rxy7kh2y460ks2kmh50qk79ay5ar-kubectl-1.25.3"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "Kubernetes CLI",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
         "unfree": false
       }
     },
@@ -31,59 +31,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ch7khzgl260xrw789fh5q9ybdjxb3vjm-kubectl-1.23.11",
-        "/nix/store/6mz344jg1xffaxvgmqq281z28n8wzmix-kubectl-1.23.11-man"
+        "/nix/store/l1x4rxy7kh2y460ks2kmh50qk79ay5ar-kubectl-1.25.3",
+        "/nix/store/m0xkvrlbl6n3xv65jakh1p9pnzp8iv5q-kubectl-1.25.3-man"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "1.23.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.9",
-      "pname": "kubectl",
-      "name": "kubectl-1.23.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "convert": "/nix/store/s0g0azvysa7s5s0pvcz9wq1ry0p9hbjx-kubectl-1.23.9-convert",
-        "man": "/nix/store/nk2cpkamr2q28n11q765m59ig1rrl29a-kubectl-1.23.9-man",
-        "out": "/nix/store/qq15vv6a6s121vxqya6shk74c4whbwlk-kubectl-1.23.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Kubernetes CLI",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kubectl-convert"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qq15vv6a6s121vxqya6shk74c4whbwlk-kubectl-1.23.9",
-        "/nix/store/nk2cpkamr2q28n11q765m59ig1rrl29a-kubectl-1.23.9-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "1.23.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.9",
+      "pname": "kubectl",
+      "name": "kubectl-1.23.9",
+      "system": "aarch64-linux",
+      "outputs": {
+        "convert": "/nix/store/s0g0azvysa7s5s0pvcz9wq1ry0p9hbjx-kubectl-1.23.9-convert",
+        "man": "/nix/store/nk2cpkamr2q28n11q765m59ig1rrl29a-kubectl-1.23.9-man",
+        "out": "/nix/store/qq15vv6a6s121vxqya6shk74c4whbwlk-kubectl-1.23.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Kubernetes CLI",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kubernetes/kubectl.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kubectl-convert"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qq15vv6a6s121vxqya6shk74c4whbwlk-kubectl-1.23.9",
+        "/nix/store/nk2cpkamr2q28n11q765m59ig1rrl29a-kubectl-1.23.9-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

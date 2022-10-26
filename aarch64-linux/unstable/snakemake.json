@@ -1,21 +1,22 @@
 {
-  "7.8.1": {
+  "7.14.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.8.1",
+      "version": "7.14.2",
       "pname": "snakemake",
-      "name": "snakemake-7.8.1",
+      "name": "snakemake-7.14.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gm0mfd836mlmgcgajdiddgzp23fndn70-snakemake-7.8.1"
+        "dist": "/nix/store/ardddf5z99s3svfhy4qqfqzf1kqxxgwn-snakemake-7.14.2-dist",
+        "out": "/nix/store/866ya0bj55ggghgfrv0x37h4zds2hbc2-snakemake-7.14.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Python-based execution environment for make-like workflows",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/science/misc/snakemake/default.nix:75",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/science/misc/snakemake/default.nix:75",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gm0mfd836mlmgcgajdiddgzp23fndn70-snakemake-7.8.1"
+        "/nix/store/866ya0bj55ggghgfrv0x37h4zds2hbc2-snakemake-7.14.2"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "7.12.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.12.0",
-      "pname": "snakemake",
-      "name": "snakemake-7.12.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/4nfnxqpv7d9q3r77654iigcvssyj8528-snakemake-7.12.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python-based execution environment for make-like workflows",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/science/misc/snakemake/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "snakemake"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4nfnxqpv7d9q3r77654iigcvssyj8528-snakemake-7.12.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "7.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.12.0",
+      "pname": "snakemake",
+      "name": "snakemake-7.12.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/4nfnxqpv7d9q3r77654iigcvssyj8528-snakemake-7.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python-based execution environment for make-like workflows",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/science/misc/snakemake/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "snakemake"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4nfnxqpv7d9q3r77654iigcvssyj8528-snakemake-7.12.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

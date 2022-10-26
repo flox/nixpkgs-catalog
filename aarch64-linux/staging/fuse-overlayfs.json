@@ -1,44 +1,4 @@
 {
-  "1.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.1",
-      "pname": "fuse-overlayfs",
-      "name": "fuse-overlayfs-1.8.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/fbc7165nwwg0njd3kcb1x90kagjlr4nr-fuse-overlayfs-1.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "FUSE implementation for overlayfs",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/filesystems/fuse-overlayfs/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fuse-overlayfs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fbc7165nwwg0njd3kcb1x90kagjlr4nr-fuse-overlayfs-1.8.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.1",
+      "pname": "fuse-overlayfs",
+      "name": "fuse-overlayfs-1.8.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/fbc7165nwwg0njd3kcb1x90kagjlr4nr-fuse-overlayfs-1.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "FUSE implementation for overlayfs",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/filesystems/fuse-overlayfs/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fuse-overlayfs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fbc7165nwwg0njd3kcb1x90kagjlr4nr-fuse-overlayfs-1.8.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

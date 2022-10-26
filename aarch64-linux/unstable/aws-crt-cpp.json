@@ -40,47 +40,6 @@
       }
     }
   },
-  "0.17.32": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.17.32",
-      "pname": "aws-crt-cpp",
-      "name": "aws-crt-cpp-0.17.32",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/zwkcy63h8n1kjmy50896xvw4azw86jyv-aws-crt-cpp-0.17.32-dev",
-        "out": "/nix/store/74ijssh9c6111m8524ash08bcgh6isbb-aws-crt-cpp-0.17.32"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "C++ wrapper around the aws-c-* libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/aws-crt-cpp/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "aws-crt-cpp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/74ijssh9c6111m8524ash08bcgh6isbb-aws-crt-cpp-0.17.32"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.17.28": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.17.32": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.17.32",
+      "pname": "aws-crt-cpp",
+      "name": "aws-crt-cpp-0.17.32",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/gskzzfiri57xsz4x3h688pf1239s9zmq-aws-crt-cpp-0.17.32-dev",
+        "out": "/nix/store/361k5y5hx45hxlhg27w5x8vrzggp64y2-aws-crt-cpp-0.17.32"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C++ wrapper around the aws-c-* libraries",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/aws-crt-cpp/default.nix:69",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "aws-crt-cpp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/361k5y5hx45hxlhg27w5x8vrzggp64y2-aws-crt-cpp-0.17.32"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

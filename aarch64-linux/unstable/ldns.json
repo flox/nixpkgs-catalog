@@ -1,49 +1,4 @@
 {
-  "1.8.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.3",
-      "pname": "ldns",
-      "name": "ldns-1.8.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/sqvfdwaiziy9w4irxhc3lp44wdxyl7cb-ldns-1.8.3-dev",
-        "examples": "/nix/store/ndlcf7rmzr5kz94k0rb8v6njka635gig-ldns-1.8.3-examples",
-        "man": "/nix/store/h9870pnlf42gvs7mw0prk298mab6fyg3-ldns-1.8.3-man",
-        "out": "/nix/store/422siwmf02ddapmd6v90ghdy8y2wz04g-ldns-1.8.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Library with the aim of simplifying DNS programming in C",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/ldns/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ldns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/422siwmf02ddapmd6v90ghdy8y2wz04g-ldns-1.8.3",
-        "/nix/store/h9870pnlf42gvs7mw0prk298mab6fyg3-ldns-1.8.3-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.8.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.3",
+      "pname": "ldns",
+      "name": "ldns-1.8.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/q6klfkkhfyf5rxfxv8h5afjvrhmmlci7-ldns-1.8.3-dev",
+        "examples": "/nix/store/qcvsbn4wjgw0k0ccadc7lhwiyd8dnvqf-ldns-1.8.3-examples",
+        "man": "/nix/store/0042pgs3bpxpp0bv0jj9f0fz1r64i25p-ldns-1.8.3-man",
+        "out": "/nix/store/3pa21ckd2m4140asncd4lnvcr7flixyn-ldns-1.8.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Library with the aim of simplifying DNS programming in C",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/ldns/default.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ldns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3pa21ckd2m4140asncd4lnvcr7flixyn-ldns-1.8.3",
+        "/nix/store/0042pgs3bpxpp0bv0jj9f0fz1r64i25p-ldns-1.8.3-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

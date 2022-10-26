@@ -43,50 +43,6 @@
       }
     }
   },
-  "2.39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.39",
-      "pname": "binutils-wrapper",
-      "name": "binutils-wrapper-2.39",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/5d3d0w3qcn4ijkgnpl2fis599slf6kbi-binutils-wrapper-2.39-info",
-        "man": "/nix/store/3jpm9dk98nngc9nsxrriqrprs0cvxka5-binutils-wrapper-2.39-man",
-        "out": "/nix/store/zivc19ylcwql5k6bf5y0856fn0iknp63-binutils-wrapper-2.39"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/build-support/bintools-wrapper/default.nix:376",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "bintools"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zivc19ylcwql5k6bf5y0856fn0iknp63-binutils-wrapper-2.39",
-        "/nix/store/3jpm9dk98nngc9nsxrriqrprs0cvxka5-binutils-wrapper-2.39-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.39",
+      "pname": "binutils-wrapper",
+      "name": "binutils-wrapper-2.39",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/n2695d5zc23rkr5j1lav0jap25cqfwhn-binutils-wrapper-2.39-info",
+        "man": "/nix/store/pg1lil6527bmphw9yil7n1kipnwlxj56-binutils-wrapper-2.39-man",
+        "out": "/nix/store/jzizkmfl64b2b4lrk49q92pw0r3bqr8f-binutils-wrapper-2.39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools for manipulating binaries (linker, assembler, etc.) (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/bintools-wrapper/default.nix:376",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "bintools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jzizkmfl64b2b4lrk49q92pw0r3bqr8f-binutils-wrapper-2.39",
+        "/nix/store/pg1lil6527bmphw9yil7n1kipnwlxj56-binutils-wrapper-2.39-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

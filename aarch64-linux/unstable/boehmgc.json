@@ -1,47 +1,4 @@
 {
-  "8.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.2.2",
-      "pname": "boehm-gc",
-      "name": "boehm-gc-8.2.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/3lsdhwrvlqip1xw9755a78iqm57g4iaf-boehm-gc-8.2.2-debug",
-        "dev": "/nix/store/6p5iy787djpqh4ng758j8y6fb6m9v2zs-boehm-gc-8.2.2-dev",
-        "doc": "/nix/store/88gzrxg25ayp7rgidxzdwgq4zjsv3xyk-boehm-gc-8.2.2-doc",
-        "out": "/nix/store/q1w2srfqqmj3bqw3z0fpm1xqbzwczhx3-boehm-gc-8.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/boehm-gc/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "boehmgc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/q1w2srfqqmj3bqw3z0fpm1xqbzwczhx3-boehm-gc-8.2.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "8.0.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "8.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.2.2",
+      "pname": "boehm-gc",
+      "name": "boehm-gc-8.2.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/ndskgclhbw0dfrm1vb7l24bld9indrqc-boehm-gc-8.2.2-debug",
+        "dev": "/nix/store/jj7wiq6f75kkr2mx9a9ad11cvqb130vh-boehm-gc-8.2.2-dev",
+        "doc": "/nix/store/x75h0ymv18rx2im6bq4c36jz4x8s3f4z-boehm-gc-8.2.2-doc",
+        "out": "/nix/store/93fxqd0prbfwbnha89zhqk38vnb3f74c-boehm-gc-8.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Boehm-Demers-Weiser conservative garbage collector for C and C++",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/boehm-gc/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "boehmgc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/93fxqd0prbfwbnha89zhqk38vnb3f74c-boehm-gc-8.2.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

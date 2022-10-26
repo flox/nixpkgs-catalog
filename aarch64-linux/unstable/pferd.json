@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.4.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.1",
-      "pname": "pferd",
-      "name": "pferd-3.4.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/rgpsijx221mqrxnwad23vqwq957g2lwn-pferd-3.4.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tool for downloading course-related files from ILIAS",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/pferd/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "pferd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rgpsijx221mqrxnwad23vqwq957g2lwn-pferd-3.4.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.1",
+      "pname": "pferd",
+      "name": "pferd-3.4.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/01m3rp2qb2hdiaw4py6m990iyz40chy3-pferd-3.4.1-dist",
+        "out": "/nix/store/cgkwsqfqjvp93pb2bbkr0kbispqjlm6g-pferd-3.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tool for downloading course-related files from ILIAS",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/pferd/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pferd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cgkwsqfqjvp93pb2bbkr0kbispqjlm6g-pferd-3.4.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

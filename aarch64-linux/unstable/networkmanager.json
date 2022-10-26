@@ -1,18 +1,18 @@
 {
-  "1.36.4": {
+  "1.40.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.36.4",
+      "version": "1.40.2",
       "pname": "networkmanager",
-      "name": "networkmanager-1.36.4",
+      "name": "networkmanager-1.40.2",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/dym89w0j8cahh4a76ai7mg4zg8jx8pgl-networkmanager-1.36.4-dev",
-        "devdoc": "/nix/store/3l47rc9y49cpby2h0d577zgzlrbsrcja-networkmanager-1.36.4-devdoc",
-        "doc": "/nix/store/47hasqgqm21ch8asdik406w7ad9nbna1-networkmanager-1.36.4-doc",
-        "man": "/nix/store/myd0ba7n3rk3vr1k723cq2q9s2r3hmii-networkmanager-1.36.4-man",
-        "out": "/nix/store/ib9swqqch0q3a3azj07xzwi597b67ph9-networkmanager-1.36.4"
+        "dev": "/nix/store/3qp18mcr6q7xn4a6nn9yag1k3zimb8pm-networkmanager-1.40.2-dev",
+        "devdoc": "/nix/store/110px8v859g05i60z5cdwav60cndfnx6-networkmanager-1.40.2-devdoc",
+        "doc": "/nix/store/l68n98vgxqfc4iypp3421w8x8praf0r9-networkmanager-1.40.2-doc",
+        "man": "/nix/store/9zag83z7zc8msan2hlrk61w1yafinmbb-networkmanager-1.40.2-man",
+        "out": "/nix/store/7rvn54i637ljfg8m9yp8hz8lg7ajsb7b-networkmanager-1.40.2"
       },
       "meta": {
         "outputsToInstall": [
@@ -20,7 +20,7 @@
           "man"
         ],
         "description": "Network configuration and management tool",
-        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/tools/networking/networkmanager/default.nix:191",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/networkmanager/default.nix:210",
         "unfree": false
       }
     },
@@ -33,61 +33,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ib9swqqch0q3a3azj07xzwi597b67ph9-networkmanager-1.36.4",
-        "/nix/store/myd0ba7n3rk3vr1k723cq2q9s2r3hmii-networkmanager-1.36.4-man"
+        "/nix/store/7rvn54i637ljfg8m9yp8hz8lg7ajsb7b-networkmanager-1.40.2",
+        "/nix/store/9zag83z7zc8msan2hlrk61w1yafinmbb-networkmanager-1.40.2-man"
       ],
-      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 378452,
-        "lastModified": 1652794215
-      }
-    }
-  },
-  "1.38.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.38.2",
-      "pname": "networkmanager",
-      "name": "networkmanager-1.38.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/4y8m40b99l9yg9xvv85kzjl1ddhhs3pv-networkmanager-1.38.2-dev",
-        "devdoc": "/nix/store/bwwkg1jp6k8bgz8xbji7v886z7gakk7b-networkmanager-1.38.2-devdoc",
-        "doc": "/nix/store/64ird2gm3m1a1wlg79dh3qms345cksf1-networkmanager-1.38.2-doc",
-        "man": "/nix/store/mnba1x84kwmv4kqfrxnnxylp6cwmini1-networkmanager-1.38.2-man",
-        "out": "/nix/store/6w2gaacxrqa5z14i99vsm8g9wfjlkn16-networkmanager-1.38.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Network configuration and management tool",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/networkmanager/default.nix:207",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "networkmanager"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6w2gaacxrqa5z14i99vsm8g9wfjlkn16-networkmanager-1.38.2",
-        "/nix/store/mnba1x84kwmv4kqfrxnnxylp6cwmini1-networkmanager-1.38.2-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -134,6 +88,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.38.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.38.2",
+      "pname": "networkmanager",
+      "name": "networkmanager-1.38.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/4y8m40b99l9yg9xvv85kzjl1ddhhs3pv-networkmanager-1.38.2-dev",
+        "devdoc": "/nix/store/bwwkg1jp6k8bgz8xbji7v886z7gakk7b-networkmanager-1.38.2-devdoc",
+        "doc": "/nix/store/64ird2gm3m1a1wlg79dh3qms345cksf1-networkmanager-1.38.2-doc",
+        "man": "/nix/store/mnba1x84kwmv4kqfrxnnxylp6cwmini1-networkmanager-1.38.2-man",
+        "out": "/nix/store/6w2gaacxrqa5z14i99vsm8g9wfjlkn16-networkmanager-1.38.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Network configuration and management tool",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/networkmanager/default.nix:207",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "networkmanager"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6w2gaacxrqa5z14i99vsm8g9wfjlkn16-networkmanager-1.38.2",
+        "/nix/store/mnba1x84kwmv4kqfrxnnxylp6cwmini1-networkmanager-1.38.2-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

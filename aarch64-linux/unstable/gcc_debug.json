@@ -1,48 +1,4 @@
 {
-  "9.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.5.0",
-      "pname": "gcc-wrapper",
-      "name": "gcc-wrapper-9.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/r2fc4bb1h1nh28cpklv3p9p4haaypi5v-gcc-wrapper-9.5.0-info",
-        "man": "/nix/store/z0nrh8cblpij60skl81xp5ip71if9rhn-gcc-wrapper-9.5.0-man",
-        "out": "/nix/store/6aqcyjqsh67kgihk76x50jlw2qx1gjgr-gcc-wrapper-9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gcc_debug"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6aqcyjqsh67kgihk76x50jlw2qx1gjgr-gcc-wrapper-9.5.0",
-        "/nix/store/z0nrh8cblpij60skl81xp5ip71if9rhn-gcc-wrapper-9.5.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "9.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.5.0",
+      "pname": "gcc-wrapper",
+      "name": "gcc-wrapper-9.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/vy0ikfbhjxc5dqga6g7x0y57d4y52v7k-gcc-wrapper-9.5.0-info",
+        "man": "/nix/store/ybh0dgj92v40kwdakg1dk8xfhmiqjrmz-gcc-wrapper-9.5.0-man",
+        "out": "/nix/store/blxf77sp5wcdsrdcr7pdimgjpphh82f9-gcc-wrapper-9.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/cc-wrapper/default.nix:549",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gcc_debug"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/blxf77sp5wcdsrdcr7pdimgjpphh82f9-gcc-wrapper-9.5.0",
+        "/nix/store/ybh0dgj92v40kwdakg1dk8xfhmiqjrmz-gcc-wrapper-9.5.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

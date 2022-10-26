@@ -44,51 +44,6 @@
       }
     }
   },
-  "2.4.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.10",
-      "pname": "opendht",
-      "name": "opendht-2.4.10",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/nyw4knj8xidfj422y9j044yk8fnbyajz-opendht-2.4.10-dev",
-        "lib": "/nix/store/0sf1hcwv0y99sk036wq71ayppqir8flg-opendht-2.4.10-lib",
-        "man": "/nix/store/ars0g17d1riy9y9pwxibprnfp8fp7r5b-opendht-2.4.10-man",
-        "out": "/nix/store/zjcn977xig0ar6kig96f0zd53raq3jxn-opendht-2.4.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A C++11 Kademlia distributed hash table implementation",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/opendht/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "opendht"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zjcn977xig0ar6kig96f0zd53raq3jxn-opendht-2.4.10",
-        "/nix/store/ars0g17d1riy9y9pwxibprnfp8fp7r5b-opendht-2.4.10-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.4.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.10",
+      "pname": "opendht",
+      "name": "opendht-2.4.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/w2ilcsr1smh5wa8vnrvypvak02w20w6y-opendht-2.4.10-dev",
+        "lib": "/nix/store/cxmz3szhfrinawr0vazhi4zm4cdnwfm3-opendht-2.4.10-lib",
+        "man": "/nix/store/xwc9hcdj08a9xsxzsv7a9n45gyzvhwi3-opendht-2.4.10-man",
+        "out": "/nix/store/diakgi3s6nxj0g82idf08s8d13s508yh-opendht-2.4.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A C++11 Kademlia distributed hash table implementation",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/opendht/default.nix:72",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "opendht"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/diakgi3s6nxj0g82idf08s8d13s508yh-opendht-2.4.10",
+        "/nix/store/xwc9hcdj08a9xsxzsv7a9n45gyzvhwi3-opendht-2.4.10-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

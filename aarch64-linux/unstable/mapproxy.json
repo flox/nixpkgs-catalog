@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.15.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.15.1",
-      "pname": "MapProxy",
-      "name": "MapProxy-1.15.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/0fa7s3qcysfqnyf664fvz4af6c6g7rlb-MapProxy-1.15.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open source proxy for geospatial data",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/geospatial/mapproxy/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "mapproxy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0fa7s3qcysfqnyf664fvz4af6c6g7rlb-MapProxy-1.15.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.14.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.15.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.15.1",
+      "pname": "MapProxy",
+      "name": "MapProxy-1.15.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/w8c00y7dny6x7cqf9qmz3bsvqdl2f10w-MapProxy-1.15.1-dist",
+        "out": "/nix/store/3gx5s2mpgnmpv5xvsrk41jqyk8b32lln-MapProxy-1.15.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source proxy for geospatial data",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/geospatial/mapproxy/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mapproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3gx5s2mpgnmpv5xvsrk41jqyk8b32lln-MapProxy-1.15.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

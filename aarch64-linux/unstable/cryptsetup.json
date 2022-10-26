@@ -1,50 +1,4 @@
 {
-  "2.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.5.0",
-      "pname": "cryptsetup",
-      "name": "cryptsetup-2.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/9rvkp5pa3qh2vnf1k5vsxy17skc21dpl-cryptsetup-2.5.0-bin",
-        "debug": "/nix/store/ns9wisfdrkhfdxbnyk7vahhc5315yrd8-cryptsetup-2.5.0-debug",
-        "dev": "/nix/store/ya05a98nkcr7hzrqlydyvr4mknd1y9px-cryptsetup-2.5.0-dev",
-        "man": "/nix/store/b51yjd607hank5ivffkmjxp9qyh7sn81-cryptsetup-2.5.0-man",
-        "out": "/nix/store/iyg308w1aj720l51vbp46bq24jk689pv-cryptsetup-2.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "LUKS for dm-crypt",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/cryptsetup/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cryptsetup"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9rvkp5pa3qh2vnf1k5vsxy17skc21dpl-cryptsetup-2.5.0-bin",
-        "/nix/store/b51yjd607hank5ivffkmjxp9qyh7sn81-cryptsetup-2.5.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.4.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.0",
+      "pname": "cryptsetup",
+      "name": "cryptsetup-2.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/r8zwm7v715dngnby0xjhvi1jd03jk5lz-cryptsetup-2.5.0-bin",
+        "debug": "/nix/store/9qvsw24514aa5n2mn37mx8hlf1j6n5z8-cryptsetup-2.5.0-debug",
+        "dev": "/nix/store/dr7d6b57pc4wsgw5gw4kq3pwh6rgikpq-cryptsetup-2.5.0-dev",
+        "man": "/nix/store/7ircnh1w5gnbdr3kwqrq8jad3i0h3as2-cryptsetup-2.5.0-man",
+        "out": "/nix/store/qfxh9fx6cycwvvn1rlyzbvcrhhzirn1k-cryptsetup-2.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "LUKS for dm-crypt",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/cryptsetup/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cryptsetup"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r8zwm7v715dngnby0xjhvi1jd03jk5lz-cryptsetup-2.5.0-bin",
+        "/nix/store/7ircnh1w5gnbdr3kwqrq8jad3i0h3as2-cryptsetup-2.5.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

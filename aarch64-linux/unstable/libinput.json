@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.21.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.21.0",
-      "pname": "libinput",
-      "name": "libinput-1.21.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/4293vkl16f56mf1yvxi2cz9bpvfpi002-libinput-1.21.0-bin",
-        "dev": "/nix/store/rrm8cprb0mhv67i10xv0di2zblw9x52c-libinput-1.21.0-dev",
-        "out": "/nix/store/sadssyrdffnhs82x67dpiwzdka08vjj8-libinput-1.21.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libinput/default.nix:131",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libinput"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4293vkl16f56mf1yvxi2cz9bpvfpi002-libinput-1.21.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.20.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.21.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.21.0",
+      "pname": "libinput",
+      "name": "libinput-1.21.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/ff9n36nwc03663sydy1j75k2j06251ws-libinput-1.21.0-bin",
+        "dev": "/nix/store/4xgdnmgxl4y5jxfwbyn8va7jnlbaqwlm-libinput-1.21.0-dev",
+        "out": "/nix/store/5plssbvld8fgv4bkccvgingpybny1i4d-libinput-1.21.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Handles input devices in Wayland compositors and provides a generic X.Org input driver",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libinput/default.nix:130",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libinput"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ff9n36nwc03663sydy1j75k2j06251ws-libinput-1.21.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

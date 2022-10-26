@@ -1,44 +1,4 @@
 {
-  "0.8.23": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.23",
-      "pname": "duplicity",
-      "name": "duplicity-0.8.23",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/pnm5qdpm4hr4p1f2pd7n2750x7plipd0-duplicity-0.8.23"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Encrypted bandwidth-efficient backup using the rsync algorithm",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/backup/duplicity/default.nix:130",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "duplicity"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pnm5qdpm4hr4p1f2pd7n2750x7plipd0-duplicity-0.8.23"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.8.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.23": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.23",
+      "pname": "duplicity",
+      "name": "duplicity-0.8.23",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/f234mhissbv30q8aq30i93qkx50cfks6-duplicity-0.8.23-dist",
+        "out": "/nix/store/68fcfbgb8b7598kaqqp5dqa2liqzv21j-duplicity-0.8.23"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Encrypted bandwidth-efficient backup using the rsync algorithm",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/backup/duplicity/default.nix:130",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "duplicity"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/68fcfbgb8b7598kaqqp5dqa2liqzv21j-duplicity-0.8.23"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

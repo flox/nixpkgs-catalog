@@ -39,47 +39,6 @@
       }
     }
   },
-  "1.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.1",
-      "pname": "pdfarranger",
-      "name": "pdfarranger-1.9.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/6bghzf7pa943282rcf7nbzwhw7bi761p-pdfarranger-1.9.1-dist",
-        "out": "/nix/store/55ghycb22yxwr8m1kypnyz0idcr084ww-pdfarranger-1.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/misc/pdfarranger/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "pdfarranger"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/55ghycb22yxwr8m1kypnyz0idcr084ww-pdfarranger-1.9.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.8.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.1",
+      "pname": "pdfarranger",
+      "name": "pdfarranger-1.9.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/kyb4ylzgxszxfk9zvh5b0zirkxyjy54d-pdfarranger-1.9.1-dist",
+        "out": "/nix/store/wd5dd8j12jw3x9n5383jhlsxg8nghh6b-pdfarranger-1.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/pdfarranger/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pdfarranger"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wd5dd8j12jw3x9n5383jhlsxg8nghh6b-pdfarranger-1.9.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

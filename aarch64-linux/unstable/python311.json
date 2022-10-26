@@ -1,22 +1,22 @@
 {
-  "3.11.0b3": {
+  "3.11.0rc2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.11.0b3",
+      "version": "3.11.0rc2",
       "pname": "python3",
-      "name": "python3-3.11.0b3",
+      "name": "python3-3.11.0rc2",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/21rfba67kgw6z6br87v61s5p9i9fldki-python3-3.11.0b3-debug",
-        "out": "/nix/store/lzwkvwpx8y02jqrlxb02k44sc0qajhrk-python3-3.11.0b3"
+        "debug": "/nix/store/bkcjrsjkwyghplwn37bnwghnm9lplall-python3-3.11.0rc2-debug",
+        "out": "/nix/store/fhg100hczzw10m6lklbxz49ks5nxfrbd-python3-3.11.0rc2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/interpreters/python/cpython/default.nix:507",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/python/cpython/default.nix:511",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lzwkvwpx8y02jqrlxb02k44sc0qajhrk-python3-3.11.0b3"
+        "/nix/store/fhg100hczzw10m6lklbxz49ks5nxfrbd-python3-3.11.0rc2"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
-  "3.11.0b4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.11.0b4",
-      "pname": "python3",
-      "name": "python3-3.11.0b4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/y6wx3w85g96ly65n8r6c8r31bnvcmwpz-python3-3.11.0b4-debug",
-        "out": "/nix/store/xzvs8fz1qhhgz69xrhg8z3dnhajwhgx1-python3-3.11.0b4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/python/cpython/default.nix:507",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "python311"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xzvs8fz1qhhgz69xrhg8z3dnhajwhgx1-python3-3.11.0b4"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.11.0b4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.11.0b4",
+      "pname": "python3",
+      "name": "python3-3.11.0b4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/y6wx3w85g96ly65n8r6c8r31bnvcmwpz-python3-3.11.0b4-debug",
+        "out": "/nix/store/xzvs8fz1qhhgz69xrhg8z3dnhajwhgx1-python3-3.11.0b4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high-level dynamically-typed programming language",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/python/cpython/default.nix:507",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "python311"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xzvs8fz1qhhgz69xrhg8z3dnhajwhgx1-python3-3.11.0b4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "1.23.0-quic": {
+  "1.23.2-quic": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.23.0-quic",
+      "version": "1.23.2-quic",
       "pname": "nginx",
-      "name": "nginx-1.23.0-quic",
+      "name": "nginx-1.23.2-quic",
       "system": "aarch64-linux",
       "outputs": {
-        "doc": "/nix/store/kl3lz5kzbaf8wsjrhfkh68av7rx275bn-nginx-1.23.0-quic-doc",
-        "out": "/nix/store/ylgfrb765ykbdcf4qhf0507647pzw2yv-nginx-1.23.0-quic"
+        "doc": "/nix/store/gjiqmwjri7mn6rhwclnj4jbddrkl3k2x-nginx-1.23.2-quic-doc",
+        "out": "/nix/store/zm1x7wg7nxiia2brhn1vhqxmg9izcqa0-nginx-1.23.2-quic"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/http/nginx/generic.nix:180",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/http/nginx/generic.nix:180",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ylgfrb765ykbdcf4qhf0507647pzw2yv-nginx-1.23.0-quic"
+        "/nix/store/zm1x7wg7nxiia2brhn1vhqxmg9izcqa0-nginx-1.23.2-quic"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "1.23.1-quic": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.1-quic",
-      "pname": "nginx",
-      "name": "nginx-1.23.1-quic",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/0prk5waka4hrpnmh7k8ajkx9zlh2p7a0-nginx-1.23.1-quic-doc",
-        "out": "/nix/store/9zgyg61n5d79rb4kcbybqsw9p67jkfg7-nginx-1.23.1-quic"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/http/nginx/generic.nix:180",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nginxQuic"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9zgyg61n5d79rb4kcbybqsw9p67jkfg7-nginx-1.23.1-quic"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.23.1-quic": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.1-quic",
+      "pname": "nginx",
+      "name": "nginx-1.23.1-quic",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/0prk5waka4hrpnmh7k8ajkx9zlh2p7a0-nginx-1.23.1-quic-doc",
+        "out": "/nix/store/9zgyg61n5d79rb4kcbybqsw9p67jkfg7-nginx-1.23.1-quic"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nginxQuic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9zgyg61n5d79rb4kcbybqsw9p67jkfg7-nginx-1.23.1-quic"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

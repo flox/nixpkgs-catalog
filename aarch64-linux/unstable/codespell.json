@@ -1,45 +1,4 @@
 {
-  "2.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.2",
-      "pname": "codespell",
-      "name": "codespell-2.2.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/6g2a7vdqxjj9xikb8s0xinj0fciff3nj-codespell-2.2.2-dist",
-        "out": "/nix/store/9kw7azmih8xqgr4v56kng3ssrd1r47ak-codespell-2.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fix common misspellings in source code",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/python-modules/codespell/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "codespell"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9kw7azmih8xqgr4v56kng3ssrd1r47ak-codespell-2.2.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.2",
+      "pname": "codespell",
+      "name": "codespell-2.2.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/h3gjzn8s3hlyg63ji0pgpjknm7bs7qp4-codespell-2.2.2-dist",
+        "out": "/nix/store/2g2yxsjjx64hwqyyafd3hq4zsrmxsllq-codespell-2.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fix common misspellings in source code",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/codespell/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "codespell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2g2yxsjjx64hwqyyafd3hq4zsrmxsllq-codespell-2.2.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

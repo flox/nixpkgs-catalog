@@ -1,23 +1,23 @@
 {
-  "2.36.0": {
+  "2.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.36.0",
+      "version": "2.38.0",
       "pname": "git-with-svn",
-      "name": "git-with-svn-2.36.0",
+      "name": "git-with-svn-2.38.0",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/20il4srm8jyi8nq9llvbxcy80b9dibda-git-with-svn-2.36.0-debug",
-        "doc": "/nix/store/33cp4j8w7lygkij6mgjxqdvfl9rqvkk7-git-with-svn-2.36.0-doc",
-        "out": "/nix/store/waqxlcxy7znyh1ay3xdlvad9s6lk8g70-git-with-svn-2.36.0"
+        "debug": "/nix/store/31k59ddpvy90nwi6ls1g4y7knrab52q3-git-with-svn-2.38.0-debug",
+        "doc": "/nix/store/ssrdmrp6aqld5w4knyyf00l5f1vk26ff-git-with-svn-2.38.0-doc",
+        "out": "/nix/store/jwaz66vm9sq6i127dw1xhyda42dgyi9x-git-with-svn-2.38.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Distributed version control system",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/git/default.nix:378",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/git-and-tools/git/default.nix:387",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/waqxlcxy7znyh1ay3xdlvad9s6lk8g70-git-with-svn-2.36.0"
+        "/nix/store/jwaz66vm9sq6i127dw1xhyda42dgyi9x-git-with-svn-2.38.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.37.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.37.1",
-      "pname": "git-with-svn",
-      "name": "git-with-svn-2.37.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/vv0hz22f3ywdjkvamfwvbh2807jx6z9d-git-with-svn-2.37.1-debug",
-        "doc": "/nix/store/8bnkdgj8hvkpdmmp86l08vk41f1kvnq8-git-with-svn-2.37.1-doc",
-        "out": "/nix/store/sij5c5b0vjr3qca35ivl2pzz2zqmhan5-git-with-svn-2.37.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed version control system",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitSVN"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sij5c5b0vjr3qca35ivl2pzz2zqmhan5-git-with-svn-2.37.1"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.37.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.1",
+      "pname": "git-with-svn",
+      "name": "git-with-svn-2.37.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/vv0hz22f3ywdjkvamfwvbh2807jx6z9d-git-with-svn-2.37.1-debug",
+        "doc": "/nix/store/8bnkdgj8hvkpdmmp86l08vk41f1kvnq8-git-with-svn-2.37.1-doc",
+        "out": "/nix/store/sij5c5b0vjr3qca35ivl2pzz2zqmhan5-git-with-svn-2.37.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed version control system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitSVN"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sij5c5b0vjr3qca35ivl2pzz2zqmhan5-git-with-svn-2.37.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

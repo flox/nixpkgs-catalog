@@ -1,45 +1,4 @@
 {
-  "2.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.0",
-      "pname": "myfitnesspal",
-      "name": "myfitnesspal-2.0.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/0a2gha9pxq9g8z6akzh3f8rln4bf7sdr-python3.10-myfitnesspal-2.0.0-dist",
-        "out": "/nix/store/rwfmqm7sj0v9m9b18vh8iq3gafd0xpg0-python3.10-myfitnesspal-2.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python module to access meal tracking data stored in MyFitnessPal",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/python-modules/myfitnesspal/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "myfitnesspal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rwfmqm7sj0v9m9b18vh8iq3gafd0xpg0-python3.10-myfitnesspal-2.0.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.17.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.0",
+      "pname": "myfitnesspal",
+      "name": "myfitnesspal-2.0.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/i3rnz3c8k72cz3ib3l082nq4iv07lzwr-python3.10-myfitnesspal-2.0.0-dist",
+        "out": "/nix/store/dkddd8hwymbhn0h2h8255qc5r09a7q6w-python3.10-myfitnesspal-2.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python module to access meal tracking data stored in MyFitnessPal",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/myfitnesspal/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "myfitnesspal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dkddd8hwymbhn0h2h8255qc5r09a7q6w-python3.10-myfitnesspal-2.0.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

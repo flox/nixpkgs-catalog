@@ -1,46 +1,4 @@
 {
-  "1.9.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.4",
-      "pname": "lz4",
-      "name": "lz4-1.9.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/z7qb6ysj4655qjyf9dcycd2mjlmcgxl2-lz4-1.9.4-bin",
-        "dev": "/nix/store/a960xjahcqjgm5q30hwgqcisaycbacgn-lz4-1.9.4-dev",
-        "out": "/nix/store/vqqphjnb8y8hlm0cpr0pl6hzcylkisan-lz4-1.9.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Extremely fast compression algorithm",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/compression/lz4/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "lz4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z7qb6ysj4655qjyf9dcycd2mjlmcgxl2-lz4-1.9.4-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.4",
+      "pname": "lz4",
+      "name": "lz4-1.9.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/5gwyn484s4k5h9rnclm2bd0rayb1b0r6-lz4-1.9.4-bin",
+        "dev": "/nix/store/y0navmgplndcb1c3shrfjykm2d08yjml-lz4-1.9.4-dev",
+        "out": "/nix/store/853n3fhj7382175i8v4ycpx57q0pcqbn-lz4-1.9.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Extremely fast compression algorithm",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/compression/lz4/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "lz4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5gwyn484s4k5h9rnclm2bd0rayb1b0r6-lz4-1.9.4-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

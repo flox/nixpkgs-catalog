@@ -39,47 +39,6 @@
       }
     }
   },
-  "0.10.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.10.5",
-      "pname": "pantalaimon",
-      "name": "pantalaimon-0.10.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/11aas2zdwjii2432j2f856ay28hpqwip-pantalaimon-0.10.5-dist",
-        "out": "/nix/store/rmladrc58acyvwlrjnylh1zplp0p5wiz-pantalaimon-0.10.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An end-to-end encryption aware Matrix reverse proxy daemon",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/instant-messengers/pantalaimon/default.nix:71",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "pantalaimon-headless"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rmladrc58acyvwlrjnylh1zplp0p5wiz-pantalaimon-0.10.5"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.10.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.10.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.5",
+      "pname": "pantalaimon",
+      "name": "pantalaimon-0.10.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/ydcr7fdzzcbpjj6n3ykpp1xjhh1vxj94-pantalaimon-0.10.5-dist",
+        "out": "/nix/store/2vhif66lzg9252w4l7v6r172x24kih46-pantalaimon-0.10.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An end-to-end encryption aware Matrix reverse proxy daemon",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/instant-messengers/pantalaimon/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pantalaimon-headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2vhif66lzg9252w4l7v6r172x24kih46-pantalaimon-0.10.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

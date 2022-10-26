@@ -39,47 +39,6 @@
       }
     }
   },
-  "1.5.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.2",
-      "pname": "gajim",
-      "name": "gajim-1.5.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/bycqqq74wppci59d7kg6q8z16l2kpjd2-gajim-1.5.2-dist",
-        "out": "/nix/store/a58rwxnqknwdbpry6fcjjfrmshmgg2zn-gajim-1.5.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Jabber client written in PyGTK",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/instant-messengers/gajim/default.nix:73",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gajim"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a58rwxnqknwdbpry6fcjjfrmshmgg2zn-gajim-1.5.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.4.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.2",
+      "pname": "gajim",
+      "name": "gajim-1.5.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/wixicihj1v339y5iclb71sqbw81dbn2p-gajim-1.5.2-dist",
+        "out": "/nix/store/znqnblpk3jcssrdd1jlmhx2bsa4lm5f5-gajim-1.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Jabber client written in PyGTK",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/instant-messengers/gajim/default.nix:73",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gajim"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/znqnblpk3jcssrdd1jlmhx2bsa4lm5f5-gajim-1.5.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

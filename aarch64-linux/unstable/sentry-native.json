@@ -1,21 +1,21 @@
 {
-  "0.4.13": {
+  "0.5.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.4.13",
+      "version": "0.5.2",
       "pname": "sentry-native",
-      "name": "sentry-native-0.4.13",
+      "name": "sentry-native-0.5.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/bhysbqph304j1aac915zrwdkgjj8pvl6-sentry-native-0.4.13"
+        "out": "/nix/store/szqw158bbk39mdv6nfia37qn2a90r5l0-sentry-native-0.5.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Sentry SDK for C, C++ and native applications.",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/sentry-native/default.nix:23",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/sentry-native/default.nix:23",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bhysbqph304j1aac915zrwdkgjj8pvl6-sentry-native-0.4.13"
+        "/nix/store/szqw158bbk39mdv6nfia37qn2a90r5l0-sentry-native-0.5.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "0.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.0",
-      "pname": "sentry-native",
-      "name": "sentry-native-0.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/x5ykz3agqjij6ra1sq21i5fh7mnnyk8z-sentry-native-0.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Sentry SDK for C, C++ and native applications.",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sentry-native/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "sentry-native"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x5ykz3agqjij6ra1sq21i5fh7mnnyk8z-sentry-native-0.5.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "sentry-native",
+      "name": "sentry-native-0.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/x5ykz3agqjij6ra1sq21i5fh7mnnyk8z-sentry-native-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sentry SDK for C, C++ and native applications.",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sentry-native/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sentry-native"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x5ykz3agqjij6ra1sq21i5fh7mnnyk8z-sentry-native-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

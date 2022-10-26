@@ -1,21 +1,21 @@
 {
-  "1.0.28": {
+  "1.0.32": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.28",
+      "version": "1.0.32",
       "pname": "cargo-expand",
-      "name": "cargo-expand-1.0.28",
+      "name": "cargo-expand-1.0.32",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/8yc38csrzn0d2lazcmzgc9im7iagn8zm-cargo-expand-1.0.28"
+        "out": "/nix/store/1c50ba886lppi3cfgg2r0ymbiddskc6c-cargo-expand-1.0.32"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A utility and Cargo subcommand designed to let people expand macros in their Rust source code",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/rust/cargo-expand/default.nix:24",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/rust/cargo-expand/default.nix:24",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8yc38csrzn0d2lazcmzgc9im7iagn8zm-cargo-expand-1.0.28"
+        "/nix/store/1c50ba886lppi3cfgg2r0ymbiddskc6c-cargo-expand-1.0.32"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
-  "1.0.27": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.27",
-      "pname": "cargo-expand",
-      "name": "cargo-expand-1.0.27",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/2z3igl6wic1w0xlanl0kc59x1xghwpsp-cargo-expand-1.0.27"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A utility and Cargo subcommand designed to let people expand macros in their Rust source code",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-expand/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cargo-expand"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2z3igl6wic1w0xlanl0kc59x1xghwpsp-cargo-expand-1.0.27"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.0.27": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.27",
+      "pname": "cargo-expand",
+      "name": "cargo-expand-1.0.27",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/2z3igl6wic1w0xlanl0kc59x1xghwpsp-cargo-expand-1.0.27"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A utility and Cargo subcommand designed to let people expand macros in their Rust source code",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-expand/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cargo-expand"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2z3igl6wic1w0xlanl0kc59x1xghwpsp-cargo-expand-1.0.27"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

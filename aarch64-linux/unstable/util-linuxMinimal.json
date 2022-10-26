@@ -46,53 +46,6 @@
       }
     }
   },
-  "2.38.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.38.1",
-      "pname": "util-linux-minimal",
-      "name": "util-linux-minimal-2.38.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/bip3fhzpvms2582lmplr5brydmmij35q-util-linux-minimal-2.38.1-bin",
-        "debug": "/nix/store/s9sbf2rvb3py4yqjk32ppc9ckdc3fhdk-util-linux-minimal-2.38.1-debug",
-        "dev": "/nix/store/022zwgvwql14l82vcrzrma1408i8q1gx-util-linux-minimal-2.38.1-dev",
-        "lib": "/nix/store/51jpq2ggmxy3bwspcxmg76s9b1jqfg61-util-linux-minimal-2.38.1-lib",
-        "man": "/nix/store/bzrv6w3wjn4q0ffqa6pxajc6m1sp9xk0-util-linux-minimal-2.38.1-man",
-        "out": "/nix/store/cmqhl97nnhrvqzvx2dqqx1r4lfq42c85-util-linux-minimal-2.38.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A set of system utilities for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/util-linux/default.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "util-linuxMinimal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bip3fhzpvms2582lmplr5brydmmij35q-util-linux-minimal-2.38.1-bin",
-        "/nix/store/bzrv6w3wjn4q0ffqa6pxajc6m1sp9xk0-util-linux-minimal-2.38.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.37.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -137,6 +90,53 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.38.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.38.1",
+      "pname": "util-linux-minimal",
+      "name": "util-linux-minimal-2.38.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/67vh8prllx56q5rqf3xwja8fs9hjsrkv-util-linux-minimal-2.38.1-bin",
+        "debug": "/nix/store/96ac63mv89nw9i591mjvp466gxby6cj3-util-linux-minimal-2.38.1-debug",
+        "dev": "/nix/store/cwih0y9wrwl33xzj442zl736w1kd0ybp-util-linux-minimal-2.38.1-dev",
+        "lib": "/nix/store/pzmkihi7p66yf083dyzkkwd95vfshanm-util-linux-minimal-2.38.1-lib",
+        "man": "/nix/store/p89mvr5n739jp0yvyjnbv3pyb7jqdacl-util-linux-minimal-2.38.1-man",
+        "out": "/nix/store/2xw2b3j08qllghsskrrwvfvhjz34nj2n-util-linux-minimal-2.38.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A set of system utilities for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/util-linux/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "util-linuxMinimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/67vh8prllx56q5rqf3xwja8fs9hjsrkv-util-linux-minimal-2.38.1-bin",
+        "/nix/store/p89mvr5n739jp0yvyjnbv3pyb7jqdacl-util-linux-minimal-2.38.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

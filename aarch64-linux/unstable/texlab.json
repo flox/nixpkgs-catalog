@@ -1,15 +1,15 @@
 {
-  "4.0.0": {
+  "4.3.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.0.0",
+      "version": "4.3.0",
       "pname": "texlab",
-      "name": "texlab-4.0.0",
+      "name": "texlab-4.3.0",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/zv6wsvjc4vsv2r1f7y5y6q0wxlb4d7vx-texlab-4.0.0-man",
-        "out": "/nix/store/99mw5wg2a7cl4y8vxd1zy3zj0xr18ynp-texlab-4.0.0"
+        "man": "/nix/store/fl99012bihlpici28b15hr4yvxvz6q2q-texlab-4.3.0-man",
+        "out": "/nix/store/lk69nbpvl6gwpr59rlxr3i4f701ys7s1-texlab-4.3.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "An implementation of the Language Server Protocol for LaTeX",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/misc/texlab/default.nix:47",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/texlab/default.nix:61",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/99mw5wg2a7cl4y8vxd1zy3zj0xr18ynp-texlab-4.0.0",
-        "/nix/store/zv6wsvjc4vsv2r1f7y5y6q0wxlb4d7vx-texlab-4.0.0-man"
+        "/nix/store/lk69nbpvl6gwpr59rlxr3i4f701ys7s1-texlab-4.3.0",
+        "/nix/store/fl99012bihlpici28b15hr4yvxvz6q2q-texlab-4.3.0-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "4.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.0",
-      "pname": "texlab",
-      "name": "texlab-4.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/0r6idiwp6b6sj37yvfqza9c3am9izky8-texlab-4.2.0-man",
-        "out": "/nix/store/53wal70hf1i80gcrzaq755q8372mz0wv-texlab-4.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An implementation of the Language Server Protocol for LaTeX",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/misc/texlab/default.nix:47",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "texlab"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/53wal70hf1i80gcrzaq755q8372mz0wv-texlab-4.2.0",
-        "/nix/store/0r6idiwp6b6sj37yvfqza9c3am9izky8-texlab-4.2.0-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "4.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.0",
+      "pname": "texlab",
+      "name": "texlab-4.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/0r6idiwp6b6sj37yvfqza9c3am9izky8-texlab-4.2.0-man",
+        "out": "/nix/store/53wal70hf1i80gcrzaq755q8372mz0wv-texlab-4.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An implementation of the Language Server Protocol for LaTeX",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/misc/texlab/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "texlab"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/53wal70hf1i80gcrzaq755q8372mz0wv-texlab-4.2.0",
+        "/nix/store/0r6idiwp6b6sj37yvfqza9c3am9izky8-texlab-4.2.0-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

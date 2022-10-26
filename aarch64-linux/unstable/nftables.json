@@ -1,44 +1,4 @@
 {
-  "1.0.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.5",
-      "pname": "nftables",
-      "name": "nftables-1.0.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/bll0h4zljlw3yvpdyvyswhr99711dpjp-nftables-1.0.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The project that aims to replace the existing {ip,ip6,arp,eb}tables framework",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/nftables/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nftables"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bll0h4zljlw3yvpdyvyswhr99711dpjp-nftables-1.0.5"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.0.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.0.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.5",
+      "pname": "nftables",
+      "name": "nftables-1.0.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/a2ncns1lh0rfklybl5chr88fvr28laxr-nftables-1.0.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The project that aims to replace the existing {ip,ip6,arp,eb}tables framework",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/nftables/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nftables"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a2ncns1lh0rfklybl5chr88fvr28laxr-nftables-1.0.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

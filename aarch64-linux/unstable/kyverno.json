@@ -1,21 +1,21 @@
 {
-  "1.7.3": {
+  "1.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.7.3",
+      "version": "1.8.0",
       "pname": "kyverno",
-      "name": "kyverno-1.7.3",
+      "name": "kyverno-1.8.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/7w1br6s16c81vq8ylpjz96jdqkp4l3l0-kyverno-1.7.3"
+        "out": "/nix/store/2nj4l1zvv8k6apv1wklrq1bcc46k9l3z-kyverno-1.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Kubernetes Native Policy Management",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/kyverno/default.nix:43",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/kyverno/default.nix:43",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7w1br6s16c81vq8ylpjz96jdqkp4l3l0-kyverno-1.7.3"
+        "/nix/store/2nj4l1zvv8k6apv1wklrq1bcc46k9l3z-kyverno-1.8.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "1.7.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.4",
-      "pname": "kyverno",
-      "name": "kyverno-1.7.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/8ys2nxfa0zh45jldi143l1r92grs7lwl-kyverno-1.7.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Kubernetes Native Policy Management",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/networking/cluster/kyverno/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kyverno"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8ys2nxfa0zh45jldi143l1r92grs7lwl-kyverno-1.7.4"
-      ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
-    },
-    "source": {
-      "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "1.7.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.4",
+      "pname": "kyverno",
+      "name": "kyverno-1.7.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8ys2nxfa0zh45jldi143l1r92grs7lwl-kyverno-1.7.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Kubernetes Native Policy Management",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/networking/cluster/kyverno/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kyverno"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8ys2nxfa0zh45jldi143l1r92grs7lwl-kyverno-1.7.4"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   }

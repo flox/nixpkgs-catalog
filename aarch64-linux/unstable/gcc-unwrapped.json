@@ -1,49 +1,4 @@
 {
-  "9.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.5.0",
-      "pname": "gcc",
-      "name": "gcc-9.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/2zmpqp4z4wjni58bjszq6zixs74if5wl-gcc-9.5.0-info",
-        "lib": "/nix/store/5ia95yjfh94inygxsshqz8k5xarma70q-gcc-9.5.0-lib",
-        "man": "/nix/store/x1whamm2r9v8mqbkdyyp9gf3dzrahvw8-gcc-9.5.0-man",
-        "out": "/nix/store/2n64rqlm78a3j5fsqgcqmbm73zg2wjch-gcc-9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 9.5.0",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/gcc/9/default.nix:272",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gcc-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2n64rqlm78a3j5fsqgcqmbm73zg2wjch-gcc-9.5.0",
-        "/nix/store/x1whamm2r9v8mqbkdyyp9gf3dzrahvw8-gcc-9.5.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "9.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.5.0",
+      "pname": "gcc",
+      "name": "gcc-9.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/wj925067c81y50yqji7knxrh7jirc8rh-gcc-9.5.0-info",
+        "lib": "/nix/store/bz7n1a6gv94yb20a3a8v621yfzvfwls8-gcc-9.5.0-lib",
+        "man": "/nix/store/4z5lvg1jd91ifc1di7n9dlkw686dgh1y-gcc-9.5.0-man",
+        "out": "/nix/store/5xl2s7jin12xvv154480jxmzcry9ama2-gcc-9.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 9.5.0",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/gcc/9/default.nix:272",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gcc-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5xl2s7jin12xvv154480jxmzcry9ama2-gcc-9.5.0",
+        "/nix/store/4z5lvg1jd91ifc1di7n9dlkw686dgh1y-gcc-9.5.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

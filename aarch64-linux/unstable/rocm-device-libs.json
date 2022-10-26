@@ -1,21 +1,21 @@
 {
-  "4.5.2": {
+  "5.3.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.5.2",
+      "version": "5.3.0",
       "pname": "rocm-device-libs",
-      "name": "rocm-device-libs-4.5.2",
+      "name": "rocm-device-libs-5.3.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/ydrk3j3hcdcc8s94q1ynkrbdj5sbszyn-rocm-device-libs-4.5.2"
+        "out": "/nix/store/7zh15ykn2830az6x4w5r6zllgdmsdj3a-rocm-device-libs-5.3.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Set of AMD-specific device-side language runtime libraries",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/rocm-device-libs/default.nix:42",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/rocm-device-libs/default.nix:40",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ydrk3j3hcdcc8s94q1ynkrbdj5sbszyn-rocm-device-libs-4.5.2"
+        "/nix/store/7zh15ykn2830az6x4w5r6zllgdmsdj3a-rocm-device-libs-5.3.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "5.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.2.0",
-      "pname": "rocm-device-libs",
-      "name": "rocm-device-libs-5.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/7qawidyrqr6wyy733ka0v4q3bq5ng8h4-rocm-device-libs-5.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Set of AMD-specific device-side language runtime libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/rocm-device-libs/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "rocm-device-libs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7qawidyrqr6wyy733ka0v4q3bq5ng8h4-rocm-device-libs-5.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.0",
+      "pname": "rocm-device-libs",
+      "name": "rocm-device-libs-5.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/7qawidyrqr6wyy733ka0v4q3bq5ng8h4-rocm-device-libs-5.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Set of AMD-specific device-side language runtime libraries",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/rocm-device-libs/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rocm-device-libs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7qawidyrqr6wyy733ka0v4q3bq5ng8h4-rocm-device-libs-5.2.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

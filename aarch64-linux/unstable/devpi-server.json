@@ -1,45 +1,4 @@
 {
-  "6.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.7.0",
-      "pname": "devpi-server",
-      "name": "devpi-server-6.7.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/mdyb3l4c8l5ib8brni4s3d27fz5d508g-devpi-server-6.7.0-dist",
-        "out": "/nix/store/sgkvfn3y2jlc0y49wkchf2ykcasv0v0z-devpi-server-6.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Github-style pypi index server and packaging meta tool",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/devpi-server/default.nix:90",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "devpi-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sgkvfn3y2jlc0y49wkchf2ykcasv0v0z-devpi-server-6.7.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "6.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "6.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.7.0",
+      "pname": "devpi-server",
+      "name": "devpi-server-6.7.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/0dn4vl4qh95cfzamdk61l0rz01gi94hn-devpi-server-6.7.0-dist",
+        "out": "/nix/store/9wbzrga3hjn6g6b2s2865rxa1n749rpm-devpi-server-6.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Github-style pypi index server and packaging meta tool",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/devpi-server/default.nix:90",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "devpi-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9wbzrga3hjn6g6b2s2865rxa1n749rpm-devpi-server-6.7.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

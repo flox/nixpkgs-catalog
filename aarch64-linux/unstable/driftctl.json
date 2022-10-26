@@ -1,21 +1,21 @@
 {
-  "0.31.0": {
+  "0.38.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.31.0",
+      "version": "0.38.1",
       "pname": "driftctl",
-      "name": "driftctl-0.31.0",
+      "name": "driftctl-0.38.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/j4g6bc8pfkxjjnabnin30qd47j39kznf-driftctl-0.31.0"
+        "out": "/nix/store/ky3070rc84pg77smf6z3ijh317nc3011-driftctl-0.38.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Detect, track and alert on infrastructure drift",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/cluster/driftctl/default.nix:48",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/driftctl/default.nix:48",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j4g6bc8pfkxjjnabnin30qd47j39kznf-driftctl-0.31.0"
+        "/nix/store/ky3070rc84pg77smf6z3ijh317nc3011-driftctl-0.38.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.34.1",
-      "pname": "driftctl",
-      "name": "driftctl-0.34.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/njhfjkaaa4nlw2sgrq51fwzjlfdv8sjc-driftctl-0.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Detect, track and alert on infrastructure drift",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/driftctl/default.nix:48",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "driftctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/njhfjkaaa4nlw2sgrq51fwzjlfdv8sjc-driftctl-0.34.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.34.1",
+      "pname": "driftctl",
+      "name": "driftctl-0.34.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/njhfjkaaa4nlw2sgrq51fwzjlfdv8sjc-driftctl-0.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Detect, track and alert on infrastructure drift",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/driftctl/default.nix:48",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "driftctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/njhfjkaaa4nlw2sgrq51fwzjlfdv8sjc-driftctl-0.34.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

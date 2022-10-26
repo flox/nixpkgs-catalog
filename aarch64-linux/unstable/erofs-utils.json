@@ -1,47 +1,4 @@
 {
-  "1.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5",
-      "pname": "erofs-utils",
-      "name": "erofs-utils-1.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/zxs1rh261v47qpb52ngasvkm5zfkyyx7-erofs-utils-1.5-man",
-        "out": "/nix/store/bingxhv4cgwvzhbx5vy26hbwvr0q4msa-erofs-utils-1.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Userspace utilities for linux-erofs file system",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/erofs-utils/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "erofs-utils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bingxhv4cgwvzhbx5vy26hbwvr0q4msa-erofs-utils-1.5",
-        "/nix/store/zxs1rh261v47qpb52ngasvkm5zfkyyx7-erofs-utils-1.5-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5",
+      "pname": "erofs-utils",
+      "name": "erofs-utils-1.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/by8cp1hangx04aqnb6bkxjg5sncjq1vc-erofs-utils-1.5-man",
+        "out": "/nix/store/78rqwjv8p4xx4l7qj2pngkk7lrppl55m-erofs-utils-1.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Userspace utilities for linux-erofs file system",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/erofs-utils/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "erofs-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/78rqwjv8p4xx4l7qj2pngkk7lrppl55m-erofs-utils-1.5",
+        "/nix/store/by8cp1hangx04aqnb6bkxjg5sncjq1vc-erofs-utils-1.5-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

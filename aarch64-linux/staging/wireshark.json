@@ -1,45 +1,4 @@
 {
-  "3.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.1",
-      "pname": "wireshark-qt",
-      "name": "wireshark-qt-3.6.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/mzffb4ngawvhwf9hcil31s9g8vwr4z2c-wireshark-qt-3.6.1-dev",
-        "out": "/nix/store/zflvih43lrn4h1smb87f2bwacy8gsbnk-wireshark-qt-3.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful network protocol analyzer",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sniffers/wireshark/default.nix:96",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "wireshark"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zflvih43lrn4h1smb87f2bwacy8gsbnk-wireshark-qt-3.6.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.6.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "3.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.1",
+      "pname": "wireshark-qt",
+      "name": "wireshark-qt-3.6.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/mzffb4ngawvhwf9hcil31s9g8vwr4z2c-wireshark-qt-3.6.1-dev",
+        "out": "/nix/store/zflvih43lrn4h1smb87f2bwacy8gsbnk-wireshark-qt-3.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful network protocol analyzer",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sniffers/wireshark/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "wireshark"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zflvih43lrn4h1smb87f2bwacy8gsbnk-wireshark-qt-3.6.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

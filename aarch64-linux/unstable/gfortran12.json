@@ -1,48 +1,4 @@
 {
-  "12.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "12.2.0",
-      "pname": "gfortran-wrapper",
-      "name": "gfortran-wrapper-12.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/4zzzgdn3c8r6iw3dacb30v81iwxy0154-gfortran-wrapper-12.2.0-info",
-        "man": "/nix/store/05ig3ayr3yv63d456w8v8vn47r0m0nky-gfortran-wrapper-12.2.0-man",
-        "out": "/nix/store/ai9dm6naawr69q7jm33209r957gjl1cn-gfortran-wrapper-12.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 12.2.0 (wrapper script)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gfortran12"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ai9dm6naawr69q7jm33209r957gjl1cn-gfortran-wrapper-12.2.0",
-        "/nix/store/05ig3ayr3yv63d456w8v8vn47r0m0nky-gfortran-wrapper-12.2.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "12.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "12.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.2.0",
+      "pname": "gfortran-wrapper",
+      "name": "gfortran-wrapper-12.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/x5w293fw99kfq6g8k6bd1p59mwjhkh35-gfortran-wrapper-12.2.0-info",
+        "man": "/nix/store/9y91mwcya3lrkcsrl778bcc2lcmv4riv-gfortran-wrapper-12.2.0-man",
+        "out": "/nix/store/0spzg3bq20bvf2ys4682r1g4v462xc78-gfortran-wrapper-12.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 12.2.0 (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/cc-wrapper/default.nix:549",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gfortran12"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0spzg3bq20bvf2ys4682r1g4v462xc78-gfortran-wrapper-12.2.0",
+        "/nix/store/9y91mwcya3lrkcsrl778bcc2lcmv4riv-gfortran-wrapper-12.2.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

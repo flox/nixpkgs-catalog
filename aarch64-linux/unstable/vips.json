@@ -1,49 +1,4 @@
 {
-  "8.13.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.13.2",
-      "pname": "vips",
-      "name": "vips-8.13.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/1n14jmzcfxn4wsxqc7j9irxqirwrispr-vips-8.13.2-bin",
-        "dev": "/nix/store/iikd54pxy65wcab00s95k1dzmyh9f75w-vips-8.13.2-dev",
-        "man": "/nix/store/yzc7zb39c7fp3fz8sx4blqkmafjmakwp-vips-8.13.2-man",
-        "out": "/nix/store/dgj5a9qda3w8y73prz7b09nr5hvgsbmc-vips-8.13.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Image processing system for large images",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/graphics/vips/default.nix:104",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "vips"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1n14jmzcfxn4wsxqc7j9irxqirwrispr-vips-8.13.2-bin",
-        "/nix/store/yzc7zb39c7fp3fz8sx4blqkmafjmakwp-vips-8.13.2-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "8.13.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "8.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.13.2",
+      "pname": "vips",
+      "name": "vips-8.13.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/spw3fb3dmph0gg9d1bka2i7slakzyfjq-vips-8.13.2-bin",
+        "dev": "/nix/store/c4p1pbclqiphmkaw518hqb3kh9gkdxgh-vips-8.13.2-dev",
+        "man": "/nix/store/f6p859l8wyjbzcdbq99znkxgr2s8l73s-vips-8.13.2-man",
+        "out": "/nix/store/vrfyfvfy4ryac0aniwf43gbyykfgvpfa-vips-8.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Image processing system for large images",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/graphics/vips/default.nix:104",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "vips"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/spw3fb3dmph0gg9d1bka2i7slakzyfjq-vips-8.13.2-bin",
+        "/nix/store/f6p859l8wyjbzcdbq99znkxgr2s8l73s-vips-8.13.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,49 +1,4 @@
 {
-  "2.0.33": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.33",
-      "pname": "OpenIPMI",
-      "name": "OpenIPMI-2.0.33",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/i9zg47489cim63bx1ydvjgvfm4rvkjf0-OpenIPMI-2.0.33-dev",
-        "lib": "/nix/store/1j9jg7krig0rr8zjxvh79dy9nbfcjhvv-OpenIPMI-2.0.33-lib",
-        "man": "/nix/store/9rzd0dkkxifcgk0zk2xcbf90aql471m3-OpenIPMI-2.0.33-man",
-        "out": "/nix/store/v7nq9hrzrk19lz8hcq1gmrg28y4s04ai-OpenIPMI-2.0.33"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A user-level library that provides a higher-level abstraction of IPMI and generic services",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/openipmi/default.nix:18",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "openipmi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v7nq9hrzrk19lz8hcq1gmrg28y4s04ai-OpenIPMI-2.0.33",
-        "/nix/store/9rzd0dkkxifcgk0zk2xcbf90aql471m3-OpenIPMI-2.0.33-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.0.32": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.0.33": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.33",
+      "pname": "OpenIPMI",
+      "name": "OpenIPMI-2.0.33",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/psgn4yrm86cd42n319csrvw78zcic4s9-OpenIPMI-2.0.33-dev",
+        "lib": "/nix/store/y9jp69gdg5k1d1bwx6jgh4h0srcg1jz6-OpenIPMI-2.0.33-lib",
+        "man": "/nix/store/1wp462v43igc0dz8wp0hxhl1lmzpgqpw-OpenIPMI-2.0.33-man",
+        "out": "/nix/store/838ggjidfgnpqy60gv0c9811svkncy6a-OpenIPMI-2.0.33"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A user-level library that provides a higher-level abstraction of IPMI and generic services",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/system/openipmi/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openipmi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/838ggjidfgnpqy60gv0c9811svkncy6a-OpenIPMI-2.0.33",
+        "/nix/store/1wp462v43igc0dz8wp0hxhl1lmzpgqpw-OpenIPMI-2.0.33-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "3.8.12": {
+  "3.8.15": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.8.12",
+      "version": "3.8.15",
       "pname": "python3",
-      "name": "python3-3.8.12",
+      "name": "python3-3.8.15",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/8dbkpg0c956wymhhi4v2ipvb0mcmcy89-python3-3.8.12-debug",
-        "out": "/nix/store/vs3sg76qcwkssmh324p5lj786d5wxb0y-python3-3.8.12"
+        "debug": "/nix/store/9a20dycnpzqa6nlcvnxyfrm31law74xr-python3-3.8.15-debug",
+        "out": "/nix/store/k6xkzjkzl15966yjqdx97yvj8j9vs6jj-python3-3.8.15"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/interpreters/python/cpython/default.nix:495",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/python/cpython/default.nix:511",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vs3sg76qcwkssmh324p5lj786d5wxb0y-python3-3.8.12"
+        "/nix/store/k6xkzjkzl15966yjqdx97yvj8j9vs6jj-python3-3.8.15"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "3.8.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.8.14",
-      "pname": "python3",
-      "name": "python3-3.8.14",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/ycgvcs3aplmhxh3bgd537vff2il97djm-python3-3.8.14-debug",
-        "out": "/nix/store/cni0yfl9xb8c1nxakdwbrmdfgdb226vj-python3-3.8.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high-level dynamically-typed programming language",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/interpreters/python/cpython/default.nix:507",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "python38Full"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cni0yfl9xb8c1nxakdwbrmdfgdb226vj-python3-3.8.14"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.8.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.8.14",
+      "pname": "python3",
+      "name": "python3-3.8.14",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/ycgvcs3aplmhxh3bgd537vff2il97djm-python3-3.8.14-debug",
+        "out": "/nix/store/cni0yfl9xb8c1nxakdwbrmdfgdb226vj-python3-3.8.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high-level dynamically-typed programming language",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/interpreters/python/cpython/default.nix:507",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "python38Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cni0yfl9xb8c1nxakdwbrmdfgdb226vj-python3-3.8.14"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

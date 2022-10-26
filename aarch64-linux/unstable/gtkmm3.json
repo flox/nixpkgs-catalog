@@ -40,47 +40,6 @@
       }
     }
   },
-  "3.24.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.24.7",
-      "pname": "gtkmm",
-      "name": "gtkmm-3.24.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/alb28f4zbxmvg3p8016h6sspj9kmvpm9-gtkmm-3.24.7-dev",
-        "out": "/nix/store/2kf8skp1fcqyxhg9a13irm2gvp1j3bxc-gtkmm-3.24.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "C++ interface to the GTK graphical user interface library",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/gtkmm/3.x.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gtkmm3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2kf8skp1fcqyxhg9a13irm2gvp1j3bxc-gtkmm-3.24.7"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.24.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.24.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.24.7",
+      "pname": "gtkmm",
+      "name": "gtkmm-3.24.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/98b7vh5mqvjsr0k06jva9sdwbl224q6g-gtkmm-3.24.7-dev",
+        "out": "/nix/store/2qi8069g1kbgkc1x9sp5n8zjm7rvbshd-gtkmm-3.24.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C++ interface to the GTK graphical user interface library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gtkmm/3.x.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gtkmm3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2qi8069g1kbgkc1x9sp5n8zjm7rvbshd-gtkmm-3.24.7"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

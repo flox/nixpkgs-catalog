@@ -1,22 +1,22 @@
 {
-  "2.36.0": {
+  "2.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.36.0",
+      "version": "2.38.0",
       "pname": "git-minimal",
-      "name": "git-minimal-2.36.0",
+      "name": "git-minimal-2.38.0",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/9xlrda9g86zsxiqda7sn9lpc8j6hhc4w-git-minimal-2.36.0-debug",
-        "out": "/nix/store/prw2gnm16r9m54akbx3ni207hh6b4xh3-git-minimal-2.36.0"
+        "debug": "/nix/store/jx71sknpvv1zwms7wi4iiv1khrc43z3d-git-minimal-2.38.0-debug",
+        "out": "/nix/store/b7s85m7hcl964v3q8z6whixs0d1bl2v5-git-minimal-2.38.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Distributed version control system",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/git/default.nix:378",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/git-and-tools/git/default.nix:387",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/prw2gnm16r9m54akbx3ni207hh6b4xh3-git-minimal-2.36.0"
+        "/nix/store/b7s85m7hcl964v3q8z6whixs0d1bl2v5-git-minimal-2.38.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.37.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.37.1",
-      "pname": "git-minimal",
-      "name": "git-minimal-2.37.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/3zbxkq2cvkqpk0kxmj4id6hdxlhg53rg-git-minimal-2.37.1-debug",
-        "out": "/nix/store/5xb0n292ax055s4ra5p7nd4zh1dvfswa-git-minimal-2.37.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed version control system",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitMinimal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5xb0n292ax055s4ra5p7nd4zh1dvfswa-git-minimal-2.37.1"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.37.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.1",
+      "pname": "git-minimal",
+      "name": "git-minimal-2.37.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/3zbxkq2cvkqpk0kxmj4id6hdxlhg53rg-git-minimal-2.37.1-debug",
+        "out": "/nix/store/5xb0n292ax055s4ra5p7nd4zh1dvfswa-git-minimal-2.37.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed version control system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitMinimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5xb0n292ax055s4ra5p7nd4zh1dvfswa-git-minimal-2.37.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

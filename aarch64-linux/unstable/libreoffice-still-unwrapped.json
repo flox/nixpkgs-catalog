@@ -1,22 +1,22 @@
 {
-  "7.1.8.1": {
+  "7.3.6.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.1.8.1",
+      "version": "7.3.6.2",
       "pname": "libreoffice",
-      "name": "libreoffice-7.1.8.1",
+      "name": "libreoffice-7.3.6.2",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/gkwic9azyh73jz8x0zfv4zrmhxqxiaa6-libreoffice-7.1.8.1-dev",
-        "out": "/nix/store/cz3mi2lq20cwynjkmqxm1i142m2szkz4-libreoffice-7.1.8.1"
+        "dev": "/nix/store/qp9g6xzpiywh98wkgr0q6d4mp2hxnv10-libreoffice-7.3.6.2-dev",
+        "out": "/nix/store/ax5akv7h1cxv6cm16373740wsfdg93x1-libreoffice-7.3.6.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Comprehensive, professional-quality productivity suite, a variant of openoffice.org",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/office/libreoffice/default.nix:420",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/office/libreoffice/default.nix:577",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/cz3mi2lq20cwynjkmqxm1i142m2szkz4-libreoffice-7.1.8.1"
+        "/nix/store/ax5akv7h1cxv6cm16373740wsfdg93x1-libreoffice-7.3.6.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -78,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "7.1.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.1.8.1",
+      "pname": "libreoffice",
+      "name": "libreoffice-7.1.8.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/gkwic9azyh73jz8x0zfv4zrmhxqxiaa6-libreoffice-7.1.8.1-dev",
+        "out": "/nix/store/cz3mi2lq20cwynjkmqxm1i142m2szkz4-libreoffice-7.1.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Comprehensive, professional-quality productivity suite, a variant of openoffice.org",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/office/libreoffice/default.nix:420",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libreoffice-still-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cz3mi2lq20cwynjkmqxm1i142m2szkz4-libreoffice-7.1.8.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

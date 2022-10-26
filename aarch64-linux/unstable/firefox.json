@@ -1,21 +1,21 @@
 {
-  "101.0": {
+  "106.0.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "101.0",
+      "version": "106.0.1",
       "pname": "firefox",
-      "name": "firefox-101.0",
+      "name": "firefox-106.0.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/9md7113n83vsq7006jis429iwn12qwj4-firefox-101.0"
+        "out": "/nix/store/yk2hlz43r5hrzb702zhms0pgd8akx67n-firefox-106.0.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A web browser built from Firefox source tree",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/browsers/firefox/wrapper.nix:354",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/browsers/firefox/wrapper.nix:379",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9md7113n83vsq7006jis429iwn12qwj4-firefox-101.0"
+        "/nix/store/yk2hlz43r5hrzb702zhms0pgd8akx67n-firefox-106.0.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "102.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "102.0",
-      "pname": "firefox",
-      "name": "firefox-102.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/376sx2x2z4hp0icx0yk2xa02ifjpg105-firefox-102.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A web browser built from Firefox source tree",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/firefox/wrapper.nix:357",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "firefox"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/376sx2x2z4hp0icx0yk2xa02ifjpg105-firefox-102.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "102.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "102.0",
+      "pname": "firefox",
+      "name": "firefox-102.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/376sx2x2z4hp0icx0yk2xa02ifjpg105-firefox-102.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A web browser built from Firefox source tree",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/browsers/firefox/wrapper.nix:357",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "firefox"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/376sx2x2z4hp0icx0yk2xa02ifjpg105-firefox-102.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

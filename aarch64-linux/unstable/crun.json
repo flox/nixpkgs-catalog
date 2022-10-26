@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6",
-      "pname": "crun",
-      "name": "crun-1.6",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/89363y6vfmxp756jcvcfix4k8d0mz4aq-crun-1.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/crun/default.nix:76",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "crun"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/89363y6vfmxp756jcvcfix4k8d0mz4aq-crun-1.6"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.4.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6",
+      "pname": "crun",
+      "name": "crun-1.6",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/c1zdcw1v2gri15gmavj4z0q2c8fa4yph-crun-1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast and lightweight fully featured OCI runtime and C library for running containers",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/crun/default.nix:74",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "crun"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c1zdcw1v2gri15gmavj4z0q2c8fa4yph-crun-1.6"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

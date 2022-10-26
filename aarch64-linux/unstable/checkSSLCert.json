@@ -1,21 +1,21 @@
 {
-  "2.25.0": {
+  "2.54.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.25.0",
+      "version": "2.54.0",
       "pname": "check_ssl_cert",
-      "name": "check_ssl_cert-2.25.0",
+      "name": "check_ssl_cert-2.54.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/3pdb7wgk38kxn0p43apgb2qkiscy47xb-check_ssl_cert-2.25.0"
+        "out": "/nix/store/78g5r0ndqiq4yddnyzcq9mkprq6xgcbj-check_ssl_cert-2.54.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Nagios plugin to check the CA and validity of an X.509 certificate",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/monitoring/nagios/plugins/check_ssl_cert.nix:37",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/nagios/plugins/check_ssl_cert.nix:37",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3pdb7wgk38kxn0p43apgb2qkiscy47xb-check_ssl_cert-2.25.0"
+        "/nix/store/78g5r0ndqiq4yddnyzcq9mkprq6xgcbj-check_ssl_cert-2.54.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.36.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.36.0",
-      "pname": "check_ssl_cert",
-      "name": "check_ssl_cert-2.36.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/6x4vz36vw9mip5mhipn5l12y0wgpq4vr-check_ssl_cert-2.36.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Nagios plugin to check the CA and validity of an X.509 certificate",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/monitoring/nagios/plugins/check_ssl_cert.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "checkSSLCert"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6x4vz36vw9mip5mhipn5l12y0wgpq4vr-check_ssl_cert-2.36.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.36.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.36.0",
+      "pname": "check_ssl_cert",
+      "name": "check_ssl_cert-2.36.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6x4vz36vw9mip5mhipn5l12y0wgpq4vr-check_ssl_cert-2.36.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Nagios plugin to check the CA and validity of an X.509 certificate",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/monitoring/nagios/plugins/check_ssl_cert.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "checkSSLCert"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6x4vz36vw9mip5mhipn5l12y0wgpq4vr-check_ssl_cert-2.36.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

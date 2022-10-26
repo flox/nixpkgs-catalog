@@ -1,44 +1,4 @@
 {
-  "2.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.0",
-      "pname": "jellyfin-mpv-shim",
-      "name": "jellyfin-mpv-shim-2.1.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/1bm7mzhksxipcnf4iqc7b0552zm09mbg-jellyfin-mpv-shim-2.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Allows casting of videos to MPV via the jellyfin mobile and web app",
-        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/video/jellyfin-mpv-shim/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "jellyfin-mpv-shim"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1bm7mzhksxipcnf4iqc7b0552zm09mbg-jellyfin-mpv-shim-2.1.0"
-      ],
-      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
-    },
-    "source": {
-      "locked": {
-        "revCount": 385289,
-        "lastModified": 1655221618
-      }
-    }
-  },
   "2.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "2.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.0",
+      "pname": "jellyfin-mpv-shim",
+      "name": "jellyfin-mpv-shim-2.1.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/1bm7mzhksxipcnf4iqc7b0552zm09mbg-jellyfin-mpv-shim-2.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Allows casting of videos to MPV via the jellyfin mobile and web app",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/video/jellyfin-mpv-shim/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "jellyfin-mpv-shim"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1bm7mzhksxipcnf4iqc7b0552zm09mbg-jellyfin-mpv-shim-2.1.0"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   },

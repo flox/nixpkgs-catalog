@@ -1,47 +1,4 @@
 {
-  "1.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.0",
-      "pname": "liquidctl",
-      "name": "liquidctl-1.10.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/jqh06qmd27v4ry8dgbi6k9pgiqcppwf0-python3.10-liquidctl-1.10.0-man",
-        "out": "/nix/store/jjbwqqxn118nymc2137alm9y52j0s7rf-python3.10-liquidctl-1.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Cross-platform CLI and Python drivers for AIO liquid coolers and other devices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/liquidctl/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "liquidctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jjbwqqxn118nymc2137alm9y52j0s7rf-python3.10-liquidctl-1.10.0",
-        "/nix/store/jqh06qmd27v4ry8dgbi6k9pgiqcppwf0-python3.10-liquidctl-1.10.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "liquidctl",
+      "name": "liquidctl-1.10.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/nsna6b448qpry6i7pd0ia7hrnv5d0i00-python3.10-liquidctl-1.10.0-dist",
+        "man": "/nix/store/qg107apy9kwkdp18piy2jmjw79gr5hbm-python3.10-liquidctl-1.10.0-man",
+        "out": "/nix/store/9qp52d5lh5b8p8674jd1f47fyvs7aq4a-python3.10-liquidctl-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Cross-platform CLI and Python drivers for AIO liquid coolers and other devices",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/liquidctl/default.nix:67",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "liquidctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9qp52d5lh5b8p8674jd1f47fyvs7aq4a-python3.10-liquidctl-1.10.0",
+        "/nix/store/qg107apy9kwkdp18piy2jmjw79gr5hbm-python3.10-liquidctl-1.10.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

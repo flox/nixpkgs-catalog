@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.35.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.35.1",
-      "pname": "matrix-appservice-irc",
-      "name": "matrix-appservice-irc-0.35.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/pj36386fjvcgg9sd725vnpcf0w5m6nxh-matrix-appservice-irc-0.35.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Node.js IRC bridge for Matrix",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/matrix-synapse/matrix-appservice-irc/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "matrix-appservice-irc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pj36386fjvcgg9sd725vnpcf0w5m6nxh-matrix-appservice-irc-0.35.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.34.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.35.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.35.1",
+      "pname": "matrix-appservice-irc",
+      "name": "matrix-appservice-irc-0.35.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/rdm1s28s8li0hs4fncgjk6qkl6z4wipn-matrix-appservice-irc-0.35.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Node.js IRC bridge for Matrix",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/matrix-synapse/matrix-appservice-irc/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "matrix-appservice-irc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rdm1s28s8li0hs4fncgjk6qkl6z4wipn-matrix-appservice-irc-0.35.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

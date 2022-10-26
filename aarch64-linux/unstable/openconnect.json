@@ -40,47 +40,6 @@
       }
     }
   },
-  "9.01": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.01",
-      "pname": "openconnect",
-      "name": "openconnect-9.01",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/i1cwcyhjy45m01x7042hbdd5626yxhhz-openconnect-9.01-dev",
-        "out": "/nix/store/qdvbxafjb4lsyc4z3syzsxsmv8narc1w-openconnect-9.01"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "VPN Client for Cisco's AnyConnect SSL VPN",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/openconnect/common.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "openconnect"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qdvbxafjb4lsyc4z3syzsxsmv8narc1w-openconnect-9.01"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "8.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.01": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.01",
+      "pname": "openconnect",
+      "name": "openconnect-9.01",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/gjaqpx5ldxnxhqxrb33kjs5wxgja9ll3-openconnect-9.01-dev",
+        "out": "/nix/store/apfaxqla4fk7idjiqkby6159d67pnz4p-openconnect-9.01"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "VPN Client for Cisco's AnyConnect SSL VPN",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/openconnect/common.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openconnect"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/apfaxqla4fk7idjiqkby6159d67pnz4p-openconnect-9.01"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

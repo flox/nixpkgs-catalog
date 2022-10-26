@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.2.7.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.7.2",
-      "pname": "alsa-lib",
-      "name": "alsa-lib-1.2.7.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/bqgj1vs0k61wnywhs6kb9xf6s120dyar-alsa-lib-1.2.7.2-dev",
-        "out": "/nix/store/rqs4d783qmg4vrg4gb7404067d6hk73f-alsa-lib-1.2.7.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ALSA, the Advanced Linux Sound Architecture libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/alsa-project/alsa-lib/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "alsa-lib"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rqs4d783qmg4vrg4gb7404067d6hk73f-alsa-lib-1.2.7.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.2.6.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.2.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.7.2",
+      "pname": "alsa-lib",
+      "name": "alsa-lib-1.2.7.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/y6ssnq7d1y6cgnmak3q85jhjkx7xwaq4-alsa-lib-1.2.7.2-dev",
+        "out": "/nix/store/y3yb8rc7kjlf364pg0mkz947nr60c2zc-alsa-lib-1.2.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ALSA, the Advanced Linux Sound Architecture libraries",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/alsa-project/alsa-lib/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "alsa-lib"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y3yb8rc7kjlf364pg0mkz947nr60c2zc-alsa-lib-1.2.7.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

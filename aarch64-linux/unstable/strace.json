@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.19",
-      "pname": "strace",
-      "name": "strace-5.19",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/h3vf50pg8lkshfcyyy94a3nv90hynijg-strace-5.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A system call tracer for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/misc/strace/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "strace"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h3vf50pg8lkshfcyyy94a3nv90hynijg-strace-5.19"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.19",
+      "pname": "strace",
+      "name": "strace-5.19",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/rvzsxqgk96wrp185yzkfhbbbf6zkmpjs-strace-5.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A system call tracer for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/strace/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "strace"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rvzsxqgk96wrp185yzkfhbbbf6zkmpjs-strace-5.19"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

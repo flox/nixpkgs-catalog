@@ -1,49 +1,4 @@
 {
-  "0.6.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.3",
-      "pname": "seatd",
-      "name": "seatd-0.6.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/djnlnnv2rcc3bkhn1sc9w9a479a0m2l6-seatd-0.6.3-bin",
-        "dev": "/nix/store/kpbd7k8nhvy6ynbr857frxv01fjj0q07-seatd-0.6.3-dev",
-        "man": "/nix/store/l8vxik0d8gvp4jsdma8hijx4wlahvg93-seatd-0.6.3-man",
-        "out": "/nix/store/r1z4j96nspj4hdk5lhla9lmxg86paa1q-seatd-0.6.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A universal seat management library",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/misc/seatd/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libseat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/djnlnnv2rcc3bkhn1sc9w9a479a0m2l6-seatd-0.6.3-bin",
-        "/nix/store/l8vxik0d8gvp4jsdma8hijx4wlahvg93-seatd-0.6.3-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "0.6.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.3",
+      "pname": "seatd",
+      "name": "seatd-0.6.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/djnlnnv2rcc3bkhn1sc9w9a479a0m2l6-seatd-0.6.3-bin",
+        "dev": "/nix/store/kpbd7k8nhvy6ynbr857frxv01fjj0q07-seatd-0.6.3-dev",
+        "man": "/nix/store/l8vxik0d8gvp4jsdma8hijx4wlahvg93-seatd-0.6.3-man",
+        "out": "/nix/store/r1z4j96nspj4hdk5lhla9lmxg86paa1q-seatd-0.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A universal seat management library",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/misc/seatd/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libseat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/djnlnnv2rcc3bkhn1sc9w9a479a0m2l6-seatd-0.6.3-bin",
+        "/nix/store/l8vxik0d8gvp4jsdma8hijx4wlahvg93-seatd-0.6.3-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

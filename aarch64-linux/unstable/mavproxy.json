@@ -1,21 +1,22 @@
 {
-  "1.8.49": {
+  "1.8.57": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.8.49",
+      "version": "1.8.57",
       "pname": "MAVProxy",
-      "name": "MAVProxy-1.8.49",
+      "name": "MAVProxy-1.8.57",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/0rjwmmzr74r12wg7x6896v6na0c8d5nd-MAVProxy-1.8.49"
+        "dist": "/nix/store/yd2yrn08yap4fb4q5csb4f1d9xdcgc7f-MAVProxy-1.8.57-dist",
+        "out": "/nix/store/hm63qfjrw7xy2p8ks7yijcyxf9nqydlm-MAVProxy-1.8.57"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "MAVLink proxy and command line ground station",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/science/robotics/mavproxy/default.nix:31",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/science/robotics/mavproxy/default.nix:34",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0rjwmmzr74r12wg7x6896v6na0c8d5nd-MAVProxy-1.8.49"
+        "/nix/store/hm63qfjrw7xy2p8ks7yijcyxf9nqydlm-MAVProxy-1.8.57"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.8.52": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.52",
-      "pname": "MAVProxy",
-      "name": "MAVProxy-1.8.52",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/mqp5mrbk1xdazsbz8kr3kbnkxq03qdpj-MAVProxy-1.8.52"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "MAVLink proxy and command line ground station",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/science/robotics/mavproxy/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "mavproxy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mqp5mrbk1xdazsbz8kr3kbnkxq03qdpj-MAVProxy-1.8.52"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.8.52": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.52",
+      "pname": "MAVProxy",
+      "name": "MAVProxy-1.8.52",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/mqp5mrbk1xdazsbz8kr3kbnkxq03qdpj-MAVProxy-1.8.52"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "MAVLink proxy and command line ground station",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/science/robotics/mavproxy/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mavproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mqp5mrbk1xdazsbz8kr3kbnkxq03qdpj-MAVProxy-1.8.52"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

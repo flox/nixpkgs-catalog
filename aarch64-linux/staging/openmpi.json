@@ -1,44 +1,4 @@
 {
-  "4.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.2",
-      "pname": "openmpi",
-      "name": "openmpi-4.1.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/ps77sd5wws9gxghpxqr73aych07wd0p4-openmpi-4.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Open source MPI-3 implementation",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/openmpi/default.nix:116",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "openmpi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ps77sd5wws9gxghpxqr73aych07wd0p4-openmpi-4.1.2"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.1.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.2",
+      "pname": "openmpi",
+      "name": "openmpi-4.1.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/ps77sd5wws9gxghpxqr73aych07wd0p4-openmpi-4.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Open source MPI-3 implementation",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/openmpi/default.nix:116",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openmpi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ps77sd5wws9gxghpxqr73aych07wd0p4-openmpi-4.1.2"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

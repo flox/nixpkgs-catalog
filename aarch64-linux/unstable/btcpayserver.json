@@ -1,21 +1,21 @@
 {
-  "1.5.1": {
+  "1.6.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.5.1",
+      "version": "1.6.12",
       "pname": "btcpayserver",
-      "name": "btcpayserver-1.5.1",
+      "name": "btcpayserver-1.6.12",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/bx0l4syaw5vibx4d6mbr1pkbbpc33wiq-btcpayserver-1.5.1"
+        "out": "/nix/store/qjm4zch8sh2sr3mg4llmjj8r23a3d78n-btcpayserver-1.6.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Self-hosted, open-source cryptocurrency payment processor",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/blockchains/btcpayserver/default.nix:28",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/blockchains/btcpayserver/default.nix:31",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bx0l4syaw5vibx4d6mbr1pkbbpc33wiq-btcpayserver-1.5.1"
+        "/nix/store/qjm4zch8sh2sr3mg4llmjj8r23a3d78n-btcpayserver-1.6.12"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.6.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.10",
-      "pname": "btcpayserver",
-      "name": "btcpayserver-1.6.10",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/5mcldz6pfnamkrdl135y8l70wvddd5ag-btcpayserver-1.6.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Self-hosted, open-source cryptocurrency payment processor",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/btcpayserver/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "btcpayserver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5mcldz6pfnamkrdl135y8l70wvddd5ag-btcpayserver-1.6.10"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.10",
+      "pname": "btcpayserver",
+      "name": "btcpayserver-1.6.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/5mcldz6pfnamkrdl135y8l70wvddd5ag-btcpayserver-1.6.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Self-hosted, open-source cryptocurrency payment processor",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/btcpayserver/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "btcpayserver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5mcldz6pfnamkrdl135y8l70wvddd5ag-btcpayserver-1.6.10"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,47 +1,4 @@
 {
-  "5.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0.1",
-      "pname": "uftp",
-      "name": "uftp-5.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/h9mwwqz8hv2z9rbq1pwig1vrfy4wxpxr-uftp-5.0.1-man",
-        "out": "/nix/store/k69sqll0jxk0rdbz6kcqjgabjrl9jp3d-uftp-5.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Encrypted UDP based FTP with multicast",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/uftp/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "uftp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k69sqll0jxk0rdbz6kcqjgabjrl9jp3d-uftp-5.0.1",
-        "/nix/store/h9mwwqz8hv2z9rbq1pwig1vrfy4wxpxr-uftp-5.0.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.1",
+      "pname": "uftp",
+      "name": "uftp-5.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/s6mnvdzvnc0a1hhr0cw1xq7720f7y75h-uftp-5.0.1-man",
+        "out": "/nix/store/2mwp96cbd3qckpnk6b9rcmkyfh2b4pm4-uftp-5.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Encrypted UDP based FTP with multicast",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/uftp/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "uftp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2mwp96cbd3qckpnk6b9rcmkyfh2b4pm4-uftp-5.0.1",
+        "/nix/store/s6mnvdzvnc0a1hhr0cw1xq7720f7y75h-uftp-5.0.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

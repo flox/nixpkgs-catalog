@@ -40,47 +40,6 @@
       }
     }
   },
-  "16.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "16.1",
-      "pname": "libpulseaudio",
-      "name": "libpulseaudio-16.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/dxvxbqadz4cyi44imccrgnmz2nkvyr34-libpulseaudio-16.1-dev",
-        "out": "/nix/store/r3q47j856f1483msrk5hlynjd73ilqac-libpulseaudio-16.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Sound server for POSIX and Win32 systems",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/pulseaudio/default.nix:157",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libpulseaudio"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r3q47j856f1483msrk5hlynjd73ilqac-libpulseaudio-16.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "15.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "16.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.1",
+      "pname": "libpulseaudio",
+      "name": "libpulseaudio-16.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/yf2b9k3qhj1xy8w5s9wdxgkwnr8r5541-libpulseaudio-16.1-dev",
+        "out": "/nix/store/7vlky78r019vp9vd0qn8fyx6d5xd6kn1-libpulseaudio-16.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sound server for POSIX and Win32 systems",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/pulseaudio/default.nix:171",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libpulseaudio"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7vlky78r019vp9vd0qn8fyx6d5xd6kn1-libpulseaudio-16.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,21 +1,22 @@
 {
-  "1.28.0": {
+  "1.31.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.28.0",
+      "version": "1.31.0",
       "pname": "certbot",
-      "name": "certbot-1.28.0",
+      "name": "certbot-1.31.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/wrvsqcz4vr9lkj33pwhjcbh7f297sj25-python3.10-certbot-1.28.0"
+        "dist": "/nix/store/ag8qvrcw4mfyphd44g9ysasbqvij95jq-python3.10-certbot-1.31.0-dist",
+        "out": "/nix/store/6766njnr7sqvzdr59489ighxgkw30bsr-python3.10-certbot-1.31.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "ACME client that can obtain certs and extensibly update server configurations",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/certbot/default.nix:73",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/certbot/default.nix:93",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/wrvsqcz4vr9lkj33pwhjcbh7f297sj25-python3.10-certbot-1.28.0"
+        "/nix/store/6766njnr7sqvzdr59489ighxgkw30bsr-python3.10-certbot-1.31.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "1.29.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.29.0",
-      "pname": "certbot",
-      "name": "certbot-1.29.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/1c3zvd3yl66rf22qg7ba46hjwzd8bfpr-python3.10-certbot-1.29.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ACME client that can obtain certs and extensibly update server configurations",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/certbot/default.nix:73",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "certbot"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1c3zvd3yl66rf22qg7ba46hjwzd8bfpr-python3.10-certbot-1.29.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.29.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.29.0",
+      "pname": "certbot",
+      "name": "certbot-1.29.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/1c3zvd3yl66rf22qg7ba46hjwzd8bfpr-python3.10-certbot-1.29.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ACME client that can obtain certs and extensibly update server configurations",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/certbot/default.nix:73",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "certbot"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1c3zvd3yl66rf22qg7ba46hjwzd8bfpr-python3.10-certbot-1.29.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

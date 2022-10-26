@@ -1,21 +1,21 @@
 {
-  "5.6.2": {
+  "22.08.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.6.2",
+      "version": "22.08.2",
       "pname": "kdevelop",
-      "name": "kdevelop-5.6.2",
+      "name": "kdevelop-22.08.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/l1zfvfb6d7cc8lpi1lp1hrgyym7lai4h-kdevelop-5.6.2"
+        "out": "/nix/store/mn0d066bvqjy9318qf0b8f31bx7xq586-kdevelop-22.08.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "KDE official IDE",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/editors/kdevelop5/kdevelop.nix:61",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/kde/kdevelop/kdevelop.nix:59",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l1zfvfb6d7cc8lpi1lp1hrgyym7lai4h-kdevelop-5.6.2"
+        "/nix/store/mn0d066bvqjy9318qf0b8f31bx7xq586-kdevelop-22.08.2"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "22.04.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.04.2",
-      "pname": "kdevelop",
-      "name": "kdevelop-22.04.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/8r0ial4qav8jmn3d9wzmw3bbazmv2lmz-kdevelop-22.04.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "KDE official IDE",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/kde/kdevelop/kdevelop.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kdevelop-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8r0ial4qav8jmn3d9wzmw3bbazmv2lmz-kdevelop-22.04.2"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "22.04.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.04.2",
+      "pname": "kdevelop",
+      "name": "kdevelop-22.04.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8r0ial4qav8jmn3d9wzmw3bbazmv2lmz-kdevelop-22.04.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "KDE official IDE",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/kde/kdevelop/kdevelop.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kdevelop-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8r0ial4qav8jmn3d9wzmw3bbazmv2lmz-kdevelop-22.04.2"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

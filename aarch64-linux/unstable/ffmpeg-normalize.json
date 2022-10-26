@@ -1,21 +1,22 @@
 {
-  "1.25.0": {
+  "1.25.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.25.0",
+      "version": "1.25.2",
       "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.25.0",
+      "name": "ffmpeg-normalize-1.25.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/kya13kl291ifcfl202cn4pxar5n74ai1-ffmpeg-normalize-1.25.0"
+        "dist": "/nix/store/zdihfs4vrmqj886kxm9qdp18v1ffjxmh-ffmpeg-normalize-1.25.2-dist",
+        "out": "/nix/store/9h4pqwfv9av0hs2mjrpj12n2b9y72zj8-ffmpeg-normalize-1.25.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kya13kl291ifcfl202cn4pxar5n74ai1-ffmpeg-normalize-1.25.0"
+        "/nix/store/9h4pqwfv9av0hs2mjrpj12n2b9y72zj8-ffmpeg-normalize-1.25.2"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "1.23.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.1",
-      "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.23.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/b111znpfi3smi56ni8lqj22w04b55bl8-ffmpeg-normalize-1.23.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ffmpeg-normalize"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/b111znpfi3smi56ni8lqj22w04b55bl8-ffmpeg-normalize-1.23.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.23.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.1",
+      "pname": "ffmpeg-normalize",
+      "name": "ffmpeg-normalize-1.23.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/b111znpfi3smi56ni8lqj22w04b55bl8-ffmpeg-normalize-1.23.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Normalize audio via ffmpeg",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ffmpeg-normalize"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b111znpfi3smi56ni8lqj22w04b55bl8-ffmpeg-normalize-1.23.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

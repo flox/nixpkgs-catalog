@@ -44,51 +44,6 @@
       }
     }
   },
-  "3.46.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.46.0",
-      "pname": "gnome-online-accounts",
-      "name": "gnome-online-accounts-3.46.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/r4r1zxklm7smn58284gf1c75aw6rkamk-gnome-online-accounts-3.46.0-dev",
-        "devdoc": "/nix/store/g1dhf0wzx9mp5vad7v0my6bgd02rn90p-gnome-online-accounts-3.46.0-devdoc",
-        "man": "/nix/store/dzrkrjl4dr6fgfzjqaxykcg96g428p9s-gnome-online-accounts-3.46.0-man",
-        "out": "/nix/store/vswmfhhbp1qaybyihhagd38i9j1q6x03-gnome-online-accounts-3.46.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Single sign-on framework for GNOME",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/gnome-online-accounts/default.nix:96",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gnome-online-accounts"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vswmfhhbp1qaybyihhagd38i9j1q6x03-gnome-online-accounts-3.46.0",
-        "/nix/store/dzrkrjl4dr6fgfzjqaxykcg96g428p9s-gnome-online-accounts-3.46.0-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.44.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.46.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.46.0",
+      "pname": "gnome-online-accounts",
+      "name": "gnome-online-accounts-3.46.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/nc20d5hvf4vpd5s6pn7j1b703dm1l426-gnome-online-accounts-3.46.0-dev",
+        "devdoc": "/nix/store/swav719jh14qf8fz25wad9vjxmgbylw6-gnome-online-accounts-3.46.0-devdoc",
+        "man": "/nix/store/ch1fy3lqqa2mll7sank6vkjfns3h00xj-gnome-online-accounts-3.46.0-man",
+        "out": "/nix/store/nmzlpj9w1z5llln4yq26sfb2wcn4xvih-gnome-online-accounts-3.46.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Single sign-on framework for GNOME",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gnome-online-accounts/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gnome-online-accounts"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nmzlpj9w1z5llln4yq26sfb2wcn4xvih-gnome-online-accounts-3.46.0",
+        "/nix/store/ch1fy3lqqa2mll7sank6vkjfns3h00xj-gnome-online-accounts-3.46.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }
