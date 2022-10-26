@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.4.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.16",
-      "pname": "napari",
-      "name": "napari-0.4.16",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6dyqcdhrm5rf68g6syv8w948q93qawcg-python3.10-napari-0.4.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast, interactive, multi-dimensional image viewer",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/napari/default.nix:99",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "napari"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6dyqcdhrm5rf68g6syv8w948q93qawcg-python3.10-napari-0.4.16"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.4.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.4.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.16",
+      "pname": "napari",
+      "name": "napari-0.4.16",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/vhpqmwcw8j4ncadqk6f22zc9hw5ffs9l-python3.10-napari-0.4.16-dist",
+        "out": "/nix/store/qdir893a5li3qslr18074v52zsm09v0f-python3.10-napari-0.4.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast, interactive, multi-dimensional image viewer",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/napari/default.nix:99",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "napari"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qdir893a5li3qslr18074v52zsm09v0f-python3.10-napari-0.4.16"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

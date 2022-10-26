@@ -39,47 +39,6 @@
       }
     }
   },
-  "2.2.34": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.34",
-      "pname": "gns3-server",
-      "name": "gns3-server-2.2.34",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dist": "/nix/store/aynm03gkbsc346117wqfs45njbx05pq5-gns3-server-2.2.34-dist",
-        "out": "/nix/store/w6jqkaxh3g01bmz6bhfs0mvmi2vvbj76-gns3-server-2.2.34"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Graphical Network Simulator 3 server (stable release)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/gns3/server.nix:73",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gns3-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w6jqkaxh3g01bmz6bhfs0mvmi2vvbj76-gns3-server-2.2.34"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.2.31": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.2.34": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.34",
+      "pname": "gns3-server",
+      "name": "gns3-server-2.2.34",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/r57cha1n8n775fjzddzlbiryig8lazm4-gns3-server-2.2.34-dist",
+        "out": "/nix/store/gnp2wpff5awi9piz8687b9i6k6hag00d-gns3-server-2.2.34"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Graphical Network Simulator 3 server (stable release)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/gns3/server.nix:73",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gns3-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gnp2wpff5awi9piz8687b9i6k6hag00d-gns3-server-2.2.34"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

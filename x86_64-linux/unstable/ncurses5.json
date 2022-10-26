@@ -1,48 +1,4 @@
 {
-  "6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.2",
-      "pname": null,
-      "name": "ncurses-6.2-abi5-compat",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/ch371dzwdnd4ns34yj10a18bahbjxg6c-ncurses-6.2-abi5-compat-dev",
-        "man": "/nix/store/mcjg9q4dfkib0647br9frg4jak442vpb-ncurses-6.2-abi5-compat-man",
-        "out": "/nix/store/3fm2scnc4bkz8n3798dd97wc8gbmjnlx-ncurses-6.2-abi5-compat"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Free software emulation of curses in SVR4 and more",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/ncurses/default.nix:154",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ncurses5"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3fm2scnc4bkz8n3798dd97wc8gbmjnlx-ncurses-6.2-abi5-compat",
-        "/nix/store/mcjg9q4dfkib0647br9frg4jak442vpb-ncurses-6.2-abi5-compat-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "6.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -87,18 +43,18 @@
       }
     }
   },
-  "6.3-p20220507": {
+  "6.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.3-p20220507",
-      "pname": "ncurses-abi5-compat",
-      "name": "ncurses-abi5-compat-6.3-p20220507",
+      "version": "6.2",
+      "pname": null,
+      "name": "ncurses-6.2-abi5-compat",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/5fjzj4m0mx1p472kf8jjxnjdaglhfzd8-ncurses-abi5-compat-6.3-p20220507-dev",
-        "man": "/nix/store/vam2qm5abw5aqy4nza78rvsknnczb7h4-ncurses-abi5-compat-6.3-p20220507-man",
-        "out": "/nix/store/3fb5ws4vyi5jwl0ba3vnaf54186gr0j2-ncurses-abi5-compat-6.3-p20220507"
+        "dev": "/nix/store/ch371dzwdnd4ns34yj10a18bahbjxg6c-ncurses-6.2-abi5-compat-dev",
+        "man": "/nix/store/mcjg9q4dfkib0647br9frg4jak442vpb-ncurses-6.2-abi5-compat-man",
+        "out": "/nix/store/3fm2scnc4bkz8n3798dd97wc8gbmjnlx-ncurses-6.2-abi5-compat"
       },
       "meta": {
         "outputsToInstall": [
@@ -106,7 +62,7 @@
           "man"
         ],
         "description": "Free software emulation of curses in SVR4 and more",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/ncurses/default.nix:153",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/ncurses/default.nix:154",
         "unfree": false
       }
     },
@@ -119,15 +75,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3fb5ws4vyi5jwl0ba3vnaf54186gr0j2-ncurses-abi5-compat-6.3-p20220507",
-        "/nix/store/vam2qm5abw5aqy4nza78rvsknnczb7h4-ncurses-abi5-compat-6.3-p20220507-man"
+        "/nix/store/3fm2scnc4bkz8n3798dd97wc8gbmjnlx-ncurses-6.2-abi5-compat",
+        "/nix/store/mcjg9q4dfkib0647br9frg4jak442vpb-ncurses-6.2-abi5-compat-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "6.3-p20220507": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.3-p20220507",
+      "pname": "ncurses-abi5-compat",
+      "name": "ncurses-abi5-compat-6.3-p20220507",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/fdzh8fdxxp16ifc9px3cnr8brg203q8s-ncurses-abi5-compat-6.3-p20220507-dev",
+        "man": "/nix/store/wvb425hn3cqqkckbqvzhqycv07qhq5jk-ncurses-abi5-compat-6.3-p20220507-man",
+        "out": "/nix/store/s4a7sx2prf7fji2fjrd3j8ix6g4ifk6p-ncurses-abi5-compat-6.3-p20220507"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Free software emulation of curses in SVR4 and more",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/ncurses/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ncurses5"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s4a7sx2prf7fji2fjrd3j8ix6g4ifk6p-ncurses-abi5-compat-6.3-p20220507",
+        "/nix/store/wvb425hn3cqqkckbqvzhqycv07qhq5jk-ncurses-abi5-compat-6.3-p20220507-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

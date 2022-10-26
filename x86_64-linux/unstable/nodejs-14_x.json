@@ -1,45 +1,4 @@
 {
-  "14.20.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "14.20.1",
-      "pname": "nodejs",
-      "name": "nodejs-14.20.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "libv8": "/nix/store/xq0did89klc9xkfjrhpwc4avmzf6r0f9-nodejs-14.20.1-libv8",
-        "out": "/nix/store/zwi2cvrkq629ybazsyy7qrvfcvdd88n2-nodejs-14.20.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/web/nodejs/v14.nix:11",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nodejs-14_x"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zwi2cvrkq629ybazsyy7qrvfcvdd88n2-nodejs-14.20.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "14.20.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "14.20.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.20.1",
+      "pname": "nodejs",
+      "name": "nodejs-14.20.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "libv8": "/nix/store/ypahayfc2lf8dlsn6jsd8l5xs59aasmc-nodejs-14.20.1-libv8",
+        "out": "/nix/store/mwd1dxh5rcy0wi9vgv2brlxpr5gmngr7-nodejs-14.20.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event-driven I/O framework for the V8 JavaScript engine",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v14.nix:11",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nodejs-14_x"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mwd1dxh5rcy0wi9vgv2brlxpr5gmngr7-nodejs-14.20.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

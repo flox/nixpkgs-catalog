@@ -1,44 +1,4 @@
 {
-  "4.2.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.2.1",
-      "pname": "electrum-ltc",
-      "name": "electrum-ltc-4.2.2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/cxd8djrqi06m131d96jfk3x4j19ws93p-electrum-ltc-4.2.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lightweight Litecoin Client",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/electrum/ltc.nix:150",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "electrum-ltc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cxd8djrqi06m131d96jfk3x4j19ws93p-electrum-ltc-4.2.2.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.0.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.2.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.2.1",
+      "pname": "electrum-ltc",
+      "name": "electrum-ltc-4.2.2.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/1hmb93r2isrkz6d9isg31bq0rwd0zfzy-electrum-ltc-4.2.2.1-dist",
+        "out": "/nix/store/w3vclpkd10j7wyi5ypd3bl1lcf9b3myc-electrum-ltc-4.2.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightweight Litecoin Client",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/electrum/ltc.nix:150",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "electrum-ltc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w3vclpkd10j7wyi5ypd3bl1lcf9b3myc-electrum-ltc-4.2.2.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

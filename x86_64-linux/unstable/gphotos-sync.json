@@ -1,44 +1,4 @@
 {
-  "3.04": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.04",
-      "pname": "gphotos-sync",
-      "name": "gphotos-sync-3.04",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/cipg2dp600yrjy4d1zjr3a7m9gz62278-gphotos-sync-3.04"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Google Photos and Albums backup with Google Photos Library API",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/backup/gphotos-sync/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gphotos-sync"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cipg2dp600yrjy4d1zjr3a7m9gz62278-gphotos-sync-3.04"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.14.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.04": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.04",
+      "pname": "gphotos-sync",
+      "name": "gphotos-sync-3.04",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/33kk82rbxl4s9bvw0hvkg089jvmwmzsx-gphotos-sync-3.04-dist",
+        "out": "/nix/store/k7k7ra71grj81ax8spxhzqskd3zinc01-gphotos-sync-3.04"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Google Photos and Albums backup with Google Photos Library API",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/backup/gphotos-sync/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gphotos-sync"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k7k7ra71grj81ax8spxhzqskd3zinc01-gphotos-sync-3.04"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

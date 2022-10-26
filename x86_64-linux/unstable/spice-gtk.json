@@ -44,51 +44,6 @@
       }
     }
   },
-  "0.41": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.41",
-      "pname": "spice-gtk",
-      "name": "spice-gtk-0.41",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/bcfsn7i9l61vsm6s5d51baxqmcj0w1lh-spice-gtk-0.41-dev",
-        "devdoc": "/nix/store/ap2mf8ysy11bl0dbhv5pgi4w2c3476cq-spice-gtk-0.41-devdoc",
-        "man": "/nix/store/c1dnxb7hxr5l3pzzx6v01bj84vd7l4sx-spice-gtk-0.41-man",
-        "out": "/nix/store/yn25476n3f6x95xcv1zgrz0919l6wh42-spice-gtk-0.41"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GTK 3 SPICE widget",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/spice-gtk/default.nix:140",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "spice-gtk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yn25476n3f6x95xcv1zgrz0919l6wh42-spice-gtk-0.41",
-        "/nix/store/c1dnxb7hxr5l3pzzx6v01bj84vd7l4sx-spice-gtk-0.41-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.40": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.41": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.41",
+      "pname": "spice-gtk",
+      "name": "spice-gtk-0.41",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/jk9l5jsy2ink6zw4m9zlx55irfkn9lrl-spice-gtk-0.41-dev",
+        "devdoc": "/nix/store/z30xfbid7d8wjgj8x2fwmfxffqhb630x-spice-gtk-0.41-devdoc",
+        "man": "/nix/store/58cziadimq5jgpnyfclwv0ddh88xq92l-spice-gtk-0.41-man",
+        "out": "/nix/store/k959176jsv6f7mgjwmabczr50ry8hr6n-spice-gtk-0.41"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GTK 3 SPICE widget",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/spice-gtk/default.nix:143",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "spice-gtk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k959176jsv6f7mgjwmabczr50ry8hr6n-spice-gtk-0.41",
+        "/nix/store/58cziadimq5jgpnyfclwv0ddh88xq92l-spice-gtk-0.41-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

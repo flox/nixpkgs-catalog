@@ -1,46 +1,4 @@
 {
-  "121": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "121",
-      "pname": "polkit",
-      "name": "polkit-121",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/zp27j4inlgmi8mgiz91ad6hn4ljjnhr4-polkit-121-bin",
-        "dev": "/nix/store/5qrf7zn8ymarky6g48x49cwqqh8vlisp-polkit-121-dev",
-        "out": "/nix/store/pp867q6b9bjg1xs7lxdfj22svz38a890-polkit-121"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A toolkit for defining and handling the policy that allows unprivileged processes to speak to privileged processes",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/polkit/default.nix:189",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "polkit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zp27j4inlgmi8mgiz91ad6hn4ljjnhr4-polkit-121-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.120": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "121": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "121",
+      "pname": "polkit",
+      "name": "polkit-121",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/c0ddnha2ki3axaxd4dnnjxpdmha0wanc-polkit-121-bin",
+        "dev": "/nix/store/5qnadfa3psppmmwypsisbpx4k4q3ib05-polkit-121-dev",
+        "out": "/nix/store/gwlw5h7yzs2p1b56qv8k1nl8avfpxh4p-polkit-121"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A toolkit for defining and handling the policy that allows unprivileged processes to speak to privileged processes",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/polkit/default.nix:189",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "polkit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c0ddnha2ki3axaxd4dnnjxpdmha0wanc-polkit-121-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

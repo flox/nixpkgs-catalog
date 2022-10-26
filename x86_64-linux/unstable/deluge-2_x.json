@@ -1,44 +1,4 @@
 {
-  "2.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.1",
-      "pname": "deluge-gtk",
-      "name": "python3.10-deluge-gtk-2.1.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/46lqnv6cjkzx4y7zzq6scm90zgvgvz0h-python3.10-deluge-gtk-2.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Torrent client",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/p2p/deluge/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "deluge-2_x"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/46lqnv6cjkzx4y7zzq6scm90zgvgvz0h-python3.10-deluge-gtk-2.1.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.0.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.1",
+      "pname": "deluge-gtk",
+      "name": "python3.10-deluge-gtk-2.1.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/gz33dhrdzczzj0hc8wb8f1zczpimwi3p-python3.10-deluge-gtk-2.1.1-dist",
+        "out": "/nix/store/y5lr5bwqpsv42p13haj77fn6xsyfyvkm-python3.10-deluge-gtk-2.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Torrent client",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/p2p/deluge/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "deluge-2_x"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y5lr5bwqpsv42p13haj77fn6xsyfyvkm-python3.10-deluge-gtk-2.1.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

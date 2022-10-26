@@ -1,21 +1,21 @@
 {
-  "0.5": {
+  "0.7.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5",
+      "version": "0.7.2",
       "pname": "SwayNotificationCenter",
-      "name": "SwayNotificationCenter-0.5",
+      "name": "SwayNotificationCenter-0.7.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/057kclapkis61wfvpqbshmrha7s9815r-SwayNotificationCenter-0.5"
+        "out": "/nix/store/j908fb2xs44hmqmn0ndnydizbci0fp6f-SwayNotificationCenter-0.7.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Simple notification daemon with a GUI built for Sway",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/swaynotificationcenter/default.nix:38",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/swaynotificationcenter/default.nix:77",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/057kclapkis61wfvpqbshmrha7s9815r-SwayNotificationCenter-0.5"
+        "/nix/store/j908fb2xs44hmqmn0ndnydizbci0fp6f-SwayNotificationCenter-0.7.2"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.6.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.3",
-      "pname": "SwayNotificationCenter",
-      "name": "SwayNotificationCenter-0.6.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/pmhyxbvykv1czhxwm8xbm3bfzdcxijvc-SwayNotificationCenter-0.6.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple notification daemon with a GUI built for Sway",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/misc/swaynotificationcenter/default.nix:81",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "swaynotificationcenter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pmhyxbvykv1czhxwm8xbm3bfzdcxijvc-SwayNotificationCenter-0.6.3"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.3",
+      "pname": "SwayNotificationCenter",
+      "name": "SwayNotificationCenter-0.6.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/pmhyxbvykv1czhxwm8xbm3bfzdcxijvc-SwayNotificationCenter-0.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple notification daemon with a GUI built for Sway",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/misc/swaynotificationcenter/default.nix:81",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "swaynotificationcenter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pmhyxbvykv1czhxwm8xbm3bfzdcxijvc-SwayNotificationCenter-0.6.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

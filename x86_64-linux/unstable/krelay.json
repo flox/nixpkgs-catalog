@@ -1,44 +1,4 @@
 {
-  "0.0.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.0.4",
-      "pname": "krelay",
-      "name": "krelay-0.0.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/9lnvyfdg81xmif9zdkfhyz3givfbbvzw-krelay-0.0.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A better alternative to `kubectl port-forward` that can forward TCP or UDP traffic to IP/Host which is accessible inside the cluster.",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/krelay/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "krelay"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9lnvyfdg81xmif9zdkfhyz3givfbbvzw-krelay-0.0.4"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.4",
+      "pname": "krelay",
+      "name": "krelay-0.0.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/2k1swnzqbcdhyshmd44aw7c435zmk0c3-krelay-0.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A better alternative to `kubectl port-forward` that can forward TCP or UDP traffic to IP/Host which is accessible inside the cluster.",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/krelay/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "krelay"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2k1swnzqbcdhyshmd44aw7c435zmk0c3-krelay-0.0.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

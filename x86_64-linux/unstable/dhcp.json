@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.4.3-P1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.4.3-P1",
-      "pname": "dhcp",
-      "name": "dhcp-4.4.3-P1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/vy39bvincppsxbdgfjkl966yh75mqy3c-dhcp-4.4.3-P1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Dynamic Host Configuration Protocol (DHCP) tools",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/dhcp/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "dhcp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vy39bvincppsxbdgfjkl966yh75mqy3c-dhcp-4.4.3-P1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "4.4.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.4.3-P1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.4.3-P1",
+      "pname": "dhcp",
+      "name": "dhcp-4.4.3-P1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/7s3pwvjzk8fzkj5mvndjhcazxw4ccjbi-dhcp-4.4.3-P1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Dynamic Host Configuration Protocol (DHCP) tools",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/dhcp/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "dhcp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7s3pwvjzk8fzkj5mvndjhcazxw4ccjbi-dhcp-4.4.3-P1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

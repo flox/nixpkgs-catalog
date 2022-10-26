@@ -45,52 +45,6 @@
       }
     }
   },
-  "2.5.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.5.4",
-      "pname": "libseccomp",
-      "name": "libseccomp-2.5.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/nxnj74jx47ih8l56vvfcp1ii1kr7g4in-libseccomp-2.5.4-dev",
-        "lib": "/nix/store/l6k4zizgc5fmbb0ya4ks7w7p555sv54r-libseccomp-2.5.4-lib",
-        "man": "/nix/store/vq3vbz17f34gvngllm0z2k1yn5z333pd-libseccomp-2.5.4-man",
-        "out": "/nix/store/zark250hk1a23q7scl5cdi6igzs0r1p5-libseccomp-2.5.4",
-        "pythonsrc": "/nix/store/6lvydgm3p29wdq952zpw8fy1j4d9sfmx-libseccomp-2.5.4-pythonsrc"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "High level library for the Linux Kernel seccomp filter",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libseccomp/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libseccomp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zark250hk1a23q7scl5cdi6igzs0r1p5-libseccomp-2.5.4",
-        "/nix/store/vq3vbz17f34gvngllm0z2k1yn5z333pd-libseccomp-2.5.4-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -134,6 +88,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.5.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.4",
+      "pname": "libseccomp",
+      "name": "libseccomp-2.5.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/d9dmjcx47vcjjg2m7zg2kz8jvadisach-libseccomp-2.5.4-dev",
+        "lib": "/nix/store/6l589zbaj0fcy5ci71wcjyzgdqiiaw35-libseccomp-2.5.4-lib",
+        "man": "/nix/store/c788cn9glzmqna69hgrxfigrr7hx1krr-libseccomp-2.5.4-man",
+        "out": "/nix/store/hdrxkbxzp7vi26y7sxgcsnk0zkbx9a5c-libseccomp-2.5.4",
+        "pythonsrc": "/nix/store/dlqaxh5s5icg0k8xbfrr2c3fkgn68gbk-libseccomp-2.5.4-pythonsrc"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "High level library for the Linux Kernel seccomp filter",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libseccomp/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libseccomp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hdrxkbxzp7vi26y7sxgcsnk0zkbx9a5c-libseccomp-2.5.4",
+        "/nix/store/c788cn9glzmqna69hgrxfigrr7hx1krr-libseccomp-2.5.4-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

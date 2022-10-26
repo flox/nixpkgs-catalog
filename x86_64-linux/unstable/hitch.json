@@ -1,48 +1,4 @@
 {
-  "1.7.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.3",
-      "pname": "hitch",
-      "name": "hitch-1.7.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/yalf52wz33s4j57cwfll7n9jh3dwr2fb-hitch-1.7.3-doc",
-        "man": "/nix/store/m9zk2z4px4km4knw8ln050814rzq5kzh-hitch-1.7.3-man",
-        "out": "/nix/store/92immr9nsi9v6vjaj9p7xkw9d09g3kvh-hitch-1.7.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Libev-based high performance SSL/TLS proxy by Varnish Software",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/hitch/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "hitch"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/92immr9nsi9v6vjaj9p7xkw9d09g3kvh-hitch-1.7.3",
-        "/nix/store/m9zk2z4px4km4knw8ln050814rzq5kzh-hitch-1.7.3-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.7.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.7.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.3",
+      "pname": "hitch",
+      "name": "hitch-1.7.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/xlgwkis8cbayzxj2dymb1wjir6vc5q1f-hitch-1.7.3-doc",
+        "man": "/nix/store/dfqygz5cmqr811m4ry4ihvysq6ahglyv-hitch-1.7.3-man",
+        "out": "/nix/store/y3jjxbv5l3qpfjqpx6f7xs7dkajwibqf-hitch-1.7.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Libev-based high performance SSL/TLS proxy by Varnish Software",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/hitch/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "hitch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y3jjxbv5l3qpfjqpx6f7xs7dkajwibqf-hitch-1.7.3",
+        "/nix/store/dfqygz5cmqr811m4ry4ihvysq6ahglyv-hitch-1.7.3-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,49 +1,4 @@
 {
-  "3.1.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.6",
-      "pname": "gmic",
-      "name": "gmic-3.1.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/cgf45ga45jdwfw94dz4qqrgkwvy29wq5-gmic-3.1.6-dev",
-        "lib": "/nix/store/jxy7mbyipwgnjms2n8sbxmhjdr1hn9rp-gmic-3.1.6-lib",
-        "man": "/nix/store/92lks7l85i4q1iff8z7lfd3l1pyz1yiz-gmic-3.1.6-man",
-        "out": "/nix/store/9ln705s98plvrw3rv3i50iybci11l0hv-gmic-3.1.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Open and full-featured framework for image processing",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/graphics/gmic/default.nix:102",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gmic"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9ln705s98plvrw3rv3i50iybci11l0hv-gmic-3.1.6",
-        "/nix/store/92lks7l85i4q1iff8z7lfd3l1pyz1yiz-gmic-3.1.6-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.1.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.6",
+      "pname": "gmic",
+      "name": "gmic-3.1.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/cz95y0f52phg5xg761wky6is7xp038vl-gmic-3.1.6-dev",
+        "lib": "/nix/store/1drx4rrfwr0jkmv3ax38sf8lps4qq8nl-gmic-3.1.6-lib",
+        "man": "/nix/store/lcg4phz7jljw768i0900xw7mdr2p2f7j-gmic-3.1.6-man",
+        "out": "/nix/store/rxym7281w5l2gdwa63gc66axp7vrybdn-gmic-3.1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Open and full-featured framework for image processing",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/graphics/gmic/default.nix:102",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gmic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rxym7281w5l2gdwa63gc66axp7vrybdn-gmic-3.1.6",
+        "/nix/store/lcg4phz7jljw768i0900xw7mdr2p2f7j-gmic-3.1.6-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

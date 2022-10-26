@@ -1,22 +1,22 @@
 {
-  "16.15.1": {
+  "18.10.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "16.15.1",
+      "version": "18.10.0",
       "pname": "nodejs",
-      "name": "nodejs-16.15.1",
+      "name": "nodejs-18.10.0",
       "system": "x86_64-linux",
       "outputs": {
-        "libv8": "/nix/store/gnh5kwkmff9nwsxksaswl72sclxwfsjz-nodejs-16.15.1-libv8",
-        "out": "/nix/store/nbayk94b9w60mgdq9640241jr24hrdw4-nodejs-16.15.1"
+        "libv8": "/nix/store/5h4cgc2fgasacv1cgycwmn32ra9wgkdq-nodejs-18.10.0-libv8",
+        "out": "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/web/nodejs/v16.nix:11",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/nbayk94b9w60mgdq9640241jr24hrdw4-nodejs-16.15.1"
+        "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "16.15.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "16.15.0",
-      "pname": "nodejs",
-      "name": "nodejs-16.15.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "libv8": "/nix/store/zkk0y5i5bvjahhi4nb474105qh03x9d5-nodejs-16.15.0-libv8",
-        "out": "/nix/store/i9x1ajwr756r2z9jnb2nhip50a3xms51-nodejs-16.15.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/web/nodejs/v16.nix:11",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nodejs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i9x1ajwr756r2z9jnb2nhip50a3xms51-nodejs-16.15.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "16.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.15.0",
+      "pname": "nodejs",
+      "name": "nodejs-16.15.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "libv8": "/nix/store/zkk0y5i5bvjahhi4nb474105qh03x9d5-nodejs-16.15.0-libv8",
+        "out": "/nix/store/i9x1ajwr756r2z9jnb2nhip50a3xms51-nodejs-16.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event-driven I/O framework for the V8 JavaScript engine",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/web/nodejs/v16.nix:11",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nodejs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i9x1ajwr756r2z9jnb2nhip50a3xms51-nodejs-16.15.0"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

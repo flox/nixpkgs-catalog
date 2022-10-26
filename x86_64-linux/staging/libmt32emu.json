@@ -1,45 +1,4 @@
 {
-  "2.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.0",
-      "pname": "libmt32emu",
-      "name": "libmt32emu-2.7.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/brfvy9864l1nwx4mfg07wf2d4ld4gf9f-libmt32emu-2.7.0-dev",
-        "out": "/nix/store/2pkvhwmwk5invl8cz1pbnm9p6m0703gv-libmt32emu-2.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library to emulate Roland MT-32, CM-32L, CM-64 and LAPC-I devices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/munt/libmt32emu.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libmt32emu"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2pkvhwmwk5invl8cz1pbnm9p6m0703gv-libmt32emu-2.7.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "2.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.0",
+      "pname": "libmt32emu",
+      "name": "libmt32emu-2.7.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/brfvy9864l1nwx4mfg07wf2d4ld4gf9f-libmt32emu-2.7.0-dev",
+        "out": "/nix/store/2pkvhwmwk5invl8cz1pbnm9p6m0703gv-libmt32emu-2.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library to emulate Roland MT-32, CM-32L, CM-64 and LAPC-I devices",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/munt/libmt32emu.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libmt32emu"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2pkvhwmwk5invl8cz1pbnm9p6m0703gv-libmt32emu-2.7.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

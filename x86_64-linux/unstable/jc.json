@@ -1,21 +1,22 @@
 {
-  "1.20.0": {
+  "1.22.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.20.0",
+      "version": "1.22.0",
       "pname": "jc",
-      "name": "jc-1.20.0",
+      "name": "jc-1.22.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/6d7vfx0ia13zlcgb49hys0a402lpqi0p-python3.9-jc-1.20.0"
+        "dist": "/nix/store/3k87gm9mk4c51l7iwdfip8rm9kybhz3w-python3.10-jc-1.22.0-dist",
+        "out": "/nix/store/rgbx7ma108ayfxay2hr6cwy2bi3npj89-python3.10-jc-1.22.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "This tool serializes the output of popular command line tools and filetypes to structured JSON output",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/jc/default.nix:33",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/jc/default.nix:33",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6d7vfx0ia13zlcgb49hys0a402lpqi0p-python3.9-jc-1.20.0"
+        "/nix/store/rgbx7ma108ayfxay2hr6cwy2bi3npj89-python3.10-jc-1.22.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.20.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.4",
-      "pname": "jc",
-      "name": "jc-1.20.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/fm4qxzzb7z1pisv9h51yzk0004pb2ffz-python3.10-jc-1.20.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "This tool serializes the output of popular command line tools and filetypes to structured JSON output",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/jc/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "jc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fm4qxzzb7z1pisv9h51yzk0004pb2ffz-python3.10-jc-1.20.4"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
+      }
+    }
+  },
+  "1.20.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.4",
+      "pname": "jc",
+      "name": "jc-1.20.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/fm4qxzzb7z1pisv9h51yzk0004pb2ffz-python3.10-jc-1.20.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "This tool serializes the output of popular command line tools and filetypes to structured JSON output",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/jc/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "jc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fm4qxzzb7z1pisv9h51yzk0004pb2ffz-python3.10-jc-1.20.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

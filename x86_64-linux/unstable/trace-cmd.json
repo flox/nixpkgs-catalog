@@ -44,51 +44,6 @@
       }
     }
   },
-  "3.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.2",
-      "pname": "trace-cmd",
-      "name": "trace-cmd-3.1.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/gdsiml005b2i4x25cw1gxwjh85rsgk8m-trace-cmd-3.1.2-dev",
-        "lib": "/nix/store/w8gknwvq03y591mygiwplngrx9mh64qr-trace-cmd-3.1.2-lib",
-        "man": "/nix/store/s8xms52xs3xa79866j9i4z4hh9pipn77-trace-cmd-3.1.2-man",
-        "out": "/nix/store/s2qgwvyaivgwjh9jiv240v6b68ydf5ic-trace-cmd-3.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "User-space tools for the Linux kernel ftrace subsystem",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/trace-cmd/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "trace-cmd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s2qgwvyaivgwjh9jiv240v6b68ydf5ic-trace-cmd-3.1.2",
-        "/nix/store/s8xms52xs3xa79866j9i4z4hh9pipn77-trace-cmd-3.1.2-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.9.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.2",
+      "pname": "trace-cmd",
+      "name": "trace-cmd-3.1.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/2y793w7mp5x8y3zans2lxvajkv2izyn9-trace-cmd-3.1.2-dev",
+        "lib": "/nix/store/wkr2zq14aljkbar9gi26mmjp8pbxqcr0-trace-cmd-3.1.2-lib",
+        "man": "/nix/store/h291qs8ziz1ac3z5z8haw6qy4xwaqpar-trace-cmd-3.1.2-man",
+        "out": "/nix/store/fakfqn8adfb3nh9jjr9dhnfh6aknc3bv-trace-cmd-3.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "User-space tools for the Linux kernel ftrace subsystem",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/trace-cmd/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "trace-cmd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fakfqn8adfb3nh9jjr9dhnfh6aknc3bv-trace-cmd-3.1.2",
+        "/nix/store/h291qs8ziz1ac3z5z8haw6qy4xwaqpar-trace-cmd-3.1.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

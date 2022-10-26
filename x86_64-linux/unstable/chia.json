@@ -1,21 +1,22 @@
 {
-  "1.5.1": {
+  "1.6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.5.1",
+      "version": "1.6.0",
       "pname": "chia",
-      "name": "chia-1.5.1",
+      "name": "chia-1.6.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/8i67wgz3zcah8dp3ynq767m80d3i1jmj-chia-1.5.1"
+        "dist": "/nix/store/xv59w2yhm45xc4r1dfxrb7xpbfl5djqv-chia-1.6.0-dist",
+        "out": "/nix/store/6g7q2kv59j7bd09bdyal4xv8n7ngn4ps-chia-1.6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/blockchains/chia/default.nix:96",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/blockchains/chia/default.nix:96",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8i67wgz3zcah8dp3ynq767m80d3i1jmj-chia-1.5.1"
+        "/nix/store/6g7q2kv59j7bd09bdyal4xv8n7ngn4ps-chia-1.6.0"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "1.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.0",
-      "pname": "chia",
-      "name": "chia-1.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/jkd4qhc0i2pzm4d6vmvylwisnldys03m-chia-1.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/blockchains/chia/default.nix:96",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "chia"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jkd4qhc0i2pzm4d6vmvylwisnldys03m-chia-1.5.0"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.0",
+      "pname": "chia",
+      "name": "chia-1.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/jkd4qhc0i2pzm4d6vmvylwisnldys03m-chia-1.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/blockchains/chia/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "chia"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jkd4qhc0i2pzm4d6vmvylwisnldys03m-chia-1.5.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

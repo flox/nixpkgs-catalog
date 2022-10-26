@@ -1,48 +1,4 @@
 {
-  "0.4.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.2",
-      "pname": "stubby",
-      "name": "stubby-0.4.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/zkkyxkqpxw9rz9k7s2s2xjl3azwifah8-stubby-0.4.2-man",
-        "out": "/nix/store/lz0kzbq8g8qxx7067r7ggpxs3dk7avdz-stubby-0.4.2",
-        "stubbyExampleJson": "/nix/store/5n8as53n2w4l94g1kmbjp1cn3dz5j26a-stubby-0.4.2-stubbyExampleJson"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A local DNS Privacy stub resolver (using DNS-over-TLS)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/getdns/default.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "stubby"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lz0kzbq8g8qxx7067r7ggpxs3dk7avdz-stubby-0.4.2",
-        "/nix/store/zkkyxkqpxw9rz9k7s2s2xjl3azwifah8-stubby-0.4.2-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.2",
+      "pname": "stubby",
+      "name": "stubby-0.4.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/gd3hav7hna77hiki5rks7avsh4xdz4sp-stubby-0.4.2-man",
+        "out": "/nix/store/7sw991h3lrismb899i8j30s6icrp2b3l-stubby-0.4.2",
+        "stubbyExampleJson": "/nix/store/iai5bq95smj37vq8gdwzkj5ss675idf9-stubby-0.4.2-stubbyExampleJson"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A local DNS Privacy stub resolver (using DNS-over-TLS)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/getdns/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "stubby"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7sw991h3lrismb899i8j30s6icrp2b3l-stubby-0.4.2",
+        "/nix/store/gd3hav7hna77hiki5rks7avsh4xdz4sp-stubby-0.4.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.0",
-      "pname": "virtiofsd",
-      "name": "virtiofsd-1.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gqg321jmcq7afp8r4s4jky99s3133mwb-virtiofsd-1.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "vhost-user virtio-fs device backend written in Rust",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/misc/virtiofsd/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "virtiofsd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gqg321jmcq7afp8r4s4jky99s3133mwb-virtiofsd-1.4.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.0",
+      "pname": "virtiofsd",
+      "name": "virtiofsd-1.4.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/phx0h57ik0xq701yk0ircxr7n5ag8m90-virtiofsd-1.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "vhost-user virtio-fs device backend written in Rust",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/misc/virtiofsd/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "virtiofsd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/phx0h57ik0xq701yk0ircxr7n5ag8m90-virtiofsd-1.4.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

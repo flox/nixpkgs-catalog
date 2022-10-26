@@ -1,21 +1,22 @@
 {
-  "2.5.4": {
+  "2.6.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.5.4",
+      "version": "2.6.1",
       "pname": "ytcc",
-      "name": "ytcc-2.5.4",
+      "name": "ytcc-2.6.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/g72ibgrmascwz30kh8dw6fy9swdf7svw-ytcc-2.5.4"
+        "dist": "/nix/store/hdl2xqhdfs69yrjs6jc1flrinz6ymlci-ytcc-2.6.1-dist",
+        "out": "/nix/store/gaaq1n4d7nmxhy72692v3zrs1rrsnnmq-ytcc-2.6.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command Line tool to keep track of your favourite YouTube channels without signing up for a Google account",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/ytcc/default.nix:43",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/ytcc/default.nix:48",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/g72ibgrmascwz30kh8dw6fy9swdf7svw-ytcc-2.5.4"
+        "/nix/store/gaaq1n4d7nmxhy72692v3zrs1rrsnnmq-ytcc-2.6.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "2.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.0",
-      "pname": "ytcc",
-      "name": "ytcc-2.6.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/pqfy17qyy4i5hxbdqpdfq31i5w1qj7j0-ytcc-2.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command Line tool to keep track of your favourite YouTube channels without signing up for a Google account",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/ytcc/default.nix:47",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ytcc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pqfy17qyy4i5hxbdqpdfq31i5w1qj7j0-ytcc-2.6.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.0",
+      "pname": "ytcc",
+      "name": "ytcc-2.6.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/pqfy17qyy4i5hxbdqpdfq31i5w1qj7j0-ytcc-2.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command Line tool to keep track of your favourite YouTube channels without signing up for a Google account",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/ytcc/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ytcc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pqfy17qyy4i5hxbdqpdfq31i5w1qj7j0-ytcc-2.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

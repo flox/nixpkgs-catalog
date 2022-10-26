@@ -1,21 +1,21 @@
 {
-  "2.6.2": {
+  "2.9.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.6.2",
+      "version": "2.9.1",
       "pname": null,
-      "name": "joplin-2.6.2",
+      "name": "joplin-2.9.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/51hspink277vr87y4c45y55xhhnq40ch-joplin-2.6.2"
+        "out": "/nix/store/wzwkpjc79pm1hg8lk0i57s3d7lbqd87k-joplin-2.9.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Joplin CLI Client",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/node-packages/node-packages.nix:105146",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/node-packages/node-packages.nix:115348",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/51hspink277vr87y4c45y55xhhnq40ch-joplin-2.6.2"
+        "/nix/store/wzwkpjc79pm1hg8lk0i57s3d7lbqd87k-joplin-2.9.1"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.2",
+      "pname": null,
+      "name": "joplin-2.6.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/51hspink277vr87y4c45y55xhhnq40ch-joplin-2.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Joplin CLI Client",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/node-packages/node-packages.nix:105146",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "joplin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/51hspink277vr87y4c45y55xhhnq40ch-joplin-2.6.2"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

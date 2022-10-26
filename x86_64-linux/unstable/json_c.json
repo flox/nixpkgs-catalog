@@ -1,45 +1,4 @@
 {
-  "0.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16",
-      "pname": "json-c",
-      "name": "json-c-0.16",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/y1rfly2zkgv07nv2rzv488a4a39q157m-json-c-0.16-dev",
-        "out": "/nix/store/iw615j64v5pwkg0alspdvgn0465ipg4c-json-c-0.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A JSON implementation in C",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/json-c/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "json_c"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/iw615j64v5pwkg0alspdvgn0465ipg4c-json-c-0.16"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16",
+      "pname": "json-c",
+      "name": "json-c-0.16",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/zki1ghfirw79w4b19ji68mvvlm0wsz63-json-c-0.16-dev",
+        "out": "/nix/store/gk32q8wyqi0znf0v2ni0j2f5pwwg23hs-json-c-0.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A JSON implementation in C",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/json-c/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "json_c"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gk32q8wyqi0znf0v2ni0j2f5pwwg23hs-json-c-0.16"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

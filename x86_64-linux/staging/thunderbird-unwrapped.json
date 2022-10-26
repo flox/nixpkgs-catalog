@@ -41,48 +41,6 @@
       }
     }
   },
-  "91.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "91.10.0",
-      "pname": null,
-      "name": "thunderbird-unwrapped-91.10.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/l7vj7nr252i7xr4imy9qdw6lzayh9j64-thunderbird-unwrapped-91.10.0-debug",
-        "out": "/nix/store/d4fsha81m6s52mffjhjc8yg0rsk2prvh-thunderbird-unwrapped-91.10.0",
-        "symbols": "/nix/store/rqmxfh9l0p2dhs08anijwzf4136lbh8v-thunderbird-unwrapped-91.10.0-symbols"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A full-featured e-mail client",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/networking/mailreaders/thunderbird/packages.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "thunderbird-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d4fsha81m6s52mffjhjc8yg0rsk2prvh-thunderbird-unwrapped-91.10.0"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "102.0.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "91.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "91.10.0",
+      "pname": null,
+      "name": "thunderbird-unwrapped-91.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/l7vj7nr252i7xr4imy9qdw6lzayh9j64-thunderbird-unwrapped-91.10.0-debug",
+        "out": "/nix/store/d4fsha81m6s52mffjhjc8yg0rsk2prvh-thunderbird-unwrapped-91.10.0",
+        "symbols": "/nix/store/rqmxfh9l0p2dhs08anijwzf4136lbh8v-thunderbird-unwrapped-91.10.0-symbols"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A full-featured e-mail client",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/networking/mailreaders/thunderbird/packages.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "thunderbird-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d4fsha81m6s52mffjhjc8yg0rsk2prvh-thunderbird-unwrapped-91.10.0"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

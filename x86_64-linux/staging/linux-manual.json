@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.18.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.18.6",
-      "pname": "linux-manual",
-      "name": "linux-manual-5.18.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/7aj6wpjir9gzz9d2n6hdlir17hn0gbfk-linux-manual-5.18.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linux kernel API manual pages",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/data/documentation/linux-manual/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux-manual"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7aj6wpjir9gzz9d2n6hdlir17hn0gbfk-linux-manual-5.18.6"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "5.19": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "5.18.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18.6",
+      "pname": "linux-manual",
+      "name": "linux-manual-5.18.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/7aj6wpjir9gzz9d2n6hdlir17hn0gbfk-linux-manual-5.18.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux kernel API manual pages",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/data/documentation/linux-manual/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux-manual"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7aj6wpjir9gzz9d2n6hdlir17hn0gbfk-linux-manual-5.18.6"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

@@ -1,46 +1,4 @@
 {
-  "0.8.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.10",
-      "pname": "xfce4-terminal",
-      "name": "xfce4-terminal-0.8.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/wfblaw8d8w52qgx66vg6dxx13cmbzng0-xfce4-terminal-0.8.10-dev",
-        "out": "/nix/store/sqvkjq7ldxr5h7an7my59d3rh9vyyya2-xfce4-terminal-0.8.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modern terminal emulator",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/xfce/applications/xfce4-terminal/default.nix:5",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "xfce",
-        "terminal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sqvkjq7ldxr5h7an7my59d3rh9vyyya2-xfce4-terminal-0.8.10"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.0.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.8.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.10",
+      "pname": "xfce4-terminal",
+      "name": "xfce4-terminal-0.8.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/wfblaw8d8w52qgx66vg6dxx13cmbzng0-xfce4-terminal-0.8.10-dev",
+        "out": "/nix/store/sqvkjq7ldxr5h7an7my59d3rh9vyyya2-xfce4-terminal-0.8.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modern terminal emulator",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/xfce/applications/xfce4-terminal/default.nix:5",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xfce",
+        "terminal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sqvkjq7ldxr5h7an7my59d3rh9vyyya2-xfce4-terminal-0.8.10"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

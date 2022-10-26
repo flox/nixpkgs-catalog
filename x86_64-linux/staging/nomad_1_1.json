@@ -1,44 +1,4 @@
 {
-  "1.1.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.8",
-      "pname": "nomad",
-      "name": "nomad-1.1.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/g8zr2wgyhjn40k1znl5i9iaqq64rs4c2-nomad-1.1.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Distributed, Highly Available, Datacenter-Aware Scheduler",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/nomad/genericModule.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nomad_1_1"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g8zr2wgyhjn40k1znl5i9iaqq64rs4c2-nomad-1.1.8"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "1.1.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.1.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.8",
+      "pname": "nomad",
+      "name": "nomad-1.1.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/g8zr2wgyhjn40k1znl5i9iaqq64rs4c2-nomad-1.1.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Distributed, Highly Available, Datacenter-Aware Scheduler",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/cluster/nomad/genericModule.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nomad_1_1"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g8zr2wgyhjn40k1znl5i9iaqq64rs4c2-nomad-1.1.8"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

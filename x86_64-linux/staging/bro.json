@@ -1,46 +1,4 @@
 {
-  "4.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.1",
-      "pname": "zeek",
-      "name": "zeek-4.1.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "lib": "/nix/store/q74nd03mgd0jv2n0l14f8hhb0f7fm9vp-zeek-4.1.1-lib",
-        "out": "/nix/store/qmd89y5l8wz8m955g7q74jcl3rqfwkij-zeek-4.1.1",
-        "py": "/nix/store/4dx3xl1whz3q5mkam58kb37xrywn65pw-zeek-4.1.1-py"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful network analysis framework much different from a typical IDS",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ids/zeek/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "bro"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qmd89y5l8wz8m955g7q74jcl3rqfwkij-zeek-4.1.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.1",
+      "pname": "zeek",
+      "name": "zeek-4.1.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "lib": "/nix/store/q74nd03mgd0jv2n0l14f8hhb0f7fm9vp-zeek-4.1.1-lib",
+        "out": "/nix/store/qmd89y5l8wz8m955g7q74jcl3rqfwkij-zeek-4.1.1",
+        "py": "/nix/store/4dx3xl1whz3q5mkam58kb37xrywn65pw-zeek-4.1.1-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful network analysis framework much different from a typical IDS",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ids/zeek/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "bro"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qmd89y5l8wz8m955g7q74jcl3rqfwkij-zeek-4.1.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

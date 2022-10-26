@@ -41,48 +41,6 @@
       }
     }
   },
-  "3.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.1",
-      "pname": "knot-dns",
-      "name": "knot-dns-3.2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/rs0j78dah58anlf6yl9s4ikvwl3rhjls-knot-dns-3.2.1-bin",
-        "dev": "/nix/store/70rnwcb61nryjb95m2vr1c0hdwsgm9l3-knot-dns-3.2.1-dev",
-        "out": "/nix/store/8j831rhdanin0cpg78jkw5ynv63mjz0c-knot-dns-3.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Authoritative-only DNS server from .cz domain registry",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/dns/knot-dns/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "knot-dns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rs0j78dah58anlf6yl9s4ikvwl3rhjls-knot-dns-3.2.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.1.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.1",
+      "pname": "knot-dns",
+      "name": "knot-dns-3.2.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/jc0vniwqrs0xakpcmwgxiacy91l2a94q-knot-dns-3.2.1-bin",
+        "dev": "/nix/store/53k3j5xwfh4hzgh7rg7fcvx10rl7nh2n-knot-dns-3.2.1-dev",
+        "out": "/nix/store/qvym4jpq09q8r2jr18lj512cr227x8qw-knot-dns-3.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Authoritative-only DNS server from .cz domain registry",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/dns/knot-dns/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "knot-dns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jc0vniwqrs0xakpcmwgxiacy91l2a94q-knot-dns-3.2.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

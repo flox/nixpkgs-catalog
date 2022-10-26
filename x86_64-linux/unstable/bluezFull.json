@@ -41,48 +41,6 @@
       }
     }
   },
-  "5.65": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.65",
-      "pname": "bluez",
-      "name": "bluez-5.65",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/d42a7334iak8g8pajf3lq0mbhncbl38y-bluez-5.65-dev",
-        "out": "/nix/store/9q0wdzykw3f24hr85bdgy2ilk8vngwjb-bluez-5.65",
-        "test": "/nix/store/8pr9gwa83yqy278nvps34q6bgk12llrn-bluez-5.65-test"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Bluetooth support for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/bluez/default.nix:135",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "bluezFull"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9q0wdzykw3f24hr85bdgy2ilk8vngwjb-bluez-5.65"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.64": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.65": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.65",
+      "pname": "bluez",
+      "name": "bluez-5.65",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/cj8p1py5mav7k7mnh91fcrbn6f0h5p1l-bluez-5.65-dev",
+        "out": "/nix/store/12ifc2r5pji8n9981dwp2mmi730y4k3g-bluez-5.65",
+        "test": "/nix/store/2zscji1xhywqdcjymd7957psyrhr97n9-bluez-5.65-test"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Bluetooth support for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/bluez/default.nix:135",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "bluezFull"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/12ifc2r5pji8n9981dwp2mmi730y4k3g-bluez-5.65"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

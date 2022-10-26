@@ -40,47 +40,6 @@
       }
     }
   },
-  "15.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "15.1.0",
-      "pname": "gitaly",
-      "name": "gitaly-15.1.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/cjq2yy39dw3lk60hgd35a6095rndcffk-gitaly-15.1.0",
-        "ruby": "/nix/store/4zpadvdcpp5895jdx9d6q3mhc5k7z9ay-gitaly-15.1.0-ruby"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Git RPC service for handling all the git calls made by GitLab",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/version-management/gitlab/gitaly/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gitaly"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cjq2yy39dw3lk60hgd35a6095rndcffk-gitaly-15.1.0"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "15.1.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "15.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "15.1.0",
+      "pname": "gitaly",
+      "name": "gitaly-15.1.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/cjq2yy39dw3lk60hgd35a6095rndcffk-gitaly-15.1.0",
+        "ruby": "/nix/store/4zpadvdcpp5895jdx9d6q3mhc5k7z9ay-gitaly-15.1.0-ruby"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Git RPC service for handling all the git calls made by GitLab",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/version-management/gitlab/gitaly/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gitaly"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cjq2yy39dw3lk60hgd35a6095rndcffk-gitaly-15.1.0"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

@@ -41,48 +41,6 @@
       }
     }
   },
-  "0.9.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.10",
-      "pname": "igraph",
-      "name": "igraph-0.9.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/945nbrfj4v6s8a82q6088y04hxz7jhc6-igraph-0.9.10-dev",
-        "doc": "/nix/store/d92jqqccbmi5bd7qk7d176rk64ny7wgw-igraph-0.9.10-doc",
-        "out": "/nix/store/2rayxq2fpash8lbylnyinryi1h4648wl-igraph-0.9.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The network analysis package",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/igraph/default.nix:100",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "igraph"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2rayxq2fpash8lbylnyinryi1h4648wl-igraph-0.9.10"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.9.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.10",
+      "pname": "igraph",
+      "name": "igraph-0.9.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/g048hmfz5nm1mx3qgfbc7ffl7k1rmg9i-igraph-0.9.10-dev",
+        "doc": "/nix/store/5nd021v21svi1w40brbnndksfmack82k-igraph-0.9.10-doc",
+        "out": "/nix/store/y54vw5zs962scjf9g1bijky78zb7yza9-igraph-0.9.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The network analysis package",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/igraph/default.nix:100",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "igraph"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y54vw5zs962scjf9g1bijky78zb7yza9-igraph-0.9.10"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

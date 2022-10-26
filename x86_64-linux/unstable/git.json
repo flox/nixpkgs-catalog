@@ -1,23 +1,23 @@
 {
-  "2.36.0": {
+  "2.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.36.0",
+      "version": "2.38.0",
       "pname": "git",
-      "name": "git-2.36.0",
+      "name": "git-2.38.0",
       "system": "x86_64-linux",
       "outputs": {
-        "debug": "/nix/store/wg2jsaibw26jsn2gjm5zbdizkdplf6fq-git-2.36.0-debug",
-        "doc": "/nix/store/80as24qly9vp9lkk564pnkwkmxvp6vbb-git-2.36.0-doc",
-        "out": "/nix/store/jan6raccqh66sk55z3nm8ldj3asns0m0-git-2.36.0"
+        "debug": "/nix/store/ryhbcq0mswn6rnsgn3im6kfdxshv50lf-git-2.38.0-debug",
+        "doc": "/nix/store/6pgdyghqlbcsh8pz2y7g8nj730bd2gw4-git-2.38.0-doc",
+        "out": "/nix/store/v74hgl35vxm45db39dr7y6a8k9976z0r-git-2.38.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Distributed version control system",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/git/default.nix:378",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/git-and-tools/git/default.nix:387",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/jan6raccqh66sk55z3nm8ldj3asns0m0-git-2.36.0"
+        "/nix/store/v74hgl35vxm45db39dr7y6a8k9976z0r-git-2.38.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.37.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.37.1",
-      "pname": "git",
-      "name": "git-2.37.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/iczzl6704q9sm2f4j8wkrwijzyak90gz-git-2.37.1-debug",
-        "doc": "/nix/store/c0ny5xdgkvkb781hm2vxxw5766ihq15p-git-2.37.1-doc",
-        "out": "/nix/store/bdmf4pi7b9b8fzy7skasm26awj4wlwqx-git-2.37.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed version control system",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "git"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bdmf4pi7b9b8fzy7skasm26awj4wlwqx-git-2.37.1"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.37.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.1",
+      "pname": "git",
+      "name": "git-2.37.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/iczzl6704q9sm2f4j8wkrwijzyak90gz-git-2.37.1-debug",
+        "doc": "/nix/store/c0ny5xdgkvkb781hm2vxxw5766ihq15p-git-2.37.1-doc",
+        "out": "/nix/store/bdmf4pi7b9b8fzy7skasm26awj4wlwqx-git-2.37.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed version control system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "git"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bdmf4pi7b9b8fzy7skasm26awj4wlwqx-git-2.37.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

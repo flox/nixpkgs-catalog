@@ -1,47 +1,4 @@
 {
-  "41.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "41.3",
-      "pname": "evince",
-      "name": "evince-41.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/sz30qxv8vxkxnlr5c07n9kfqy2963in7-evince-41.3-dev",
-        "devdoc": "/nix/store/inizn42fkpny1ki25ydzc8b20gb2shgb-evince-41.3-devdoc",
-        "out": "/nix/store/xzs3rww9mq2n48wfgi87078mmdkqq4ml-evince-41.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GNOME's document viewer",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/gnome/core/evince/default.nix:145",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome",
-        "evince"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xzs3rww9mq2n48wfgi87078mmdkqq4ml-evince-41.3"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "42.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "41.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "41.3",
+      "pname": "evince",
+      "name": "evince-41.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/sz30qxv8vxkxnlr5c07n9kfqy2963in7-evince-41.3-dev",
+        "devdoc": "/nix/store/inizn42fkpny1ki25ydzc8b20gb2shgb-evince-41.3-devdoc",
+        "out": "/nix/store/xzs3rww9mq2n48wfgi87078mmdkqq4ml-evince-41.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GNOME's document viewer",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/gnome/core/evince/default.nix:145",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome",
+        "evince"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xzs3rww9mq2n48wfgi87078mmdkqq4ml-evince-41.3"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

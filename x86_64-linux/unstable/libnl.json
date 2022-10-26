@@ -1,49 +1,4 @@
 {
-  "3.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.7.0",
-      "pname": "libnl",
-      "name": "libnl-3.7.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/l7jyim21r1v3nzxzwbmksz0gkidca0dx-libnl-3.7.0-bin",
-        "dev": "/nix/store/pys5ykp2fcczig8wkyl8radb1v7k7kyc-libnl-3.7.0-dev",
-        "man": "/nix/store/8w69vn1n9swxrga5883901iak9bag0l8-libnl-3.7.0-man",
-        "out": "/nix/store/77rdn3rmf301nhv90p9xa2l3i0n3d288-libnl-3.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Linux Netlink interface library suite",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/libnl/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libnl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l7jyim21r1v3nzxzwbmksz0gkidca0dx-libnl-3.7.0-bin",
-        "/nix/store/8w69vn1n9swxrga5883901iak9bag0l8-libnl-3.7.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.7.0",
+      "pname": "libnl",
+      "name": "libnl-3.7.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/afbk054n42164qn8z311n9p2xhf810fb-libnl-3.7.0-bin",
+        "dev": "/nix/store/3ayyvdbc8clyg4680xqa836nd4ncv7kz-libnl-3.7.0-dev",
+        "man": "/nix/store/mabk6qh7h03crslkdwk1qv2lj1ww1jsn-libnl-3.7.0-man",
+        "out": "/nix/store/7m2r3ba4l31w83bbl3imw93aarinqsvj-libnl-3.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Linux Netlink interface library suite",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/libnl/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libnl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/afbk054n42164qn8z311n9p2xhf810fb-libnl-3.7.0-bin",
+        "/nix/store/mabk6qh7h03crslkdwk1qv2lj1ww1jsn-libnl-3.7.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

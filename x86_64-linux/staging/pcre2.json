@@ -1,51 +1,4 @@
 {
-  "10.37": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.37",
-      "pname": "pcre2",
-      "name": "pcre2-10.37",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/d866yghkjg0m3q2inarw378279vj6p78-pcre2-10.37-bin",
-        "dev": "/nix/store/ks8bvwlvns423c16cryjvs2cd7l395wk-pcre2-10.37-dev",
-        "devdoc": "/nix/store/pj6xjhclyynq5dfi60i7xhv14vp0j33i-pcre2-10.37-devdoc",
-        "doc": "/nix/store/1w040qdi6jn4i2qm5p9g04zmy93210jf-pcre2-10.37-doc",
-        "man": "/nix/store/zg2xc6b7kl6nxgqjdld8w325v3fy4q64-pcre2-10.37-man",
-        "out": "/nix/store/ylp0jasb9w6rw47j89sxfas0yp96jp6z-pcre2-10.37"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Perl Compatible Regular Expressions",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/pcre2/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "pcre2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d866yghkjg0m3q2inarw378279vj6p78-pcre2-10.37-bin",
-        "/nix/store/zg2xc6b7kl6nxgqjdld8w325v3fy4q64-pcre2-10.37-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "10.39": {
     "type": "catalogRender",
     "schema": 1,
@@ -90,6 +43,53 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "10.37": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.37",
+      "pname": "pcre2",
+      "name": "pcre2-10.37",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/d866yghkjg0m3q2inarw378279vj6p78-pcre2-10.37-bin",
+        "dev": "/nix/store/ks8bvwlvns423c16cryjvs2cd7l395wk-pcre2-10.37-dev",
+        "devdoc": "/nix/store/pj6xjhclyynq5dfi60i7xhv14vp0j33i-pcre2-10.37-devdoc",
+        "doc": "/nix/store/1w040qdi6jn4i2qm5p9g04zmy93210jf-pcre2-10.37-doc",
+        "man": "/nix/store/zg2xc6b7kl6nxgqjdld8w325v3fy4q64-pcre2-10.37-man",
+        "out": "/nix/store/ylp0jasb9w6rw47j89sxfas0yp96jp6z-pcre2-10.37"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Perl Compatible Regular Expressions",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/pcre2/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pcre2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d866yghkjg0m3q2inarw378279vj6p78-pcre2-10.37-bin",
+        "/nix/store/zg2xc6b7kl6nxgqjdld8w325v3fy4q64-pcre2-10.37-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

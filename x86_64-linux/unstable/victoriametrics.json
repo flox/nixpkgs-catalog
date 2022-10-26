@@ -1,21 +1,21 @@
 {
-  "1.77.0": {
+  "1.82.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.77.0",
+      "version": "1.82.1",
       "pname": "VictoriaMetrics",
-      "name": "VictoriaMetrics-1.77.0",
+      "name": "VictoriaMetrics-1.82.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/l51ihps3whx8j1v7y1afdayrr4w5cqig-VictoriaMetrics-1.77.0"
+        "out": "/nix/store/4zp6hbs80br6s6jl52cryqy6vk3s1wxb-VictoriaMetrics-1.82.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "fast, cost-effective and scalable time series database, long-term remote storage for Prometheus",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/nosql/victoriametrics/default.nix:30",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/nosql/victoriametrics/default.nix:35",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l51ihps3whx8j1v7y1afdayrr4w5cqig-VictoriaMetrics-1.77.0"
+        "/nix/store/4zp6hbs80br6s6jl52cryqy6vk3s1wxb-VictoriaMetrics-1.82.1"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.80.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.80.0",
-      "pname": "VictoriaMetrics",
-      "name": "VictoriaMetrics-1.80.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gl3hb899j2b5lz427z9mra3zaxn8scz5-VictoriaMetrics-1.80.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "fast, cost-effective and scalable time series database, long-term remote storage for Prometheus",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/servers/nosql/victoriametrics/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "victoriametrics"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gl3hb899j2b5lz427z9mra3zaxn8scz5-VictoriaMetrics-1.80.0"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.80.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.80.0",
+      "pname": "VictoriaMetrics",
+      "name": "VictoriaMetrics-1.80.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/gl3hb899j2b5lz427z9mra3zaxn8scz5-VictoriaMetrics-1.80.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "fast, cost-effective and scalable time series database, long-term remote storage for Prometheus",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/servers/nosql/victoriametrics/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "victoriametrics"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gl3hb899j2b5lz427z9mra3zaxn8scz5-VictoriaMetrics-1.80.0"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

@@ -1,45 +1,4 @@
 {
-  "3.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.1",
-      "pname": "wireshark-cli",
-      "name": "wireshark-cli-3.6.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/fgb8xcw14nzd3x7gwmsghs20ny6lnkn6-wireshark-cli-3.6.1-dev",
-        "out": "/nix/store/nl40i4mh091dp3p6ycb8ki3wanwbi8jq-wireshark-cli-3.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful network protocol analyzer",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sniffers/wireshark/default.nix:96",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "wireshark-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nl40i4mh091dp3p6ycb8ki3wanwbi8jq-wireshark-cli-3.6.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "3.6.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "3.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.1",
+      "pname": "wireshark-cli",
+      "name": "wireshark-cli-3.6.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/fgb8xcw14nzd3x7gwmsghs20ny6lnkn6-wireshark-cli-3.6.1-dev",
+        "out": "/nix/store/nl40i4mh091dp3p6ycb8ki3wanwbi8jq-wireshark-cli-3.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful network protocol analyzer",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sniffers/wireshark/default.nix:96",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wireshark-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nl40i4mh091dp3p6ycb8ki3wanwbi8jq-wireshark-cli-3.6.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

@@ -1,44 +1,4 @@
 {
-  "6.5.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.5.5",
-      "pname": "wpgtk",
-      "name": "wpgtk-6.5.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/v8r4dmf3zwyl2a6gnl6rgqr2acvbshyv-wpgtk-6.5.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Template based wallpaper/colorscheme generator and manager",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/X11/wpgtk/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "wpgtk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v8r4dmf3zwyl2a6gnl6rgqr2acvbshyv-wpgtk-6.5.5"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "6.5.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "6.5.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.5.5",
+      "pname": "wpgtk",
+      "name": "wpgtk-6.5.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/pybay4zf3yk3vapndrksj6222jgfspb8-wpgtk-6.5.5-dist",
+        "out": "/nix/store/rc47gmxhhkqsv9y0nzspjscka9w4arxb-wpgtk-6.5.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Template based wallpaper/colorscheme generator and manager",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/X11/wpgtk/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wpgtk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rc47gmxhhkqsv9y0nzspjscka9w4arxb-wpgtk-6.5.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

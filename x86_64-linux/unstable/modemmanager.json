@@ -1,21 +1,21 @@
 {
-  "1.18.2": {
+  "1.18.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.18.2",
+      "version": "1.18.12",
       "pname": "modemmanager",
-      "name": "modemmanager-1.18.2",
+      "name": "modemmanager-1.18.12",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/im0qhiyv8cqsbq07apzmid7inkhr0aaf-modemmanager-1.18.2"
+        "out": "/nix/store/5aqdvkwlbpz01syp9da6anxkxmzx08p1-modemmanager-1.18.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "WWAN modem manager, part of NetworkManager",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/modemmanager/default.nix:53",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/modemmanager/default.nix:53",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/im0qhiyv8cqsbq07apzmid7inkhr0aaf-modemmanager-1.18.2"
+        "/nix/store/5aqdvkwlbpz01syp9da6anxkxmzx08p1-modemmanager-1.18.12"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "1.18.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.18.10",
-      "pname": "modemmanager",
-      "name": "modemmanager-1.18.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/lkqxqhlchd1ir9z28c53la87xbwdqxbf-modemmanager-1.18.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "WWAN modem manager, part of NetworkManager",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/modemmanager/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "modemmanager"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lkqxqhlchd1ir9z28c53la87xbwdqxbf-modemmanager-1.18.10"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.18.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.18.10",
+      "pname": "modemmanager",
+      "name": "modemmanager-1.18.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/lkqxqhlchd1ir9z28c53la87xbwdqxbf-modemmanager-1.18.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "WWAN modem manager, part of NetworkManager",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/modemmanager/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "modemmanager"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lkqxqhlchd1ir9z28c53la87xbwdqxbf-modemmanager-1.18.10"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

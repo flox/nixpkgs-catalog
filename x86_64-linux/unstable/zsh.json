@@ -1,44 +1,4 @@
 {
-  "5.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.8",
-      "pname": "zsh",
-      "name": "zsh-5.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/7f4adhqrpcfcy6q5prhp7a74sd99pdqg-zsh-5.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Z shell",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/shells/zsh/default.nix:95",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "zsh"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7f4adhqrpcfcy6q5prhp7a74sd99pdqg-zsh-5.8"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "5.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -79,23 +39,23 @@
       }
     }
   },
-  "5.9": {
+  "5.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.9",
+      "version": "5.8",
       "pname": "zsh",
-      "name": "zsh-5.9",
+      "name": "zsh-5.8",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/c1ksgzkpx1yhw2a339dbq9161ivdx40l-zsh-5.9"
+        "out": "/nix/store/7f4adhqrpcfcy6q5prhp7a74sd99pdqg-zsh-5.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Z shell",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/shells/zsh/default.nix:91",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/shells/zsh/default.nix:95",
         "unfree": false
       }
     },
@@ -108,14 +68,59 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/c1ksgzkpx1yhw2a339dbq9161ivdx40l-zsh-5.9"
+        "/nix/store/7f4adhqrpcfcy6q5prhp7a74sd99pdqg-zsh-5.8"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "5.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.9",
+      "pname": "zsh",
+      "name": "zsh-5.9",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/ab5xjjpllxfmk81y6j43g57a0scidl9n-zsh-5.9-doc",
+        "info": "/nix/store/id6xmqhgq1izlmx2p416wfzrwkw1vprp-zsh-5.9-info",
+        "man": "/nix/store/hlv8x1956dajrjdcm0v1y6kcypxqh1d5-zsh-5.9-man",
+        "out": "/nix/store/39gnwg90gf7b1hqr7bqw7ara89lcx0kf-zsh-5.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The Z shell",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/shells/zsh/default.nix:93",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "zsh"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/39gnwg90gf7b1hqr7bqw7ara89lcx0kf-zsh-5.9",
+        "/nix/store/hlv8x1956dajrjdcm0v1y6kcypxqh1d5-zsh-5.9-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

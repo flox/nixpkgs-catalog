@@ -1,44 +1,4 @@
 {
-  "3.9.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9.2",
-      "pname": "multus-cni",
-      "name": "multus-cni-3.9.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/78p303jliml6s36hzcv5v4dq6x7q66pi-multus-cni-3.9.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/cluster/multus-cni/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "multus-cni"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/78p303jliml6s36hzcv5v4dq6x7q66pi-multus-cni-3.9.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.9.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.2",
+      "pname": "multus-cni",
+      "name": "multus-cni-3.9.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/6njcml7i0ymnd3g3nvr3m9c2b3yc8wkh-multus-cni-3.9.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Multus CNI is a container network interface (CNI) plugin for Kubernetes that enables attaching multiple network interfaces to pods",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/multus-cni/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "multus-cni"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6njcml7i0ymnd3g3nvr3m9c2b3yc8wkh-multus-cni-3.9.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

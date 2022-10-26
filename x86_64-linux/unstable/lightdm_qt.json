@@ -1,45 +1,4 @@
 {
-  "1.32.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.32.0",
-      "pname": "lightdm",
-      "name": "lightdm-1.32.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/v49pj6igadavl5p899q17wp4x7lfzj68-lightdm-1.32.0-dev",
-        "out": "/nix/store/p2ibmxb568ya1h5haw2hx0cma7n575bg-lightdm-1.32.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A cross-desktop display manager",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/display-managers/lightdm/default.nix:127",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "lightdm_qt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p2ibmxb568ya1h5haw2hx0cma7n575bg-lightdm-1.32.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.30.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.32.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.32.0",
+      "pname": "lightdm",
+      "name": "lightdm-1.32.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/mrfh77win9cvficb0m2bz4b667l7gp1p-lightdm-1.32.0-dev",
+        "out": "/nix/store/i492nkhq11z5dg6bdm20h0pin6azvp7h-lightdm-1.32.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cross-desktop display manager",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/display-managers/lightdm/default.nix:127",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lightdm_qt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i492nkhq11z5dg6bdm20h0pin6azvp7h-lightdm-1.32.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

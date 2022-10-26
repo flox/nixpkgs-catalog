@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.0",
-      "pname": "coredns",
-      "name": "coredns-1.10.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/cjc9dxmgax6s7d6nw26j8k1xj5vf7r4h-coredns-1.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A DNS server that runs middleware",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/dns/coredns/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "coredns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cjc9dxmgax6s7d6nw26j8k1xj5vf7r4h-coredns-1.10.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.9.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "coredns",
+      "name": "coredns-1.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/4xdk5a8aa1i0024j6hlqk1r6rpp1mh41-coredns-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A DNS server that runs middleware",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/dns/coredns/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "coredns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4xdk5a8aa1i0024j6hlqk1r6rpp1mh41-coredns-1.10.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

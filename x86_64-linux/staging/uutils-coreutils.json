@@ -1,44 +1,4 @@
 {
-  "0.0.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.0.15",
-      "pname": "uutils-coreutils",
-      "name": "uutils-coreutils-0.0.15",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/kbhrg6z5ka0xg7k3jfr2h4kj9vggfb99-uutils-coreutils-0.0.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cross-platform Rust rewrite of the GNU coreutils",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/uutils-coreutils/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "uutils-coreutils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kbhrg6z5ka0xg7k3jfr2h4kj9vggfb99-uutils-coreutils-0.0.15"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.0.13": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.0.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.15",
+      "pname": "uutils-coreutils",
+      "name": "uutils-coreutils-0.0.15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/kbhrg6z5ka0xg7k3jfr2h4kj9vggfb99-uutils-coreutils-0.0.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cross-platform Rust rewrite of the GNU coreutils",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/uutils-coreutils/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "uutils-coreutils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kbhrg6z5ka0xg7k3jfr2h4kj9vggfb99-uutils-coreutils-0.0.15"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

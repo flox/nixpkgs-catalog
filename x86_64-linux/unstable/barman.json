@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.0",
-      "pname": "barman",
-      "name": "barman-3.1.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/jj1mgb25rskb6nycby4r1lpmjhix9cwk-barman-3.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Backup and Recovery Manager for PostgreSQL",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/barman/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "barman"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jj1mgb25rskb6nycby4r1lpmjhix9cwk-barman-3.1.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.0",
+      "pname": "barman",
+      "name": "barman-3.1.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/35zyvchhrrrqq18aahvxp73467f6n2dl-barman-3.1.0-dist",
+        "out": "/nix/store/4h9l9w9bcwq1a1kjcn0xavm1jgz46fan-barman-3.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Backup and Recovery Manager for PostgreSQL",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/barman/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "barman"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4h9l9w9bcwq1a1kjcn0xavm1jgz46fan-barman-3.1.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

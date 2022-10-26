@@ -1,44 +1,4 @@
 {
-  "1.7.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.1",
-      "pname": "kuma",
-      "name": "kuma-1.7.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/wimxk4kgsi5kwdp04q08bahppzwv7yiv-kuma-1.7.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Service mesh controller",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "kuma"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wimxk4kgsi5kwdp04q08bahppzwv7yiv-kuma-1.7.1"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
   "1.4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "1.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.1",
+      "pname": "kuma",
+      "name": "kuma-1.7.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/wimxk4kgsi5kwdp04q08bahppzwv7yiv-kuma-1.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Service mesh controller",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/kuma/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kuma"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wimxk4kgsi5kwdp04q08bahppzwv7yiv-kuma-1.7.1"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   },

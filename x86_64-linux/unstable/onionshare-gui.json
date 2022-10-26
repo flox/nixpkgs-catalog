@@ -1,45 +1,4 @@
 {
-  "2.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6",
-      "pname": "onionshare",
-      "name": "onionshare-2.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dist": "/nix/store/frk72g7c3q1rahjb2qa9ncb66l1bfpvf-onionshare-2.6-dist",
-        "out": "/nix/store/nfzzbj4jsn2lk00bd53v4hh7kdb6k6nv-onionshare-2.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Securely and anonymously send and receive files",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/onionshare/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "onionshare-gui"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nfzzbj4jsn2lk00bd53v4hh7kdb6k6nv-onionshare-2.6"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6",
+      "pname": "onionshare",
+      "name": "onionshare-2.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/lckys9ss0kkkcja9zsszrkvkc9qh34s0-onionshare-2.6-dist",
+        "out": "/nix/store/v6vzaqp14p555jlcshq6xzqgydrryjfz-onionshare-2.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Securely and anonymously send and receive files",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/onionshare/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "onionshare-gui"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v6vzaqp14p555jlcshq6xzqgydrryjfz-onionshare-2.6"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

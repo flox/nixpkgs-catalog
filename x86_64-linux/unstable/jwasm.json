@@ -1,45 +1,4 @@
 {
-  "2.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.15",
-      "pname": "jwasm",
-      "name": "jwasm-2.15",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/qv7a37gfqwh7hvy7j62643habvb4r7y5-jwasm-2.15-doc",
-        "out": "/nix/store/wvg9qw722rjzr9vjzag8b37gshv0y5j5-jwasm-2.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A MASM-compatible x86 assembler",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/jwasm/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "jwasm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wvg9qw722rjzr9vjzag8b37gshv0y5j5-jwasm-2.15"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.14": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.15": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.15",
+      "pname": "jwasm",
+      "name": "jwasm-2.15",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/xwjr2v0awv1dps5fq6dbsp9rzx0hpydx-jwasm-2.15-doc",
+        "out": "/nix/store/2bd6mixahqfv26wqcz3sik9v7hyx6p2l-jwasm-2.15"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A MASM-compatible x86 assembler",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/jwasm/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "jwasm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2bd6mixahqfv26wqcz3sik9v7hyx6p2l-jwasm-2.15"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

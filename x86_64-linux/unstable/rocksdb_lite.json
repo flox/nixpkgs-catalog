@@ -1,21 +1,21 @@
 {
-  "7.5.3": {
+  "7.7.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.5.3",
+      "version": "7.7.3",
       "pname": "rocksdb",
-      "name": "rocksdb-7.5.3",
+      "name": "rocksdb-7.7.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/qbp6n8nqq0sjl2zqb8zhipjy4nj7wklk-rocksdb-7.5.3"
+        "out": "/nix/store/alazbc52lnnxk8n4vz9f263gjkkhb9fj-rocksdb-7.7.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A library that provides an embeddable, persistent key-value store for fast storage",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/rocksdb/default.nix:63",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/rocksdb/default.nix:71",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qbp6n8nqq0sjl2zqb8zhipjy4nj7wklk-rocksdb-7.5.3"
+        "/nix/store/alazbc52lnnxk8n4vz9f263gjkkhb9fj-rocksdb-7.7.3"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "7.4.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.4.4",
-      "pname": "rocksdb",
-      "name": "rocksdb-7.4.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/asy1gpv165zab799q66z6z1gfn8q6n01-rocksdb-7.4.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library that provides an embeddable, persistent key-value store for fast storage",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/rocksdb/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "rocksdb_lite"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/asy1gpv165zab799q66z6z1gfn8q6n01-rocksdb-7.4.4"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "7.4.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.4.4",
+      "pname": "rocksdb",
+      "name": "rocksdb-7.4.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/asy1gpv165zab799q66z6z1gfn8q6n01-rocksdb-7.4.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library that provides an embeddable, persistent key-value store for fast storage",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/rocksdb/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rocksdb_lite"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/asy1gpv165zab799q66z6z1gfn8q6n01-rocksdb-7.4.4"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

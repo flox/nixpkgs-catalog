@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.0",
-      "pname": "kea",
-      "name": "kea-2.2.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/0xy697s95zawwrfv834qyf00fxcfpfdl-kea-2.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High-performance, extensible DHCP server by ISC",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/kea/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "kea"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0xy697s95zawwrfv834qyf00fxcfpfdl-kea-2.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "kea",
+      "name": "kea-2.2.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/mxr7mv8mm79h0ag7mm7awlr4d779hmvf-kea-2.2.0-doc",
+        "man": "/nix/store/cdvsp41dmgslf9sd7ajzfi3z3a422i70-kea-2.2.0-man",
+        "out": "/nix/store/n28n1vdkg52pb71gz25wyd02gvk013f5-kea-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "High-performance, extensible DHCP server by ISC",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/kea/default.nix:85",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kea"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n28n1vdkg52pb71gz25wyd02gvk013f5-kea-2.2.0",
+        "/nix/store/cdvsp41dmgslf9sd7ajzfi3z3a422i70-kea-2.2.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

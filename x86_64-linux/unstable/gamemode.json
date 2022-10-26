@@ -1,50 +1,4 @@
 {
-  "1.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7",
-      "pname": "gamemode",
-      "name": "gamemode-1.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/g0dhb1487n4cv02xvlyz3a3cgg3ya6cq-gamemode-1.7-dev",
-        "lib": "/nix/store/10yi6m8kvl77kfy4c739qmap0ybd8196-gamemode-1.7-lib",
-        "man": "/nix/store/fis3jpzkhl7q4ym0dpjq91grxjzg5vlg-gamemode-1.7-man",
-        "out": "/nix/store/g7wxbs84sy357risk1lbcn4ddy7p30pr-gamemode-1.7",
-        "static": "/nix/store/65884snqsxdjzxcwmhl6jfk21cc5hdzb-gamemode-1.7-static"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Optimise Linux system performance on demand",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/games/gamemode/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gamemode"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g7wxbs84sy357risk1lbcn4ddy7p30pr-gamemode-1.7",
-        "/nix/store/fis3jpzkhl7q4ym0dpjq91grxjzg5vlg-gamemode-1.7-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.6.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7",
+      "pname": "gamemode",
+      "name": "gamemode-1.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/b01r7hja892klclms1zy8h392l9d9803-gamemode-1.7-dev",
+        "lib": "/nix/store/iyw1s1zi4g49rz3h62sjgqyg6fkp54px-gamemode-1.7-lib",
+        "man": "/nix/store/pr34y0wq0ic38qfk6ssla0yzzldy635s-gamemode-1.7-man",
+        "out": "/nix/store/5cd36hi60386lamd2i20k74w4myn0miw-gamemode-1.7",
+        "static": "/nix/store/rbkz5smd0k3536bs2rf3ksrsk9hvkg7d-gamemode-1.7-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Optimise Linux system performance on demand",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/games/gamemode/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gamemode"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5cd36hi60386lamd2i20k74w4myn0miw-gamemode-1.7",
+        "/nix/store/pr34y0wq0ic38qfk6ssla0yzzldy635s-gamemode-1.7-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

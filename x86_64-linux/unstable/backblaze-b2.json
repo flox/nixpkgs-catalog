@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.0",
-      "pname": "backblaze-b2",
-      "name": "backblaze-b2-3.6.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/abrvsambl0g0094dgnds72sx29jjmvy8-backblaze-b2-3.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line tool for accessing the Backblaze B2 storage service",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/backblaze-b2/default.nix:64",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "backblaze-b2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/abrvsambl0g0094dgnds72sx29jjmvy8-backblaze-b2-3.6.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.0",
+      "pname": "backblaze-b2",
+      "name": "backblaze-b2-3.6.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/kdxgqkynp53bjy3z4xfjasqh1cfq331d-backblaze-b2-3.6.0-dist",
+        "out": "/nix/store/f3pq6736m7lxklax50d4yq4g20jg6am1-backblaze-b2-3.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool for accessing the Backblaze B2 storage service",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/backblaze-b2/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "backblaze-b2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f3pq6736m7lxklax50d4yq4g20jg6am1-backblaze-b2-3.6.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

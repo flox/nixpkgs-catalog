@@ -1,44 +1,4 @@
 {
-  "11.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "11.1",
-      "pname": "gdb",
-      "name": "gdb-11.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/hkm7iqjwlwzr8gz38vpkg0h08qil3j1d-gdb-11.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The GNU Project debugger",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/misc/gdb/default.nix:113",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gdb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hkm7iqjwlwzr8gz38vpkg0h08qil3j1d-gdb-11.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "11.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -79,23 +39,23 @@
       }
     }
   },
-  "12.1": {
+  "11.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "12.1",
+      "version": "11.1",
       "pname": "gdb",
-      "name": "gdb-12.1",
+      "name": "gdb-11.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/fmkhiwpkabrbham1s56mv8h3zyzgi246-gdb-12.1"
+        "out": "/nix/store/hkm7iqjwlwzr8gz38vpkg0h08qil3j1d-gdb-11.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The GNU Project debugger",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/misc/gdb/default.nix:130",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/misc/gdb/default.nix:113",
         "unfree": false
       }
     },
@@ -108,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/fmkhiwpkabrbham1s56mv8h3zyzgi246-gdb-12.1"
+        "/nix/store/hkm7iqjwlwzr8gz38vpkg0h08qil3j1d-gdb-11.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "12.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "12.1",
+      "pname": "gdb",
+      "name": "gdb-12.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/px8il2c89q2b3bid8282h3l5s8m05yfx-gdb-12.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The GNU Project debugger",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/gdb/default.nix:131",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gdb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/px8il2c89q2b3bid8282h3l5s8m05yfx-gdb-12.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

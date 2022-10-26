@@ -1,44 +1,4 @@
 {
-  "2.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.0",
-      "pname": "influxdb",
-      "name": "influxdb-2.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/4w33wzz2dx17la7j751rirsz0h9gbzwi-influxdb-2.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open-source distributed time series database",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/nosql/influxdb2/default.nix:124",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "influxdb2-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4w33wzz2dx17la7j751rirsz0h9gbzwi-influxdb-2.4.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.0",
+      "pname": "influxdb",
+      "name": "influxdb-2.4.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/x45sl7mrkrvvzmp0xj9y4vk05lm7yzwr-influxdb-2.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open-source distributed time series database",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/nosql/influxdb2/default.nix:124",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "influxdb2-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x45sl7mrkrvvzmp0xj9y4vk05lm7yzwr-influxdb-2.4.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "2.10.3": {
+  "2.12.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.10.3",
+      "version": "2.12.0",
       "pname": "grpc-gateway",
-      "name": "grpc-gateway-2.10.3",
+      "name": "grpc-gateway-2.12.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/iz0ry4plq2gzkqa4isj5wd5w1x9yid1g-grpc-gateway-2.10.3"
+        "out": "/nix/store/lwzmjk13pypp5a7c406kv443x82yirzc-grpc-gateway-2.12.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A gRPC to JSON proxy generator plugin for Google Protocol Buffers",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/grpc-gateway/default.nix:17",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/grpc-gateway/default.nix:17",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/iz0ry4plq2gzkqa4isj5wd5w1x9yid1g-grpc-gateway-2.10.3"
+        "/nix/store/lwzmjk13pypp5a7c406kv443x82yirzc-grpc-gateway-2.12.0"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
-  "2.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.11.0",
-      "pname": "grpc-gateway",
-      "name": "grpc-gateway-2.11.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/2babb30j8h0s307m4067xmgxx5ph6s3s-grpc-gateway-2.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A gRPC to JSON proxy generator plugin for Google Protocol Buffers",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/grpc-gateway/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "grpc-gateway"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2babb30j8h0s307m4067xmgxx5ph6s3s-grpc-gateway-2.11.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "2.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.11.0",
+      "pname": "grpc-gateway",
+      "name": "grpc-gateway-2.11.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/2babb30j8h0s307m4067xmgxx5ph6s3s-grpc-gateway-2.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A gRPC to JSON proxy generator plugin for Google Protocol Buffers",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/grpc-gateway/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "grpc-gateway"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2babb30j8h0s307m4067xmgxx5ph6s3s-grpc-gateway-2.11.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

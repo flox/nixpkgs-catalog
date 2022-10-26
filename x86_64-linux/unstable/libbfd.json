@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.39",
-      "pname": "libbfd",
-      "name": "libbfd-2.39",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/6pwgwnjxyp49r6vxj5a7k6gnbl88shrc-libbfd-2.39-dev",
-        "out": "/nix/store/sw53wnhrd37jrg5b6isvmmyvy8zrz7a2-libbfd-2.39"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library for manipulating containers of machine code",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/misc/binutils/libbfd.nix:45",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libbfd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sw53wnhrd37jrg5b6isvmmyvy8zrz7a2-libbfd-2.39"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.39",
+      "pname": "libbfd",
+      "name": "libbfd-2.39",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/43b0kanm6xgicjwz3cqm5cp3z426qbvz-libbfd-2.39-dev",
+        "out": "/nix/store/bv7l14vwvbzaa1bmxzygn2lpvzdfndj3-libbfd-2.39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library for manipulating containers of machine code",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/binutils/libbfd.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libbfd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bv7l14vwvbzaa1bmxzygn2lpvzdfndj3-libbfd-2.39"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

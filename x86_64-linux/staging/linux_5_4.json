@@ -40,47 +40,6 @@
       }
     }
   },
-  "5.4.200": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.4.200",
-      "pname": "linux",
-      "name": "linux-5.4.200",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/b1a31gx5gr5hgq2yv2yrcbphc2bspcb4-linux-5.4.200-dev",
-        "out": "/nix/store/rhqggwk4sgdjphyilvq9x6x417mry6d1-linux-5.4.200"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, rtl8761b-support)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.4.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_5_4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rhqggwk4sgdjphyilvq9x6x417mry6d1-linux-5.4.200"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
   "5.4.208": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "5.4.200": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.200",
+      "pname": "linux",
+      "name": "linux-5.4.200",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/b1a31gx5gr5hgq2yv2yrcbphc2bspcb4-linux-5.4.200-dev",
+        "out": "/nix/store/rhqggwk4sgdjphyilvq9x6x417mry6d1-linux-5.4.200"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, rtl8761b-support)",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.4.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_5_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rhqggwk4sgdjphyilvq9x6x417mry6d1-linux-5.4.200"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

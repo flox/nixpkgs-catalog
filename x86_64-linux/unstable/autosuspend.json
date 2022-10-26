@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.0",
-      "pname": "autosuspend",
-      "name": "autosuspend-4.2.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/s9ap65m2776k14z482prx44a50gpqhq3-autosuspend-4.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A daemon to automatically suspend and wake up a system",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/autosuspend/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "autosuspend"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s9ap65m2776k14z482prx44a50gpqhq3-autosuspend-4.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.0",
+      "pname": "autosuspend",
+      "name": "autosuspend-4.2.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/bd3gp47v6a1fq2gcjxvrv5yxzv1ikidw-autosuspend-4.2.0-dist",
+        "out": "/nix/store/yaiy44id6gwgza2g29h22cnnxf9dhzp7-autosuspend-4.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A daemon to automatically suspend and wake up a system",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/autosuspend/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "autosuspend"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yaiy44id6gwgza2g29h22cnnxf9dhzp7-autosuspend-4.2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

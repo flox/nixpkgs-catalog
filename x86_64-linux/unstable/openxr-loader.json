@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.0.25": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.25",
-      "pname": "openxr-loader",
-      "name": "openxr-loader-1.0.25",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/qxbrsp2q1blcyhx2vs1l6d5c3ahpzjh9-openxr-loader-1.0.25-dev",
-        "layers": "/nix/store/dj4xmfr6dlxzck1fx8vxz7fxqndmdx7z-openxr-loader-1.0.25-layers",
-        "out": "/nix/store/jnc4fzjw1b7hhvkpbsv3j2hvdk2ka50z-openxr-loader-1.0.25"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Khronos OpenXR loader",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/openxr-loader/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "openxr-loader"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jnc4fzjw1b7hhvkpbsv3j2hvdk2ka50z-openxr-loader-1.0.25"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.0.22": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.0.25": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.25",
+      "pname": "openxr-loader",
+      "name": "openxr-loader-1.0.25",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/qvmvqmzhzq49kjlfgrf6w7208n8kpvk0-openxr-loader-1.0.25-dev",
+        "layers": "/nix/store/kshxnx39271c9i09izz80jmjmzap65rg-openxr-loader-1.0.25-layers",
+        "out": "/nix/store/j8cd1bl8bd1f3lnclg4k46nakmkndvxz-openxr-loader-1.0.25"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Khronos OpenXR loader",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/openxr-loader/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "openxr-loader"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j8cd1bl8bd1f3lnclg4k46nakmkndvxz-openxr-loader-1.0.25"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,46 +1,4 @@
 {
-  "3.79.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.79.1",
-      "pname": "nss",
-      "name": "nss-3.79.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/47ap7j5n48scr6xrga538fqzq2k77wh2-nss-3.79.1-dev",
-        "out": "/nix/store/9m4dkqq3cni6pmhd9bfydx8l5yincn88-nss-3.79.1",
-        "tools": "/nix/store/d8vbsindpwr362b0z2fzrx20irakgyy6-nss-3.79.1-tools"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A set of libraries for development of security-enabled client and server applications",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/nss/generic.nix:183",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nss_esr"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9m4dkqq3cni6pmhd9bfydx8l5yincn88-nss-3.79.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.68.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.79.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.79.1",
+      "pname": "nss",
+      "name": "nss-3.79.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/77dls4qpjy8lxy09zsqrxgdras46a23i-nss-3.79.1-dev",
+        "out": "/nix/store/4jhl1spbqnmvyil5w53p7w08a0z8z2py-nss-3.79.1",
+        "tools": "/nix/store/cc03ivz4a436i5q4sia4lc3qqgsaljy6-nss-3.79.1-tools"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A set of libraries for development of security-enabled client and server applications",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nss/generic.nix:183",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nss_esr"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4jhl1spbqnmvyil5w53p7w08a0z8z2py-nss-3.79.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

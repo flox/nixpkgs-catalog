@@ -1,46 +1,4 @@
 {
-  "4.16.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.16.10",
-      "pname": "thunar",
-      "name": "thunar-4.16.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/2icpc0z52vqacx8ja211an4k6p0yicyh-thunar-4.16.10-dev",
-        "out": "/nix/store/py8p5jqjy6ivw7xq005y585mdx7ngnz5-thunar-4.16.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Xfce file manager",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/xfce/core/thunar/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "xfce",
-        "thunar-build"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/py8p5jqjy6ivw7xq005y585mdx7ngnz5-thunar-4.16.10"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.16.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "4.16.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.16.10",
+      "pname": "thunar",
+      "name": "thunar-4.16.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/2icpc0z52vqacx8ja211an4k6p0yicyh-thunar-4.16.10-dev",
+        "out": "/nix/store/py8p5jqjy6ivw7xq005y585mdx7ngnz5-thunar-4.16.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Xfce file manager",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/desktops/xfce/core/thunar/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xfce",
+        "thunar-build"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/py8p5jqjy6ivw7xq005y585mdx7ngnz5-thunar-4.16.10"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

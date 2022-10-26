@@ -43,50 +43,6 @@
       }
     }
   },
-  "0.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.1",
-      "pname": "libnotify",
-      "name": "libnotify-0.8.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/9lb6h6l2zb694fbsry9mcgw4ndrdn64z-libnotify-0.8.1-dev",
-        "man": "/nix/store/dnkx9hzycd10pxz0yyw50kh0z5k8615f-libnotify-0.8.1-man",
-        "out": "/nix/store/x7ifngnkjga7zq4ka3dh6wmz7s4kdj8d-libnotify-0.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A library that sends desktop notifications to a notification daemon",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libnotify/default.nix:64",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libnotify"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x7ifngnkjga7zq4ka3dh6wmz7s4kdj8d-libnotify-0.8.1",
-        "/nix/store/dnkx9hzycd10pxz0yyw50kh0z5k8615f-libnotify-0.8.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.7.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.1",
+      "pname": "libnotify",
+      "name": "libnotify-0.8.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/kdr46j8dyk8rrsq6ckqmaxsynn4kywga-libnotify-0.8.1-dev",
+        "man": "/nix/store/8qy2p85qi07dg0hkz8jm2yyql0lvk3si-libnotify-0.8.1-man",
+        "out": "/nix/store/qnkdzyd69f3f5hfq8dd5c9sps1bvjk2h-libnotify-0.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A library that sends desktop notifications to a notification daemon",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libnotify/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libnotify"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qnkdzyd69f3f5hfq8dd5c9sps1bvjk2h-libnotify-0.8.1",
+        "/nix/store/8qy2p85qi07dg0hkz8jm2yyql0lvk3si-libnotify-0.8.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

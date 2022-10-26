@@ -1,44 +1,4 @@
 {
-  "3.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.11.0",
-      "pname": "jenkins-job-builder",
-      "name": "jenkins-job-builder-3.11.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/vpxqhkwxqnjm6vq05c8ryys28y3agm48-python3.9-jenkins-job-builder-3.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Jenkins Job Builder is a system for configuring Jenkins jobs using simple YAML files stored in Git",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/jenkins-job-builder/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "jenkins-job-builder"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vpxqhkwxqnjm6vq05c8ryys28y3agm48-python3.9-jenkins-job-builder-3.11.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "3.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.11.0",
+      "pname": "jenkins-job-builder",
+      "name": "jenkins-job-builder-3.11.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/vpxqhkwxqnjm6vq05c8ryys28y3agm48-python3.9-jenkins-job-builder-3.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Jenkins Job Builder is a system for configuring Jenkins jobs using simple YAML files stored in Git",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/jenkins-job-builder/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "jenkins-job-builder"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vpxqhkwxqnjm6vq05c8ryys28y3agm48-python3.9-jenkins-job-builder-3.11.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },

@@ -1,49 +1,4 @@
 {
-  "3.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5",
-      "pname": "parted",
-      "name": "parted-3.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/7nl17r9whlbfyi0652h2vg3ykraxs283-parted-3.5-dev",
-        "info": "/nix/store/qbnyw4zmlf9q7ry27j078wmqhpay4jka-parted-3.5-info",
-        "man": "/nix/store/5b66xy95vhman4ah2arrq01pc601sify-parted-3.5-man",
-        "out": "/nix/store/yz5w7akk8c7554k9fv1iy0dnrwyfmrhx-parted-3.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Create, destroy, resize, check, and copy partitions",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/parted/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "parted"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yz5w7akk8c7554k9fv1iy0dnrwyfmrhx-parted-3.5",
-        "/nix/store/5b66xy95vhman4ah2arrq01pc601sify-parted-3.5-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5",
+      "pname": "parted",
+      "name": "parted-3.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/2l4sw4ax92k0ihzn2gmjiaqz44kk2268-parted-3.5-dev",
+        "info": "/nix/store/pxvjgi3b017qqrlbpkn3zvj333whlww8-parted-3.5-info",
+        "man": "/nix/store/0sjqyc57jw6f10f2f0n9ryahlvskbqxp-parted-3.5-man",
+        "out": "/nix/store/jcq2vgv84azdpmcfmc48qi1dfa8bl1hh-parted-3.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Create, destroy, resize, check, and copy partitions",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/parted/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "parted"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jcq2vgv84azdpmcfmc48qi1dfa8bl1hh-parted-3.5",
+        "/nix/store/0sjqyc57jw6f10f2f0n9ryahlvskbqxp-parted-3.5-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

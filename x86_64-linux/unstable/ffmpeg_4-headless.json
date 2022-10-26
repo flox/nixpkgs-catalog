@@ -1,0 +1,48 @@
+{
+  "4.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.4.2",
+      "pname": "ffmpeg",
+      "name": "ffmpeg-4.4.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/klw73rxlmk4j9byxl6zhlza5bphz81q6-ffmpeg-4.4.2-bin",
+        "dev": "/nix/store/jahs3j5bwyxq6zfsxk41z7l8b8a00wh7-ffmpeg-4.4.2-dev",
+        "doc": "/nix/store/v3g55piwc9dxdl90m3ck7a0r6k82kybk-ffmpeg-4.4.2-doc",
+        "man": "/nix/store/sa35ga51akv2mdflsl58harypqhghf2y-ffmpeg-4.4.2-man",
+        "out": "/nix/store/156kpmx5g0mrm2gm0idr5xsnbj03zn25-ffmpeg-4.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A complete, cross-platform solution to record, convert and stream audio and video",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/ffmpeg/generic.nix:204",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ffmpeg_4-headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/klw73rxlmk4j9byxl6zhlza5bphz81q6-ffmpeg-4.4.2-bin",
+        "/nix/store/sa35ga51akv2mdflsl58harypqhghf2y-ffmpeg-4.4.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
+      }
+    }
+  }
+}

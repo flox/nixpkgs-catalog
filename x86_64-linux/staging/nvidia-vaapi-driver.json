@@ -1,44 +1,4 @@
 {
-  "0.0.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.0.7",
-      "pname": "nvidia-vaapi-driver",
-      "name": "nvidia-vaapi-driver-0.0.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/zzya0wzxjdbbrsyxny9z1xpf0ck3s7gb-nvidia-vaapi-driver-0.0.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A VA-API implemention using NVIDIA's NVDEC",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/nvidia-vaapi-driver/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nvidia-vaapi-driver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zzya0wzxjdbbrsyxny9z1xpf0ck3s7gb-nvidia-vaapi-driver-0.0.7"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.0.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "0.0.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.7",
+      "pname": "nvidia-vaapi-driver",
+      "name": "nvidia-vaapi-driver-0.0.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zzya0wzxjdbbrsyxny9z1xpf0ck3s7gb-nvidia-vaapi-driver-0.0.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A VA-API implemention using NVIDIA's NVDEC",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/nvidia-vaapi-driver/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nvidia-vaapi-driver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zzya0wzxjdbbrsyxny9z1xpf0ck3s7gb-nvidia-vaapi-driver-0.0.7"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   },

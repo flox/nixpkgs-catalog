@@ -1,21 +1,21 @@
 {
-  "5.19": {
+  "6.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.19",
+      "version": "6.0",
       "pname": "ethtool",
-      "name": "ethtool-5.19",
+      "name": "ethtool-6.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/mn87fvyaxngfbj6k2djfa3brxdywxgs4-ethtool-5.19"
+        "out": "/nix/store/qiv6a0il4ma8ddm87hysbsa90silngm7-ethtool-6.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Utility for controlling network drivers and hardware",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/misc/ethtool/default.nix:43",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/ethtool/default.nix:43",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mn87fvyaxngfbj6k2djfa3brxdywxgs4-ethtool-5.19"
+        "/nix/store/qiv6a0il4ma8ddm87hysbsa90silngm7-ethtool-6.0"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
-  "5.18": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.18",
-      "pname": "ethtool",
-      "name": "ethtool-5.18",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/25qp4jpm4xjf04j0yg011fldavs7b4ls-ethtool-5.18"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Utility for controlling network drivers and hardware",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/ethtool/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ethtool"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/25qp4jpm4xjf04j0yg011fldavs7b4ls-ethtool-5.18"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18",
+      "pname": "ethtool",
+      "name": "ethtool-5.18",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/25qp4jpm4xjf04j0yg011fldavs7b4ls-ethtool-5.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Utility for controlling network drivers and hardware",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/ethtool/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ethtool"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/25qp4jpm4xjf04j0yg011fldavs7b4ls-ethtool-5.18"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }
