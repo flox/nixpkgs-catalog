@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.1.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.5",
-      "pname": "electrum",
-      "name": "electrum-4.1.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/ncmmb4mkqxv2kyx48kbjiir2fqa2qvl5-electrum-4.1.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A lightweight Bitcoin wallet",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/misc/electrum/default.nix:166",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "electrum"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ncmmb4mkqxv2kyx48kbjiir2fqa2qvl5-electrum-4.1.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.3.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.3.2",
+      "pname": "electrum",
+      "name": "electrum-4.3.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/c9hxgx1ilynw7gl8f2wnk89w4mk3pqsq-electrum-4.3.2-dist",
+        "out": "/nix/store/mkf154vwqmgzy1rizlalcacrv22vgnli-electrum-4.3.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A lightweight Bitcoin wallet",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/electrum/default.nix:144",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "electrum"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mkf154vwqmgzy1rizlalcacrv22vgnli-electrum-4.3.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

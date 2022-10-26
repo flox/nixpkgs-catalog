@@ -41,48 +41,6 @@
       }
     }
   },
-  "2.11.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.11.1.2",
-      "pname": "s6",
-      "name": "s6-2.11.1.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/xxiimw9l7vl4yyh73bkv2fqvsz0frqlz-s6-2.11.1.2-dev",
-        "doc": "/nix/store/imwzv7slpw8jwgplwmwh62b9a2c4g6d4-s6-2.11.1.2-doc",
-        "out": "/nix/store/y373yr9b4ldrgnbsrswbyc2k8xy24d5m-s6-2.11.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "skarnet.org's small & secure supervision software suite",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "s6"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y373yr9b4ldrgnbsrswbyc2k8xy24d5m-s6-2.11.1.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.11.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.11.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.11.1.2",
+      "pname": "s6",
+      "name": "s6-2.11.1.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/h5cgd6zk03xlcdvbqyxlxi6d9z07wyld-s6-2.11.1.2-dev",
+        "doc": "/nix/store/97l44yl8ym1af4pbnl6sckzxif1gdkim-s6-2.11.1.2-doc",
+        "out": "/nix/store/zkizyfy1clvfv2swwyyzc7l1ly4bl9dh-s6-2.11.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "skarnet.org's small & secure supervision software suite",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "s6"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zkizyfy1clvfv2swwyyzc7l1ly4bl9dh-s6-2.11.1.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

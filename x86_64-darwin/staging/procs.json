@@ -1,21 +1,21 @@
 {
-  "0.11.9": {
+  "0.12.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.11.9",
+      "version": "0.12.1",
       "pname": "procs",
-      "name": "procs-0.11.9",
+      "name": "procs-0.12.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/a86aw95l58a6csx0255vjigzlx3jv50c-procs-0.11.9"
+        "out": "/nix/store/bb0yai02d779yj4hbxlpcxakdhlpsdd3-procs-0.12.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A modern replacement for ps written in Rust",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/admin/procs/default.nix:28",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/admin/procs/default.nix:28",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/a86aw95l58a6csx0255vjigzlx3jv50c-procs-0.11.9"
+        "/nix/store/bb0yai02d779yj4hbxlpcxakdhlpsdd3-procs-0.12.1"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "0.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.0",
+      "pname": "procs",
+      "name": "procs-0.12.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/apig2w5srvgjzgkcjbjmis4x5xiy8176-procs-0.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modern replacement for ps written in Rust",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/admin/procs/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "procs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/apig2w5srvgjzgkcjbjmis4x5xiy8176-procs-0.12.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
-      }
-    }
-  },
-  "0.12.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.12.1",
-      "pname": "procs",
-      "name": "procs-0.12.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/bb0yai02d779yj4hbxlpcxakdhlpsdd3-procs-0.12.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modern replacement for ps written in Rust",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/admin/procs/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "procs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bb0yai02d779yj4hbxlpcxakdhlpsdd3-procs-0.12.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

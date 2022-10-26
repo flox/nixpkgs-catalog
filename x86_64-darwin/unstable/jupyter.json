@@ -39,46 +39,6 @@
       }
     }
   },
-  "6.4.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.4.12",
-      "pname": "notebook",
-      "name": "python3.10-notebook-6.4.12",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/4iinmr9mzjnwf8zdvcrwymg4gkfay1yy-python3.10-notebook-6.4.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Jupyter HTML notebook is a web-based notebook environment for interactive computing",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/notebook/default.nix:86",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "jupyter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4iinmr9mzjnwf8zdvcrwymg4gkfay1yy-python3.10-notebook-6.4.12"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "6.4.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "6.4.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.4.12",
+      "pname": "notebook",
+      "name": "python3.10-notebook-6.4.12",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/axayp433v0vpnardmsws83xvdbgfliap-python3.10-notebook-6.4.12-dist",
+        "out": "/nix/store/x0ffh6f3phky0g2pqzdpvymfaq70164k-python3.10-notebook-6.4.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Jupyter HTML notebook is a web-based notebook environment for interactive computing",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/notebook/default.nix:86",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "jupyter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x0ffh6f3phky0g2pqzdpvymfaq70164k-python3.10-notebook-6.4.12"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

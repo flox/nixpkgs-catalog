@@ -1,21 +1,21 @@
 {
-  "0.7.0": {
+  "0.9.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.7.0",
+      "version": "0.9.0",
       "pname": "mbtileserver",
-      "name": "mbtileserver-0.7.0",
+      "name": "mbtileserver-0.9.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/4sqpnw1n5b7v6w78ngcn5821qn7786fc-mbtileserver-0.7.0"
+        "out": "/nix/store/wrcywprkbm4imkw02zcy119b5jzyhpxa-mbtileserver-0.9.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A simple Go-based server for map tiles stored in mbtiles format",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/mbtileserver/default.nix:17",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/geospatial/mbtileserver/default.nix:17",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4sqpnw1n5b7v6w78ngcn5821qn7786fc-mbtileserver-0.7.0"
+        "/nix/store/wrcywprkbm4imkw02zcy119b5jzyhpxa-mbtileserver-0.9.0"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "0.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.1",
-      "pname": "mbtileserver",
-      "name": "mbtileserver-0.8.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/xgp9pl562w301wr9p27qk6hwb4svrjhf-mbtileserver-0.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple Go-based server for map tiles stored in mbtiles format",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/mbtileserver/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mbtileserver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xgp9pl562w301wr9p27qk6hwb4svrjhf-mbtileserver-0.8.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.1",
+      "pname": "mbtileserver",
+      "name": "mbtileserver-0.8.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/xgp9pl562w301wr9p27qk6hwb4svrjhf-mbtileserver-0.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple Go-based server for map tiles stored in mbtiles format",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/mbtileserver/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mbtileserver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xgp9pl562w301wr9p27qk6hwb4svrjhf-mbtileserver-0.8.1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

@@ -43,50 +43,6 @@
       }
     }
   },
-  "1.41": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.41",
-      "pname": "libidn",
-      "name": "libidn-1.41",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/c88i894dqdq3fjblfqd7s5fydmvab5ml-libidn-1.41-bin",
-        "dev": "/nix/store/i4f2i7zzjdqr7n8f1sbi7a9w43knc9x4-libidn-1.41-dev",
-        "devdoc": "/nix/store/5z6bh92nc6y8qgy5w5ds6455i0gb3qk4-libidn-1.41-devdoc",
-        "info": "/nix/store/hy82jbjwj2qk2l357ln1ldi33mwszpm1-libidn-1.41-info",
-        "out": "/nix/store/ax37syc5p20jy908iis5fj61sy8lkacq-libidn-1.41"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Library for internationalized domain names",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libidn/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libidn"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c88i894dqdq3fjblfqd7s5fydmvab5ml-libidn-1.41-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.41": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.41",
+      "pname": "libidn",
+      "name": "libidn-1.41",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/md56mv4046412kn5s9vim99gbc8xf70j-libidn-1.41-bin",
+        "dev": "/nix/store/f0x021zgx34rarn315qj16gssqp62w0m-libidn-1.41-dev",
+        "devdoc": "/nix/store/4i77dfli1530vvjivbc4p8q8z9niqhfn-libidn-1.41-devdoc",
+        "info": "/nix/store/7p8lzp9byn6z2y3yrxl96nsgjahazv81-libidn-1.41-info",
+        "out": "/nix/store/6r24mvl05fziz5bhg5k9kqpgig0fg76k-libidn-1.41"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Library for internationalized domain names",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libidn/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libidn"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/md56mv4046412kn5s9vim99gbc8xf70j-libidn-1.41-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

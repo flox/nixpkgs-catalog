@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.18.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.18.0",
-      "pname": "gpgme",
-      "name": "gpgme-1.18.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/kpdvdmgwqbqwnn082yazz87lb6ymgpmn-gpgme-1.18.0-dev",
-        "info": "/nix/store/qb0zrhvdmrlb4cp0g6wa4nal7zny6pbj-gpgme-1.18.0-info",
-        "out": "/nix/store/qk3ac3qljb3him4h9r523a625fi6nn6h-gpgme-1.18.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Library for making GnuPG easier to use",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gpgme/default.nix:128",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gpgme"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qk3ac3qljb3him4h9r523a625fi6nn6h-gpgme-1.18.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.17.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.18.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.18.0",
+      "pname": "gpgme",
+      "name": "gpgme-1.18.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/l94gdvnskxa7dnsx2p532a147256ra9w-gpgme-1.18.0-dev",
+        "info": "/nix/store/kg5ykmzj4jx544v4cizjkwrqdjjxysi2-gpgme-1.18.0-info",
+        "out": "/nix/store/3sm5yjly9yc1rm1h8s0kjkq906y4lgmk-gpgme-1.18.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library for making GnuPG easier to use",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gpgme/default.nix:130",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gpgme"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3sm5yjly9yc1rm1h8s0kjkq906y4lgmk-gpgme-1.18.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

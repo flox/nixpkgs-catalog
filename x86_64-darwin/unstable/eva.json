@@ -1,21 +1,21 @@
 {
-  "0.2.7": {
+  "0.3.0-2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.2.7",
+      "version": "0.3.0-2",
       "pname": "eva",
-      "name": "eva-0.2.7",
+      "name": "eva-0.3.0-2",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/1wzdp6zmmc320dxgqxk35b7crnz6xvad-eva-0.2.7"
+        "out": "/nix/store/xgz4bhgbjy0dwp473kw6i9gynxhdflc0-eva-0.3.0-2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A calculator REPL, similar to bc",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/eva/default.nix:33",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/eva/default.nix:16",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1wzdp6zmmc320dxgqxk35b7crnz6xvad-eva-0.2.7"
+        "/nix/store/xgz4bhgbjy0dwp473kw6i9gynxhdflc0-eva-0.3.0-2"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.7",
+      "pname": "eva",
+      "name": "eva-0.2.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/1wzdp6zmmc320dxgqxk35b7crnz6xvad-eva-0.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A calculator REPL, similar to bc",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/eva/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "eva"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1wzdp6zmmc320dxgqxk35b7crnz6xvad-eva-0.2.7"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

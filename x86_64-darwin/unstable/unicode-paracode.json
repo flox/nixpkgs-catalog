@@ -1,44 +1,4 @@
 {
-  "2.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.9",
-      "pname": "unicode",
-      "name": "unicode-2.9",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/xpjk1xa7pz77cqq6sl4ax74mpc5gyvak-unicode-2.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Display unicode character properties",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/unicode/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "unicode-paracode"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xpjk1xa7pz77cqq6sl4ax74mpc5gyvak-unicode-2.9"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9",
+      "pname": "unicode",
+      "name": "unicode-2.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/l6649v2dg8f6v6093j24mkmv8jmbc895-unicode-2.9-dist",
+        "out": "/nix/store/56jkf9ay8bxjn927d3lbzrl5dfdgrq2g-unicode-2.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Display unicode character properties",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/unicode/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "unicode-paracode"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/56jkf9ay8bxjn927d3lbzrl5dfdgrq2g-unicode-2.9"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

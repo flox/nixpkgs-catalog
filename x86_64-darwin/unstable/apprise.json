@@ -1,21 +1,22 @@
 {
-  "1.0.0": {
+  "1.1.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "pname": "apprise",
-      "name": "apprise-1.0.0",
+      "name": "apprise-1.1.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/5512dz46y8xvfmcb7c8km1s0ra3zpr43-python3.10-apprise-1.0.0"
+        "dist": "/nix/store/smxgbp5nkdsjqjwkaivszfdic1h1iwwb-python3.10-apprise-1.1.0-dist",
+        "out": "/nix/store/kqh2xhca5v508nvyrfcm864v22w919jx-python3.10-apprise-1.1.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Push Notifications that work with just about every platform",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/apprise/default.nix:70",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/apprise/default.nix:70",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5512dz46y8xvfmcb7c8km1s0ra3zpr43-python3.10-apprise-1.0.0"
+        "/nix/store/kqh2xhca5v508nvyrfcm864v22w919jx-python3.10-apprise-1.1.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.9.8.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.8.3",
-      "pname": "apprise",
-      "name": "apprise-0.9.8.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/947181gn3pf9pkfp1g6lz43zf16rz7k7-python3.9-apprise-0.9.8.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Push Notifications that work with just about every platform",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/python-modules/apprise/default.nix:70",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "apprise"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/947181gn3pf9pkfp1g6lz43zf16rz7k7-python3.9-apprise-0.9.8.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.0",
+      "pname": "apprise",
+      "name": "apprise-1.0.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/5512dz46y8xvfmcb7c8km1s0ra3zpr43-python3.10-apprise-1.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Push Notifications that work with just about every platform",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/apprise/default.nix:70",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "apprise"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5512dz46y8xvfmcb7c8km1s0ra3zpr43-python3.10-apprise-1.0.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

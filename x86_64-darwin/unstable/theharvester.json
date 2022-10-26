@@ -1,44 +1,4 @@
 {
-  "4.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.0",
-      "pname": "theharvester",
-      "name": "theharvester-4.2.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/3f9754p8h3dwp0j3qm6zrcyf690sfs3s-theharvester-4.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Gather E-mails, subdomains and names from different public sources",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/theharvester/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "theharvester"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3f9754p8h3dwp0j3qm6zrcyf690sfs3s-theharvester-4.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.0.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.0",
+      "pname": "theharvester",
+      "name": "theharvester-4.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/b2s8c41437vlkn903kif81lkqlbxmpss-theharvester-4.2.0-dist",
+        "out": "/nix/store/sa41mwxjc6dmkvk9l8z03b4z0rf8r9yc-theharvester-4.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Gather E-mails, subdomains and names from different public sources",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/theharvester/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "theharvester"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sa41mwxjc6dmkvk9l8z03b4z0rf8r9yc-theharvester-4.2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

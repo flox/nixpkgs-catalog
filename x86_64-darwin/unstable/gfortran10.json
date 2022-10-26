@@ -1,48 +1,4 @@
 {
-  "10.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.4.0",
-      "pname": "gfortran-wrapper",
-      "name": "gfortran-wrapper-10.4.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "info": "/nix/store/rxah8vlh3ljmj359ybm31knd24hc6jql-gfortran-wrapper-10.4.0-info",
-        "man": "/nix/store/2dl3rgv5bi3c0gvv8dy189lb9y6pmm4m-gfortran-wrapper-10.4.0-man",
-        "out": "/nix/store/mkiybb6z0isayz44mxqbqmxbszw1vg4x-gfortran-wrapper-10.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 10.4.0 (wrapper script)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gfortran10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mkiybb6z0isayz44mxqbqmxbszw1vg4x-gfortran-wrapper-10.4.0",
-        "/nix/store/2dl3rgv5bi3c0gvv8dy189lb9y6pmm4m-gfortran-wrapper-10.4.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "10.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "10.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.4.0",
+      "pname": "gfortran-wrapper",
+      "name": "gfortran-wrapper-10.4.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "info": "/nix/store/j51brgv7spal5xm4ayybqa3lzas4h4vh-gfortran-wrapper-10.4.0-info",
+        "man": "/nix/store/nzxz6332ir7yq4wg2m1vlwmzlhsa1qjy-gfortran-wrapper-10.4.0-man",
+        "out": "/nix/store/cqiyzvyfbzjlvwvsy58fx0iz6glkyzni-gfortran-wrapper-10.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 10.4.0 (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/cc-wrapper/default.nix:549",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gfortran10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cqiyzvyfbzjlvwvsy58fx0iz6glkyzni-gfortran-wrapper-10.4.0",
+        "/nix/store/nzxz6332ir7yq4wg2m1vlwmzlhsa1qjy-gfortran-wrapper-10.4.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

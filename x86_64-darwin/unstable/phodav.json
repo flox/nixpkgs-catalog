@@ -1,46 +1,4 @@
 {
-  "3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0",
-      "pname": "phodav",
-      "name": "phodav-3.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/w8w2pvxadlxz6msd5yhs9zgf6hxxvj3y-phodav-3.0-dev",
-        "lib": "/nix/store/h4hl4lyw2nlzaj0bfgayxccaf85nr2nk-phodav-3.0-lib",
-        "out": "/nix/store/m73gnmjpbxcb5d7p2zqsn15rkdp6c7r7-phodav-3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "WebDav server implementation and library using libsoup",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/phodav/default.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "phodav"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m73gnmjpbxcb5d7p2zqsn15rkdp6c7r7-phodav-3.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0",
+      "pname": "phodav",
+      "name": "phodav-3.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/l9fxyifs3x9i8da1gixvgh65xmiqab2k-phodav-3.0-dev",
+        "lib": "/nix/store/nqrs70km4qw44jvg1kvkydrc3250fmjz-phodav-3.0-lib",
+        "out": "/nix/store/3c40jnwxdfglqz72cg69fhxqqz3yri7d-phodav-3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "WebDav server implementation and library using libsoup",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/phodav/default.nix:55",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "phodav"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3c40jnwxdfglqz72cg69fhxqqz3yri7d-phodav-3.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

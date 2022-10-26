@@ -1,21 +1,22 @@
 {
-  "2.13.0": {
+  "2.13.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.13.0",
+      "version": "2.13.5",
       "pname": "ansible-core",
-      "name": "ansible-core-2.13.0",
+      "name": "ansible-core-2.13.5",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
+        "dist": "/nix/store/i9xk0yzy583c6lyhgqnck31447whlbr4-python3.10-ansible-core-2.13.5-dist",
+        "out": "/nix/store/7rqs5vr8ragdplb2034zs5wyds3ch214-python3.10-ansible-core-2.13.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Radically simple IT automation",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/ansible/core.nix:77",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8sqy94maxh08swnx6ancwn18vpy14f5f-python3.9-ansible-core-2.13.0"
+        "/nix/store/7rqs5vr8ragdplb2034zs5wyds3ch214-python3.10-ansible-core-2.13.5"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.13.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.13.2",
-      "pname": "ansible-core",
-      "name": "ansible-core-2.13.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Radically simple IT automation",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/python-modules/ansible/core.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ansible_2_13"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.2",
+      "pname": "ansible-core",
+      "name": "ansible-core-2.13.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Radically simple IT automation",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ansible_2_13"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ps1y39xkhdhf13r6ynsk3pgby6j3hzl1-python3.10-ansible-core-2.13.2"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

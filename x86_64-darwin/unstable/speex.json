@@ -1,23 +1,23 @@
 {
-  "unknown": {
+  "1.2.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "unknown",
-      "pname": null,
-      "name": "speex-1.2.0",
+      "version": "1.2.1",
+      "pname": "speex",
+      "name": "speex-1.2.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/8dmpjkic028lmrf099scvjghh9b8vsxj-speex-1.2.0-dev",
-        "doc": "/nix/store/jkpmyhnpdp48kdnx2bvflm2f06dlvaj1-speex-1.2.0-doc",
-        "out": "/nix/store/3jzcln125vmd145jhjv4kcpl71w8mbfk-speex-1.2.0"
+        "dev": "/nix/store/38gv9fpyxf9qcac0w2gdg3p9lri8h0cw-speex-1.2.1-dev",
+        "doc": "/nix/store/a6gfb5kg5xg85rkpj6v0sl602k1pyir2-speex-1.2.1-doc",
+        "out": "/nix/store/ap4iyzsxrghycs4cpgzzi4c2gjhqa2kr-speex-1.2.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An Open Source/Free Software patent-free audio compression format designed for speech",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/speex/default.nix:29",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/speex/default.nix:30",
         "unfree": false
       }
     },
@@ -30,14 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3jzcln125vmd145jhjv4kcpl71w8mbfk-speex-1.2.0"
+        "/nix/store/ap4iyzsxrghycs4cpgzzi4c2gjhqa2kr-speex-1.2.1"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -80,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "unknown": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unknown",
+      "pname": null,
+      "name": "speex-1.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/8dmpjkic028lmrf099scvjghh9b8vsxj-speex-1.2.0-dev",
+        "doc": "/nix/store/jkpmyhnpdp48kdnx2bvflm2f06dlvaj1-speex-1.2.0-doc",
+        "out": "/nix/store/3jzcln125vmd145jhjv4kcpl71w8mbfk-speex-1.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An Open Source/Free Software patent-free audio compression format designed for speech",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/speex/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "speex"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3jzcln125vmd145jhjv4kcpl71w8mbfk-speex-1.2.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

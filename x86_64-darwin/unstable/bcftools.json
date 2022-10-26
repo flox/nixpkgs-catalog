@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.16",
-      "pname": "bcftools",
-      "name": "bcftools-1.16",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/7agnfg4k6dy1zswhq2g15d9qjrjjv821-bcftools-1.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for manipulating BCF2/VCF/gVCF format, SNP and short indel sequence variants",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/biology/bcftools/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "bcftools"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7agnfg4k6dy1zswhq2g15d9qjrjjv821-bcftools-1.16"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.16",
+      "pname": "bcftools",
+      "name": "bcftools-1.16",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/fgwzbd1v5qapzriz2r4rszxmgbc5js60-bcftools-1.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for manipulating BCF2/VCF/gVCF format, SNP and short indel sequence variants",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/science/biology/bcftools/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "bcftools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fgwzbd1v5qapzriz2r4rszxmgbc5js60-bcftools-1.16"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

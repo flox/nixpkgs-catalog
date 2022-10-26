@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.49.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.49.0",
-      "pname": "conan",
-      "name": "conan-1.49.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/3lwsyh372mg5l2qcia5zxw8l5a4f7y1b-conan-1.49.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Decentralized and portable C/C++ package manager",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/build-managers/conan/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "conan"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3lwsyh372mg5l2qcia5zxw8l5a4f7y1b-conan-1.49.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.47.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.49.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.49.0",
+      "pname": "conan",
+      "name": "conan-1.49.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/51rv4yk3pkx04cyr2kdglzxycc3aivg2-conan-1.49.0-dist",
+        "out": "/nix/store/i7g4bmimb12kli7h1qwn8q81l4h1jnnq-conan-1.49.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Decentralized and portable C/C++ package manager",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/build-managers/conan/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "conan"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i7g4bmimb12kli7h1qwn8q81l4h1jnnq-conan-1.49.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -42,49 +42,6 @@
       }
     }
   },
-  "10.4.26": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.4.26",
-      "pname": "mariadb-server",
-      "name": "mariadb-server-10.4.26",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "man": "/nix/store/ylmk39j7rl2l8cj6vxx423k7szzx1ndf-mariadb-server-10.4.26-man",
-        "out": "/nix/store/a9a5r5j6ibamqd3fkykw6akpfvf3gbkm-mariadb-server-10.4.26"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An enhanced, drop-in replacement for MySQL",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/mariadb/default.nix:131",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mariadb_104"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a9a5r5j6ibamqd3fkykw6akpfvf3gbkm-mariadb-server-10.4.26",
-        "/nix/store/ylmk39j7rl2l8cj6vxx423k7szzx1ndf-mariadb-server-10.4.26-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "10.4.25": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "10.4.26": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.4.26",
+      "pname": "mariadb-server",
+      "name": "mariadb-server-10.4.26",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "man": "/nix/store/r3hw9kph6ppncp38xf8gqs76anksmdxp-mariadb-server-10.4.26-man",
+        "out": "/nix/store/b67a6pc54chbya94ziynpf9hyvknslwh-mariadb-server-10.4.26"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An enhanced, drop-in replacement for MySQL",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/sql/mariadb/default.nix:131",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mariadb_104"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b67a6pc54chbya94ziynpf9hyvknslwh-mariadb-server-10.4.26",
+        "/nix/store/r3hw9kph6ppncp38xf8gqs76anksmdxp-mariadb-server-10.4.26-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

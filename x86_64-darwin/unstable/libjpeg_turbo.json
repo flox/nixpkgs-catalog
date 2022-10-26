@@ -46,53 +46,6 @@
       }
     }
   },
-  "2.1.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.4",
-      "pname": "libjpeg-turbo",
-      "name": "libjpeg-turbo-2.1.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/fjm3m45l0lb5d83pq7wy1rqy4fwkl2rh-libjpeg-turbo-2.1.4-bin",
-        "dev": "/nix/store/r5p2pg5fv92wgdg0bs8ryr2vn8vzdcf5-libjpeg-turbo-2.1.4-dev",
-        "dev_private": "/nix/store/6r8gdcrysdifwwlkpdlpgjb522c8nq7i-libjpeg-turbo-2.1.4-dev_private",
-        "doc": "/nix/store/f5qjvf5sv2wg8rg21b5n1il407x4aphp-libjpeg-turbo-2.1.4-doc",
-        "man": "/nix/store/mp4nfcrigam6ialy51pcwbkk24cdyya3-libjpeg-turbo-2.1.4-man",
-        "out": "/nix/store/wwlkh6zxx3976572s4n7ncx5q3mcg1qw-libjpeg-turbo-2.1.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A faster (using SIMD) libjpeg implementation",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libjpeg-turbo/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libjpeg_turbo"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fjm3m45l0lb5d83pq7wy1rqy4fwkl2rh-libjpeg-turbo-2.1.4-bin",
-        "/nix/store/mp4nfcrigam6ialy51pcwbkk24cdyya3-libjpeg-turbo-2.1.4-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.1.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -137,6 +90,53 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.4",
+      "pname": "libjpeg-turbo",
+      "name": "libjpeg-turbo-2.1.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/xzbsk6s7axmfcc4gdsdl83jmj02aq5k5-libjpeg-turbo-2.1.4-bin",
+        "dev": "/nix/store/1shw593p332d4c2m81ky71dn3az19h69-libjpeg-turbo-2.1.4-dev",
+        "dev_private": "/nix/store/km1gijpkc53a3v9379c5c9jv403bmnb6-libjpeg-turbo-2.1.4-dev_private",
+        "doc": "/nix/store/1ik9n28wklfx9ck98ybj0whxsw51rqmw-libjpeg-turbo-2.1.4-doc",
+        "man": "/nix/store/pnrq8962lvm8ngrin4d4wfllflh1csqf-libjpeg-turbo-2.1.4-man",
+        "out": "/nix/store/0jk48x9xfi57msmm9b4xxkihn19hy8ds-libjpeg-turbo-2.1.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A faster (using SIMD) libjpeg implementation",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libjpeg-turbo/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libjpeg_turbo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xzbsk6s7axmfcc4gdsdl83jmj02aq5k5-libjpeg-turbo-2.1.4-bin",
+        "/nix/store/pnrq8962lvm8ngrin4d4wfllflh1csqf-libjpeg-turbo-2.1.4-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

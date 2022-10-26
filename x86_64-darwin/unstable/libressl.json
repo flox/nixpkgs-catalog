@@ -1,50 +1,4 @@
 {
-  "3.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.6.0",
-      "pname": "libressl",
-      "name": "libressl-3.6.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/c0dvwanzxmsx45gczfscaz9gzwjimvjc-libressl-3.6.0-bin",
-        "dev": "/nix/store/8492jnjsqmxjb3wmh2y8rhcjmcvk4xdd-libressl-3.6.0-dev",
-        "man": "/nix/store/if78l4gjv6lljhh0nf7qnwvrbv77v9l9-libressl-3.6.0-man",
-        "nc": "/nix/store/gk62xc0r6bnk4q0xbr7li7dmmapywvwv-libressl-3.6.0-nc",
-        "out": "/nix/store/yj0rd4gn9wj2w1f67zg9c6y1fz0hdwn4-libressl-3.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Free TLS/SSL implementation",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libressl/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libressl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c0dvwanzxmsx45gczfscaz9gzwjimvjc-libressl-3.6.0-bin",
-        "/nix/store/if78l4gjv6lljhh0nf7qnwvrbv77v9l9-libressl-3.6.0-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -134,6 +88,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.6.0",
+      "pname": "libressl",
+      "name": "libressl-3.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/36jx5y7x4kvicnpwch6q60d7lmmzib7w-libressl-3.6.0-bin",
+        "dev": "/nix/store/aphy0vql67vxw8b9hirqy46n87wsisbd-libressl-3.6.0-dev",
+        "man": "/nix/store/sy8nkgpjcsp2fmisf401i8wp318zqhh0-libressl-3.6.0-man",
+        "nc": "/nix/store/2k47849p32vrsl5qf7rmz7si71xy3n1s-libressl-3.6.0-nc",
+        "out": "/nix/store/jv940xzjgx2g4qvmi0rc0xjzx8b5gy13-libressl-3.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Free TLS/SSL implementation",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libressl/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libressl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/36jx5y7x4kvicnpwch6q60d7lmmzib7w-libressl-3.6.0-bin",
+        "/nix/store/sy8nkgpjcsp2fmisf401i8wp318zqhh0-libressl-3.6.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

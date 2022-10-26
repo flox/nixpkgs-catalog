@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.1.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.20",
-      "pname": "libmtp",
-      "name": "libmtp-1.1.20",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/5mbkgv1s1bgb3dma6hwvkljx6ayqvc1q-libmtp-1.1.20-bin",
-        "dev": "/nix/store/445q3m9xyyhnpl0llli0hi1g65nw65jp-libmtp-1.1.20-dev",
-        "out": "/nix/store/8g0xy9mdr5374w14iwy940h9pvslrl55-libmtp-1.1.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "An implementation of Microsoft's Media Transfer Protocol",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libmtp/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libmtp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5mbkgv1s1bgb3dma6hwvkljx6ayqvc1q-libmtp-1.1.20-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.1.19": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.20",
+      "pname": "libmtp",
+      "name": "libmtp-1.1.20",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/v448276g8h229vp2agwbqg2zc3fna6qk-libmtp-1.1.20-bin",
+        "dev": "/nix/store/p42zjk1ymsq2qh3sc07qv5ddf2183r99-libmtp-1.1.20-dev",
+        "out": "/nix/store/85gzjkz0s8ziibqdx3i1s8yzf2nqvqg5-libmtp-1.1.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "An implementation of Microsoft's Media Transfer Protocol",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libmtp/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libmtp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v448276g8h229vp2agwbqg2zc3fna6qk-libmtp-1.1.20-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "1.2.174": {
+  "1.2.99": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.2.174",
+      "version": "1.2.99",
       "pname": "werf",
-      "name": "werf-1.2.174",
+      "name": "werf-1.2.99",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/07vws2z2cpma647wx3n1fbh9kp7sff85-werf-1.2.174"
+        "out": "/nix/store/60g8hpi8c2dq93d6bz3cwi9g76i7br5b-werf-1.2.99"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "GitOps delivery tool",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/werf/default.nix:83",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/werf/default.nix:56",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/07vws2z2cpma647wx3n1fbh9kp7sff85-werf-1.2.174"
+        "/nix/store/60g8hpi8c2dq93d6bz3cwi9g76i7br5b-werf-1.2.99"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
+  "1.2.177": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.177",
+      "pname": "werf",
+      "name": "werf-1.2.177",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/0pwi0hj9cgkivr3pxsgyiaqnpjiwjcnz-werf-1.2.177"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GitOps delivery tool",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/networking/cluster/werf/default.nix:83",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "werf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0pwi0hj9cgkivr3pxsgyiaqnpjiwjcnz-werf-1.2.177"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "1.2.99": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.99",
-      "pname": "werf",
-      "name": "werf-1.2.99",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/60g8hpi8c2dq93d6bz3cwi9g76i7br5b-werf-1.2.99"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GitOps delivery tool",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/werf/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "werf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/60g8hpi8c2dq93d6bz3cwi9g76i7br5b-werf-1.2.99"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
       }
     }
   }

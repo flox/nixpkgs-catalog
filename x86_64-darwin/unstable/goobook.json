@@ -1,44 +1,4 @@
 {
-  "3.5.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5.2",
-      "pname": "goobook",
-      "name": "goobook-3.5.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/f8q74rybpscnh83v2nwbvjh31z8ks295-python3.10-goobook-3.5.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Access your Google contacts from the command line",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/goobook/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "goobook"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f8q74rybpscnh83v2nwbvjh31z8ks295-python3.10-goobook-3.5.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.2",
+      "pname": "goobook",
+      "name": "goobook-3.5.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/m298abmxfxqyk0xi5vq887zrymlfbm21-python3.10-goobook-3.5.2-dist",
+        "out": "/nix/store/inw930583b7g5wv7yp8qj3vzrnn8l3kv-python3.10-goobook-3.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Access your Google contacts from the command line",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/goobook/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "goobook"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/inw930583b7g5wv7yp8qj3vzrnn8l3kv-python3.10-goobook-3.5.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

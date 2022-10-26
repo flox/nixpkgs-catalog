@@ -1,49 +1,4 @@
 {
-  "1.7.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.1",
-      "pname": "hunspell",
-      "name": "hunspell-1.7.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/jq09zv2xkf3bjg6dw0mwm8z7vblhkw1z-hunspell-1.7.1-bin",
-        "dev": "/nix/store/p3np26nvl6nb54hjippd2smnhji43i4f-hunspell-1.7.1-dev",
-        "man": "/nix/store/phsfydpxzjj0zzdkf7ximi83p2va5lhw-hunspell-1.7.1-man",
-        "out": "/nix/store/w4igaprm2671mf0va0bpzkha6wc0d84n-hunspell-1.7.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Spell checker",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/hunspell/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "hunspell"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jq09zv2xkf3bjg6dw0mwm8z7vblhkw1z-hunspell-1.7.1-bin",
-        "/nix/store/phsfydpxzjj0zzdkf7ximi83p2va5lhw-hunspell-1.7.1-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.7.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.1",
+      "pname": "hunspell",
+      "name": "hunspell-1.7.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/vvmdcp6bzykrmxqzcbgfdzvjhqga0321-hunspell-1.7.1-bin",
+        "dev": "/nix/store/ic0a7xaj28p5q99dz41wrv10va8v4813-hunspell-1.7.1-dev",
+        "man": "/nix/store/mkl6w8awbw2201d5bkpf7jmxcpz5yqq8-hunspell-1.7.1-man",
+        "out": "/nix/store/9dr9whcd7p65lslwlwrm0s1cyq3lc0nf-hunspell-1.7.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Spell checker",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/hunspell/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "hunspell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vvmdcp6bzykrmxqzcbgfdzvjhqga0321-hunspell-1.7.1-bin",
+        "/nix/store/mkl6w8awbw2201d5bkpf7jmxcpz5yqq8-hunspell-1.7.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

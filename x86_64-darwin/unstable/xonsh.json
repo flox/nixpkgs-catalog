@@ -1,21 +1,22 @@
 {
-  "0.13.1": {
+  "0.13.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.13.1",
+      "version": "0.13.3",
       "pname": "xonsh",
-      "name": "xonsh-0.13.1",
+      "name": "xonsh-0.13.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/gssgabmwi6ffdip9c3af6g54x4aljs36-xonsh-0.13.1"
+        "dist": "/nix/store/lr7z6g1hc8wcl5sk6r9jqa51fmka04vb-xonsh-0.13.3-dist",
+        "out": "/nix/store/5xqml727b5mndv0147i7s4bia3jhsk6f-xonsh-0.13.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A Python-ish, BASHwards-compatible shell",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/shells/xonsh/default.nix:84",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/shells/xonsh/default.nix:84",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gssgabmwi6ffdip9c3af6g54x4aljs36-xonsh-0.13.1"
+        "/nix/store/5xqml727b5mndv0147i7s4bia3jhsk6f-xonsh-0.13.3"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "0.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.0",
-      "pname": "xonsh",
-      "name": "xonsh-0.13.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/qh6kaji6zhalf8gf231ih465781vz2wd-xonsh-0.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Python-ish, BASHwards-compatible shell",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/shells/xonsh/default.nix:84",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "xonsh"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qh6kaji6zhalf8gf231ih465781vz2wd-xonsh-0.13.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.13.0",
+      "pname": "xonsh",
+      "name": "xonsh-0.13.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/qh6kaji6zhalf8gf231ih465781vz2wd-xonsh-0.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Python-ish, BASHwards-compatible shell",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/shells/xonsh/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "xonsh"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qh6kaji6zhalf8gf231ih465781vz2wd-xonsh-0.13.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

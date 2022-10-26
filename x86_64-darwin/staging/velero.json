@@ -1,44 +1,4 @@
 {
-  "1.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.0",
-      "pname": "velero",
-      "name": "velero-1.9.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/9l6kd90ps27x614pjghp0wgbk3nsrb6i-velero-1.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A utility for managing disaster recovery, specifically for your Kubernetes cluster resources and persistent volumes",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/velero/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "velero"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9l6kd90ps27x614pjghp0wgbk3nsrb6i-velero-1.9.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "1.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.0",
+      "pname": "velero",
+      "name": "velero-1.9.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/9l6kd90ps27x614pjghp0wgbk3nsrb6i-velero-1.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A utility for managing disaster recovery, specifically for your Kubernetes cluster resources and persistent volumes",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/velero/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "velero"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9l6kd90ps27x614pjghp0wgbk3nsrb6i-velero-1.9.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
