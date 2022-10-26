@@ -1,45 +1,4 @@
 {
-  "5.7.39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.7.39",
-      "pname": "mysql",
-      "name": "mysql-5.7.39",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/lfrlj79c0ng6dzks80vkdllvb8p6ksrp-mysql-5.7.39",
-        "static": "/nix/store/lf5rzb87mml3zi0pqz3a0rn0pnrpibb7-mysql-5.7.39-static"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The world's most popular open source database",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/sql/mysql/5.7.x.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "mysql57"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lfrlj79c0ng6dzks80vkdllvb8p6ksrp-mysql-5.7.39"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "5.7.37": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.7.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.7.39",
+      "pname": "mysql",
+      "name": "mysql-5.7.39",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/j0x4w8zfzf6zadhr1b48v0w4z1zm5fmb-mysql-5.7.39",
+        "static": "/nix/store/gf2vwkvh6hcigcyl1s4kckab9cvlfvrw-mysql-5.7.39-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The world's most popular open source database",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/sql/mysql/5.7.x.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mysql57"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j0x4w8zfzf6zadhr1b48v0w4z1zm5fmb-mysql-5.7.39"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "0.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.0",
-      "pname": "systemd_exporter",
-      "name": "systemd_exporter-0.5.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/754saj0sh354g5zzff2nvn12giwscfgi-systemd_exporter-0.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Exporter for systemd unit metrics",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/systemd-exporter.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "prometheus-systemd-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/754saj0sh354g5zzff2nvn12giwscfgi-systemd_exporter-0.5.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "systemd_exporter",
+      "name": "systemd_exporter-0.5.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/5wgz97577p3rknyvk8x1dh2r5yk7fdi9-systemd_exporter-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Exporter for systemd unit metrics",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/prometheus/systemd-exporter.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "prometheus-systemd-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5wgz97577p3rknyvk8x1dh2r5yk7fdi9-systemd_exporter-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

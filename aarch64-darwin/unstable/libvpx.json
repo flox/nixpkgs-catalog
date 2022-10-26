@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.12.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.12.0",
-      "pname": "libvpx",
-      "name": "libvpx-1.12.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/f1lx6f8595hb1lh7kv5w57x8sivdryld-libvpx-1.12.0-bin",
-        "dev": "/nix/store/jxmjd3xbsjwii925qd5954srxyg4hz54-libvpx-1.12.0-dev",
-        "out": "/nix/store/9400718bqnc3w22rrmsz0pki6l5alay4-libvpx-1.12.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "WebM VP8/VP9 codec SDK",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libvpx/default.nix:181",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libvpx"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f1lx6f8595hb1lh7kv5w57x8sivdryld-libvpx-1.12.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.12.0",
+      "pname": "libvpx",
+      "name": "libvpx-1.12.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/61wh3a493fvzlk73sq3a8yvpnv88pv2b-libvpx-1.12.0-bin",
+        "dev": "/nix/store/qx1xxf5d58031b9hlbif9pi2yi9awwjz-libvpx-1.12.0-dev",
+        "out": "/nix/store/i059hqgf4xxdv3jp04wkbgjbd985byrx-libvpx-1.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "WebM VP8/VP9 codec SDK",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libvpx/default.nix:181",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libvpx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/61wh3a493fvzlk73sq3a8yvpnv88pv2b-libvpx-1.12.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

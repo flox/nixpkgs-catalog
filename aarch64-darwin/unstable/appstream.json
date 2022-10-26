@@ -40,48 +40,6 @@
       }
     }
   },
-  "0.15.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.15.5",
-      "pname": "appstream",
-      "name": "appstream-0.15.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/5b05a4xgnbdc18qyxzzsyf4ymsyx5hga-appstream-0.15.5-dev",
-        "installedTests": "/nix/store/678zbyl1d3px3gc3qdngxf4mqllri7s4-appstream-0.15.5-installedTests",
-        "out": "/nix/store/10v236zn7vncjg0wdnbmwhj7jbqs2wxs-appstream-0.15.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Software metadata handling library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/appstream/default.nix:95",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "appstream"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/10v236zn7vncjg0wdnbmwhj7jbqs2wxs-appstream-0.15.5"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.15.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -121,6 +79,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.15.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.5",
+      "pname": "appstream",
+      "name": "appstream-0.15.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/nlx46pmi30vsp7p122ccxvl46blaap99-appstream-0.15.5-dev",
+        "installedTests": "/nix/store/rzdvacfiakpb7gfyfxh4chn3h0ncjc05-appstream-0.15.5-installedTests",
+        "out": "/nix/store/5hwd7lj8d2xizdnyl1195vs60j5l1wfa-appstream-0.15.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Software metadata handling library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/appstream/default.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "appstream"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5hwd7lj8d2xizdnyl1195vs60j5l1wfa-appstream-0.15.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

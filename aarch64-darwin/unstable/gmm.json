@@ -1,44 +1,4 @@
 {
-  "5.4.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.4.2",
-      "pname": "gmm",
-      "name": "gmm-5.4.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/72ybv0pd6k62jynx0yqk98791i5i96cv-gmm-5.4.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Generic C++ template library for sparse, dense and skyline matrices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gmm/default.nix:13",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gmm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/72ybv0pd6k62jynx0yqk98791i5i96cv-gmm-5.4.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.2",
+      "pname": "gmm",
+      "name": "gmm-5.4.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/8zn0z0v1x1ln208b8b8lkziwc938is1f-gmm-5.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Generic C++ template library for sparse, dense and skyline matrices",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gmm/default.nix:13",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gmm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8zn0z0v1x1ln208b8b8lkziwc938is1f-gmm-5.4.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

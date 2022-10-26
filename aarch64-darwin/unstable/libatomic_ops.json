@@ -41,48 +41,6 @@
       }
     }
   },
-  "7.6.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.6.14",
-      "pname": "libatomic_ops",
-      "name": "libatomic_ops-7.6.14",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/z5cpysk6dfgy85aq41lyy8irphh86984-libatomic_ops-7.6.14-dev",
-        "doc": "/nix/store/lqjxy4h30wwdg4qlas63gygrzms570b8-libatomic_ops-7.6.14-doc",
-        "out": "/nix/store/9l95a1gpiwwx0x1gvpbkxixsyaajs4ha-libatomic_ops-7.6.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library for semi-portable access to hardware-provided atomic memory update operations",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libatomic_ops/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libatomic_ops"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9l95a1gpiwwx0x1gvpbkxixsyaajs4ha-libatomic_ops-7.6.14"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "7.6.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "7.6.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.6.14",
+      "pname": "libatomic_ops",
+      "name": "libatomic_ops-7.6.14",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/bccihi93alqrbyb8n15m8kvfpi1h5nyz-libatomic_ops-7.6.14-dev",
+        "doc": "/nix/store/5v47xdvmkiba6a0dhzcysbpii60w86b4-libatomic_ops-7.6.14-doc",
+        "out": "/nix/store/9kacbmimfrmkbadhkqsi25ayix4y0lzv-libatomic_ops-7.6.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library for semi-portable access to hardware-provided atomic memory update operations",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libatomic_ops/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libatomic_ops"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9kacbmimfrmkbadhkqsi25ayix4y0lzv-libatomic_ops-7.6.14"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "1.9.0mt5": {
+  "1.9.0mt8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.9.0mt5",
+      "version": "1.9.0mt8",
       "pname": "irrlichtmt",
-      "name": "irrlichtmt-1.9.0mt5",
+      "name": "irrlichtmt-1.9.0mt8",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/gd9440kbw9nwrq83h914k996mar9r2ky-irrlichtmt-1.9.0mt5-dev",
-        "out": "/nix/store/b6a0d7zz082rsgskif4fr9li22fgxpa8-irrlichtmt-1.9.0mt5"
+        "dev": "/nix/store/0c2hm410s5sy3cwdiapfgm1jj4dn3ws0-irrlichtmt-1.9.0mt8-dev",
+        "out": "/nix/store/wss5ac0qyqfqgfrva1di2ql7iwq1ymg6-irrlichtmt-1.9.0mt8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Minetest project's fork of Irrlicht, a realtime 3D engine written in C++",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/irrlichtmt/default.nix:59",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/irrlichtmt/default.nix:59",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/b6a0d7zz082rsgskif4fr9li22fgxpa8-irrlichtmt-1.9.0mt5"
+        "/nix/store/wss5ac0qyqfqgfrva1di2ql7iwq1ymg6-irrlichtmt-1.9.0mt8"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
-  "1.9.0mt7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.0mt7",
-      "pname": "irrlichtmt",
-      "name": "irrlichtmt-1.9.0mt7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/1y7axby24q0zm3wdiv845kpzaf7k2pri-irrlichtmt-1.9.0mt7-dev",
-        "out": "/nix/store/a51734x81ifq2lyr29w9jwabwb4qw336-irrlichtmt-1.9.0mt7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Minetest project's fork of Irrlicht, a realtime 3D engine written in C++",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/irrlichtmt/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "irrlichtmt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a51734x81ifq2lyr29w9jwabwb4qw336-irrlichtmt-1.9.0mt7"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.0mt7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.0mt7",
+      "pname": "irrlichtmt",
+      "name": "irrlichtmt-1.9.0mt7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/1y7axby24q0zm3wdiv845kpzaf7k2pri-irrlichtmt-1.9.0mt7-dev",
+        "out": "/nix/store/a51734x81ifq2lyr29w9jwabwb4qw336-irrlichtmt-1.9.0mt7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Minetest project's fork of Irrlicht, a realtime 3D engine written in C++",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/irrlichtmt/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "irrlichtmt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a51734x81ifq2lyr29w9jwabwb4qw336-irrlichtmt-1.9.0mt7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

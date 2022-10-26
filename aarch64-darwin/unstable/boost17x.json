@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.79.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.79.0",
-      "pname": "boost",
-      "name": "boost-1.79.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/k19r03b6z903r8pn1id7w13zw7d70k72-boost-1.79.0-dev",
-        "out": "/nix/store/69430hyjfzsxvp5crfxaqjag4pc94csw-boost-1.79.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Collection of C++ libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/boost/generic.nix:154",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "boost17x"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/69430hyjfzsxvp5crfxaqjag4pc94csw-boost-1.79.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.77.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.79.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.79.0",
+      "pname": "boost",
+      "name": "boost-1.79.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/1j07259i6hajlxwl7wg22ampnzhaflq1-boost-1.79.0-dev",
+        "out": "/nix/store/jgv614sw5cbacxmq91c65ml265l11g0g-boost-1.79.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Collection of C++ libraries",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/boost/generic.nix:156",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "boost17x"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jgv614sw5cbacxmq91c65ml265l11g0g-boost-1.79.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

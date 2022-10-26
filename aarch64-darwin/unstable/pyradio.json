@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.8.9.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.9.17",
-      "pname": "pyradio",
-      "name": "pyradio-0.8.9.17",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/ic0pq0sihnhicrl94maiqha8zaai63xh-pyradio-0.8.9.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Curses based internet radio player",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/pyradio/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "pyradio"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ic0pq0sihnhicrl94maiqha8zaai63xh-pyradio-0.8.9.17"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "0.8.9.22": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.8.9.28": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.9.28",
+      "pname": "pyradio",
+      "name": "pyradio-0.8.9.28",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/4sf5vblbxz175kja711ipjyiry4l48q0-pyradio-0.8.9.28-dist",
+        "out": "/nix/store/zjw6m85jaf2wj2iwh8gxf3128jggf67z-pyradio-0.8.9.28"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Curses based internet radio player",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/pyradio/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pyradio"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zjw6m85jaf2wj2iwh8gxf3128jggf67z-pyradio-0.8.9.28"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

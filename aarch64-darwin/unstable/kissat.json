@@ -1,46 +1,4 @@
 {
-  "3.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.0",
-      "pname": "kissat",
-      "name": "kissat-3.0.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/igw8j4y0irpqwbv7vwddqa0vs98fyiqg-kissat-3.0.0-dev",
-        "lib": "/nix/store/23c1n9sm9pbw6zbyd283194gvwwkqjxi-kissat-3.0.0-lib",
-        "out": "/nix/store/3k4k6xdbgid7sm80xc7z9rja6a6241lv-kissat-3.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A 'keep it simple and clean bare metal SAT solver' written in C",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/science/logic/kissat/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kissat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3k4k6xdbgid7sm80xc7z9rja6a6241lv-kissat-3.0.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.0",
+      "pname": "kissat",
+      "name": "kissat-3.0.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/vdw87w5mkgbjv3ibk584gx52ka8z1ql2-kissat-3.0.0-dev",
+        "lib": "/nix/store/bdkdyidhx9xinqgky1vdbwm539mby2hq-kissat-3.0.0-lib",
+        "out": "/nix/store/94d2q0n6z6dxlhw79bb00ff6h5yhy8dh-kissat-3.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A 'keep it simple and clean bare metal SAT solver' written in C",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/science/logic/kissat/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kissat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/94d2q0n6z6dxlhw79bb00ff6h5yhy8dh-kissat-3.0.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

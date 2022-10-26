@@ -1,21 +1,21 @@
 {
-  "3.4.20": {
+  "3.4.21": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.20",
+      "version": "3.4.21",
       "pname": "etcd",
-      "name": "etcd-3.4.20",
+      "name": "etcd-3.4.21",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/s4idrzjfyvwi4qb7y0dm8r32pghbaaa9-etcd-3.4.20"
+        "out": "/nix/store/hz87zwdjylp2hfkl01zcrw2lp4fd01kq-etcd-3.4.21"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/servers/etcd/3.4.nix:29",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/etcd/3.4.nix:29",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/s4idrzjfyvwi4qb7y0dm8r32pghbaaa9-etcd-3.4.20"
+        "/nix/store/hz87zwdjylp2hfkl01zcrw2lp4fd01kq-etcd-3.4.21"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "3.4.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.19",
-      "pname": "etcd",
-      "name": "etcd-3.4.19",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/1z9lsxv5jfmvh9d67f2xjkb915y722vp-etcd-3.4.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/etcd/3.4.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "etcd_3_4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1z9lsxv5jfmvh9d67f2xjkb915y722vp-etcd-3.4.19"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.4.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.19",
+      "pname": "etcd",
+      "name": "etcd-3.4.19",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/1z9lsxv5jfmvh9d67f2xjkb915y722vp-etcd-3.4.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/etcd/3.4.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "etcd_3_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1z9lsxv5jfmvh9d67f2xjkb915y722vp-etcd-3.4.19"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

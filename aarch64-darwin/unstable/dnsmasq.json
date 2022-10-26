@@ -1,21 +1,21 @@
 {
-  "2.85": {
+  "2.87": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.85",
+      "version": "2.87",
       "pname": "dnsmasq",
-      "name": "dnsmasq-2.85",
+      "name": "dnsmasq-2.87",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/qkdn12marn3j06c103y46xr43jqyakv7-dnsmasq-2.85"
+        "out": "/nix/store/82r37h88qfxmq18pg3silwr5mbkwnc9h-dnsmasq-2.87"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An integrated DNS, DHCP and TFTP server for small networks",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/dnsmasq/default.nix:75",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/dnsmasq/default.nix:91",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qkdn12marn3j06c103y46xr43jqyakv7-dnsmasq-2.85"
+        "/nix/store/82r37h88qfxmq18pg3silwr5mbkwnc9h-dnsmasq-2.87"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.85": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.85",
+      "pname": "dnsmasq",
+      "name": "dnsmasq-2.85",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/qkdn12marn3j06c103y46xr43jqyakv7-dnsmasq-2.85"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An integrated DNS, DHCP and TFTP server for small networks",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/dnsmasq/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "dnsmasq"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qkdn12marn3j06c103y46xr43jqyakv7-dnsmasq-2.85"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

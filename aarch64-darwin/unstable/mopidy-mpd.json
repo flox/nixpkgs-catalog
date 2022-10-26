@@ -1,45 +1,4 @@
 {
-  "3.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.0",
-      "pname": "Mopidy-MPD",
-      "name": "Mopidy-MPD-3.3.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dist": "/nix/store/ay1d6mlci27g9lifw87664cc95k0ij6g-Mopidy-MPD-3.3.0-dist",
-        "out": "/nix/store/xm0zf7bf7jxi64gwqys3i26c4zcl87xc-Mopidy-MPD-3.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mopidy extension for controlling playback from MPD clients",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/audio/mopidy/mpd.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "mopidy-mpd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xm0zf7bf7jxi64gwqys3i26c4zcl87xc-Mopidy-MPD-3.3.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.0",
+      "pname": "Mopidy-MPD",
+      "name": "Mopidy-MPD-3.3.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/sh4p2q8cvymg9sshr8kz6a0fq8rh6fhq-Mopidy-MPD-3.3.0-dist",
+        "out": "/nix/store/880ypb2qbr48viv05406bxnwhwyjg1d0-Mopidy-MPD-3.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mopidy extension for controlling playback from MPD clients",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/mopidy/mpd.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mopidy-mpd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/880ypb2qbr48viv05406bxnwhwyjg1d0-Mopidy-MPD-3.3.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

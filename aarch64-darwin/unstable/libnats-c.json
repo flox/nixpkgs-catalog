@@ -1,22 +1,22 @@
 {
-  "3.4.0": {
+  "3.4.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.0",
+      "version": "3.4.1",
       "pname": "libnats",
-      "name": "libnats-3.4.0",
+      "name": "libnats-3.4.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/nycm4jz71fn4mssfirj657csgxw1y53n-libnats-3.4.0-dev",
-        "out": "/nix/store/q1xbsf174wfrd129xaivw4ahq91nxkmm-libnats-3.4.0"
+        "dev": "/nix/store/bna3rz0jq7nf4ib44rl0flxqb0bvqrfc-libnats-3.4.1-dev",
+        "out": "/nix/store/h03kcyqwlg3dq4acadca3c38k60544g3-libnats-3.4.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "C API for the NATS messaging system",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/development/libraries/libnats-c/default.nix:30",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libnats-c/default.nix:30",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/q1xbsf174wfrd129xaivw4ahq91nxkmm-libnats-3.4.0"
+        "/nix/store/h03kcyqwlg3dq4acadca3c38k60544g3-libnats-3.4.1"
       ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
-      }
-    }
-  },
-  "3.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.0",
-      "pname": "libnats",
-      "name": "libnats-3.3.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/1s4lvbn7c9hbnxxx95vzlgdqcby8r0lv-libnats-3.3.0-dev",
-        "out": "/nix/store/fjza2043q6d2hfxrjdm65jai18rxlxp6-libnats-3.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "C API for the NATS messaging system",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libnats-c/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libnats-c"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fjza2043q6d2hfxrjdm65jai18rxlxp6-libnats-3.3.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.0",
+      "pname": "libnats",
+      "name": "libnats-3.3.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/1s4lvbn7c9hbnxxx95vzlgdqcby8r0lv-libnats-3.3.0-dev",
+        "out": "/nix/store/fjza2043q6d2hfxrjdm65jai18rxlxp6-libnats-3.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C API for the NATS messaging system",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libnats-c/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libnats-c"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fjza2043q6d2hfxrjdm65jai18rxlxp6-libnats-3.3.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

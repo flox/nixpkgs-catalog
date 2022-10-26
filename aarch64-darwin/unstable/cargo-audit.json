@@ -1,44 +1,4 @@
 {
-  "0.15.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.15.0",
-      "pname": "cargo-audit",
-      "name": "cargo-audit-0.15.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vpkqqaz2xrdxbf1d42vg7jinic76q60a-cargo-audit-0.15.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Audit Cargo.lock files for crates with security vulnerabilities",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/package-management/cargo-audit/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "cargo-audit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vpkqqaz2xrdxbf1d42vg7jinic76q60a-cargo-audit-0.15.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.17.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.17.2",
+      "pname": "cargo-audit",
+      "name": "cargo-audit-0.17.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/2dkm5gk5hsqfw901fs05p7m0wbgwsi0g-cargo-audit-0.17.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Audit Cargo.lock files for crates with security vulnerabilities",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/rust/cargo-audit/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "cargo-audit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2dkm5gk5hsqfw901fs05p7m0wbgwsi0g-cargo-audit-0.17.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

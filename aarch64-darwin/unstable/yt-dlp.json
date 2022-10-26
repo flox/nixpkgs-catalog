@@ -1,44 +1,4 @@
 {
-  "2022.04.08": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.04.08",
-      "pname": "yt-dlp",
-      "name": "yt-dlp-2022.04.08",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/c983r4cddmhqbr1c27j752fniln2ps2w-python3.9-yt-dlp-2022.04.08"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
-        "position": "/nix/store/3q18gxqzw5qzyd9n64nyi1kgb66qi8ac-source/pkgs/tools/misc/yt-dlp/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "yt-dlp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c983r4cddmhqbr1c27j752fniln2ps2w-python3.9-yt-dlp-2022.04.08"
-      ],
-      "url": "github:flox/nixpkgs/242efdc5a5aff8222c1152c0e4b9262bd02915b6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 378452,
-        "lastModified": 1652794215
-      }
-    }
-  },
   "2022.07.18": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2022.10.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.10.4",
+      "pname": "yt-dlp",
+      "name": "yt-dlp-2022.10.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/f1iahsljd32g0kx25rdwv7db9kx07rss-python3.10-yt-dlp-2022.10.4-dist",
+        "out": "/nix/store/1cy2n8c5bq959vw0mhbh42nd9v8inafc-python3.10-yt-dlp-2022.10.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/yt-dlp/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "yt-dlp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1cy2n8c5bq959vw0mhbh42nd9v8inafc-python3.10-yt-dlp-2022.10.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

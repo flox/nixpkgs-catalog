@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.14.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.14.2",
-      "pname": "lndmanage",
-      "name": "lndmanage-0.14.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/hjqs4qabh3i1hwnsd0i1qhrynkhnbwli-lndmanage-0.14.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Channel management tool for lightning network daemon (LND) operators",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/lndmanage/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lndmanage"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hjqs4qabh3i1hwnsd0i1qhrynkhnbwli-lndmanage-0.14.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.14.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.14.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.2",
+      "pname": "lndmanage",
+      "name": "lndmanage-0.14.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/n5a0zb2rvbx2020x6hqzn5d9v902vpkp-lndmanage-0.14.2-dist",
+        "out": "/nix/store/lglnzcp10n28fmsm4njwws9achc999gl-lndmanage-0.14.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Channel management tool for lightning network daemon (LND) operators",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/blockchains/lndmanage/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lndmanage"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lglnzcp10n28fmsm4njwws9achc999gl-lndmanage-0.14.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

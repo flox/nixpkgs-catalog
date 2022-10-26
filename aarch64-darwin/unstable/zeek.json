@@ -1,46 +1,4 @@
 {
-  "4.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.1",
-      "pname": "zeek",
-      "name": "zeek-4.1.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "lib": "/nix/store/mn2imj7dd5z42420c5mvznf2xiakkml3-zeek-4.1.1-lib",
-        "out": "/nix/store/b57d1g2x9ggjim693yvkc8ax3j7mfnaf-zeek-4.1.1",
-        "py": "/nix/store/gn3p4dcidxj5r8bzqppi02ga3pcvgxfv-zeek-4.1.1-py"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful network analysis framework much different from a typical IDS",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ids/zeek/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "zeek"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/b57d1g2x9ggjim693yvkc8ax3j7mfnaf-zeek-4.1.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "4.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -83,25 +41,25 @@
       }
     }
   },
-  "4.2.2": {
+  "4.1.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.2.2",
+      "version": "4.1.1",
       "pname": "zeek",
-      "name": "zeek-4.2.2",
+      "name": "zeek-4.1.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "lib": "/nix/store/wsm4j5k4ihiljby3ff02p5dzf1gal2ba-zeek-4.2.2-lib",
-        "out": "/nix/store/rz3l4cis4ihki1xl7gj9b87g58frbjkp-zeek-4.2.2",
-        "py": "/nix/store/iij8rqfjl75kv3k9vdspdnnrw8q4g67f-zeek-4.2.2-py"
+        "lib": "/nix/store/mn2imj7dd5z42420c5mvznf2xiakkml3-zeek-4.1.1-lib",
+        "out": "/nix/store/b57d1g2x9ggjim693yvkc8ax3j7mfnaf-zeek-4.1.1",
+        "py": "/nix/store/gn3p4dcidxj5r8bzqppi02ga3pcvgxfv-zeek-4.1.1-py"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "Network analysis framework much different from a typical IDS",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/ids/zeek/default.nix:74",
+        "description": "Powerful network analysis framework much different from a typical IDS",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/ids/zeek/default.nix:57",
         "unfree": false
       }
     },
@@ -114,14 +72,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rz3l4cis4ihki1xl7gj9b87g58frbjkp-zeek-4.2.2"
+        "/nix/store/b57d1g2x9ggjim693yvkc8ax3j7mfnaf-zeek-4.1.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
+  "4.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.2",
+      "pname": "zeek",
+      "name": "zeek-4.2.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "lib": "/nix/store/xap5xx571mhb6w9kplg3zfrlk4dy00rc-zeek-4.2.2-lib",
+        "out": "/nix/store/w9s5dkn6ki2y8qrd209y2yv3k1sfrrys-zeek-4.2.2",
+        "py": "/nix/store/2aicgnyc26j386zcv6fvy9ahhs87p2nx-zeek-4.2.2-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Network analysis framework much different from a typical IDS",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/ids/zeek/default.nix:74",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "zeek"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w9s5dkn6ki2y8qrd209y2yv3k1sfrrys-zeek-4.2.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

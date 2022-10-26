@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.0",
-      "pname": "nixpkgs-review",
-      "name": "nixpkgs-review-2.7.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/3qpbi0wgc1h6mj783g1fg066dfhx5gvr-nixpkgs-review-2.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Review pull-requests on https://github.com/NixOS/nixpkgs",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nixpkgs-review/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nixpkgs-review"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3qpbi0wgc1h6mj783g1fg066dfhx5gvr-nixpkgs-review-2.7.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.6.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.0",
+      "pname": "nixpkgs-review",
+      "name": "nixpkgs-review-2.7.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/ypzr79gs63snr8d5hv5paigpnxyf84p8-nixpkgs-review-2.7.0-dist",
+        "out": "/nix/store/6ysgzymdr4cn5cwns548bqylhwc2ddfw-nixpkgs-review-2.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Review pull-requests on https://github.com/NixOS/nixpkgs",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/package-management/nixpkgs-review/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nixpkgs-review"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6ysgzymdr4cn5cwns548bqylhwc2ddfw-nixpkgs-review-2.7.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

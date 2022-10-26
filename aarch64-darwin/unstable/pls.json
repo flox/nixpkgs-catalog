@@ -1,4 +1,44 @@
 {
+  "4.0.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.3",
+      "pname": "pls",
+      "name": "pls-4.0.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/4jm7w3cv8lj1k5spkp27vnfzi5kh0fqp-pls-4.0.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Prettier and powerful ls",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/pls/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4jm7w3cv8lj1k5spkp27vnfzi5kh0fqp-pls-4.0.3"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
+      }
+    }
+  },
   "5.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -48,14 +88,15 @@
       "name": "pls-5.4.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/cf9vbyq50ican3kfz094hfa72wczh5qg-pls-5.4.0"
+        "dist": "/nix/store/hl6b4h1v5dxlx56gmn7x8828x9jy79li-pls-5.4.0-dist",
+        "out": "/nix/store/7iy8mhh1knm7mbv12mawikw9krnsmd7l-pls-5.4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Prettier and powerful ls",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/pls/default.nix:40",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/pls/default.nix:40",
         "unfree": false
       }
     },
@@ -68,54 +109,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/cf9vbyq50ican3kfz094hfa72wczh5qg-pls-5.4.0"
+        "/nix/store/7iy8mhh1knm7mbv12mawikw9krnsmd7l-pls-5.4.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "4.0.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.3",
-      "pname": "pls",
-      "name": "pls-4.0.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/4jm7w3cv8lj1k5spkp27vnfzi5kh0fqp-pls-4.0.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Prettier and powerful ls",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/pls/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "pls"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4jm7w3cv8lj1k5spkp27vnfzi5kh0fqp-pls-4.0.3"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "0.0.6": {
+  "0.0.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.0.6",
+      "version": "0.0.9",
       "pname": "uncover",
-      "name": "uncover-0.0.6",
+      "name": "uncover-0.0.9",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/gm7fg8qjw7294n4s9izar6j2y4qv2kw5-uncover-0.0.6"
+        "out": "/nix/store/0yb6j279qz8qg9v4nm0cis0z401x3w3s-uncover-0.0.9"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "API wrapper to search for exposed hosts",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/security/uncover/default.nix:20",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/uncover/default.nix:20",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gm7fg8qjw7294n4s9izar6j2y4qv2kw5-uncover-0.0.6"
+        "/nix/store/0yb6j279qz8qg9v4nm0cis0z401x3w3s-uncover-0.0.9"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.0.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.0.6",
+      "pname": "uncover",
+      "name": "uncover-0.0.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/gm7fg8qjw7294n4s9izar6j2y4qv2kw5-uncover-0.0.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "API wrapper to search for exposed hosts",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/security/uncover/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "uncover"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gm7fg8qjw7294n4s9izar6j2y4qv2kw5-uncover-0.0.6"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "0.28.1": {
+  "0.32.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.28.1",
+      "version": "0.32.1",
       "pname": "trivy",
-      "name": "trivy-0.28.1",
+      "name": "trivy-0.32.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/s77imk0q3gqdahyz2cz6shn8fpv0cymn-trivy-0.28.1"
+        "out": "/nix/store/ylfgl13p5d4849z9c4mhcq3fz7fjj3zk-trivy-0.32.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/admin/trivy/default.nix:42",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/admin/trivy/default.nix:43",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/s77imk0q3gqdahyz2cz6shn8fpv0cymn-trivy-0.28.1"
+        "/nix/store/ylfgl13p5d4849z9c4mhcq3fz7fjj3zk-trivy-0.32.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.29.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.29.1",
-      "pname": "trivy",
-      "name": "trivy-0.29.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/qxzgdh439zc6ns6q18hfj6x3nw1dfijj-trivy-0.29.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/admin/trivy/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "trivy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qxzgdh439zc6ns6q18hfj6x3nw1dfijj-trivy-0.29.1"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "0.29.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.29.1",
+      "pname": "trivy",
+      "name": "trivy-0.29.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/qxzgdh439zc6ns6q18hfj6x3nw1dfijj-trivy-0.29.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/admin/trivy/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "trivy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qxzgdh439zc6ns6q18hfj6x3nw1dfijj-trivy-0.29.1"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "9.4.43.v20210629": {
+  "11.0.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "9.4.43.v20210629",
+      "version": "11.0.12",
       "pname": "jetty",
-      "name": "jetty-9.4.43.v20210629",
+      "name": "jetty-11.0.12",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/7dm521x4d5srd03a4ycvk3ylblncv8mq-jetty-9.4.43.v20210629"
+        "out": "/nix/store/x9h0flh2l6grk4qcvx6whzv3aaw5v1fh-jetty-11.0.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A Web server and javax.servlet container",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/http/jetty/default.nix:19",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/http/jetty/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7dm521x4d5srd03a4ycvk3ylblncv8mq-jetty-9.4.43.v20210629"
+        "/nix/store/x9h0flh2l6grk4qcvx6whzv3aaw5v1fh-jetty-11.0.12"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.4.43.v20210629": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.4.43.v20210629",
+      "pname": "jetty",
+      "name": "jetty-9.4.43.v20210629",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/7dm521x4d5srd03a4ycvk3ylblncv8mq-jetty-9.4.43.v20210629"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Web server and javax.servlet container",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/http/jetty/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "jetty"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7dm521x4d5srd03a4ycvk3ylblncv8mq-jetty-9.4.43.v20210629"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -1,48 +1,4 @@
 {
-  "6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.2",
-      "pname": null,
-      "name": "ncurses-6.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/ai96xh50lfl8npgrj3f65nq1pbpcxa6s-ncurses-6.2-dev",
-        "man": "/nix/store/jgczzszb5mf1wivl3xin82sw5habi9xn-ncurses-6.2-man",
-        "out": "/nix/store/bs7hpi27xc0y2qynvx4n1zpnv3s5bnkx-ncurses-6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Free software emulation of curses in SVR4 and more",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/ncurses/default.nix:153",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "ncurses"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bs7hpi27xc0y2qynvx4n1zpnv3s5bnkx-ncurses-6.2",
-        "/nix/store/jgczzszb5mf1wivl3xin82sw5habi9xn-ncurses-6.2-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "6.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.2",
+      "pname": null,
+      "name": "ncurses-6.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/ai96xh50lfl8npgrj3f65nq1pbpcxa6s-ncurses-6.2-dev",
+        "man": "/nix/store/jgczzszb5mf1wivl3xin82sw5habi9xn-ncurses-6.2-man",
+        "out": "/nix/store/bs7hpi27xc0y2qynvx4n1zpnv3s5bnkx-ncurses-6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Free software emulation of curses in SVR4 and more",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/ncurses/default.nix:153",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "ncurses"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bs7hpi27xc0y2qynvx4n1zpnv3s5bnkx-ncurses-6.2",
+        "/nix/store/jgczzszb5mf1wivl3xin82sw5habi9xn-ncurses-6.2-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

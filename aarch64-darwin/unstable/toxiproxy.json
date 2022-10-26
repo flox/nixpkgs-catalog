@@ -1,21 +1,21 @@
 {
-  "2.1.4": {
+  "2.5.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.1.4",
+      "version": "2.5.0",
       "pname": "toxiproxy",
-      "name": "toxiproxy-2.1.4",
+      "name": "toxiproxy-2.5.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/kn9j1i0z2m4wrn2jzz6qx5z0bkbjg8wi-toxiproxy-2.1.4"
+        "out": "/nix/store/r8mb7kkl9xqcbnqjr6yfgnj7a0padz9p-toxiproxy-2.5.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Proxy for for simulating network conditions",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/toxiproxy/default.nix:23",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/toxiproxy/default.nix:31",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kn9j1i0z2m4wrn2jzz6qx5z0bkbjg8wi-toxiproxy-2.1.4"
+        "/nix/store/r8mb7kkl9xqcbnqjr6yfgnj7a0padz9p-toxiproxy-2.5.0"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.4",
+      "pname": "toxiproxy",
+      "name": "toxiproxy-2.1.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/kn9j1i0z2m4wrn2jzz6qx5z0bkbjg8wi-toxiproxy-2.1.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Proxy for for simulating network conditions",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/toxiproxy/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "toxiproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kn9j1i0z2m4wrn2jzz6qx5z0bkbjg8wi-toxiproxy-2.1.4"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

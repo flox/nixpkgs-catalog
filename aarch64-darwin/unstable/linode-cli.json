@@ -1,21 +1,22 @@
 {
-  "5.22.0": {
+  "5.24.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.22.0",
+      "version": "5.24.0",
       "pname": "linode-cli",
-      "name": "linode-cli-5.22.0",
+      "name": "linode-cli-5.24.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/zifmk6pxvrz3pxn45m8x8lb3dlnrl12y-linode-cli-5.22.0"
+        "dist": "/nix/store/4kdc6kvk9kwlm2b14476j74i91y5sq3c-linode-cli-5.24.0-dist",
+        "out": "/nix/store/7gadrxbifj2py48jcpkqsxmdpvkz28gr-linode-cli-5.24.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linode Command Line Interface",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/virtualization/linode-cli/default.nix:72",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/virtualization/linode-cli/default.nix:72",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zifmk6pxvrz3pxn45m8x8lb3dlnrl12y-linode-cli-5.22.0"
+        "/nix/store/7gadrxbifj2py48jcpkqsxmdpvkz28gr-linode-cli-5.24.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
+      }
+    }
+  },
+  "5.17.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.17.2",
+      "pname": "linode-cli",
+      "name": "linode-cli-5.17.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/h19i0cysj8vdg2236bnwl9s6bhh0524q-linode-cli-5.17.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linode Command Line Interface",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/virtualization/linode-cli/default.nix:72",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "linode-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h19i0cysj8vdg2236bnwl9s6bhh0524q-linode-cli-5.17.2"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   },
@@ -77,46 +118,6 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
-      }
-    }
-  },
-  "5.17.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.17.2",
-      "pname": "linode-cli",
-      "name": "linode-cli-5.17.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/h19i0cysj8vdg2236bnwl9s6bhh0524q-linode-cli-5.17.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linode Command Line Interface",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/virtualization/linode-cli/default.nix:72",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "linode-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h19i0cysj8vdg2236bnwl9s6bhh0524q-linode-cli-5.17.2"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

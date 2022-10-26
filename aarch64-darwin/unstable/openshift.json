@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.11.0",
-      "pname": "openshift",
-      "name": "openshift-4.11.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/filq6jsxq6lvlfdxsjanwjblhr6y0p0s-openshift-4.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Build, deploy, and manage your applications with Docker and Kubernetes",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/openshift/default.nix:62",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "openshift"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/filq6jsxq6lvlfdxsjanwjblhr6y0p0s-openshift-4.11.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.10.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.11.0",
+      "pname": "openshift",
+      "name": "openshift-4.11.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/9q4s0phhciai43jwz3sjnj1hz81z5fba-openshift-4.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Build, deploy, and manage your applications with Docker and Kubernetes",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/openshift/default.nix:62",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "openshift"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9q4s0phhciai43jwz3sjnj1hz81z5fba-openshift-4.11.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

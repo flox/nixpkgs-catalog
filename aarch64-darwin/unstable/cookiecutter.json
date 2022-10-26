@@ -1,44 +1,4 @@
 {
-  "2.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.1",
-      "pname": "cookiecutter",
-      "name": "cookiecutter-2.1.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0lzqhw8xirnw5v938mbm2rwnpa36v1xn-python3.10-cookiecutter-2.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A command-line utility that creates projects from project templates",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/cookiecutter/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "cookiecutter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0lzqhw8xirnw5v938mbm2rwnpa36v1xn-python3.10-cookiecutter-2.1.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.7.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.1",
+      "pname": "cookiecutter",
+      "name": "cookiecutter-2.1.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/4gcg5py41vlvmr6q550pg7khvlnkk8zw-python3.10-cookiecutter-2.1.1-dist",
+        "out": "/nix/store/z4s6qwp41l19z0x80d9glx2vmaa82916-python3.10-cookiecutter-2.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A command-line utility that creates projects from project templates",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/cookiecutter/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "cookiecutter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z4s6qwp41l19z0x80d9glx2vmaa82916-python3.10-cookiecutter-2.1.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "0.9.5": {
+  "0.9.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.9.5",
+      "version": "0.9.6",
       "pname": "homeassistant-cli",
-      "name": "homeassistant-cli-0.9.5",
+      "name": "homeassistant-cli-0.9.6",
       "system": "aarch64-darwin",
       "outputs": {
-        "dist": "/nix/store/p4yzffb5js5gwr9ppxapjw8dhnw78y1w-homeassistant-cli-0.9.5-dist",
-        "out": "/nix/store/qkz6y8igbkib3j4wpsh2mfn89kmbczag-homeassistant-cli-0.9.5"
+        "dist": "/nix/store/7h86jd3viac7wqk9bkmrxiyql0zcrv6p-homeassistant-cli-0.9.6-dist",
+        "out": "/nix/store/ga4asrip3xiaxqnzh4rmk24qzinwmmv2-homeassistant-cli-0.9.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command-line tool for Home Assistant",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/home-assistant/cli.nix:57",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/home-assistant/cli.nix:57",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qkz6y8igbkib3j4wpsh2mfn89kmbczag-homeassistant-cli-0.9.5"
+        "/nix/store/ga4asrip3xiaxqnzh4rmk24qzinwmmv2-homeassistant-cli-0.9.6"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -77,6 +77,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.5",
+      "pname": "homeassistant-cli",
+      "name": "homeassistant-cli-0.9.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/p4yzffb5js5gwr9ppxapjw8dhnw78y1w-homeassistant-cli-0.9.5-dist",
+        "out": "/nix/store/qkz6y8igbkib3j4wpsh2mfn89kmbczag-homeassistant-cli-0.9.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool for Home Assistant",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/home-assistant/cli.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "home-assistant-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qkz6y8igbkib3j4wpsh2mfn89kmbczag-homeassistant-cli-0.9.5"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

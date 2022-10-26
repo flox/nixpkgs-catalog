@@ -1,21 +1,21 @@
 {
-  "1.6.2": {
+  "1.6.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.6.2",
+      "version": "1.6.8",
       "pname": null,
-      "name": "aarch64-apple-darwin-nim-wrapper-1.6.2",
+      "name": "aarch64-apple-darwin-nim-wrapper-1.6.8",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/xwzmdx0cgrbpm6d8fhdz6fz73c5amam1-aarch64-apple-darwin-nim-wrapper-1.6.2"
+        "out": "/nix/store/v773dq03d0bhw3x3hf5ljz8dqvd2biaz-aarch64-apple-darwin-nim-wrapper-1.6.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Statically typed, imperative programming language (aarch64-apple-darwin wrapper)",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/nim/default.nix:320",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/nim/default.nix:311",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xwzmdx0cgrbpm6d8fhdz6fz73c5amam1-aarch64-apple-darwin-nim-wrapper-1.6.2"
+        "/nix/store/v773dq03d0bhw3x3hf5ljz8dqvd2biaz-aarch64-apple-darwin-nim-wrapper-1.6.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.2",
+      "pname": null,
+      "name": "aarch64-apple-darwin-nim-wrapper-1.6.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/xwzmdx0cgrbpm6d8fhdz6fz73c5amam1-aarch64-apple-darwin-nim-wrapper-1.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Statically typed, imperative programming language (aarch64-apple-darwin wrapper)",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/nim/default.nix:320",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nim"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xwzmdx0cgrbpm6d8fhdz6fz73c5amam1-aarch64-apple-darwin-nim-wrapper-1.6.2"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

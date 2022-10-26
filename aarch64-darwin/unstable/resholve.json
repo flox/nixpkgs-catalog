@@ -1,44 +1,4 @@
 {
-  "0.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.1",
-      "pname": "resholve",
-      "name": "resholve-0.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/11j6cq92imh9xnzv8r6wgm2c15rw5abr-resholve-0.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Resolve external shell-script dependencies",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/misc/resholve/resholve.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "resholve"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/11j6cq92imh9xnzv8r6wgm2c15rw5abr-resholve-0.8.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.8.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.1",
+      "pname": "resholve",
+      "name": "resholve-0.8.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/vdrjcrlr67j7cy9m3kc3wb2aydcfksmf-resholve-0.8.1-dist",
+        "out": "/nix/store/5rvaxc0cc39rc3d61l7150fzd4py6db9-resholve-0.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Resolve external shell-script dependencies",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/misc/resholve/resholve.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "resholve"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5rvaxc0cc39rc3d61l7150fzd4py6db9-resholve-0.8.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

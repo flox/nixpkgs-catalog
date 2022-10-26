@@ -1,46 +1,4 @@
 {
-  "14.0.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "14.0.6",
-      "pname": "lld",
-      "name": "lld-14.0.6",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/ijd6qff3n87dcb46xvzlb1899z5fvamb-lld-14.0.6-dev",
-        "lib": "/nix/store/3lxhmj48mkzpi9nx4mz6rp5i8c882zfb-lld-14.0.6-lib",
-        "out": "/nix/store/iwzxgr4crmy06p0p62n99p3mwl8i6k2p-lld-14.0.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The LLVM linker (unwrapped)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/llvm/14/lld/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lld_14"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/iwzxgr4crmy06p0p62n99p3mwl8i6k2p-lld-14.0.6"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "14.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "14.0.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.0.6",
+      "pname": "lld",
+      "name": "lld-14.0.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/mgzwjx0vaz5pxvpsrs96x43c4m7xb8w9-lld-14.0.6-dev",
+        "lib": "/nix/store/2xsvlblx6yik4iq1lnybzpr3na4idv4d-lld-14.0.6-lib",
+        "out": "/nix/store/f4l4yckih95595mak5m7vz3vw0ajksnj-lld-14.0.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The LLVM linker (unwrapped)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/llvm/14/lld/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lld_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f4l4yckih95595mak5m7vz3vw0ajksnj-lld-14.0.6"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

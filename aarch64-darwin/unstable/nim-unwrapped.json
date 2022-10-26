@@ -1,21 +1,21 @@
 {
-  "1.6.2": {
+  "1.6.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.6.2",
+      "version": "1.6.8",
       "pname": "nim-unwrapped",
-      "name": "nim-unwrapped-1.6.2",
+      "name": "nim-unwrapped-1.6.8",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/r2ik7m3zpml7i1r0mr5x7w6w4aqxrz6f-nim-unwrapped-1.6.2"
+        "out": "/nix/store/s64bpprm3vc4f4rzvnbss7dgnip55gmi-nim-unwrapped-1.6.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Statically typed, imperative programming language",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/nim/default.nix:151",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/nim/default.nix:134",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/r2ik7m3zpml7i1r0mr5x7w6w4aqxrz6f-nim-unwrapped-1.6.2"
+        "/nix/store/s64bpprm3vc4f4rzvnbss7dgnip55gmi-nim-unwrapped-1.6.8"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.2",
+      "pname": "nim-unwrapped",
+      "name": "nim-unwrapped-1.6.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/r2ik7m3zpml7i1r0mr5x7w6w4aqxrz6f-nim-unwrapped-1.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Statically typed, imperative programming language",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/compilers/nim/default.nix:151",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nim-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r2ik7m3zpml7i1r0mr5x7w6w4aqxrz6f-nim-unwrapped-1.6.2"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }
