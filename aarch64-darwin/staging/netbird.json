@@ -1,21 +1,21 @@
 {
-  "0.9.3": {
+  "0.10.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.9.3",
+      "version": "0.10.2",
       "pname": "netbird",
-      "name": "netbird-0.9.3",
+      "name": "netbird-0.10.2",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/27n527azfvw50h6k1ij6jz5im6qr26kc-netbird-0.9.3"
+        "out": "/nix/store/20ixypwizwdxa5lmsha5ds8p76bfqvy6-netbird-0.10.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Connect your devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/netbird/default.nix:88",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/netbird/default.nix:89",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/27n527azfvw50h6k1ij6jz5im6qr26kc-netbird-0.9.3"
+        "/nix/store/20ixypwizwdxa5lmsha5ds8p76bfqvy6-netbird-0.10.2"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.9.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.7",
-      "pname": "netbird",
-      "name": "netbird-0.9.7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vpi8h3bc1dc88irpqv526a8c3rgxjj5g-netbird-0.9.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Connect your devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/tools/networking/netbird/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "netbird"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vpi8h3bc1dc88irpqv526a8c3rgxjj5g-netbird-0.9.7"
-      ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
-    },
-    "source": {
-      "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 405560,
         "lastModified": 1662019588
+      }
+    }
+  },
+  "0.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.7",
+      "pname": "netbird",
+      "name": "netbird-0.9.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/vpi8h3bc1dc88irpqv526a8c3rgxjj5g-netbird-0.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Connect your devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/tools/networking/netbird/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "netbird"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vpi8h3bc1dc88irpqv526a8c3rgxjj5g-netbird-0.9.7"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   }

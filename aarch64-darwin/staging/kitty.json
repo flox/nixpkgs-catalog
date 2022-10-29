@@ -41,48 +41,6 @@
       }
     }
   },
-  "0.26.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.26.2",
-      "pname": "kitty",
-      "name": "kitty-0.26.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/am4nc3mx3225vq32q7vf6gf8x5fq347b-kitty-0.26.2",
-        "shell_integration": "/nix/store/jg40ab48pys7s0vgmfw0c6lq6gihypc6-kitty-0.26.2-shell_integration",
-        "terminfo": "/nix/store/rc62b3fmf2q90mwjcd02233x632phvyl-kitty-0.26.2-terminfo"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A modern, hackable, featureful, OpenGL based terminal emulator",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/terminal-emulators/kitty/default.nix:217",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kitty"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/am4nc3mx3225vq32q7vf6gf8x5fq347b-kitty-0.26.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.25.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.26.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.26.2",
+      "pname": "kitty",
+      "name": "kitty-0.26.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/xx1n1gxc4kqd6hqwcxkryqwai42vv0jw-kitty-0.26.2",
+        "shell_integration": "/nix/store/fhwhaa3k7zar5s0zxyip61lykg80hgaq-kitty-0.26.2-shell_integration",
+        "terminfo": "/nix/store/1l72y7lbr3527pqvba92nb2r8l3dz3sx-kitty-0.26.2-terminfo"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A modern, hackable, featureful, OpenGL based terminal emulator",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/terminal-emulators/kitty/default.nix:217",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kitty"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xx1n1gxc4kqd6hqwcxkryqwai42vv0jw-kitty-0.26.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

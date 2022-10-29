@@ -1,21 +1,21 @@
 {
-  "3.12.0": {
+  "3.14.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.12.0",
+      "version": "3.14.0",
       "pname": "mangal",
-      "name": "mangal-3.12.0",
+      "name": "mangal-3.14.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/1mnd8f6g58vkkpprfp9v7an2ml90sm4i-mangal-3.12.0"
+        "out": "/nix/store/131hi3rn7f4nn966f9gfb6ifv463d5ls-mangal-3.14.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A fancy CLI app written in Go which scrapes, downloads and packs manga into different formats",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/misc/mangal/default.nix:33",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/mangal/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1mnd8f6g58vkkpprfp9v7an2ml90sm4i-mangal-3.12.0"
+        "/nix/store/131hi3rn7f4nn966f9gfb6ifv463d5ls-mangal-3.14.0"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
+      }
+    }
+  },
+  "3.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.12.0",
+      "pname": "mangal",
+      "name": "mangal-3.12.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/1mnd8f6g58vkkpprfp9v7an2ml90sm4i-mangal-3.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fancy CLI app written in Go which scrapes, downloads and packs manga into different formats",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/misc/mangal/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mangal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1mnd8f6g58vkkpprfp9v7an2ml90sm4i-mangal-3.12.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

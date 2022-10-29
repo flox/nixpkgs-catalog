@@ -39,47 +39,6 @@
       }
     }
   },
-  "1.26.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.1",
-      "pname": "mycli",
-      "name": "mycli-1.26.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dist": "/nix/store/lvx38fkbir7qk61p705r6a6yi8hnx76w-mycli-1.26.1-dist",
-        "out": "/nix/store/ghddilfv1lzfvca3c0i78qm1qb2nwf48-mycli-1.26.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line interface for MySQL",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/mycli/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "mycli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ghddilfv1lzfvca3c0i78qm1qb2nwf48-mycli-1.26.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.25.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.26.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.1",
+      "pname": "mycli",
+      "name": "mycli-1.26.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/3v4wxr5pv61fpykf5sqi3m0gf2vczffk-mycli-1.26.1-dist",
+        "out": "/nix/store/9vlnfsclzzkbgl4dg9w82i8hsnm6hwx3-mycli-1.26.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line interface for MySQL",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/admin/mycli/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mycli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9vlnfsclzzkbgl4dg9w82i8hsnm6hwx3-mycli-1.26.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,23 +1,23 @@
 {
-  "7.1.0-37": {
+  "7.1.0-51": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.1.0-37",
+      "version": "7.1.0-51",
       "pname": "imagemagick",
-      "name": "imagemagick-7.1.0-37",
+      "name": "imagemagick-7.1.0-51",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/qprj6d2qabb4xc6zfxk15ch7pd3s2w7r-imagemagick-7.1.0-37-dev",
-        "doc": "/nix/store/j730xj7bv8y5rhdgl9nqwcncy9b25svv-imagemagick-7.1.0-37-doc",
-        "out": "/nix/store/9r7gx235rklvzvp3rwqi15y1gnkxmr76-imagemagick-7.1.0-37"
+        "dev": "/nix/store/phiqqsa2ka16qql8kd91lipc332mif3p-imagemagick-7.1.0-51-dev",
+        "doc": "/nix/store/p8n0m2isnz0xaqnimmiy37ssnml15jq0-imagemagick-7.1.0-51-doc",
+        "out": "/nix/store/q1vnq2mqqzljsabkhw3m3w1svqs6vyiy-imagemagick-7.1.0-51"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A software suite to create, edit, compose, or convert bitmap images",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/graphics/ImageMagick/7.0.nix:127",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/graphics/ImageMagick/default.nix:130",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9r7gx235rklvzvp3rwqi15y1gnkxmr76-imagemagick-7.1.0-37"
+        "/nix/store/q1vnq2mqqzljsabkhw3m3w1svqs6vyiy-imagemagick-7.1.0-51"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "7.1.0-39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.1.0-39",
-      "pname": "imagemagick",
-      "name": "imagemagick-7.1.0-39",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/lq2yml18fnk6s0ij8s13a69cdma6dhwh-imagemagick-7.1.0-39-dev",
-        "doc": "/nix/store/2q9rzvdrq50is68895lj1vnvjyy1smcs-imagemagick-7.1.0-39-doc",
-        "out": "/nix/store/2qn77lhnkhaapap44px0v944y6kphcvf-imagemagick-7.1.0-39"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A software suite to create, edit, compose, or convert bitmap images",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/graphics/ImageMagick/7.0.nix:127",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "imagemagick7Big"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2qn77lhnkhaapap44px0v944y6kphcvf-imagemagick-7.1.0-39"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "7.1.0-39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.1.0-39",
+      "pname": "imagemagick",
+      "name": "imagemagick-7.1.0-39",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/lq2yml18fnk6s0ij8s13a69cdma6dhwh-imagemagick-7.1.0-39-dev",
+        "doc": "/nix/store/2q9rzvdrq50is68895lj1vnvjyy1smcs-imagemagick-7.1.0-39-doc",
+        "out": "/nix/store/2qn77lhnkhaapap44px0v944y6kphcvf-imagemagick-7.1.0-39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A software suite to create, edit, compose, or convert bitmap images",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/graphics/ImageMagick/7.0.nix:127",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "imagemagick7Big"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2qn77lhnkhaapap44px0v944y6kphcvf-imagemagick-7.1.0-39"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

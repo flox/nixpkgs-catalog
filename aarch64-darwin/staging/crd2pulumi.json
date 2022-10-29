@@ -1,21 +1,21 @@
 {
-  "1.1.0": {
+  "1.2.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.1.0",
+      "version": "1.2.3",
       "pname": "crd2pulumi",
-      "name": "crd2pulumi-1.1.0",
+      "name": "crd2pulumi-1.2.3",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/dj4w467zz0iaw67q1s26hgvjfpl3gsbc-crd2pulumi-1.1.0"
+        "out": "/nix/store/mwzw6d5drslf0m66fwz354qzv87ni4mf-crd2pulumi-1.2.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Generate typed CustomResources from a Kubernetes CustomResourceDefinition",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/crd2pulumi/default.nix:21",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/crd2pulumi/default.nix:21",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dj4w467zz0iaw67q1s26hgvjfpl3gsbc-crd2pulumi-1.1.0"
+        "/nix/store/mwzw6d5drslf0m66fwz354qzv87ni4mf-crd2pulumi-1.2.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "1.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.2",
-      "pname": "crd2pulumi",
-      "name": "crd2pulumi-1.2.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/hnbnyid59qaw2nvsv7l8nk528m55hh42-crd2pulumi-1.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Generate typed CustomResources from a Kubernetes CustomResourceDefinition",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/crd2pulumi/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "crd2pulumi"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hnbnyid59qaw2nvsv7l8nk528m55hh42-crd2pulumi-1.2.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.2",
+      "pname": "crd2pulumi",
+      "name": "crd2pulumi-1.2.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/hnbnyid59qaw2nvsv7l8nk528m55hh42-crd2pulumi-1.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Generate typed CustomResources from a Kubernetes CustomResourceDefinition",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/crd2pulumi/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "crd2pulumi"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hnbnyid59qaw2nvsv7l8nk528m55hh42-crd2pulumi-1.2.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

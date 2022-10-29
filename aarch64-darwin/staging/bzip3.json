@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.1.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.6",
-      "pname": "bzip3",
-      "name": "bzip3-1.1.6",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/6sprck78m09hfh9ln051kaa30xlgif6n-bzip3-1.1.6-bin",
-        "dev": "/nix/store/ci5cq945vq3s89wld5j4p327lsky3k3y-bzip3-1.1.6-dev",
-        "out": "/nix/store/hkbxdp7s83nqd5qb5pszqm18m06wzmsk-bzip3-1.1.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A better and stronger spiritual successor to BZip2",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/compression/bzip3/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "bzip3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6sprck78m09hfh9ln051kaa30xlgif6n-bzip3-1.1.6-bin"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.1.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.6",
+      "pname": "bzip3",
+      "name": "bzip3-1.1.6",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/gna42nn87l9fw4kvc09m97lm9qij5rwh-bzip3-1.1.6-bin",
+        "dev": "/nix/store/f61j48k88qzw2vdq61hz03cs5i46bl1w-bzip3-1.1.6-dev",
+        "out": "/nix/store/wiwhq9j8zg22gd0qs2cm3i7hmwk41cjy-bzip3-1.1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A better and stronger spiritual successor to BZip2",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/compression/bzip3/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "bzip3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gna42nn87l9fw4kvc09m97lm9qij5rwh-bzip3-1.1.6-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -39,51 +39,6 @@
       }
     }
   },
-  "1.7.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.2",
-      "pname": "getdns",
-      "name": "getdns-1.7.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/i88cpl1wq51bfk6whrxa0pacs87isnfq-getdns-1.7.2-dev",
-        "lib": "/nix/store/bhhb6v3zm0yxlgva9gsmjbipxnjnn710-getdns-1.7.2-lib",
-        "man": "/nix/store/6ksvg2mp29jzrvl8jpxwlh86rg2xm1dv-getdns-1.7.2-man",
-        "out": "/nix/store/frgl3bnpfxiy3m4q0z7s3i1j6bfrq1pd-getdns-1.7.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A modern asynchronous DNS API",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/getdns/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "getdns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/frgl3bnpfxiy3m4q0z7s3i1j6bfrq1pd-getdns-1.7.2",
-        "/nix/store/6ksvg2mp29jzrvl8jpxwlh86rg2xm1dv-getdns-1.7.2-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -126,6 +81,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.2",
+      "pname": "getdns",
+      "name": "getdns-1.7.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/w2hrrm9l4b3i3qq5ynm2rgnam4v8jh1g-getdns-1.7.2-dev",
+        "lib": "/nix/store/rbl5lpk2qapij5gzx7hgn87pcp57lmgr-getdns-1.7.2-lib",
+        "man": "/nix/store/dr6871d7rnjs7gh2qirlh4zvl7bk7jk8-getdns-1.7.2-man",
+        "out": "/nix/store/jfnippzdkzim7v95xwk2pl30p28aq873-getdns-1.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A modern asynchronous DNS API",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/getdns/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "getdns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jfnippzdkzim7v95xwk2pl30p28aq873-getdns-1.7.2",
+        "/nix/store/dr6871d7rnjs7gh2qirlh4zvl7bk7jk8-getdns-1.7.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

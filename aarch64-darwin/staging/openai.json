@@ -1,21 +1,22 @@
 {
-  "0.12.0": {
+  "0.24.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.12.0",
+      "version": "0.24.0",
       "pname": "openai",
-      "name": "openai-0.12.0",
+      "name": "openai-0.24.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/y3bq3yz29s0y044kk7smbahbd0arbgkf-python3.9-openai-0.12.0"
+        "dist": "/nix/store/k5kkn09vj8xm31gs6w3vfy44m8xr348l-python3.10-openai-0.24.0-dist",
+        "out": "/nix/store/40msricgz4mp1a1hzmkax5anlly8ms9c-python3.10-openai-0.24.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Python client library for the OpenAI API",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/openai/default.nix:50",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/openai/default.nix:81",
         "unfree": false
       }
     },
@@ -28,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/y3bq3yz29s0y044kk7smbahbd0arbgkf-python3.9-openai-0.12.0"
+        "/nix/store/40msricgz4mp1a1hzmkax5anlly8ms9c-python3.10-openai-0.24.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +77,46 @@
       "locked": {
         "revCount": 405560,
         "lastModified": 1662019588
+      }
+    }
+  },
+  "0.12.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.0",
+      "pname": "openai",
+      "name": "openai-0.12.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/y3bq3yz29s0y044kk7smbahbd0arbgkf-python3.9-openai-0.12.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python client library for the OpenAI API",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/openai/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "openai"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y3bq3yz29s0y044kk7smbahbd0arbgkf-python3.9-openai-0.12.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.16.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16.7",
-      "pname": "lemmy-server",
-      "name": "lemmy-server-0.16.7",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/cgz14xzchrgyg6pk6xd1qxw8cl948ipz-lemmy-server-0.16.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "🐀 Building a federated alternative to reddit in rust",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/web-apps/lemmy/server.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lemmy-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cgz14xzchrgyg6pk6xd1qxw8cl948ipz-lemmy-server-0.16.7"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.15.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.16.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16.7",
+      "pname": "lemmy-server",
+      "name": "lemmy-server-0.16.7",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/x0w2qpwwq6nr8a6ijx0kbg0laqs5akm3-lemmy-server-0.16.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "🐀 Building a federated alternative to reddit in rust",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/web-apps/lemmy/server.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lemmy-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x0w2qpwwq6nr8a6ijx0kbg0laqs5akm3-lemmy-server-0.16.7"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

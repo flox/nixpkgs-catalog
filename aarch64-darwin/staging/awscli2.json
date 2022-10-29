@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.7.33": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.33",
-      "pname": "awscli2",
-      "name": "awscli2-2.7.33",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/3y93v6za6lsv2zv2zrimsg8dp20ay0rj-awscli2-2.7.33"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Unified tool to manage your AWS services",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/admin/awscli2/default.nix:95",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "awscli2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3y93v6za6lsv2zv2zrimsg8dp20ay0rj-awscli2-2.7.33"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.7.14": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "2.7.33": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.33",
+      "pname": "awscli2",
+      "name": "awscli2-2.7.33",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/66hlixigv3xdx03ybx5jcd8qgwdyvhwf-awscli2-2.7.33-dist",
+        "out": "/nix/store/byksab78zn9dp6v3r8g41ld4lhagvx8r-awscli2-2.7.33"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Unified tool to manage your AWS services",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/admin/awscli2/default.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "awscli2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/byksab78zn9dp6v3r8g41ld4lhagvx8r-awscli2-2.7.33"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

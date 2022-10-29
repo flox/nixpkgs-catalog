@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.1.2",
-      "pname": "time-decode",
-      "name": "time-decode-4.1.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/5qz96d487sgps5fw6b08v6lbqkqza192-time-decode-4.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Timestamp and date decoder",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/time-decode/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "time-decode"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5qz96d487sgps5fw6b08v6lbqkqza192-time-decode-4.1.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.1.2",
+      "pname": "time-decode",
+      "name": "time-decode-4.1.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/7yyf6dhrikha0afh0fg30c7p74by735k-time-decode-4.1.2-dist",
+        "out": "/nix/store/78anfif62kmyx8ag5fhb985pl70ihg0p-time-decode-4.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Timestamp and date decoder",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/time-decode/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "time-decode"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/78anfif62kmyx8ag5fhb985pl70ihg0p-time-decode-4.1.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

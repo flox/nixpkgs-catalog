@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.39",
-      "pname": "libopcodes",
-      "name": "libopcodes-2.39",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/axzqh2m9329mfwczilir5drhxbl0z10q-libopcodes-2.39-dev",
-        "out": "/nix/store/im8mm6n1ky9r463bfs4099pbyhlgaa0d-libopcodes-2.39"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library from binutils for manipulating machine code",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/misc/binutils/libopcodes.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libopcodes"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/im8mm6n1ky9r463bfs4099pbyhlgaa0d-libopcodes-2.39"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.39",
+      "pname": "libopcodes",
+      "name": "libopcodes-2.39",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/186m9nipfhkskx6vmzbwjk7w7lh4l1dl-libopcodes-2.39-dev",
+        "out": "/nix/store/si4a4bgwp0k14dxswil6w1zh3liqzqnf-libopcodes-2.39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library from binutils for manipulating machine code",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/binutils/libopcodes.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libopcodes"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/si4a4bgwp0k14dxswil6w1zh3liqzqnf-libopcodes-2.39"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

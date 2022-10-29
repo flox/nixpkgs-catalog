@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20",
-      "pname": "krb5",
-      "name": "krb5-1.20",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/v54f7mjf081ngnqfbl96210la9iyrad7-krb5-1.20-dev",
-        "out": "/nix/store/yiw8b5qj96h1hivgr14y0r7qjndpdd43-krb5-1.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "MIT Kerberos 5",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/kerberos/krb5.nix:87",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "krb5Full"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yiw8b5qj96h1hivgr14y0r7qjndpdd43-krb5-1.20"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.19.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20",
+      "pname": "krb5",
+      "name": "krb5-1.20",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/wz3pfpbac6mpwwskabzmq6a87jy7qpga-krb5-1.20-dev",
+        "out": "/nix/store/xi8v4i1qvh679pgg3x22vfqldgb044fp-krb5-1.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "MIT Kerberos 5",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/kerberos/krb5.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "krb5Full"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xi8v4i1qvh679pgg3x22vfqldgb044fp-krb5-1.20"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

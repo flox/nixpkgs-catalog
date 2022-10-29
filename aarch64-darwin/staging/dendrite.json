@@ -1,21 +1,21 @@
 {
-  "0.10.1": {
+  "0.10.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.10.1",
+      "version": "0.10.3",
       "pname": "matrix-dendrite",
-      "name": "matrix-dendrite-0.10.1",
+      "name": "matrix-dendrite-0.10.3",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/qm4hh3bljy585avschv7jmi5558rpdgi-matrix-dendrite-0.10.1"
+        "out": "/nix/store/2801qvia2pra5gplr1dl1p0i146a5dd5-matrix-dendrite-0.10.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A second-generation Matrix homeserver written in Go",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/servers/dendrite/default.nix:39",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/dendrite/default.nix:56",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qm4hh3bljy585avschv7jmi5558rpdgi-matrix-dendrite-0.10.1"
+        "/nix/store/2801qvia2pra5gplr1dl1p0i146a5dd5-matrix-dendrite-0.10.3"
       ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
-      }
-    }
-  },
-  "0.8.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.9",
-      "pname": "matrix-dendrite",
-      "name": "matrix-dendrite-0.8.9",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/ys92c8hl22gc1386mxdplbi0h3dj5hmg-matrix-dendrite-0.8.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A second-generation Matrix homeserver written in Go",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dendrite/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "dendrite"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ys92c8hl22gc1386mxdplbi0h3dj5hmg-matrix-dendrite-0.8.9"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.9",
+      "pname": "matrix-dendrite",
+      "name": "matrix-dendrite-0.8.9",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/ys92c8hl22gc1386mxdplbi0h3dj5hmg-matrix-dendrite-0.8.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A second-generation Matrix homeserver written in Go",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dendrite/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "dendrite"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ys92c8hl22gc1386mxdplbi0h3dj5hmg-matrix-dendrite-0.8.9"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

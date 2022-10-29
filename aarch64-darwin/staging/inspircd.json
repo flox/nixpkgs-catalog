@@ -45,52 +45,6 @@
       }
     }
   },
-  "3.14.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.14.0",
-      "pname": "inspircd",
-      "name": "inspircd-3.14.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/03m09mkxikvi73ssyj0ivq4mzmhi8dsg-inspircd-3.14.0-bin",
-        "doc": "/nix/store/28mbwjxf7apzw5921kqz2s87zqhi2cgf-inspircd-3.14.0-doc",
-        "lib": "/nix/store/pmyk9fc13z782ql92fjw5ka2rmjxqf13-inspircd-3.14.0-lib",
-        "man": "/nix/store/k6az2hjcpwqga6wxc6n4r608y3xv4c1c-inspircd-3.14.0-man",
-        "out": "/nix/store/mnz0phsc0hfmm3d3v24qzlfixr45zfdp-inspircd-3.14.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A modular C++ IRC server",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/irc/inspircd/default.nix:204",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "inspircd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/03m09mkxikvi73ssyj0ivq4mzmhi8dsg-inspircd-3.14.0-bin",
-        "/nix/store/k6az2hjcpwqga6wxc6n4r608y3xv4c1c-inspircd-3.14.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.13.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -134,6 +88,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.14.0",
+      "pname": "inspircd",
+      "name": "inspircd-3.14.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/y6s3j80bjjmaigv0afq9zs203p0qkl5p-inspircd-3.14.0-bin",
+        "doc": "/nix/store/f84hr269w74r4iwzxpnr00dif30fa9rx-inspircd-3.14.0-doc",
+        "lib": "/nix/store/r37jm7slc2w51lw7mys0mdbk0p26ghxq-inspircd-3.14.0-lib",
+        "man": "/nix/store/0qdwgarsy99br3a18pp13nr58nasdb9i-inspircd-3.14.0-man",
+        "out": "/nix/store/fh8ylsixjnhqkzw036ficdwqv10ij7sb-inspircd-3.14.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A modular C++ IRC server",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/irc/inspircd/default.nix:204",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "inspircd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y6s3j80bjjmaigv0afq9zs203p0qkl5p-inspircd-3.14.0-bin",
+        "/nix/store/0qdwgarsy99br3a18pp13nr58nasdb9i-inspircd-3.14.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

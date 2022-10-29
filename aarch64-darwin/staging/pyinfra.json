@@ -1,44 +1,4 @@
 {
-  "2.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4",
-      "pname": "pyinfra",
-      "name": "pyinfra-2.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/cc6xqv55kcy40z24pq4p6gyb25pyndf3-python3.10-pyinfra-2.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python-based infrastructure automation",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/pyinfra/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "pyinfra"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cc6xqv55kcy40z24pq4p6gyb25pyndf3-python3.10-pyinfra-2.4"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4",
+      "pname": "pyinfra",
+      "name": "pyinfra-2.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/6c9mmyrr5d6rmsb2wvy4xhjy3rp2c3q8-python3.10-pyinfra-2.4-dist",
+        "out": "/nix/store/k5x8xm0g5d7lshngrr67nnrxbk4rfb5s-python3.10-pyinfra-2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python-based infrastructure automation",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/pyinfra/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pyinfra"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k5x8xm0g5d7lshngrr67nnrxbk4rfb5s-python3.10-pyinfra-2.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

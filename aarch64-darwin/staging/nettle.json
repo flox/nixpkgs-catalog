@@ -1,45 +1,4 @@
 {
-  "3.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.8.1",
-      "pname": "nettle",
-      "name": "nettle-3.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/6w61ngvch655qzigl8rqzkf81a51i242-nettle-3.8.1-dev",
-        "out": "/nix/store/x0780lrilnajf7xa9dnvw2mkxncbm6p7-nettle-3.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cryptographic library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nettle/generic.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nettle"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x0780lrilnajf7xa9dnvw2mkxncbm6p7-nettle-3.8.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "unknown": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.8.1",
+      "pname": "nettle",
+      "name": "nettle-3.8.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/ajwy2qdqkgkd6kic3132zmvmzi4mrlk5-nettle-3.8.1-dev",
+        "out": "/nix/store/8pchw0f7lbbaqcb0w2w7fb0z0155x35s-nettle-3.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cryptographic library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nettle/generic.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nettle"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8pchw0f7lbbaqcb0w2w7fb0z0155x35s-nettle-3.8.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

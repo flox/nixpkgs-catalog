@@ -43,50 +43,6 @@
       }
     }
   },
-  "0.5.3.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.3.2",
-      "pname": "s6-rc",
-      "name": "s6-rc-0.5.3.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/bzi4r5ra1m38ggv6s02604imspiv6ynx-s6-rc-0.5.3.2-bin",
-        "dev": "/nix/store/kv2n5lbrz91rsx2cg8cw489diydjssa0-s6-rc-0.5.3.2-dev",
-        "doc": "/nix/store/ckch9v4rg4b0iwpn3sxllw9x9amlhi6m-s6-rc-0.5.3.2-doc",
-        "lib": "/nix/store/wj5jdmgnlna9h4fibfn48018ra69487q-s6-rc-0.5.3.2-lib",
-        "out": "/nix/store/4cnj725a1bx5zrfwcgfshzagffz18vjm-s6-rc-0.5.3.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A service manager for s6-based systems",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "s6-rc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bzi4r5ra1m38ggv6s02604imspiv6ynx-s6-rc-0.5.3.2-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.5.3.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.5.3.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.3.2",
+      "pname": "s6-rc",
+      "name": "s6-rc-0.5.3.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/8514r3kdgpb1r3c8xnqzy3bvg0wn3vkh-s6-rc-0.5.3.2-bin",
+        "dev": "/nix/store/s4ql3ls746yf3h81i74n1nhlr7kzal6x-s6-rc-0.5.3.2-dev",
+        "doc": "/nix/store/mxs13vrqgfjfs96802lzwnfwg9c8xb53-s6-rc-0.5.3.2-doc",
+        "lib": "/nix/store/xklzk528nl5rzxpigxsxx6ngcp9j0xws-s6-rc-0.5.3.2-lib",
+        "out": "/nix/store/jkf6g885zv2xidmn68gy54vdrm68fi6z-s6-rc-0.5.3.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A service manager for s6-based systems",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "s6-rc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8514r3kdgpb1r3c8xnqzy3bvg0wn3vkh-s6-rc-0.5.3.2-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

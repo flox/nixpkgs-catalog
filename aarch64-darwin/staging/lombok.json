@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.18.24": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.18.24",
-      "pname": "lombok",
-      "name": "lombok-1.18.24",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/8134dz1gnvx6shws1f2dgl2lhn40j4kx-lombok-1.18.24-bin",
-        "out": "/nix/store/p34mkd0ccnpidwf7565j0s1qf80vzwfl-lombok-1.18.24"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A library that can write a lot of boilerplate for your Java project",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/java/lombok/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lombok"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8134dz1gnvx6shws1f2dgl2lhn40j4kx-lombok-1.18.24-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.18.22": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.18.24": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.18.24",
+      "pname": "lombok",
+      "name": "lombok-1.18.24",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/d10vf4i4y7n8khi06il6bbg4dq3i42k9-lombok-1.18.24-bin",
+        "out": "/nix/store/7gy5p3k9imrcrky6dn1znjii0gxvmcaw-lombok-1.18.24"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A library that can write a lot of boilerplate for your Java project",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/java/lombok/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lombok"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d10vf4i4y7n8khi06il6bbg4dq3i42k9-lombok-1.18.24-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

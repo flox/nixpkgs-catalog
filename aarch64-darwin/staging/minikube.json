@@ -1,21 +1,21 @@
 {
-  "1.26.1": {
+  "1.27.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.26.1",
+      "version": "1.27.1",
       "pname": "minikube",
-      "name": "minikube-1.26.1",
+      "name": "minikube-1.27.1",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/wwh5pnb1gj5p82knszxpyfkfxkbs4lxs-minikube-1.26.1"
+        "out": "/nix/store/pw9g91nmd7iy0d2r08fb8cjhwy4sfrh7-minikube-1.27.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A tool that makes it easy to run Kubernetes locally",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/wwh5pnb1gj5p82knszxpyfkfxkbs4lxs-minikube-1.26.1"
+        "/nix/store/pw9g91nmd7iy0d2r08fb8cjhwy4sfrh7-minikube-1.27.1"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "1.26.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.0",
-      "pname": "minikube",
-      "name": "minikube-1.26.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/8zpl3cpkl9b5328l436kwwr5qff4sv5b-minikube-1.26.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool that makes it easy to run Kubernetes locally",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "minikube"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8zpl3cpkl9b5328l436kwwr5qff4sv5b-minikube-1.26.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.26.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.0",
+      "pname": "minikube",
+      "name": "minikube-1.26.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/8zpl3cpkl9b5328l436kwwr5qff4sv5b-minikube-1.26.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool that makes it easy to run Kubernetes locally",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/minikube/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "minikube"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8zpl3cpkl9b5328l436kwwr5qff4sv5b-minikube-1.26.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

@@ -1,48 +1,4 @@
 {
-  "3.10.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.10.8",
-      "pname": "rabbitmq-server",
-      "name": "rabbitmq-server-3.10.8",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "doc": "/nix/store/j628hwsa2r58s1b7h180jqpx4z84w2a5-rabbitmq-server-3.10.8-doc",
-        "man": "/nix/store/mkjg2777l6apapgd7x7x6hmk2ai0b99p-rabbitmq-server-3.10.8-man",
-        "out": "/nix/store/v2d5z06dqnqy8asi1jh1ibkcdjxxnxcg-rabbitmq-server-3.10.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An implementation of the AMQP messaging protocol",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/amqp/rabbitmq-server/default.nix:85",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "rabbitmq-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/v2d5z06dqnqy8asi1jh1ibkcdjxxnxcg-rabbitmq-server-3.10.8",
-        "/nix/store/mkjg2777l6apapgd7x7x6hmk2ai0b99p-rabbitmq-server-3.10.8-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.10.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.10.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.10.8",
+      "pname": "rabbitmq-server",
+      "name": "rabbitmq-server-3.10.8",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/wdiq6ja34krl9vjpg34zz7xxddi1f3ip-rabbitmq-server-3.10.8-doc",
+        "man": "/nix/store/pf3rpqsg4x11jq207gdffbv1i0zwpg5k-rabbitmq-server-3.10.8-man",
+        "out": "/nix/store/2rl07j5y6slaz811q8rdznyca891f73v-rabbitmq-server-3.10.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An implementation of the AMQP messaging protocol",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/amqp/rabbitmq-server/default.nix:85",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "rabbitmq-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2rl07j5y6slaz811q8rdznyca891f73v-rabbitmq-server-3.10.8",
+        "/nix/store/pf3rpqsg4x11jq207gdffbv1i0zwpg5k-rabbitmq-server-3.10.8-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

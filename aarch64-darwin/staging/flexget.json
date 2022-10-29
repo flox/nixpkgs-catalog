@@ -1,21 +1,22 @@
 {
-  "3.3.27": {
+  "3.3.39": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.3.27",
+      "version": "3.3.39",
       "pname": "flexget",
-      "name": "flexget-3.3.27",
+      "name": "flexget-3.3.39",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/k6knrrqz184xzhw2dkgqz424lx0mxllj-flexget-3.3.27"
+        "dist": "/nix/store/fmvssxhk20qm7f9hxyqjxma7hq523ym4-flexget-3.3.39-dist",
+        "out": "/nix/store/6g7gh7s9x981zvzrgiqc0ywgi9906fi0-flexget-3.3.39"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Multipurpose automation tool for all of your media",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/flexget/default.nix:77",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/flexget/default.nix:77",
         "unfree": false
       }
     },
@@ -28,14 +29,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/k6knrrqz184xzhw2dkgqz424lx0mxllj-flexget-3.3.27"
+        "/nix/store/6g7gh7s9x981zvzrgiqc0ywgi9906fi0-flexget-3.3.39"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
+      }
+    }
+  },
+  "3.3.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.22",
+      "pname": "flexget",
+      "name": "flexget-3.3.22",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/aq0vaz4dx6k1qa68anfnbzgwr03wypa7-flexget-3.3.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Multipurpose automation tool for all of your media",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/flexget/default.nix:77",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "flexget"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/aq0vaz4dx6k1qa68anfnbzgwr03wypa7-flexget-3.3.22"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   },
@@ -77,46 +118,6 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
-      }
-    }
-  },
-  "3.3.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.22",
-      "pname": "flexget",
-      "name": "flexget-3.3.22",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/aq0vaz4dx6k1qa68anfnbzgwr03wypa7-flexget-3.3.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Multipurpose automation tool for all of your media",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/flexget/default.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "flexget"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/aq0vaz4dx6k1qa68anfnbzgwr03wypa7-flexget-3.3.22"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   }

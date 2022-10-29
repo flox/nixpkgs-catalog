@@ -1,22 +1,22 @@
 {
-  "1.0.0": {
+  "2.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.0",
+      "version": "2.0.0",
       "pname": "wasmtime",
-      "name": "wasmtime-1.0.0",
+      "name": "wasmtime-2.0.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/wszw6s3wcfqbccc5bwwaph2id86jy8dy-wasmtime-1.0.0-dev",
-        "out": "/nix/store/41yv4xfj6n7gilfvg1sqxcw6jc4w7dlw-wasmtime-1.0.0"
+        "dev": "/nix/store/22g5gizpljd0lkfjf0kbdwqdzk9lbj6h-wasmtime-2.0.0-dev",
+        "out": "/nix/store/b6blc3x0yc24p273l7j023qai8flix9a-wasmtime-2.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/interpreters/wasmtime/default.nix:54",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/wasmtime/default.nix:54",
         "unfree": false
       }
     },
@@ -29,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/41yv4xfj6n7gilfvg1sqxcw6jc4w7dlw-wasmtime-1.0.0"
+        "/nix/store/b6blc3x0yc24p273l7j023qai8flix9a-wasmtime-2.0.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.38.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.38.0",
-      "pname": "wasmtime",
-      "name": "wasmtime-0.38.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/pa73wmf4471bvzajwlj0p8vzmpri83pc-wasmtime-0.38.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/wasmtime/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "wasmtime"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pa73wmf4471bvzajwlj0p8vzmpri83pc-wasmtime-0.38.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -118,6 +78,46 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "0.38.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.38.0",
+      "pname": "wasmtime",
+      "name": "wasmtime-0.38.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/pa73wmf4471bvzajwlj0p8vzmpri83pc-wasmtime-0.38.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/wasmtime/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "wasmtime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pa73wmf4471bvzajwlj0p8vzmpri83pc-wasmtime-0.38.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

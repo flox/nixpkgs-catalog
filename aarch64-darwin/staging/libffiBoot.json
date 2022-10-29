@@ -1,49 +1,4 @@
 {
-  "3.4.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.3",
-      "pname": "libffi",
-      "name": "libffi-3.4.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/x9x6lpkg6vj2933m2i347cwj411r424v-libffi-3.4.3-dev",
-        "info": "/nix/store/s50bp91kid2gsda4incxp97g5qjw9jxr-libffi-3.4.3-info",
-        "man": "/nix/store/65bmb0biwm9jim04vxhay9848c4amaaw-libffi-3.4.3-man",
-        "out": "/nix/store/660kxf3bafn0b62bpylbaaxpj2czmh40-libffi-3.4.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A foreign function call interface library",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libffi/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libffiBoot"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/660kxf3bafn0b62bpylbaaxpj2czmh40-libffi-3.4.3",
-        "/nix/store/65bmb0biwm9jim04vxhay9848c4amaaw-libffi-3.4.3-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.4.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.3",
+      "pname": "libffi",
+      "name": "libffi-3.4.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/pggvy7c8skfhlayzcrpikzilzr2xz8wh-libffi-3.4.3-dev",
+        "info": "/nix/store/b93ayj2fga79im6gccicj1ahxhyrwgcr-libffi-3.4.3-info",
+        "man": "/nix/store/6v2k13is99kdki30n63w75z1ica4m87b-libffi-3.4.3-man",
+        "out": "/nix/store/dbz2f5sknv4qrp4kvi5czi2caq0m4fv0-libffi-3.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A foreign function call interface library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libffi/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libffiBoot"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dbz2f5sknv4qrp4kvi5czi2caq0m4fv0-libffi-3.4.3",
+        "/nix/store/6v2k13is99kdki30n63w75z1ica4m87b-libffi-3.4.3-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

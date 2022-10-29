@@ -1,21 +1,21 @@
 {
-  "5.4.3": {
+  "5.4.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.4.3",
+      "version": "5.4.5",
       "pname": "gnuplot",
-      "name": "gnuplot-5.4.3",
+      "name": "gnuplot-5.4.5",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/fd9zibamznm7iryzlv8z1l4iyslhql61-gnuplot-5.4.3"
+        "out": "/nix/store/3gi7ilcbda26wwnnig4b748a4zi6ga6b-gnuplot-5.4.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A portable command-line driven graphing utility for many platforms",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/graphics/gnuplot/default.nix:67",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/graphics/gnuplot/default.nix:67",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/fd9zibamznm7iryzlv8z1l4iyslhql61-gnuplot-5.4.3"
+        "/nix/store/3gi7ilcbda26wwnnig4b748a4zi6ga6b-gnuplot-5.4.5"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "5.4.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.3",
+      "pname": "gnuplot",
+      "name": "gnuplot-5.4.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/fd9zibamznm7iryzlv8z1l4iyslhql61-gnuplot-5.4.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A portable command-line driven graphing utility for many platforms",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/graphics/gnuplot/default.nix:67",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gnuplot_qt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fd9zibamznm7iryzlv8z1l4iyslhql61-gnuplot-5.4.3"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

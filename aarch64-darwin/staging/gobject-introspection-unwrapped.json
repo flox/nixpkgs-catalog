@@ -1,49 +1,4 @@
 {
-  "1.74.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.74.0",
-      "pname": "gobject-introspection",
-      "name": "gobject-introspection-1.74.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/1x0n8b1z63fvhbrgv6nl5s21zrfd504k-gobject-introspection-1.74.0-dev",
-        "devdoc": "/nix/store/p8160w36hpbib9xsbni4419i3wd6k3kx-gobject-introspection-1.74.0-devdoc",
-        "man": "/nix/store/vapb144z051dgbysj3rsgn2gwxq4zqvv-gobject-introspection-1.74.0-man",
-        "out": "/nix/store/gpvw1m8kzaiskzf92xvz9yqv12djvdhr-gobject-introspection-1.74.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A middleware layer between C libraries and language bindings",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/gobject-introspection/default.nix:159",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gobject-introspection-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gpvw1m8kzaiskzf92xvz9yqv12djvdhr-gobject-introspection-1.74.0",
-        "/nix/store/vapb144z051dgbysj3rsgn2gwxq4zqvv-gobject-introspection-1.74.0-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.72.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.74.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.74.0",
+      "pname": "gobject-introspection",
+      "name": "gobject-introspection-1.74.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/y685d3s7l0wz74nfdkrm75n4sc6syfxm-gobject-introspection-1.74.0-dev",
+        "devdoc": "/nix/store/287r31wqs92rx29m75sahcbach7gzrzq-gobject-introspection-1.74.0-devdoc",
+        "man": "/nix/store/05drqafdkbx5k8zy6aain5k58aw2ma91-gobject-introspection-1.74.0-man",
+        "out": "/nix/store/z67ickckbahwc6dsgjw58mh1yjliyim2-gobject-introspection-1.74.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A middleware layer between C libraries and language bindings",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gobject-introspection/default.nix:159",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gobject-introspection-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z67ickckbahwc6dsgjw58mh1yjliyim2-gobject-introspection-1.74.0",
+        "/nix/store/05drqafdkbx5k8zy6aain5k58aw2ma91-gobject-introspection-1.74.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

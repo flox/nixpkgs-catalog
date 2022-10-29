@@ -1,23 +1,23 @@
 {
-  "0.16.1": {
+  "0.16.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.16.1",
+      "version": "0.16.2",
       "pname": "rnp",
-      "name": "rnp-0.16.1",
+      "name": "rnp-0.16.2",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/j6rvq85c0zqknng7zj7kcb3dsv49lzva-rnp-0.16.1-dev",
-        "lib": "/nix/store/vjnpbdivcc34yjfklj3baypqh1l8qznz-rnp-0.16.1-lib",
-        "out": "/nix/store/a1ns0lx0q5ay3bks1whipipv96r7ld9p-rnp-0.16.1"
+        "dev": "/nix/store/apgrnx0bmq0xjnap5ybfjpnrrx7p5djl-rnp-0.16.2-dev",
+        "lib": "/nix/store/1ffxbvmdjvxak3ha3wrc73rjh0g8hsw4-rnp-0.16.2-lib",
+        "out": "/nix/store/bcl2niical76zbg73c5chd9q7sdmvbbk-rnp-0.16.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/rnp/default.nix:51",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/rnp/default.nix:51",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/a1ns0lx0q5ay3bks1whipipv96r7ld9p-rnp-0.16.1"
+        "/nix/store/bcl2niical76zbg73c5chd9q7sdmvbbk-rnp-0.16.2"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.15.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.15.2",
-      "pname": "rnp",
-      "name": "rnp-0.15.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/7sww3xbv8ikmvydmfgxwihwya77zx5kn-rnp-0.15.2-dev",
-        "lib": "/nix/store/gi8rzmybq6dwwhya2gafz2h01gc09szp-rnp-0.15.2-lib",
-        "out": "/nix/store/nay93cx30nj0whir6c7fkkgw92hd8yh2-rnp-0.15.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/security/rnp/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "rnp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nay93cx30nj0whir6c7fkkgw92hd8yh2-rnp-0.15.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.15.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.2",
+      "pname": "rnp",
+      "name": "rnp-0.15.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/7sww3xbv8ikmvydmfgxwihwya77zx5kn-rnp-0.15.2-dev",
+        "lib": "/nix/store/gi8rzmybq6dwwhya2gafz2h01gc09szp-rnp-0.15.2-lib",
+        "out": "/nix/store/nay93cx30nj0whir6c7fkkgw92hd8yh2-rnp-0.15.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/security/rnp/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "rnp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nay93cx30nj0whir6c7fkkgw92hd8yh2-rnp-0.15.2"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

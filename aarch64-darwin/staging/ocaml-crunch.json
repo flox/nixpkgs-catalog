@@ -1,46 +1,4 @@
 {
-  "3.3.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.1",
-      "pname": "crunch",
-      "name": "ocaml4.14.0-crunch-3.3.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/kjnbwl4gsavyz9rwpqgyackq9p0fkdig-ocaml4.14.0-crunch-3.3.1-bin",
-        "lib": "/nix/store/z5k29nxy1xc6pmpqiwacvcdhg8bc3sn3-ocaml4.14.0-crunch-3.3.1-lib",
-        "out": "/nix/store/ihjfkpzn0fqffdbbr86kciqnb64l2m9n-ocaml4.14.0-crunch-3.3.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Convert a filesystem into a static OCaml module",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/ocaml/crunch/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "ocaml-crunch"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kjnbwl4gsavyz9rwpqgyackq9p0fkdig-ocaml4.14.0-crunch-3.3.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.3.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.1",
+      "pname": "crunch",
+      "name": "ocaml4.14.0-crunch-3.3.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/89ih7phfwcgv7hnkj4qqgslk54x51q74-ocaml4.14.0-crunch-3.3.1-bin",
+        "lib": "/nix/store/qbjb139rl5bxm60x5ksafdjf3mlnmfdg-ocaml4.14.0-crunch-3.3.1-lib",
+        "out": "/nix/store/z1bpc01bsw3shyamk2kffkapbdxian5k-ocaml4.14.0-crunch-3.3.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Convert a filesystem into a static OCaml module",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/ocaml/crunch/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "ocaml-crunch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/89ih7phfwcgv7hnkj4qqgslk54x51q74-ocaml4.14.0-crunch-3.3.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

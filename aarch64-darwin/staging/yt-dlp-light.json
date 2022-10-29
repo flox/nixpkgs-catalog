@@ -1,45 +1,4 @@
 {
-  "2022.10.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.10.4",
-      "pname": "yt-dlp",
-      "name": "yt-dlp-2022.10.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dist": "/nix/store/f26h9pgfagsvab3mmwayjq4p04kwz5qq-python3.10-yt-dlp-2022.10.4-dist",
-        "out": "/nix/store/b2407vcwv0ph4qrsvncpxfy84rr41pzd-python3.10-yt-dlp-2022.10.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/misc/yt-dlp/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "yt-dlp-light"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/b2407vcwv0ph4qrsvncpxfy84rr41pzd-python3.10-yt-dlp-2022.10.4"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2022.07.18": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2022.10.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.10.4",
+      "pname": "yt-dlp",
+      "name": "yt-dlp-2022.10.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/ass5lvml4nfq5nmpdc78bzk1aa0msx4r-python3.10-yt-dlp-2022.10.4-dist",
+        "out": "/nix/store/kfcf4zss21pw3w6brifps5gzx5qaxn2q-python3.10-yt-dlp-2022.10.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool to download videos from YouTube.com and other sites (youtube-dl fork)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/yt-dlp/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "yt-dlp-light"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kfcf4zss21pw3w6brifps5gzx5qaxn2q-python3.10-yt-dlp-2022.10.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

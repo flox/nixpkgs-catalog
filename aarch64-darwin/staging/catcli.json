@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.8.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.2",
-      "pname": "catcli",
-      "name": "catcli-0.8.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/fxdpd49dzar4cis8z9lg1kcb41y6kvww-catcli-0.8.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The command line catalog tool for your offline data",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/filesystems/catcli/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "catcli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fxdpd49dzar4cis8z9lg1kcb41y6kvww-catcli-0.8.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.8.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.2",
+      "pname": "catcli",
+      "name": "catcli-0.8.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/l5v6wdwy5wy9vac3ahj8dcrx5bc31jip-catcli-0.8.2-dist",
+        "out": "/nix/store/xfzcfb0by6glqpli5jqzb82lcigr6sja-catcli-0.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The command line catalog tool for your offline data",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/filesystems/catcli/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "catcli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xfzcfb0by6glqpli5jqzb82lcigr6sja-catcli-0.8.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

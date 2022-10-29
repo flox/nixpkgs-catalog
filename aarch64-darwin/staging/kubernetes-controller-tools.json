@@ -1,21 +1,21 @@
 {
-  "0.6.2": {
+  "0.10.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.6.2",
+      "version": "0.10.0",
       "pname": "controller-tools",
-      "name": "controller-tools-0.6.2",
+      "name": "controller-tools-0.10.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/85v2inbha9j6ycp5p1zl1b68yi2sq4af-controller-tools-0.6.2"
+        "out": "/nix/store/s4229wfd825mh189rf4gpmi8s29glzfr-controller-tools-0.10.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Tools to use with the Kubernetes controller-runtime libraries",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/85v2inbha9j6ycp5p1zl1b68yi2sq4af-controller-tools-0.6.2"
+        "/nix/store/s4229wfd825mh189rf4gpmi8s29glzfr-controller-tools-0.10.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.9.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.2",
-      "pname": "controller-tools",
-      "name": "controller-tools-0.9.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/m8nacq628y0qk8m8lz7c7pl6ja48wl0v-controller-tools-0.9.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools to use with the Kubernetes controller-runtime libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "kubernetes-controller-tools"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m8nacq628y0qk8m8lz7c7pl6ja48wl0v-controller-tools-0.9.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.2",
+      "pname": "controller-tools",
+      "name": "controller-tools-0.9.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/m8nacq628y0qk8m8lz7c7pl6ja48wl0v-controller-tools-0.9.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools to use with the Kubernetes controller-runtime libraries",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/kubernetes-controller-tools/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "kubernetes-controller-tools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m8nacq628y0qk8m8lz7c7pl6ja48wl0v-controller-tools-0.9.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }
