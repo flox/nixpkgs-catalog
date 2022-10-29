@@ -40,47 +40,6 @@
       }
     }
   },
-  "0.3.21": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.21",
-      "pname": "openblas",
-      "name": "openblas-0.3.21",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/zd79rvvwk9x2irkv8bqmc90k4hkd5xpc-openblas-0.3.21-dev",
-        "out": "/nix/store/2y71ci2p86amcw9hbwrixq1a5yyw3s1g-openblas-0.3.21"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Basic Linear Algebra Subprograms",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/science/math/openblas/default.nix:246",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "openblasCompat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2y71ci2p86amcw9hbwrixq1a5yyw3s1g-openblas-0.3.21"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.3.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.3.21": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.21",
+      "pname": "openblas",
+      "name": "openblas-0.3.21",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/z3c1mbg7bkxpvw00xph8vgy8yas1nay0-openblas-0.3.21-dev",
+        "out": "/nix/store/zskb8s1kbmscrzylmmf3qznxhs10sjcb-openblas-0.3.21"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Basic Linear Algebra Subprograms",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/science/math/openblas/default.nix:252",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "openblasCompat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zskb8s1kbmscrzylmmf3qznxhs10sjcb-openblas-0.3.21"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

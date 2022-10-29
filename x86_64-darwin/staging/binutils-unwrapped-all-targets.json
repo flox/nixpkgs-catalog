@@ -1,48 +1,4 @@
 {
-  "2.39": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.39",
-      "pname": "binutils",
-      "name": "binutils-2.39",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "info": "/nix/store/k2pdyq7sm5099c3qibpbr0ykx8c7d4qk-binutils-2.39-info",
-        "man": "/nix/store/5b9rligshca8fpp7227nlvzcilkwnqq1-binutils-2.39-man",
-        "out": "/nix/store/a3dw21n7c718hy6wgwvcb8vrq1wq30il-binutils-2.39"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/misc/binutils/default.nix:209",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "binutils-unwrapped-all-targets"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a3dw21n7c718hy6wgwvcb8vrq1wq30il-binutils-2.39",
-        "/nix/store/5b9rligshca8fpp7227nlvzcilkwnqq1-binutils-2.39-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.38": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.39": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.39",
+      "pname": "binutils",
+      "name": "binutils-2.39",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "info": "/nix/store/91jcj7s9avvr3nrqgy783qb2ymy6ijyq-binutils-2.39-info",
+        "man": "/nix/store/ys6qv0600h3s9yfn1lxlb2crwdxyg750-binutils-2.39-man",
+        "out": "/nix/store/9wkbbq44qiy1bzknyf2q4xg1x2alnarb-binutils-2.39"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tools for manipulating binaries (linker, assembler, etc.)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/binutils/default.nix:209",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "binutils-unwrapped-all-targets"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9wkbbq44qiy1bzknyf2q4xg1x2alnarb-binutils-2.39",
+        "/nix/store/ys6qv0600h3s9yfn1lxlb2crwdxyg750-binutils-2.39-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

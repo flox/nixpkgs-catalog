@@ -1,23 +1,23 @@
 {
-  "0.5.0": {
+  "0.7.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5.0",
+      "version": "0.7.0",
       "pname": "nghttp3",
-      "name": "nghttp3-0.5.0",
+      "name": "nghttp3-0.7.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/205pr1h9x8vingi853s4nihfzjjzaibl-nghttp3-0.5.0-dev",
-        "doc": "/nix/store/nlgxsa68hp296i2pkjswyg79q0ync3i5-nghttp3-0.5.0-doc",
-        "out": "/nix/store/8wmgzm5ayf6srjaxbhyn6v266p45qmdf-nghttp3-0.5.0"
+        "dev": "/nix/store/3y9jmkyb0ffyfk4bd1hz57scm857xgx8-nghttp3-0.7.0-dev",
+        "doc": "/nix/store/3x7gs5d9ww94rbma7wr906685y5zqwl7-nghttp3-0.7.0-doc",
+        "out": "/nix/store/6i6mlismx9nsqmy25p8sl8ccw2pwbys4-nghttp3-0.7.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "nghttp3 is an implementation of HTTP/3 mapping over QUIC and QPACK in C.",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/nghttp3/default.nix:31",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nghttp3/default.nix:31",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/8wmgzm5ayf6srjaxbhyn6v266p45qmdf-nghttp3-0.5.0"
+        "/nix/store/6i6mlismx9nsqmy25p8sl8ccw2pwbys4-nghttp3-0.7.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "0.6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.0",
-      "pname": "nghttp3",
-      "name": "nghttp3-0.6.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/4dia17564i8m70p68hb8fdxkrqfq10a4-nghttp3-0.6.0-dev",
-        "doc": "/nix/store/4bc1m1c417vpi46rxbmh1d0h90nxf0rm-nghttp3-0.6.0-doc",
-        "out": "/nix/store/h6zy5x1djcym5clr9xb2r5iq3lmkhn9z-nghttp3-0.6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "nghttp3 is an implementation of HTTP/3 mapping over QUIC and QPACK in C.",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nghttp3/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nghttp3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h6zy5x1djcym5clr9xb2r5iq3lmkhn9z-nghttp3-0.6.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "nghttp3",
+      "name": "nghttp3-0.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/4dia17564i8m70p68hb8fdxkrqfq10a4-nghttp3-0.6.0-dev",
+        "doc": "/nix/store/4bc1m1c417vpi46rxbmh1d0h90nxf0rm-nghttp3-0.6.0-doc",
+        "out": "/nix/store/h6zy5x1djcym5clr9xb2r5iq3lmkhn9z-nghttp3-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "nghttp3 is an implementation of HTTP/3 mapping over QUIC and QPACK in C.",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nghttp3/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nghttp3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h6zy5x1djcym5clr9xb2r5iq3lmkhn9z-nghttp3-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

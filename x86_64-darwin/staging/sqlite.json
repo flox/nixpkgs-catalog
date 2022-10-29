@@ -1,23 +1,23 @@
 {
-  "3.39.2": {
+  "3.39.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.39.2",
+      "version": "3.39.4",
       "pname": "sqlite",
-      "name": "sqlite-3.39.2",
+      "name": "sqlite-3.39.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "bin": "/nix/store/7dpgzh1780pl23n47krm662355mdv3fp-sqlite-3.39.2-bin",
-        "dev": "/nix/store/cqfpyw2npl00salwlxy82iidr5fsjsmr-sqlite-3.39.2-dev",
-        "out": "/nix/store/d35pgip9264q9myr1p49x8hic837r294-sqlite-3.39.2"
+        "bin": "/nix/store/lyl5aabkxlapsv5ijlhmf9kr3p6whjxs-sqlite-3.39.4-bin",
+        "dev": "/nix/store/p21vawvyqpfqfsrfay178ki6q6kpj1hs-sqlite-3.39.4-dev",
+        "out": "/nix/store/9smx93bfd06p9b5k2x8fcckq2cvh1s9l-sqlite-3.39.4"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/sqlite/default.nix:98",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/sqlite/default.nix:98",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/7dpgzh1780pl23n47krm662355mdv3fp-sqlite-3.39.2-bin"
+        "/nix/store/lyl5aabkxlapsv5ijlhmf9kr3p6whjxs-sqlite-3.39.4-bin"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "3.39.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.39.1",
-      "pname": "sqlite",
-      "name": "sqlite-3.39.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/lljn5qhw1ncyw0zy0bqlhj5abcnn0dvn-sqlite-3.39.1-bin",
-        "dev": "/nix/store/17zyrdbxn61blsir3far97pr2w4aw8rk-sqlite-3.39.1-dev",
-        "out": "/nix/store/1fw6fqdbbd06bchdycj7ja7imlgdgjbk-sqlite-3.39.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/sqlite/default.nix:98",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "sqlite"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lljn5qhw1ncyw0zy0bqlhj5abcnn0dvn-sqlite-3.39.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.39.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.39.1",
+      "pname": "sqlite",
+      "name": "sqlite-3.39.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/lljn5qhw1ncyw0zy0bqlhj5abcnn0dvn-sqlite-3.39.1-bin",
+        "dev": "/nix/store/17zyrdbxn61blsir3far97pr2w4aw8rk-sqlite-3.39.1-dev",
+        "out": "/nix/store/1fw6fqdbbd06bchdycj7ja7imlgdgjbk-sqlite-3.39.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/sqlite/default.nix:98",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sqlite"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lljn5qhw1ncyw0zy0bqlhj5abcnn0dvn-sqlite-3.39.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

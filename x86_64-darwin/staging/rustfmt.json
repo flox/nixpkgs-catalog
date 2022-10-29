@@ -1,21 +1,21 @@
 {
-  "1.60.0": {
+  "1.64.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.60.0",
+      "version": "1.64.0",
       "pname": "rustfmt",
-      "name": "rustfmt-1.60.0",
+      "name": "rustfmt-1.64.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/74py2p8qplg7bhlhdvq1s134lhl2zhrq-rustfmt-1.60.0"
+        "out": "/nix/store/34g09qzzn4kd7v7vh779wv4iqsbjc9i0-rustfmt-1.64.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A tool for formatting Rust code according to style guidelines",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/rust/rustfmt.nix:25",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/rust/rustfmt.nix:25",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/74py2p8qplg7bhlhdvq1s134lhl2zhrq-rustfmt-1.60.0"
+        "/nix/store/34g09qzzn4kd7v7vh779wv4iqsbjc9i0-rustfmt-1.64.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.62.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.62.1",
-      "pname": "rustfmt",
-      "name": "rustfmt-1.62.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/5nxsz2a8dlb87z8q6zfhf3lm3gcqhhgl-rustfmt-1.62.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool for formatting Rust code according to style guidelines",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/rust/rustfmt.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "rustfmt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5nxsz2a8dlb87z8q6zfhf3lm3gcqhhgl-rustfmt-1.62.1"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.62.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.62.1",
+      "pname": "rustfmt",
+      "name": "rustfmt-1.62.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/5nxsz2a8dlb87z8q6zfhf3lm3gcqhhgl-rustfmt-1.62.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool for formatting Rust code according to style guidelines",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/rust/rustfmt.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "rustfmt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5nxsz2a8dlb87z8q6zfhf3lm3gcqhhgl-rustfmt-1.62.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "18.3.0": {
+  "18.10.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "18.3.0",
+      "version": "18.10.0",
       "pname": "nodejs-slim",
-      "name": "nodejs-slim-18.3.0",
+      "name": "nodejs-slim-18.10.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "libv8": "/nix/store/i62cacaxd962xr0c3sfq2kpd014g07vd-nodejs-slim-18.3.0-libv8",
-        "out": "/nix/store/pahg4ql0qwh43bc1aynhzn18xbalvsii-nodejs-slim-18.3.0"
+        "libv8": "/nix/store/b2v9r94ivcn5rbpbc02b2kgcw903rc1x-nodejs-slim-18.10.0-libv8",
+        "out": "/nix/store/f6d1bssh5i7738r4670f9h5zlsd95c04-nodejs-slim-18.10.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/web/nodejs/v18.nix:10",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/pahg4ql0qwh43bc1aynhzn18xbalvsii-nodejs-slim-18.3.0"
+        "/nix/store/f6d1bssh5i7738r4670f9h5zlsd95c04-nodejs-slim-18.10.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "18.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "18.4.0",
-      "pname": "nodejs-slim",
-      "name": "nodejs-slim-18.4.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "libv8": "/nix/store/8pv8xpdya5dkcymk4ciqrfvnrf9fryra-nodejs-slim-18.4.0-libv8",
-        "out": "/nix/store/7f1sqsrl3pg1hz6jp3misx0ygkj6nh5p-nodejs-slim-18.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Event-driven I/O framework for the V8 JavaScript engine",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/web/nodejs/v18.nix:10",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nodejs-slim_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7f1sqsrl3pg1hz6jp3misx0ygkj6nh5p-nodejs-slim-18.4.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "18.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "18.4.0",
+      "pname": "nodejs-slim",
+      "name": "nodejs-slim-18.4.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "libv8": "/nix/store/8pv8xpdya5dkcymk4ciqrfvnrf9fryra-nodejs-slim-18.4.0-libv8",
+        "out": "/nix/store/7f1sqsrl3pg1hz6jp3misx0ygkj6nh5p-nodejs-slim-18.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Event-driven I/O framework for the V8 JavaScript engine",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/web/nodejs/v18.nix:10",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nodejs-slim_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7f1sqsrl3pg1hz6jp3misx0ygkj6nh5p-nodejs-slim-18.4.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

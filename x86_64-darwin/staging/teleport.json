@@ -1,22 +1,22 @@
 {
-  "8.0.6": {
+  "10.3.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "8.0.6",
+      "version": "10.3.1",
       "pname": "teleport",
-      "name": "teleport-8.0.6",
+      "name": "teleport-10.3.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "client": "/nix/store/2pk2ywpx3lmy75b326a186dzrqgnv44k-teleport-8.0.6-client",
-        "out": "/nix/store/zwb1qdg9y236v66zndc19v9gdp2b799c-teleport-8.0.6"
+        "client": "/nix/store/gl82q9n0k3ss9m6g2fr5vb0zjamh69vc-teleport-10.3.1-client",
+        "out": "/nix/store/w8kbiiyyk83313sy1vvs6zdf44sx7b7r-teleport-10.3.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Certificate authority and access plane for SSH, Kubernetes, web applications, and databases",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/teleport/default.nix:102",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/teleport/default.nix:122",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zwb1qdg9y236v66zndc19v9gdp2b799c-teleport-8.0.6"
+        "/nix/store/w8kbiiyyk83313sy1vvs6zdf44sx7b7r-teleport-10.3.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -78,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "8.0.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.0.6",
+      "pname": "teleport",
+      "name": "teleport-8.0.6",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "client": "/nix/store/2pk2ywpx3lmy75b326a186dzrqgnv44k-teleport-8.0.6-client",
+        "out": "/nix/store/zwb1qdg9y236v66zndc19v9gdp2b799c-teleport-8.0.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Certificate authority and access plane for SSH, Kubernetes, web applications, and databases",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/teleport/default.nix:102",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "teleport"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zwb1qdg9y236v66zndc19v9gdp2b799c-teleport-8.0.6"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

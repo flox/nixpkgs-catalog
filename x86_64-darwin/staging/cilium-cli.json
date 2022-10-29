@@ -1,21 +1,21 @@
 {
-  "0.11.7": {
+  "0.12.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.11.7",
+      "version": "0.12.5",
       "pname": "cilium-cli",
-      "name": "cilium-cli-0.11.7",
+      "name": "cilium-cli-0.12.5",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/l6l0xswvvjhczg9adqq5j0v9nldjflnh-cilium-cli-0.11.7"
+        "out": "/nix/store/5mmdj13l5j2hhpyy2irvxpg53ha1nnay-cilium-cli-0.12.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/cluster/cilium/default.nix:17",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/cilium/default.nix:41",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l6l0xswvvjhczg9adqq5j0v9nldjflnh-cilium-cli-0.11.7"
+        "/nix/store/5mmdj13l5j2hhpyy2irvxpg53ha1nnay-cilium-cli-0.12.5"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.11.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.10",
-      "pname": "cilium-cli",
-      "name": "cilium-cli-0.11.10",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/3h7d2grv9cw6k66brwrvhy557z6pq6hx-cilium-cli-0.11.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/cluster/cilium/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "cilium-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3h7d2grv9cw6k66brwrvhy557z6pq6hx-cilium-cli-0.11.10"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "0.11.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.10",
+      "pname": "cilium-cli",
+      "name": "cilium-cli-0.11.10",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/3h7d2grv9cw6k66brwrvhy557z6pq6hx-cilium-cli-0.11.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI to install, manage & troubleshoot Kubernetes clusters running Cilium",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/cluster/cilium/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cilium-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3h7d2grv9cw6k66brwrvhy557z6pq6hx-cilium-cli-0.11.10"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

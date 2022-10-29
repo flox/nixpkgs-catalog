@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.6.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.3",
-      "pname": "cfssl",
-      "name": "cfssl-1.6.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/959w2gdjw88ml6fjyz7v6j3wfhxcc8ck-cfssl-1.6.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cloudflare's PKI and TLS toolkit",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/security/cfssl/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "cfssl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/959w2gdjw88ml6fjyz7v6j3wfhxcc8ck-cfssl-1.6.3"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.6.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.3",
+      "pname": "cfssl",
+      "name": "cfssl-1.6.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/h67687rn8cqjm401370qaj9sc1bn6dib-cfssl-1.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cloudflare's PKI and TLS toolkit",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/cfssl/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "cfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h67687rn8cqjm401370qaj9sc1bn6dib-cfssl-1.6.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

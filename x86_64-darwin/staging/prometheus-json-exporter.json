@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.0",
-      "pname": "prometheus-json-exporter",
-      "name": "prometheus-json-exporter-0.5.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/lq0q6k1k0bj9qxzfq6r8s195qz7p83hn-prometheus-json-exporter-0.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A prometheus exporter which scrapes remote JSON by JSONPath",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/json-exporter.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "prometheus-json-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lq0q6k1k0bj9qxzfq6r8s195qz7p83hn-prometheus-json-exporter-0.5.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "prometheus-json-exporter",
+      "name": "prometheus-json-exporter-0.5.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/87pkp5y7y2ns0l5s9gmzwlczdyq82864-prometheus-json-exporter-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A prometheus exporter which scrapes remote JSON by JSONPath",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/prometheus/json-exporter.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "prometheus-json-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/87pkp5y7y2ns0l5s9gmzwlczdyq82864-prometheus-json-exporter-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

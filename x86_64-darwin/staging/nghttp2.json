@@ -1,47 +1,4 @@
 {
-  "1.49.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.49.0",
-      "pname": "nghttp2",
-      "name": "nghttp2-1.49.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/k75jkr47zycq0krh6ni7nqmvm8mngjnl-nghttp2-1.49.0-bin",
-        "dev": "/nix/store/f1hz1d9j0ampdi26qn14p6xvw5cg0czw-nghttp2-1.49.0-dev",
-        "lib": "/nix/store/icys7zq0xqylpqzfw6fmqn04ak1qgn4c-nghttp2-1.49.0-lib",
-        "out": "/nix/store/5vk7hfh6ngasa5hzmsnmvky6llvqqc70-nghttp2-1.49.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "HTTP/2 C library and tools",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/nghttp2/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nghttp2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k75jkr47zycq0krh6ni7nqmvm8mngjnl-nghttp2-1.49.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.43.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.49.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.49.0",
+      "pname": "nghttp2",
+      "name": "nghttp2-1.49.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/dndq77yhy255kj9460fgvq8cyd9nwqy1-nghttp2-1.49.0-bin",
+        "dev": "/nix/store/k7rbakx04kwnnf91g1r97ib5pgagdy6k-nghttp2-1.49.0-dev",
+        "lib": "/nix/store/2ycrkny94braks4v5y5bk222a2yrdzr8-nghttp2-1.49.0-lib",
+        "out": "/nix/store/1bcvv046p9m2mxp1v4jj68hrasfvfhy0-nghttp2-1.49.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "HTTP/2 C library and tools",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nghttp2/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nghttp2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dndq77yhy255kj9460fgvq8cyd9nwqy1-nghttp2-1.49.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

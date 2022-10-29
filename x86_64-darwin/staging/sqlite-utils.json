@@ -1,21 +1,22 @@
 {
-  "3.27": {
+  "3.29": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.27",
+      "version": "3.29",
       "pname": "sqlite-utils",
-      "name": "sqlite-utils-3.27",
+      "name": "sqlite-utils-3.29",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/zy465jii2xihkqn7sv9pb31nqa7hx15y-python3.10-sqlite-utils-3.27"
+        "dist": "/nix/store/il010rabzjx0hk0kd92rbxvxkc8p9mvs-python3.10-sqlite-utils-3.29-dist",
+        "out": "/nix/store/1f21s6dbjxvr4ps9yfqq92n1kq81h4ws-python3.10-sqlite-utils-3.29"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Python CLI utility and library for manipulating SQLite databases",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/python-modules/sqlite-utils/default.nix:50",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/sqlite-utils/default.nix:50",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zy465jii2xihkqn7sv9pb31nqa7hx15y-python3.10-sqlite-utils-3.27"
+        "/nix/store/1f21s6dbjxvr4ps9yfqq92n1kq81h4ws-python3.10-sqlite-utils-3.29"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
-  "3.28": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.28",
-      "pname": "sqlite-utils",
-      "name": "sqlite-utils-3.28",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/h3lqly56gz2rkjiaxc1xzdgpj74gs0cq-python3.10-sqlite-utils-3.28"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python CLI utility and library for manipulating SQLite databases",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/sqlite-utils/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "sqlite-utils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h3lqly56gz2rkjiaxc1xzdgpj74gs0cq-python3.10-sqlite-utils-3.28"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.28": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.28",
+      "pname": "sqlite-utils",
+      "name": "sqlite-utils-3.28",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/h3lqly56gz2rkjiaxc1xzdgpj74gs0cq-python3.10-sqlite-utils-3.28"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python CLI utility and library for manipulating SQLite databases",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/sqlite-utils/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sqlite-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h3lqly56gz2rkjiaxc1xzdgpj74gs0cq-python3.10-sqlite-utils-3.28"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

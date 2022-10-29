@@ -1,45 +1,4 @@
 {
-  "0.20.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.20.6",
-      "pname": "libgee",
-      "name": "libgee-0.20.6",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/bj0nfgr6vk9f0armys0sg279ggs028cb-libgee-0.20.6-dev",
-        "out": "/nix/store/pr64s56bi14jxzdfzm05xyzzvcmg08j7-libgee-0.20.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Utility library providing GObject-based interfaces and classes for commonly used data structures",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libgee/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libgee"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pr64s56bi14jxzdfzm05xyzzvcmg08j7-libgee-0.20.6"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.20.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.20.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.20.6",
+      "pname": "libgee",
+      "name": "libgee-0.20.6",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/lm09idg2pdmbr1mz9kw06pqqvcp3cya0-libgee-0.20.6-dev",
+        "out": "/nix/store/gmbrs5w6jdkhffysjaqgr30xn2pggl53-libgee-0.20.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Utility library providing GObject-based interfaces and classes for commonly used data structures",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libgee/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libgee"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gmbrs5w6jdkhffysjaqgr30xn2pggl53-libgee-0.20.6"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

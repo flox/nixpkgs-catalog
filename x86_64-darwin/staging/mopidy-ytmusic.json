@@ -1,44 +1,4 @@
 {
-  "0.3.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.7",
-      "pname": "mopidy-ytmusic",
-      "name": "mopidy-ytmusic-0.3.7",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/y1inl9b06gav1hl9vc3lf6kf4z7hpldw-mopidy-ytmusic-0.3.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mopidy extension for playing music from YouTube Music",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/mopidy/ytmusic.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mopidy-ytmusic"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y1inl9b06gav1hl9vc3lf6kf4z7hpldw-mopidy-ytmusic-0.3.7"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.3.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.3.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.7",
+      "pname": "mopidy-ytmusic",
+      "name": "mopidy-ytmusic-0.3.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/8c48aa94z7z23zf4hfqyvr21sxvlwq9c-mopidy-ytmusic-0.3.7-dist",
+        "out": "/nix/store/7kk4g7kpnvn5xl1zxv9xrwacskh47v8q-mopidy-ytmusic-0.3.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mopidy extension for playing music from YouTube Music",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/mopidy/ytmusic.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mopidy-ytmusic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7kk4g7kpnvn5xl1zxv9xrwacskh47v8q-mopidy-ytmusic-0.3.7"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

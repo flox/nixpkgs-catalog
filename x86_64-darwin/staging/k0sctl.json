@@ -1,21 +1,21 @@
 {
-  "0.12.6": {
+  "0.14.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.12.6",
+      "version": "0.14.0",
       "pname": "k0sctl",
-      "name": "k0sctl-0.12.6",
+      "name": "k0sctl-0.14.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/s3a730599jg9vw6wrvg4ak3g1drhlad5-k0sctl-0.12.6"
+        "out": "/nix/store/kf3rcfpnxns4nqggcj76ky6jsdp97v6c-k0sctl-0.14.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A bootstrapping and management tool for k0s clusters.",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/cluster/k0sctl/default.nix:45",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/k0sctl/default.nix:37",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/s3a730599jg9vw6wrvg4ak3g1drhlad5-k0sctl-0.12.6"
+        "/nix/store/kf3rcfpnxns4nqggcj76ky6jsdp97v6c-k0sctl-0.14.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.13.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.2",
-      "pname": "k0sctl",
-      "name": "k0sctl-0.13.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/axcl91qlz8gl16vfminf8f4ns4a83rhp-k0sctl-0.13.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A bootstrapping and management tool for k0s clusters.",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/k0sctl/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "k0sctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/axcl91qlz8gl16vfminf8f4ns4a83rhp-k0sctl-0.13.2"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.13.2",
+      "pname": "k0sctl",
+      "name": "k0sctl-0.13.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/axcl91qlz8gl16vfminf8f4ns4a83rhp-k0sctl-0.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A bootstrapping and management tool for k0s clusters.",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/k0sctl/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "k0sctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/axcl91qlz8gl16vfminf8f4ns4a83rhp-k0sctl-0.13.2"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

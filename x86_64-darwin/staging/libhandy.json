@@ -1,23 +1,23 @@
 {
-  "1.5.0": {
+  "1.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.5.0",
+      "version": "1.8.0",
       "pname": "libhandy",
-      "name": "libhandy-1.5.0",
+      "name": "libhandy-1.8.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/z65aaw90w82c3ycyw4xk2dkwasqy81x3-libhandy-1.5.0-dev",
-        "devdoc": "/nix/store/7wsws0rl7v9x37c3fcyapl57s71ggk2p-libhandy-1.5.0-devdoc",
-        "out": "/nix/store/n2x7laa3k5dca9rr8yq9p7ihx78mnnsi-libhandy-1.5.0"
+        "dev": "/nix/store/rzjxhf4rwzxkd39fmml34cbx9n49wzma-libhandy-1.8.0-dev",
+        "devdoc": "/nix/store/nhpri07dinjvmrch9bn2xjaskjdsj6vx-libhandy-1.8.0-devdoc",
+        "out": "/nix/store/ji2aip1g29zyb4yfxmb0xw9h1lynxys0-libhandy-1.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Building blocks for modern adaptive GNOME apps",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/libhandy/default.nix:128",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libhandy/default.nix:134",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/n2x7laa3k5dca9rr8yq9p7ihx78mnnsi-libhandy-1.5.0"
+        "/nix/store/ji2aip1g29zyb4yfxmb0xw9h1lynxys0-libhandy-1.8.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "1.6.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.3",
-      "pname": "libhandy",
-      "name": "libhandy-1.6.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/256izxwgdpk35kri7wqnd41crhkdc5sc-libhandy-1.6.3-dev",
-        "devdoc": "/nix/store/5s848rjgmgaljdg33p0w7v0kk6jjzvnn-libhandy-1.6.3-devdoc",
-        "out": "/nix/store/w2fix5hwlc6brklzrzw9in3digsvcvna-libhandy-1.6.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Building blocks for modern adaptive GNOME apps",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libhandy/default.nix:132",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libhandy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w2fix5hwlc6brklzrzw9in3digsvcvna-libhandy-1.6.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.3",
+      "pname": "libhandy",
+      "name": "libhandy-1.6.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/256izxwgdpk35kri7wqnd41crhkdc5sc-libhandy-1.6.3-dev",
+        "devdoc": "/nix/store/5s848rjgmgaljdg33p0w7v0kk6jjzvnn-libhandy-1.6.3-devdoc",
+        "out": "/nix/store/w2fix5hwlc6brklzrzw9in3digsvcvna-libhandy-1.6.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Building blocks for modern adaptive GNOME apps",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libhandy/default.nix:132",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libhandy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w2fix5hwlc6brklzrzw9in3digsvcvna-libhandy-1.6.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,23 +1,23 @@
 {
-  "0.6.5": {
+  "0.6.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.6.5",
+      "version": "0.6.6",
       "pname": "libopenmpt",
-      "name": "libopenmpt-0.6.5",
+      "name": "libopenmpt-0.6.6",
       "system": "x86_64-darwin",
       "outputs": {
-        "bin": "/nix/store/07lfghyxkmpshjmambrcy0x3yxakz2cs-libopenmpt-0.6.5-bin",
-        "dev": "/nix/store/4c6kgxhyhbqfvl0kgjci19xcp33i667z-libopenmpt-0.6.5-dev",
-        "out": "/nix/store/givxg9d4nf6psaai2r2r4ga28dgx8skx-libopenmpt-0.6.5"
+        "bin": "/nix/store/2i85mcfb46sbgqx7gnylv57xz4lq5vrc-libopenmpt-0.6.6-bin",
+        "dev": "/nix/store/j3myifkf35zsszc6j4chdhisap4qxg1z-libopenmpt-0.6.6-dev",
+        "out": "/nix/store/25aclmvjnsbfmqwymq8c0g7vax641yjz-libopenmpt-0.6.6"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "Cross-platform C++ and C library to decode tracked music files into a raw PCM audio stream",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/audio/libopenmpt/default.nix:55",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/audio/libopenmpt/default.nix:55",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/07lfghyxkmpshjmambrcy0x3yxakz2cs-libopenmpt-0.6.5-bin"
+        "/nix/store/2i85mcfb46sbgqx7gnylv57xz4lq5vrc-libopenmpt-0.6.6-bin"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
-  "0.6.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.4",
-      "pname": "libopenmpt",
-      "name": "libopenmpt-0.6.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/x93h7rn9ljgkxfra96hjc4yj4hfwrd4y-libopenmpt-0.6.4-bin",
-        "dev": "/nix/store/grbr93waj7lc1ykiw7qr12qsr00a6n47-libopenmpt-0.6.4-dev",
-        "out": "/nix/store/452wxabhl4dzvb7359z2nl7h8rd3c3l3-libopenmpt-0.6.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Cross-platform C++ and C library to decode tracked music files into a raw PCM audio stream",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/audio/libopenmpt/default.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "openmpt123"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x93h7rn9ljgkxfra96hjc4yj4hfwrd4y-libopenmpt-0.6.4-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.6.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.4",
+      "pname": "libopenmpt",
+      "name": "libopenmpt-0.6.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/x93h7rn9ljgkxfra96hjc4yj4hfwrd4y-libopenmpt-0.6.4-bin",
+        "dev": "/nix/store/grbr93waj7lc1ykiw7qr12qsr00a6n47-libopenmpt-0.6.4-dev",
+        "out": "/nix/store/452wxabhl4dzvb7359z2nl7h8rd3c3l3-libopenmpt-0.6.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Cross-platform C++ and C library to decode tracked music files into a raw PCM audio stream",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/audio/libopenmpt/default.nix:55",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "openmpt123"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x93h7rn9ljgkxfra96hjc4yj4hfwrd4y-libopenmpt-0.6.4-bin"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

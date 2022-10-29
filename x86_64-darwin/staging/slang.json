@@ -1,49 +1,4 @@
 {
-  "2.3.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.3",
-      "pname": "slang",
-      "name": "slang-2.3.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/9f4r1c63m5hva4kvjf5lryp24n42i0h0-slang-2.3.3-dev",
-        "doc": "/nix/store/a56p1xlk1zsap70rn4pmjsf768fr7nsh-slang-2.3.3-doc",
-        "man": "/nix/store/6qf2mwz5f12pkiy8vmpzfyfdwpi1c31p-slang-2.3.3-man",
-        "out": "/nix/store/qq5yf928pzw9119p2gadbfaimq7cn7w7-slang-2.3.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A small, embeddable multi-platform programming library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/slang/default.nix:75",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "slang"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qq5yf928pzw9119p2gadbfaimq7cn7w7-slang-2.3.3",
-        "/nix/store/6qf2mwz5f12pkiy8vmpzfyfdwpi1c31p-slang-2.3.3-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.3.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.3",
+      "pname": "slang",
+      "name": "slang-2.3.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/k4d8qzyh54p3daf8gk4dmvfb7dz5zrw8-slang-2.3.3-dev",
+        "doc": "/nix/store/86ln81n71a8la0v19kzk2jgxlzi5w2pq-slang-2.3.3-doc",
+        "man": "/nix/store/pzapmcas5v20f2pilxhs0nbynsss5f1m-slang-2.3.3-man",
+        "out": "/nix/store/54cljff8ywfxw1ybflr5hq1v2fr6y0ni-slang-2.3.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A small, embeddable multi-platform programming library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/slang/default.nix:75",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "slang"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/54cljff8ywfxw1ybflr5hq1v2fr6y0ni-slang-2.3.3",
+        "/nix/store/pzapmcas5v20f2pilxhs0nbynsss5f1m-slang-2.3.3-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

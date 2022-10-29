@@ -1,23 +1,23 @@
 {
-  "22.0.2": {
+  "22.2.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "22.0.2",
+      "version": "22.2.1",
       "pname": "mesa",
-      "name": "mesa-22.0.2",
+      "name": "mesa-22.2.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/p2jgbbk6qza0hmj6v3126lpr6b03pgbi-mesa-22.0.2-dev",
-        "drivers": "/nix/store/ps0kvla168y2njdm9kkjdcsx38v4603n-mesa-22.0.2-drivers",
-        "out": "/nix/store/zc1vn1kqgl1kq3b6lmd5r4lw74xlxw2a-mesa-22.0.2"
+        "dev": "/nix/store/szgcnrxx6wzxq3mkc0ghfb3ljy2bjj8i-mesa-22.2.1-dev",
+        "drivers": "/nix/store/5hk1pfz8gcg15p39mzp0km8pa8mxmdj5-mesa-22.2.1-drivers",
+        "out": "/nix/store/mwibr6ncd3kdmbvggpb4rfqd05d834pr-mesa-22.2.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An open source 3D graphics library",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/mesa/default.nix:265",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/mesa/default.nix:253",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zc1vn1kqgl1kq3b6lmd5r4lw74xlxw2a-mesa-22.0.2"
+        "/nix/store/mwibr6ncd3kdmbvggpb4rfqd05d834pr-mesa-22.2.1"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "22.1.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.1.6",
-      "pname": "mesa",
-      "name": "mesa-22.1.6",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/cpb8hvy3simyswfafwi1nn4wl84i4xrh-mesa-22.1.6-dev",
-        "drivers": "/nix/store/2xjrziihhq7gwxp6bzmsrghw20427ipl-mesa-22.1.6-drivers",
-        "out": "/nix/store/zrnxif06194hi6hcb0ly685jnfqs0wms-mesa-22.1.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source 3D graphics library",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/mesa/default.nix:264",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mesa_drivers"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zrnxif06194hi6hcb0ly685jnfqs0wms-mesa-22.1.6"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "22.1.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.1.6",
+      "pname": "mesa",
+      "name": "mesa-22.1.6",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/cpb8hvy3simyswfafwi1nn4wl84i4xrh-mesa-22.1.6-dev",
+        "drivers": "/nix/store/2xjrziihhq7gwxp6bzmsrghw20427ipl-mesa-22.1.6-drivers",
+        "out": "/nix/store/zrnxif06194hi6hcb0ly685jnfqs0wms-mesa-22.1.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source 3D graphics library",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/mesa/default.nix:264",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mesa_drivers"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zrnxif06194hi6hcb0ly685jnfqs0wms-mesa-22.1.6"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

@@ -43,53 +43,6 @@
       }
     }
   },
-  "2.9.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.9.0.1",
-      "pname": "execline",
-      "name": "execline-2.9.0.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/5809r94hwamkbaylivq6qxgy66q148x9-execline-2.9.0.1-bin",
-        "dev": "/nix/store/k1c60b705hc0i5jxqynlajm6mr52zhjj-execline-2.9.0.1-dev",
-        "doc": "/nix/store/m92bi6c8pkjwl1vi5sgkzsizlfsjr9jg-execline-2.9.0.1-doc",
-        "lib": "/nix/store/62wg1k2m1vmxbqspk40nkxwrmsfzz1ss-execline-2.9.0.1-lib",
-        "man": "/nix/store/khgbz9xp8ad6nmk74anf7x0745zkwfk6-execline-2.9.0.1-man",
-        "out": "/nix/store/c33vi1fxzs7jh2bh69j4pr3m44rmybnf-execline-2.9.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A small scripting language, to be used in place of a shell in non-interactive scripts",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "execline"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5809r94hwamkbaylivq6qxgy66q148x9-execline-2.9.0.1-bin",
-        "/nix/store/khgbz9xp8ad6nmk74anf7x0745zkwfk6-execline-2.9.0.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.8.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -134,6 +87,53 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.9.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9.0.1",
+      "pname": "execline",
+      "name": "execline-2.9.0.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/0acxifq3baa2z1ppqvsyf54kqjpja2nf-execline-2.9.0.1-bin",
+        "dev": "/nix/store/f5080dhc06dbhaf4v4vc5l8d5zgm0b80-execline-2.9.0.1-dev",
+        "doc": "/nix/store/aqrr5wr0sn4a6fw33hjfd79v65x8z8j8-execline-2.9.0.1-doc",
+        "lib": "/nix/store/vylj2ckf46cf6byxyhpixjky37ymxqx4-execline-2.9.0.1-lib",
+        "man": "/nix/store/a39d841y3338rrdra0168y760bfyhjcm-execline-2.9.0.1-man",
+        "out": "/nix/store/diphhvvph5mzsqp89s8zzp1nqpf10lzw-execline-2.9.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A small scripting language, to be used in place of a shell in non-interactive scripts",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "execline"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0acxifq3baa2z1ppqvsyf54kqjpja2nf-execline-2.9.0.1-bin",
+        "/nix/store/a39d841y3338rrdra0168y760bfyhjcm-execline-2.9.0.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

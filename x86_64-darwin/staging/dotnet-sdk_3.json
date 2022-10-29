@@ -1,21 +1,21 @@
 {
-  "3.1.402": {
+  "3.1.424": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.1.402",
+      "version": "3.1.424",
       "pname": "dotnet-sdk",
-      "name": "dotnet-sdk-3.1.402",
+      "name": "dotnet-sdk-3.1.424",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/5zmc2h2mjgrxvayn9mjqvawaamca6giv-dotnet-sdk-3.1.402"
+        "out": "/nix/store/3iz55g1r31cnpn0q266vyq1541gk476y-dotnet-sdk-3.1.424"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": ".NET SDK 3.1.402",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/dotnet/build-dotnet.nix:87",
+        "description": ".NET SDK 3.1.424",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/dotnet/build-dotnet.nix:166",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5zmc2h2mjgrxvayn9mjqvawaamca6giv-dotnet-sdk-3.1.402"
+        "/nix/store/3iz55g1r31cnpn0q266vyq1541gk476y-dotnet-sdk-3.1.424"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.1.402": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.402",
+      "pname": "dotnet-sdk",
+      "name": "dotnet-sdk-3.1.402",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/5zmc2h2mjgrxvayn9mjqvawaamca6giv-dotnet-sdk-3.1.402"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": ".NET SDK 3.1.402",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/dotnet/build-dotnet.nix:87",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dotnet-sdk_3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5zmc2h2mjgrxvayn9mjqvawaamca6giv-dotnet-sdk-3.1.402"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

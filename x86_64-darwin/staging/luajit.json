@@ -1,21 +1,21 @@
 {
-  "2.1.0-2021-06-25": {
+  "2.1.0-2022-10-04": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.1.0-2021-06-25",
-      "pname": null,
-      "name": "luajit-2.1.0-2021-06-25",
+      "version": "2.1.0-2022-10-04",
+      "pname": "luajit",
+      "name": "luajit-2.1.0-2022-10-04",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/j3axp86kj1cs0k813bpz53mdc8xdbc1y-luajit-2.1.0-2021-06-25"
+        "out": "/nix/store/7r5mbzak4g7wmry53ch67bngvdfp8q4g-luajit-2.1.0-2022-10-04"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "High-performance JIT compiler for Lua 5.1",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/interpreters/luajit/default.nix:103",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/luajit/default.nix:126",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j3axp86kj1cs0k813bpz53mdc8xdbc1y-luajit-2.1.0-2021-06-25"
+        "/nix/store/7r5mbzak4g7wmry53ch67bngvdfp8q4g-luajit-2.1.0-2022-10-04"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "2.1.0-2021-10-27": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.0-2021-10-27",
-      "pname": null,
-      "name": "luajit-2.1.0-2021-10-27",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/g1p0d5fjgg3vzz6xs08v4w6w3hf4h239-luajit-2.1.0-2021-10-27"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High-performance JIT compiler for Lua 5.1",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/interpreters/luajit/default.nix:112",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "luajit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g1p0d5fjgg3vzz6xs08v4w6w3hf4h239-luajit-2.1.0-2021-10-27"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.0-2021-10-27": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.0-2021-10-27",
+      "pname": null,
+      "name": "luajit-2.1.0-2021-10-27",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/g1p0d5fjgg3vzz6xs08v4w6w3hf4h239-luajit-2.1.0-2021-10-27"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High-performance JIT compiler for Lua 5.1",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/interpreters/luajit/default.nix:112",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "luajit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g1p0d5fjgg3vzz6xs08v4w6w3hf4h239-luajit-2.1.0-2021-10-27"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

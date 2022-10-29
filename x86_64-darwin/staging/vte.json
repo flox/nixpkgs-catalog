@@ -1,46 +1,4 @@
 {
-  "0.70.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.70.0",
-      "pname": "vte",
-      "name": "vte-0.70.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/83lmyc6y7ylwli9qfrj2mnkbk23ppx6l-vte-0.70.0-dev",
-        "devdoc": "/nix/store/24zy5p23s7csk3m9j70k78vg81mdij1f-vte-0.70.0-devdoc",
-        "out": "/nix/store/fza8ss3l5jlzsaayha4r6pp5c57v4sn7-vte-0.70.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library implementing a terminal emulator widget for GTK",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/vte/default.nix:127",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "vte"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fza8ss3l5jlzsaayha4r6pp5c57v4sn7-vte-0.70.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.68.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -79,6 +37,48 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.70.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.70.0",
+      "pname": "vte",
+      "name": "vte-0.70.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/ivxvdafjfkl2j4mw9910rqvx97hvacdm-vte-0.70.0-dev",
+        "devdoc": "/nix/store/va54jswpiywbh60xgp04jfbrfm23vscv-vte-0.70.0-devdoc",
+        "out": "/nix/store/9midsn9fyf0ak89876jdc66nc4fxdskn-vte-0.70.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library implementing a terminal emulator widget for GTK",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/vte/default.nix:127",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "vte"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9midsn9fyf0ak89876jdc66nc4fxdskn-vte-0.70.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

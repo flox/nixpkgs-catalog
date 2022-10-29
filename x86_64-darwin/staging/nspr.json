@@ -1,22 +1,22 @@
 {
-  "4.33": {
+  "4.35": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.33",
+      "version": "4.35",
       "pname": "nspr",
-      "name": "nspr-4.33",
+      "name": "nspr-4.35",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/g5iqz103mkkqp55c39wvj52qnwqnp475-nspr-4.33-dev",
-        "out": "/nix/store/zxyrn3sym5kdzhfh0733bdskg7w8nkib-nspr-4.33"
+        "dev": "/nix/store/7mjhh3lx5ppck3majx6i5yxnjs251ckz-nspr-4.35-dev",
+        "out": "/nix/store/k7kq3qv83jii25gid4xiwbx69nax3rhf-nspr-4.35"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Netscape Portable Runtime, a platform-neutral API for system-level and libc-like functions",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/nspr/default.nix:49",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nspr/default.nix:54",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zxyrn3sym5kdzhfh0733bdskg7w8nkib-nspr-4.33"
+        "/nix/store/k7kq3qv83jii25gid4xiwbx69nax3rhf-nspr-4.35"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "4.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.34.1",
-      "pname": "nspr",
-      "name": "nspr-4.34.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/wrqhriwyr1hkmrq3zqqpv7b4z8bgynhi-nspr-4.34.1-dev",
-        "out": "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Netscape Portable Runtime, a platform-neutral API for system-level and libc-like functions",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nspr/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nspr"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.34.1",
+      "pname": "nspr",
+      "name": "nspr-4.34.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/wrqhriwyr1hkmrq3zqqpv7b4z8bgynhi-nspr-4.34.1-dev",
+        "out": "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Netscape Portable Runtime, a platform-neutral API for system-level and libc-like functions",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nspr/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nspr"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

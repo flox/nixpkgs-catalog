@@ -1,21 +1,22 @@
 {
-  "1.21.2": {
+  "1.23.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.21.2",
+      "version": "1.23.3",
       "pname": "gallery_dl",
-      "name": "gallery_dl-1.21.2",
+      "name": "gallery_dl-1.23.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/xgbpcc3lh4phl4rcyfcb727isdmnwdhb-gallery_dl-1.21.2"
+        "dist": "/nix/store/hpmvxyyars57467dbdyrj7dj2vxd7igg-gallery_dl-1.23.3-dist",
+        "out": "/nix/store/iy0vg3g1nxl5q0s7smc5mzp8b6fr8mk3-gallery_dl-1.23.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Command-line program to download image-galleries and -collections from several image hosting sites",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/gallery-dl/default.nix:22",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/gallery-dl/default.nix:28",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xgbpcc3lh4phl4rcyfcb727isdmnwdhb-gallery_dl-1.21.2"
+        "/nix/store/iy0vg3g1nxl5q0s7smc5mzp8b6fr8mk3-gallery_dl-1.23.3"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.22.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.4",
-      "pname": "gallery_dl",
-      "name": "gallery_dl-1.22.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/9f4jnp2qrj6gc9bzwrzqvkayya8gfh8n-gallery_dl-1.22.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line program to download image-galleries and -collections from several image hosting sites",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/gallery-dl/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gallery-dl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9f4jnp2qrj6gc9bzwrzqvkayya8gfh8n-gallery_dl-1.22.4"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.22.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22.4",
+      "pname": "gallery_dl",
+      "name": "gallery_dl-1.22.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/9f4jnp2qrj6gc9bzwrzqvkayya8gfh8n-gallery_dl-1.22.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line program to download image-galleries and -collections from several image hosting sites",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/gallery-dl/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gallery-dl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9f4jnp2qrj6gc9bzwrzqvkayya8gfh8n-gallery_dl-1.22.4"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

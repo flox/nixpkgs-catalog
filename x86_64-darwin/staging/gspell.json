@@ -1,22 +1,22 @@
 {
-  "1.11.1": {
+  "1.12.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.11.1",
+      "version": "1.12.0",
       "pname": "gspell",
-      "name": "gspell-1.11.1",
+      "name": "gspell-1.12.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/q94ydmkbcrb5hyvk7ak5h33469an9p6k-gspell-1.11.1-dev",
-        "out": "/nix/store/gmq97w0hpss4bx59d9s81nwjic2kzxbq-gspell-1.11.1"
+        "dev": "/nix/store/qzw0br1q86p4l19006hmn2hvpkz4s81w-gspell-1.12.0-dev",
+        "out": "/nix/store/9c8id9xx3l8mi2vx678bf870vl65kl4n-gspell-1.12.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A spell-checking library for GTK applications",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gspell/default.nix:64",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gspell/default.nix:70",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gmq97w0hpss4bx59d9s81nwjic2kzxbq-gspell-1.11.1"
+        "/nix/store/9c8id9xx3l8mi2vx678bf870vl65kl4n-gspell-1.12.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "1.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.1",
-      "pname": "gspell",
-      "name": "gspell-1.9.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/lwkswsdrhcxarciczcf0pc0pp8fbdx18-gspell-1.9.1-dev",
-        "out": "/nix/store/d6b9yxkb1lc6d8jgmj07lwbgjlrp3mic-gspell-1.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A spell-checking library for GTK applications",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/gspell/default.nix:64",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gspell"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d6b9yxkb1lc6d8jgmj07lwbgjlrp3mic-gspell-1.9.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.1",
+      "pname": "gspell",
+      "name": "gspell-1.9.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/lwkswsdrhcxarciczcf0pc0pp8fbdx18-gspell-1.9.1-dev",
+        "out": "/nix/store/d6b9yxkb1lc6d8jgmj07lwbgjlrp3mic-gspell-1.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A spell-checking library for GTK applications",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/gspell/default.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gspell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d6b9yxkb1lc6d8jgmj07lwbgjlrp3mic-gspell-1.9.1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.32.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.32.1",
-      "pname": "trivy",
-      "name": "trivy-0.32.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/9anwi83dp4m6vgcbj44dhhy5bfgzq4kh-trivy-0.32.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/trivy/default.nix:43",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "trivy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9anwi83dp4m6vgcbj44dhhy5bfgzq4kh-trivy-0.32.1"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.30.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "0.32.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.32.1",
+      "pname": "trivy",
+      "name": "trivy-0.32.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/wxrpz7sjjmbbi5ia4a6m179s320zrsq1-trivy-0.32.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple and comprehensive vulnerability scanner for containers, suitable for CI",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/admin/trivy/default.nix:43",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "trivy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wxrpz7sjjmbbi5ia4a6m179s320zrsq1-trivy-0.32.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,22 +1,22 @@
 {
-  "14.6.3": {
+  "15.4.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "14.6.3",
+      "version": "15.4.2",
       "pname": "gitaly",
-      "name": "gitaly-14.6.3",
+      "name": "gitaly-15.4.2",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/dgn02jq3pmx04yf5nlc1qr2k2lshck6k-gitaly-14.6.3",
-        "ruby": "/nix/store/rwllqajg6kqh42qc3lhvcwymn98rqsd1-gitaly-14.6.3-ruby"
+        "out": "/nix/store/whr7wnhn3blvv09yf31zkh1w7jgrvrj1-gitaly-15.4.2",
+        "ruby": "/nix/store/1yydrwwqb0ks9a8yk795drblhr81nr3d-gitaly-15.4.2-ruby"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A Git RPC service for handling all the git calls made by GitLab",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/gitlab/gitaly/default.nix:74",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/gitlab/gitaly/default.nix:69",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dgn02jq3pmx04yf5nlc1qr2k2lshck6k-gitaly-14.6.3"
+        "/nix/store/whr7wnhn3blvv09yf31zkh1w7jgrvrj1-gitaly-15.4.2"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -78,6 +78,47 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "14.6.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.6.3",
+      "pname": "gitaly",
+      "name": "gitaly-14.6.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/dgn02jq3pmx04yf5nlc1qr2k2lshck6k-gitaly-14.6.3",
+        "ruby": "/nix/store/rwllqajg6kqh42qc3lhvcwymn98rqsd1-gitaly-14.6.3-ruby"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Git RPC service for handling all the git calls made by GitLab",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/gitlab/gitaly/default.nix:74",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gitaly"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dgn02jq3pmx04yf5nlc1qr2k2lshck6k-gitaly-14.6.3"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

@@ -1,46 +1,4 @@
 {
-  "1.10.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.3",
-      "pname": null,
-      "name": "dxvk",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/7c1phjrm6129lyf4ykxd4iz864p1p4dc-dxvk-bin",
-        "lib": "/nix/store/rvc9g363v1wg67zfh0473yf6ypja47pi-dxvk-lib",
-        "out": "/nix/store/cidnkyh88frfnbxwj939l1wypqx792vx-dxvk"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A Vulkan-based translation layer for Direct3D 9/10/11",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/misc/dxvk/default.nix:76",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "dxvk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7c1phjrm6129lyf4ykxd4iz864p1p4dc-dxvk-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.10.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.10.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.3",
+      "pname": null,
+      "name": "dxvk",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/j8c4cn2dj6snni4h19c65l0fn528nvwg-dxvk-bin",
+        "lib": "/nix/store/nikf5ijp2cv3vxnpabbw5dhp36dn97af-dxvk-lib",
+        "out": "/nix/store/yqan3bg2snlyshkl45inlr83jvzkmcfp-dxvk"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A Vulkan-based translation layer for Direct3D 9/10/11",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/misc/dxvk/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dxvk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j8c4cn2dj6snni4h19c65l0fn528nvwg-dxvk-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

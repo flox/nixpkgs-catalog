@@ -1,21 +1,21 @@
 {
-  "2.17.0": {
+  "2.20.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.17.0",
+      "version": "2.20.0",
       "pname": "nfpm",
-      "name": "nfpm-2.17.0",
+      "name": "nfpm-2.20.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/gri6hili5l4639lszn10v3wg11wr4p5c-nfpm-2.17.0"
+        "out": "/nix/store/zmr0r1d3q0s1af23fl44qqz84byhpa4g-nfpm-2.20.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A simple deb and rpm packager written in Go",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/package-management/nfpm/default.nix:19",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/package-management/nfpm/default.nix:19",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gri6hili5l4639lszn10v3wg11wr4p5c-nfpm-2.17.0"
+        "/nix/store/zmr0r1d3q0s1af23fl44qqz84byhpa4g-nfpm-2.20.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
-  "2.18.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.18.1",
-      "pname": "nfpm",
-      "name": "nfpm-2.18.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/yrv7wpxh3dcvh5n102rpsa28ydpigkss-nfpm-2.18.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple deb and rpm packager written in Go",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nfpm/default.nix:19",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nfpm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yrv7wpxh3dcvh5n102rpsa28ydpigkss-nfpm-2.18.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.18.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.18.1",
+      "pname": "nfpm",
+      "name": "nfpm-2.18.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/yrv7wpxh3dcvh5n102rpsa28ydpigkss-nfpm-2.18.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple deb and rpm packager written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/package-management/nfpm/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nfpm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yrv7wpxh3dcvh5n102rpsa28ydpigkss-nfpm-2.18.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

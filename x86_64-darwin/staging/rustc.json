@@ -1,16 +1,16 @@
 {
-  "1.60.0": {
+  "1.64.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.60.0",
+      "version": "1.64.0",
       "pname": "rustc",
-      "name": "rustc-1.60.0",
+      "name": "rustc-1.64.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "doc": "/nix/store/jsxjpg0kvdqm5ii9mv8qzg2wxsvv2y17-rustc-1.60.0-doc",
-        "man": "/nix/store/6z8ab61mrazcr6wklpj3gdr343s5flhw-rustc-1.60.0-man",
-        "out": "/nix/store/4swknfahhfhd8y2ykgpqcgr67lr10brw-rustc-1.60.0"
+        "doc": "/nix/store/a7k6sl7jcps1kifg52bf6chwas3h4xwi-rustc-1.64.0-doc",
+        "man": "/nix/store/b2n1qfav1nm594y9ik8b6q1wxddl5fz8-rustc-1.64.0-man",
+        "out": "/nix/store/kgmq8fxzxzhb72nlj3yz3i9rpnsllbhg-rustc-1.64.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -18,7 +18,7 @@
           "man"
         ],
         "description": "A safe, concurrent, practical language",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/compilers/rust/rustc.nix:187",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/rust/rustc.nix:203",
         "unfree": false
       }
     },
@@ -31,59 +31,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4swknfahhfhd8y2ykgpqcgr67lr10brw-rustc-1.60.0",
-        "/nix/store/6z8ab61mrazcr6wklpj3gdr343s5flhw-rustc-1.60.0-man"
+        "/nix/store/kgmq8fxzxzhb72nlj3yz3i9rpnsllbhg-rustc-1.64.0",
+        "/nix/store/b2n1qfav1nm594y9ik8b6q1wxddl5fz8-rustc-1.64.0-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.62.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.62.1",
-      "pname": "rustc",
-      "name": "rustc-1.62.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/cd8f76zc2y2mv250l935845fs911g7lc-rustc-1.62.1-doc",
-        "man": "/nix/store/z59hsy4m6afg70gan794la3hr0n66q79-rustc-1.62.1-man",
-        "out": "/nix/store/4id2jfr8z43kc2i8rpppxkplg83nzpgx-rustc-1.62.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A safe, concurrent, practical language",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/rust/rustc.nix:187",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "rustc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4id2jfr8z43kc2i8rpppxkplg83nzpgx-rustc-1.62.1",
-        "/nix/store/z59hsy4m6afg70gan794la3hr0n66q79-rustc-1.62.1-man"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.62.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.62.1",
+      "pname": "rustc",
+      "name": "rustc-1.62.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/cd8f76zc2y2mv250l935845fs911g7lc-rustc-1.62.1-doc",
+        "man": "/nix/store/z59hsy4m6afg70gan794la3hr0n66q79-rustc-1.62.1-man",
+        "out": "/nix/store/4id2jfr8z43kc2i8rpppxkplg83nzpgx-rustc-1.62.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A safe, concurrent, practical language",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/compilers/rust/rustc.nix:187",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "rustc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4id2jfr8z43kc2i8rpppxkplg83nzpgx-rustc-1.62.1",
+        "/nix/store/z59hsy4m6afg70gan794la3hr0n66q79-rustc-1.62.1-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

@@ -40,47 +40,6 @@
       }
     }
   },
-  "3.0.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.8",
-      "pname": "libmodsecurity",
-      "name": "libmodsecurity-3.0.8",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/3dhsbp99k7q1ynyxd43fl5f0aqi118vk-libmodsecurity-3.0.8-dev",
-        "out": "/nix/store/hyc4maj0h8gf8c0dc4p5lsqdn4pb3yf1-libmodsecurity-3.0.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ModSecurity v3 library component.\n",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/libmodsecurity/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libmodsecurity"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hyc4maj0h8gf8c0dc4p5lsqdn4pb3yf1-libmodsecurity-3.0.8"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.0.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.0.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.8",
+      "pname": "libmodsecurity",
+      "name": "libmodsecurity-3.0.8",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/53qgvixpp9igsylqpanql6ff1d66kd2a-libmodsecurity-3.0.8-dev",
+        "out": "/nix/store/0v1jdkgimm6icf7fnjgg7370i7wgpsql-libmodsecurity-3.0.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ModSecurity v3 library component.\n",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/libmodsecurity/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libmodsecurity"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0v1jdkgimm6icf7fnjgg7370i7wgpsql-libmodsecurity-3.0.8"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

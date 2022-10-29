@@ -40,50 +40,6 @@
       }
     }
   },
-  "1.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.2",
-      "pname": "borgbackup",
-      "name": "borgbackup-1.2.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/w26p36w7iqw1cgznlg5nl0fzi8gvzm47-borgbackup-1.2.2-doc",
-        "man": "/nix/store/n02wkyndhpckmk64ym8jr3rd81iq120w-borgbackup-1.2.2-man",
-        "out": "/nix/store/irikcd948kcq22d09hifhjr0cznpiki9-borgbackup-1.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Deduplicating archiver with compression and encryption",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/backup/borgbackup/default.nix:120",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "borgbackup"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/irikcd948kcq22d09hifhjr0cznpiki9-borgbackup-1.2.2",
-        "/nix/store/n02wkyndhpckmk64ym8jr3rd81iq120w-borgbackup-1.2.2-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +78,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.2",
+      "pname": "borgbackup",
+      "name": "borgbackup-1.2.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/1qwwhnznhaamdzscfwshcwsr3dgl6qh9-borgbackup-1.2.2-dist",
+        "doc": "/nix/store/mpjcm8fpsz6sv3h3dynzs4zzfq827368-borgbackup-1.2.2-doc",
+        "man": "/nix/store/b6ip1k0nfgyizv1xddj6g0aa6m9z7ydl-borgbackup-1.2.2-man",
+        "out": "/nix/store/pzkmchyn3x3mbc3jyr0p8g0mryx4xkpk-borgbackup-1.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Deduplicating archiver with compression and encryption",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/backup/borgbackup/default.nix:120",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "borgbackup"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pzkmchyn3x3mbc3jyr0p8g0mryx4xkpk-borgbackup-1.2.2",
+        "/nix/store/b6ip1k0nfgyizv1xddj6g0aa6m9z7ydl-borgbackup-1.2.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

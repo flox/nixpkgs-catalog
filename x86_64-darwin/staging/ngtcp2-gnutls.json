@@ -40,47 +40,6 @@
       }
     }
   },
-  "0.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.0",
-      "pname": "ngtcp2",
-      "name": "ngtcp2-0.9.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/jqvnh8xbbzafxnvsc11rxyww5n2y6iqn-ngtcp2-0.9.0-dev",
-        "out": "/nix/store/amqi4v79bhwni0lvjsxp8yh9pvwgkc3z-ngtcp2-0.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "an effort to implement RFC9000 QUIC protocol.",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/ngtcp2/gnutls.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ngtcp2-gnutls"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/amqi4v79bhwni0lvjsxp8yh9pvwgkc3z-ngtcp2-0.9.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.7.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 405560,
         "lastModified": 1662019588
+      }
+    }
+  },
+  "0.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.0",
+      "pname": "ngtcp2",
+      "name": "ngtcp2-0.9.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/jjb710n488lin4ksix5wkyb5dwz1jz1d-ngtcp2-0.9.0-dev",
+        "out": "/nix/store/i40sq2i1bzgbcw0f4fdgjlhsq0s2w4dg-ngtcp2-0.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "an effort to implement RFC9000 QUIC protocol.",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/ngtcp2/gnutls.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ngtcp2-gnutls"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i40sq2i1bzgbcw0f4fdgjlhsq0s2w4dg-ngtcp2-0.9.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

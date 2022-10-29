@@ -39,46 +39,6 @@
       }
     }
   },
-  "4.0.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.9",
-      "pname": "yubikey-manager",
-      "name": "python3.10-yubikey-manager-4.0.9",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/43j6yp7d2f6y31747j35i2rsp6j9s06r-python3.10-yubikey-manager-4.0.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command line tool for configuring any YubiKey over all USB transports",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/yubikey-manager/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "yubikey-manager"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/43j6yp7d2f6y31747j35i2rsp6j9s06r-python3.10-yubikey-manager-4.0.9"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.0.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.0.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.9",
+      "pname": "yubikey-manager",
+      "name": "python3.10-yubikey-manager-4.0.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/8y99c347sdrsff61hgyz6cjsgpssz3d3-python3.10-yubikey-manager-4.0.9-dist",
+        "out": "/nix/store/bqn8azhrdh194h457wp89fz9jyvqs6mw-python3.10-yubikey-manager-4.0.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command line tool for configuring any YubiKey over all USB transports",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/yubikey-manager/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "yubikey-manager"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bqn8azhrdh194h457wp89fz9jyvqs6mw-python3.10-yubikey-manager-4.0.9"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }
