@@ -1,45 +1,4 @@
 {
-  "3.3.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.1",
-      "pname": "postgis",
-      "name": "postgis-3.3.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/ff8j9dl4y1nhaq2pzbl9ivzp4dg6v1pb-postgis-3.3.1-doc",
-        "out": "/nix/store/f5mflv8x8x2zxa3xza3ibyvqgdcgl0c4-postgis-3.3.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Geographic Objects for PostgreSQL",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/postgresql/ext/postgis.nix:72",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "postgis"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f5mflv8x8x2zxa3xza3ibyvqgdcgl0c4-postgis-3.3.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.2.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.3.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.1",
+      "pname": "postgis",
+      "name": "postgis-3.3.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/71sy2x6vwhwgx8ry6kpjkjd6mj4mg2g5-postgis-3.3.1-doc",
+        "out": "/nix/store/wrzha51fgmsnskkblly1adnjnqxfz1ss-postgis-3.3.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Geographic Objects for PostgreSQL",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/sql/postgresql/ext/postgis.nix:72",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "postgis"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wrzha51fgmsnskkblly1adnjnqxfz1ss-postgis-3.3.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

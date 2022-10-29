@@ -1,22 +1,22 @@
 {
-  "6.0.2": {
+  "6.0.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.0.2",
+      "version": "6.0.3",
       "pname": "linux",
-      "name": "linux-6.0.2",
+      "name": "linux-6.0.3",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/w3kfngicdvyqmrx2vs6qcr8jb1s5fpfx-linux-6.0.2-dev",
-        "out": "/nix/store/sg5ww5g5kniyhi0jyzc9d2g8w7r80653-linux-6.0.2"
+        "dev": "/nix/store/bab3xry8hapcy9mymwk899cv4g3v3nss-linux-6.0.3-dev",
+        "out": "/nix/store/m6hsxf26bk8pxfv07jh6zwdaj2bv1j65-linux-6.0.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sg5ww5g5kniyhi0jyzc9d2g8w7r80653-linux-6.0.2"
+        "/nix/store/m6hsxf26bk8pxfv07jh6zwdaj2bv1j65-linux-6.0.3"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -78,6 +78,47 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
+      }
+    }
+  },
+  "6.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.2",
+      "pname": "linux",
+      "name": "linux-6.0.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/w3kfngicdvyqmrx2vs6qcr8jb1s5fpfx-linux-6.0.2-dev",
+        "out": "/nix/store/sg5ww5g5kniyhi0jyzc9d2g8w7r80653-linux-6.0.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_6_0"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sg5ww5g5kniyhi0jyzc9d2g8w7r80653-linux-6.0.2"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

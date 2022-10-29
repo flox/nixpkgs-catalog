@@ -43,50 +43,6 @@
       }
     }
   },
-  "4.15.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.15.9",
-      "pname": "samba",
-      "name": "samba-4.15.9",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/cx9bgc6m4xyl4izm66ak8p7iaq7jwxn8-samba-4.15.9-dev",
-        "man": "/nix/store/d85hnggdcvbby5jlwjmmiq31j6c9hk19-samba-4.15.9-man",
-        "out": "/nix/store/gh22him7b7angzwxcq4ykcgc489p6992-samba-4.15.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "The standard Windows interoperability suite of programs for Linux and Unix",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/samba/4.x.nix:195",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "samba4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gh22him7b7angzwxcq4ykcgc489p6992-samba-4.15.9",
-        "/nix/store/d85hnggdcvbby5jlwjmmiq31j6c9hk19-samba-4.15.9-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.15.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.15.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.15.9",
+      "pname": "samba",
+      "name": "samba-4.15.9",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/4izfvr3jggbx9flqq247gwjfhxvahgyp-samba-4.15.9-dev",
+        "man": "/nix/store/nhlfr3n5mrjv90mlja1c7w4aapp23f69-samba-4.15.9-man",
+        "out": "/nix/store/wjqimlfafbfjbhasm7rnfkqglb0ryq6n-samba-4.15.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The standard Windows interoperability suite of programs for Linux and Unix",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/samba/4.x.nix:195",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "samba4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wjqimlfafbfjbhasm7rnfkqglb0ryq6n-samba-4.15.9",
+        "/nix/store/nhlfr3n5mrjv90mlja1c7w4aapp23f69-samba-4.15.9-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

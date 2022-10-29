@@ -1,44 +1,4 @@
 {
-  "4.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2",
-      "pname": "mdadm",
-      "name": "mdadm-4.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/21xfhg5raalvqg78srnwzl4q259zxmf5-mdadm-4.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Programs for managing RAID arrays under Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/mdadm/default.nix:48",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "mdadm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/21xfhg5raalvqg78srnwzl4q259zxmf5-mdadm-4.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2",
+      "pname": "mdadm",
+      "name": "mdadm-4.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/m1l6q5zlh19mq7qv7cb03cj0fyyb4z0s-mdadm-4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Programs for managing RAID arrays under Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/mdadm/default.nix:48",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mdadm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m1l6q5zlh19mq7qv7cb03cj0fyyb4z0s-mdadm-4.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

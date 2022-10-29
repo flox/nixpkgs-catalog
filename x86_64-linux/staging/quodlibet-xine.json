@@ -1,45 +1,4 @@
 {
-  "4.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.5.0",
-      "pname": "quodlibet-xine",
-      "name": "quodlibet-xine-4.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/69r6idsh18mnlyb614vpcbr8w5n2rhya-quodlibet-xine-4.5.0-doc",
-        "out": "/nix/store/bhn9br0pza6046l60imsld9lr1cbaz9d-quodlibet-xine-4.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GTK-based audio player written in Python, using the Mutagen tagging library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/quodlibet/default.nix:168",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "quodlibet-xine"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bhn9br0pza6046l60imsld9lr1cbaz9d-quodlibet-xine-4.5.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,6 +36,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.5.0",
+      "pname": "quodlibet-xine",
+      "name": "quodlibet-xine-4.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/h0bd4k7m6i97l5ihz7sgbf4akngiicsm-quodlibet-xine-4.5.0-dist",
+        "doc": "/nix/store/xq2haczcyhwm4qhmd96k4fi47w4wxcgr-quodlibet-xine-4.5.0-doc",
+        "out": "/nix/store/iycbb4dwig8miig6qqqc887kx0yhab36-quodlibet-xine-4.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GTK-based audio player written in Python, using the Mutagen tagging library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/quodlibet/default.nix:168",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "quodlibet-xine"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/iycbb4dwig8miig6qqqc887kx0yhab36-quodlibet-xine-4.5.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

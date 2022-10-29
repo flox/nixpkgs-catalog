@@ -1,21 +1,21 @@
 {
-  "0.1.0": {
+  "0.1.7": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.1.0",
+      "version": "0.1.7",
       "pname": "tokio-console",
-      "name": "tokio-console-0.1.0",
+      "name": "tokio-console-0.1.7",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/67k77zqijcqrqpxl1p8vi1d83lvcn96q-tokio-console-0.1.0"
+        "out": "/nix/store/a1j0jjsp2wp6sbis84ywirlzaprcdx85-tokio-console-0.1.7"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A debugger for asynchronous Rust code",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/tokio-console/default.nix:23",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/tokio-console/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/67k77zqijcqrqpxl1p8vi1d83lvcn96q-tokio-console-0.1.0"
+        "/nix/store/a1j0jjsp2wp6sbis84ywirlzaprcdx85-tokio-console-0.1.7"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.0",
+      "pname": "tokio-console",
+      "name": "tokio-console-0.1.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/67k77zqijcqrqpxl1p8vi1d83lvcn96q-tokio-console-0.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A debugger for asynchronous Rust code",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/tools/tokio-console/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "tokio-console"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/67k77zqijcqrqpxl1p8vi1d83lvcn96q-tokio-console-0.1.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

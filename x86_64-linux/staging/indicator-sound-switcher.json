@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.3.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.9",
-      "pname": "indicator-sound-switcher",
-      "name": "indicator-sound-switcher-2.3.9",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dw83kh0y1wqy6k1f4d6wnsl90xb8f8ak-indicator-sound-switcher-2.3.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Sound input/output selector indicator for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/audio/indicator-sound-switcher/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "indicator-sound-switcher"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dw83kh0y1wqy6k1f4d6wnsl90xb8f8ak-indicator-sound-switcher-2.3.9"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.3.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.3.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.9",
+      "pname": "indicator-sound-switcher",
+      "name": "indicator-sound-switcher-2.3.9",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/dijgp2bcz4np26r39indg883sx3xm4mk-indicator-sound-switcher-2.3.9-dist",
+        "out": "/nix/store/c3xvrkbmxdyxi5nyjlhqvrg4cq3asz7a-indicator-sound-switcher-2.3.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sound input/output selector indicator for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/indicator-sound-switcher/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "indicator-sound-switcher"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c3xvrkbmxdyxi5nyjlhqvrg4cq3asz7a-indicator-sound-switcher-2.3.9"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

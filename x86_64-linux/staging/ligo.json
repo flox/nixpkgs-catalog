@@ -1,21 +1,21 @@
 {
-  "0.47.0": {
+  "0.53.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.47.0",
+      "version": "0.53.0",
       "pname": "ligo",
-      "name": "ocaml4.12.1-ligo-0.47.0",
+      "name": "ocaml4.14.0-ligo-0.53.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/4dzg4hffz692j263vx8pqwfgba4nzljs-ocaml4.12.1-ligo-0.47.0"
+        "out": "/nix/store/f776qplyfyq5lzfjwdl9i64dsk1vgbxn-ocaml4.14.0-ligo-0.53.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A friendly Smart Contract Language for Tezos",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/compilers/ligo/default.nix:97",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/ligo/default.nix:107",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4dzg4hffz692j263vx8pqwfgba4nzljs-ocaml4.12.1-ligo-0.47.0"
+        "/nix/store/f776qplyfyq5lzfjwdl9i64dsk1vgbxn-ocaml4.14.0-ligo-0.53.0"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.47.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.47.0",
+      "pname": "ligo",
+      "name": "ocaml4.12.1-ligo-0.47.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/4dzg4hffz692j263vx8pqwfgba4nzljs-ocaml4.12.1-ligo-0.47.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A friendly Smart Contract Language for Tezos",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/compilers/ligo/default.nix:97",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ligo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4dzg4hffz692j263vx8pqwfgba4nzljs-ocaml4.12.1-ligo-0.47.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

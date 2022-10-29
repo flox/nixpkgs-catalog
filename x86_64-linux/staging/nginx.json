@@ -1,22 +1,22 @@
 {
-  "1.20.2": {
+  "1.22.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.20.2",
+      "version": "1.22.1",
       "pname": "nginx",
-      "name": "nginx-1.20.2",
+      "name": "nginx-1.22.1",
       "system": "x86_64-linux",
       "outputs": {
-        "doc": "/nix/store/qr6nl173xydlvkbm706wh93z8qr5mwr5-nginx-1.20.2-doc",
-        "out": "/nix/store/ys0fpww2z6q934vmwa9vq19lhhyfrcn0-nginx-1.20.2"
+        "doc": "/nix/store/f55d7khzclgalyax3h5dsw1cd1mvawrz-nginx-1.22.1-doc",
+        "out": "/nix/store/drziwlbwvwk768hxsw5fr475hzr1qi0f-nginx-1.22.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/http/nginx/generic.nix:175",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/http/nginx/generic.nix:180",
         "unfree": false
       }
     },
@@ -29,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ys0fpww2z6q934vmwa9vq19lhhyfrcn0-nginx-1.20.2"
+        "/nix/store/drziwlbwvwk768hxsw5fr475hzr1qi0f-nginx-1.22.1"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -78,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.20.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.2",
+      "pname": "nginx",
+      "name": "nginx-1.20.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/qr6nl173xydlvkbm706wh93z8qr5mwr5-nginx-1.20.2-doc",
+        "out": "/nix/store/ys0fpww2z6q934vmwa9vq19lhhyfrcn0-nginx-1.20.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/http/nginx/generic.nix:175",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nginx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ys0fpww2z6q934vmwa9vq19lhhyfrcn0-nginx-1.20.2"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

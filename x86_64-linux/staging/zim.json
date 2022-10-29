@@ -1,44 +1,4 @@
 {
-  "0.74.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.74.3",
-      "pname": "zim",
-      "name": "zim-0.74.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/1n5kxwfic1w33v47d9pdhj81719dia7p-zim-0.74.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A desktop wiki",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/office/zim/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "zim"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1n5kxwfic1w33v47d9pdhj81719dia7p-zim-0.74.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.74.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.74.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.74.3",
+      "pname": "zim",
+      "name": "zim-0.74.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/rnxambp5x3r3ddsnd266d2fd6apqf9zj-zim-0.74.3-dist",
+        "out": "/nix/store/nyz7z74b147pjgfvhhn1x82ryp1kibg9-zim-0.74.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A desktop wiki",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/office/zim/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "zim"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nyz7z74b147pjgfvhhn1x82ryp1kibg9-zim-0.74.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

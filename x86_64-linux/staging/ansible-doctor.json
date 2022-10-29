@@ -1,21 +1,22 @@
 {
-  "1.4.1": {
+  "1.4.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.4.1",
+      "version": "1.4.5",
       "pname": "ansible-doctor",
-      "name": "ansible-doctor-1.4.1",
+      "name": "ansible-doctor-1.4.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/iyr6vasl7919xhhij91lrh6nn2k2wp1b-python3.10-ansible-doctor-1.4.1"
+        "dist": "/nix/store/xz8sn8qqj0dzw439jggazn73sqdnd9y5-python3.10-ansible-doctor-1.4.5-dist",
+        "out": "/nix/store/laysvp7h7rd9a9k8dk934975v17n77jp-python3.10-ansible-doctor-1.4.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Annotation based documentation for your Ansible roles",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/python-modules/ansible-doctor/default.nix:72",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/ansible-doctor/default.nix:72",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/iyr6vasl7919xhhij91lrh6nn2k2wp1b-python3.10-ansible-doctor-1.4.1"
+        "/nix/store/laysvp7h7rd9a9k8dk934975v17n77jp-python3.10-ansible-doctor-1.4.5"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "1.4.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.0",
-      "pname": "ansible-doctor",
-      "name": "ansible-doctor-1.4.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/a69qcmcsjvdmqjg983am3hx7571anz31-python3.10-ansible-doctor-1.4.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Annotation based documentation for your Ansible roles",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-doctor/default.nix:71",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ansible-doctor"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a69qcmcsjvdmqjg983am3hx7571anz31-python3.10-ansible-doctor-1.4.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.0",
+      "pname": "ansible-doctor",
+      "name": "ansible-doctor-1.4.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/a69qcmcsjvdmqjg983am3hx7571anz31-python3.10-ansible-doctor-1.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Annotation based documentation for your Ansible roles",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-doctor/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ansible-doctor"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a69qcmcsjvdmqjg983am3hx7571anz31-python3.10-ansible-doctor-1.4.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

@@ -1,49 +1,4 @@
 {
-  "2.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.2",
-      "pname": "nfs-utils",
-      "name": "nfs-utils-2.6.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/gc7s0qi490gbpb8pmh3bcmh21ynryswj-nfs-utils-2.6.2-dev",
-        "lib": "/nix/store/9nci7qamv7xn939whv1n3a6fpxisfcmg-nfs-utils-2.6.2-lib",
-        "man": "/nix/store/32j0sgxjj3ih65q1rd3bhdnd5x6mjaz9-nfs-utils-2.6.2-man",
-        "out": "/nix/store/n8iy9xv2ak2axp0fyghnn3w701whnyi1-nfs-utils-2.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Linux user-space NFS utilities",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/nfs-utils/default.nix:122",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nfs-utils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n8iy9xv2ak2axp0fyghnn3w701whnyi1-nfs-utils-2.6.2",
-        "/nix/store/32j0sgxjj3ih65q1rd3bhdnd5x6mjaz9-nfs-utils-2.6.2-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.5.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.2",
+      "pname": "nfs-utils",
+      "name": "nfs-utils-2.6.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/f469wb1nj316hi3qsbnsy4mf30vwhgzl-nfs-utils-2.6.2-dev",
+        "lib": "/nix/store/04jn8kv3kwxa1dxhx7bxs3l2rq96mini-nfs-utils-2.6.2-lib",
+        "man": "/nix/store/irsln1hznfynvf2l148cdla0h02c3ar7-nfs-utils-2.6.2-man",
+        "out": "/nix/store/5ikkdaq17fyjj46yls10ar430d4sip72-nfs-utils-2.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Linux user-space NFS utilities",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/nfs-utils/default.nix:122",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nfs-utils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5ikkdaq17fyjj46yls10ar430d4sip72-nfs-utils-2.6.2",
+        "/nix/store/irsln1hznfynvf2l148cdla0h02c3ar7-nfs-utils-2.6.2-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

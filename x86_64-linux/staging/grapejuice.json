@@ -1,21 +1,22 @@
 {
-  "5.5.4": {
+  "6.2.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.5.4",
+      "version": "6.2.2",
       "pname": "grapejuice",
-      "name": "grapejuice-5.5.4",
+      "name": "grapejuice-6.2.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/z8ymigzn5y00gg74d2iawilhkqqxg7bk-grapejuice-5.5.4"
+        "dist": "/nix/store/9xvsq6p85anzg3wr902a55jalqi6f3hv-grapejuice-6.2.2-dist",
+        "out": "/nix/store/cmgpbrwcxzc3z6dz8j9gafbk1ww0c8lr-grapejuice-6.2.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Simple Wine+Roblox management tool",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/games/grapejuice/default.nix:120",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/games/grapejuice/default.nix:120",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/z8ymigzn5y00gg74d2iawilhkqqxg7bk-grapejuice-5.5.4"
+        "/nix/store/cmgpbrwcxzc3z6dz8j9gafbk1ww0c8lr-grapejuice-6.2.2"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "5.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.1.1",
-      "pname": "grapejuice",
-      "name": "grapejuice-5.1.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/51z192van30hnr4w8j3pacjskmkzpxsv-grapejuice-5.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple Wine+Roblox management tool",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/games/grapejuice/default.nix:118",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "grapejuice"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/51z192van30hnr4w8j3pacjskmkzpxsv-grapejuice-5.1.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1.1",
+      "pname": "grapejuice",
+      "name": "grapejuice-5.1.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/51z192van30hnr4w8j3pacjskmkzpxsv-grapejuice-5.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple Wine+Roblox management tool",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/games/grapejuice/default.nix:118",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "grapejuice"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/51z192van30hnr4w8j3pacjskmkzpxsv-grapejuice-5.1.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

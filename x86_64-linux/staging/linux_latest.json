@@ -1,22 +1,22 @@
 {
-  "5.18": {
+  "6.0.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.18",
+      "version": "6.0.3",
       "pname": "linux",
-      "name": "linux-5.18",
+      "name": "linux-6.0.3",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/xnzfjcf7x8qfmmq9j3azin91n27fhia3-linux-5.18-dev",
-        "out": "/nix/store/2gbrclih4n4wf5z85zkbcnly7dppyinq-linux-5.18"
+        "dev": "/nix/store/bab3xry8hapcy9mymwk899cv4g3v3nss-linux-6.0.3-dev",
+        "out": "/nix/store/m6hsxf26bk8pxfv07jh6zwdaj2bv1j65-linux-6.0.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/kernel/linux-5.18.nix:6",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/2gbrclih4n4wf5z85zkbcnly7dppyinq-linux-5.18"
+        "/nix/store/m6hsxf26bk8pxfv07jh6zwdaj2bv1j65-linux-6.0.3"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "5.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.19",
-      "pname": "linux",
-      "name": "linux-5.19",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/267rb60207bz5sh1c0fn7v6sff7rjvdv-linux-5.19-dev",
-        "out": "/nix/store/1n12905rrz7rnxvddjd7ilg9xrszf19q-linux-5.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/linux-5.19.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1n12905rrz7rnxvddjd7ilg9xrszf19q-linux-5.19"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "5.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.19",
+      "pname": "linux",
+      "name": "linux-5.19",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/267rb60207bz5sh1c0fn7v6sff7rjvdv-linux-5.19-dev",
+        "out": "/nix/store/1n12905rrz7rnxvddjd7ilg9xrszf19q-linux-5.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/linux-5.19.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1n12905rrz7rnxvddjd7ilg9xrszf19q-linux-5.19"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

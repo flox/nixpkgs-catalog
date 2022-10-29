@@ -1,47 +1,4 @@
 {
-  "0.23": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.23",
-      "pname": "libiio",
-      "name": "libiio-0.23",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/i1xk46hljhrjps2qxzcnb6mlfssfqwqc-libiio-0.23-dev",
-        "lib": "/nix/store/dd5ly6235mkf83rlwd7irq646yadkijs-libiio-0.23-lib",
-        "out": "/nix/store/ydzxzy8nkmzxskqxfa9q11xhw1v5lgx4-libiio-0.23",
-        "python": "/nix/store/shyj53b6r3ssr7izgq7ik928klvb8r07-libiio-0.23-python"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "API for interfacing with the Linux Industrial I/O Subsystem",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libiio/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libiio"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ydzxzy8nkmzxskqxfa9q11xhw1v5lgx4-libiio-0.23"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.21": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.23": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.23",
+      "pname": "libiio",
+      "name": "libiio-0.23",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/xc46c1qb8q5y69g00m7bddkgswa7abjc-libiio-0.23-dev",
+        "lib": "/nix/store/6r8118ydh8998ldhhgfwn6a07fax0bvz-libiio-0.23-lib",
+        "out": "/nix/store/j13ak6j0h35y8ck3jcj7w5hcl260fgn5-libiio-0.23",
+        "python": "/nix/store/bl1pvg4s92r6cirjvfili7cq5686qnsa-libiio-0.23-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "API for interfacing with the Linux Industrial I/O Subsystem",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libiio/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libiio"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j13ak6j0h35y8ck3jcj7w5hcl260fgn5-libiio-0.23"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

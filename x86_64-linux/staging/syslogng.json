@@ -42,49 +42,6 @@
       }
     }
   },
-  "3.38.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.38.1",
-      "pname": "syslog-ng",
-      "name": "syslog-ng-3.38.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/lly1s9r1xs7q1fi94756dxrby5lyjbdb-syslog-ng-3.38.1-man",
-        "out": "/nix/store/fxbsqdmr9hzg9g73wbrakx01kj6kdfpn-syslog-ng-3.38.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Next-generation syslogd with advanced networking and filtering capabilities",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/syslog-ng/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "syslogng"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fxbsqdmr9hzg9g73wbrakx01kj6kdfpn-syslog-ng-3.38.1",
-        "/nix/store/lly1s9r1xs7q1fi94756dxrby5lyjbdb-syslog-ng-3.38.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.36.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.38.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.38.1",
+      "pname": "syslog-ng",
+      "name": "syslog-ng-3.38.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/z53mfwzp2pa5y5x0j5wpskgqb1qnknpw-syslog-ng-3.38.1-man",
+        "out": "/nix/store/mjg2vxcmjkkw7zwas8w4qkgpj9yfcra9-syslog-ng-3.38.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Next-generation syslogd with advanced networking and filtering capabilities",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/system/syslog-ng/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "syslogng"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mjg2vxcmjkkw7zwas8w4qkgpj9yfcra9-syslog-ng-3.38.1",
+        "/nix/store/z53mfwzp2pa5y5x0j5wpskgqb1qnknpw-syslog-ng-3.38.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

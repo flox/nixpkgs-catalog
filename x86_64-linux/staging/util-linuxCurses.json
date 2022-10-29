@@ -46,53 +46,6 @@
       }
     }
   },
-  "2.38.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.38.1",
-      "pname": "util-linux",
-      "name": "util-linux-2.38.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/wxfy4c3y5khscxwl5y2iycs6inn6snck-util-linux-2.38.1-bin",
-        "debug": "/nix/store/7mxldw65mnipx738kyrnmsnz41fm5hf1-util-linux-2.38.1-debug",
-        "dev": "/nix/store/ypvvv4prcrk64s9yli2avihqz47x3jfh-util-linux-2.38.1-dev",
-        "lib": "/nix/store/x8zmyfypln4bn77ikcjajq7falchid2k-util-linux-2.38.1-lib",
-        "man": "/nix/store/ihybgsry3riggnzgsrbybz8gn3yl33qa-util-linux-2.38.1-man",
-        "out": "/nix/store/di6ks587phhgwyn1w7zh0wnwwlp1fn8s-util-linux-2.38.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A set of system utilities for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/util-linux/default.nix:83",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "util-linuxCurses"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wxfy4c3y5khscxwl5y2iycs6inn6snck-util-linux-2.38.1-bin",
-        "/nix/store/ihybgsry3riggnzgsrbybz8gn3yl33qa-util-linux-2.38.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.37.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -137,6 +90,53 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.38.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.38.1",
+      "pname": "util-linux",
+      "name": "util-linux-2.38.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/cmfg6pb6v18f5g1wnskl18dzpccmlwy0-util-linux-2.38.1-bin",
+        "debug": "/nix/store/w5apw16laa1da7f6hbvrc6190nlgppwh-util-linux-2.38.1-debug",
+        "dev": "/nix/store/d70niqv7hnmgxw6k750crs1m2abl8mf1-util-linux-2.38.1-dev",
+        "lib": "/nix/store/92zxaklai99jkfgw6kna5h5mvd21p255-util-linux-2.38.1-lib",
+        "man": "/nix/store/fi66b7rs3jz0834lnxlgvg6dkn71gq58-util-linux-2.38.1-man",
+        "out": "/nix/store/ic8df8kcc7ifl5lshpid1wcwa6bs329k-util-linux-2.38.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A set of system utilities for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/util-linux/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "util-linuxCurses"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cmfg6pb6v18f5g1wnskl18dzpccmlwy0-util-linux-2.38.1-bin",
+        "/nix/store/fi66b7rs3jz0834lnxlgvg6dkn71gq58-util-linux-2.38.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

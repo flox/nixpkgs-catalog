@@ -1,22 +1,22 @@
 {
-  "22.4.2": {
+  "22.5.3.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "22.4.2",
+      "version": "22.5.3.1",
       "pname": "intel-media-driver",
-      "name": "intel-media-driver-22.4.2",
+      "name": "intel-media-driver-22.5.3.1",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/ngq905hznb7v3jpmad6dfi9340fawmyc-intel-media-driver-22.4.2-dev",
-        "out": "/nix/store/sl7c05kpzi47rx742v3n0vl9kjgkbky7-intel-media-driver-22.4.2"
+        "dev": "/nix/store/9r7m2p27j126nifbvd46ng5s2j52ab91-intel-media-driver-22.5.3.1-dev",
+        "out": "/nix/store/32cmac6bvbzcab5nrjmxr4a923a7zjvs-intel-media-driver-22.5.3.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Intel Media Driver for VAAPI — Broadwell+ iGPUs",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/intel-media-driver/default.nix:56",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/intel-media-driver/default.nix:68",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sl7c05kpzi47rx742v3n0vl9kjgkbky7-intel-media-driver-22.4.2"
+        "/nix/store/32cmac6bvbzcab5nrjmxr4a923a7zjvs-intel-media-driver-22.5.3.1"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "22.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.5.0",
-      "pname": "intel-media-driver",
-      "name": "intel-media-driver-22.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/1qjn34zzkiyvk6m75z1mv8yl2ws7sdgs-intel-media-driver-22.5.0-dev",
-        "out": "/nix/store/4ivff3rccdwfq14j8rdihbmrvqnpkrrw-intel-media-driver-22.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Intel Media Driver for VAAPI — Broadwell+ iGPUs",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/intel-media-driver/default.nix:62",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "intel-media-driver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4ivff3rccdwfq14j8rdihbmrvqnpkrrw-intel-media-driver-22.5.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "22.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.5.0",
+      "pname": "intel-media-driver",
+      "name": "intel-media-driver-22.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/1qjn34zzkiyvk6m75z1mv8yl2ws7sdgs-intel-media-driver-22.5.0-dev",
+        "out": "/nix/store/4ivff3rccdwfq14j8rdihbmrvqnpkrrw-intel-media-driver-22.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Intel Media Driver for VAAPI — Broadwell+ iGPUs",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/intel-media-driver/default.nix:62",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "intel-media-driver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4ivff3rccdwfq14j8rdihbmrvqnpkrrw-intel-media-driver-22.5.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

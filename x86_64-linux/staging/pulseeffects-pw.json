@@ -1,22 +1,22 @@
 {
-  "6.2.8": {
+  "6.3.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.2.8",
+      "version": "6.3.0",
       "pname": "easyeffects",
-      "name": "easyeffects-6.2.8",
+      "name": "easyeffects-6.3.0",
       "system": "x86_64-linux",
       "outputs": {
-        "debug": "/nix/store/jjlgmpz9mndh58k2mdzvzzhzlhhjynrj-easyeffects-6.2.8-debug",
-        "out": "/nix/store/9c5k5lh7w6jlj3dw0x4nsgr6m11w1fi3-easyeffects-6.2.8"
+        "debug": "/nix/store/l8l8ka6rjb8d516f2y5hczlzmj3i00cm-easyeffects-6.3.0-debug",
+        "out": "/nix/store/cd7c1fn3mljyskhpmpxfby9r6d0iy30v-easyeffects-6.3.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Audio effects for PipeWire applications.",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/audio/easyeffects/default.nix:106",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/easyeffects/default.nix:99",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9c5k5lh7w6jlj3dw0x4nsgr6m11w1fi3-easyeffects-6.2.8"
+        "/nix/store/cd7c1fn3mljyskhpmpxfby9r6d0iy30v-easyeffects-6.3.0"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "6.2.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.2.6",
-      "pname": "easyeffects",
-      "name": "easyeffects-6.2.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/kydlr9dp5magnia5pdbh4bab3i907lxr-easyeffects-6.2.6-debug",
-        "out": "/nix/store/8i19j552p38dnlr7xky69rvg7zqi9fsd-easyeffects-6.2.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Audio effects for PipeWire applications.",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/easyeffects/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "pulseeffects-pw"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8i19j552p38dnlr7xky69rvg7zqi9fsd-easyeffects-6.2.6"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "6.2.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.2.6",
+      "pname": "easyeffects",
+      "name": "easyeffects-6.2.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/kydlr9dp5magnia5pdbh4bab3i907lxr-easyeffects-6.2.6-debug",
+        "out": "/nix/store/8i19j552p38dnlr7xky69rvg7zqi9fsd-easyeffects-6.2.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Audio effects for PipeWire applications.",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/easyeffects/default.nix:106",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pulseeffects-pw"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8i19j552p38dnlr7xky69rvg7zqi9fsd-easyeffects-6.2.6"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

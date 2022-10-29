@@ -1,50 +1,4 @@
 {
-  "1.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.3",
-      "pname": "pkgconf",
-      "name": "pkgconf-1.9.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/lhr4j1cbr6pj5j865rda4rjgki2jm0il-pkgconf-1.9.3-dev",
-        "doc": "/nix/store/d16gkpfnf9w679ih7lcrlk3cblqd6cdw-pkgconf-1.9.3-doc",
-        "lib": "/nix/store/c63qx6gsd461afs4aji711vpqc8x68sy-pkgconf-1.9.3-lib",
-        "man": "/nix/store/qazg09gyk9v8r1gy0xw992fkkf1g8gsy-pkgconf-1.9.3-man",
-        "out": "/nix/store/bp96n1i78xq4ji4ajzshb83cwqkzvikk-pkgconf-1.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Package compiler and linker metadata toolkit",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/misc/pkgconf/default.nix:45",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libpkgconf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bp96n1i78xq4ji4ajzshb83cwqkzvikk-pkgconf-1.9.3",
-        "/nix/store/qazg09gyk9v8r1gy0xw992fkkf1g8gsy-pkgconf-1.9.3-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.3",
+      "pname": "pkgconf",
+      "name": "pkgconf-1.9.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/m46jf2n93jv8vwx9k23f31k0zn98lgl0-pkgconf-1.9.3-dev",
+        "doc": "/nix/store/j79ijx70i21kwm0333swi4a9ixkdl0a5-pkgconf-1.9.3-doc",
+        "lib": "/nix/store/pp53hqm83mvgwbw1f0f8icnql4jhcpr0-pkgconf-1.9.3-lib",
+        "man": "/nix/store/j7nk9hlq2y7qjli1z4vnk2zip3p0qcmc-pkgconf-1.9.3-man",
+        "out": "/nix/store/zwsdmw5sg19q0k5fxj0jdjq886gdll5l-pkgconf-1.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Package compiler and linker metadata toolkit",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/misc/pkgconf/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libpkgconf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zwsdmw5sg19q0k5fxj0jdjq886gdll5l-pkgconf-1.9.3",
+        "/nix/store/j7nk9hlq2y7qjli1z4vnk2zip3p0qcmc-pkgconf-1.9.3-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

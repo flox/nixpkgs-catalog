@@ -39,46 +39,6 @@
       }
     }
   },
-  "22.8.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.8.2",
-      "pname": "linkerd-edge",
-      "name": "linkerd-edge-22.8.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/lsckm3ghavprd1a93kr4fvwwb6qybhb6-linkerd-edge-22.8.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A simple Kubernetes service mesh that improves security, observability and reliability",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/linkerd/generic.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linkerd_edge"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lsckm3ghavprd1a93kr4fvwwb6qybhb6-linkerd-edge-22.8.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "22.2.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "22.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.8.2",
+      "pname": "linkerd-edge",
+      "name": "linkerd-edge-22.8.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/ngwzi76gx86n5zv7l3yrawfw62k5hyip-linkerd-edge-22.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A simple Kubernetes service mesh that improves security, observability and reliability",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/linkerd/generic.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linkerd_edge"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ngwzi76gx86n5zv7l3yrawfw62k5hyip-linkerd-edge-22.8.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

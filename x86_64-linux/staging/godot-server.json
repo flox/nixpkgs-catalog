@@ -1,48 +1,4 @@
 {
-  "3.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5.1",
-      "pname": "godot-server",
-      "name": "godot-server-3.5.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/4h44wl6pignnsygz295x9kk09pz4ga5v-godot-server-3.5.1-dev",
-        "man": "/nix/store/4si8k1gvf7g39srhmww2bndc9zj5icmw-godot-server-3.5.1-man",
-        "out": "/nix/store/2pjarfl77s86n6a088v6svcdcqkvm5da-godot-server-3.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Free and Open Source 2D and 3D game engine (server build)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/godot/server.nix:15",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "godot-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2pjarfl77s86n6a088v6svcdcqkvm5da-godot-server-3.5.1",
-        "/nix/store/4si8k1gvf7g39srhmww2bndc9zj5icmw-godot-server-3.5.1-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.1",
+      "pname": "godot-server",
+      "name": "godot-server-3.5.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/08c08bq2rgvw76a4s698fbg2z495qy05-godot-server-3.5.1-dev",
+        "man": "/nix/store/49saxa1vjqsfizbdvlx32vxdvxcldswg-godot-server-3.5.1-man",
+        "out": "/nix/store/7wk0plxw4hhfvbx0jrg8gmglgjyf5cc4-godot-server-3.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Free and Open Source 2D and 3D game engine (server build)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/godot/server.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "godot-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7wk0plxw4hhfvbx0jrg8gmglgjyf5cc4-godot-server-3.5.1",
+        "/nix/store/49saxa1vjqsfizbdvlx32vxdvxcldswg-godot-server-3.5.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

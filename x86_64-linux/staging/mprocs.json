@@ -1,21 +1,21 @@
 {
-  "0.2.2": {
+  "0.6.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.2.2",
+      "version": "0.6.4",
       "pname": "mprocs",
-      "name": "mprocs-0.2.2",
+      "name": "mprocs-0.6.4",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/mpdbfcr8vf394ggjhgx131ccfkxlfv90-mprocs-0.2.2"
+        "out": "/nix/store/23d1cfszpqgm8giwgg9zk30aifyfb6hp-mprocs-0.6.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A TUI tool to run multiple commands in parallel and show the output of each command separately",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/mprocs/default.nix:17",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/mprocs/default.nix:23",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mpdbfcr8vf394ggjhgx131ccfkxlfv90-mprocs-0.2.2"
+        "/nix/store/23d1cfszpqgm8giwgg9zk30aifyfb6hp-mprocs-0.6.4"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.2",
+      "pname": "mprocs",
+      "name": "mprocs-0.2.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/mpdbfcr8vf394ggjhgx131ccfkxlfv90-mprocs-0.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A TUI tool to run multiple commands in parallel and show the output of each command separately",
+        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/mprocs/default.nix:17",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mprocs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mpdbfcr8vf394ggjhgx131ccfkxlfv90-mprocs-0.2.2"
+      ],
+      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+    },
+    "source": {
+      "locked": {
+        "revCount": 384129,
+        "lastModified": 1654682581
       }
     }
   }

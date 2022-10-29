@@ -1,44 +1,4 @@
 {
-  "2.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4",
-      "pname": "jamesdsp",
-      "name": "jamesdsp-2.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/6kzr3qkycqqzxrx3i69q8zj4ynz727dj-jamesdsp-2.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An audio effect processor for PipeWire clients",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/audio/jamesdsp/default.nix:82",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "jamesdsp-pulse"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6kzr3qkycqqzxrx3i69q8zj4ynz727dj-jamesdsp-2.4"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4",
+      "pname": "jamesdsp",
+      "name": "jamesdsp-2.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/bn78fhahc6sihizhlvxnkqqh4g0v5gp4-jamesdsp-2.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An audio effect processor for PipeWire clients",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/jamesdsp/default.nix:82",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "jamesdsp-pulse"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bn78fhahc6sihizhlvxnkqqh4g0v5gp4-jamesdsp-2.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

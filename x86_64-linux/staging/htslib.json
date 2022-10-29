@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.16",
-      "pname": "htslib",
-      "name": "htslib-1.16",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/snywb352n9lq2kkvap548l6zfriasq96-htslib-1.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A C library for reading/writing high-throughput sequencing data",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/science/biology/htslib/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "htslib"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/snywb352n9lq2kkvap548l6zfriasq96-htslib-1.16"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.16",
+      "pname": "htslib",
+      "name": "htslib-1.16",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/xyv056fmzcswshzn5492v85sil3c9wf5-htslib-1.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A C library for reading/writing high-throughput sequencing data",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/science/biology/htslib/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "htslib"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xyv056fmzcswshzn5492v85sil3c9wf5-htslib-1.16"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

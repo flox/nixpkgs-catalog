@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.4.58.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.58.3",
-      "pname": "super-slicer",
-      "name": "super-slicer-2.4.58.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/i4ccqb2vc2526hnnddsmkzwxbrinpsh1-super-slicer-2.4.58.3-debug",
-        "out": "/nix/store/k3y7cv0kc9q2sjkpwk45s7zgxb3lycc7-super-slicer-2.4.58.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "PrusaSlicer fork with more features and faster development cycle",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:64",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "super-slicer-latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k3y7cv0kc9q2sjkpwk45s7zgxb3lycc7-super-slicer-2.4.58.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.3.57.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.4.58.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.58.3",
+      "pname": "super-slicer",
+      "name": "super-slicer-2.4.58.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/dghpssi5p41lzjkpb0fmz8w1dq70xq4x-super-slicer-2.4.58.3-debug",
+        "out": "/nix/store/lk5l1adsn8i2ikcmrqsl7vy5092h7lbx-super-slicer-2.4.58.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "PrusaSlicer fork with more features and faster development cycle",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/prusa-slicer/super-slicer.nix:64",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "super-slicer-latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lk5l1adsn8i2ikcmrqsl7vy5092h7lbx-super-slicer-2.4.58.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

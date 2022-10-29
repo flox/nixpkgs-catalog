@@ -1,21 +1,21 @@
 {
-  "1.1.2": {
+  "1.2.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.1.2",
+      "version": "1.2.5",
       "pname": "talosctl",
-      "name": "talosctl-1.1.2",
+      "name": "talosctl-1.2.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/l1p7xxqqmsrw9cmrlb60s66apfy2wg26-talosctl-1.1.2"
+        "out": "/nix/store/x05bijqn4nnbga3fqqgl7cc0ljyy3zas-talosctl-1.2.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A CLI for out-of-band management of Kubernetes nodes created by Talos",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/talosctl/default.nix:34",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/talosctl/default.nix:34",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l1p7xxqqmsrw9cmrlb60s66apfy2wg26-talosctl-1.1.2"
+        "/nix/store/x05bijqn4nnbga3fqqgl7cc0ljyy3zas-talosctl-1.2.5"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "1.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.0",
-      "pname": "talosctl",
-      "name": "talosctl-1.1.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/vhf0wjpq8f5wz62p53p2cpc3cizfq3sz-talosctl-1.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A CLI for out-of-band management of Kubernetes nodes created by Talos",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/cluster/talosctl/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "talosctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vhf0wjpq8f5wz62p53p2cpc3cizfq3sz-talosctl-1.1.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.0",
+      "pname": "talosctl",
+      "name": "talosctl-1.1.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/vhf0wjpq8f5wz62p53p2cpc3cizfq3sz-talosctl-1.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A CLI for out-of-band management of Kubernetes nodes created by Talos",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/cluster/talosctl/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "talosctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vhf0wjpq8f5wz62p53p2cpc3cizfq3sz-talosctl-1.1.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

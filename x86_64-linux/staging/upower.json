@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.90.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.90.0",
-      "pname": "upower",
-      "name": "upower-1.90.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/vp4c3g458x08zyasvsd84m30z2p916r4-upower-1.90.0-dev",
-        "devdoc": "/nix/store/0fb6rnv8dgp223cqbv8y12fzyjyny9c1-upower-1.90.0-devdoc",
-        "out": "/nix/store/i9icpgz74z0xw5vkcgn79mqxmz61ad83-upower-1.90.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A D-Bus service for power management",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/upower/default.nix:150",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "upower"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i9icpgz74z0xw5vkcgn79mqxmz61ad83-upower-1.90.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.99.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.90.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.90.0",
+      "pname": "upower",
+      "name": "upower-1.90.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/0vx6yy44ys3sggf91bix8vb13f1m7y2n-upower-1.90.0-dev",
+        "devdoc": "/nix/store/d1p3f71c0zh5r3wc6j3y170k8626g532-upower-1.90.0-devdoc",
+        "out": "/nix/store/v48s72ipkcm4xa2n085dqzgv3vy2frhd-upower-1.90.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A D-Bus service for power management",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/upower/default.nix:150",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "upower"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/v48s72ipkcm4xa2n085dqzgv3vy2frhd-upower-1.90.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,21 +1,22 @@
 {
-  "3.10.0": {
+  "3.12.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.10.0",
+      "version": "3.12.5",
       "pname": "git-machete",
-      "name": "git-machete-3.10.0",
+      "name": "git-machete-3.12.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/4w5c8bqbnvif39q393fcyxlvzj2q9j1s-git-machete-3.10.0"
+        "dist": "/nix/store/6qsrajp4cb223k0ljc41v8bj0b9vvv0v-git-machete-3.12.5-dist",
+        "out": "/nix/store/qr9bgzqfaqbbzqfkqmqs34qx157mqrpb-git-machete-3.12.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Git repository organizer and rebase/merge workflow automation tool",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/version-management/git-and-tools/git-machete/default.nix:46",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/git-and-tools/git-machete/default.nix:46",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4w5c8bqbnvif39q393fcyxlvzj2q9j1s-git-machete-3.10.0"
+        "/nix/store/qr9bgzqfaqbbzqfkqmqs34qx157mqrpb-git-machete-3.12.5"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "3.11.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.11.4",
-      "pname": "git-machete",
-      "name": "git-machete-3.11.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/0fhhhy4ryd73i7bfnqprj83l05gn3a2q-git-machete-3.11.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Git repository organizer and rebase/merge workflow automation tool",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/git-and-tools/git-machete/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "git-machete"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0fhhhy4ryd73i7bfnqprj83l05gn3a2q-git-machete-3.11.4"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.11.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.11.4",
+      "pname": "git-machete",
+      "name": "git-machete-3.11.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/0fhhhy4ryd73i7bfnqprj83l05gn3a2q-git-machete-3.11.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Git repository organizer and rebase/merge workflow automation tool",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/git-and-tools/git-machete/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "git-machete"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0fhhhy4ryd73i7bfnqprj83l05gn3a2q-git-machete-3.11.4"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

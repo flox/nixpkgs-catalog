@@ -1,21 +1,21 @@
 {
-  "1.2.0": {
+  "1.4.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.2.0",
+      "version": "1.4.0",
       "pname": "kdigger",
-      "name": "kdigger-1.2.0",
+      "name": "kdigger-1.4.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/vnws8g74bxsvgs5hfzp2a2i4xc9mxdak-kdigger-1.2.0"
+        "out": "/nix/store/gz6l5si61a1lwdf6qrwviz3yw6cn4xvw-kdigger-1.4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An in-pod context discovery tool for Kubernetes penetration testing",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/tools/security/kdigger/default.nix:70",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/kdigger/default.nix:63",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vnws8g74bxsvgs5hfzp2a2i4xc9mxdak-kdigger-1.2.0"
+        "/nix/store/gz6l5si61a1lwdf6qrwviz3yw6cn4xvw-kdigger-1.4.0"
       ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
-  "1.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.2.1",
-      "pname": "kdigger",
-      "name": "kdigger-1.2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/zi88y0f9976rg7wi3qkbjpzhm7s7gny8-kdigger-1.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An in-pod context discovery tool for Kubernetes penetration testing",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/security/kdigger/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "kdigger"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zi88y0f9976rg7wi3qkbjpzhm7s7gny8-kdigger-1.2.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.2.1",
+      "pname": "kdigger",
+      "name": "kdigger-1.2.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zi88y0f9976rg7wi3qkbjpzhm7s7gny8-kdigger-1.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An in-pod context discovery tool for Kubernetes penetration testing",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/security/kdigger/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kdigger"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zi88y0f9976rg7wi3qkbjpzhm7s7gny8-kdigger-1.2.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

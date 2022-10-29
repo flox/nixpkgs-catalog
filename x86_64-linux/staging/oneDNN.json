@@ -1,23 +1,23 @@
 {
-  "2.6.2": {
+  "2.7.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.6.2",
+      "version": "2.7.1",
       "pname": "oneDNN",
-      "name": "oneDNN-2.6.2",
+      "name": "oneDNN-2.7.1",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/9ysyvwnpr7wd94fj04fw2znhmhcfvc5v-oneDNN-2.6.2-dev",
-        "doc": "/nix/store/h6gvn7f2x3sv09z1rvv137k6hkav5477-oneDNN-2.6.2-doc",
-        "out": "/nix/store/qrhk3gsnqn2m23d679a1fk3vcfp9dc20-oneDNN-2.6.2"
+        "dev": "/nix/store/ihqrxv8b584s721kbk0wpxjabwrs22l8-oneDNN-2.7.1-dev",
+        "doc": "/nix/store/ws1lg3df08zhg5m2r7bwlb77v0nkgq3g-oneDNN-2.7.1-doc",
+        "out": "/nix/store/3v2msnspgxalfnyb4mvsa2r19wdv8hdc-oneDNN-2.7.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "oneAPI Deep Neural Network Library (oneDNN)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/oneDNN/default.nix:25",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/oneDNN/default.nix:25",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/qrhk3gsnqn2m23d679a1fk3vcfp9dc20-oneDNN-2.6.2"
+        "/nix/store/3v2msnspgxalfnyb4mvsa2r19wdv8hdc-oneDNN-2.7.1"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "2.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.6.1",
-      "pname": "oneDNN",
-      "name": "oneDNN-2.6.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/vg47vv1z0bbk7m27zhsnpw563hs73fjd-oneDNN-2.6.1-dev",
-        "doc": "/nix/store/bqy7jbnmk626db8cjjm8wv5m8y68wf2x-oneDNN-2.6.1-doc",
-        "out": "/nix/store/jcdyvglinss59v56lqng2646dlaibnv9-oneDNN-2.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "oneAPI Deep Neural Network Library (oneDNN)",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/oneDNN/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "oneDNN"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jcdyvglinss59v56lqng2646dlaibnv9-oneDNN-2.6.1"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.1",
+      "pname": "oneDNN",
+      "name": "oneDNN-2.6.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/vg47vv1z0bbk7m27zhsnpw563hs73fjd-oneDNN-2.6.1-dev",
+        "doc": "/nix/store/bqy7jbnmk626db8cjjm8wv5m8y68wf2x-oneDNN-2.6.1-doc",
+        "out": "/nix/store/jcdyvglinss59v56lqng2646dlaibnv9-oneDNN-2.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "oneAPI Deep Neural Network Library (oneDNN)",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/oneDNN/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "oneDNN"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jcdyvglinss59v56lqng2646dlaibnv9-oneDNN-2.6.1"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

@@ -1,21 +1,21 @@
 {
-  "2.8": {
+  "2.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.8",
+      "version": "2.10",
       "pname": "vnstat",
-      "name": "vnstat-2.8",
+      "name": "vnstat-2.10",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/1il0vx7ipfgfrlnvm30v21ps9cibm869-vnstat-2.8"
+        "out": "/nix/store/j22h723qg0ai5c4vsg8gkys557dj065v-vnstat-2.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Console-based network statistics utility for Linux",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/vnstat/default.nix:32",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/vnstat/default.nix:32",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1il0vx7ipfgfrlnvm30v21ps9cibm869-vnstat-2.8"
+        "/nix/store/j22h723qg0ai5c4vsg8gkys557dj065v-vnstat-2.10"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.8",
+      "pname": "vnstat",
+      "name": "vnstat-2.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/1il0vx7ipfgfrlnvm30v21ps9cibm869-vnstat-2.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Console-based network statistics utility for Linux",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/vnstat/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vnstat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1il0vx7ipfgfrlnvm30v21ps9cibm869-vnstat-2.8"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

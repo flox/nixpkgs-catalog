@@ -1,44 +1,4 @@
 {
-  "0.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.12",
-      "pname": "papis",
-      "name": "papis-0.12",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/s15mv5q6sqi5b2xdqg5fvmq7l8n8mvbc-python3.10-papis-0.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Powerful command-line document and bibliography manager",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/papis/default.nix:116",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "papis"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s15mv5q6sqi5b2xdqg5fvmq7l8n8mvbc-python3.10-papis-0.12"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.11.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12",
+      "pname": "papis",
+      "name": "papis-0.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/jpbzx3s4dxgyw3np6fgy925pl91ba7b9-python3.10-papis-0.12-dist",
+        "out": "/nix/store/8gs129y0cbraahfkql3d4ibn9x8cygj0-python3.10-papis-0.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Powerful command-line document and bibliography manager",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/papis/default.nix:116",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "papis"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8gs129y0cbraahfkql3d4ibn9x8cygj0-python3.10-papis-0.12"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

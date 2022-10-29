@@ -42,49 +42,6 @@
       }
     }
   },
-  "1.9.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.0",
-      "pname": "dunst",
-      "name": "dunst-1.9.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/9cik54fa7pjahfj5z4wd0cj8d0b1qpqh-dunst-1.9.0-man",
-        "out": "/nix/store/7ljwq6kl2ch3zgixz52nrxxgwzsjk8r9-dunst-1.9.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Lightweight and customizable notification daemon",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/dunst/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "dunst"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7ljwq6kl2ch3zgixz52nrxxgwzsjk8r9-dunst-1.9.0",
-        "/nix/store/9cik54fa7pjahfj5z4wd0cj8d0b1qpqh-dunst-1.9.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.0",
+      "pname": "dunst",
+      "name": "dunst-1.9.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/4snjm9jkc5c4ccz7l1szhr110l0dcfb8-dunst-1.9.0-man",
+        "out": "/nix/store/0xdwwidb1l9g0g9j42mvqgwp1wjggq9s-dunst-1.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Lightweight and customizable notification daemon",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/dunst/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "dunst"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0xdwwidb1l9g0g9j42mvqgwp1wjggq9s-dunst-1.9.0",
+        "/nix/store/4snjm9jkc5c4ccz7l1szhr110l0dcfb8-dunst-1.9.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

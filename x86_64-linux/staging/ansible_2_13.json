@@ -1,21 +1,22 @@
 {
-  "2.13.2": {
+  "2.13.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.13.2",
+      "version": "2.13.5",
       "pname": "ansible-core",
-      "name": "ansible-core-2.13.2",
+      "name": "ansible-core-2.13.5",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/f70vz8jkzh4vawhqlinxjf3wa8lrycjs-python3.10-ansible-core-2.13.2"
+        "dist": "/nix/store/9kcjvskgvf0vgnn0qwgyvv8ij3166cia-python3.10-ansible-core-2.13.5-dist",
+        "out": "/nix/store/a81kp22x8f5rzxz34m8vwxqfbsdl3dhd-python3.10-ansible-core-2.13.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Radically simple IT automation",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/ansible/core.nix:77",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/f70vz8jkzh4vawhqlinxjf3wa8lrycjs-python3.10-ansible-core-2.13.2"
+        "/nix/store/a81kp22x8f5rzxz34m8vwxqfbsdl3dhd-python3.10-ansible-core-2.13.5"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "2.13.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.13.1",
-      "pname": "ansible-core",
-      "name": "ansible-core-2.13.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/15ily771pxv3rjw2w7zql1f9b9dmhn4k-python3.10-ansible-core-2.13.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Radically simple IT automation",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible/core.nix:77",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ansible_2_13"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/15ily771pxv3rjw2w7zql1f9b9dmhn4k-python3.10-ansible-core-2.13.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.13.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.1",
+      "pname": "ansible-core",
+      "name": "ansible-core-2.13.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/15ily771pxv3rjw2w7zql1f9b9dmhn4k-python3.10-ansible-core-2.13.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Radically simple IT automation",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible/core.nix:77",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ansible_2_13"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/15ily771pxv3rjw2w7zql1f9b9dmhn4k-python3.10-ansible-core-2.13.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

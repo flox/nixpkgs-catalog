@@ -1,44 +1,4 @@
 {
-  "1.9.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.4",
-      "pname": "artifactory_exporter",
-      "name": "artifactory_exporter-1.9.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/1xb17mwmyd3wmgl1gpm41pk0w8arajc7-artifactory_exporter-1.9.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "JFrog Artifactory Prometheus Exporter",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/artifactory-exporter.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "prometheus-artifactory-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1xb17mwmyd3wmgl1gpm41pk0w8arajc7-artifactory_exporter-1.9.4"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.4",
+      "pname": "artifactory_exporter",
+      "name": "artifactory_exporter-1.9.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/29bd7lhgj06hzi7p9r1rg5vmmv1if8c1-artifactory_exporter-1.9.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "JFrog Artifactory Prometheus Exporter",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/prometheus/artifactory-exporter.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "prometheus-artifactory-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/29bd7lhgj06hzi7p9r1rg5vmmv1if8c1-artifactory_exporter-1.9.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,49 +1,4 @@
 {
-  "1.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.13.0",
-      "pname": "libheif",
-      "name": "libheif-1.13.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/f1pikm9bcm7xh8hqkr5a8d44lrjs3wv5-libheif-1.13.0-bin",
-        "dev": "/nix/store/1qh7anmimg067m8b16lq66h0ga0isgvx-libheif-1.13.0-dev",
-        "man": "/nix/store/6s4mjkydk1jkqgks18lvbxaqvnpcs3sx-libheif-1.13.0-man",
-        "out": "/nix/store/w50g2q57pjvlfbqabf373kkrac35i8an-libheif-1.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "ISO/IEC 23008-12:2017 HEIF image file format decoder and encoder",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libheif/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libheif"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f1pikm9bcm7xh8hqkr5a8d44lrjs3wv5-libheif-1.13.0-bin",
-        "/nix/store/6s4mjkydk1jkqgks18lvbxaqvnpcs3sx-libheif-1.13.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.12.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13.0",
+      "pname": "libheif",
+      "name": "libheif-1.13.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/8dsj3628rsnfalcig2lrajhq5xrf56g1-libheif-1.13.0-bin",
+        "dev": "/nix/store/4yyv7nhiic2j635hxakzsd632ap162hg-libheif-1.13.0-dev",
+        "man": "/nix/store/mpdq17j0msw7wk74vszbvvf4zr97zq4v-libheif-1.13.0-man",
+        "out": "/nix/store/0q26m8f7ryjwc8xrkan95p4xfs2sqafs-libheif-1.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "ISO/IEC 23008-12:2017 HEIF image file format decoder and encoder",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libheif/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libheif"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8dsj3628rsnfalcig2lrajhq5xrf56g1-libheif-1.13.0-bin",
+        "/nix/store/mpdq17j0msw7wk74vszbvvf4zr97zq4v-libheif-1.13.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

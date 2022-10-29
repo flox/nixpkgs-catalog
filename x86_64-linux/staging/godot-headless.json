@@ -1,48 +1,4 @@
 {
-  "3.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.5.1",
-      "pname": "godot-headless",
-      "name": "godot-headless-3.5.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/daa718r7nds8mcgl1bbx3kxr95bdj4gy-godot-headless-3.5.1-dev",
-        "man": "/nix/store/jpkav7h5pvpi6nyf5gngqz23scm3rd4i-godot-headless-3.5.1-man",
-        "out": "/nix/store/ji8a3wm5q4x7dwb9jnpbbaqmdsh6nq9b-godot-headless-3.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Free and Open Source 2D and 3D game engine (headless build)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/godot/headless.nix:15",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "godot-headless"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ji8a3wm5q4x7dwb9jnpbbaqmdsh6nq9b-godot-headless-3.5.1",
-        "/nix/store/jpkav7h5pvpi6nyf5gngqz23scm3rd4i-godot-headless-3.5.1-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.1",
+      "pname": "godot-headless",
+      "name": "godot-headless-3.5.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/iyhb2zh64zii156s02yldk11l83nfny1-godot-headless-3.5.1-dev",
+        "man": "/nix/store/yq0iz389rrq75kbam6v5x9wvvq9x8kra-godot-headless-3.5.1-man",
+        "out": "/nix/store/zs3nnk2l0mdz0wkn55gxnpn3h7l3fz76-godot-headless-3.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Free and Open Source 2D and 3D game engine (headless build)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/godot/headless.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "godot-headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zs3nnk2l0mdz0wkn55gxnpn3h7l3fz76-godot-headless-3.5.1",
+        "/nix/store/yq0iz389rrq75kbam6v5x9wvvq9x8kra-godot-headless-3.5.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

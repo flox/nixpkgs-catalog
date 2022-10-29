@@ -1,22 +1,22 @@
 {
-  "3.0.3": {
+  "3.1.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.0.3",
+      "version": "3.1.1",
       "pname": "libapparmor",
-      "name": "libapparmor-3.0.3",
+      "name": "libapparmor-3.1.1",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/yxq450naf51mjkxcafqfz4bip0zwicb6-libapparmor-3.0.3",
-        "python": "/nix/store/vryv682cb0yc4j7yinrg94k6kybsvl9r-libapparmor-3.0.3-python"
+        "out": "/nix/store/n78xn70a35wdhbjm6gvsnc090gdjsmn6-libapparmor-3.1.1",
+        "python": "/nix/store/9igswjmmkh10l9k5vn04pgr5p83jvs3y-libapparmor-3.1.1-python"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A mandatory access control system - library",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/apparmor/default.nix:28",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/apparmor/default.nix:29",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/yxq450naf51mjkxcafqfz4bip0zwicb6-libapparmor-3.0.3"
+        "/nix/store/n78xn70a35wdhbjm6gvsnc090gdjsmn6-libapparmor-3.1.1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "3.0.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.7",
-      "pname": "libapparmor",
-      "name": "libapparmor-3.0.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/yan1n7zksbqzyb591clv3diggzsfv9ab-libapparmor-3.0.7",
-        "python": "/nix/store/imr1a045yapjk6xi9dgl52gayr57kblq-libapparmor-3.0.7-python"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A mandatory access control system - library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/apparmor/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libapparmor"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yan1n7zksbqzyb591clv3diggzsfv9ab-libapparmor-3.0.7"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.0.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0.7",
+      "pname": "libapparmor",
+      "name": "libapparmor-3.0.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/yan1n7zksbqzyb591clv3diggzsfv9ab-libapparmor-3.0.7",
+        "python": "/nix/store/imr1a045yapjk6xi9dgl52gayr57kblq-libapparmor-3.0.7-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A mandatory access control system - library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/apparmor/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libapparmor"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yan1n7zksbqzyb591clv3diggzsfv9ab-libapparmor-3.0.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

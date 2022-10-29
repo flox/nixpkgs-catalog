@@ -1,48 +1,4 @@
 {
-  "1.8.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.8",
-      "pname": "iptables",
-      "name": "iptables-1.8.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/w1pl7jppksqwap715ib4dldm1k56if7h-iptables-1.8.8-dev",
-        "man": "/nix/store/hk3g5ag0kk3fxk9s8k7lm9qif2bsil22-iptables-1.8.8-man",
-        "out": "/nix/store/ad0s0im0h7py8fb1hqrcfvdhanv8xfaq-iptables-1.8.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A program to configure the Linux IP packet filtering ruleset",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/iptables/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "iptables-nftables-compat"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ad0s0im0h7py8fb1hqrcfvdhanv8xfaq-iptables-1.8.8",
-        "/nix/store/hk3g5ag0kk3fxk9s8k7lm9qif2bsil22-iptables-1.8.8-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -81,6 +37,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.8.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.8",
+      "pname": "iptables",
+      "name": "iptables-1.8.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/9zypna1k1bqaj7dfp6sillgv4incbasc-iptables-1.8.8-dev",
+        "man": "/nix/store/nz054wqyg4ids9yy2f8k7yxizsa7wm8m-iptables-1.8.8-man",
+        "out": "/nix/store/a7gf4xzh7qf020sbggxrq17si9l99ysz-iptables-1.8.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A program to configure the Linux IP packet filtering ruleset",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/iptables/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "iptables-nftables-compat"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a7gf4xzh7qf020sbggxrq17si9l99ysz-iptables-1.8.8",
+        "/nix/store/nz054wqyg4ids9yy2f8k7yxizsa7wm8m-iptables-1.8.8-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

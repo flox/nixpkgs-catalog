@@ -1,48 +1,4 @@
 {
-  "3.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.14",
-      "pname": "rss2email",
-      "name": "rss2email-3.14",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/gm0pghwgk0pa6pqr72abi7f5ji95l3gz-rss2email-3.14-doc",
-        "man": "/nix/store/6k136bssqaf1byq1mln5a7qiday62ncm-rss2email-3.14-man",
-        "out": "/nix/store/l2p00kx3mchgwh9x0wcqwcjada9zqp4n-rss2email-3.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A tool that converts RSS/Atom newsfeeds to email",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/feedreaders/rss2email/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "rss2email"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l2p00kx3mchgwh9x0wcqwcjada9zqp4n-rss2email-3.14",
-        "/nix/store/6k136bssqaf1byq1mln5a7qiday62ncm-rss2email-3.14-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.13.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,51 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.14",
+      "pname": "rss2email",
+      "name": "rss2email-3.14",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/gdiq3fw4lwjzxx0h4qbycp3z3si0rhr7-rss2email-3.14-dist",
+        "doc": "/nix/store/6mnij1kdccqllxnhmnwz19ngsidqg4ba-rss2email-3.14-doc",
+        "man": "/nix/store/zq14zm3dhbnkq6mx6aj1c5g48zwfrqsv-rss2email-3.14-man",
+        "out": "/nix/store/dr2vanjjb2imxpkmkjsgl4hnq2hv52ja-rss2email-3.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A tool that converts RSS/Atom newsfeeds to email",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/feedreaders/rss2email/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rss2email"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dr2vanjjb2imxpkmkjsgl4hnq2hv52ja-rss2email-3.14",
+        "/nix/store/zq14zm3dhbnkq6mx6aj1c5g48zwfrqsv-rss2email-3.14-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

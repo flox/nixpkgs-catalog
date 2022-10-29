@@ -1,23 +1,23 @@
 {
-  "0.13.0": {
+  "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.13.0",
-      "pname": "ipfs",
-      "name": "ipfs-0.13.0",
+      "version": "0.16.0",
+      "pname": "kubo",
+      "name": "kubo-0.16.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/6slz6jsiljszkhadlca86cgs1iv7z5g3-ipfs-0.13.0",
-        "systemd_unit": "/nix/store/zys983qzbgb90bapvp6krmhwvnaqzpy9-ipfs-0.13.0-systemd_unit",
-        "systemd_unit_hardened": "/nix/store/06v6kcz111qq6242xgcif21xb1gmi75h-ipfs-0.13.0-systemd_unit_hardened"
+        "out": "/nix/store/80c108jpnz19k1xnif5yn1jawzl81k8i-kubo-0.16.0",
+        "systemd_unit": "/nix/store/ri3iy71i2qc8pv0lk3r59127vsp02jq3-kubo-0.16.0-systemd_unit",
+        "systemd_unit_hardened": "/nix/store/1vm0hz6g28r78hsmj1lgzqn3pd78shj3-kubo-0.16.0-systemd_unit_hardened"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A global, versioned, peer-to-peer filesystem",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/ipfs/default.nix:56",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/kubo/default.nix:56",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6slz6jsiljszkhadlca86cgs1iv7z5g3-ipfs-0.13.0"
+        "/nix/store/80c108jpnz19k1xnif5yn1jawzl81k8i-kubo-0.16.0"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
-  "0.14.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.14.0",
-      "pname": "ipfs",
-      "name": "ipfs-0.14.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/kw5rfa45bqrr19pxh7bkzb0r4355ll74-ipfs-0.14.0",
-        "systemd_unit": "/nix/store/zj4gkrnq9fg2piv6pblnw1b04ls8ah26-ipfs-0.14.0-systemd_unit",
-        "systemd_unit_hardened": "/nix/store/3hiwdfwn2zk340psv2rq0hrxzr5z4c4r-ipfs-0.14.0-systemd_unit_hardened"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A global, versioned, peer-to-peer filesystem",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/ipfs/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "ipfs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kw5rfa45bqrr19pxh7bkzb0r4355ll74-ipfs-0.14.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.14.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.0",
+      "pname": "ipfs",
+      "name": "ipfs-0.14.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/kw5rfa45bqrr19pxh7bkzb0r4355ll74-ipfs-0.14.0",
+        "systemd_unit": "/nix/store/zj4gkrnq9fg2piv6pblnw1b04ls8ah26-ipfs-0.14.0-systemd_unit",
+        "systemd_unit_hardened": "/nix/store/3hiwdfwn2zk340psv2rq0hrxzr5z4c4r-ipfs-0.14.0-systemd_unit_hardened"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A global, versioned, peer-to-peer filesystem",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/ipfs/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "ipfs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kw5rfa45bqrr19pxh7bkzb0r4355ll74-ipfs-0.14.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

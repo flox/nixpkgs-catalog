@@ -1,21 +1,22 @@
 {
-  "0.8.9.17": {
+  "0.8.9.28": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.8.9.17",
+      "version": "0.8.9.28",
       "pname": "pyradio",
-      "name": "pyradio-0.8.9.17",
+      "name": "pyradio-0.8.9.28",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/fin7mli9ycpggp0mgkhh2hqmsxgd6x65-pyradio-0.8.9.17"
+        "dist": "/nix/store/3x9w2lkkcdlvj62yij9p7w1391v69mg4-pyradio-0.8.9.28-dist",
+        "out": "/nix/store/d1gwvp39pbv0nfvpknpb1i6p1sfa0nqs-pyradio-0.8.9.28"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Curses based internet radio player",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/pyradio/default.nix:26",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/audio/pyradio/default.nix:32",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/fin7mli9ycpggp0mgkhh2hqmsxgd6x65-pyradio-0.8.9.17"
+        "/nix/store/d1gwvp39pbv0nfvpknpb1i6p1sfa0nqs-pyradio-0.8.9.28"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.8.9.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.9.22",
-      "pname": "pyradio",
-      "name": "pyradio-0.8.9.22",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/a5cmmapb1621vvb1pq2334w44rpi95wn-pyradio-0.8.9.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Curses based internet radio player",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/pyradio/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "pyradio"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a5cmmapb1621vvb1pq2334w44rpi95wn-pyradio-0.8.9.22"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.8.9.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.9.22",
+      "pname": "pyradio",
+      "name": "pyradio-0.8.9.22",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/a5cmmapb1621vvb1pq2334w44rpi95wn-pyradio-0.8.9.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Curses based internet radio player",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/audio/pyradio/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "pyradio"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a5cmmapb1621vvb1pq2334w44rpi95wn-pyradio-0.8.9.22"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

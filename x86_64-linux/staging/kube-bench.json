@@ -1,4 +1,44 @@
 {
+  "0.6.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.10",
+      "pname": "kube-bench",
+      "name": "kube-bench-0.6.10",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/jf2v80awh3870hx4kps3b8n3l9l7xrcr-kube-bench-0.6.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/kube-bench/default.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kube-bench"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jf2v80awh3870hx4kps3b8n3l9l7xrcr-kube-bench-0.6.10"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
+      }
+    }
+  },
   "0.6.9": {
     "type": "catalogRender",
     "schema": 1,

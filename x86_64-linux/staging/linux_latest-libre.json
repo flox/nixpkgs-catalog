@@ -1,22 +1,22 @@
 {
-  "5.18": {
+  "6.0.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.18",
+      "version": "6.0.3",
       "pname": "linux",
-      "name": "linux-5.18",
+      "name": "linux-6.0.3",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/064vmwgynx05swlwscsp6sadmfrjv4kk-linux-5.18-dev",
-        "out": "/nix/store/crhbzy9fm2lbsr8ycd5i4zqh1x1rzyws-linux-5.18"
+        "dev": "/nix/store/ilabdbz5x4nsgcjvakfjyn5hb9vlfqxw-linux-6.0.3-dev",
+        "out": "/nix/store/pplz60hw2iiab6jnxqiin2g3wvfq9iv4-linux-6.0.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/kernel/linux-5.18.nix:6",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/crhbzy9fm2lbsr8ycd5i4zqh1x1rzyws-linux-5.18"
+        "/nix/store/pplz60hw2iiab6jnxqiin2g3wvfq9iv4-linux-6.0.3"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "5.18.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.18.6",
-      "pname": "linux",
-      "name": "linux-5.18.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/5641kw3izj8jwajzx4ymbnbs2adhd1bf-linux-5.18.6-dev",
-        "out": "/nix/store/f2v079wy15jz5alsdl2r7ic90v4gx22z-linux-5.18.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.18.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_latest-libre"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f2v079wy15jz5alsdl2r7ic90v4gx22z-linux-5.18.6"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
+      }
+    }
+  },
+  "5.18.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18.6",
+      "pname": "linux",
+      "name": "linux-5.18.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/5641kw3izj8jwajzx4ymbnbs2adhd1bf-linux-5.18.6-dev",
+        "out": "/nix/store/f2v079wy15jz5alsdl2r7ic90v4gx22z-linux-5.18.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.18.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_latest-libre"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f2v079wy15jz5alsdl2r7ic90v4gx22z-linux-5.18.6"
+      ],
+      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
+    },
+    "source": {
+      "locked": {
+        "revCount": 388641,
+        "lastModified": 1656372800
       }
     }
   }

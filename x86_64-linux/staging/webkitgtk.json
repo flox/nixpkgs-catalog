@@ -1,23 +1,24 @@
 {
-  "2.36.2": {
+  "2.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.36.2",
+      "version": "2.38.0",
       "pname": "webkitgtk",
-      "name": "webkitgtk-2.36.2",
+      "name": "webkitgtk-2.38.0+abi=4.0",
       "system": "x86_64-linux",
       "outputs": {
-        "debug": "/nix/store/zd2igsva7wfwdpx8yr139gs7hn28wfn7-webkitgtk-2.36.2-debug",
-        "dev": "/nix/store/al8f6j80yqkx2lkicj2qmqmliz17yqma-webkitgtk-2.36.2-dev",
-        "out": "/nix/store/z81dca5ixzz5bcj7m5nygykadpxl39y2-webkitgtk-2.36.2"
+        "debug": "/nix/store/p8qgxy7w2dz0kbapgn3525ryiywz1ssm-webkitgtk-2.38.0+abi=4.0-debug",
+        "dev": "/nix/store/7s3aljl07jp320ln4ciyb8p6d7qmyjll-webkitgtk-2.38.0+abi=4.0-dev",
+        "devdoc": "/nix/store/8kqflqdvzj59czy25jijq95rsnspir1c-webkitgtk-2.38.0+abi=4.0-devdoc",
+        "out": "/nix/store/5ha7c8669ikglxkwd6ky4q0iylx49a51-webkitgtk-2.38.0+abi=4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Web content rendering engine, GTK port",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/webkitgtk/default.nix:227",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/webkitgtk/default.nix:239",
         "unfree": false
       }
     },
@@ -30,56 +31,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/z81dca5ixzz5bcj7m5nygykadpxl39y2-webkitgtk-2.36.2"
+        "/nix/store/5ha7c8669ikglxkwd6ky4q0iylx49a51-webkitgtk-2.38.0+abi=4.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.36.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.36.5",
-      "pname": "webkitgtk",
-      "name": "webkitgtk-2.36.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/g6c93gg5qsdmk1zs2j8aq7mgnsf18cp0-webkitgtk-2.36.5-debug",
-        "dev": "/nix/store/z4l3zxr4r886yw6z37hb38gv62i7hb4n-webkitgtk-2.36.5-dev",
-        "out": "/nix/store/k6m37y4fgf3lvhv2rxhqsl3a5m0dj46f-webkitgtk-2.36.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Web content rendering engine, GTK port",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/webkitgtk/default.nix:227",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "webkitgtk"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/k6m37y4fgf3lvhv2rxhqsl3a5m0dj46f-webkitgtk-2.36.5"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -122,6 +81,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.36.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.36.5",
+      "pname": "webkitgtk",
+      "name": "webkitgtk-2.36.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/g6c93gg5qsdmk1zs2j8aq7mgnsf18cp0-webkitgtk-2.36.5-debug",
+        "dev": "/nix/store/z4l3zxr4r886yw6z37hb38gv62i7hb4n-webkitgtk-2.36.5-dev",
+        "out": "/nix/store/k6m37y4fgf3lvhv2rxhqsl3a5m0dj46f-webkitgtk-2.36.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Web content rendering engine, GTK port",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/webkitgtk/default.nix:227",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "webkitgtk"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k6m37y4fgf3lvhv2rxhqsl3a5m0dj46f-webkitgtk-2.36.5"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

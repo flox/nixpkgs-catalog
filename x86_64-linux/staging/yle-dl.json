@@ -39,46 +39,6 @@
       }
     }
   },
-  "20220830": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20220830",
-      "pname": "yle-dl",
-      "name": "yle-dl-20220830",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/qh32izmgac7vvr41mra480fxrv8dmahw-yle-dl-20220830"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Downloads videos from Yle (Finnish Broadcasting Company) servers",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/yle-dl/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "yle-dl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qh32izmgac7vvr41mra480fxrv8dmahw-yle-dl-20220830"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "20220425": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "20220830": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220830",
+      "pname": "yle-dl",
+      "name": "yle-dl-20220830",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/zgbv1hi81k7hkhga37yg3pdb6h3rfb52-yle-dl-20220830-dist",
+        "out": "/nix/store/yd3b7in5j4mwi8sx8afar6qkb768239k-yle-dl-20220830"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Downloads videos from Yle (Finnish Broadcasting Company) servers",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/yle-dl/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "yle-dl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yd3b7in5j4mwi8sx8afar6qkb768239k-yle-dl-20220830"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

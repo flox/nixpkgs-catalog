@@ -42,49 +42,6 @@
       }
     }
   },
-  "0.4.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.4.5",
-      "pname": "regclient",
-      "name": "regclient-0.4.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/gyb4xkcxr1xdiyfckiyy4cncm9i3gh7q-regclient-0.4.5",
-        "regbot": "/nix/store/bmp5ih2whb8rrpx6iq5h7qbmsq8dn7qg-regclient-0.4.5-regbot",
-        "regctl": "/nix/store/ym8v63y4rfg4ixj425mj051n8d6bndps-regclient-0.4.5-regctl",
-        "regsync": "/nix/store/c1c8276dcix5qbsf85y3r00apl6lkfc1-regclient-0.4.5-regsync"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Docker and OCI Registry Client in Go and tooling using those libraries",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/regclient/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "regctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gyb4xkcxr1xdiyfckiyy4cncm9i3gh7q-regclient-0.4.5"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.4.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.4.5",
+      "pname": "regclient",
+      "name": "regclient-0.4.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/51lm4rszyzr8vp1k9qv38f78y1gjaqrv-regclient-0.4.5",
+        "regbot": "/nix/store/2vryrggqnnja87dgda3m6f6jlv9aqzqv-regclient-0.4.5-regbot",
+        "regctl": "/nix/store/avas55fg5rxp6lrxkv332kigv5ngk3al-regclient-0.4.5-regctl",
+        "regsync": "/nix/store/cbjj76igmwza31jn9yr0w0asn3sp6b8v-regclient-0.4.5-regsync"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Docker and OCI Registry Client in Go and tooling using those libraries",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/regclient/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "regctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/51lm4rszyzr8vp1k9qv38f78y1gjaqrv-regclient-0.4.5"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

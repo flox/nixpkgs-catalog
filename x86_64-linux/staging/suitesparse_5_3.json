@@ -41,48 +41,6 @@
       }
     }
   },
-  "5.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.13.0",
-      "pname": "suitesparse",
-      "name": "suitesparse-5.13.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/j00gjbpjlanmgfc4m64wrbl0rndp6gyg-suitesparse-5.13.0-dev",
-        "doc": "/nix/store/ngwpybngbhshnpxkwycl8dgjp3jcqx4s-suitesparse-5.13.0-doc",
-        "out": "/nix/store/wq97k3cw750vk03i2lr07acj062yq573-suitesparse-5.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A suite of sparse matrix algorithms",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/science/math/suitesparse/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "suitesparse_5_3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wq97k3cw750vk03i2lr07acj062yq573-suitesparse-5.13.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.13.0",
+      "pname": "suitesparse",
+      "name": "suitesparse-5.13.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/27567k5zc3zbxr2g7gmn6a6cp0nh6y7s-suitesparse-5.13.0-dev",
+        "doc": "/nix/store/vl89k6cv6xfcp2ykipvhpi3a7gjaw6qd-suitesparse-5.13.0-doc",
+        "out": "/nix/store/771sp6ci8casj5dndld82fcvm0dhwi2y-suitesparse-5.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A suite of sparse matrix algorithms",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/science/math/suitesparse/default.nix:69",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "suitesparse_5_3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/771sp6ci8casj5dndld82fcvm0dhwi2y-suitesparse-5.13.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

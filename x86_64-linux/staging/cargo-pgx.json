@@ -1,21 +1,21 @@
 {
-  "0.5.0": {
+  "0.5.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5.0",
+      "version": "0.5.6",
       "pname": "cargo-pgx",
-      "name": "cargo-pgx-0.5.0",
+      "name": "cargo-pgx-0.5.6",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/frxlwpq72s65z5avxd1nz3353z1fshb9-cargo-pgx-0.5.0"
+        "out": "/nix/store/7c39k971jzsf17wv3p38kdsidsz4dqvk-cargo-pgx-0.5.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Cargo subcommand for ‘pgx’ to make Postgres extension development easy",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/rust/cargo-pgx/default.nix:20",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/rust/cargo-pgx/default.nix:20",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/frxlwpq72s65z5avxd1nz3353z1fshb9-cargo-pgx-0.5.0"
+        "/nix/store/7c39k971jzsf17wv3p38kdsidsz4dqvk-cargo-pgx-0.5.6"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "0.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.0",
+      "pname": "cargo-pgx",
+      "name": "cargo-pgx-0.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/frxlwpq72s65z5avxd1nz3353z1fshb9-cargo-pgx-0.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cargo subcommand for ‘pgx’ to make Postgres extension development easy",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/rust/cargo-pgx/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cargo-pgx"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/frxlwpq72s65z5avxd1nz3353z1fshb9-cargo-pgx-0.5.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

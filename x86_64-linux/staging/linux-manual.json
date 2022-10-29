@@ -1,21 +1,21 @@
 {
-  "5.18": {
+  "6.0.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.18",
+      "version": "6.0.3",
       "pname": "linux-manual",
-      "name": "linux-manual-5.18",
+      "name": "linux-manual-6.0.3",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/wm0vh9sx8qsqism96bb7lh8fmh6ai6j6-linux-manual-5.18"
+        "out": "/nix/store/20iv1hmdrw6wxzaz8qv1c7zxdl1679z1-linux-manual-6.0.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Linux kernel API manual pages",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/data/documentation/linux-manual/default.nix:36",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/data/documentation/linux-manual/default.nix:36",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/wm0vh9sx8qsqism96bb7lh8fmh6ai6j6-linux-manual-5.18"
+        "/nix/store/20iv1hmdrw6wxzaz8qv1c7zxdl1679z1-linux-manual-6.0.3"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "5.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.19",
-      "pname": "linux-manual",
-      "name": "linux-manual-5.19",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/l3npyxd75yhjn81ni4lmxsqbigqwcn9x-linux-manual-5.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linux kernel API manual pages",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/data/documentation/linux-manual/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux-manual"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l3npyxd75yhjn81ni4lmxsqbigqwcn9x-linux-manual-5.19"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "5.19": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.19",
+      "pname": "linux-manual",
+      "name": "linux-manual-5.19",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/l3npyxd75yhjn81ni4lmxsqbigqwcn9x-linux-manual-5.19"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux kernel API manual pages",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/data/documentation/linux-manual/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux-manual"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/l3npyxd75yhjn81ni4lmxsqbigqwcn9x-linux-manual-5.19"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

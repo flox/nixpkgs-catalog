@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.0",
-      "pname": "mat2",
-      "name": "mat2-0.13.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/39lm25qmlk5m68s9j69nlbsc0xj92l5l-python3.10-mat2-0.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A handy tool to trash your metadata",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/mat2/default.nix:101",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "mat2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/39lm25qmlk5m68s9j69nlbsc0xj92l5l-python3.10-mat2-0.13.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.12.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.13.0",
+      "pname": "mat2",
+      "name": "mat2-0.13.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/0g4cq493p2qz7105qjj6xda3ra061zkd-python3.10-mat2-0.13.0-dist",
+        "out": "/nix/store/i2vdhbbg3pwwkbsrd90f291a18rhvkz8-python3.10-mat2-0.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A handy tool to trash your metadata",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/mat2/default.nix:101",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "mat2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/i2vdhbbg3pwwkbsrd90f291a18rhvkz8-python3.10-mat2-0.13.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

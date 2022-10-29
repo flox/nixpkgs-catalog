@@ -1,22 +1,22 @@
 {
-  "4.19.245": {
+  "4.19.261": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.19.245",
+      "version": "4.19.261",
       "pname": "linux",
-      "name": "linux-4.19.245",
+      "name": "linux-4.19.261",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/knq6l82djm1x6wz517drc0zmy7skkshg-linux-4.19.245-dev",
-        "out": "/nix/store/bq6vf48qs0xxd00c48bjs2gbh3am5054-linux-4.19.245"
+        "dev": "/nix/store/8ac5a7i5462g9ylcyrwk7rmdk8bqhrvv-linux-4.19.261-dev",
+        "out": "/nix/store/px07pa2hrlcs1spg63rl3iq6l8b55hqa-linux-4.19.261"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long)",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/kernel/linux-4.19.nix:6",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/linux-4.19.nix:6",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bq6vf48qs0xxd00c48bjs2gbh3am5054-linux-4.19.245"
+        "/nix/store/px07pa2hrlcs1spg63rl3iq6l8b55hqa-linux-4.19.261"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "4.19.254": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.19.254",
-      "pname": "linux",
-      "name": "linux-4.19.254",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/8mdkawl0yjfdf8ymndmm5lb5396ppf3h-linux-4.19.254-dev",
-        "out": "/nix/store/9sy4y9s2pn3c4v2n6k45n7sz9kd5pr1j-linux-4.19.254"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long)",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/linux-4.19.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_19"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9sy4y9s2pn3c4v2n6k45n7sz9kd5pr1j-linux-4.19.254"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "4.19.254": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.19.254",
+      "pname": "linux",
+      "name": "linux-4.19.254",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/8mdkawl0yjfdf8ymndmm5lb5396ppf3h-linux-4.19.254-dev",
+        "out": "/nix/store/9sy4y9s2pn3c4v2n6k45n7sz9kd5pr1j-linux-4.19.254"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long)",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/linux-4.19.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_19"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9sy4y9s2pn3c4v2n6k45n7sz9kd5pr1j-linux-4.19.254"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

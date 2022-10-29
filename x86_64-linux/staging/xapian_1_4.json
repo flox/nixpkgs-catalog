@@ -1,48 +1,4 @@
 {
-  "1.4.21": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.21",
-      "pname": "xapian",
-      "name": "xapian-1.4.21",
-      "system": "x86_64-linux",
-      "outputs": {
-        "doc": "/nix/store/14f03cg3nab96gq1xlfcgwz36nkqf71k-xapian-1.4.21-doc",
-        "man": "/nix/store/6z0k1dfwgmy40v2bhf0c8ibny7jkp7c7-xapian-1.4.21-man",
-        "out": "/nix/store/xaw18xigjrl6883mhxpsvsvpnlwpzkn2-xapian-1.4.21"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Search engine library",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/xapian/default.nix:45",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "xapian_1_4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xaw18xigjrl6883mhxpsvsvpnlwpzkn2-xapian-1.4.21",
-        "/nix/store/6z0k1dfwgmy40v2bhf0c8ibny7jkp7c7-xapian-1.4.21-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.4.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.4.21": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.21",
+      "pname": "xapian",
+      "name": "xapian-1.4.21",
+      "system": "x86_64-linux",
+      "outputs": {
+        "doc": "/nix/store/gkz09dmkbvhi9cc5bra0wpnpw5s1fy9y-xapian-1.4.21-doc",
+        "man": "/nix/store/kxmf77zl2qlhgmxcindvky69igljmr5v-xapian-1.4.21-man",
+        "out": "/nix/store/w4yaixkrmj4r5sj1w5cwnf2lkvs5qmc1-xapian-1.4.21"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Search engine library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/xapian/default.nix:45",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xapian_1_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w4yaixkrmj4r5sj1w5cwnf2lkvs5qmc1-xapian-1.4.21",
+        "/nix/store/kxmf77zl2qlhgmxcindvky69igljmr5v-xapian-1.4.21-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

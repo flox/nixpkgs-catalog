@@ -44,48 +44,6 @@
       }
     }
   },
-  "5.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.1.2",
-      "pname": "nuspell",
-      "name": "nuspell-5.1.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/w4cwn409kk58p31my4xd112ns7nvvylx-nuspell-5.1.2-dev",
-        "lib": "/nix/store/9jklpflwjdaddqjy4wgfq2awvch3jfba-nuspell-5.1.2-lib",
-        "out": "/nix/store/5xf0k2xbq2187jgjq852pw899jssgr1b-nuspell-5.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Free and open source C++ spell checking library",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/nuspell/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "nuspell"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5xf0k2xbq2187jgjq852pw899jssgr1b-nuspell-5.1.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "5.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +86,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.1.2",
+      "pname": "nuspell",
+      "name": "nuspell-5.1.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/y1hh4g9y7cr6a12w7x0bq0bf9sc7q4rj-nuspell-5.1.2-dev",
+        "lib": "/nix/store/4fb65cwkmva9ij2cn45qcrq2iazzv9s5-nuspell-5.1.2-lib",
+        "out": "/nix/store/3pw8fn6afpm3rmf7vzbh4vd986sqv5zk-nuspell-5.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Free and open source C++ spell checking library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/nuspell/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "nuspell"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3pw8fn6afpm3rmf7vzbh4vd986sqv5zk-nuspell-5.1.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

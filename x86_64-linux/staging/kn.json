@@ -1,21 +1,21 @@
 {
-  "1.6.0": {
+  "1.7.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.6.0",
+      "version": "1.7.0",
       "pname": "kn",
-      "name": "kn-1.6.0",
+      "name": "kn-1.7.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/rcxc89j3h0w6vy6giaxn6q7drvy4m5dl-kn-1.6.0"
+        "out": "/nix/store/q6a8y5jfj04d57pkc2pi4vqi9mfc6kn3-kn-1.7.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Knative client kn is your door to the Knative world. It allows you to create Knative resources interactively from the command line or from within scripts",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/networking/cluster/kn/default.nix:38",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/kn/default.nix:38",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rcxc89j3h0w6vy6giaxn6q7drvy4m5dl-kn-1.6.0"
+        "/nix/store/q6a8y5jfj04d57pkc2pi4vqi9mfc6kn3-kn-1.7.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
-  "1.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.5.0",
-      "pname": "kn",
-      "name": "kn-1.5.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/lqx4dydyd5b7agpayq13cd29w2kf5kry-kn-1.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Knative client kn is your door to the Knative world. It allows you to create Knative resources interactively from the command line or from within scripts",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kn/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "kn"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lqx4dydyd5b7agpayq13cd29w2kf5kry-kn-1.5.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.5.0",
+      "pname": "kn",
+      "name": "kn-1.5.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/lqx4dydyd5b7agpayq13cd29w2kf5kry-kn-1.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Knative client kn is your door to the Knative world. It allows you to create Knative resources interactively from the command line or from within scripts",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/cluster/kn/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "kn"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lqx4dydyd5b7agpayq13cd29w2kf5kry-kn-1.5.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

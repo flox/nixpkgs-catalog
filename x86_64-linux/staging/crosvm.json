@@ -40,47 +40,6 @@
       }
     }
   },
-  "104.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "104.0",
-      "pname": "crosvm",
-      "name": "crosvm-104.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/vc3lw92vd4zd0s6ba8nhz7f1c7vrvw3l-crosvm-104.0-debug",
-        "out": "/nix/store/i0vc32fbi246x6zyah3qqd2q2y5fj76z-crosvm-104.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A secure virtual machine monitor for KVM",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/crosvm/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "crosvm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/i0vc32fbi246x6zyah3qqd2q2y5fj76z-crosvm-104.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "100.14526.0.0-rc1": {
     "type": "catalogRender",
     "schema": 1,
@@ -118,6 +77,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "104.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "104.0",
+      "pname": "crosvm",
+      "name": "crosvm-104.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/fdhqfq5v9kdpfhy89rr5cv56xcakqlsa-crosvm-104.0-debug",
+        "out": "/nix/store/wsygfby9i72r5r0dlw3z5l8gm4b02s0g-crosvm-104.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A secure virtual machine monitor for KVM",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/crosvm/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "crosvm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wsygfby9i72r5r0dlw3z5l8gm4b02s0g-crosvm-104.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

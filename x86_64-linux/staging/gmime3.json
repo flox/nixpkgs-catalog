@@ -40,47 +40,6 @@
       }
     }
   },
-  "3.2.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.12",
-      "pname": "gmime",
-      "name": "gmime-3.2.12",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/l3awagyzi5xk99wi8wd0jbg3n4zsdfzn-gmime-3.2.12-dev",
-        "out": "/nix/store/qjbrp45wr0x3asnx6r6s2hc28dhy2nnl-gmime-3.2.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A C/C++ library for creating, editing and parsing MIME messages and structures",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gmime/3.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gmime3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qjbrp45wr0x3asnx6r6s2hc28dhy2nnl-gmime-3.2.12"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.2.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.2.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.12",
+      "pname": "gmime",
+      "name": "gmime-3.2.12",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/49vh7xa5imlvnk76dpw3c87gr03w5k5h-gmime-3.2.12-dev",
+        "out": "/nix/store/lk2m1fs9wwd8jsnc7sg9s4255rs1lql1-gmime-3.2.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A C/C++ library for creating, editing and parsing MIME messages and structures",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gmime/3.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gmime3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lk2m1fs9wwd8jsnc7sg9s4255rs1lql1-gmime-3.2.12"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

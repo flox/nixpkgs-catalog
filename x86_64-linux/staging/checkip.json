@@ -1,21 +1,21 @@
 {
-  "0.38.0": {
+  "0.42.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.38.0",
+      "version": "0.42.0",
       "pname": "checkip",
-      "name": "checkip-0.38.0",
+      "name": "checkip-0.42.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/42y174mc0k3c127hh9537by45s5h7rc5-checkip-0.38.0"
+        "out": "/nix/store/x4py0b9sxwl4qcw50j5ar0jglvij5f1a-checkip-0.42.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI tool that checks an IP address using various public services",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/checkip/default.nix:23",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/checkip/default.nix:23",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/42y174mc0k3c127hh9537by45s5h7rc5-checkip-0.38.0"
+        "/nix/store/x4py0b9sxwl4qcw50j5ar0jglvij5f1a-checkip-0.42.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.38.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.38.5",
-      "pname": "checkip",
-      "name": "checkip-0.38.5",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/h8cr6wyvq528m8r42xsvr3xpdpbhbfgx-checkip-0.38.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI tool that checks an IP address using various public services",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/checkip/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "checkip"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h8cr6wyvq528m8r42xsvr3xpdpbhbfgx-checkip-0.38.5"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "0.38.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.38.5",
+      "pname": "checkip",
+      "name": "checkip-0.38.5",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/h8cr6wyvq528m8r42xsvr3xpdpbhbfgx-checkip-0.38.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI tool that checks an IP address using various public services",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/networking/checkip/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "checkip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h8cr6wyvq528m8r42xsvr3xpdpbhbfgx-checkip-0.38.5"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

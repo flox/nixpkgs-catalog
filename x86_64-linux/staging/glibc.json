@@ -43,50 +43,6 @@
       }
     }
   },
-  "2.35-163": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.35-163",
-      "pname": "glibc",
-      "name": "glibc-2.35-163",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/jqb18w342wz9sc9jlc8blq80ms44pak3-glibc-2.35-163-bin",
-        "debug": "/nix/store/9vpqga6ma1fgs72vhxpnivmnbbnhj5jm-glibc-2.35-163-debug",
-        "dev": "/nix/store/rffag931pvbdiabwwa539wnwg1piqpx0-glibc-2.35-163-dev",
-        "out": "/nix/store/bzd91shky9j9d43girrrj6vmqlw7x9m8-glibc-2.35-163",
-        "static": "/nix/store/v8wn45hrivjid7wxx1dagm6sr692cv7c-glibc-2.35-163-static"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "The GNU C Library",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/glibc/default.nix:152",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "glibc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jqb18w342wz9sc9jlc8blq80ms44pak3-glibc-2.35-163-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.34-210": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.35-163": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.35-163",
+      "pname": "glibc",
+      "name": "glibc-2.35-163",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/xnfx90k3zl94anbyvkq81vrv0s8d2sxy-glibc-2.35-163-bin",
+        "debug": "/nix/store/v260rb20dfvwwha2pq7z6f02109c3b9j-glibc-2.35-163-debug",
+        "dev": "/nix/store/ybkyabc23chdfy48n3h1zqwa57vp38wd-glibc-2.35-163-dev",
+        "out": "/nix/store/g8d5bnh9mh1364x17mjyc731fsi9a61m-glibc-2.35-163",
+        "static": "/nix/store/3vw8ph5w40wg9farv6vkc1wl3lhmc8ch-glibc-2.35-163-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "The GNU C Library",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/glibc/default.nix:156",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "glibc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xnfx90k3zl94anbyvkq81vrv0s8d2sxy-glibc-2.35-163-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

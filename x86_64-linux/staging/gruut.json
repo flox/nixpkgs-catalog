@@ -39,46 +39,6 @@
       }
     }
   },
-  "2.3.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.4",
-      "pname": "gruut",
-      "name": "gruut-2.3.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/0hh4553vnwf5r7qg7x5axn8ivdfl1pwm-python3.10-gruut-2.3.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tokenizer, text cleaner, and phonemizer for many human languages",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/gruut/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gruut"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0hh4553vnwf5r7qg7x5axn8ivdfl1pwm-python3.10-gruut-2.3.4"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.2.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.3.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.4",
+      "pname": "gruut",
+      "name": "gruut-2.3.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/lwxrjqq6y7wk8xy2a1ayr5ygbr7sm6m4-python3.10-gruut-2.3.4-dist",
+        "out": "/nix/store/zk3nrw2v0f8rc0pm1k98jha55qmqn9qk-python3.10-gruut-2.3.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tokenizer, text cleaner, and phonemizer for many human languages",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/gruut/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gruut"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zk3nrw2v0f8rc0pm1k98jha55qmqn9qk-python3.10-gruut-2.3.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

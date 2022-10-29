@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.53.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.53.0",
-      "pname": "aws-sam-cli",
-      "name": "aws-sam-cli-1.53.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/9wzd4s7jqxhr2w8mykar4dag6vkh4ddb-aws-sam-cli-1.53.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI tool for local development and testing of Serverless applications",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/aws-sam-cli/default.nix:76",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "aws-sam-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9wzd4s7jqxhr2w8mykar4dag6vkh4ddb-aws-sam-cli-1.53.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.37.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.53.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.53.0",
+      "pname": "aws-sam-cli",
+      "name": "aws-sam-cli-1.53.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dist": "/nix/store/3sq7ljmclw3y5k9anfzszl4iq197k579-aws-sam-cli-1.53.0-dist",
+        "out": "/nix/store/7b1kr8k15nbwc5a5pd1pwhgjaky34mmq-aws-sam-cli-1.53.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI tool for local development and testing of Serverless applications",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/aws-sam-cli/default.nix:76",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "aws-sam-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7b1kr8k15nbwc5a5pd1pwhgjaky34mmq-aws-sam-cli-1.53.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "0.6.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.4",
-      "pname": "cargo-bisect-rustc",
-      "name": "cargo-bisect-rustc-0.6.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/sdfc53q9g1v44dqzrzmwyrfhb8vkj5v6-cargo-bisect-rustc-0.6.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Bisects rustc, either nightlies or CI artifacts",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/rust/cargo-bisect-rustc/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "cargo-bisect-rustc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sdfc53q9g1v44dqzrzmwyrfhb8vkj5v6-cargo-bisect-rustc-0.6.4"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.6.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.6.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.4",
+      "pname": "cargo-bisect-rustc",
+      "name": "cargo-bisect-rustc-0.6.4",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/g2ny01z3qm9c2pwrywcc9vywd5lcyxlz-cargo-bisect-rustc-0.6.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Bisects rustc, either nightlies or CI artifacts",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/rust/cargo-bisect-rustc/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cargo-bisect-rustc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g2ny01z3qm9c2pwrywcc9vywd5lcyxlz-cargo-bisect-rustc-0.6.4"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

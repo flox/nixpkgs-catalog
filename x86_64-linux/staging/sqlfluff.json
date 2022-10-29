@@ -1,21 +1,22 @@
 {
-  "0.13.2": {
+  "1.3.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.13.2",
+      "version": "1.3.2",
       "pname": "sqlfluff",
-      "name": "sqlfluff-0.13.2",
+      "name": "sqlfluff-1.3.2",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/3l4ic76c0fwkdb1bw0inh2y9r387diim-sqlfluff-0.13.2"
+        "dist": "/nix/store/sxsa5cxc4ky8lgv1ghxcf5h0d72r1dj8-sqlfluff-1.3.2-dist",
+        "out": "/nix/store/c5kxhkybj6xxbdy2qa788li3pig9hcif-sqlfluff-1.3.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "SQL linter and auto-formatter",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/3l4ic76c0fwkdb1bw0inh2y9r387diim-sqlfluff-0.13.2"
+        "/nix/store/c5kxhkybj6xxbdy2qa788li3pig9hcif-sqlfluff-1.3.2"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.0",
-      "pname": "sqlfluff",
-      "name": "sqlfluff-1.0.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dqnd5kcfnp8kvw82kzqin9gghnvswi81-sqlfluff-1.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "SQL linter and auto-formatter",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "sqlfluff"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dqnd5kcfnp8kvw82kzqin9gghnvswi81-sqlfluff-1.0.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.0",
+      "pname": "sqlfluff",
+      "name": "sqlfluff-1.0.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/dqnd5kcfnp8kvw82kzqin9gghnvswi81-sqlfluff-1.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "SQL linter and auto-formatter",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/database/sqlfluff/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "sqlfluff"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dqnd5kcfnp8kvw82kzqin9gghnvswi81-sqlfluff-1.0.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

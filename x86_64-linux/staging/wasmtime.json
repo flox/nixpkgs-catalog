@@ -1,21 +1,22 @@
 {
-  "0.37.0": {
+  "2.0.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.37.0",
+      "version": "2.0.0",
       "pname": "wasmtime",
-      "name": "wasmtime-0.37.0",
+      "name": "wasmtime-2.0.0",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/l0fqx2jc1kikklvkz4x8hkmfzv59qsh4-wasmtime-0.37.0"
+        "dev": "/nix/store/29242zy9kf5xh2gxpacynp8kzz77slpm-wasmtime-2.0.0-dev",
+        "out": "/nix/store/0lzssprb6rqim37kh07pmcr24lbf04vg-wasmtime-2.0.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/interpreters/wasmtime/default.nix:36",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/wasmtime/default.nix:54",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l0fqx2jc1kikklvkz4x8hkmfzv59qsh4-wasmtime-0.37.0"
+        "/nix/store/0lzssprb6rqim37kh07pmcr24lbf04vg-wasmtime-2.0.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "0.38.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.38.0",
-      "pname": "wasmtime",
-      "name": "wasmtime-0.38.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/l28y801r12650jakpw9c8zpn5b2swpc4-wasmtime-0.38.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/wasmtime/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "wasmtime"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l28y801r12650jakpw9c8zpn5b2swpc4-wasmtime-0.38.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -117,6 +78,46 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "0.38.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.38.0",
+      "pname": "wasmtime",
+      "name": "wasmtime-0.38.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/l28y801r12650jakpw9c8zpn5b2swpc4-wasmtime-0.38.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/interpreters/wasmtime/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wasmtime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/l28y801r12650jakpw9c8zpn5b2swpc4-wasmtime-0.38.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }
