@@ -41,48 +41,6 @@
       }
     }
   },
-  "1.13.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.13.1",
-      "pname": "foot",
-      "name": "foot-1.13.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/9mz7jmrh7s3h2l9vwciy4ls3bd7bmnav-foot-1.13.1",
-        "terminfo": "/nix/store/f0gwx2zwb7nnn87nb9blkkc6jbl4q66q-foot-1.13.1-terminfo",
-        "themes": "/nix/store/yd2kmkj5x6153kkrq9ssh3h5khi222n2-foot-1.13.1-themes"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A fast, lightweight and minimalistic Wayland terminal emulator",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/terminal-emulators/foot/default.nix:208",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "foot"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9mz7jmrh7s3h2l9vwciy4ls3bd7bmnav-foot-1.13.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.12.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.13.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13.1",
+      "pname": "foot",
+      "name": "foot-1.13.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/zww5hn568zfzy1l5730dx1z90cdak1yq-foot-1.13.1",
+        "terminfo": "/nix/store/dbi5q52c25vpldzgnkgfb0zx224siyfh-foot-1.13.1-terminfo",
+        "themes": "/nix/store/w1nw55xgqqdlgjxfgs8gy4nyxcybm7c4-foot-1.13.1-themes"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A fast, lightweight and minimalistic Wayland terminal emulator",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/terminal-emulators/foot/default.nix:208",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "foot"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zww5hn568zfzy1l5730dx1z90cdak1yq-foot-1.13.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

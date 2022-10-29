@@ -1,48 +1,4 @@
 {
-  "11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "11",
-      "pname": "jose",
-      "name": "jose-11",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/n37gcihh1picywc88pm12g6xz4hfqx9q-jose-11-dev",
-        "man": "/nix/store/0x0px3qg820lfpdnia1l8303xr8i3rhl-jose-11-man",
-        "out": "/nix/store/mxg0dkn64zf753lfd3fivkd2hyf2j9xw-jose-11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "C-language implementation of Javascript Object Signing and Encryption",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/jose/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "jose"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mxg0dkn64zf753lfd3fivkd2hyf2j9xw-jose-11",
-        "/nix/store/0x0px3qg820lfpdnia1l8303xr8i3rhl-jose-11-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "10": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "11",
+      "pname": "jose",
+      "name": "jose-11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/jc2jpkzxgngkr9r4rl54gq6mgx5dbmwv-jose-11-dev",
+        "man": "/nix/store/362k8dky6vvnj5390513fs6nlxlw8cl1-jose-11-man",
+        "out": "/nix/store/qycpvv9bdjk2rbjk8dy5knlzc9k3a1jv-jose-11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "C-language implementation of Javascript Object Signing and Encryption",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/jose/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "jose"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qycpvv9bdjk2rbjk8dy5knlzc9k3a1jv-jose-11",
+        "/nix/store/362k8dky6vvnj5390513fs6nlxlw8cl1-jose-11-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.1",
-      "pname": "sshuttle",
-      "name": "sshuttle-1.1.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/c5mj7w87rlzc1vgr0wvs7laydvf2hkbi-sshuttle-1.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Transparent proxy server that works as a poor man's VPN",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/sshuttle/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "sshuttle"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c5mj7w87rlzc1vgr0wvs7laydvf2hkbi-sshuttle-1.1.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.1",
+      "pname": "sshuttle",
+      "name": "sshuttle-1.1.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/f7xfh8nn958f7p3hkk8izaryabxr1cry-sshuttle-1.1.1-dist",
+        "out": "/nix/store/va94avcxb99zr6fp339mx0riv3px3qyk-sshuttle-1.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Transparent proxy server that works as a poor man's VPN",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/sshuttle/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "sshuttle"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/va94avcxb99zr6fp339mx0riv3px3qyk-sshuttle-1.1.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

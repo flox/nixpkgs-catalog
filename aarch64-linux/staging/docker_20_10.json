@@ -1,15 +1,15 @@
 {
-  "20.10.16": {
+  "20.10.20": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "20.10.16",
+      "version": "20.10.20",
       "pname": "docker",
-      "name": "docker-20.10.16",
+      "name": "docker-20.10.20",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/6sg54yb6pl47vyhlp8ns4hg55xk67cfl-docker-20.10.16-man",
-        "out": "/nix/store/aajv54jks1qddzxa0hdrsrc0lwgv0m7s-docker-20.10.16"
+        "man": "/nix/store/lhbbd4d3zkqkzswdqp6zwwqvirqdq7y9-docker-20.10.20-man",
+        "out": "/nix/store/idibizg5h2sw43gjah4mnmx45gvh3n56-docker-20.10.20"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "An open source project to pack, ship and run any application as a lightweight container",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/virtualization/docker/default.nix:233",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/docker/default.nix:229",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/aajv54jks1qddzxa0hdrsrc0lwgv0m7s-docker-20.10.16",
-        "/nix/store/6sg54yb6pl47vyhlp8ns4hg55xk67cfl-docker-20.10.16-man"
+        "/nix/store/idibizg5h2sw43gjah4mnmx45gvh3n56-docker-20.10.20",
+        "/nix/store/lhbbd4d3zkqkzswdqp6zwwqvirqdq7y9-docker-20.10.20-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "20.10.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20.10.17",
-      "pname": "docker",
-      "name": "docker-20.10.17",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/nffh8qg0wl7l1ha150780lc50xlnrjvw-docker-20.10.17-man",
-        "out": "/nix/store/05s6hhssqjww9kjkzwfhlhxhs8rrwa8l-docker-20.10.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An open source project to pack, ship and run any application as a lightweight container",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/virtualization/docker/default.nix:233",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "docker_20_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/05s6hhssqjww9kjkzwfhlhxhs8rrwa8l-docker-20.10.17",
-        "/nix/store/nffh8qg0wl7l1ha150780lc50xlnrjvw-docker-20.10.17-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "20.10.17": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20.10.17",
+      "pname": "docker",
+      "name": "docker-20.10.17",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/nffh8qg0wl7l1ha150780lc50xlnrjvw-docker-20.10.17-man",
+        "out": "/nix/store/05s6hhssqjww9kjkzwfhlhxhs8rrwa8l-docker-20.10.17"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An open source project to pack, ship and run any application as a lightweight container",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/virtualization/docker/default.nix:233",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "docker_20_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/05s6hhssqjww9kjkzwfhlhxhs8rrwa8l-docker-20.10.17",
+        "/nix/store/nffh8qg0wl7l1ha150780lc50xlnrjvw-docker-20.10.17-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

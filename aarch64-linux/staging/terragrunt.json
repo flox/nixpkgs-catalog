@@ -1,21 +1,21 @@
 {
-  "0.38.9": {
+  "0.39.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.38.9",
+      "version": "0.39.2",
       "pname": "terragrunt",
-      "name": "terragrunt-0.38.9",
+      "name": "terragrunt-0.39.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/cb6q3bhl50hzk8ic2gz6fcsaj68nfzsn-terragrunt-0.38.9"
+        "out": "/nix/store/mxfmkwzhh1xsbmv3q2vsqc3a684bvzr6-terragrunt-0.39.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/terragrunt/default.nix:31",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/terragrunt/default.nix:31",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/cb6q3bhl50hzk8ic2gz6fcsaj68nfzsn-terragrunt-0.38.9"
+        "/nix/store/mxfmkwzhh1xsbmv3q2vsqc3a684bvzr6-terragrunt-0.39.2"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.38.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.38.7",
-      "pname": "terragrunt",
-      "name": "terragrunt-0.38.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/8l5flipmk08rdb82h8y8p5ili0p68lzh-terragrunt-0.38.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/terragrunt/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "terragrunt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8l5flipmk08rdb82h8y8p5ili0p68lzh-terragrunt-0.38.7"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.38.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.38.7",
+      "pname": "terragrunt",
+      "name": "terragrunt-0.38.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/8l5flipmk08rdb82h8y8p5ili0p68lzh-terragrunt-0.38.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A thin wrapper for Terraform that supports locking for Terraform state and enforces best practices",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/terragrunt/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "terragrunt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8l5flipmk08rdb82h8y8p5ili0p68lzh-terragrunt-0.38.7"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

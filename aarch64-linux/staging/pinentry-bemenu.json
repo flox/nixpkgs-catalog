@@ -1,21 +1,21 @@
 {
-  "0.10.0": {
+  "0.12.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.10.0",
+      "version": "0.12.0",
       "pname": "pinentry-bemenu",
-      "name": "pinentry-bemenu-0.10.0",
+      "name": "pinentry-bemenu-0.12.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/m2dpfy213qhq15zdxhcyj0drxja1ywz6-pinentry-bemenu-0.10.0"
+        "out": "/nix/store/glx1gcpkd264zwknj5w7374ccx8al7wk-pinentry-bemenu-0.12.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Pinentry implementation based on bemenu",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/pinentry-bemenu/default.nix:19",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/pinentry-bemenu/default.nix:19",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/m2dpfy213qhq15zdxhcyj0drxja1ywz6-pinentry-bemenu-0.10.0"
+        "/nix/store/glx1gcpkd264zwknj5w7374ccx8al7wk-pinentry-bemenu-0.12.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.0",
+      "pname": "pinentry-bemenu",
+      "name": "pinentry-bemenu-0.10.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m2dpfy213qhq15zdxhcyj0drxja1ywz6-pinentry-bemenu-0.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Pinentry implementation based on bemenu",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/security/pinentry-bemenu/default.nix:19",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "pinentry-bemenu"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m2dpfy213qhq15zdxhcyj0drxja1ywz6-pinentry-bemenu-0.10.0"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

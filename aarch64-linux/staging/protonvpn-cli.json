@@ -39,47 +39,6 @@
       }
     }
   },
-  "3.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.13.0",
-      "pname": "protonvpn-cli",
-      "name": "protonvpn-cli-3.13.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dist": "/nix/store/79wdfw8jjnawjrr45s9x6igj00xv7gr5-protonvpn-cli-3.13.0-dist",
-        "out": "/nix/store/2blix5ni4csbcj7x8yrc5kprs1qidg3c-protonvpn-cli-3.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Linux command-line client for ProtonVPN",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/networking/protonvpn-cli/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "protonvpn-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2blix5ni4csbcj7x8yrc5kprs1qidg3c-protonvpn-cli-3.13.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.12.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.13.0",
+      "pname": "protonvpn-cli",
+      "name": "protonvpn-cli-3.13.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/rvca9ssx45jkfyisy42zph4j7hn84p4a-protonvpn-cli-3.13.0-dist",
+        "out": "/nix/store/f2n06sj8mshcbdh2y3as2yrlwbx4h1gp-protonvpn-cli-3.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Linux command-line client for ProtonVPN",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/protonvpn-cli/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "protonvpn-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f2n06sj8mshcbdh2y3as2yrlwbx4h1gp-protonvpn-cli-3.13.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

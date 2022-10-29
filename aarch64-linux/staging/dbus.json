@@ -1,18 +1,18 @@
 {
-  "1.12.20": {
+  "1.14.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.12.20",
+      "version": "1.14.4",
       "pname": "dbus",
-      "name": "dbus-1.12.20",
+      "name": "dbus-1.14.4",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/yzmhrgxxayi1lhxljai7n9nxrmicsygh-dbus-1.12.20-dev",
-        "doc": "/nix/store/npid5gkhspw0414pa4s1sm48zcc938g2-dbus-1.12.20-doc",
-        "lib": "/nix/store/djqx839wfnivs433sgfhfga3z81vcaiy-dbus-1.12.20-lib",
-        "man": "/nix/store/0djaczwv6idv2xvxxk9vfh8aw4vrdsdk-dbus-1.12.20-man",
-        "out": "/nix/store/xcv5ajf75d8yvcyslqgm4jg94rz67qbw-dbus-1.12.20"
+        "dev": "/nix/store/rqd7xhy55q8x24bwaxsi44y91mkl8vdh-dbus-1.14.4-dev",
+        "doc": "/nix/store/g5i2ami4irryalm7afqpq4qp7x192r3f-dbus-1.14.4-doc",
+        "lib": "/nix/store/wr82jjjkrbjwvpnky4c4axgy1xc1sn5l-dbus-1.14.4-lib",
+        "man": "/nix/store/lzrwcd45wnn43li6hkjh85f54q912pvv-dbus-1.14.4-man",
+        "out": "/nix/store/mx4xvbikwlqknnjb93r1mrnn8z887j7x-dbus-1.14.4"
       },
       "meta": {
         "outputsToInstall": [
@@ -20,7 +20,7 @@
           "man"
         ],
         "description": "Simple interprocess messaging system",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/dbus/default.nix:125",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/dbus/default.nix:115",
         "unfree": false
       }
     },
@@ -33,15 +33,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xcv5ajf75d8yvcyslqgm4jg94rz67qbw-dbus-1.12.20",
-        "/nix/store/0djaczwv6idv2xvxxk9vfh8aw4vrdsdk-dbus-1.12.20-man"
+        "/nix/store/mx4xvbikwlqknnjb93r1mrnn8z887j7x-dbus-1.14.4",
+        "/nix/store/lzrwcd45wnn43li6hkjh85f54q912pvv-dbus-1.14.4-man"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -88,6 +88,52 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.12.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.12.20",
+      "pname": "dbus",
+      "name": "dbus-1.12.20",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/yzmhrgxxayi1lhxljai7n9nxrmicsygh-dbus-1.12.20-dev",
+        "doc": "/nix/store/npid5gkhspw0414pa4s1sm48zcc938g2-dbus-1.12.20-doc",
+        "lib": "/nix/store/djqx839wfnivs433sgfhfga3z81vcaiy-dbus-1.12.20-lib",
+        "man": "/nix/store/0djaczwv6idv2xvxxk9vfh8aw4vrdsdk-dbus-1.12.20-man",
+        "out": "/nix/store/xcv5ajf75d8yvcyslqgm4jg94rz67qbw-dbus-1.12.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Simple interprocess messaging system",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/dbus/default.nix:125",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dbus"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xcv5ajf75d8yvcyslqgm4jg94rz67qbw-dbus-1.12.20",
+        "/nix/store/0djaczwv6idv2xvxxk9vfh8aw4vrdsdk-dbus-1.12.20-man"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

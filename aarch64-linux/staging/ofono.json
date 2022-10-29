@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0",
-      "pname": "ofono",
-      "name": "ofono-2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/i8n79pkszfs522wf40m8a2zxp5jyi3lm-ofono-2.0-dev",
-        "out": "/nix/store/an7p8w3g3pgs19kwarzhiz0pragb26n4-ofono-2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Infrastructure for building mobile telephony (GSM/UMTS) applications",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/ofono/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ofono"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/an7p8w3g3pgs19kwarzhiz0pragb26n4-ofono-2.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.34": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0",
+      "pname": "ofono",
+      "name": "ofono-2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/yfjirm4j7qwr6hgiv1p90448drqz5cds-ofono-2.0-dev",
+        "out": "/nix/store/ipqqjz2bwnkq431nriq3hcdg1c4fn7cy-ofono-2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Infrastructure for building mobile telephony (GSM/UMTS) applications",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/ofono/default.nix:60",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ofono"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ipqqjz2bwnkq431nriq3hcdg1c4fn7cy-ofono-2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

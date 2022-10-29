@@ -1,44 +1,4 @@
 {
-  "0.12.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.12.7",
-      "pname": "catt",
-      "name": "catt-0.12.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/6apzm62nap9vv8s5b474njr7d7jylrzd-catt-0.12.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tool to send media from online sources to Chromecast devices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/video/catt/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "catt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6apzm62nap9vv8s5b474njr7d7jylrzd-catt-0.12.7"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.12.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.12.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.12.7",
+      "pname": "catt",
+      "name": "catt-0.12.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/z5p9gxd21iqmhrg084z82caas61rdaiz-catt-0.12.7-dist",
+        "out": "/nix/store/jj5kh9iz2dm78dk369i6z0882wxwrq0n-catt-0.12.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tool to send media from online sources to Chromecast devices",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/video/catt/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "catt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jj5kh9iz2dm78dk369i6z0882wxwrq0n-catt-0.12.7"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

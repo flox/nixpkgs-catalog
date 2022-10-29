@@ -40,47 +40,6 @@
       }
     }
   },
-  "7.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.2.0",
-      "pname": "suitesparse-graphblas",
-      "name": "suitesparse-graphblas-7.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/glpcfcmvwkk6b3x5a3laliryhzpnj9dd-suitesparse-graphblas-7.2.0-dev",
-        "out": "/nix/store/fnj24k0b23c2zf3iszayawcq078pljpm-suitesparse-graphblas-7.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Graph algorithms in the language of linear algebra",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/science/math/suitesparse-graphblas/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "suitesparse-graphblas"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fnj24k0b23c2zf3iszayawcq078pljpm-suitesparse-graphblas-7.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "6.2.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "7.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.2.0",
+      "pname": "suitesparse-graphblas",
+      "name": "suitesparse-graphblas-7.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/pbsh5ifamggjxay1wh9vpfjwpijmk8y0-suitesparse-graphblas-7.2.0-dev",
+        "out": "/nix/store/vy9fafz69rzy1w59pgk66pj3fcpy835n-suitesparse-graphblas-7.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Graph algorithms in the language of linear algebra",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/science/math/suitesparse-graphblas/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "suitesparse-graphblas"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vy9fafz69rzy1w59pgk66pj3fcpy835n-suitesparse-graphblas-7.2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

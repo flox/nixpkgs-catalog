@@ -1,45 +1,4 @@
 {
-  "2.1.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.3",
-      "pname": "opam",
-      "name": "opam-2.1.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "installer": "/nix/store/apvk9d8gmlkbrzhmc4q2sisawggih8qf-opam-2.1.3-installer",
-        "out": "/nix/store/yszbv6jzd017sq4fx8fqmmi961g9y1mj-opam-2.1.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A package manager for OCaml",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/ocaml/opam/default.nix:130",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "opam"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yszbv6jzd017sq4fx8fqmmi961g9y1mj-opam-2.1.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.1.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.1.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.3",
+      "pname": "opam",
+      "name": "opam-2.1.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "installer": "/nix/store/bc01f1lgsm6dficqgg6cpprvavmqka50-opam-2.1.3-installer",
+        "out": "/nix/store/aix9x3l6xrhzl3zmp9p6cjq5qhb3wkzq-opam-2.1.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A package manager for OCaml",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/ocaml/opam/default.nix:130",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "opam"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/aix9x3l6xrhzl3zmp9p6cjq5qhb3wkzq-opam-2.1.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

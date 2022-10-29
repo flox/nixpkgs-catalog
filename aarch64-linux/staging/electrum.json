@@ -1,21 +1,22 @@
 {
-  "4.3.0": {
+  "4.3.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.3.0",
+      "version": "4.3.2",
       "pname": "electrum",
-      "name": "electrum-4.3.0",
+      "name": "electrum-4.3.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gbhdcfp28nqh1clqbsn04ws8hmspx27q-electrum-4.3.0"
+        "dist": "/nix/store/56pf3s8xbs0y4ljfnx68x2rcq6jj4vj6-electrum-4.3.2-dist",
+        "out": "/nix/store/kxns4h7bv6wgrbr7lxbc4bj3mr112g3v-electrum-4.3.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A lightweight Bitcoin wallet",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/misc/electrum/default.nix:143",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/electrum/default.nix:144",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gbhdcfp28nqh1clqbsn04ws8hmspx27q-electrum-4.3.0"
+        "/nix/store/kxns4h7bv6wgrbr7lxbc4bj3mr112g3v-electrum-4.3.2"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "4.2.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.2.2",
-      "pname": "electrum",
-      "name": "electrum-4.2.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/6qf80dw9j0mzrds6a70cwgbwxj0bp0r1-electrum-4.2.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A lightweight Bitcoin wallet",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/electrum/default.nix:149",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "electrum"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6qf80dw9j0mzrds6a70cwgbwxj0bp0r1-electrum-4.2.2"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "4.2.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.2.2",
+      "pname": "electrum",
+      "name": "electrum-4.2.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6qf80dw9j0mzrds6a70cwgbwxj0bp0r1-electrum-4.2.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A lightweight Bitcoin wallet",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/misc/electrum/default.nix:149",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "electrum"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6qf80dw9j0mzrds6a70cwgbwxj0bp0r1-electrum-4.2.2"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

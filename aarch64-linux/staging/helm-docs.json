@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.11.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.11.0",
-      "pname": "helm-docs",
-      "name": "helm-docs-1.11.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/a7kxahk7xrfi9nmx6lmd69s53fpf67iw-helm-docs-1.11.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A tool for automatically generating markdown documentation for Helm charts",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/cluster/helm-docs/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "helm-docs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a7kxahk7xrfi9nmx6lmd69s53fpf67iw-helm-docs-1.11.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.11.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.11.0",
+      "pname": "helm-docs",
+      "name": "helm-docs-1.11.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m4f0dll0m0awvmgnph2v1vyqszxpl05d-helm-docs-1.11.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A tool for automatically generating markdown documentation for Helm charts",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/cluster/helm-docs/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "helm-docs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m4f0dll0m0awvmgnph2v1vyqszxpl05d-helm-docs-1.11.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

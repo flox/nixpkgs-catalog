@@ -1,22 +1,22 @@
 {
-  "0.10.0": {
+  "0.11.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.10.0",
+      "version": "0.11.0",
       "pname": "alacritty",
-      "name": "alacritty-0.10.0",
+      "name": "alacritty-0.11.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/ab9lq077fiw8v6qf9l91n133x04zpvr5-alacritty-0.10.0",
-        "terminfo": "/nix/store/7p9z1qi8jpbysiymz95ric31kw4ph28i-alacritty-0.10.0-terminfo"
+        "out": "/nix/store/l8jf60cw4xfbb6yq9ar1j971n9w5wnrv-alacritty-0.11.0",
+        "terminfo": "/nix/store/vfb2hw2fvd1v9w6m7mrdlybaqpl0s6dp-alacritty-0.11.0-terminfo"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A cross-platform, GPU-accelerated terminal emulator",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/terminal-emulators/alacritty/default.nix:136",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/terminal-emulators/alacritty/default.nix:132",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ab9lq077fiw8v6qf9l91n133x04zpvr5-alacritty-0.10.0"
+        "/nix/store/l8jf60cw4xfbb6yq9ar1j971n9w5wnrv-alacritty-0.11.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "0.11.0-rc2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.0-rc2",
-      "pname": "alacritty",
-      "name": "alacritty-0.11.0-rc2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/m9xi97rvvv1baz7i81h4ky104gscmahc-alacritty-0.11.0-rc2",
-        "terminfo": "/nix/store/y1qsc9wdiqf7anv3xvybsqw436i074ky-alacritty-0.11.0-rc2-terminfo"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A cross-platform, GPU-accelerated terminal emulator",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/terminal-emulators/alacritty/default.nix:137",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "alacritty"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m9xi97rvvv1baz7i81h4ky104gscmahc-alacritty-0.11.0-rc2"
-      ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
-    },
-    "source": {
-      "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.11.0-rc2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.0-rc2",
+      "pname": "alacritty",
+      "name": "alacritty-0.11.0-rc2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m9xi97rvvv1baz7i81h4ky104gscmahc-alacritty-0.11.0-rc2",
+        "terminfo": "/nix/store/y1qsc9wdiqf7anv3xvybsqw436i074ky-alacritty-0.11.0-rc2-terminfo"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cross-platform, GPU-accelerated terminal emulator",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/applications/terminal-emulators/alacritty/default.nix:137",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "alacritty"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m9xi97rvvv1baz7i81h4ky104gscmahc-alacritty-0.11.0-rc2"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   }

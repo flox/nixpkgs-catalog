@@ -42,49 +42,6 @@
       }
     }
   },
-  "2.12.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.12.0.1",
-      "pname": "skalibs",
-      "name": "skalibs-2.12.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/xrxdrhcx7g62z45w0avlzhnh15g4gl9g-skalibs-2.12.0.1-dev",
-        "doc": "/nix/store/by6vmg16xamhwlpr0hxlc5lhins7hxb2-skalibs-2.12.0.1-doc",
-        "lib": "/nix/store/m5zvq6vgigws1207yyqc4jkn0l1dm6il-skalibs-2.12.0.1-lib",
-        "out": "/nix/store/13pc575viabm14p10f0qy8n708d52pm7-skalibs-2.12.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A set of general-purpose C programming libraries",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "skalibs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/13pc575viabm14p10f0qy8n708d52pm7-skalibs-2.12.0.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.11.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.12.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.12.0.1",
+      "pname": "skalibs",
+      "name": "skalibs-2.12.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/lw501d05cjh5348yk1b1wma8r1lcpg4p-skalibs-2.12.0.1-dev",
+        "doc": "/nix/store/y6f7bzzfwrhiplw3h82f6hrrripd84x4-skalibs-2.12.0.1-doc",
+        "lib": "/nix/store/a5a2jv8gyxpg3y5map7b850v4j4anf6h-skalibs-2.12.0.1-lib",
+        "out": "/nix/store/bkm3xnpz1dr58xrvbsdh22ynlqlr54dw-skalibs-2.12.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A set of general-purpose C programming libraries",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/skaware/build-skaware-package.nix:109",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "skalibs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bkm3xnpz1dr58xrvbsdh22ynlqlr54dw-skalibs-2.12.0.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,47 +1,4 @@
 {
-  "5.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.9.3",
-      "pname": "net-snmp",
-      "name": "net-snmp-5.9.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/vgbd7l3y94f55yc36098dckfhdyqqncz-net-snmp-5.9.3-bin",
-        "dev": "/nix/store/m80rk17y58z6yizgshwqk8b0zin0l550-net-snmp-5.9.3-dev",
-        "lib": "/nix/store/7fmm5bvddm129hnvnixjpg5m208byxry-net-snmp-5.9.3-lib",
-        "out": "/nix/store/n4xxvnk98djv5rd90r13gq5784n1wd29-net-snmp-5.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Clients and server for the SNMP network monitoring protocol",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/net-snmp/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "net_snmp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vgbd7l3y94f55yc36098dckfhdyqqncz-net-snmp-5.9.3-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "5.9.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.9.3",
+      "pname": "net-snmp",
+      "name": "net-snmp-5.9.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/yj531madx9cjrgg39580ps8pqp1gf18x-net-snmp-5.9.3-bin",
+        "dev": "/nix/store/8dcxnfqzwlf2a9cg9w78cycnlwl5s094-net-snmp-5.9.3-dev",
+        "lib": "/nix/store/wgfngr8raxx1g43jhgqqrx312xyc67mv-net-snmp-5.9.3-lib",
+        "out": "/nix/store/6q02ln7kww084bi4c6scz6vgfwdpbb14-net-snmp-5.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Clients and server for the SNMP network monitoring protocol",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/net-snmp/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "net_snmp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yj531madx9cjrgg39580ps8pqp1gf18x-net-snmp-5.9.3-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

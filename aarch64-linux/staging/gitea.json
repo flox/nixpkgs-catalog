@@ -1,22 +1,22 @@
 {
-  "1.16.7": {
+  "1.17.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.16.7",
+      "version": "1.17.3",
       "pname": "gitea",
-      "name": "gitea-1.16.7",
+      "name": "gitea-1.17.3",
       "system": "aarch64-linux",
       "outputs": {
-        "data": "/nix/store/mmyi19pyzsfs42ah7174j8idl8n0cf2d-gitea-1.16.7-data",
-        "out": "/nix/store/1fc0rnh3ljvs2idqhn9i5yxyx3268wpz-gitea-1.16.7"
+        "data": "/nix/store/b8v8007x6xjwp0dbm9s8agfd6xjij7lc-gitea-1.17.3-data",
+        "out": "/nix/store/09w41ld4vxswqk30y36md526mb47kgv8-gitea-1.17.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Git with a cup of tea",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/gitea/default.nix:77",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/gitea/default.nix:67",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1fc0rnh3ljvs2idqhn9i5yxyx3268wpz-gitea-1.16.7"
+        "/nix/store/09w41ld4vxswqk30y36md526mb47kgv8-gitea-1.17.3"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.17.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.17.0",
-      "pname": "gitea",
-      "name": "gitea-1.17.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "data": "/nix/store/p94ip2rypqhwi1nxs5zvxwrhq7idf05p-gitea-1.17.0-data",
-        "out": "/nix/store/9d74x3z989bqjvikjf03069yrcy6zik2-gitea-1.17.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Git with a cup of tea",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/gitea/default.nix:67",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitea"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9d74x3z989bqjvikjf03069yrcy6zik2-gitea-1.17.0"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.17.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.17.0",
+      "pname": "gitea",
+      "name": "gitea-1.17.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "data": "/nix/store/p94ip2rypqhwi1nxs5zvxwrhq7idf05p-gitea-1.17.0-data",
+        "out": "/nix/store/9d74x3z989bqjvikjf03069yrcy6zik2-gitea-1.17.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Git with a cup of tea",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/gitea/default.nix:67",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitea"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9d74x3z989bqjvikjf03069yrcy6zik2-gitea-1.17.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

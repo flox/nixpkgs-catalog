@@ -1,21 +1,22 @@
 {
-  "1.8.0": {
+  "1.8.6": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.8.0",
+      "version": "1.8.6",
       "pname": "OctoPrint",
-      "name": "OctoPrint-1.8.0",
+      "name": "OctoPrint-1.8.6",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/66wain2glwwaz23rdiakx7y3p631pdpg-python3.9-OctoPrint-1.8.0"
+        "dist": "/nix/store/jh1w8bbm69gz2vlfp8343l6jfh7g97hj-python3.10-OctoPrint-1.8.6-dist",
+        "out": "/nix/store/3p1gc5nmpvh2w4imjbhbwlc1356awq8x-python3.10-OctoPrint-1.8.6"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The snappy web interface for your 3D printer",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/misc/octoprint/default.nix:204",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/octoprint/default.nix:208",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/66wain2glwwaz23rdiakx7y3p631pdpg-python3.9-OctoPrint-1.8.0"
+        "/nix/store/3p1gc5nmpvh2w4imjbhbwlc1356awq8x-python3.10-OctoPrint-1.8.6"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.8.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.2",
-      "pname": "OctoPrint",
-      "name": "OctoPrint-1.8.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/rdab82c41jgiav0528qn1bmkyqgr5xgm-python3.10-OctoPrint-1.8.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The snappy web interface for your 3D printer",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/octoprint/default.nix:205",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "octoprint"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rdab82c41jgiav0528qn1bmkyqgr5xgm-python3.10-OctoPrint-1.8.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.8.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.2",
+      "pname": "OctoPrint",
+      "name": "OctoPrint-1.8.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/rdab82c41jgiav0528qn1bmkyqgr5xgm-python3.10-OctoPrint-1.8.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The snappy web interface for your 3D printer",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/octoprint/default.nix:205",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "octoprint"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rdab82c41jgiav0528qn1bmkyqgr5xgm-python3.10-OctoPrint-1.8.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

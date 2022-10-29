@@ -1,21 +1,22 @@
 {
-  "5.6.0": {
+  "6.1.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.6.0",
+      "version": "6.1.0",
       "pname": "deepdiff",
-      "name": "deepdiff-5.6.0",
+      "name": "deepdiff-6.1.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/m9nbjg1h64f4i0hf3kn6k231ch4yb016-python3.9-deepdiff-5.6.0"
+        "dist": "/nix/store/si1ridjc6xh3ry3pq4524wmcwj7am9nj-python3.10-deepdiff-6.1.0-dist",
+        "out": "/nix/store/dk5nzg262gvck90164hi7yv5bs3vzsrs-python3.10-deepdiff-6.1.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Deep Difference and Search of any Python object/data",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/deepdiff/default.nix:49",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/deepdiff/default.nix:58",
         "unfree": false
       }
     },
@@ -28,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/m9nbjg1h64f4i0hf3kn6k231ch4yb016-python3.9-deepdiff-5.6.0"
+        "/nix/store/dk5nzg262gvck90164hi7yv5bs3vzsrs-python3.10-deepdiff-6.1.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "5.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.6.0",
+      "pname": "deepdiff",
+      "name": "deepdiff-5.6.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/m9nbjg1h64f4i0hf3kn6k231ch4yb016-python3.9-deepdiff-5.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Deep Difference and Search of any Python object/data",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/python-modules/deepdiff/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "deepdiff"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m9nbjg1h64f4i0hf3kn6k231ch4yb016-python3.9-deepdiff-5.6.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

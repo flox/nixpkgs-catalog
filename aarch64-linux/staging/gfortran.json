@@ -1,48 +1,4 @@
 {
-  "9.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.5.0",
-      "pname": "gfortran-wrapper",
-      "name": "gfortran-wrapper-9.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/8hmkdyfcv8nhv30xmk9c1vvchhhc1nsl-gfortran-wrapper-9.5.0-info",
-        "man": "/nix/store/0lj0cgiayq23xm7d7y8jn4ixxqj8m38p-gfortran-wrapper-9.5.0-man",
-        "out": "/nix/store/gy4pl7268dmfx2r574v98f740621b707-gfortran-wrapper-9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gfortran"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gy4pl7268dmfx2r574v98f740621b707-gfortran-wrapper-9.5.0",
-        "/nix/store/0lj0cgiayq23xm7d7y8jn4ixxqj8m38p-gfortran-wrapper-9.5.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "9.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.5.0",
+      "pname": "gfortran-wrapper",
+      "name": "gfortran-wrapper-9.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/8c7nnigriph3flhcryz9g128cxn2hla3-gfortran-wrapper-9.5.0-info",
+        "man": "/nix/store/l76swdqs1azqq9iyizz3vwzbs8hxyv43-gfortran-wrapper-9.5.0-man",
+        "out": "/nix/store/77vxcnjxx30nghy47y2mhmczlkm88a4m-gfortran-wrapper-9.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/cc-wrapper/default.nix:549",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gfortran"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/77vxcnjxx30nghy47y2mhmczlkm88a4m-gfortran-wrapper-9.5.0",
+        "/nix/store/l76swdqs1azqq9iyizz3vwzbs8hxyv43-gfortran-wrapper-9.5.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

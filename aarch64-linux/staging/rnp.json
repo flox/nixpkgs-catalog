@@ -41,48 +41,6 @@
       }
     }
   },
-  "0.16.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16.2",
-      "pname": "rnp",
-      "name": "rnp-0.16.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/0hfvis0w6y335jcljwcpgs673rbsml2j-rnp-0.16.2-dev",
-        "lib": "/nix/store/3nfjsb77nwkcl09kmlj8bss1lzh30114-rnp-0.16.2-lib",
-        "out": "/nix/store/vybh1i56wjvyg823angmhyr21rpxgp8v-rnp-0.16.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/security/rnp/default.nix:51",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "rnp"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vybh1i56wjvyg823angmhyr21rpxgp8v-rnp-0.16.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.16.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.16.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16.2",
+      "pname": "rnp",
+      "name": "rnp-0.16.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/c2swhnm7i79yjaqirpansgwlylkhln2c-rnp-0.16.2-dev",
+        "lib": "/nix/store/y33dcrx4k0rj879mn51q56riw3yh7647-rnp-0.16.2-lib",
+        "out": "/nix/store/2ihx2dv7v0f9agf64jfsyix8j7f70qa8-rnp-0.16.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High performance C++ OpenPGP library, fully compliant to RFC 4880",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/rnp/default.nix:51",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rnp"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2ihx2dv7v0f9agf64jfsyix8j7f70qa8-rnp-0.16.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

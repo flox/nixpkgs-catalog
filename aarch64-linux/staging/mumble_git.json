@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.4.287": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.4.287",
-      "pname": "mumble",
-      "name": "mumble-1.4.287",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/isyyagn1z3kwb3jaasjhdpqfjhmaxs9j-mumble-1.4.287"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Low-latency, high quality voice chat software",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/mumble/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "mumble_git"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/isyyagn1z3kwb3jaasjhdpqfjhmaxs9j-mumble-1.4.287"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "unstable-1.4.231": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.4.287": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.4.287",
+      "pname": "mumble",
+      "name": "mumble-1.4.287",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/krxzg45q8hzmrps499snf5gdpfxlw6r7-mumble-1.4.287"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Low-latency, high quality voice chat software",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/mumble/default.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mumble_git"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/krxzg45q8hzmrps499snf5gdpfxlw6r7-mumble-1.4.287"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

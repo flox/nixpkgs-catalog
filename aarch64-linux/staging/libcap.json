@@ -1,51 +1,4 @@
 {
-  "2.66": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.66",
-      "pname": "libcap",
-      "name": "libcap-2.66",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/4923z83r4g2rgc9ql0l0qisrd85p39mp-libcap-2.66-dev",
-        "doc": "/nix/store/y67k12i4f8p7ma5yzvcml23fisaxxkpb-libcap-2.66-doc",
-        "lib": "/nix/store/vxwmlf2rviqv1s17n968lljk3vq54m75-libcap-2.66-lib",
-        "man": "/nix/store/8ivmcy39l64c9dkgg8wqmqrbm2q4pyhg-libcap-2.66-man",
-        "out": "/nix/store/j7ww2q1vhwqrh2vhsnd0rrq6cimlcwm9-libcap-2.66",
-        "pam": "/nix/store/ahlr9wcl4z805vzik2a2dlvcql6qnhx9-libcap-2.66-pam"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Library for working with POSIX capabilities",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/os-specific/linux/libcap/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libcap"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j7ww2q1vhwqrh2vhsnd0rrq6cimlcwm9-libcap-2.66",
-        "/nix/store/8ivmcy39l64c9dkgg8wqmqrbm2q4pyhg-libcap-2.66-man"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "2.65": {
     "type": "catalogRender",
     "schema": 1,
@@ -137,6 +90,53 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.66": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.66",
+      "pname": "libcap",
+      "name": "libcap-2.66",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/d0vx3dblqsw0hys5ln2ywg3pd3l67k1l-libcap-2.66-dev",
+        "doc": "/nix/store/vf277ncbwdfdbblbak23md28574pjh85-libcap-2.66-doc",
+        "lib": "/nix/store/cfif78i9knm3vaxyh4kf9blzwl6d8mr4-libcap-2.66-lib",
+        "man": "/nix/store/xn4aml5p1anvb62ppd2wsy6yii0s2c6y-libcap-2.66-man",
+        "out": "/nix/store/gnahwpll0lzr53imckz2smmks7ik98hl-libcap-2.66",
+        "pam": "/nix/store/bhhnka2dxy4zm9a4qm2sz29hjz09n0vw-libcap-2.66-pam"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Library for working with POSIX capabilities",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/libcap/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libcap"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gnahwpll0lzr53imckz2smmks7ik98hl-libcap-2.66",
+        "/nix/store/xn4aml5p1anvb62ppd2wsy6yii0s2c6y-libcap-2.66-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

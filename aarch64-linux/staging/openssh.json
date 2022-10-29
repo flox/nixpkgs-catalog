@@ -1,21 +1,21 @@
 {
-  "8.8p1": {
+  "9.1p1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "8.8p1",
+      "version": "9.1p1",
       "pname": "openssh",
-      "name": "openssh-8.8p1",
+      "name": "openssh-9.1p1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/gbiljz8xhi64jv02rigvxm1s15lp4cmd-openssh-8.8p1"
+        "out": "/nix/store/ap79srm726nsyla4v1m1jf8c3hkcqq14-openssh-9.1p1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An implementation of the SSH protocol",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/openssh/common.nix:178",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/openssh/common.nix:169",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gbiljz8xhi64jv02rigvxm1s15lp4cmd-openssh-8.8p1"
+        "/nix/store/ap79srm726nsyla4v1m1jf8c3hkcqq14-openssh-9.1p1"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "8.8p1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.8p1",
+      "pname": "openssh",
+      "name": "openssh-8.8p1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/gbiljz8xhi64jv02rigvxm1s15lp4cmd-openssh-8.8p1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An implementation of the SSH protocol",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/networking/openssh/common.nix:178",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "openssh"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gbiljz8xhi64jv02rigvxm1s15lp4cmd-openssh-8.8p1"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

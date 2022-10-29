@@ -39,46 +39,6 @@
       }
     }
   },
-  "3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0",
-      "pname": "jrnl",
-      "name": "jrnl-3.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/kiw7fmb40m3s93bw0d3nc7dp4569km48-jrnl-3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Simple command line journal application that stores your journal in a plain text file",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/jrnl/default.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "jrnl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kiw7fmb40m3s93bw0d3nc7dp4569km48-jrnl-3.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.8.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.0",
+      "pname": "jrnl",
+      "name": "jrnl-3.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/wqvvj1g4bwfc7hhrqg5194pbb6nab5cs-jrnl-3.0-dist",
+        "out": "/nix/store/b7lhz4jmv1f24inyvivpba9scbwcdfaq-jrnl-3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Simple command line journal application that stores your journal in a plain text file",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/jrnl/default.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "jrnl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b7lhz4jmv1f24inyvivpba9scbwcdfaq-jrnl-3.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -42,49 +42,6 @@
       }
     }
   },
-  "0.17.13": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.17.13",
-      "pname": "umockdev",
-      "name": "umockdev-0.17.13",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/hd607lc9xqlfzhhprxpkdpjjp292b7wb-umockdev-0.17.13-bin",
-        "dev": "/nix/store/kxrxn5jr4d7rv1ags162z1ixl3jqfvjn-umockdev-0.17.13-dev",
-        "devdoc": "/nix/store/33dkc8by1v2bf9b9w71w747gw021a7ad-umockdev-0.17.13-devdoc",
-        "out": "/nix/store/lysc04852pis0xfjq302nc2w2qp16s7l-umockdev-0.17.13"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Mock hardware devices for creating unit tests",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/umockdev/default.nix:86",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "umockdev"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hd607lc9xqlfzhhprxpkdpjjp292b7wb-umockdev-0.17.13-bin"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.17.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.17.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.17.13",
+      "pname": "umockdev",
+      "name": "umockdev-0.17.13",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/ngv9gsbxl5wqj00wzyjm0a84lwwq19r5-umockdev-0.17.13-bin",
+        "dev": "/nix/store/l5slcc2ra14wcd05rr8ad5f2i47wzsd5-umockdev-0.17.13-dev",
+        "devdoc": "/nix/store/r48j894kkgmh849qdmxglr7c2wkwzq9b-umockdev-0.17.13-devdoc",
+        "out": "/nix/store/a284yp4anb7asks18l9hnhnczvhwwxyr-umockdev-0.17.13"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Mock hardware devices for creating unit tests",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/umockdev/default.nix:86",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "umockdev"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ngv9gsbxl5wqj00wzyjm0a84lwwq19r5-umockdev-0.17.13-bin"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

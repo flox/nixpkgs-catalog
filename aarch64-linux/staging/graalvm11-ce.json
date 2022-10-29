@@ -40,47 +40,6 @@
       }
     }
   },
-  "22.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.2.0",
-      "pname": "graalvm11-ce",
-      "name": "graalvm11-ce-22.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "lib": "/nix/store/l2ldwx1mplr9lzz8mljnk0wgjdvphw2r-graalvm11-ce-22.2.0-lib",
-        "out": "/nix/store/kczbh9fjhl9zlrrxp6fxf1n0svrhgjbw-graalvm11-ce-22.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High-Performance Polyglot VM",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/compilers/graalvm/community-edition/mkGraal.nix:320",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "graalvm11-ce"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kczbh9fjhl9zlrrxp6fxf1n0svrhgjbw-graalvm11-ce-22.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "22.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "22.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.2.0",
+      "pname": "graalvm11-ce",
+      "name": "graalvm11-ce-22.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "lib": "/nix/store/2lfav5yzhb7vb04jyi19cybzb91lsqc3-graalvm11-ce-22.2.0-lib",
+        "out": "/nix/store/m09dzb1q0digsgbpw8m2a5jshxhmbx79-graalvm11-ce-22.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High-Performance Polyglot VM",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/graalvm/community-edition/mkGraal.nix:320",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "graalvm11-ce"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m09dzb1q0digsgbpw8m2a5jshxhmbx79-graalvm11-ce-22.2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

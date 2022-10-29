@@ -1,21 +1,21 @@
 {
-  "2.12.0": {
+  "2.14.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.12.0",
+      "version": "2.14.0",
       "pname": "drone.io-oss",
-      "name": "drone.io-oss-2.12.0",
+      "name": "drone.io-oss-2.14.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/dya7p6yk93gi3rf6444qg9ihrmkix97j-drone.io-oss-2.12.0"
+        "out": "/nix/store/fm14rz6drxcz91y2bdc8p3j67aycabcs-drone.io-oss-2.14.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Continuous Integration platform built on container technology",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/continuous-integration/drone/default.nix:24",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/continuous-integration/drone/default.nix:27",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dya7p6yk93gi3rf6444qg9ihrmkix97j-drone.io-oss-2.12.0"
+        "/nix/store/fm14rz6drxcz91y2bdc8p3j67aycabcs-drone.io-oss-2.14.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.13.0",
-      "pname": "drone.io-oss",
-      "name": "drone.io-oss-2.13.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/r0ybm14qx1zcxygx9ka68nrc9hsb0gwi-drone.io-oss-2.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Continuous Integration platform built on container technology",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/continuous-integration/drone/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "drone-oss"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/r0ybm14qx1zcxygx9ka68nrc9hsb0gwi-drone.io-oss-2.13.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "2.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.13.0",
+      "pname": "drone.io-oss",
+      "name": "drone.io-oss-2.13.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/r0ybm14qx1zcxygx9ka68nrc9hsb0gwi-drone.io-oss-2.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Continuous Integration platform built on container technology",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/continuous-integration/drone/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "drone-oss"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/r0ybm14qx1zcxygx9ka68nrc9hsb0gwi-drone.io-oss-2.13.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
       }
     }
   }

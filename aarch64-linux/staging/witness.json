@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.1.11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.1.11",
-      "pname": "witness",
-      "name": "witness-0.1.11",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/9ac0b28lgjvdkzs4iglgl2yf07w4rgh6-witness-0.1.11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A pluggable framework for software supply chain security. Witness prevents tampering of build materials and verifies the integrity of the build process from source to target",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/witness/default.nix:49",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "witness"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9ac0b28lgjvdkzs4iglgl2yf07w4rgh6-witness-0.1.11"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.1.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.1.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.11",
+      "pname": "witness",
+      "name": "witness-0.1.11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/bbg0xzmn85579aiypajy1ic0763kf2mv-witness-0.1.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A pluggable framework for software supply chain security. Witness prevents tampering of build materials and verifies the integrity of the build process from source to target",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/witness/default.nix:49",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "witness"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bbg0xzmn85579aiypajy1ic0763kf2mv-witness-0.1.11"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

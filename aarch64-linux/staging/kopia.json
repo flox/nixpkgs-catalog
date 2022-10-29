@@ -1,21 +1,21 @@
 {
-  "0.11.2": {
+  "0.12.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.11.2",
+      "version": "0.12.1",
       "pname": "kopia",
-      "name": "kopia-0.11.2",
+      "name": "kopia-0.12.1",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/g9zny31484aggvh7ph4nqnh0azzvz4wh-kopia-0.11.2"
+        "out": "/nix/store/sg1bjpdby5s3k6x3qillzfjiin87fpi0-kopia-0.12.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/backup/kopia/default.nix:27",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/backup/kopia/default.nix:27",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/g9zny31484aggvh7ph4nqnh0azzvz4wh-kopia-0.11.2"
+        "/nix/store/sg1bjpdby5s3k6x3qillzfjiin87fpi0-kopia-0.12.1"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "0.11.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.11.3",
-      "pname": "kopia",
-      "name": "kopia-0.11.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/w25sn5slb4idr7warkgylx3qhi1lkbys-kopia-0.11.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/backup/kopia/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "kopia"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w25sn5slb4idr7warkgylx3qhi1lkbys-kopia-0.11.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.11.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.11.3",
+      "pname": "kopia",
+      "name": "kopia-0.11.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/w25sn5slb4idr7warkgylx3qhi1lkbys-kopia-0.11.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/backup/kopia/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "kopia"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/w25sn5slb4idr7warkgylx3qhi1lkbys-kopia-0.11.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

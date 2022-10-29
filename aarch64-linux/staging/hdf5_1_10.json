@@ -1,45 +1,4 @@
 {
-  "1.10.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.9",
-      "pname": "hdf5",
-      "name": "hdf5-1.10.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/s5v2bvccf2wr9ckysrcvxp7l6f6skpm6-hdf5-1.10.9-dev",
-        "out": "/nix/store/kkflsnwz0ylzpn6ch34nj7kw5rs8khzj-hdf5-1.10.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Data model, library, and file format for storing and managing data",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/hdf5/1.10.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "hdf5_1_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kkflsnwz0ylzpn6ch34nj7kw5rs8khzj-hdf5-1.10.9"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.10.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.10.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.9",
+      "pname": "hdf5",
+      "name": "hdf5-1.10.9",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/hiv95gf8h2lg6jg8wdpw8nmsmv0m2667-hdf5-1.10.9-dev",
+        "out": "/nix/store/940c9rd6db7ya5jc97mxv2iv1iw3mv5x-hdf5-1.10.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Data model, library, and file format for storing and managing data",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/hdf5/1.10.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "hdf5_1_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/940c9rd6db7ya5jc97mxv2iv1iw3mv5x-hdf5-1.10.9"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

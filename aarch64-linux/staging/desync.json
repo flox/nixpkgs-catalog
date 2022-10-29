@@ -1,21 +1,21 @@
 {
-  "0.9.0": {
+  "0.9.3": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.9.0",
+      "version": "0.9.3",
       "pname": "desync",
-      "name": "desync-0.9.0",
+      "name": "desync-0.9.3",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/4ii5s0sm7xv330j5vsb2r15svq9brlil-desync-0.9.0"
+        "out": "/nix/store/jc5nffb5snv17phchbz60lad4xp7fsa6-desync-0.9.3"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Content-addressed binary distribution system",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sync/desync/default.nix:20",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/sync/desync/default.nix:20",
         "unfree": false
       }
     },
@@ -28,14 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4ii5s0sm7xv330j5vsb2r15svq9brlil-desync-0.9.0"
+        "/nix/store/jc5nffb5snv17phchbz60lad4xp7fsa6-desync-0.9.3"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.0",
+      "pname": "desync",
+      "name": "desync-0.9.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/4ii5s0sm7xv330j5vsb2r15svq9brlil-desync-0.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Content-addressed binary distribution system",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/networking/sync/desync/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "desync"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4ii5s0sm7xv330j5vsb2r15svq9brlil-desync-0.9.0"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

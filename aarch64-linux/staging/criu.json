@@ -1,48 +1,4 @@
 {
-  "3.17.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.17.1",
-      "pname": "criu",
-      "name": "criu-3.17.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/w07gxyrb49pmwkqljqp503fzqy3qhrr1-criu-3.17.1-dev",
-        "man": "/nix/store/wfismg2mb8vnyy096v95l3sxgv0iv3iq-criu-3.17.1-man",
-        "out": "/nix/store/jcipwz5gn64rd9dyrn9q1m41cn19q53s-criu-3.17.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Userspace checkpoint/restore for Linux",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/criu/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "criu"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jcipwz5gn64rd9dyrn9q1m41cn19q53s-criu-3.17.1",
-        "/nix/store/wfismg2mb8vnyy096v95l3sxgv0iv3iq-criu-3.17.1-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "3.15": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.17.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.17.1",
+      "pname": "criu",
+      "name": "criu-3.17.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/cr1h4v5i06y0nnnw00gjxyjqsbh58y3k-criu-3.17.1-dev",
+        "man": "/nix/store/32h1jyf018g0ygmgmdrkyc41izsxbk9n-criu-3.17.1-man",
+        "out": "/nix/store/6hxayadhkbn6q14h9nmn5ipkdnym8cv2-criu-3.17.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Userspace checkpoint/restore for Linux",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/criu/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "criu"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6hxayadhkbn6q14h9nmn5ipkdnym8cv2-criu-3.17.1",
+        "/nix/store/32h1jyf018g0ygmgmdrkyc41izsxbk9n-criu-3.17.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

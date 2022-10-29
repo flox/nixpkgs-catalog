@@ -1,45 +1,4 @@
 {
-  "2.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3",
-      "pname": "inetutils",
-      "name": "inetutils-2.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "apparmor": "/nix/store/kk5c6gcdzaj3ssjnw8yqhxzwcsg8b87g-inetutils-2.3-apparmor",
-        "out": "/nix/store/nyx7rla7gmcv2jj6i3j5pkc1ydf831sc-inetutils-2.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Collection of common network programs",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/inetutils/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "inetutils"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nyx7rla7gmcv2jj6i3j5pkc1ydf831sc-inetutils-2.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3",
+      "pname": "inetutils",
+      "name": "inetutils-2.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "apparmor": "/nix/store/fhsc348nwm00ph52gi5lkw24v11wpjxd-inetutils-2.3-apparmor",
+        "out": "/nix/store/gs28pnszb00w2w2y6431vvm5myyz4qk0-inetutils-2.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Collection of common network programs",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/inetutils/default.nix:70",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "inetutils"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gs28pnszb00w2w2y6431vvm5myyz4qk0-inetutils-2.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "5.3.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.3.0",
-      "pname": "rocm-runtime",
-      "name": "rocm-runtime-5.3.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/mpmsvrbk6djsp9n981hmjm6nvd4rg142-rocm-runtime-5.3.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Platform runtime for ROCm",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/rocm-runtime/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "rocm-runtime"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mpmsvrbk6djsp9n981hmjm6nvd4rg142-rocm-runtime-5.3.0"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "5.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "5.3.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.3.0",
+      "pname": "rocm-runtime",
+      "name": "rocm-runtime-5.3.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/3qh6k3hskqbfgisa6zwrnspkj24kypil-rocm-runtime-5.3.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Platform runtime for ROCm",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/rocm-runtime/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rocm-runtime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3qh6k3hskqbfgisa6zwrnspkj24kypil-rocm-runtime-5.3.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

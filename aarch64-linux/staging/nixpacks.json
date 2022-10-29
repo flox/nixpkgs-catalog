@@ -1,21 +1,21 @@
 {
-  "0.5.6": {
+  "0.10.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5.6",
+      "version": "0.10.5",
       "pname": "nixpacks",
-      "name": "nixpacks-0.5.6",
+      "name": "nixpacks-0.10.5",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/i6fgbh9rbwybak082p0a216n2vy6c7pc-nixpacks-0.5.6"
+        "out": "/nix/store/hlfbympm1myk5haxag2fa8qy1i9pv166-nixpacks-0.10.5"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "App source + Nix packages + Docker = Image Resources",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/nixpacks/default.nix:20",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/nixpacks/default.nix:20",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/i6fgbh9rbwybak082p0a216n2vy6c7pc-nixpacks-0.5.6"
+        "/nix/store/hlfbympm1myk5haxag2fa8qy1i9pv166-nixpacks-0.10.5"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
-  "0.2.11": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.11",
-      "pname": "nixpacks",
-      "name": "nixpacks-0.2.11",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/gd1h3js9f6gkbfd0w336sqs6blwgfb5v-nixpacks-0.2.11"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "App source + Nix packages + Docker = Image Resources",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/virtualization/nixpacks/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nixpacks"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gd1h3js9f6gkbfd0w336sqs6blwgfb5v-nixpacks-0.2.11"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
+      }
+    }
+  },
+  "0.2.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.11",
+      "pname": "nixpacks",
+      "name": "nixpacks-0.2.11",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/gd1h3js9f6gkbfd0w336sqs6blwgfb5v-nixpacks-0.2.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "App source + Nix packages + Docker = Image Resources",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/virtualization/nixpacks/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nixpacks"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gd1h3js9f6gkbfd0w336sqs6blwgfb5v-nixpacks-0.2.11"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

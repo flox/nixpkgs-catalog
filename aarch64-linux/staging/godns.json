@@ -1,21 +1,21 @@
 {
-  "2.8.7": {
+  "2.9.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.8.7",
+      "version": "2.9.0",
       "pname": "godns",
-      "name": "godns-2.8.7",
+      "name": "godns-2.9.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/4y70911wzq6k9qjnvlwdpc90xw0wvzin-godns-2.8.7"
+        "out": "/nix/store/hp0r2pid8ifh3n3vv07g8dznfkjx35aq-godns-2.9.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/tools/networking/godns/default.nix:24",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/godns/default.nix:24",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/4y70911wzq6k9qjnvlwdpc90xw0wvzin-godns-2.8.7"
+        "/nix/store/hp0r2pid8ifh3n3vv07g8dznfkjx35aq-godns-2.9.0"
       ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
-      }
-    }
-  },
-  "2.7.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.9",
-      "pname": "godns",
-      "name": "godns-2.7.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/rqhcibg28vxhgyxkm1n1rxh725xjkrsk-godns-2.7.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/networking/godns/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "godns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rqhcibg28vxhgyxkm1n1rxh725xjkrsk-godns-2.7.9"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.7.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.9",
+      "pname": "godns",
+      "name": "godns-2.7.9",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/rqhcibg28vxhgyxkm1n1rxh725xjkrsk-godns-2.7.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/tools/networking/godns/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "godns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rqhcibg28vxhgyxkm1n1rxh725xjkrsk-godns-2.7.9"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

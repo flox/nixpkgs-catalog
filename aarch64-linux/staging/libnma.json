@@ -1,46 +1,4 @@
 {
-  "1.10.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.2",
-      "pname": "libnma",
-      "name": "libnma-1.10.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/434wk1y6c45qd93wxf85i39ivn3dadmk-libnma-1.10.2-dev",
-        "devdoc": "/nix/store/lyyzibw2a88ppbdch37rh0zh5hv331mf-libnma-1.10.2-devdoc",
-        "out": "/nix/store/bgbpl7j0j3lkdpr0k4bp9sl7brbgxgxw-libnma-1.10.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "NetworkManager UI utilities (libnm version)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/networkmanager/libnma/default.nix:94",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libnma"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bgbpl7j0j3lkdpr0k4bp9sl7brbgxgxw-libnma-1.10.2"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "1.8.40": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.10.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.2",
+      "pname": "libnma",
+      "name": "libnma-1.10.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/6igai9mg31lzh7nbqhjlgddbgsyjk6jc-libnma-1.10.2-dev",
+        "devdoc": "/nix/store/y0jvn8mfhfddlqnihqchqc0i9fahsrq8-libnma-1.10.2-devdoc",
+        "out": "/nix/store/hcq1rl2nrghrw7wjrh224b6m4vc9pnzs-libnma-1.10.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "NetworkManager UI utilities (libnm version)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/networking/networkmanager/libnma/default.nix:94",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libnma"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hcq1rl2nrghrw7wjrh224b6m4vc9pnzs-libnma-1.10.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

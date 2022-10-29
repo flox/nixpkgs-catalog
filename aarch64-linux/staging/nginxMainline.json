@@ -1,22 +1,22 @@
 {
-  "1.22.0": {
+  "1.23.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.22.0",
+      "version": "1.23.2",
       "pname": "nginx",
-      "name": "nginx-1.22.0",
+      "name": "nginx-1.23.2",
       "system": "aarch64-linux",
       "outputs": {
-        "doc": "/nix/store/fmxgagpzxl5721b2dw8kic6hpl0bqr87-nginx-1.22.0-doc",
-        "out": "/nix/store/mfysnz3qvpvgs5x0qvw36xx8vhs2ak1j-nginx-1.22.0"
+        "doc": "/nix/store/z144y19ksaxi8a0qa4pj9xzz3qksig1a-nginx-1.23.2-doc",
+        "out": "/nix/store/a403gj11050jybjlpl7759j0lr2133h8-nginx-1.23.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/http/nginx/generic.nix:180",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/http/nginx/generic.nix:180",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mfysnz3qvpvgs5x0qvw36xx8vhs2ak1j-nginx-1.22.0"
+        "/nix/store/a403gj11050jybjlpl7759j0lr2133h8-nginx-1.23.2"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.23.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.0",
-      "pname": "nginx",
-      "name": "nginx-1.23.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "doc": "/nix/store/b6d6vaps2y928yh6l2y0hbcpr5mwra2c-nginx-1.23.0-doc",
-        "out": "/nix/store/fb0dcx4j0rwpgsq3kzvh8qy1naqg9yzw-nginx-1.23.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/http/nginx/generic.nix:180",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nginxMainline"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fb0dcx4j0rwpgsq3kzvh8qy1naqg9yzw-nginx-1.23.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.23.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.0",
+      "pname": "nginx",
+      "name": "nginx-1.23.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "doc": "/nix/store/b6d6vaps2y928yh6l2y0hbcpr5mwra2c-nginx-1.23.0-doc",
+        "out": "/nix/store/fb0dcx4j0rwpgsq3kzvh8qy1naqg9yzw-nginx-1.23.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nginxMainline"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fb0dcx4j0rwpgsq3kzvh8qy1naqg9yzw-nginx-1.23.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

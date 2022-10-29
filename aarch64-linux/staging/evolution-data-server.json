@@ -1,22 +1,22 @@
 {
-  "3.44.2": {
+  "3.46.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.44.2",
+      "version": "3.46.0",
       "pname": "evolution-data-server",
-      "name": "evolution-data-server-3.44.2",
+      "name": "evolution-data-server-3.46.0",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/hcw31imzxys64fil2bf8a9s1ps0spy45-evolution-data-server-3.44.2-dev",
-        "out": "/nix/store/x28zfa9dfg0z61sm4ij19d96h0mnx6m7-evolution-data-server-3.44.2"
+        "dev": "/nix/store/4sryg97nr0z88kbn3m52y246l2m2lrd9-evolution-data-server-3.46.0-dev",
+        "out": "/nix/store/23sy41yvikvsmsbzirgyslzi82ywrn6q-evolution-data-server-3.46.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Unified backend for programs that work with contacts, tasks, and calendar information",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/desktops/gnome/core/evolution-data-server/default.nix:136",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/desktops/gnome/core/evolution-data-server/default.nix:174",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/x28zfa9dfg0z61sm4ij19d96h0mnx6m7-evolution-data-server-3.44.2"
+        "/nix/store/23sy41yvikvsmsbzirgyslzi82ywrn6q-evolution-data-server-3.46.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "3.44.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.44.3",
-      "pname": "evolution-data-server",
-      "name": "evolution-data-server-3.44.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/aapqc3s4dv57niddzcq0vrrw0si9jg6g-evolution-data-server-3.44.3-dev",
-        "out": "/nix/store/z40fvf5s5balm7x0wsjjlf5pkapdwyxk-evolution-data-server-3.44.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Unified backend for programs that work with contacts, tasks, and calendar information",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/desktops/gnome/core/evolution-data-server/default.nix:135",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "evolution-data-server"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z40fvf5s5balm7x0wsjjlf5pkapdwyxk-evolution-data-server-3.44.3"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.44.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.44.3",
+      "pname": "evolution-data-server",
+      "name": "evolution-data-server-3.44.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/aapqc3s4dv57niddzcq0vrrw0si9jg6g-evolution-data-server-3.44.3-dev",
+        "out": "/nix/store/z40fvf5s5balm7x0wsjjlf5pkapdwyxk-evolution-data-server-3.44.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Unified backend for programs that work with contacts, tasks, and calendar information",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/desktops/gnome/core/evolution-data-server/default.nix:135",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "evolution-data-server"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z40fvf5s5balm7x0wsjjlf5pkapdwyxk-evolution-data-server-3.44.3"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

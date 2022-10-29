@@ -1,44 +1,4 @@
 {
-  "0.2.21": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.2.21",
-      "pname": "fido2luks",
-      "name": "fido2luks-0.2.21",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/gck9gd6qdkb3ya5i9ci2b6znbd85da8y-fido2luks-0.2.21"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Decrypt your LUKS partition using a FIDO2 compatible authenticator",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/security/fido2luks/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fido2luks"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gck9gd6qdkb3ya5i9ci2b6znbd85da8y-fido2luks-0.2.21"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "0.2.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.2.21": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.2.21",
+      "pname": "fido2luks",
+      "name": "fido2luks-0.2.21",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/43c4hq62z647gaiqqvkp4fdjlzgh11fk-fido2luks-0.2.21"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Decrypt your LUKS partition using a FIDO2 compatible authenticator",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/fido2luks/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fido2luks"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/43c4hq62z647gaiqqvkp4fdjlzgh11fk-fido2luks-0.2.21"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

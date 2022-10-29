@@ -1,46 +1,4 @@
 {
-  "3.83": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.83",
-      "pname": "nss-cacert",
-      "name": "nss-cacert-3.83",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/ssb11rvdsr1m7ppw2dw7fflgwgna70f4-nss-cacert-3.83",
-        "p11kit": "/nix/store/fxkwr06na9gr1nxnsvp5yg5sha9zsgz7-nss-cacert-3.83-p11kit",
-        "unbundled": "/nix/store/p5110n80k6n706qm7friw68mmqfiylss-nss-cacert-3.83-unbundled"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A bundle of X.509 certificates of public Certificate Authorities (CA)",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/data/misc/cacert/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cacert"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ssb11rvdsr1m7ppw2dw7fflgwgna70f4-nss-cacert-3.83"
-      ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
-    },
-    "source": {
-      "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
   "3.80": {
     "type": "catalogRender",
     "schema": 1,
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.83": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.83",
+      "pname": "nss-cacert",
+      "name": "nss-cacert-3.83",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/j1sy9alqarbnzxpjd9xa9nhxq0svahn8-nss-cacert-3.83",
+        "p11kit": "/nix/store/4ni30i3g5r94nqxaqf9bbn0gnfqjd88p-nss-cacert-3.83-p11kit",
+        "unbundled": "/nix/store/rrm1mkrsm23lczy3jqvqw2cy32sw2asq-nss-cacert-3.83-unbundled"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A bundle of X.509 certificates of public Certificate Authorities (CA)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/data/misc/cacert/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cacert"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j1sy9alqarbnzxpjd9xa9nhxq0svahn8-nss-cacert-3.83"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.9.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.10",
-      "pname": "urlscan",
-      "name": "urlscan-0.9.10",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/xxnjmg2909da8mhcidhw3k0b073crsq9-urlscan-0.9.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mutt and terminal url selector (similar to urlview)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/misc/urlscan/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "urlscan"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xxnjmg2909da8mhcidhw3k0b073crsq9-urlscan-0.9.10"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.9.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.10",
+      "pname": "urlscan",
+      "name": "urlscan-0.9.10",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/640qfl08jp0q5zchygnhjwmsrgndm22i-urlscan-0.9.10-dist",
+        "out": "/nix/store/mnxli8c8s3mdhvxzvc47i1kbvfc8fq6q-urlscan-0.9.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mutt and terminal url selector (similar to urlview)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/misc/urlscan/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "urlscan"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mnxli8c8s3mdhvxzvc47i1kbvfc8fq6q-urlscan-0.9.10"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

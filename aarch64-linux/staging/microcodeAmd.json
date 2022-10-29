@@ -1,21 +1,21 @@
 {
-  "20220815": {
+  "20221012": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "20220815",
+      "version": "20221012",
       "pname": "amd-ucode",
-      "name": "amd-ucode-20220815",
+      "name": "amd-ucode-20221012",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/j5412pz5vq8hkdm2ssxvxxzyzn9dfz3m-amd-ucode-20220815"
+        "out": "/nix/store/2brmnkag4is5fasbjrvnvvzh3zpbbss0-amd-ucode-20221012"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "AMD Processor microcode patch",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/os-specific/linux/microcode/amd.nix:26",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/microcode/amd.nix:26",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j5412pz5vq8hkdm2ssxvxxzyzn9dfz3m-amd-ucode-20220815"
+        "/nix/store/2brmnkag4is5fasbjrvnvvzh3zpbbss0-amd-ucode-20221012"
       ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
-      }
-    }
-  },
-  "20220708": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "20220708",
-      "pname": "amd-ucode",
-      "name": "amd-ucode-20220708",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/hzvhj9famd16c3fnqacfrvg8yw0qhl4r-amd-ucode-20220708"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "AMD Processor microcode patch",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/microcode/amd.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "microcodeAmd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hzvhj9famd16c3fnqacfrvg8yw0qhl4r-amd-ucode-20220708"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "20220708": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "20220708",
+      "pname": "amd-ucode",
+      "name": "amd-ucode-20220708",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/hzvhj9famd16c3fnqacfrvg8yw0qhl4r-amd-ucode-20220708"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "AMD Processor microcode patch",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/microcode/amd.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "microcodeAmd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hzvhj9famd16c3fnqacfrvg8yw0qhl4r-amd-ucode-20220708"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

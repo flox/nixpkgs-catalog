@@ -1,22 +1,22 @@
 {
-  "1.8.11": {
+  "1.9.9": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.8.11",
+      "version": "1.9.9",
       "pname": "fluent-bit",
-      "name": "fluent-bit-1.8.11",
+      "name": "fluent-bit-1.9.9",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/pv0k21mqvn8hzjaxqb8j9ivhggk2rv8a-fluent-bit-1.8.11-dev",
-        "out": "/nix/store/16h5pwhajzfp304x0ryghwxyy3imi6wd-fluent-bit-1.8.11"
+        "dev": "/nix/store/6i6g09p8vnzgjmp7i9w8lv1q3398wxgf-fluent-bit-1.9.9-dev",
+        "out": "/nix/store/mmfjsib0slf2wn7r587g84ascqrisv4f-fluent-bit-1.9.9"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/fluent-bit/default.nix:51",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/fluent-bit/default.nix:38",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/16h5pwhajzfp304x0ryghwxyy3imi6wd-fluent-bit-1.8.11"
+        "/nix/store/mmfjsib0slf2wn7r587g84ascqrisv4f-fluent-bit-1.9.9"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.9.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.7",
-      "pname": "fluent-bit",
-      "name": "fluent-bit-1.9.7",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/damjlhcbpz2fviw7sg45b6w0zxzm6i3r-fluent-bit-1.9.7-dev",
-        "out": "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/misc/fluent-bit/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fluent-bit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.7",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.7",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/damjlhcbpz2fviw7sg45b6w0zxzm6i3r-fluent-bit-1.9.7-dev",
+        "out": "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zxkyqw1snaw2x17vsdxa07pgfdyr8irc-fluent-bit-1.9.7"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
       }
     }
   }

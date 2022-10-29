@@ -1,21 +1,21 @@
 {
-  "15.0.2": {
+  "15.4.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "15.0.2",
+      "version": "15.4.2",
       "pname": "gitlab-workhorse",
-      "name": "gitlab-workhorse-15.0.2",
+      "name": "gitlab-workhorse-15.4.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/csbzchgq1n987ddhhy60hn1jn7c4jzk3-gitlab-workhorse-15.0.2"
+        "out": "/nix/store/dvcf4mfw6c827mvmy1vb9c2vz53lsyhm-gitlab-workhorse-15.4.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/version-management/gitlab/gitlab-workhorse/default.nix:8",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/version-management/gitlab/gitlab-workhorse/default.nix:8",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/csbzchgq1n987ddhhy60hn1jn7c4jzk3-gitlab-workhorse-15.0.2"
+        "/nix/store/dvcf4mfw6c827mvmy1vb9c2vz53lsyhm-gitlab-workhorse-15.4.2"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "15.1.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "15.1.4",
-      "pname": "gitlab-workhorse",
-      "name": "gitlab-workhorse-15.1.4",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/28v4vqabwdqgpfcpvw710sxm6kpsf4b1-gitlab-workhorse-15.1.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/gitlab/gitlab-workhorse/default.nix:8",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitlab-workhorse"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/28v4vqabwdqgpfcpvw710sxm6kpsf4b1-gitlab-workhorse-15.1.4"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "15.1.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "15.1.4",
+      "pname": "gitlab-workhorse",
+      "name": "gitlab-workhorse-15.1.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/28v4vqabwdqgpfcpvw710sxm6kpsf4b1-gitlab-workhorse-15.1.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/applications/version-management/gitlab/gitlab-workhorse/default.nix:8",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitlab-workhorse"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/28v4vqabwdqgpfcpvw710sxm6kpsf4b1-gitlab-workhorse-15.1.4"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

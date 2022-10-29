@@ -1,21 +1,22 @@
 {
-  "2.0.13": {
+  "2.0.22": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.0.13",
+      "version": "2.0.22",
       "pname": "ansible-later",
-      "name": "ansible-later-2.0.13",
+      "name": "ansible-later-2.0.22",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/l96nidvfd32lzg1ni5v8l4ifa6id32mi-python3.9-ansible-later-2.0.13"
+        "dist": "/nix/store/pq9nvvj1ywcyng7s1hvgslp00d41wkhw-python3.10-ansible-later-2.0.22-dist",
+        "out": "/nix/store/521n3dy8a9g14ilcsbgjg3fkfdby8l5y-python3.10-ansible-later-2.0.22"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Best practice scanner for Ansible roles and playbooks",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/python-modules/ansible-later/default.nix:78",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/ansible-later/default.nix:85",
         "unfree": false
       }
     },
@@ -28,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/l96nidvfd32lzg1ni5v8l4ifa6id32mi-python3.9-ansible-later-2.0.13"
+        "/nix/store/521n3dy8a9g14ilcsbgjg3fkfdby8l5y-python3.10-ansible-later-2.0.22"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.0.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.14",
-      "pname": "ansible-later",
-      "name": "ansible-later-2.0.14",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/0kwi4bs7kqcgz40hbbl8xqdj80b293zx-python3.10-ansible-later-2.0.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Best practice scanner for Ansible roles and playbooks",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-later/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ansible-later"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0kwi4bs7kqcgz40hbbl8xqdj80b293zx-python3.10-ansible-later-2.0.14"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +77,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "2.0.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.14",
+      "pname": "ansible-later",
+      "name": "ansible-later-2.0.14",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/0kwi4bs7kqcgz40hbbl8xqdj80b293zx-python3.10-ansible-later-2.0.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Best practice scanner for Ansible roles and playbooks",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-later/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ansible-later"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0kwi4bs7kqcgz40hbbl8xqdj80b293zx-python3.10-ansible-later-2.0.14"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

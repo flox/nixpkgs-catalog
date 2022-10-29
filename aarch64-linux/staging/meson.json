@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.63.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.63.1",
-      "pname": "meson",
-      "name": "meson-0.63.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/yd4npnwhpgs9vy6k6y97hd0s26hqvn4b-meson-0.63.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source, fast and friendly build system made in Python",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/build-managers/meson/default.nix:112",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "meson"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yd4npnwhpgs9vy6k6y97hd0s26hqvn4b-meson-0.63.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.61.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.63.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.63.1",
+      "pname": "meson",
+      "name": "meson-0.63.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/chq860wv385gfgr1c1dc0npn8z8ks4kv-meson-0.63.1-dist",
+        "out": "/nix/store/hnp335rmcpwixz6cqrpflnfgp4kxchzf-meson-0.63.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source, fast and friendly build system made in Python",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/build-managers/meson/default.nix:112",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "meson"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hnp335rmcpwixz6cqrpflnfgp4kxchzf-meson-0.63.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

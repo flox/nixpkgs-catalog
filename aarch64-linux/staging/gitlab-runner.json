@@ -1,21 +1,21 @@
 {
-  "15.0.0": {
+  "15.5.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "15.0.0",
+      "version": "15.5.0",
       "pname": "gitlab-runner",
-      "name": "gitlab-runner-15.0.0",
+      "name": "gitlab-runner-15.5.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/6q0s0amx0wf4wl11cri8589snqa5mv8p-gitlab-runner-15.0.0"
+        "out": "/nix/store/lz0p5v03mg6kq0i67i13yk1fp48i58h1-gitlab-runner-15.5.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "GitLab Runner the continuous integration executor of GitLab",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:54",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:61",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6q0s0amx0wf4wl11cri8589snqa5mv8p-gitlab-runner-15.0.0"
+        "/nix/store/lz0p5v03mg6kq0i67i13yk1fp48i58h1-gitlab-runner-15.5.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "15.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "15.2.0",
-      "pname": "gitlab-runner",
-      "name": "gitlab-runner-15.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/gczhx82prjrbv429gqsdwxrrvii72adq-gitlab-runner-15.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GitLab Runner the continuous integration executor of GitLab",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitlab-runner"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gczhx82prjrbv429gqsdwxrrvii72adq-gitlab-runner-15.2.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "15.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "15.2.0",
+      "pname": "gitlab-runner",
+      "name": "gitlab-runner-15.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/gczhx82prjrbv429gqsdwxrrvii72adq-gitlab-runner-15.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GitLab Runner the continuous integration executor of GitLab",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitlab-runner"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gczhx82prjrbv429gqsdwxrrvii72adq-gitlab-runner-15.2.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

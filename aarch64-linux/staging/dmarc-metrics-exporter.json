@@ -39,46 +39,6 @@
       }
     }
   },
-  "0.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.6.1",
-      "pname": "dmarc-metrics-exporter",
-      "name": "dmarc-metrics-exporter-0.6.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/xdwi07b0rmi4x2a23dazq4jha7vxzj3p-dmarc-metrics-exporter-0.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Export Prometheus metrics from DMARC reports",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/dmarc-metrics-exporter/default.nix:55",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "dmarc-metrics-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xdwi07b0rmi4x2a23dazq4jha7vxzj3p-dmarc-metrics-exporter-0.6.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.6.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "0.6.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.1",
+      "pname": "dmarc-metrics-exporter",
+      "name": "dmarc-metrics-exporter-0.6.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/0svfxmk3v7v8shgg5kihr4kv52a9h6l9-dmarc-metrics-exporter-0.6.1-dist",
+        "out": "/nix/store/hafsbhd7g5g7rbkdbf36pqcn1cba2i2f-dmarc-metrics-exporter-0.6.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Export Prometheus metrics from DMARC reports",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/prometheus/dmarc-metrics-exporter/default.nix:55",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dmarc-metrics-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hafsbhd7g5g7rbkdbf36pqcn1cba2i2f-dmarc-metrics-exporter-0.6.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

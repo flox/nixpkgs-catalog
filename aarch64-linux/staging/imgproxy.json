@@ -1,21 +1,21 @@
 {
-  "3.8.0": {
+  "3.9.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.8.0",
+      "version": "3.9.0",
       "pname": "imgproxy",
-      "name": "imgproxy-3.8.0",
+      "name": "imgproxy-3.9.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/a43wnkz1inz1zwx89pd2ziyl1hfwygjn-imgproxy-3.8.0"
+        "out": "/nix/store/cpx08m9i3q7zbsnrhdnv7psjx6mcryy8-imgproxy-3.9.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Fast and secure on-the-fly image processing server written in Go",
-        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/imgproxy/default.nix:27",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/imgproxy/default.nix:27",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/a43wnkz1inz1zwx89pd2ziyl1hfwygjn-imgproxy-3.8.0"
+        "/nix/store/cpx08m9i3q7zbsnrhdnv7psjx6mcryy8-imgproxy-3.9.0"
       ],
-      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 418612,
-        "lastModified": 1666109165
-      }
-    }
-  },
-  "3.7.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.7.2",
-      "pname": "imgproxy",
-      "name": "imgproxy-3.7.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/5b2qvxj8s33dwp13z71i15fw7n2fvhws-imgproxy-3.7.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Fast and secure on-the-fly image processing server written in Go",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/imgproxy/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "imgproxy"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5b2qvxj8s33dwp13z71i15fw7n2fvhws-imgproxy-3.7.2"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "3.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.7.2",
+      "pname": "imgproxy",
+      "name": "imgproxy-3.7.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/5b2qvxj8s33dwp13z71i15fw7n2fvhws-imgproxy-3.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Fast and secure on-the-fly image processing server written in Go",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/imgproxy/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "imgproxy"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5b2qvxj8s33dwp13z71i15fw7n2fvhws-imgproxy-3.7.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

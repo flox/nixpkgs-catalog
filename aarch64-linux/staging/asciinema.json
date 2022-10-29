@@ -1,44 +1,4 @@
 {
-  "2.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.0",
-      "pname": "asciinema",
-      "name": "asciinema-2.2.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/0rvxy1qgrlbd2wlkk2s5aa31ka9f8w8j-asciinema-2.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Terminal session recorder and the best companion of asciinema.org",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/asciinema/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "asciinema"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0rvxy1qgrlbd2wlkk2s5aa31ka9f8w8j-asciinema-2.2.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "asciinema",
+      "name": "asciinema-2.2.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/214ypi94h8arsdyng6js3pv076jp22vq-asciinema-2.2.0-dist",
+        "out": "/nix/store/plxp9wfxkkq40m6bvlmb7k48fh0hxw86-asciinema-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Terminal session recorder and the best companion of asciinema.org",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/asciinema/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "asciinema"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/plxp9wfxkkq40m6bvlmb7k48fh0hxw86-asciinema-2.2.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

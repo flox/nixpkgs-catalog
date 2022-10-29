@@ -1,21 +1,22 @@
 {
-  "0.3.1": {
+  "0.7.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.3.1",
+      "version": "0.7.2",
       "pname": "deltachat-cursed",
-      "name": "deltachat-cursed-0.3.1",
+      "name": "deltachat-cursed-0.7.2",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/j9b2ysy8nw8hq78wns7w5d8qd4j0m8xh-deltachat-cursed-0.3.1"
+        "dist": "/nix/store/081q1qq4xn184iajj9vinhr45161b0dg-deltachat-cursed-0.7.2-dist",
+        "out": "/nix/store/55mxdplqmb74bp4wyvihfxm8dhnay4fc-deltachat-cursed-0.7.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Lightweight Delta Chat client",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/instant-messengers/deltachat-cursed/default.nix:32",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/networking/instant-messengers/deltachat-cursed/default.nix:33",
         "unfree": false
       }
     },
@@ -28,14 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j9b2ysy8nw8hq78wns7w5d8qd4j0m8xh-deltachat-cursed-0.3.1"
+        "/nix/store/55mxdplqmb74bp4wyvihfxm8dhnay4fc-deltachat-cursed-0.7.2"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -76,6 +77,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.3.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.1",
+      "pname": "deltachat-cursed",
+      "name": "deltachat-cursed-0.3.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/j9b2ysy8nw8hq78wns7w5d8qd4j0m8xh-deltachat-cursed-0.3.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightweight Delta Chat client",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/instant-messengers/deltachat-cursed/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "deltachat-cursed"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j9b2ysy8nw8hq78wns7w5d8qd4j0m8xh-deltachat-cursed-0.3.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

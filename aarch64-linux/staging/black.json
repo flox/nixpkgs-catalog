@@ -39,46 +39,6 @@
       }
     }
   },
-  "22.8.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.8.0",
-      "pname": "black",
-      "name": "black-22.8.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/yxhfnl13jnm39j4bvl9vdsphj19prj5v-python3.10-black-22.8.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The uncompromising Python code formatter",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/black/default.nix:80",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "black"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yxhfnl13jnm39j4bvl9vdsphj19prj5v-python3.10-black-22.8.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "22.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
+      }
+    }
+  },
+  "22.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.8.0",
+      "pname": "black",
+      "name": "black-22.8.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/bsy4b9qq1mw8ww6d7s2mxsi3wpq2821z-python3.10-black-22.8.0-dist",
+        "out": "/nix/store/njzj79yvrgxh6xsr4ybs8dvgq9q6a8h7-python3.10-black-22.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The uncompromising Python code formatter",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/python-modules/black/default.nix:81",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "black"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/njzj79yvrgxh6xsr4ybs8dvgq9q6a8h7-python3.10-black-22.8.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

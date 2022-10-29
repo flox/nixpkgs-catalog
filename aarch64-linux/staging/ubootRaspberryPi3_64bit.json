@@ -1,21 +1,21 @@
 {
-  "2021.10": {
+  "2022.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2021.10",
+      "version": "2022.10",
       "pname": "uboot-rpi_3_defconfig",
-      "name": "uboot-rpi_3_defconfig-2021.10",
+      "name": "uboot-rpi_3_defconfig-2022.10",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/rswmc93fx1y3z46qap1fgn3f5g943pkq-uboot-rpi_3_defconfig-2021.10"
+        "out": "/nix/store/f3ydz3k81rp5f40vxx14jm56nrn2brg0-uboot-rpi_3_defconfig-2022.10"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Boot loader for embedded systems",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/misc/uboot/default.nix:112",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/misc/uboot/default.nix:123",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/rswmc93fx1y3z46qap1fgn3f5g943pkq-uboot-rpi_3_defconfig-2021.10"
+        "/nix/store/f3ydz3k81rp5f40vxx14jm56nrn2brg0-uboot-rpi_3_defconfig-2022.10"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
-  "2022.07": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2022.07",
-      "pname": "uboot-rpi_3_defconfig",
-      "name": "uboot-rpi_3_defconfig-2022.07",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/s2sry1ng3sy6jlcwq0yrnqd8izkhgv65-uboot-rpi_3_defconfig-2022.07"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Boot loader for embedded systems",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/misc/uboot/default.nix:122",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ubootRaspberryPi3_64bit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s2sry1ng3sy6jlcwq0yrnqd8izkhgv65-uboot-rpi_3_defconfig-2022.07"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2022.07": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.07",
+      "pname": "uboot-rpi_3_defconfig",
+      "name": "uboot-rpi_3_defconfig-2022.07",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/s2sry1ng3sy6jlcwq0yrnqd8izkhgv65-uboot-rpi_3_defconfig-2022.07"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Boot loader for embedded systems",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/misc/uboot/default.nix:122",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ubootRaspberryPi3_64bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/s2sry1ng3sy6jlcwq0yrnqd8izkhgv65-uboot-rpi_3_defconfig-2022.07"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

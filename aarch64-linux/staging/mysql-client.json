@@ -1,15 +1,15 @@
 {
-  "10.6.7": {
+  "10.6.10": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "10.6.7",
+      "version": "10.6.10",
       "pname": "mariadb-client",
-      "name": "mariadb-client-10.6.7",
+      "name": "mariadb-client-10.6.10",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/lbj7gasbv8l24gnxbr58c6hk5kb7j9hr-mariadb-client-10.6.7-man",
-        "out": "/nix/store/pvnks7z8y62aia2ldwbmnd8jys8jbchx-mariadb-client-10.6.7"
+        "man": "/nix/store/252m2pdp6vdffvi5g7h8mj229pwfy8v4-mariadb-client-10.6.10-man",
+        "out": "/nix/store/pi5csakskajfwfdp0azlgz5h71shd51i-mariadb-client-10.6.10"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "An enhanced, drop-in replacement for MySQL",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/sql/mariadb/default.nix:124",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/sql/mariadb/default.nix:131",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/pvnks7z8y62aia2ldwbmnd8jys8jbchx-mariadb-client-10.6.7",
-        "/nix/store/lbj7gasbv8l24gnxbr58c6hk5kb7j9hr-mariadb-client-10.6.7-man"
+        "/nix/store/pi5csakskajfwfdp0azlgz5h71shd51i-mariadb-client-10.6.10",
+        "/nix/store/252m2pdp6vdffvi5g7h8mj229pwfy8v4-mariadb-client-10.6.10-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "10.6.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.6.9",
-      "pname": "mariadb-client",
-      "name": "mariadb-client-10.6.9",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/8l2fna3lz9y1lmq0r1byhyy6cm5qcph4-mariadb-client-10.6.9-man",
-        "out": "/nix/store/l3n9xj89rzg69nvkafnf4b9piqzdx9kh-mariadb-client-10.6.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "An enhanced, drop-in replacement for MySQL",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/mariadb/default.nix:131",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "mysql-client"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l3n9xj89rzg69nvkafnf4b9piqzdx9kh-mariadb-client-10.6.9",
-        "/nix/store/8l2fna3lz9y1lmq0r1byhyy6cm5qcph4-mariadb-client-10.6.9-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "10.6.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.6.9",
+      "pname": "mariadb-client",
+      "name": "mariadb-client-10.6.9",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/8l2fna3lz9y1lmq0r1byhyy6cm5qcph4-mariadb-client-10.6.9-man",
+        "out": "/nix/store/l3n9xj89rzg69nvkafnf4b9piqzdx9kh-mariadb-client-10.6.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "An enhanced, drop-in replacement for MySQL",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/mariadb/default.nix:131",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "mysql-client"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/l3n9xj89rzg69nvkafnf4b9piqzdx9kh-mariadb-client-10.6.9",
+        "/nix/store/8l2fna3lz9y1lmq0r1byhyy6cm5qcph4-mariadb-client-10.6.9-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

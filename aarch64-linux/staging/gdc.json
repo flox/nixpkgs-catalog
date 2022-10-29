@@ -1,48 +1,4 @@
 {
-  "9.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.5.0",
-      "pname": "gdc-wrapper",
-      "name": "gdc-wrapper-9.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "info": "/nix/store/vqznyssbgqis8f29z61sdds18cgjns11-gdc-wrapper-9.5.0-info",
-        "man": "/nix/store/8yjbd7w8n7rkqb5gny960y1vqznpdc22-gdc-wrapper-9.5.0-man",
-        "out": "/nix/store/w38iikidr7k2sa61yx9bssqv4v7j1bnp-gdc-wrapper-9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/build-support/cc-wrapper/default.nix:554",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gdc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/w38iikidr7k2sa61yx9bssqv4v7j1bnp-gdc-wrapper-9.5.0",
-        "/nix/store/8yjbd7w8n7rkqb5gny960y1vqznpdc22-gdc-wrapper-9.5.0-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "9.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.5.0",
+      "pname": "gdc-wrapper",
+      "name": "gdc-wrapper-9.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "info": "/nix/store/4yc7kaw47wfmi3r5h4988lmnal2h04rj-gdc-wrapper-9.5.0-info",
+        "man": "/nix/store/f5lx22svh82an2wb8vnc4l8pi6qhcbvv-gdc-wrapper-9.5.0-man",
+        "out": "/nix/store/f6ncnsgfs129vg9an9cflaf01nnbp148-gdc-wrapper-9.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU Compiler Collection, version 9.5.0 (wrapper script)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/build-support/cc-wrapper/default.nix:549",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gdc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f6ncnsgfs129vg9an9cflaf01nnbp148-gdc-wrapper-9.5.0",
+        "/nix/store/f5lx22svh82an2wb8vnc4l8pi6qhcbvv-gdc-wrapper-9.5.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

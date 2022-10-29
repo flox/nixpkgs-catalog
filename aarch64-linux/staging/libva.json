@@ -40,47 +40,6 @@
       }
     }
   },
-  "2.15.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.15.0",
-      "pname": "libva",
-      "name": "libva-2.15.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/gh2lkvbsbl259d5mg8wkhin3k6vsinm5-libva-2.15.0-dev",
-        "out": "/nix/store/f2ymqkar3s0qqnbbslzq3sc1pw5bljk3-libva-2.15.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An implementation for VA-API (Video Acceleration API)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libva/default.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libva"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f2ymqkar3s0qqnbbslzq3sc1pw5bljk3-libva-2.15.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "2.14.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "2.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.15.0",
+      "pname": "libva",
+      "name": "libva-2.15.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/aipfy69537dw460f9dfck293r4i6frqx-libva-2.15.0-dev",
+        "out": "/nix/store/ryz6947wdyjidhwjy8a7jpd6axwgvxq5-libva-2.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An implementation for VA-API (Video Acceleration API)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libva/default.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libva"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ryz6947wdyjidhwjy8a7jpd6axwgvxq5-libva-2.15.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

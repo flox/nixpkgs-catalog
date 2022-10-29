@@ -1,45 +1,4 @@
 {
-  "9.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "9.5.0",
-      "pname": "libgcc",
-      "name": "libgcc-9.5.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/df7lb8gz5bpbm3iy71gyvg73f9jvz33j-libgcc-9.5.0-dev",
-        "out": "/nix/store/krnvb83p0mzch86msny3v3jprj73hhzg-libgcc-9.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/gcc/libgcc/default.nix:8",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libgcc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/krnvb83p0mzch86msny3v3jprj73hhzg-libgcc-9.5.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "9.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "9.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "9.5.0",
+      "pname": "libgcc",
+      "name": "libgcc-9.5.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/dx2xd4n83jv5c3qabn7wdvv69i9j54wy-libgcc-9.5.0-dev",
+        "out": "/nix/store/gif2akdym9r6fgk3gyldalahz573lp6z-libgcc-9.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/gcc/libgcc/default.nix:8",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libgcc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gif2akdym9r6fgk3gyldalahz573lp6z-libgcc-9.5.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

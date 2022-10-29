@@ -1,21 +1,21 @@
 {
-  "1.21.2": {
+  "1.28.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.21.2",
+      "version": "1.28.0",
       "pname": "tfsec",
-      "name": "tfsec-1.21.2",
+      "name": "tfsec-1.28.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/39pqvgl1mrf44ddhvgij1rshczb58kxq-tfsec-1.21.2"
+        "out": "/nix/store/bsqlwjk7vix248nhh3kg8lpjrdjw12x8-tfsec-1.28.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Static analysis powered security scanner for terraform code",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/analysis/tfsec/default.nix:33",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/tools/analysis/tfsec/default.nix:34",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/39pqvgl1mrf44ddhvgij1rshczb58kxq-tfsec-1.21.2"
+        "/nix/store/bsqlwjk7vix248nhh3kg8lpjrdjw12x8-tfsec-1.28.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.26.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.0",
-      "pname": "tfsec",
-      "name": "tfsec-1.26.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/xg6srf7mg3z7v5cwfpfwh0w4sqajbvpx-tfsec-1.26.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Static analysis powered security scanner for terraform code",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/analysis/tfsec/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "tfsec"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xg6srf7mg3z7v5cwfpfwh0w4sqajbvpx-tfsec-1.26.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
+      }
+    }
+  },
+  "1.26.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.0",
+      "pname": "tfsec",
+      "name": "tfsec-1.26.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/xg6srf7mg3z7v5cwfpfwh0w4sqajbvpx-tfsec-1.26.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Static analysis powered security scanner for terraform code",
+        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/analysis/tfsec/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "tfsec"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xg6srf7mg3z7v5cwfpfwh0w4sqajbvpx-tfsec-1.26.0"
+      ],
+      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+    },
+    "source": {
+      "locked": {
+        "revCount": 389776,
+        "lastModified": 1657020478
       }
     }
   }

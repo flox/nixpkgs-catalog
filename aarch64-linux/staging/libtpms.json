@@ -43,50 +43,6 @@
       }
     }
   },
-  "0.9.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.9.5",
-      "pname": "libtpms",
-      "name": "libtpms-0.9.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/fn16k8c51nrcmnpfvr9ngwvndi7nrz3h-libtpms-0.9.5-dev",
-        "man": "/nix/store/v5qgw19k7qx84y8bxwam9jzr6gk8y98r-libtpms-0.9.5-man",
-        "out": "/nix/store/syhrb777aiwhny798q52m11idyfnikfp-libtpms-0.9.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "The libtpms library provides software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0)",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/security/libtpms/default.nix:36",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libtpms"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/syhrb777aiwhny798q52m11idyfnikfp-libtpms-0.9.5",
-        "/nix/store/v5qgw19k7qx84y8bxwam9jzr6gk8y98r-libtpms-0.9.5-man"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "0.9.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -128,6 +84,50 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "0.9.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.9.5",
+      "pname": "libtpms",
+      "name": "libtpms-0.9.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/6sayb5b90nr9ad62a425xkf9phbny25a-libtpms-0.9.5-dev",
+        "man": "/nix/store/095hjvisyjkl2l88mqj9khsbhp9x411m-libtpms-0.9.5-man",
+        "out": "/nix/store/wngbnzqvyr2s256ha149y16spav4v0q7-libtpms-0.9.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "The libtpms library provides software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/security/libtpms/default.nix:36",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libtpms"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wngbnzqvyr2s256ha149y16spav4v0q7-libtpms-0.9.5",
+        "/nix/store/095hjvisyjkl2l88mqj9khsbhp9x411m-libtpms-0.9.5-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

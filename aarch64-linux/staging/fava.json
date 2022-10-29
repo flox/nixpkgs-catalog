@@ -1,44 +1,4 @@
 {
-  "1.22.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.22.3",
-      "pname": "fava",
-      "name": "fava-1.22.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/zybxgkivpamq3784ivb5dw88xl4y1b4z-fava-1.22.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Web interface for beancount",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/office/fava/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "fava"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zybxgkivpamq3784ivb5dw88xl4y1b4z-fava-1.22.3"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.22.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,47 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
+      }
+    }
+  },
+  "1.22.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.22.3",
+      "pname": "fava",
+      "name": "fava-1.22.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dist": "/nix/store/vjbg6l52799xyd8ff3pxbk07703i3llv-fava-1.22.3-dist",
+        "out": "/nix/store/na2cq2j2awrh8x94d4rd58qw48sb0mj5-fava-1.22.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Web interface for beancount",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/office/fava/default.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "fava"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/na2cq2j2awrh8x94d4rd58qw48sb0mj5-fava-1.22.3"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

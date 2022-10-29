@@ -1,22 +1,22 @@
 {
-  "4.19.245": {
+  "4.19.261": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.19.245",
+      "version": "4.19.261",
       "pname": "linux",
-      "name": "linux-4.19.245",
+      "name": "linux-4.19.261",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/cyj0pzkk5qkvh1d5iy921pa5wbi0vwjn-linux-4.19.245-dev",
-        "out": "/nix/store/ilch7qjpy5684l1gngj224frsr4r8n4c-linux-4.19.245"
+        "dev": "/nix/store/3h2w5qbl8qq71shz3kagrm2xk6g94hji-linux-4.19.261-dev",
+        "out": "/nix/store/6bp25j7qfvlfq0f1dzxy5581qkc2cqpq-linux-4.19.261"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.245-hardened1)",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/top-level/linux-kernels.nix:42",
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.261-hardened1)",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/top-level/linux-kernels.nix:42",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ilch7qjpy5684l1gngj224frsr4r8n4c-linux-4.19.245"
+        "/nix/store/6bp25j7qfvlfq0f1dzxy5581qkc2cqpq-linux-4.19.261"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "4.19.252": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.19.252",
-      "pname": "linux",
-      "name": "linux-4.19.252",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/bcc70rsx9ladg3zyf0n8b9m8hjxqd3x8-linux-4.19.252-dev",
-        "out": "/nix/store/9g9d0183g1i4xfh8bw35xyihf16zi5m0-linux-4.19.252"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.252-hardened1)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/top-level/linux-kernels.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_4_19_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9g9d0183g1i4xfh8bw35xyihf16zi5m0-linux-4.19.252"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 388641,
         "lastModified": 1656372800
+      }
+    }
+  },
+  "4.19.252": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.19.252",
+      "pname": "linux",
+      "name": "linux-4.19.252",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/bcc70rsx9ladg3zyf0n8b9m8hjxqd3x8-linux-4.19.252-dev",
+        "out": "/nix/store/9g9d0183g1i4xfh8bw35xyihf16zi5m0-linux-4.19.252"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, modinst-arglist-too-long, linux-hardened-4.19.252-hardened1)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_4_19_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9g9d0183g1i4xfh8bw35xyihf16zi5m0-linux-4.19.252"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }
