@@ -1,45 +1,4 @@
 {
-  "7.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.2.1",
-      "pname": "proj",
-      "name": "proj-7.2.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/jg3iiv2k5k8h94861qv02awwyz5yajhr-proj-7.2.1-dev",
-        "out": "/nix/store/drmbk1zb0npblqvgvfg87dgvfz2z3a9g-proj-7.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cartographic Projections Library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/proj/default.nix:56",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "proj"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/drmbk1zb0npblqvgvfg87dgvfz2z3a9g-proj-7.2.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "8.2.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "7.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.2.1",
+      "pname": "proj",
+      "name": "proj-7.2.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/jg3iiv2k5k8h94861qv02awwyz5yajhr-proj-7.2.1-dev",
+        "out": "/nix/store/drmbk1zb0npblqvgvfg87dgvfz2z3a9g-proj-7.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cartographic Projections Library",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/proj/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "proj"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/drmbk1zb0npblqvgvfg87dgvfz2z3a9g-proj-7.2.1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

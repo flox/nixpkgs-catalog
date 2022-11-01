@@ -1,21 +1,21 @@
 {
-  "0.46.3": {
+  "0.51.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.46.3",
+      "version": "0.51.0",
       "pname": "syft",
-      "name": "syft-0.46.3",
+      "name": "syft-0.51.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/5mm6p2bnrv9rlly7ss58w4aivba6vl8k-syft-0.46.3"
+        "out": "/nix/store/6id9inq1i7wvyngmkybq0w71r9qk8q4p-syft-0.51.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/admin/syft/default.nix:69",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/admin/syft/default.nix:69",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/5mm6p2bnrv9rlly7ss58w4aivba6vl8k-syft-0.46.3"
+        "/nix/store/6id9inq1i7wvyngmkybq0w71r9qk8q4p-syft-0.51.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "0.50.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.50.0",
+      "pname": "syft",
+      "name": "syft-0.50.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/p8l85kib899hgk5wvc037abvv4h2mqi5-syft-0.50.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+        "position": "/nix/store/dwp21rcg5jq1dx3a1pyfdpa1lwx57wdv-source/pkgs/tools/admin/syft/default.nix:69",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "syft"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p8l85kib899hgk5wvc037abvv4h2mqi5-syft-0.50.0"
+      ],
+      "url": "github:flox/nixpkgs/38860c9e91cb00f4d8cd19c7b4e36c45680c89b5"
+    },
+    "source": {
+      "locked": {
+        "revCount": 391169,
+        "lastModified": 1657533762
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 389776,
         "lastModified": 1657020478
-      }
-    }
-  },
-  "0.51.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.51.0",
-      "pname": "syft",
-      "name": "syft-0.51.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vrd5xrgsr4vijj1p2k78w8yci9zmvsgv-syft-0.51.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/syft/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "syft"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vrd5xrgsr4vijj1p2k78w8yci9zmvsgv-syft-0.51.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

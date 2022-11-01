@@ -1,15 +1,15 @@
 {
-  "0.34.0": {
+  "0.33.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.34.0",
+      "version": "0.33.0",
       "pname": "fzf",
-      "name": "fzf-0.34.0",
+      "name": "fzf-0.33.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "man": "/nix/store/8a4q54cj1lfqmf9wp96c2kn3fdg3fddc-fzf-0.34.0-man",
-        "out": "/nix/store/86b7x6yl33dpjpb723rb7dacsgga5131-fzf-0.34.0"
+        "man": "/nix/store/qi0a6wv2xllng1mk361pgz8in1ddiaja-fzf-0.33.0-man",
+        "out": "/nix/store/7m76cq4g75i178xv6vg02486yp0qmcg8-fzf-0.33.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "A command-line fuzzy finder written in Go",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/fzf/default.nix:68",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/fzf/default.nix:68",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/86b7x6yl33dpjpb723rb7dacsgga5131-fzf-0.34.0",
-        "/nix/store/8a4q54cj1lfqmf9wp96c2kn3fdg3fddc-fzf-0.34.0-man"
+        "/nix/store/7m76cq4g75i178xv6vg02486yp0qmcg8-fzf-0.33.0",
+        "/nix/store/qi0a6wv2xllng1mk361pgz8in1ddiaja-fzf-0.33.0-man"
       ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
-  "0.30.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.30.0",
-      "pname": "fzf",
-      "name": "fzf-0.30.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "man": "/nix/store/jibi5kijcy3f515acih5137p8gb75896-fzf-0.30.0-man",
-        "out": "/nix/store/6m28zsaa4kwwji1f18dy4i24pkklq9df-fzf-0.30.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A command-line fuzzy finder written in Go",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/fzf/default.nix:70",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "fzf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6m28zsaa4kwwji1f18dy4i24pkklq9df-fzf-0.30.0",
-        "/nix/store/jibi5kijcy3f515acih5137p8gb75896-fzf-0.30.0-man"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "0.34.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.34.0",
+      "pname": "fzf",
+      "name": "fzf-0.34.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "man": "/nix/store/8a4q54cj1lfqmf9wp96c2kn3fdg3fddc-fzf-0.34.0-man",
+        "out": "/nix/store/86b7x6yl33dpjpb723rb7dacsgga5131-fzf-0.34.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A command-line fuzzy finder written in Go",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/tools/misc/fzf/default.nix:68",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "fzf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/86b7x6yl33dpjpb723rb7dacsgga5131-fzf-0.34.0",
+        "/nix/store/8a4q54cj1lfqmf9wp96c2kn3fdg3fddc-fzf-0.34.0-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

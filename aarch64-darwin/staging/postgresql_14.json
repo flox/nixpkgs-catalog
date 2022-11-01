@@ -1,4 +1,49 @@
 {
+  "14.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "14.4",
+      "pname": "postgresql",
+      "name": "postgresql-14.4",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "doc": "/nix/store/lwggjzkzkdd81vjfdf06air5zvrsd16g-postgresql-14.4-doc",
+        "lib": "/nix/store/qiv5pd77axjdmqpys9pdf0fzy7vx7kmi-postgresql-14.4-lib",
+        "man": "/nix/store/vmliigamn30fn4nnamlx5s627qlqivdw-postgresql-14.4-man",
+        "out": "/nix/store/hj6v539qg59rn52qkf4n43j63b7ais0f-postgresql-14.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/sql/postgresql/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "postgresql_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hj6v539qg59rn52qkf4n43j63b7ais0f-postgresql-14.4",
+        "/nix/store/vmliigamn30fn4nnamlx5s627qlqivdw-postgresql-14.4-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "14.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -19,7 +64,7 @@
           "man"
         ],
         "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/sql/postgresql/default.nix:164",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/sql/postgresql/default.nix:164",
         "unfree": false
       }
     },
@@ -35,57 +80,12 @@
         "/nix/store/bq4s9k71vh5aqs7i4xzpbfrj5cx04k01-postgresql-14.3",
         "/nix/store/1m4xivz6k4xzni35sjlq6zjmn9gnz5y6-postgresql-14.3-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "14.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "14.4",
-      "pname": "postgresql",
-      "name": "postgresql-14.4",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "doc": "/nix/store/vjhwan8xfkrjz1c9wa89807apjv455fx-postgresql-14.4-doc",
-        "lib": "/nix/store/xp3lddhn29s10aqir857p0vk76scjvjp-postgresql-14.4-lib",
-        "man": "/nix/store/gyvm1qh8l8mv6p8cfgxwydlzpxd7wwlq-postgresql-14.4-man",
-        "out": "/nix/store/lly7jchvck6yv39kvxfk676cfm0ih6hr-postgresql-14.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/sql/postgresql/default.nix:164",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "postgresql_14"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lly7jchvck6yv39kvxfk676cfm0ih6hr-postgresql-14.4",
-        "/nix/store/gyvm1qh8l8mv6p8cfgxwydlzpxd7wwlq-postgresql-14.4-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   },

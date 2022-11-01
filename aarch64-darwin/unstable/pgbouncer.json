@@ -1,44 +1,4 @@
 {
-  "1.15.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.15.0",
-      "pname": "pgbouncer",
-      "name": "pgbouncer-1.15.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/h8awhs3mcpjnswjcvq8lpv910sq8is98-pgbouncer-1.15.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lightweight connection pooler for PostgreSQL",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/sql/pgbouncer/default.nix:18",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "pgbouncer"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h8awhs3mcpjnswjcvq8lpv910sq8is98-pgbouncer-1.15.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.16.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.15.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.15.0",
+      "pname": "pgbouncer",
+      "name": "pgbouncer-1.15.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/h8awhs3mcpjnswjcvq8lpv910sq8is98-pgbouncer-1.15.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightweight connection pooler for PostgreSQL",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/sql/pgbouncer/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "pgbouncer"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h8awhs3mcpjnswjcvq8lpv910sq8is98-pgbouncer-1.15.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

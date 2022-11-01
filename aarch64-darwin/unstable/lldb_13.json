@@ -1,46 +1,4 @@
 {
-  "13.0.0-rc1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "13.0.0-rc1",
-      "pname": "lldb",
-      "name": "lldb-13.0.0-rc1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/ylpc75j3pwjqd2igqrhpdzcy467hcg3w-lldb-13.0.0-rc1-dev",
-        "lib": "/nix/store/lgq49fwdzlnrrj8ivq9n2rsqba81zwv4-lldb-13.0.0-rc1-lib",
-        "out": "/nix/store/dn88p46l62x5znl828hd6i9fni6w3ljp-lldb-13.0.0-rc1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A next-generation high-performance debugger",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/llvm/13/lldb/default.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lldb_13"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dn88p46l62x5znl828hd6i9fni6w3ljp-lldb-13.0.0-rc1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "13.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "13.0.0-rc1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "13.0.0-rc1",
+      "pname": "lldb",
+      "name": "lldb-13.0.0-rc1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/ylpc75j3pwjqd2igqrhpdzcy467hcg3w-lldb-13.0.0-rc1-dev",
+        "lib": "/nix/store/lgq49fwdzlnrrj8ivq9n2rsqba81zwv4-lldb-13.0.0-rc1-lib",
+        "out": "/nix/store/dn88p46l62x5znl828hd6i9fni6w3ljp-lldb-13.0.0-rc1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A next-generation high-performance debugger",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/llvm/13/lldb/default.nix:106",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lldb_13"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dn88p46l62x5znl828hd6i9fni6w3ljp-lldb-13.0.0-rc1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

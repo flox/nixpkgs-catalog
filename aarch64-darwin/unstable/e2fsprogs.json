@@ -1,50 +1,4 @@
 {
-  "1.46.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.46.2",
-      "pname": "e2fsprogs",
-      "name": "e2fsprogs-1.46.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/37cpl9327f8sgi644db4ry7sgc9y4vfh-e2fsprogs-1.46.2-bin",
-        "dev": "/nix/store/1v1c6yhfgq8y21cl4s7whr5ndi3b52kf-e2fsprogs-1.46.2-dev",
-        "info": "/nix/store/pxv9q64icsbrbzzc053wbqxidvjlrvm5-e2fsprogs-1.46.2-info",
-        "man": "/nix/store/9gqbixplh3ki0ychzv3xx0zpwpz9wxgi-e2fsprogs-1.46.2-man",
-        "out": "/nix/store/kn8sj6fcw4qc7rpbnifc7dsx9ak8hgbr-e2fsprogs-1.46.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "Tools for creating and checking ext2/ext3/ext4 filesystems",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/filesystems/e2fsprogs/default.nix:70",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "e2fsprogs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/37cpl9327f8sgi644db4ry7sgc9y4vfh-e2fsprogs-1.46.2-bin",
-        "/nix/store/9gqbixplh3ki0ychzv3xx0zpwpz9wxgi-e2fsprogs-1.46.2-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.46.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.46.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.46.2",
+      "pname": "e2fsprogs",
+      "name": "e2fsprogs-1.46.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/37cpl9327f8sgi644db4ry7sgc9y4vfh-e2fsprogs-1.46.2-bin",
+        "dev": "/nix/store/1v1c6yhfgq8y21cl4s7whr5ndi3b52kf-e2fsprogs-1.46.2-dev",
+        "info": "/nix/store/pxv9q64icsbrbzzc053wbqxidvjlrvm5-e2fsprogs-1.46.2-info",
+        "man": "/nix/store/9gqbixplh3ki0ychzv3xx0zpwpz9wxgi-e2fsprogs-1.46.2-man",
+        "out": "/nix/store/kn8sj6fcw4qc7rpbnifc7dsx9ak8hgbr-e2fsprogs-1.46.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "Tools for creating and checking ext2/ext3/ext4 filesystems",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/filesystems/e2fsprogs/default.nix:70",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "e2fsprogs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/37cpl9327f8sgi644db4ry7sgc9y4vfh-e2fsprogs-1.46.2-bin",
+        "/nix/store/9gqbixplh3ki0ychzv3xx0zpwpz9wxgi-e2fsprogs-1.46.2-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

@@ -1,48 +1,4 @@
 {
-  "2.3.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.3.5.1",
-      "pname": "s6-dns",
-      "name": "s6-dns-2.3.5.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/dnxfs7qrb63jsqi736kxsp2dv45n5yjc-s6-dns-2.3.5.1-bin",
-        "dev": "/nix/store/j6w8kx515apbg1q717k3iaxv6pr693pk-s6-dns-2.3.5.1-dev",
-        "doc": "/nix/store/zfg3da5kfh29czsxy1bgcvwlpnlymdm9-s6-dns-2.3.5.1-doc",
-        "lib": "/nix/store/0441j6fjjybzwhsqa0i6q40jn4i0fw4y-s6-dns-2.3.5.1-lib",
-        "out": "/nix/store/g7z1nsavdvp0jpy18k0rmzilzcjgcl1y-s6-dns-2.3.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A suite of DNS client programs and libraries for Unix systems",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "s6Dns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dnxfs7qrb63jsqi736kxsp2dv45n5yjc-s6-dns-2.3.5.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.3.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.3.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.3.5.1",
+      "pname": "s6-dns",
+      "name": "s6-dns-2.3.5.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/dnxfs7qrb63jsqi736kxsp2dv45n5yjc-s6-dns-2.3.5.1-bin",
+        "dev": "/nix/store/j6w8kx515apbg1q717k3iaxv6pr693pk-s6-dns-2.3.5.1-dev",
+        "doc": "/nix/store/zfg3da5kfh29czsxy1bgcvwlpnlymdm9-s6-dns-2.3.5.1-doc",
+        "lib": "/nix/store/0441j6fjjybzwhsqa0i6q40jn4i0fw4y-s6-dns-2.3.5.1-lib",
+        "out": "/nix/store/g7z1nsavdvp0jpy18k0rmzilzcjgcl1y-s6-dns-2.3.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A suite of DNS client programs and libraries for Unix systems",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "s6Dns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dnxfs7qrb63jsqi736kxsp2dv45n5yjc-s6-dns-2.3.5.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

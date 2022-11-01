@@ -1,21 +1,21 @@
 {
-  "4.23.0": {
+  "4.33.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.23.0",
+      "version": "4.33.0",
       "pname": "terraform-provider-google-beta",
-      "name": "terraform-provider-google-beta-4.23.0",
+      "name": "terraform-provider-google-beta-4.33.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/z31rzw9h26z9439aqrys65g1qv1fpybs-terraform-provider-google-beta-4.23.0"
+        "out": "/nix/store/d6iibg47r911vh094p50706pyhblma89-terraform-provider-google-beta-4.33.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/z31rzw9h26z9439aqrys65g1qv1fpybs-terraform-provider-google-beta-4.23.0"
+        "/nix/store/d6iibg47r911vh094p50706pyhblma89-terraform-provider-google-beta-4.33.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "4.32.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.32.0",
+      "pname": "terraform-provider-google-beta",
+      "name": "terraform-provider-google-beta-4.32.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/yg0ldirh4xkqqxqq6q3gy6p3sdvjnhjb-terraform-provider-google-beta-4.32.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "google-beta"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yg0ldirh4xkqqxqq6q3gy6p3sdvjnhjb-terraform-provider-google-beta-4.32.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "4.26.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.26.0",
-      "pname": "terraform-provider-google-beta",
-      "name": "terraform-provider-google-beta-4.26.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/s9xz568mc6lbqq5y56jd4xswiw5730jr-terraform-provider-google-beta-4.26.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "terraform-providers",
-        "google-beta"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/s9xz568mc6lbqq5y56jd4xswiw5730jr-terraform-provider-google-beta-4.26.0"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
       }
     }
   }

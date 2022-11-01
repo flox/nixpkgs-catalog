@@ -1,56 +1,4 @@
 {
-  "0.3.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.3.3",
-      "pname": "nomad-autoscaler",
-      "name": "nomad-autoscaler-0.3.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "aws_asg": "/nix/store/dgzc2yskz67yyjdzw91q5vf4kpjm2k27-nomad-autoscaler-0.3.3-aws_asg",
-        "azure_vmss": "/nix/store/m8dix99sgpcacfgs31f46kk98pcfwjnq-nomad-autoscaler-0.3.3-azure_vmss",
-        "bin": "/nix/store/5bq974n9yvdx6fjqa324pakw88z3p2a1-nomad-autoscaler-0.3.3-bin",
-        "datadog": "/nix/store/x0zybvizf4zffimcnhz40dh3gwhrwx4m-nomad-autoscaler-0.3.3-datadog",
-        "fixed_value": "/nix/store/mzzwbb8d29d5gxl94y377gg7rga262r1-nomad-autoscaler-0.3.3-fixed_value",
-        "gce_mig": "/nix/store/9as1hbravdlj22ngmaawf3bwd9bkvrjf-nomad-autoscaler-0.3.3-gce_mig",
-        "nomad_apm": "/nix/store/5c4bjkw4s7v4v5kw4aspp107brsc638c-nomad-autoscaler-0.3.3-nomad_apm",
-        "nomad_target": "/nix/store/dkckad1xwr8j00jfdq268ndvra83dv5q-nomad-autoscaler-0.3.3-nomad_target",
-        "out": "/nix/store/wsayfm0xsr70101s4i99r42fpjcsmi2b-nomad-autoscaler-0.3.3",
-        "pass_through": "/nix/store/vcap6lvjm0m8s0l7qv3l1zssgwn0z147-nomad-autoscaler-0.3.3-pass_through",
-        "prometheus": "/nix/store/9hanqbwm28iiaqw2xn4vdzf71ymans5f-nomad-autoscaler-0.3.3-prometheus",
-        "target_value": "/nix/store/ib3gsfa0dij47ijb6gchl6mb319kn8lz-nomad-autoscaler-0.3.3-target_value",
-        "threshold": "/nix/store/pn6kc0qk9bhzmmcl7gxd4y7a6z5y4p22-nomad-autoscaler-0.3.3-threshold"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Autoscaling daemon for Nomad",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/nomad-autoscaler/default.nix:95",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "nomad-autoscaler"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5bq974n9yvdx6fjqa324pakw88z3p2a1-nomad-autoscaler-0.3.3-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.3.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -100,6 +48,58 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.3.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.3.3",
+      "pname": "nomad-autoscaler",
+      "name": "nomad-autoscaler-0.3.3",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "aws_asg": "/nix/store/dgzc2yskz67yyjdzw91q5vf4kpjm2k27-nomad-autoscaler-0.3.3-aws_asg",
+        "azure_vmss": "/nix/store/m8dix99sgpcacfgs31f46kk98pcfwjnq-nomad-autoscaler-0.3.3-azure_vmss",
+        "bin": "/nix/store/5bq974n9yvdx6fjqa324pakw88z3p2a1-nomad-autoscaler-0.3.3-bin",
+        "datadog": "/nix/store/x0zybvizf4zffimcnhz40dh3gwhrwx4m-nomad-autoscaler-0.3.3-datadog",
+        "fixed_value": "/nix/store/mzzwbb8d29d5gxl94y377gg7rga262r1-nomad-autoscaler-0.3.3-fixed_value",
+        "gce_mig": "/nix/store/9as1hbravdlj22ngmaawf3bwd9bkvrjf-nomad-autoscaler-0.3.3-gce_mig",
+        "nomad_apm": "/nix/store/5c4bjkw4s7v4v5kw4aspp107brsc638c-nomad-autoscaler-0.3.3-nomad_apm",
+        "nomad_target": "/nix/store/dkckad1xwr8j00jfdq268ndvra83dv5q-nomad-autoscaler-0.3.3-nomad_target",
+        "out": "/nix/store/wsayfm0xsr70101s4i99r42fpjcsmi2b-nomad-autoscaler-0.3.3",
+        "pass_through": "/nix/store/vcap6lvjm0m8s0l7qv3l1zssgwn0z147-nomad-autoscaler-0.3.3-pass_through",
+        "prometheus": "/nix/store/9hanqbwm28iiaqw2xn4vdzf71ymans5f-nomad-autoscaler-0.3.3-prometheus",
+        "target_value": "/nix/store/ib3gsfa0dij47ijb6gchl6mb319kn8lz-nomad-autoscaler-0.3.3-target_value",
+        "threshold": "/nix/store/pn6kc0qk9bhzmmcl7gxd4y7a6z5y4p22-nomad-autoscaler-0.3.3-threshold"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Autoscaling daemon for Nomad",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/nomad-autoscaler/default.nix:95",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "nomad-autoscaler"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5bq974n9yvdx6fjqa324pakw88z3p2a1-nomad-autoscaler-0.3.3-bin"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

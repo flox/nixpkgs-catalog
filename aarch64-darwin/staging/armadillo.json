@@ -39,6 +39,46 @@
       }
     }
   },
+  "11.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "11.4.1",
+      "pname": "armadillo",
+      "name": "armadillo-11.4.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/rdn4hivkvknjlad7hll2kjl0p51iq707-armadillo-11.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C++ linear algebra library",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/armadillo/default.nix:23",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "armadillo"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rdn4hivkvknjlad7hll2kjl0p51iq707-armadillo-11.4.1"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "11.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 416449,
         "lastModified": 1665449268
-      }
-    }
-  },
-  "11.2.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "11.2.3",
-      "pname": "armadillo",
-      "name": "armadillo-11.2.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/bsdajs2jy1d9a92q2hwa6p5gzq1p1b4b-armadillo-11.2.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "C++ linear algebra library",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/development/libraries/armadillo/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "armadillo"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bsdajs2jy1d9a92q2hwa6p5gzq1p1b4b-armadillo-11.2.3"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
       }
     }
   }

@@ -1,4 +1,45 @@
 {
+  "2.0.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.22",
+      "pname": "ansible-later",
+      "name": "ansible-later-2.0.22",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dist": "/nix/store/gnmyv70ngm4y18qnmdvgan173wl80gvh-python3.10-ansible-later-2.0.22-dist",
+        "out": "/nix/store/sfl5vq4m5dgf7li1q16fdbm6nhdjiryg-python3.10-ansible-later-2.0.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Best practice scanner for Ansible roles and playbooks",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/python-modules/ansible-later/default.nix:85",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "ansible-later"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sfl5vq4m5dgf7li1q16fdbm6nhdjiryg-python3.10-ansible-later-2.0.22"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "2.0.21": {
     "type": "catalogRender",
     "schema": 1,
@@ -77,46 +118,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "2.0.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.14",
-      "pname": "ansible-later",
-      "name": "ansible-later-2.0.14",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/4c5bcqrad2m1xfh1agynidaadq8fcz4b-python3.10-ansible-later-2.0.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Best practice scanner for Ansible roles and playbooks",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/ansible-later/default.nix:78",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "ansible-later"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4c5bcqrad2m1xfh1agynidaadq8fcz4b-python3.10-ansible-later-2.0.14"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

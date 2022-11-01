@@ -1,4 +1,44 @@
 {
+  "1.13.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13.0",
+      "pname": "heisenbridge",
+      "name": "heisenbridge-1.13.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/j2kdm3jmlsfdd5fl8csgc2m1miij20pa-heisenbridge-1.13.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A bouncer-style Matrix-IRC bridge.",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/heisenbridge/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "heisenbridge"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/j2kdm3jmlsfdd5fl8csgc2m1miij20pa-heisenbridge-1.13.0"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
+      }
+    }
+  },
   "1.10.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
-      }
-    }
-  },
-  "0.99.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.99.8",
-      "pname": "heisenbridge",
-      "name": "python3.9-heisenbridge-0.99.8",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/xja1wi58j3srrh6rjz1x27k8s71q8dn4-python3.9-heisenbridge-0.99.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A bouncer-style Matrix-IRC bridge.",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/heisenbridge/default.nix:23",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "heisenbridge"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xja1wi58j3srrh6rjz1x27k8s71q8dn4-python3.9-heisenbridge-0.99.8"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

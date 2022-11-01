@@ -1,4 +1,90 @@
 {
+  "5.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.5.0",
+      "pname": "wolfssl",
+      "name": "wolfssl-5.5.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/k4796pg7psbddmvh9da6b0zhnxb3cjrj-wolfssl-5.5.0-dev",
+        "doc": "/nix/store/y8waazdmwvmkllxh1c8k018mkmkhssvl-wolfssl-5.5.0-doc",
+        "lib": "/nix/store/fk8jdmxdcjfqavg177ivv66diydwlhzd-wolfssl-5.5.0-lib",
+        "out": "/nix/store/hd4ljglz5ihvdp84zwcbigv005jdq1vj-wolfssl-5.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/wolfssl/default.nix:61",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "wolfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hd4ljglz5ihvdp84zwcbigv005jdq1vj-wolfssl-5.5.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "5.4.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.4.0",
+      "pname": "wolfssl",
+      "name": "wolfssl-5.4.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/y99qnn1mq4rszvpjr9c69534wgcnv6mr-wolfssl-5.4.0-dev",
+        "doc": "/nix/store/8g2qs8hdsc7fmssphj3ml4awdzrx79s7-wolfssl-5.4.0-doc",
+        "lib": "/nix/store/wzklxcgfy8f4r23yxyvmnvr8psy6n58k-wolfssl-5.4.0-lib",
+        "out": "/nix/store/xb60wfzkba657ykps9njmqd7ix6n1wmc-wolfssl-5.4.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/wolfssl/default.nix:58",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "wolfssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xb60wfzkba657ykps9njmqd7ix6n1wmc-wolfssl-5.4.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "5.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,17 +94,17 @@
       "name": "wolfssl-5.3.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "dev": "/nix/store/gpxjw8llpsw1fbn27pnvam82insxigri-wolfssl-5.3.0-dev",
-        "doc": "/nix/store/33lvayq45narikwlb4d94lw4a6ydn7h9-wolfssl-5.3.0-doc",
-        "lib": "/nix/store/nfypkkmwll2dklmz3z0mlxak3p6ihbj6-wolfssl-5.3.0-lib",
-        "out": "/nix/store/sipv6rvraz9k5snb82v2nsvv2a36wkfw-wolfssl-5.3.0"
+        "dev": "/nix/store/iqx81rfn9map35pyhkjyfkbxs8r1165n-wolfssl-5.3.0-dev",
+        "doc": "/nix/store/zdqmmc3ldd1prw9hj93dpvq21navjmrx-wolfssl-5.3.0-doc",
+        "lib": "/nix/store/7iagnqqrq9xh699cgwfk6p7ip6n6k7my-wolfssl-5.3.0-lib",
+        "out": "/nix/store/5wm37x5q4m9gzqbbg19r04apgwqss9yz-wolfssl-5.3.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/wolfssl/default.nix:58",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/wolfssl/default.nix:58",
         "unfree": false
       }
     },
@@ -31,100 +117,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sipv6rvraz9k5snb82v2nsvv2a36wkfw-wolfssl-5.3.0"
+        "/nix/store/5wm37x5q4m9gzqbbg19r04apgwqss9yz-wolfssl-5.3.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "4.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.8.1",
-      "pname": "wolfssl",
-      "name": "wolfssl-4.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/mlld7yyhcra0lla678g2v4xsx0a56q21-wolfssl-4.8.1-dev",
-        "doc": "/nix/store/sbdyijwr413r3sna9xxw1nw8382ikykp-wolfssl-4.8.1-doc",
-        "lib": "/nix/store/sbl7lcm2kxals0yab6zakpmv5q6rs51q-wolfssl-4.8.1-lib",
-        "out": "/nix/store/hw290c434hdgh4s6m31syy350p1vzvf9-wolfssl-4.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/wolfssl/default.nix:47",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "wolfssl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hw290c434hdgh4s6m31syy350p1vzvf9-wolfssl-4.8.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "5.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.1.1",
-      "pname": "wolfssl",
-      "name": "wolfssl-5.1.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/vxs6jxm3qjy51afkq5c7ka1qj1snvjd4-wolfssl-5.1.1-dev",
-        "doc": "/nix/store/jpg89b4p7vdy7pnynnzljna74ckcpw2n-wolfssl-5.1.1-doc",
-        "lib": "/nix/store/r3y3kjpk113pdsdwr1wmbxihyhp9mwrl-wolfssl-5.1.1-lib",
-        "out": "/nix/store/cd8pb15bqzanl40y7q05pn99qmd94bxz-wolfssl-5.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A small, fast, portable implementation of TLS/SSL for embedded devices",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/development/libraries/wolfssl/default.nix:58",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "wolfssl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cd8pb15bqzanl40y7q05pn99qmd94bxz-wolfssl-5.1.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "0.7.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.7.5",
-      "pname": "openlibm",
-      "name": "openlibm-0.7.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/y2460qskwmxq0420q3i4napd90vjqhg5-openlibm-0.7.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High quality system independent, portable, open source libm implementation",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/science/math/openlibm/default.nix:14",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "openlibm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y2460qskwmxq0420q3i4napd90vjqhg5-openlibm-0.7.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.8.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.7.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.7.5",
+      "pname": "openlibm",
+      "name": "openlibm-0.7.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/y2460qskwmxq0420q3i4napd90vjqhg5-openlibm-0.7.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High quality system independent, portable, open source libm implementation",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/science/math/openlibm/default.nix:14",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "openlibm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y2460qskwmxq0420q3i4napd90vjqhg5-openlibm-0.7.5"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

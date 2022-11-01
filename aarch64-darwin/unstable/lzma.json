@@ -45,52 +45,6 @@
       }
     }
   },
-  "5.2.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.2.5",
-      "pname": "xz",
-      "name": "xz-5.2.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/pdasdf88aqw2wrqxmx06gjvhrk4dbmx8-xz-5.2.5-bin",
-        "dev": "/nix/store/r3mg4qjgnj4943m0znplmbm20xbdi83y-xz-5.2.5-dev",
-        "doc": "/nix/store/fcyf204ylizdncis8ilgkfhf0ci32ybx-xz-5.2.5-doc",
-        "man": "/nix/store/srwiy9y062dkm7n6vb5ws4mwirfc8qxx-xz-5.2.5-man",
-        "out": "/nix/store/7l0wfzwb38awzv2f2hc3gkqkq9ris3z5-xz-5.2.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A general-purpose data compression software, successor of LZMA",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/compression/xz/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "lzma"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pdasdf88aqw2wrqxmx06gjvhrk4dbmx8-xz-5.2.5-bin",
-        "/nix/store/srwiy9y062dkm7n6vb5ws4mwirfc8qxx-xz-5.2.5-man"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "5.2.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -100,11 +54,11 @@
       "name": "xz-5.2.6",
       "system": "aarch64-darwin",
       "outputs": {
-        "bin": "/nix/store/kajhv6222m4cgq27hky03c20jgcbji31-xz-5.2.6-bin",
-        "dev": "/nix/store/1gifkzqrnr1snba9nl8cr2n38zlknc45-xz-5.2.6-dev",
-        "doc": "/nix/store/lhskrsdmaap4p6z7ca0sj8jl87bggais-xz-5.2.6-doc",
-        "man": "/nix/store/y1g6g3270rcpk7kq3xjpcdnmh7pqzs9i-xz-5.2.6-man",
-        "out": "/nix/store/1kyqzdj19w12yf51w30g269y0jgg9dfz-xz-5.2.6"
+        "bin": "/nix/store/vyiglv05a3n47khmf2b6ig8j2gwhbqxb-xz-5.2.6-bin",
+        "dev": "/nix/store/mq4kbnz02cywq7xhl4mnzfkq1ias4dpp-xz-5.2.6-dev",
+        "doc": "/nix/store/jicqdrasx8y6mhbxad8qyf9zbwwgbrpb-xz-5.2.6-doc",
+        "man": "/nix/store/vdm91d9n34kwwh58x905lbv181qr15qi-xz-5.2.6-man",
+        "out": "/nix/store/fn8lf0idpblf52h4qykxg9fdw4lf3zc2-xz-5.2.6"
       },
       "meta": {
         "outputsToInstall": [
@@ -112,7 +66,7 @@
           "man"
         ],
         "description": "A general-purpose data compression software, successor of LZMA",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/compression/xz/default.nix:55",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/compression/xz/default.nix:55",
         "unfree": false
       }
     },
@@ -125,15 +79,61 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kajhv6222m4cgq27hky03c20jgcbji31-xz-5.2.6-bin",
-        "/nix/store/y1g6g3270rcpk7kq3xjpcdnmh7pqzs9i-xz-5.2.6-man"
+        "/nix/store/vyiglv05a3n47khmf2b6ig8j2gwhbqxb-xz-5.2.6-bin",
+        "/nix/store/vdm91d9n34kwwh58x905lbv181qr15qi-xz-5.2.6-man"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.2.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.2.5",
+      "pname": "xz",
+      "name": "xz-5.2.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/f41jl5i1sgx3xl8fwpxx1qp24f026ydy-xz-5.2.5-bin",
+        "dev": "/nix/store/8p0c74sj6saqg7rgh8nnaqa96p8aqjpa-xz-5.2.5-dev",
+        "doc": "/nix/store/wka586ida88bp9gzf6kbwrixzqm7qy13-xz-5.2.5-doc",
+        "man": "/nix/store/ninznxd7mlcf222v4fl350nk7dh3iq04-xz-5.2.5-man",
+        "out": "/nix/store/42xcbzrxkmsy26l6f2gywkyparavj6fd-xz-5.2.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A general-purpose data compression software, successor of LZMA",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/tools/compression/xz/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "lzma"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f41jl5i1sgx3xl8fwpxx1qp24f026ydy-xz-5.2.5-bin",
+        "/nix/store/ninznxd7mlcf222v4fl350nk7dh3iq04-xz-5.2.5-man"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
       }
     }
   }

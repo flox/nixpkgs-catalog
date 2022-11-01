@@ -1,4 +1,44 @@
 {
+  "2.17": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.17",
+      "pname": "barman",
+      "name": "barman-2.17",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/y30pjniayiyxzlx8mqjjd32b3vd1inzs-barman-2.17"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Backup and Recovery Manager for PostgreSQL",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/barman/default.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "barman"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y30pjniayiyxzlx8mqjjd32b3vd1inzs-barman-2.17"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
+      }
+    }
+  },
   "2.12": {
     "type": "catalogRender",
     "schema": 1,
@@ -39,46 +79,6 @@
       "locked": {
         "revCount": 309392,
         "lastModified": 1629294066
-      }
-    }
-  },
-  "2.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.17",
-      "pname": "barman",
-      "name": "barman-2.17",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/y30pjniayiyxzlx8mqjjd32b3vd1inzs-barman-2.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Backup and Recovery Manager for PostgreSQL",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/barman/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "barman"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y30pjniayiyxzlx8mqjjd32b3vd1inzs-barman-2.17"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
       }
     }
   }

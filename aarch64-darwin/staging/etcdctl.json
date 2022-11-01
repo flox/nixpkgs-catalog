@@ -1,44 +1,4 @@
 {
-  "3.3.25": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.25",
-      "pname": "etcd",
-      "name": "etcd-3.3.25",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/7gnmz4b4pp8rfv1hln7lnjr0ji5kn49n-etcd-3.3.25"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/etcd/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "etcdctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/7gnmz4b4pp8rfv1hln7lnjr0ji5kn49n-etcd-3.3.25"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "3.3.27": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.3.25": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.3.25",
+      "pname": "etcd",
+      "name": "etcd-3.3.25",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/7gnmz4b4pp8rfv1hln7lnjr0ji5kn49n-etcd-3.3.25"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/etcd/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "etcdctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7gnmz4b4pp8rfv1hln7lnjr0ji5kn49n-etcd-3.3.25"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

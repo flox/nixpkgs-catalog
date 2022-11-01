@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.13.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.13.2",
+      "pname": "consul",
+      "name": "consul-1.13.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/m6a7cgk751635xm9k00xvj63j5jmfiaq-consul-1.13.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tool for service discovery, monitoring and configuration",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/consul/default.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "consul"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m6a7cgk751635xm9k00xvj63j5jmfiaq-consul-1.13.2"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "1.13.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
-      }
-    }
-  },
-  "1.12.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.12.3",
-      "pname": "consul",
-      "name": "consul-1.12.3",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/9hdbk11x08ndj5ydzys7rmnabidjb6av-consul-1.12.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tool for service discovery, monitoring and configuration",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/consul/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "consul"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9hdbk11x08ndj5ydzys7rmnabidjb6av-consul-1.12.3"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

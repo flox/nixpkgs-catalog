@@ -1,4 +1,86 @@
 {
+  "5.5.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.5.2",
+      "pname": "knot-resolver",
+      "name": "knot-resolver-5.5.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/pqgj185cvyrnf4w0lx5qf3h63h0alkzk-knot-resolver-5.5.2-dev",
+        "out": "/nix/store/dw32gbrh314s2kj03ld4pcz3h99z0a6y-knot-resolver-5.5.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Caching validating DNS resolver, from .cz domain registry",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/dns/knot-resolver/default.nix:110",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "knot-resolver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dw32gbrh314s2kj03ld4pcz3h99z0a6y-knot-resolver-5.5.2"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "5.5.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.5.1",
+      "pname": "knot-resolver",
+      "name": "knot-resolver-5.5.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/2fjbi06l17vm6rdfbahk280ra9s9r687-knot-resolver-5.5.1-dev",
+        "out": "/nix/store/6mb5g20xm5m699dv28b4vkw82sxyr33a-knot-resolver-5.5.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Caching validating DNS resolver, from .cz domain registry",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/servers/dns/knot-resolver/default.nix:89",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "knot-resolver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6mb5g20xm5m699dv28b4vkw82sxyr33a-knot-resolver-5.5.1"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
+      }
+    }
+  },
   "5.5.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,88 +119,6 @@
       "locked": {
         "revCount": 420742,
         "lastModified": 1666703756
-      }
-    }
-  },
-  "5.5.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.5.0",
-      "pname": "knot-resolver",
-      "name": "knot-resolver-5.5.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/zpd2bqlyl4igd6d0zh2x0ljwdgsnbn31-knot-resolver-5.5.0-dev",
-        "out": "/nix/store/sxzcly7dx6jw4yxbq7iw89sa7pcsr79j-knot-resolver-5.5.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Caching validating DNS resolver, from .cz domain registry",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/dns/knot-resolver/default.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "knot-resolver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sxzcly7dx6jw4yxbq7iw89sa7pcsr79j-knot-resolver-5.5.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "5.5.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.5.1",
-      "pname": "knot-resolver",
-      "name": "knot-resolver-5.5.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/1xhwp0if57gsh6pw8ds8dsh6p5qmypbx-knot-resolver-5.5.1-dev",
-        "out": "/nix/store/nn0y5sanwnyx33jab1hbya5gni78kz0l-knot-resolver-5.5.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Caching validating DNS resolver, from .cz domain registry",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dns/knot-resolver/default.nix:89",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "knot-resolver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nn0y5sanwnyx33jab1hbya5gni78kz0l-knot-resolver-5.5.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

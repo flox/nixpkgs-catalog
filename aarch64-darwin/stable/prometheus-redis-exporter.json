@@ -1,4 +1,84 @@
 {
+  "1.44.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.44.0",
+      "pname": "redis_exporter",
+      "name": "redis_exporter-1.44.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/sr9cwfzk2vwqb1y7qbi32mawzbqyy2rn-redis_exporter-1.44.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Prometheus exporter for Redis metrics",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "prometheus-redis-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sr9cwfzk2vwqb1y7qbi32mawzbqyy2rn-redis_exporter-1.44.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.43.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.43.1",
+      "pname": "redis_exporter",
+      "name": "redis_exporter-1.43.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/f9ikgkgjymmrnjfkpwyc2m1j4wjf5w4n-redis_exporter-1.43.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Prometheus exporter for Redis metrics",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "prometheus-redis-exporter"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f9ikgkgjymmrnjfkpwyc2m1j4wjf5w4n-redis_exporter-1.43.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "1.37.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,14 +88,14 @@
       "name": "redis_exporter-1.37.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/ma99v51lixx5zzzqwkk5gxbcjpn2jgaf-redis_exporter-1.37.0"
+        "out": "/nix/store/5qmvkkkpn1h9gjkrdjcxa91cnwk14xjw-redis_exporter-1.37.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Prometheus exporter for Redis metrics",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:28",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:28",
         "unfree": false
       }
     },
@@ -28,94 +108,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ma99v51lixx5zzzqwkk5gxbcjpn2jgaf-redis_exporter-1.37.0"
+        "/nix/store/5qmvkkkpn1h9gjkrdjcxa91cnwk14xjw-redis_exporter-1.37.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.23.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.1",
-      "pname": "redis_exporter",
-      "name": "redis_exporter-1.23.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/x2lxwfyd5yw4mpj2amiz5zyzpf1f35fy-redis_exporter-1.23.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Prometheus exporter for Redis metrics",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "prometheus-redis-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x2lxwfyd5yw4mpj2amiz5zyzpf1f35fy-redis_exporter-1.23.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "1.33.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.33.0",
-      "pname": "redis_exporter",
-      "name": "redis_exporter-1.33.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/wf15q3z935fvhdz5ngv74n8i5vlj90ij-redis_exporter-1.33.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Prometheus exporter for Redis metrics",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/monitoring/prometheus/redis-exporter.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "prometheus-redis-exporter"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wf15q3z935fvhdz5ngv74n8i5vlj90ij-redis_exporter-1.33.0"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

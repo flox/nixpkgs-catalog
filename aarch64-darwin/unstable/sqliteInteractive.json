@@ -1,46 +1,4 @@
 {
-  "3.35.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.35.5",
-      "pname": "sqlite",
-      "name": "sqlite-interactive-3.35.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/bghfymgbh382dp9rs3v2qcna7p8y6v4r-sqlite-3.35.5-bin",
-        "dev": "/nix/store/lfzmqfq5z5jx36gn59yncn7x5mwvy9qc-sqlite-3.35.5-dev",
-        "out": "/nix/store/rk17q9cjfnk2nf7npyhk7jkc3jhsgr9m-sqlite-3.35.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/sqlite/default.nix:88",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "sqliteInteractive"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bghfymgbh382dp9rs3v2qcna7p8y6v4r-sqlite-3.35.5-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "3.37.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.35.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.35.5",
+      "pname": "sqlite",
+      "name": "sqlite-interactive-3.35.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/bghfymgbh382dp9rs3v2qcna7p8y6v4r-sqlite-3.35.5-bin",
+        "dev": "/nix/store/lfzmqfq5z5jx36gn59yncn7x5mwvy9qc-sqlite-3.35.5-dev",
+        "out": "/nix/store/rk17q9cjfnk2nf7npyhk7jkc3jhsgr9m-sqlite-3.35.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/sqlite/default.nix:88",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "sqliteInteractive"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bghfymgbh382dp9rs3v2qcna7p8y6v4r-sqlite-3.35.5-bin"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

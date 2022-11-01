@@ -1,47 +1,4 @@
 {
-  "3.9": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9",
-      "pname": "iperf",
-      "name": "iperf-3.9",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "man": "/nix/store/g41b1rbc43hg8as2mypnrhvxa2qg7r0w-iperf-3.9-man",
-        "out": "/nix/store/x87cwxvmh8sz9yf7203bmcnziqzjza4b-iperf-3.9"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Tool to measure IP bandwidth using UDP or TCP",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/iperf/3.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "iperf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x87cwxvmh8sz9yf7203bmcnziqzjza4b-iperf-3.9",
-        "/nix/store/g41b1rbc43hg8as2mypnrhvxa2qg7r0w-iperf-3.9-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "3.10.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9",
+      "pname": "iperf",
+      "name": "iperf-3.9",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "man": "/nix/store/g41b1rbc43hg8as2mypnrhvxa2qg7r0w-iperf-3.9-man",
+        "out": "/nix/store/x87cwxvmh8sz9yf7203bmcnziqzjza4b-iperf-3.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Tool to measure IP bandwidth using UDP or TCP",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/networking/iperf/3.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "iperf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/x87cwxvmh8sz9yf7203bmcnziqzjza4b-iperf-3.9",
+        "/nix/store/g41b1rbc43hg8as2mypnrhvxa2qg7r0w-iperf-3.9-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

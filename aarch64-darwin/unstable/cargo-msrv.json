@@ -1,44 +1,4 @@
 {
-  "0.8.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.0",
-      "pname": "cargo-msrv",
-      "name": "cargo-msrv-0.8.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/dyc1b47vv06snnf38gcg18l1sgh7hz3f-cargo-msrv-0.8.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cargo subcommand \"msrv\": assists with finding your minimum supported Rust version (MSRV)",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/rust/cargo-msrv/default.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "cargo-msrv"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dyc1b47vv06snnf38gcg18l1sgh7hz3f-cargo-msrv-0.8.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.13.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.8.0",
+      "pname": "cargo-msrv",
+      "name": "cargo-msrv-0.8.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/dyc1b47vv06snnf38gcg18l1sgh7hz3f-cargo-msrv-0.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cargo subcommand \"msrv\": assists with finding your minimum supported Rust version (MSRV)",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/rust/cargo-msrv/default.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "cargo-msrv"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dyc1b47vv06snnf38gcg18l1sgh7hz3f-cargo-msrv-0.8.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

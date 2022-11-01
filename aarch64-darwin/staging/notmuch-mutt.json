@@ -1,4 +1,44 @@
 {
+  "0.36": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.36",
+      "pname": "notmuch-mutt",
+      "name": "notmuch-mutt-0.36",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/qk02wpxc5mj8nk23c5lclwlp4mcx2kf7-notmuch-mutt-0.36"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mutt support for notmuch",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/applications/networking/mailreaders/notmuch/mutt.nix:40",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "notmuch-mutt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qk02wpxc5mj8nk23c5lclwlp4mcx2kf7-notmuch-mutt-0.36"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "0.35": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "0.36": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.36",
-      "pname": "notmuch-mutt",
-      "name": "notmuch-mutt-0.36",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0pfsq3brf90c5axc5j7iajz246ji321j-notmuch-mutt-0.36"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mutt support for notmuch",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/mailreaders/notmuch/mutt.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "notmuch-mutt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0pfsq3brf90c5axc5j7iajz246ji321j-notmuch-mutt-0.36"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

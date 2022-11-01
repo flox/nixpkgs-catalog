@@ -1,44 +1,4 @@
 {
-  "4.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.0.1",
-      "pname": "bazel-buildtools",
-      "name": "bazel-buildtools-4.0.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/a9k7bzagizgv94i7n7lbrzy7k3bkm3s7-bazel-buildtools-4.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for working with Google's bazel buildtool. Includes buildifier, buildozer, and unused_deps",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/build-managers/bazel/buildtools/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "buildozer"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a9k7bzagizgv94i7n7lbrzy7k3bkm3s7-bazel-buildtools-4.0.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "4.2.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.1",
+      "pname": "bazel-buildtools",
+      "name": "bazel-buildtools-4.0.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/a9k7bzagizgv94i7n7lbrzy7k3bkm3s7-bazel-buildtools-4.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for working with Google's bazel buildtool. Includes buildifier, buildozer, and unused_deps",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/build-managers/bazel/buildtools/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "buildozer"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a9k7bzagizgv94i7n7lbrzy7k3bkm3s7-bazel-buildtools-4.0.1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

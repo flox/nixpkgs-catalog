@@ -1,21 +1,21 @@
 {
-  "4.78.0": {
+  "4.90.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.78.0",
+      "version": "4.90.0",
       "pname": "terraform-provider-oci",
-      "name": "terraform-provider-oci-4.78.0",
+      "name": "terraform-provider-oci-4.90.0",
       "system": "aarch64-darwin",
       "outputs": {
-        "out": "/nix/store/r70q9drmbfr0bz4qcdc01hc3llsq6i49-terraform-provider-oci-4.78.0"
+        "out": "/nix/store/jddxljhmrzrf3jv9ylz69lvgcm3x54h7-terraform-provider-oci-4.90.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/r70q9drmbfr0bz4qcdc01hc3llsq6i49-terraform-provider-oci-4.78.0"
+        "/nix/store/jddxljhmrzrf3jv9ylz69lvgcm3x54h7-terraform-provider-oci-4.90.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "4.89.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.89.0",
+      "pname": "terraform-provider-oci",
+      "name": "terraform-provider-oci-4.89.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/6szfl3gfsikf18dhh9mzbqdiijpq0mi8-terraform-provider-oci-4.89.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "terraform-providers",
+        "oci"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6szfl3gfsikf18dhh9mzbqdiijpq0mi8-terraform-provider-oci-4.89.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "4.81.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.81.0",
-      "pname": "terraform-provider-oci",
-      "name": "terraform-provider-oci-4.81.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/vdl8yg25sacqxm8bxvl6d10sw9lsqgsr-terraform-provider-oci-4.81.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "terraform-providers",
-        "oci"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vdl8yg25sacqxm8bxvl6d10sw9lsqgsr-terraform-provider-oci-4.81.0"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
       }
     }
   }

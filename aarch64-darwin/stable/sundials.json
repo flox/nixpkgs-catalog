@@ -1,45 +1,4 @@
 {
-  "5.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.7.0",
-      "pname": "sundials",
-      "name": "sundials-5.7.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "examples": "/nix/store/7xlk5hy439rknl721mysrp4j9846srxw-sundials-5.7.0-examples",
-        "out": "/nix/store/g3g3nf4z8i2v74w7da2m3p1wlqm4s7h2-sundials-5.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Suite of nonlinear differential/algebraic equation solvers",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/sundials/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "sundials"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g3g3nf4z8i2v74w7da2m3p1wlqm4s7h2-sundials-5.7.0"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "6.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "5.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.7.0",
+      "pname": "sundials",
+      "name": "sundials-5.7.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "examples": "/nix/store/7xlk5hy439rknl721mysrp4j9846srxw-sundials-5.7.0-examples",
+        "out": "/nix/store/g3g3nf4z8i2v74w7da2m3p1wlqm4s7h2-sundials-5.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Suite of nonlinear differential/algebraic equation solvers",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/sundials/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "sundials"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g3g3nf4z8i2v74w7da2m3p1wlqm4s7h2-sundials-5.7.0"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

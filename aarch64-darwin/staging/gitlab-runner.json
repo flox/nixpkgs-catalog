@@ -39,46 +39,6 @@
       }
     }
   },
-  "15.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "15.1.0",
-      "pname": "gitlab-runner",
-      "name": "gitlab-runner-15.1.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/x39gzxmj99in6gr50hywg77l3h3b951f-gitlab-runner-15.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GitLab Runner the continuous integration executor of GitLab",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gitlab-runner"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x39gzxmj99in6gr50hywg77l3h3b951f-gitlab-runner-15.1.0"
-      ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
-    },
-    "source": {
-      "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
-      }
-    }
-  },
   "15.4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "15.1.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "15.1.0",
+      "pname": "gitlab-runner",
+      "name": "gitlab-runner-15.1.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/bkbhi7b1a7gkjqwfd2hhyr26zi7jp3sj-gitlab-runner-15.1.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GitLab Runner the continuous integration executor of GitLab",
+        "position": "/nix/store/dwp21rcg5jq1dx3a1pyfdpa1lwx57wdv-source/pkgs/development/tools/continuous-integration/gitlab-runner/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gitlab-runner"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bkbhi7b1a7gkjqwfd2hhyr26zi7jp3sj-gitlab-runner-15.1.0"
+      ],
+      "url": "github:flox/nixpkgs/38860c9e91cb00f4d8cd19c7b4e36c45680c89b5"
+    },
+    "source": {
+      "locked": {
+        "revCount": 391169,
+        "lastModified": 1657533762
       }
     }
   }

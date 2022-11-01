@@ -1,45 +1,4 @@
 {
-  "8.0.28": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.0.28",
-      "pname": "mysql",
-      "name": "mysql-8.0.28",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/1rr7nb6vl71ykd13dzpzvaihw1ry9184-mysql-8.0.28",
-        "static": "/nix/store/9fh9l1dlprlqwp5davi5m8y4j0k9sk4h-mysql-8.0.28-static"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The world's most popular open source database",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/sql/mysql/8.0.x.nix:74",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "mysql80"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1rr7nb6vl71ykd13dzpzvaihw1ry9184-mysql-8.0.28"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "8.0.30": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "8.0.28": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.0.28",
+      "pname": "mysql",
+      "name": "mysql-8.0.28",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/1rr7nb6vl71ykd13dzpzvaihw1ry9184-mysql-8.0.28",
+        "static": "/nix/store/9fh9l1dlprlqwp5davi5m8y4j0k9sk4h-mysql-8.0.28-static"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The world's most popular open source database",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/sql/mysql/8.0.x.nix:74",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "mysql80"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1rr7nb6vl71ykd13dzpzvaihw1ry9184-mysql-8.0.28"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

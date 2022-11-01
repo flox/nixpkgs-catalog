@@ -1,46 +1,4 @@
 {
-  "21.1.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "21.1.5",
-      "pname": "mesa",
-      "name": "mesa-21.1.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/sy2r81c6k4sprdqz43acb6428iw2p8pd-mesa-21.1.5-dev",
-        "drivers": "/nix/store/f60zvmr46lx6cr1cvrazj8nn7v8xhji1-mesa-21.1.5-drivers",
-        "out": "/nix/store/vmf2k4m97id23g6bdskamfc7vxbwgycg-mesa-21.1.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source 3D graphics library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/mesa/default.nix:235",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libGL_driver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vmf2k4m97id23g6bdskamfc7vxbwgycg-mesa-21.1.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "21.3.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "21.1.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "21.1.5",
+      "pname": "mesa",
+      "name": "mesa-21.1.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/sy2r81c6k4sprdqz43acb6428iw2p8pd-mesa-21.1.5-dev",
+        "drivers": "/nix/store/f60zvmr46lx6cr1cvrazj8nn7v8xhji1-mesa-21.1.5-drivers",
+        "out": "/nix/store/vmf2k4m97id23g6bdskamfc7vxbwgycg-mesa-21.1.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source 3D graphics library",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/mesa/default.nix:235",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libGL_driver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vmf2k4m97id23g6bdskamfc7vxbwgycg-mesa-21.1.5"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

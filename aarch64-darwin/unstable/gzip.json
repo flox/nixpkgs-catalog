@@ -1,48 +1,4 @@
 {
-  "1.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10",
-      "pname": "gzip",
-      "name": "gzip-1.10",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "info": "/nix/store/l4hrqip6naap2ypidk57xllc7y2rb15x-gzip-1.10-info",
-        "man": "/nix/store/60rc4h89w8b4sbl1dy7cr85mdq8dspcm-gzip-1.10-man",
-        "out": "/nix/store/ssssi7csxmh0crv44y38mp4ikf58m1h0-gzip-1.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "GNU zip compression program",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/compression/gzip/default.nix:46",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "gzip"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ssssi7csxmh0crv44y38mp4ikf58m1h0-gzip-1.10",
-        "/nix/store/60rc4h89w8b4sbl1dy7cr85mdq8dspcm-gzip-1.10-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10",
+      "pname": "gzip",
+      "name": "gzip-1.10",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "info": "/nix/store/l4hrqip6naap2ypidk57xllc7y2rb15x-gzip-1.10-info",
+        "man": "/nix/store/60rc4h89w8b4sbl1dy7cr85mdq8dspcm-gzip-1.10-man",
+        "out": "/nix/store/ssssi7csxmh0crv44y38mp4ikf58m1h0-gzip-1.10"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "GNU zip compression program",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/compression/gzip/default.nix:46",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "gzip"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ssssi7csxmh0crv44y38mp4ikf58m1h0-gzip-1.10",
+        "/nix/store/60rc4h89w8b4sbl1dy7cr85mdq8dspcm-gzip-1.10-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

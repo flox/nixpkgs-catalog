@@ -1,44 +1,4 @@
 {
-  "0.14.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.14.2",
-      "pname": "qbec",
-      "name": "qbec-0.14.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/lpj909d7nm4jqgxshzjyr988pq1zlszf-qbec-0.14.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Configure kubernetes objects on multiple clusters using jsonnet https://qbec.io",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/qbec/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "qbec"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lpj909d7nm4jqgxshzjyr988pq1zlszf-qbec-0.14.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.14.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.14.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.14.2",
+      "pname": "qbec",
+      "name": "qbec-0.14.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/lpj909d7nm4jqgxshzjyr988pq1zlszf-qbec-0.14.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Configure kubernetes objects on multiple clusters using jsonnet https://qbec.io",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/cluster/qbec/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "qbec"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lpj909d7nm4jqgxshzjyr988pq1zlszf-qbec-0.14.2"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

@@ -43,6 +43,50 @@
       }
     }
   },
+  "2.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.10.0",
+      "pname": "libxml2",
+      "name": "libxml2-2.10.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/g804pahxif976h0s5ji9bqk7p92f395s-libxml2-2.10.0-bin",
+        "dev": "/nix/store/dqydmgbf2xnpx7nrjj9958ybs7bh4amj-libxml2-2.10.0-dev",
+        "doc": "/nix/store/fxpvjav394y534xd97jfllbxd0p6g47l-libxml2-2.10.0-doc",
+        "out": "/nix/store/ndrmrihvz58vqk24b8vs04xjwjh87lrp-libxml2-2.10.0",
+        "py": "/nix/store/603a01q3ishm1lnpfx7wikazsh9bcmm1-libxml2-2.10.0-py"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "XML parsing library for C",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libxml2/default.nix:141",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libxml2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g804pahxif976h0s5ji9bqk7p92f395s-libxml2-2.10.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "2.9.14": {
     "type": "catalogRender",
     "schema": 1,
@@ -52,12 +96,12 @@
       "name": "libxml2-2.9.14",
       "system": "aarch64-darwin",
       "outputs": {
-        "bin": "/nix/store/kqiq22i1c1x08a75n35wfvabdb2aink0-libxml2-2.9.14-bin",
-        "dev": "/nix/store/n5vjb6hv4bbhpj5wmjyfh4mg139jmhks-libxml2-2.9.14-dev",
-        "doc": "/nix/store/r73wz4p3iw3r6550gy4yb1q988i4br79-libxml2-2.9.14-doc",
-        "man": "/nix/store/w6zxshnn8c88xsc6ispq411khvwdy5nv-libxml2-2.9.14-man",
-        "out": "/nix/store/a94hzrcc4bdjqz4c1i96rb8g7bxn0f0k-libxml2-2.9.14",
-        "py": "/nix/store/kbimkigj08g1g1y8qdn7f3l7r5pgjka1-libxml2-2.9.14-py"
+        "bin": "/nix/store/0j447pi25rqyp4a5f9l245j8kapgqf77-libxml2-2.9.14-bin",
+        "dev": "/nix/store/q8lb4765xyypjvb2hdf7xsljcpkj68b8-libxml2-2.9.14-dev",
+        "doc": "/nix/store/2hyicbkxdcb86bh56ml5jqk31kmfmb0r-libxml2-2.9.14-doc",
+        "man": "/nix/store/0nxp2i6g18k4v3z6bsrl18rpbigg8p1r-libxml2-2.9.14-man",
+        "out": "/nix/store/lhc1azmrhjd0y5wgpm1dgw7db3py4ybx-libxml2-2.9.14",
+        "py": "/nix/store/4qcqwlmjfmc14znmqxkinak9vgd024x7-libxml2-2.9.14-py"
       },
       "meta": {
         "outputsToInstall": [
@@ -65,7 +109,7 @@
           "man"
         ],
         "description": "XML parsing library for C",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libxml2/default.nix:128",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libxml2/default.nix:130",
         "unfree": false
       }
     },
@@ -78,62 +122,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/kqiq22i1c1x08a75n35wfvabdb2aink0-libxml2-2.9.14-bin",
-        "/nix/store/w6zxshnn8c88xsc6ispq411khvwdy5nv-libxml2-2.9.14-man"
+        "/nix/store/0j447pi25rqyp4a5f9l245j8kapgqf77-libxml2-2.9.14-bin",
+        "/nix/store/0nxp2i6g18k4v3z6bsrl18rpbigg8p1r-libxml2-2.9.14-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.9.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.9.12",
-      "pname": "libxml2",
-      "name": "libxml2-2.9.12",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/sl9imzyzrl2v5d0i3iv935qgbqd69ikg-libxml2-2.9.12-bin",
-        "dev": "/nix/store/d3cjhdm5cz43jv4cpl4rmf1qdqsw58gq-libxml2-2.9.12-dev",
-        "doc": "/nix/store/y6wcawqn3h0ybdagjam19s10q82af93s-libxml2-2.9.12-doc",
-        "man": "/nix/store/zz09bj730c3987imksfggrv97svgah07-libxml2-2.9.12-man",
-        "out": "/nix/store/qymm2nlfrw3fzawahji1gs4c83j1dsys-libxml2-2.9.12",
-        "py": "/nix/store/clrd0z9jc0m8akpq1ghi4j78njhmbyla-libxml2-2.9.12-py"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "An XML parsing library for C",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libxml2/default.nix:95",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libxml2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sl9imzyzrl2v5d0i3iv935qgbqd69ikg-libxml2-2.9.12-bin",
-        "/nix/store/zz09bj730c3987imksfggrv97svgah07-libxml2-2.9.12-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

@@ -1,47 +1,4 @@
 {
-  "4.8.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.8.10",
-      "pname": "z3",
-      "name": "z3-4.8.10",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/9pzhdqwlzi1iygwa2axa9v8k6w405yrr-z3-4.8.10-dev",
-        "lib": "/nix/store/x5h9mcgrlaqrj7j4my9ahyxk8knhj6sd-z3-4.8.10-lib",
-        "out": "/nix/store/6nn0r9zr3mgyn85dsj8hdfc3bhypf9g8-z3-4.8.10",
-        "python": "/nix/store/g404359ri22c634lpr5fhziavszivj70-z3-4.8.10-python"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A high-performance theorem prover and SMT solver",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/science/logic/z3/default.nix:71",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "z3"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/6nn0r9zr3mgyn85dsj8hdfc3bhypf9g8-z3-4.8.10"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "4.8.14": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "4.8.10": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.8.10",
+      "pname": "z3",
+      "name": "z3-4.8.10",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/9pzhdqwlzi1iygwa2axa9v8k6w405yrr-z3-4.8.10-dev",
+        "lib": "/nix/store/x5h9mcgrlaqrj7j4my9ahyxk8knhj6sd-z3-4.8.10-lib",
+        "out": "/nix/store/6nn0r9zr3mgyn85dsj8hdfc3bhypf9g8-z3-4.8.10",
+        "python": "/nix/store/g404359ri22c634lpr5fhziavszivj70-z3-4.8.10-python"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A high-performance theorem prover and SMT solver",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/science/logic/z3/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "z3"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6nn0r9zr3mgyn85dsj8hdfc3bhypf9g8-z3-4.8.10"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

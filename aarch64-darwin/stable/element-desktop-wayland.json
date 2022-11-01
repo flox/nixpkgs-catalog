@@ -1,44 +1,4 @@
 {
-  "1.8.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.1",
-      "pname": "element-desktop",
-      "name": "element-desktop-1.8.1",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/n5h1r50x5db02wm230s6ifzaqlfs78yp-element-desktop-1.8.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A feature-rich client for Matrix.org",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/instant-messengers/element/element-desktop.nix:106",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "element-desktop-wayland"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/n5h1r50x5db02wm230s6ifzaqlfs78yp-element-desktop-1.8.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.9.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.8.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.1",
+      "pname": "element-desktop",
+      "name": "element-desktop-1.8.1",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/n5h1r50x5db02wm230s6ifzaqlfs78yp-element-desktop-1.8.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A feature-rich client for Matrix.org",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/networking/instant-messengers/element/element-desktop.nix:106",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "element-desktop-wayland"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/n5h1r50x5db02wm230s6ifzaqlfs78yp-element-desktop-1.8.1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

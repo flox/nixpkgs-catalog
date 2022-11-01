@@ -1,4 +1,84 @@
 {
+  "2.8.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.8.0",
+      "pname": "timescaledb",
+      "name": "timescaledb-2.8.0",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/d1lf5vhnvj2yjcmkfjnhfp4rgi3hn88i-timescaledb-2.8.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "timescaledb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/d1lf5vhnvj2yjcmkfjnhfp4rgi3hn88i-timescaledb-2.8.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "2.7.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.7.2",
+      "pname": "timescaledb",
+      "name": "timescaledb-2.7.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "out": "/nix/store/0fzsijs6l6lp2i8wk53wf5p0kymfanqg-timescaledb-2.7.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "timescaledb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0fzsijs6l6lp2i8wk53wf5p0kymfanqg-timescaledb-2.7.2"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "2.8.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,86 +116,6 @@
       "locked": {
         "revCount": 420742,
         "lastModified": 1666703756
-      }
-    }
-  },
-  "2.7.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.0",
-      "pname": "timescaledb",
-      "name": "timescaledb-2.7.0",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/wd3nm436mdz92ba0zlpx381mcqbpc079-timescaledb-2.7.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "timescaledb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wd3nm436mdz92ba0zlpx381mcqbpc079-timescaledb-2.7.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "2.7.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.2",
-      "pname": "timescaledb",
-      "name": "timescaledb-2.7.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "out": "/nix/store/0fzsijs6l6lp2i8wk53wf5p0kymfanqg-timescaledb-2.7.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Scales PostgreSQL for time-series data via automatic partitioning across time and space",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/servers/sql/postgresql/ext/timescaledb.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "timescaledb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0fzsijs6l6lp2i8wk53wf5p0kymfanqg-timescaledb-2.7.2"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
       }
     }
   }

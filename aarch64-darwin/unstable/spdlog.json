@@ -1,46 +1,4 @@
 {
-  "1.8.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.5",
-      "pname": "spdlog",
-      "name": "spdlog-1.8.5",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/lc5z4bd516g87rkc6fcyh7xskdm4vskg-spdlog-1.8.5-dev",
-        "doc": "/nix/store/kk2lmp0mgbrdqgz76k5m6vvbnx2h7l71-spdlog-1.8.5-doc",
-        "out": "/nix/store/im6gl52yfapqfmn6mac4lld2yb3mxp7j-spdlog-1.8.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Very fast, header only, C++ logging library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/spdlog/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "spdlog"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/im6gl52yfapqfmn6mac4lld2yb3mxp7j-spdlog-1.8.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.9.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.8.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.5",
+      "pname": "spdlog",
+      "name": "spdlog-1.8.5",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/lc5z4bd516g87rkc6fcyh7xskdm4vskg-spdlog-1.8.5-dev",
+        "doc": "/nix/store/kk2lmp0mgbrdqgz76k5m6vvbnx2h7l71-spdlog-1.8.5-doc",
+        "out": "/nix/store/im6gl52yfapqfmn6mac4lld2yb3mxp7j-spdlog-1.8.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Very fast, header only, C++ logging library",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/spdlog/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "spdlog"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/im6gl52yfapqfmn6mac4lld2yb3mxp7j-spdlog-1.8.5"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

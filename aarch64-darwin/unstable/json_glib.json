@@ -1,46 +1,4 @@
 {
-  "1.6.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.2",
-      "pname": "json-glib",
-      "name": "json-glib-1.6.2",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "dev": "/nix/store/3c2jmznsv9fj97qvck3l1gvppb6j8hgf-json-glib-1.6.2-dev",
-        "devdoc": "/nix/store/dcvgiw8zk2vlgdy0zdgg55m9pr2s6hka-json-glib-1.6.2-devdoc",
-        "out": "/nix/store/p3vjmjza9gb965aqrmkzzn66j1345p07-json-glib-1.6.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A library providing (de)serialization support for the JavaScript Object Notation (JSON) format",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/json-glib/default.nix:71",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "json_glib"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/p3vjmjza9gb965aqrmkzzn66j1345p07-json-glib-1.6.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.6.6": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.6.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.6.2",
+      "pname": "json-glib",
+      "name": "json-glib-1.6.2",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "dev": "/nix/store/3c2jmznsv9fj97qvck3l1gvppb6j8hgf-json-glib-1.6.2-dev",
+        "devdoc": "/nix/store/dcvgiw8zk2vlgdy0zdgg55m9pr2s6hka-json-glib-1.6.2-devdoc",
+        "out": "/nix/store/p3vjmjza9gb965aqrmkzzn66j1345p07-json-glib-1.6.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A library providing (de)serialization support for the JavaScript Object Notation (JSON) format",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/json-glib/default.nix:71",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "json_glib"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/p3vjmjza9gb965aqrmkzzn66j1345p07-json-glib-1.6.2"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -1,50 +1,4 @@
 {
-  "1.0.30": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.30",
-      "pname": "libsndfile",
-      "name": "libsndfile-1.0.30",
-      "system": "aarch64-darwin",
-      "outputs": {
-        "bin": "/nix/store/0x35dqj3wp1f26a5as2vysb1434kl0z7-libsndfile-1.0.30-bin",
-        "dev": "/nix/store/566fmirilfjfi6riwpgbjmcx6rwban6k-libsndfile-1.0.30-dev",
-        "doc": "/nix/store/lgbv7i1hlwxis8krw9414q5swygi9ibk-libsndfile-1.0.30-doc",
-        "man": "/nix/store/rydha73iq9wd2ir56yarv8qrlp6k67qg-libsndfile-1.0.30-man",
-        "out": "/nix/store/i5h3n5z4g9ymc8x48blbkpyg8zkmb99b-libsndfile-1.0.30"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A C library for reading and writing files containing sampled sound",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libsndfile/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-darwin",
-        "libsndfile"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0x35dqj3wp1f26a5as2vysb1434kl0z7-libsndfile-1.0.30-bin",
-        "/nix/store/rydha73iq9wd2ir56yarv8qrlp6k67qg-libsndfile-1.0.30-man"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.0.31": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,6 +42,52 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.0.30": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.30",
+      "pname": "libsndfile",
+      "name": "libsndfile-1.0.30",
+      "system": "aarch64-darwin",
+      "outputs": {
+        "bin": "/nix/store/0x35dqj3wp1f26a5as2vysb1434kl0z7-libsndfile-1.0.30-bin",
+        "dev": "/nix/store/566fmirilfjfi6riwpgbjmcx6rwban6k-libsndfile-1.0.30-dev",
+        "doc": "/nix/store/lgbv7i1hlwxis8krw9414q5swygi9ibk-libsndfile-1.0.30-doc",
+        "man": "/nix/store/rydha73iq9wd2ir56yarv8qrlp6k67qg-libsndfile-1.0.30-man",
+        "out": "/nix/store/i5h3n5z4g9ymc8x48blbkpyg8zkmb99b-libsndfile-1.0.30"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A C library for reading and writing files containing sampled sound",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libsndfile/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-darwin",
+        "libsndfile"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/0x35dqj3wp1f26a5as2vysb1434kl0z7-libsndfile-1.0.30-bin",
+        "/nix/store/rydha73iq9wd2ir56yarv8qrlp6k67qg-libsndfile-1.0.30-man"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },
