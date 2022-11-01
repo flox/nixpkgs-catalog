@@ -1,45 +1,4 @@
 {
-  "1.7.2207": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.7.2207",
-      "pname": "directx-shader-compiler",
-      "name": "directx-shader-compiler-1.7.2207",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/ir2x0cvp0khycn4lbz5ybx3fz6i7p63a-directx-shader-compiler-1.7.2207-dev",
-        "out": "/nix/store/pamn3g4qlxjypm0fn2rigvi8agq1yj9k-directx-shader-compiler-1.7.2207"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A compiler to compile HLSL programs into DXIL and SPIR-V",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/graphics/directx-shader-compiler/default.nix:37",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "directx-shader-compiler"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/pamn3g4qlxjypm0fn2rigvi8agq1yj9k-directx-shader-compiler-1.7.2207"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "1.6.2112": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "1.7.2207": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.2207",
+      "pname": "directx-shader-compiler",
+      "name": "directx-shader-compiler-1.7.2207",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/ir2x0cvp0khycn4lbz5ybx3fz6i7p63a-directx-shader-compiler-1.7.2207-dev",
+        "out": "/nix/store/pamn3g4qlxjypm0fn2rigvi8agq1yj9k-directx-shader-compiler-1.7.2207"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A compiler to compile HLSL programs into DXIL and SPIR-V",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/graphics/directx-shader-compiler/default.nix:37",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "directx-shader-compiler"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/pamn3g4qlxjypm0fn2rigvi8agq1yj9k-directx-shader-compiler-1.7.2207"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

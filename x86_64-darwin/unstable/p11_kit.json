@@ -1,45 +1,4 @@
 {
-  "0.23.22": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.23.22",
-      "pname": "p11-kit",
-      "name": "p11-kit-0.23.22",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/psfmy54hbiv45qd6wjamfqacf3cryhr5-p11-kit-0.23.22-dev",
-        "out": "/nix/store/jxzf0w1rk50kkjmkr1qz7si0rgqvvpnq-p11-kit-0.23.22"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Library for loading and sharing PKCS#11 modules",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/p11-kit/default.nix:53",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "p11_kit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/jxzf0w1rk50kkjmkr1qz7si0rgqvvpnq-p11-kit-0.23.22"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.24.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.23.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.23.22",
+      "pname": "p11-kit",
+      "name": "p11-kit-0.23.22",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/psfmy54hbiv45qd6wjamfqacf3cryhr5-p11-kit-0.23.22-dev",
+        "out": "/nix/store/jxzf0w1rk50kkjmkr1qz7si0rgqvvpnq-p11-kit-0.23.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library for loading and sharing PKCS#11 modules",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/p11-kit/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "p11_kit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jxzf0w1rk50kkjmkr1qz7si0rgqvvpnq-p11-kit-0.23.22"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

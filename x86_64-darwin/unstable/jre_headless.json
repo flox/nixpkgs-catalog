@@ -1,44 +1,4 @@
 {
-  "16.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "16.0.1",
-      "pname": "zulu16.30.15-ca-jdk",
-      "name": "zulu16.30.15-ca-jdk-16.0.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/66zbyxkmj7bw7cd47r5p81hjyy0vhxc6-zulu16.30.15-ca-jdk-16.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The open-source Java Development Kit",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/openjdk/meta.nix:4",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "jre_headless"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/66zbyxkmj7bw7cd47r5p81hjyy0vhxc6-zulu16.30.15-ca-jdk-16.0.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "17.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "16.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "16.0.1",
+      "pname": "zulu16.30.15-ca-jdk",
+      "name": "zulu16.30.15-ca-jdk-16.0.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/66zbyxkmj7bw7cd47r5p81hjyy0vhxc6-zulu16.30.15-ca-jdk-16.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The open-source Java Development Kit",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/openjdk/meta.nix:4",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "jre_headless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/66zbyxkmj7bw7cd47r5p81hjyy0vhxc6-zulu16.30.15-ca-jdk-16.0.1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

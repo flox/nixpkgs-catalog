@@ -39,6 +39,46 @@
       }
     }
   },
+  "3.5.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.5.0",
+      "pname": "backblaze-b2",
+      "name": "backblaze-b2-3.5.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/cnlh09ri5navckbn5m0dld4dchv2yfrl-backblaze-b2-3.5.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line tool for accessing the Backblaze B2 storage service",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/tools/backblaze-b2/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "backblaze-b2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cnlh09ri5navckbn5m0dld4dchv2yfrl-backblaze-b2-3.5.0"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "3.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "3.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.0.1",
-      "pname": "backblaze-b2",
-      "name": "backblaze-b2-3.0.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/rs259g4lwpbwpxii7ad3gfgxxxwwhb67-backblaze-b2-3.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line tool for accessing the Backblaze B2 storage service",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/backblaze-b2/default.nix:60",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "backblaze-b2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rs259g4lwpbwpxii7ad3gfgxxxwwhb67-backblaze-b2-3.0.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   }

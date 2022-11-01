@@ -1,48 +1,4 @@
 {
-  "0.1.0.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.1.0.2",
-      "pname": "utmps",
-      "name": "utmps-0.1.0.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/9ia41wdax1gapbxdz8g1vzrrawc1ma34-utmps-0.1.0.2-bin",
-        "dev": "/nix/store/ybfxqlqw7sqny4dwgf7y37d8w4wbg3is-utmps-0.1.0.2-dev",
-        "doc": "/nix/store/h4sw0n4l49ssg315jmc07gz1dqlghicr-utmps-0.1.0.2-doc",
-        "lib": "/nix/store/wrh3z1d4b840mk39mvw1vbwx4jij24i5-utmps-0.1.0.2-lib",
-        "out": "/nix/store/6jfwjmb5p3pb6zpy0v2kil4axf4v02ql-utmps-0.1.0.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A secure utmpx and wtmp implementation",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "utmps"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9ia41wdax1gapbxdz8g1vzrrawc1ma34-utmps-0.1.0.2-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.1.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.1.0.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.1.0.2",
+      "pname": "utmps",
+      "name": "utmps-0.1.0.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/9ia41wdax1gapbxdz8g1vzrrawc1ma34-utmps-0.1.0.2-bin",
+        "dev": "/nix/store/ybfxqlqw7sqny4dwgf7y37d8w4wbg3is-utmps-0.1.0.2-dev",
+        "doc": "/nix/store/h4sw0n4l49ssg315jmc07gz1dqlghicr-utmps-0.1.0.2-doc",
+        "lib": "/nix/store/wrh3z1d4b840mk39mvw1vbwx4jij24i5-utmps-0.1.0.2-lib",
+        "out": "/nix/store/6jfwjmb5p3pb6zpy0v2kil4axf4v02ql-utmps-0.1.0.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A secure utmpx and wtmp implementation",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "utmps"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9ia41wdax1gapbxdz8g1vzrrawc1ma34-utmps-0.1.0.2-bin"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

@@ -1,44 +1,4 @@
 {
-  "3.4.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.4.2",
-      "pname": "mpich",
-      "name": "mpich-3.4.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/bj7mpiakrz51s5swrg9k6w68sbb9imri-mpich-3.4.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Implementation of the Message Passing Interface (MPI) standard",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/mpich/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mpich2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bj7mpiakrz51s5swrg9k6w68sbb9imri-mpich-3.4.2"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "4.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "3.4.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.2",
+      "pname": "mpich",
+      "name": "mpich-3.4.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/bj7mpiakrz51s5swrg9k6w68sbb9imri-mpich-3.4.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Implementation of the Message Passing Interface (MPI) standard",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/mpich/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mpich2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/bj7mpiakrz51s5swrg9k6w68sbb9imri-mpich-3.4.2"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

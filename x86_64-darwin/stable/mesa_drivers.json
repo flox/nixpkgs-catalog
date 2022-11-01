@@ -1,4 +1,88 @@
 {
+  "22.1.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.1.7",
+      "pname": "mesa",
+      "name": "mesa-22.1.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/13g430640ag8ifrmncsw5bf9c34ljs4c-mesa-22.1.7-dev",
+        "drivers": "/nix/store/1jqw7nspbabw464n5z21jg34r73ydj5b-mesa-22.1.7-drivers",
+        "out": "/nix/store/gn1adg2y36dbxkw1lpq4q9rf029f2cp6-mesa-22.1.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source 3D graphics library",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/mesa/default.nix:264",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mesa_drivers"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gn1adg2y36dbxkw1lpq4q9rf029f2cp6-mesa-22.1.7"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "22.0.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.0.4",
+      "pname": "mesa",
+      "name": "mesa-22.0.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/5jx72frckjx7p7wmxfm7kfsvds27dn99-mesa-22.0.4-dev",
+        "drivers": "/nix/store/302n4k5hd28lz2psg0dfpd637phxddvz-mesa-22.0.4-drivers",
+        "out": "/nix/store/kkdvc6lz0w664jrkw60firbyqm8q5fq8-mesa-22.0.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An open source 3D graphics library",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/mesa/default.nix:264",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "mesa_drivers"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kkdvc6lz0w664jrkw60firbyqm8q5fq8-mesa-22.0.4"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "22.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,90 +122,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "21.1.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "21.1.5",
-      "pname": "mesa",
-      "name": "mesa-21.1.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/x2byjdcf62rhkygnzb26n0g6r3mlb9a3-mesa-21.1.5-dev",
-        "drivers": "/nix/store/h39kbbbccjd42arp6xdzp3w68dzzdq0a-mesa-21.1.5-drivers",
-        "out": "/nix/store/h6rhvcpxvfr3rn8aqr4jh6vd98x408mb-mesa-21.1.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source 3D graphics library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/mesa/default.nix:235",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mesa_drivers"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h6rhvcpxvfr3rn8aqr4jh6vd98x408mb-mesa-21.1.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "22.0.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.0.4",
-      "pname": "mesa",
-      "name": "mesa-22.0.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/cna1k5z49vc8cg5i1xqdxw7m7ib4gc7c-mesa-22.0.4-dev",
-        "drivers": "/nix/store/gn33ni1iip14z2qap84fl92gqdvafyv2-mesa-22.0.4-drivers",
-        "out": "/nix/store/zxsgcjglp4j7mp1ns6x6klsfpmbrs1hd-mesa-22.0.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An open source 3D graphics library",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/mesa/default.nix:272",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "mesa_drivers"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zxsgcjglp4j7mp1ns6x6klsfpmbrs1hd-mesa-22.0.4"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

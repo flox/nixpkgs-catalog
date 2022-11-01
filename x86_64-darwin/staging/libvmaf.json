@@ -1,45 +1,4 @@
 {
-  "2.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.0",
-      "pname": "libvmaf",
-      "name": "libvmaf-2.2.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/jc78mgcp01vsa91acniklkls8dbssh7l-libvmaf-2.2.0-dev",
-        "out": "/nix/store/4917l0jmspbyp55vryv0d6gbmpbyyabv-libvmaf-2.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Perceptual video quality assessment based on multi-method fusion (VMAF)",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libvmaf/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libvmaf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4917l0jmspbyp55vryv0d6gbmpbyyabv-libvmaf-2.2.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.3.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.0",
+      "pname": "libvmaf",
+      "name": "libvmaf-2.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/jc78mgcp01vsa91acniklkls8dbssh7l-libvmaf-2.2.0-dev",
+        "out": "/nix/store/4917l0jmspbyp55vryv0d6gbmpbyyabv-libvmaf-2.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Perceptual video quality assessment based on multi-method fusion (VMAF)",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libvmaf/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libvmaf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4917l0jmspbyp55vryv0d6gbmpbyyabv-libvmaf-2.2.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

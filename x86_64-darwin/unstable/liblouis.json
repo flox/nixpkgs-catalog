@@ -1,4 +1,50 @@
 {
+  "3.22.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.22.0",
+      "pname": "liblouis",
+      "name": "liblouis-3.22.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/0d4lffbn5c5nndnnqs5fvwwnzvr8szy9-liblouis-3.22.0-dev",
+        "doc": "/nix/store/1mnkrw94n5dflrk3l9hq6b21jv1g2pym-liblouis-3.22.0-doc",
+        "info": "/nix/store/wz6r4yldvmmgivqmy0qkvhg6yl6a56zk-liblouis-3.22.0-info",
+        "man": "/nix/store/qhhcfjfh2x58s89378zg4cdlwbz8vzp0-liblouis-3.22.0-man",
+        "out": "/nix/store/3sj2vacws4vr08b5w7fh9374xh9nqmnw-liblouis-3.22.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Open-source braille translator and back-translator",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/development/libraries/liblouis/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "liblouis"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3sj2vacws4vr08b5w7fh9374xh9nqmnw-liblouis-3.22.0",
+        "/nix/store/qhhcfjfh2x58s89378zg4cdlwbz8vzp0-liblouis-3.22.0-man"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "3.21.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -42,52 +88,6 @@
       "locked": {
         "revCount": 384129,
         "lastModified": 1654682581
-      }
-    }
-  },
-  "3.22.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.22.0",
-      "pname": "liblouis",
-      "name": "liblouis-3.22.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/n5iils3bm4z4pmdq0bw2w474rsbvvvhp-liblouis-3.22.0-dev",
-        "doc": "/nix/store/pwvqjk1fg6xw8ag6472asjaqq5ww78si-liblouis-3.22.0-doc",
-        "info": "/nix/store/198cysq9csxyvjsv237qy7g0sikvafyw-liblouis-3.22.0-info",
-        "man": "/nix/store/1w8yf508ad46bd73m9pdcc2lqsgq5xmm-liblouis-3.22.0-man",
-        "out": "/nix/store/ga3ki38ncbyc07cnmbs1k1ij1z94yhw2-liblouis-3.22.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Open-source braille translator and back-translator",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/liblouis/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "liblouis"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ga3ki38ncbyc07cnmbs1k1ij1z94yhw2-liblouis-3.22.0",
-        "/nix/store/1w8yf508ad46bd73m9pdcc2lqsgq5xmm-liblouis-3.22.0-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

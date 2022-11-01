@@ -1,4 +1,44 @@
 {
+  "8.2.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.2.0",
+      "pname": "topgrade",
+      "name": "topgrade-8.2.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/gwplmn2pw6vj02cdwbysdv54jjpvqk3b-topgrade-8.2.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Upgrade all the things",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/tools/misc/topgrade/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "topgrade"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gwplmn2pw6vj02cdwbysdv54jjpvqk3b-topgrade-8.2.0"
+      ],
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
+      }
+    }
+  },
   "8.1.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
-      }
-    }
-  },
-  "7.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "7.1.0",
-      "pname": "topgrade",
-      "name": "topgrade-7.1.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/j4a0f20c2i3w7hq9ncwzj2s1109yj6kg-topgrade-7.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Upgrade all the things",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/tools/misc/topgrade/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "topgrade"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j4a0f20c2i3w7hq9ncwzj2s1109yj6kg-topgrade-7.1.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
       }
     }
   },

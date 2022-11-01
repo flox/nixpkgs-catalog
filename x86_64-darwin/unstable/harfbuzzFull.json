@@ -41,48 +41,6 @@
       }
     }
   },
-  "3.3.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.3.2",
-      "pname": "harfbuzz-icu",
-      "name": "harfbuzz-icu-3.3.2",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/74k67cygjgkky4q1rxwq29bgchdgabbd-harfbuzz-icu-3.3.2-dev",
-        "devdoc": "/nix/store/3l8ncx9kkxyxqs9g8mabn3gnrdffzsdh-harfbuzz-icu-3.3.2-devdoc",
-        "out": "/nix/store/d01s0prldyxxksma8ia0sbsar7i0npzx-harfbuzz-icu-3.3.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An OpenType text shaping engine",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/harfbuzz/default.nix:114",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "harfbuzzFull"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d01s0prldyxxksma8ia0sbsar7i0npzx-harfbuzz-icu-3.3.2"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "5.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,16 +50,16 @@
       "name": "harfbuzz-icu-5.1.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/14p5r48smba8x80c387zbr75cjbz0y24-harfbuzz-icu-5.1.0-dev",
-        "devdoc": "/nix/store/2ysywwq9f46g2psyi98vv3iqhq8x0jpn-harfbuzz-icu-5.1.0-devdoc",
-        "out": "/nix/store/0qn7xq1s2nzpd73h3n07na5pa3bbkar9-harfbuzz-icu-5.1.0"
+        "dev": "/nix/store/8060d3pgjj2d0860s4hpj6617y1siyvl-harfbuzz-icu-5.1.0-dev",
+        "devdoc": "/nix/store/g67ldfpjl1fgsqm9sm0lmwwh1zk2lsbf-harfbuzz-icu-5.1.0-devdoc",
+        "out": "/nix/store/a7b37zrrk69n9cv0bzlir02ba4nfkl6s-harfbuzz-icu-5.1.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An OpenType text shaping engine",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/harfbuzz/default.nix:124",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/harfbuzz/default.nix:124",
         "unfree": false
       }
     },
@@ -114,14 +72,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0qn7xq1s2nzpd73h3n07na5pa3bbkar9-harfbuzz-icu-5.1.0"
+        "/nix/store/a7b37zrrk69n9cv0bzlir02ba4nfkl6s-harfbuzz-icu-5.1.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0.1",
+      "pname": "harfbuzz-icu",
+      "name": "harfbuzz-icu-5.0.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/dh2mr9g0ynccgzggbydxbr1c820blr3b-harfbuzz-icu-5.0.1-dev",
+        "devdoc": "/nix/store/1h2f13066v420d7m04nxqwvyij8jfyic-harfbuzz-icu-5.0.1-devdoc",
+        "out": "/nix/store/b7wmxdf0mvj5crrc00fc1s1n3073g41y-harfbuzz-icu-5.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An OpenType text shaping engine",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/harfbuzz/default.nix:115",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "harfbuzzFull"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/b7wmxdf0mvj5crrc00fc1s1n3073g41y-harfbuzz-icu-5.0.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   }

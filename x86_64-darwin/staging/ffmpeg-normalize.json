@@ -1,22 +1,21 @@
 {
-  "1.25.2": {
+  "1.25.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.25.2",
+      "version": "1.25.1",
       "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.25.2",
+      "name": "ffmpeg-normalize-1.25.1",
       "system": "x86_64-darwin",
       "outputs": {
-        "dist": "/nix/store/08q3bmg04cimw1f8cr11rqijv8kvsd6m-ffmpeg-normalize-1.25.2-dist",
-        "out": "/nix/store/36p3q37jcp2s2b0b4lbv0nxynkm19z2b-ffmpeg-normalize-1.25.2"
+        "out": "/nix/store/l3c5xgnq1qxl8x94qrmar5wdlvhv9mhz-ffmpeg-normalize-1.25.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
         "unfree": false
       }
     },
@@ -29,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/36p3q37jcp2s2b0b4lbv0nxynkm19z2b-ffmpeg-normalize-1.25.2"
+        "/nix/store/l3c5xgnq1qxl8x94qrmar5wdlvhv9mhz-ffmpeg-normalize-1.25.1"
       ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
     },
     "source": {
       "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
-  "1.23.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.23.1",
-      "pname": "ffmpeg-normalize",
-      "name": "ffmpeg-normalize-1.23.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/5l8q7rh9v2m6bln7rr1zrpwqbypznr88-ffmpeg-normalize-1.23.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Normalize audio via ffmpeg",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ffmpeg-normalize"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5l8q7rh9v2m6bln7rr1zrpwqbypznr88-ffmpeg-normalize-1.23.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 405560,
+        "lastModified": 1662019588
       }
     }
   },
@@ -117,6 +76,47 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "1.25.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.25.2",
+      "pname": "ffmpeg-normalize",
+      "name": "ffmpeg-normalize-1.25.2",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dist": "/nix/store/08q3bmg04cimw1f8cr11rqijv8kvsd6m-ffmpeg-normalize-1.25.2-dist",
+        "out": "/nix/store/36p3q37jcp2s2b0b4lbv0nxynkm19z2b-ffmpeg-normalize-1.25.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Normalize audio via ffmpeg",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/video/ffmpeg-normalize/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ffmpeg-normalize"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/36p3q37jcp2s2b0b4lbv0nxynkm19z2b-ffmpeg-normalize-1.25.2"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

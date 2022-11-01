@@ -1,21 +1,26 @@
 {
-  "1.3": {
+  "1.4": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.3",
+      "version": "1.4",
       "pname": "poke",
-      "name": "poke-1.3",
+      "name": "poke-1.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/13yvsmz23hmixvg40kwbzbq3gavfr65d-poke-1.3"
+        "dev": "/nix/store/kipn0vlah81cy3f2x4s6hg0fm2d70wyc-poke-1.4-dev",
+        "info": "/nix/store/lnics3l9zrzw08lx8g6xrf5dh6z0dj0a-poke-1.4-info",
+        "lib": "/nix/store/ma5z2py2n2pxn36mn53vfyb43wd5dpqc-poke-1.4-lib",
+        "man": "/nix/store/3k42flwa5ggc1lazb4sm0z96ly84qihg-poke-1.4-man",
+        "out": "/nix/store/mb3raydysdyrvahp9j12anvh1p1zh496-poke-1.4"
       },
       "meta": {
         "outputsToInstall": [
-          "out"
+          "out",
+          "man"
         ],
         "description": "Interactive, extensible editor for binary data",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/editors/poke/default.nix:61",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/editors/poke/default.nix:69",
         "unfree": false
       }
     },
@@ -28,14 +33,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/13yvsmz23hmixvg40kwbzbq3gavfr65d-poke-1.3"
+        "/nix/store/mb3raydysdyrvahp9j12anvh1p1zh496-poke-1.4",
+        "/nix/store/3k42flwa5ggc1lazb4sm0z96ly84qihg-poke-1.4-man"
       ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
     },
     "source": {
       "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   },
@@ -48,11 +54,11 @@
       "name": "poke-2.3",
       "system": "x86_64-darwin",
       "outputs": {
-        "dev": "/nix/store/878lxdwj4zykj3lw6vya1cdnj85qzbh4-poke-2.3-dev",
-        "info": "/nix/store/za7sg9l7fawlk0x3xrb2ixvqybcx39ch-poke-2.3-info",
-        "lib": "/nix/store/knhacah5g3wismdrs4qi620fvzlighz1-poke-2.3-lib",
-        "man": "/nix/store/dxpx2184gjqadprharlyjy4aykh60c6i-poke-2.3-man",
-        "out": "/nix/store/nbnrbaxrlfcxylpv3rb9bsq8hlm63vh3-poke-2.3"
+        "dev": "/nix/store/wa01z3qq4im3r52q5vana40zfqs9p9kb-poke-2.3-dev",
+        "info": "/nix/store/kld1igvis8kwxzhyy8x9rxnmaxmi7rl4-poke-2.3-info",
+        "lib": "/nix/store/hrf7lb7hl9mc1k5ysb9rrzilz05761yv-poke-2.3-lib",
+        "man": "/nix/store/2kxngr0y9kpskmci2q4q7r1hxvnx7b1v-poke-2.3-man",
+        "out": "/nix/store/zgarq4l9cqzvmizl67961r0a26k0zpkn-poke-2.3"
       },
       "meta": {
         "outputsToInstall": [
@@ -60,7 +66,7 @@
           "man"
         ],
         "description": "Interactive, extensible editor for binary data",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/editors/poke/default.nix:86",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/editors/poke/default.nix:86",
         "unfree": false
       }
     },
@@ -73,15 +79,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/nbnrbaxrlfcxylpv3rb9bsq8hlm63vh3-poke-2.3",
-        "/nix/store/dxpx2184gjqadprharlyjy4aykh60c6i-poke-2.3-man"
+        "/nix/store/zgarq4l9cqzvmizl67961r0a26k0zpkn-poke-2.3",
+        "/nix/store/2kxngr0y9kpskmci2q4q7r1hxvnx7b1v-poke-2.3-man"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

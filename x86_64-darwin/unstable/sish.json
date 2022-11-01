@@ -8,14 +8,14 @@
       "name": "sish-2.7.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/9v4bwqi4rqqifrcnnfc2sg2gin0wl66m-sish-2.7.0"
+        "out": "/nix/store/ilijc5zqxc0vd69iiy9c1rfh6d2r1205-sish-2.7.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "HTTP(S)/WS(S)/TCP Tunnels to localhost",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/networking/sish/default.nix:20",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/networking/sish/default.nix:20",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9v4bwqi4rqqifrcnnfc2sg2gin0wl66m-sish-2.7.0"
+        "/nix/store/ilijc5zqxc0vd69iiy9c1rfh6d2r1205-sish-2.7.0"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "2.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.6.0",
+      "pname": "sish",
+      "name": "sish-2.6.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/z795z7xng1yz6kf652gc93q69kxkkpcj-sish-2.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "HTTP(S)/WS(S)/TCP Tunnels to localhost",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/tools/networking/sish/default.nix:20",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "sish"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/z795z7xng1yz6kf652gc93q69kxkkpcj-sish-2.6.0"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
-      }
-    }
-  },
-  "2.1.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.0",
-      "pname": "sish",
-      "name": "sish-2.1.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/d86h1975mbmwlbf69x2c7wck4yqxcq3w-sish-2.1.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "HTTP(S)/WS(S)/TCP Tunnels to localhost",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/sish/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "sish"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/d86h1975mbmwlbf69x2c7wck4yqxcq3w-sish-2.1.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

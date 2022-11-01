@@ -1,45 +1,4 @@
 {
-  "4.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.34.1",
-      "pname": "nspr",
-      "name": "nspr-4.34.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/wrqhriwyr1hkmrq3zqqpv7b4z8bgynhi-nspr-4.34.1-dev",
-        "out": "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Netscape Portable Runtime, a platform-neutral API for system-level and libc-like functions",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nspr/default.nix:54",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nspr"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
-      }
-    }
-  },
   "4.34": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "4.34.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.34.1",
+      "pname": "nspr",
+      "name": "nspr-4.34.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/wrqhriwyr1hkmrq3zqqpv7b4z8bgynhi-nspr-4.34.1-dev",
+        "out": "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Netscape Portable Runtime, a platform-neutral API for system-level and libc-like functions",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/nspr/default.nix:54",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nspr"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fglcyr0m6fnnx11dpy4m0xq6qnxyg9fx-nspr-4.34.1"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },

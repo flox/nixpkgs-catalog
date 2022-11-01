@@ -1,4 +1,44 @@
 {
+  "1.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.1",
+      "pname": "rdkafka",
+      "name": "rdkafka-1.9.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/k04jl83cl494jyaxwaf5kzr848va9drq-rdkafka-1.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "librdkafka - Apache Kafka C/C++ client library",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/rdkafka/default.nix:27",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "rdkafka"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k04jl83cl494jyaxwaf5kzr848va9drq-rdkafka-1.9.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
   "1.9.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -39,46 +79,6 @@
       }
     }
   },
-  "1.6.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.6.1",
-      "pname": "rdkafka",
-      "name": "rdkafka-1.6.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/9wj98jzjga1pqlnn9j45s1gl03jjsbk1-rdkafka-1.6.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "librdkafka - Apache Kafka C/C++ client library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/rdkafka/default.nix:27",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "rdkafka"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9wj98jzjga1pqlnn9j45s1gl03jjsbk1-rdkafka-1.6.1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.8.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,14 +88,14 @@
       "name": "rdkafka-1.8.2",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/j3v7gzl9viawhqvn3g1ndmn9cpld06gy-rdkafka-1.8.2"
+        "out": "/nix/store/fian66773gmk6hrn13v3444s3lpgdd3w-rdkafka-1.8.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "librdkafka - Apache Kafka C/C++ client library",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/rdkafka/default.nix:27",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/rdkafka/default.nix:27",
         "unfree": false
       }
     },
@@ -108,14 +108,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j3v7gzl9viawhqvn3g1ndmn9cpld06gy-rdkafka-1.8.2"
+        "/nix/store/fian66773gmk6hrn13v3444s3lpgdd3w-rdkafka-1.8.2"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

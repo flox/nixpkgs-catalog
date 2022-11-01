@@ -1,44 +1,4 @@
 {
-  "0.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.16",
-      "pname": "include-what-you-use",
-      "name": "include-what-you-use-0.16",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/f7qzxqgckn9ql7fvb38vw0c1v12k1xrp-include-what-you-use-0.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Analyze #includes in C/C++ source files with clang",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/analysis/include-what-you-use/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "include-what-you-use"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/f7qzxqgckn9ql7fvb38vw0c1v12k1xrp-include-what-you-use-0.16"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.16",
+      "pname": "include-what-you-use",
+      "name": "include-what-you-use-0.16",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/f7qzxqgckn9ql7fvb38vw0c1v12k1xrp-include-what-you-use-0.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Analyze #includes in C/C++ source files with clang",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/analysis/include-what-you-use/default.nix:24",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "include-what-you-use"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/f7qzxqgckn9ql7fvb38vw0c1v12k1xrp-include-what-you-use-0.16"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

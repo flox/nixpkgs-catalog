@@ -1,48 +1,4 @@
 {
-  "2.4.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.1.1",
-      "pname": "s6-networking",
-      "name": "s6-networking-2.4.1.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/9lr0nz81i1znik5ys1gw874p6dibb59r-s6-networking-2.4.1.1-bin",
-        "dev": "/nix/store/6rwn10w874qhrz5xxp0xzb459hsf5j1r-s6-networking-2.4.1.1-dev",
-        "doc": "/nix/store/9i14s94ap479qc9fp5qv5xlc2z0b9xgl-s6-networking-2.4.1.1-doc",
-        "lib": "/nix/store/hch69dm4f0ycfq0if5pfja67j1ky51sy-s6-networking-2.4.1.1-lib",
-        "out": "/nix/store/dkwhbzr6l9w9ppj6r12j43szc6zgzxc0-s6-networking-2.4.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "A suite of small networking utilities for Unix systems",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "s6Networking"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/9lr0nz81i1znik5ys1gw874p6dibb59r-s6-networking-2.4.1.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.5.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -84,6 +40,50 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.4.1.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.1.1",
+      "pname": "s6-networking",
+      "name": "s6-networking-2.4.1.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/9lr0nz81i1znik5ys1gw874p6dibb59r-s6-networking-2.4.1.1-bin",
+        "dev": "/nix/store/6rwn10w874qhrz5xxp0xzb459hsf5j1r-s6-networking-2.4.1.1-dev",
+        "doc": "/nix/store/9i14s94ap479qc9fp5qv5xlc2z0b9xgl-s6-networking-2.4.1.1-doc",
+        "lib": "/nix/store/hch69dm4f0ycfq0if5pfja67j1ky51sy-s6-networking-2.4.1.1-lib",
+        "out": "/nix/store/dkwhbzr6l9w9ppj6r12j43szc6zgzxc0-s6-networking-2.4.1.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "A suite of small networking utilities for Unix systems",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/build-support/skaware/build-skaware-package.nix:99",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "s6Networking"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9lr0nz81i1znik5ys1gw874p6dibb59r-s6-networking-2.4.1.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

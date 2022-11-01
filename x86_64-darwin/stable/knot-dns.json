@@ -1,4 +1,88 @@
 {
+  "3.2.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.1",
+      "pname": "knot-dns",
+      "name": "knot-dns-3.2.1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/jzhjd4vajajg3k5pzvfphnwll66h71sn-knot-dns-3.2.1-bin",
+        "dev": "/nix/store/7davhbm6zvzhfaqx6ldpnca4k8fgx0sa-knot-dns-3.2.1-dev",
+        "out": "/nix/store/l08l5254jy79swqdh6y6braabv5dscfj-knot-dns-3.2.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Authoritative-only DNS server from .cz domain registry",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/dns/knot-dns/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "knot-dns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/jzhjd4vajajg3k5pzvfphnwll66h71sn-knot-dns-3.2.1-bin"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "3.1.9": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.1.9",
+      "pname": "knot-dns",
+      "name": "knot-dns-3.1.9",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "bin": "/nix/store/rw9xfdav0r56czc9himp858fszdkxrk2-knot-dns-3.1.9-bin",
+        "dev": "/nix/store/ym8g5qfhqbahkk1afpy69zzp7jpfhvqx-knot-dns-3.1.9-dev",
+        "out": "/nix/store/3q1prm3ll4l8fblqllb70zrgvsm9jhq8-knot-dns-3.1.9"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "Authoritative-only DNS server from .cz domain registry",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/dns/knot-dns/default.nix:63",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "knot-dns"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rw9xfdav0r56czc9himp858fszdkxrk2-knot-dns-3.1.9-bin"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "3.1.8": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,16 +92,16 @@
       "name": "knot-dns-3.1.8",
       "system": "x86_64-darwin",
       "outputs": {
-        "bin": "/nix/store/wilxm565a0da33c7vnlj751llaa64sca-knot-dns-3.1.8-bin",
-        "dev": "/nix/store/hvnl6lrymhdsnw5j10cn9gf8dpj5z609-knot-dns-3.1.8-dev",
-        "out": "/nix/store/35n6dn2mxrz5fyb542vfa2v2c47ksbkg-knot-dns-3.1.8"
+        "bin": "/nix/store/0vg7xrb4mdskqxdnmgrmk007772r2470-knot-dns-3.1.8-bin",
+        "dev": "/nix/store/izg5byfkhflxag0gjyjnqsga7j5fdp7f-knot-dns-3.1.8-dev",
+        "out": "/nix/store/gmk8cbhhhrx0wyxlq2n1yhdsdy1fvxgg-knot-dns-3.1.8"
       },
       "meta": {
         "outputsToInstall": [
           "bin"
         ],
         "description": "Authoritative-only DNS server from .cz domain registry",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/dns/knot-dns/default.nix:63",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/dns/knot-dns/default.nix:63",
         "unfree": false
       }
     },
@@ -30,98 +114,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/wilxm565a0da33c7vnlj751llaa64sca-knot-dns-3.1.8-bin"
+        "/nix/store/0vg7xrb4mdskqxdnmgrmk007772r2470-knot-dns-3.1.8-bin"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "3.1.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.1",
-      "pname": "knot-dns",
-      "name": "knot-dns-3.1.1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/lw2brchj2npz08xbl2d39lg5s5684cp6-knot-dns-3.1.1-bin",
-        "dev": "/nix/store/xc15mznbsr8y3iqc2zdlxzbla5fpbb1b-knot-dns-3.1.1-dev",
-        "out": "/nix/store/3ydj9s7gjbj1cswrk9wwc4aaj5hz64y4-knot-dns-3.1.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Authoritative-only DNS server from .cz domain registry",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/dns/knot-dns/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "knot-dns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lw2brchj2npz08xbl2d39lg5s5684cp6-knot-dns-3.1.1-bin"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "3.1.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.1.5",
-      "pname": "knot-dns",
-      "name": "knot-dns-3.1.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "bin": "/nix/store/3xnpgi1r590wlk65alqkq7alj0wak7fw-knot-dns-3.1.5-bin",
-        "dev": "/nix/store/4y5gyv3pdckfd5hq52b0xyl1g2dyzbir-knot-dns-3.1.5-dev",
-        "out": "/nix/store/w4cgsn6iwfrry9myxphq9n76g56zbka8-knot-dns-3.1.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "Authoritative-only DNS server from .cz domain registry",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/dns/knot-dns/default.nix:63",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "knot-dns"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3xnpgi1r590wlk65alqkq7alj0wak7fw-knot-dns-3.1.5-bin"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

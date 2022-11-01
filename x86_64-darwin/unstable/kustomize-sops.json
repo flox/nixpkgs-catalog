@@ -1,44 +1,4 @@
 {
-  "2.5.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.5.7",
-      "pname": "kustomize-sops",
-      "name": "kustomize-sops-2.5.7",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/5csf4mp1p7zyf81l35qs3p6qyaq08l8y-kustomize-sops-2.5.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A Flexible Kustomize Plugin for SOPS Encrypted Resource",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/kustomize/kustomize-sops.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "kustomize-sops"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5csf4mp1p7zyf81l35qs3p6qyaq08l8y-kustomize-sops-2.5.7"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "3.0.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.5.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.7",
+      "pname": "kustomize-sops",
+      "name": "kustomize-sops-2.5.7",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/5csf4mp1p7zyf81l35qs3p6qyaq08l8y-kustomize-sops-2.5.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A Flexible Kustomize Plugin for SOPS Encrypted Resource",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/tools/kustomize/kustomize-sops.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kustomize-sops"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5csf4mp1p7zyf81l35qs3p6qyaq08l8y-kustomize-sops-2.5.7"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

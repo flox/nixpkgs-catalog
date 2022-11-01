@@ -1,44 +1,4 @@
 {
-  "1.3.1-beta1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.3.1-beta1",
-      "pname": "hasura",
-      "name": "hasura-1.3.1-beta1",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/c5d0nw5pmcwp4d5l55lsnhaggh8a2xa4-hasura-1.3.1-beta1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Hasura GraphQL Engine CLI",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/hasura/cli.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "hasura-cli"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c5d0nw5pmcwp4d5l55lsnhaggh8a2xa4-hasura-1.3.1-beta1"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.0.10": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.3.1-beta1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.3.1-beta1",
+      "pname": "hasura",
+      "name": "hasura-1.3.1-beta1",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/c5d0nw5pmcwp4d5l55lsnhaggh8a2xa4-hasura-1.3.1-beta1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Hasura GraphQL Engine CLI",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/hasura/cli.nix:32",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "hasura-cli"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/c5d0nw5pmcwp4d5l55lsnhaggh8a2xa4-hasura-1.3.1-beta1"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

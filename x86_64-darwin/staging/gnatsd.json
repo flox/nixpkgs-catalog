@@ -1,4 +1,44 @@
 {
+  "2.9.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.9.0",
+      "pname": "nats-server",
+      "name": "nats-server-2.9.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/cnp4ak13511r33i4faxqib25gx02cnng-nats-server-2.9.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "High-Performance server for NATS",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/nats-server/default.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "gnatsd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cnp4ak13511r33i4faxqib25gx02cnng-nats-server-2.9.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "2.8.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,14 +48,14 @@
       "name": "nats-server-2.8.4",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/1ngrqi5y7s2g60s16an7m9z85g1zsdbd-nats-server-2.8.4"
+        "out": "/nix/store/95rm0pdpgnm8lh449kp10hxf0mpbmkxr-nats-server-2.8.4"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "High-Performance server for NATS",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/nats-server/default.nix:21",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/servers/nats-server/default.nix:21",
         "unfree": false
       }
     },
@@ -28,54 +68,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1ngrqi5y7s2g60s16an7m9z85g1zsdbd-nats-server-2.8.4"
+        "/nix/store/95rm0pdpgnm8lh449kp10hxf0mpbmkxr-nats-server-2.8.4"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
-  "2.7.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.7.4",
-      "pname": "nats-server",
-      "name": "nats-server-2.7.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/fp9p5481wjnmy1r96ywvbk211l4n8hi7-nats-server-2.7.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "High-Performance server for NATS",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/nats-server/default.nix:21",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "gnatsd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fp9p5481wjnmy1r96ywvbk211l4n8hi7-nats-server-2.7.4"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 405560,
+        "lastModified": 1662019588
       }
     }
   },

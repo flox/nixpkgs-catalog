@@ -1,4 +1,44 @@
 {
+  "3.2.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.2.12",
+      "pname": "olm",
+      "name": "olm-3.2.12",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/dkbhq385xw7zkx9d1yd56nhwzdf23ls4-olm-3.2.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Implements double cryptographic ratchet and Megolm ratchet",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/development/libraries/olm/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "olm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dkbhq385xw7zkx9d1yd56nhwzdf23ls4-olm-3.2.12"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
+      }
+    }
+  },
   "3.2.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -15,7 +55,7 @@
           "out"
         ],
         "description": "Implements double cryptographic ratchet and Megolm ratchet",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/olm/default.nix:20",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/olm/default.nix:20",
         "unfree": false
       }
     },
@@ -30,52 +70,12 @@
       "storePaths": [
         "/nix/store/mj6km36ch751y463ivaf164r5yv13r3k-olm-3.2.11"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "3.2.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.12",
-      "pname": "olm",
-      "name": "olm-3.2.12",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/xh16ng9311lcw6qggh17n7pi6xmrcvyh-olm-3.2.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Implements double cryptographic ratchet and Megolm ratchet",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/olm/default.nix:20",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "olm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xh16ng9311lcw6qggh17n7pi6xmrcvyh-olm-3.2.12"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   },

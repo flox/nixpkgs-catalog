@@ -1,4 +1,84 @@
 {
+  "0.15.1-beta": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.1-beta",
+      "pname": "lnd",
+      "name": "lnd-0.15.1-beta",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/gxvh2v670hxb49l2jm5l8ycbj0capnfj-lnd-0.15.1-beta"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightning Network Daemon",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/lnd/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lnd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gxvh2v670hxb49l2jm5l8ycbj0capnfj-lnd-0.15.1-beta"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "0.15.0-beta": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.15.0-beta",
+      "pname": "lnd",
+      "name": "lnd-0.15.0-beta",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/ms07n875wy01k8harysgbvh1mqmk3v4i-lnd-0.15.0-beta"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Lightning Network Daemon",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/blockchains/lnd/default.nix:35",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "lnd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ms07n875wy01k8harysgbvh1mqmk3v4i-lnd-0.15.0-beta"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "0.14.3-beta": {
     "type": "catalogRender",
     "schema": 1,
@@ -8,14 +88,14 @@
       "name": "lnd-0.14.3-beta",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/dk35qa3gqmriy07mbq02vjdj2a37lvqy-lnd-0.14.3-beta"
+        "out": "/nix/store/6dc8f21hs4xklgg4qli83f8x4lckd72g-lnd-0.14.3-beta"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Lightning Network Daemon",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/blockchains/lnd/default.nix:35",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/applications/blockchains/lnd/default.nix:35",
         "unfree": false
       }
     },
@@ -28,94 +108,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dk35qa3gqmriy07mbq02vjdj2a37lvqy-lnd-0.14.3-beta"
+        "/nix/store/6dc8f21hs4xklgg4qli83f8x4lckd72g-lnd-0.14.3-beta"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "0.13.1-beta": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.13.1-beta",
-      "pname": "lnd",
-      "name": "lnd-0.13.1-beta",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/gy7258qj73414klm6130lixfihvm6x9h-lnd-0.13.1-beta"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lightning Network Daemon",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/blockchains/lnd/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "lnd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/gy7258qj73414klm6130lixfihvm6x9h-lnd-0.13.1-beta"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
-  "0.14.1-beta": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.14.1-beta",
-      "pname": "lnd",
-      "name": "lnd-0.14.1-beta",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Lightning Network Daemon",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/blockchains/lnd/default.nix:35",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "lnd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8sz22yx5p3lxn1d0grzbkmjmgvqmnmbm-lnd-0.14.1-beta"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

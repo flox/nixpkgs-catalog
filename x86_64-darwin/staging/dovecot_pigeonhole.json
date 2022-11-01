@@ -1,44 +1,4 @@
 {
-  "0.5.16": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.5.16",
-      "pname": "dovecot-pigeonhole",
-      "name": "dovecot-pigeonhole-0.5.16",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/sm1zf3lj492qas9krmz3qjci6qb1r2qg-dovecot-pigeonhole-0.5.16"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A sieve plugin for the Dovecot IMAP server",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/mail/dovecot/plugins/pigeonhole/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "dovecot_pigeonhole"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/sm1zf3lj492qas9krmz3qjci6qb1r2qg-dovecot-pigeonhole-0.5.16"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "0.5.17.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "0.5.16": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.5.16",
+      "pname": "dovecot-pigeonhole",
+      "name": "dovecot-pigeonhole-0.5.16",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/sm1zf3lj492qas9krmz3qjci6qb1r2qg-dovecot-pigeonhole-0.5.16"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A sieve plugin for the Dovecot IMAP server",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/servers/mail/dovecot/plugins/pigeonhole/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "dovecot_pigeonhole"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sm1zf3lj492qas9krmz3qjci6qb1r2qg-dovecot-pigeonhole-0.5.16"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

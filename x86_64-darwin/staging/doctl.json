@@ -39,6 +39,46 @@
       }
     }
   },
+  "1.83.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.83.0",
+      "pname": "doctl",
+      "name": "doctl-1.83.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/widf9l3p8bpk0ikkzraib91l1zixifpb-doctl-1.83.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A command line tool for DigitalOcean services",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/doctl/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "doctl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/widf9l3p8bpk0ikkzraib91l1zixifpb-doctl-1.83.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "1.79.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
-      }
-    }
-  },
-  "1.78.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.78.0",
-      "pname": "doctl",
-      "name": "doctl-1.78.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/fdahdvb17ci8ig28bjlhnb8c56xyglsg-doctl-1.78.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A command line tool for DigitalOcean services",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/doctl/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "doctl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/fdahdvb17ci8ig28bjlhnb8c56xyglsg-doctl-1.78.0"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

@@ -1,46 +1,4 @@
 {
-  "1.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.3",
-      "pname": "libgcrypt",
-      "name": "libgcrypt-1.9.3",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/bzzkaz63b719fvsfsr2jg28icy194mll-libgcrypt-1.9.3-dev",
-        "info": "/nix/store/j9nm8f1lxqch8fwp2554hwnpp5xgf3n8-libgcrypt-1.9.3-info",
-        "out": "/nix/store/vp9xa9l84y0479p0g09i9r64gxfkdqi1-libgcrypt-1.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "General-purpose cryptographic library",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libgcrypt/default.nix:62",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "libgcrypt"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/vp9xa9l84y0479p0g09i9r64gxfkdqi1-libgcrypt-1.9.3"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "1.9.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -80,6 +38,48 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "1.9.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.3",
+      "pname": "libgcrypt",
+      "name": "libgcrypt-1.9.3",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/bzzkaz63b719fvsfsr2jg28icy194mll-libgcrypt-1.9.3-dev",
+        "info": "/nix/store/j9nm8f1lxqch8fwp2554hwnpp5xgf3n8-libgcrypt-1.9.3-info",
+        "out": "/nix/store/vp9xa9l84y0479p0g09i9r64gxfkdqi1-libgcrypt-1.9.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "General-purpose cryptographic library",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/libgcrypt/default.nix:62",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "libgcrypt"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vp9xa9l84y0479p0g09i9r64gxfkdqi1-libgcrypt-1.9.3"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

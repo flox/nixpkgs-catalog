@@ -1,21 +1,21 @@
 {
-  "1.5.0": {
+  "1.8.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.5.0",
+      "version": "1.8.0",
       "pname": "buf",
-      "name": "buf-1.5.0",
+      "name": "buf-1.8.0",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/41r8xkqbfna82631rldxpm2v9hz9qx6a-buf-1.5.0"
+        "out": "/nix/store/3kg263iazc9d3dh66rm1apr21ijizgg9-buf-1.8.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Create consistent Protobuf APIs that preserve compatibility and comply with design best-practices",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/buf/default.nix:74",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/buf/default.nix:74",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/41r8xkqbfna82631rldxpm2v9hz9qx6a-buf-1.5.0"
+        "/nix/store/3kg263iazc9d3dh66rm1apr21ijizgg9-buf-1.8.0"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.7.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.7.0",
+      "pname": "buf",
+      "name": "buf-1.7.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/xgic7z0inhjdxkca3fx7vv1g2r1q4ikq-buf-1.7.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Create consistent Protobuf APIs that preserve compatibility and comply with design best-practices",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/development/tools/buf/default.nix:74",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "buf"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xgic7z0inhjdxkca3fx7vv1g2r1q4ikq-buf-1.7.0"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "1.8.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.0",
-      "pname": "buf",
-      "name": "buf-1.8.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/kzps7yk1xnlz0xv97xjqz6w9l0zqym27-buf-1.8.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Create consistent Protobuf APIs that preserve compatibility and comply with design best-practices",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/tools/buf/default.nix:74",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "buf"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/kzps7yk1xnlz0xv97xjqz6w9l0zqym27-buf-1.8.0"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
       }
     }
   }

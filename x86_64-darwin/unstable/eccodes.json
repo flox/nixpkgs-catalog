@@ -1,44 +1,4 @@
 {
-  "2.12.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.12.5",
-      "pname": "eccodes",
-      "name": "eccodes-2.12.5",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/3g3y3cml16khdwg7642crahkcll2sw5v-eccodes-2.12.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ECMWF library for reading and writing GRIB, BUFR and GTS abbreviated header",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/eccodes/default.nix:52",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "eccodes"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3g3y3cml16khdwg7642crahkcll2sw5v-eccodes-2.12.5"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "2.24.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "2.12.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.12.5",
+      "pname": "eccodes",
+      "name": "eccodes-2.12.5",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/3g3y3cml16khdwg7642crahkcll2sw5v-eccodes-2.12.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ECMWF library for reading and writing GRIB, BUFR and GTS abbreviated header",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/libraries/eccodes/default.nix:52",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "eccodes"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3g3y3cml16khdwg7642crahkcll2sw5v-eccodes-2.12.5"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

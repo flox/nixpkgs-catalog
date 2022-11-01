@@ -1,21 +1,21 @@
 {
-  "6.8": {
+  "6.12": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "6.8",
+      "version": "6.12",
       "pname": "pgadmin",
-      "name": "pgadmin-6.8",
+      "name": "pgadmin-6.12",
       "system": "x86_64-darwin",
       "outputs": {
-        "out": "/nix/store/xjcvqgy86xgnnvl12g8a8yxprbj14cg1-pgadmin-6.8"
+        "out": "/nix/store/c950y0bzfaadaw0v70dk2c0i02h8bap9-pgadmin-6.12"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Administration and development platform for PostgreSQL",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/admin/pgadmin/default.nix:195",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/admin/pgadmin/default.nix:181",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xjcvqgy86xgnnvl12g8a8yxprbj14cg1-pgadmin-6.8"
+        "/nix/store/c950y0bzfaadaw0v70dk2c0i02h8bap9-pgadmin-6.12"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "6.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.11",
+      "pname": "pgadmin",
+      "name": "pgadmin-6.11",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/nqdajvnrhw6yy8b19y0rlajq4761s0wz-pgadmin-6.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Administration and development platform for PostgreSQL",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/pgadmin/default.nix:191",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "pgadmin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nqdajvnrhw6yy8b19y0rlajq4761s0wz-pgadmin-6.11"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "6.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.12",
-      "pname": "pgadmin",
-      "name": "pgadmin-6.12",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/c950y0bzfaadaw0v70dk2c0i02h8bap9-pgadmin-6.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Administration and development platform for PostgreSQL",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/admin/pgadmin/default.nix:181",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "pgadmin"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/c950y0bzfaadaw0v70dk2c0i02h8bap9-pgadmin-6.12"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
       }
     }
   }

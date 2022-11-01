@@ -1,49 +1,4 @@
 {
-  "2.4.53": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.4.53",
-      "pname": "apache-httpd",
-      "name": "apache-httpd-2.4.53",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "dev": "/nix/store/jf2f5kq3iw90ns6gwqh1a9da000hrjxr-apache-httpd-2.4.53-dev",
-        "doc": "/nix/store/a732r5s1pj5yz1d7dfw744lyy5vi390n-apache-httpd-2.4.53-doc",
-        "man": "/nix/store/yk50ds6dar33x2w09rr2vdvx37f3qrk0-apache-httpd-2.4.53-man",
-        "out": "/nix/store/rlin4vh2h4b5ccklk6816mc7w81bsvc7-apache-httpd-2.4.53"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Apache HTTPD, the world's most popular web server",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/http/apache-httpd/2.4.nix:92",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "apacheHttpd_2_4"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rlin4vh2h4b5ccklk6816mc7w81bsvc7-apache-httpd-2.4.53",
-        "/nix/store/yk50ds6dar33x2w09rr2vdvx37f3qrk0-apache-httpd-2.4.53-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2.4.54": {
     "type": "catalogRender",
     "schema": 1,
@@ -86,6 +41,51 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "2.4.53": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.4.53",
+      "pname": "apache-httpd",
+      "name": "apache-httpd-2.4.53",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "dev": "/nix/store/jf2f5kq3iw90ns6gwqh1a9da000hrjxr-apache-httpd-2.4.53-dev",
+        "doc": "/nix/store/a732r5s1pj5yz1d7dfw744lyy5vi390n-apache-httpd-2.4.53-doc",
+        "man": "/nix/store/yk50ds6dar33x2w09rr2vdvx37f3qrk0-apache-httpd-2.4.53-man",
+        "out": "/nix/store/rlin4vh2h4b5ccklk6816mc7w81bsvc7-apache-httpd-2.4.53"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Apache HTTPD, the world's most popular web server",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/http/apache-httpd/2.4.nix:92",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "apacheHttpd_2_4"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rlin4vh2h4b5ccklk6816mc7w81bsvc7-apache-httpd-2.4.53",
+        "/nix/store/yk50ds6dar33x2w09rr2vdvx37f3qrk0-apache-httpd-2.4.53-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

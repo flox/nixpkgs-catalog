@@ -1,45 +1,4 @@
 {
-  "6.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.0",
-      "pname": "qemu-host-cpu-only",
-      "name": "qemu-host-cpu-only-6.0.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "ga": "/nix/store/m3sxm2frwr9zp3lmcvlym9zm525kyh83-qemu-host-cpu-only-6.0.0-ga",
-        "out": "/nix/store/nl5ml5c4v84z2y0giy8irwlacbclir11-qemu-host-cpu-only-6.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A generic and open source machine emulator and virtualizer",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/virtualization/qemu/default.nix:217",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "kvm"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nl5ml5c4v84z2y0giy8irwlacbclir11-qemu-host-cpu-only-6.0.0"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "6.1.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "6.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.0",
+      "pname": "qemu-host-cpu-only",
+      "name": "qemu-host-cpu-only-6.0.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "ga": "/nix/store/m3sxm2frwr9zp3lmcvlym9zm525kyh83-qemu-host-cpu-only-6.0.0-ga",
+        "out": "/nix/store/nl5ml5c4v84z2y0giy8irwlacbclir11-qemu-host-cpu-only-6.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A generic and open source machine emulator and virtualizer",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/applications/virtualization/qemu/default.nix:217",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "kvm"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nl5ml5c4v84z2y0giy8irwlacbclir11-qemu-host-cpu-only-6.0.0"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

@@ -1,44 +1,4 @@
 {
-  "27": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "27",
-      "pname": "kmod",
-      "name": "kmod-27",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/ya0xd613pz7n2dwmfcp3r95f748y7fl5-kmod-27"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Tools for loading and managing Linux kernel modules",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/os-specific/linux/kmod/default.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "module_init_tools"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/ya0xd613pz7n2dwmfcp3r95f748y7fl5-kmod-27"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "29": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "27": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "27",
+      "pname": "kmod",
+      "name": "kmod-27",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/ya0xd613pz7n2dwmfcp3r95f748y7fl5-kmod-27"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Tools for loading and managing Linux kernel modules",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/os-specific/linux/kmod/default.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "module_init_tools"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ya0xd613pz7n2dwmfcp3r95f748y7fl5-kmod-27"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   }

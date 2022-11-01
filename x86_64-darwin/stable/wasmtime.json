@@ -40,46 +40,6 @@
       }
     }
   },
-  "0.21.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.21.0",
-      "pname": "wasmtime",
-      "name": "wasmtime-0.21.0",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "out": "/nix/store/rv5cjj45gbr6wi0bbgm2m1g5i8hm9n15-wasmtime-0.21.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/interpreters/wasmtime/default.nix:25",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "wasmtime"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/rv5cjj45gbr6wi0bbgm2m1g5i8hm9n15-wasmtime-0.21.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
   "0.39.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -117,6 +77,46 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "0.21.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.21.0",
+      "pname": "wasmtime",
+      "name": "wasmtime-0.21.0",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "out": "/nix/store/rv5cjj45gbr6wi0bbgm2m1g5i8hm9n15-wasmtime-0.21.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Standalone JIT-style runtime for WebAssembly, using Cranelift",
+        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/interpreters/wasmtime/default.nix:25",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "wasmtime"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/rv5cjj45gbr6wi0bbgm2m1g5i8hm9n15-wasmtime-0.21.0"
+      ],
+      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
+    },
+    "source": {
+      "locked": {
+        "revCount": 360804,
+        "lastModified": 1652991527
       }
     }
   }

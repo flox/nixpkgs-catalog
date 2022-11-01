@@ -1,45 +1,4 @@
 {
-  "8.10.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.10.4",
-      "pname": null,
-      "name": "ghc-8.10.4",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/9ma5sclnq3v4sg2a5q7fp5jp3pfjpj6a-ghc-8.10.4-doc",
-        "out": "/nix/store/nw98br0lx0fa7i7sfic9v5gb14z5brd9-ghc-8.10.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Glasgow Haskell Compiler",
-        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/ghc/8.10.4.nix:308",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "ghc"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/nw98br0lx0fa7i7sfic9v5gb14z5brd9-ghc-8.10.4"
-      ],
-      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
-    },
-    "source": {
-      "locked": {
-        "revCount": 309392,
-        "lastModified": 1629294066
-      }
-    }
-  },
   "8.10.7": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 348586,
         "lastModified": 1643204384
+      }
+    }
+  },
+  "8.10.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.10.4",
+      "pname": null,
+      "name": "ghc-8.10.4",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/9ma5sclnq3v4sg2a5q7fp5jp3pfjpj6a-ghc-8.10.4-doc",
+        "out": "/nix/store/nw98br0lx0fa7i7sfic9v5gb14z5brd9-ghc-8.10.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Glasgow Haskell Compiler",
+        "position": "/nix/store/9psm6wac3caf31niizrfgrvlnynckb5r-source/pkgs/development/compilers/ghc/8.10.4.nix:308",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "ghc"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/nw98br0lx0fa7i7sfic9v5gb14z5brd9-ghc-8.10.4"
+      ],
+      "url": "github:flox/nixpkgs/58a000460eefc7f7d903385d8f641485a08302f4"
+    },
+    "source": {
+      "locked": {
+        "revCount": 309392,
+        "lastModified": 1629294066
       }
     }
   },

@@ -40,47 +40,6 @@
       }
     }
   },
-  "1.21.7-quic": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.21.7-quic",
-      "pname": "nginx",
-      "name": "nginx-1.21.7-quic",
-      "system": "x86_64-darwin",
-      "outputs": {
-        "doc": "/nix/store/x4hx7hyl9kvckc25niys9czgrw6ggnk7-nginx-1.21.7-quic-doc",
-        "out": "/nix/store/8g9j66cgpyzdbjy15p9p0gr290razwf0-nginx-1.21.7-quic"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/http/nginx/generic.nix:180",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-darwin",
-        "nginxQuic"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/8g9j66cgpyzdbjy15p9p0gr290razwf0-nginx-1.21.7-quic"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "1.23.1-quic": {
     "type": "catalogRender",
     "schema": 1,
@@ -90,15 +49,15 @@
       "name": "nginx-1.23.1-quic",
       "system": "x86_64-darwin",
       "outputs": {
-        "doc": "/nix/store/spm34p3pzz562lmak2ka4cinyv3bz558-nginx-1.23.1-quic-doc",
-        "out": "/nix/store/bw3nfwry3v0crvj6i844ryi734vr74cm-nginx-1.23.1-quic"
+        "doc": "/nix/store/gkxljjjfnacmqzpi79xs1g6c3d98bml1-nginx-1.23.1-quic-doc",
+        "out": "/nix/store/4ii5wqnr30v1l3crcrs1h11xp2c70jzf-nginx-1.23.1-quic"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A reverse proxy and lightweight webserver",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/http/nginx/generic.nix:180",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/servers/http/nginx/generic.nix:180",
         "unfree": false
       }
     },
@@ -111,14 +70,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/bw3nfwry3v0crvj6i844ryi734vr74cm-nginx-1.23.1-quic"
+        "/nix/store/4ii5wqnr30v1l3crcrs1h11xp2c70jzf-nginx-1.23.1-quic"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.23.0-quic": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.23.0-quic",
+      "pname": "nginx",
+      "name": "nginx-1.23.0-quic",
+      "system": "x86_64-darwin",
+      "outputs": {
+        "doc": "/nix/store/q7b63f19n9w8v8863q2g9ppfwfv9l35i-nginx-1.23.0-quic-doc",
+        "out": "/nix/store/9jl9lv2dbxfj4lcf4lqk698a7ycxrj4y-nginx-1.23.0-quic"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A reverse proxy and lightweight webserver",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/http/nginx/generic.nix:180",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-darwin",
+        "nginxQuic"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9jl9lv2dbxfj4lcf4lqk698a7ycxrj4y-nginx-1.23.0-quic"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }
