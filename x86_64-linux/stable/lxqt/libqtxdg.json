@@ -1,4 +1,45 @@
 {
+  "3.9.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.9.1",
+      "pname": "libqtxdg",
+      "name": "libqtxdg-3.9.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/5qlck4d6j93jwr9lx9lidahysli17ibs-libqtxdg-3.9.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Qt implementation of freedesktop.org xdg specs",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/desktops/lxqt/libqtxdg/default.nix:44",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lxqt",
+        "libqtxdg"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5qlck4d6j93jwr9lx9lidahysli17ibs-libqtxdg-3.9.1"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "3.9.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,47 +78,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "3.9.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.9.1",
-      "pname": "libqtxdg",
-      "name": "libqtxdg-3.9.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/hmpxi932q5l8m8svd62gmhv1kk9jvqdh-libqtxdg-3.9.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Qt implementation of freedesktop.org xdg specs",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/desktops/lxqt/libqtxdg/default.nix:44",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "lxqt",
-        "libqtxdg"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/hmpxi932q5l8m8svd62gmhv1kk9jvqdh-libqtxdg-3.9.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

@@ -1,44 +1,4 @@
 {
-  "2.5.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.5.8",
-      "pname": "faustlive",
-      "name": "faustlive-2.5.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/cqb8wjxb2smxwn0sjfca79iaf19gcynx-faustlive-2.5.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A standalone just-in-time Faust compiler",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/faust/faustlive.nix:33",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "faustlive"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cqb8wjxb2smxwn0sjfca79iaf19gcynx-faustlive-2.5.8"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2.5.11": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
+      }
+    }
+  },
+  "2.5.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.5.8",
+      "pname": "faustlive",
+      "name": "faustlive-2.5.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/cqb8wjxb2smxwn0sjfca79iaf19gcynx-faustlive-2.5.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A standalone just-in-time Faust compiler",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/audio/faust/faustlive.nix:33",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "faustlive"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cqb8wjxb2smxwn0sjfca79iaf19gcynx-faustlive-2.5.8"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

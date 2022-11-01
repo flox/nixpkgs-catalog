@@ -1,45 +1,4 @@
 {
-  "6.0.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0.0",
-      "pname": "linux",
-      "name": "linux-6.0.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/ydjljfknjhxcvikf6szm2wypgp7005sz-linux-6.0.0-dev",
-        "out": "/nix/store/lndwms0izp2kx2cpmbr907ikbswxwb9w-linux-6.0.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_xanmod_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lndwms0izp2kx2cpmbr907ikbswxwb9w-linux-6.0.0"
-      ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
-    },
-    "source": {
-      "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
   "5.19.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -90,15 +49,15 @@
       "name": "linux-5.18.11",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/pwg5b1za8i8zay3pfdkkzp5cm2nzfxqq-linux-5.18.11-dev",
-        "out": "/nix/store/hrnm99syai8z41cp6bz9xqhpf2qs37kc-linux-5.18.11"
+        "dev": "/nix/store/bbp1z4qq6zfq2q70zjgq9hr1vvh8s2ir-linux-5.18.11-dev",
+        "out": "/nix/store/aa2fgzyx865l7jxb1mncyrl588jxycz5-linux-5.18.11"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:21",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:21",
         "unfree": false
       }
     },
@@ -111,14 +70,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/hrnm99syai8z41cp6bz9xqhpf2qs37kc-linux-5.18.11"
+        "/nix/store/aa2fgzyx865l7jxb1mncyrl588jxycz5-linux-5.18.11"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 397203,
+        "lastModified": 1659487974
+      }
+    }
+  },
+  "6.0.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0.0",
+      "pname": "linux",
+      "name": "linux-6.0.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/ydjljfknjhxcvikf6szm2wypgp7005sz-linux-6.0.0-dev",
+        "out": "/nix/store/lndwms0izp2kx2cpmbr907ikbswxwb9w-linux-6.0.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_xanmod_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lndwms0izp2kx2cpmbr907ikbswxwb9w-linux-6.0.0"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

@@ -1,4 +1,84 @@
 {
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "session-desktop",
+      "name": "session-desktop-1.10.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/3nlq51k7rq98lrx20qzr58zvbiwv3cb9-session-desktop-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Onion routing based messenger",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/instant-messengers/session-desktop/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "session-desktop-appimage"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3nlq51k7rq98lrx20qzr58zvbiwv3cb9-session-desktop-1.10.0"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.8.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.8.6",
+      "pname": "session-desktop-appimage",
+      "name": "session-desktop-appimage-1.8.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/7ccf0gj2lnl597nzrld7rz63s2fyxfms-session-desktop-appimage-1.8.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Onion routing based messenger",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/instant-messengers/session-desktop-appimage/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "session-desktop-appimage"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7ccf0gj2lnl597nzrld7rz63s2fyxfms-session-desktop-appimage-1.8.6"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "1.8.4": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,86 +116,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "unknown": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unknown",
-      "pname": null,
-      "name": "session-desktop-appimage-1.7.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/10mqrbdm1yyssflm2zndiwc6fyzq5v24-session-desktop-appimage-1.7.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Onion routing based messenger",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/instant-messengers/session-desktop-appimage/default.nix:15",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "session-desktop-appimage"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/10mqrbdm1yyssflm2zndiwc6fyzq5v24-session-desktop-appimage-1.7.7"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
-  "1.8.6": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.8.6",
-      "pname": "session-desktop-appimage",
-      "name": "session-desktop-appimage-1.8.6",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/16b26cj2p5k1ksx509zwzhv359qarq2l-session-desktop-appimage-1.8.6"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Onion routing based messenger",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/instant-messengers/session-desktop-appimage/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "session-desktop-appimage"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/16b26cj2p5k1ksx509zwzhv359qarq2l-session-desktop-appimage-1.8.6"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

@@ -39,6 +39,46 @@
       }
     }
   },
+  "5.6": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.6",
+      "pname": "lxd",
+      "name": "lxd-5.6",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/1gr9qdflgwvnpjyb4rk1h0jn8fllzwba-lxd-5.6"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Daemon based on liblxc offering a REST API to manage containers",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/tools/admin/lxd/default.nix:103",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "lxd"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1gr9qdflgwvnpjyb4rk1h0jn8fllzwba-lxd-5.6"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "5.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
-      }
-    }
-  },
-  "5.4": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.4",
-      "pname": "lxd",
-      "name": "lxd-5.4",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/bj4jn1y3vd3ik66r79i31hl96g1vhhvi-lxd-5.4"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Daemon based on liblxc offering a REST API to manage containers",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/admin/lxd/default.nix:61",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "lxd"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bj4jn1y3vd3ik66r79i31hl96g1vhhvi-lxd-5.4"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

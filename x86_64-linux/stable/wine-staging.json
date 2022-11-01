@@ -1,21 +1,21 @@
 {
-  "7.8": {
+  "7.17": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "7.8",
+      "version": "7.17",
       "pname": "wine",
-      "name": "wine-7.8-staging",
+      "name": "wine-7.17-staging",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/zv3m0y3jbpnsaa184nmml02y6x9ghvmw-wine-7.8-staging"
+        "out": "/nix/store/dh503nb1mmv2lqkzf12sknyrmv8b4dpd-wine-7.17-staging"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix (with staging patches)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/emulators/wine/base.nix:196",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/emulators/wine/base.nix:198",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/zv3m0y3jbpnsaa184nmml02y6x9ghvmw-wine-7.8-staging"
+        "/nix/store/dh503nb1mmv2lqkzf12sknyrmv8b4dpd-wine-7.17-staging"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "unknown": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unknown",
-      "pname": null,
-      "name": "wine-7.2-staging",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/66qp9whva9k81nlp0vxc2535nmqbifgj-wine-7.2-staging"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix (with staging patches)",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/emulators/wine/base.nix:194",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "wine-staging"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/66qp9whva9k81nlp0vxc2535nmqbifgj-wine-7.2-staging"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "7.13": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "7.13",
+      "pname": "wine",
+      "name": "wine-7.13-staging",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/zaq62pwqji3vpyyw6bj602ykyy1zwyzs-wine-7.13-staging"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "An Open Source implementation of the Windows API on top of X, OpenGL, and Unix (with staging patches)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/emulators/wine/base.nix:198",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "wine-staging"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zaq62pwqji3vpyyw6bj602ykyy1zwyzs-wine-7.13-staging"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

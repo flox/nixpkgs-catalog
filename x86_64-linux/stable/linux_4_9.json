@@ -1,22 +1,22 @@
 {
-  "4.9.315": {
+  "4.9.328": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "4.9.315",
+      "version": "4.9.328",
       "pname": "linux",
-      "name": "linux-4.9.315",
+      "name": "linux-4.9.328",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/1zc5y4qr5r9v3r0z12j6ap4h3fa304jp-linux-4.9.315-dev",
-        "out": "/nix/store/q5bgix65p2ihli6f65jzww47yzplbyd2-linux-4.9.315"
+        "dev": "/nix/store/yhbbydnnajakc28226iiy045w3d8rflm-linux-4.9.328-dev",
+        "out": "/nix/store/3askmdf0805g1mm8v43229n801frcd4r-linux-4.9.328"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/q5bgix65p2ihli6f65jzww47yzplbyd2-linux-4.9.315"
+        "/nix/store/3askmdf0805g1mm8v43229n801frcd4r-linux-4.9.328"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "4.9.297": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.9.297",
-      "pname": "linux",
-      "name": "linux-4.9.297",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/f30vs9cic8hn0mjgbxbnr5bf5a1v0kjw-linux-4.9.297-dev",
-        "out": "/nix/store/x1zvzwb3vk3jga13cm1jpgsyx3cmlsz1-linux-4.9.297"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_9"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x1zvzwb3vk3jga13cm1jpgsyx3cmlsz1-linux-4.9.297"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "4.9.324": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.9.324",
+      "pname": "linux",
+      "name": "linux-4.9.324",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/1wrdrrcivqvqkradidnqmh25c196w07c-linux-4.9.324-dev",
+        "out": "/nix/store/k9gl42rmbjc4hk3fpz41yhi0qw7zlk24-linux-4.9.324"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper-updated, cpu-cgroup-v2-4.9.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/linux-4.9.nix:4",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_9"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/k9gl42rmbjc4hk3fpz41yhi0qw7zlk24-linux-4.9.324"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

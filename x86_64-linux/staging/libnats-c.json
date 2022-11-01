@@ -1,23 +1,23 @@
 {
-  "3.4.1": {
+  "3.4.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.4.1",
+      "version": "3.4.0",
       "pname": "libnats",
-      "name": "libnats-3.4.1",
+      "name": "libnats-3.4.0",
       "system": "x86_64-linux",
       "outputs": {
-        "debug": "/nix/store/ha89b2g10frzqi766b6461bv9qyr8cap-libnats-3.4.1-debug",
-        "dev": "/nix/store/gfj9407pqn7cf501ydq12hrbx1qzd9zd-libnats-3.4.1-dev",
-        "out": "/nix/store/sgmvj099hhrkl48frfvmr9rmklfs04cd-libnats-3.4.1"
+        "debug": "/nix/store/lcynlnww3bm3fq1p59mbbhg02hs0r909-libnats-3.4.0-debug",
+        "dev": "/nix/store/gm5m6xb1zw1mx8zw5qrjjv6w5z2d33vi-libnats-3.4.0-dev",
+        "out": "/nix/store/c4cwcpjn8zkdfn1r59ljj7yl18phwj9s-libnats-3.4.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "C API for the NATS messaging system",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libnats-c/default.nix:30",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/development/libraries/libnats-c/default.nix:30",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/sgmvj099hhrkl48frfvmr9rmklfs04cd-libnats-3.4.1"
+        "/nix/store/c4cwcpjn8zkdfn1r59ljj7yl18phwj9s-libnats-3.4.0"
       ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
     },
     "source": {
       "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
-  "3.2.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.2.0",
-      "pname": "libnats",
-      "name": "libnats-3.2.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/rh1w68l21355ykjmxxi7pd26r3b8kbbl-libnats-3.2.0-debug",
-        "dev": "/nix/store/iy449nzaxd1mlsra4kpw811mxmj7s00c-libnats-3.2.0-dev",
-        "out": "/nix/store/bd9g76zwz2440vsvbxyzw8y37csz65cx-libnats-3.2.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "C API for the NATS messaging system",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libnats-c/default.nix:24",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "libnats-c"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bd9g76zwz2440vsvbxyzw8y37csz65cx-libnats-3.2.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "3.4.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.4.1",
+      "pname": "libnats",
+      "name": "libnats-3.4.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/ha89b2g10frzqi766b6461bv9qyr8cap-libnats-3.4.1-debug",
+        "dev": "/nix/store/gfj9407pqn7cf501ydq12hrbx1qzd9zd-libnats-3.4.1-dev",
+        "out": "/nix/store/sgmvj099hhrkl48frfvmr9rmklfs04cd-libnats-3.4.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "C API for the NATS messaging system",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/libraries/libnats-c/default.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "libnats-c"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/sgmvj099hhrkl48frfvmr9rmklfs04cd-libnats-3.4.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

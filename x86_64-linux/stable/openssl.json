@@ -1,19 +1,19 @@
 {
-  "1.1.1o": {
+  "3.0.5": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.1.1o",
+      "version": "3.0.5",
       "pname": "openssl",
-      "name": "openssl-1.1.1o",
+      "name": "openssl-3.0.5",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/0pkii60i2rppp8rvyy29njlbgd6rfgyn-openssl-1.1.1o-bin",
-        "debug": "/nix/store/fb8przv0ll38jpwcpjwdbi6nybpvfx0k-openssl-1.1.1o-debug",
-        "dev": "/nix/store/6na02j2cznbkwlis5h9837d96jlf4j5p-openssl-1.1.1o-dev",
-        "doc": "/nix/store/wap4s1qjy4zv7hnhb265zga7fmj8mkx3-openssl-1.1.1o-doc",
-        "man": "/nix/store/pn52njvnhygbkv0m5yw0pnr4xsjml9wc-openssl-1.1.1o-man",
-        "out": "/nix/store/v71f11hrf2b8ga7gnl31h46sd7nky73l-openssl-1.1.1o"
+        "bin": "/nix/store/mwkfjcx81j453lf3l670nxyfj210fz7h-openssl-3.0.5-bin",
+        "debug": "/nix/store/2iahvhjwhay42syc3308zlgn8y6wyb6d-openssl-3.0.5-debug",
+        "dev": "/nix/store/gd8xbg6y246ri68pz4qkwdczydwm6liq-openssl-3.0.5-dev",
+        "doc": "/nix/store/g81w34ldcrvscs8b2f181zh3z4zr7mzd-openssl-3.0.5-doc",
+        "man": "/nix/store/zikaqpkp1727ygr2rmfa2704x57j35zd-openssl-3.0.5-man",
+        "out": "/nix/store/5nh3xmnx2lybwzl3p328q7b9rfh1ssyb-openssl-3.0.5"
       },
       "meta": {
         "outputsToInstall": [
@@ -21,7 +21,7 @@
           "man"
         ],
         "description": "A cryptographic library that implements the SSL and TLS protocols",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/openssl/default.nix:179",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/openssl/default.nix:205",
         "unfree": false
       }
     },
@@ -34,62 +34,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/0pkii60i2rppp8rvyy29njlbgd6rfgyn-openssl-1.1.1o-bin",
-        "/nix/store/pn52njvnhygbkv0m5yw0pnr4xsjml9wc-openssl-1.1.1o-man"
+        "/nix/store/mwkfjcx81j453lf3l670nxyfj210fz7h-openssl-3.0.5-bin",
+        "/nix/store/zikaqpkp1727ygr2rmfa2704x57j35zd-openssl-3.0.5-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.1.1m": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.1.1m",
-      "pname": "openssl",
-      "name": "openssl-1.1.1m",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/zif429zklc88pjmx102d2l9886nj48hs-openssl-1.1.1m-bin",
-        "debug": "/nix/store/rpfdgwrv99pdd85bdhbf0p7hhqmpyfn9-openssl-1.1.1m-debug",
-        "dev": "/nix/store/nb9ahhnwprc3hy1kwpi2y562qr2ah6l1-openssl-1.1.1m-dev",
-        "doc": "/nix/store/7055zwi0xwbwvn21ckaw2i88r7glq4vj-openssl-1.1.1m-doc",
-        "man": "/nix/store/67pkp5wqmnfdha6pixm5nwfkarglfhn4-openssl-1.1.1m-man",
-        "out": "/nix/store/2aprvflf41z1dfma87mzd3md51xm2g71-openssl-1.1.1m"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A cryptographic library that implements the SSL and TLS protocols",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/openssl/default.nix:165",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "openssl"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zif429zklc88pjmx102d2l9886nj48hs-openssl-1.1.1m-bin",
-        "/nix/store/67pkp5wqmnfdha6pixm5nwfkarglfhn4-openssl-1.1.1m-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -102,12 +55,12 @@
       "name": "openssl-1.1.1q",
       "system": "x86_64-linux",
       "outputs": {
-        "bin": "/nix/store/ccig2cllc7aff61n32xqmki5v0f84phl-openssl-1.1.1q-bin",
-        "debug": "/nix/store/klj6racg8yvfa3f4r95s21lg7sk2qrbd-openssl-1.1.1q-debug",
-        "dev": "/nix/store/7shmm2x89inl5c0v5lcxf7gm93cacs94-openssl-1.1.1q-dev",
-        "doc": "/nix/store/5ca5ihx7c4s3ms1bidx0ip47ab0r8v7n-openssl-1.1.1q-doc",
-        "man": "/nix/store/ck8av94ckhaiby6nl7p4mb3h6h1vp7na-openssl-1.1.1q-man",
-        "out": "/nix/store/c8fc7saagp0vm5ll5mccpfnhg957pfya-openssl-1.1.1q"
+        "bin": "/nix/store/k6bv10f8kdyjc7jkq4v301xmxvpdchy4-openssl-1.1.1q-bin",
+        "debug": "/nix/store/sj5hlahp9dwrwkykwqzv8r68c93mpynq-openssl-1.1.1q-debug",
+        "dev": "/nix/store/4cq6vq5s3nscayqribkdsz36a2h75cw3-openssl-1.1.1q-dev",
+        "doc": "/nix/store/r49bwfyks11kg82q5rpsphjsx7s9c867-openssl-1.1.1q-doc",
+        "man": "/nix/store/mdb0w790512kf152x34q4jlbzs2zpq5s-openssl-1.1.1q-man",
+        "out": "/nix/store/4m8zf16nzk3dchzb0dz5dgcvic1cgbqz-openssl-1.1.1q"
       },
       "meta": {
         "outputsToInstall": [
@@ -115,7 +68,7 @@
           "man"
         ],
         "description": "A cryptographic library that implements the SSL and TLS protocols",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/openssl/default.nix:179",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/development/libraries/openssl/default.nix:204",
         "unfree": false
       }
     },
@@ -128,15 +81,62 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ccig2cllc7aff61n32xqmki5v0f84phl-openssl-1.1.1q-bin",
-        "/nix/store/ck8av94ckhaiby6nl7p4mb3h6h1vp7na-openssl-1.1.1q-man"
+        "/nix/store/k6bv10f8kdyjc7jkq4v301xmxvpdchy4-openssl-1.1.1q-bin",
+        "/nix/store/mdb0w790512kf152x34q4jlbzs2zpq5s-openssl-1.1.1q-man"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "1.1.1o": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.1.1o",
+      "pname": "openssl",
+      "name": "openssl-1.1.1o",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/9byn9s78vinpmasl090ccvllls2f32hl-openssl-1.1.1o-bin",
+        "debug": "/nix/store/7zfvwkp9klb95ichp83ifq4zvzi9hmps-openssl-1.1.1o-debug",
+        "dev": "/nix/store/1fprhqbpzqrk7fi36dcnsngjvyvwl13a-openssl-1.1.1o-dev",
+        "doc": "/nix/store/x656w4fkqhn79rpagjjiips71pdsx539-openssl-1.1.1o-doc",
+        "man": "/nix/store/c4inwcmrc5g9na03jnp20qyxg07rz37x-openssl-1.1.1o-man",
+        "out": "/nix/store/rzp9zrayyg3vi7pp236x7anpj0gwcvbw-openssl-1.1.1o"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A cryptographic library that implements the SSL and TLS protocols",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/libraries/openssl/default.nix:179",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "openssl"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9byn9s78vinpmasl090ccvllls2f32hl-openssl-1.1.1o-bin",
+        "/nix/store/c4inwcmrc5g9na03jnp20qyxg07rz37x-openssl-1.1.1o-man"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

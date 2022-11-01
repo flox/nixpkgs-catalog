@@ -1,4 +1,86 @@
 {
+  "4.14.293": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.14.293",
+      "pname": "linux",
+      "name": "linux-4.14.293",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/11xj0j4dvrcg97djm97nf33n1c5p63zl-linux-4.14.293-dev",
+        "out": "/nix/store/8fslnc0zh30hhf2mrfgjh284zb4qlf4d-linux-4.14.293"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/8fslnc0zh30hhf2mrfgjh284zb4qlf4d-linux-4.14.293"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "4.14.291": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.14.291",
+      "pname": "linux",
+      "name": "linux-4.14.291",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/8d45mx0vyw0jd5cbra8p7gvz3s04j4x1-linux-4.14.291-dev",
+        "out": "/nix/store/wkyw66ll1vhv3pw3h5sax19wvxhh7r8b-linux-4.14.291"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_4_14"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wkyw66ll1vhv3pw3h5sax19wvxhh7r8b-linux-4.14.291"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "4.14.295": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,88 +119,6 @@
       "locked": {
         "revCount": 420742,
         "lastModified": 1666703756
-      }
-    }
-  },
-  "4.14.290": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.14.290",
-      "pname": "linux",
-      "name": "linux-4.14.290",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/990az4w1bgpjzcm5jb9ch2l6yxb2y48k-linux-4.14.290-dev",
-        "out": "/nix/store/z64dxvs61k8b60mlr1l70zxjn72q06xl-linux-4.14.290"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_14"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/z64dxvs61k8b60mlr1l70zxjn72q06xl-linux-4.14.290"
-      ],
-      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
-    },
-    "source": {
-      "locked": {
-        "revCount": 402830,
-        "lastModified": 1661239211
-      }
-    }
-  },
-  "4.14.284": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "4.14.284",
-      "pname": "linux",
-      "name": "linux-4.14.284",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/7assd96h3b9254g00mphp32d923zz5jm-linux-4.14.284-dev",
-        "out": "/nix/store/yrs39bn4gzmr3mcr08r3nmd3slh7lvkv-linux-4.14.284"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, cpu-cgroup-v2-4.11.patch, modinst-arglist-too-long)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-4.14.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_4_14"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/yrs39bn4gzmr3mcr08r3nmd3slh7lvkv-linux-4.14.284"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
       }
     }
   }

@@ -1,45 +1,4 @@
 {
-  "2.0.20": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.0.20",
-      "pname": "SDL2",
-      "name": "SDL2-2.0.20",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/1lgbpxf89kwacgij0xbvnc6xyqdmighw-SDL2-2.0.20-dev",
-        "out": "/nix/store/db1ifvgald1zfk4lbhf8il7ccp7qgib9-SDL2-2.0.20"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A cross-platform multimedia library",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/SDL2/default.nix:174",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "SDL2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/db1ifvgald1zfk4lbhf8il7ccp7qgib9-SDL2-2.0.20"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2.0.22": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "2.0.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.0.20",
+      "pname": "SDL2",
+      "name": "SDL2-2.0.20",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/1lgbpxf89kwacgij0xbvnc6xyqdmighw-SDL2-2.0.20-dev",
+        "out": "/nix/store/db1ifvgald1zfk4lbhf8il7ccp7qgib9-SDL2-2.0.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A cross-platform multimedia library",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/SDL2/default.nix:174",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "SDL2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/db1ifvgald1zfk4lbhf8il7ccp7qgib9-SDL2-2.0.20"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

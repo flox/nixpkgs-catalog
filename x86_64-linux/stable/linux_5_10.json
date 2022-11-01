@@ -1,22 +1,22 @@
 {
-  "5.10.117": {
+  "5.10.143": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.10.117",
+      "version": "5.10.143",
       "pname": "linux",
-      "name": "linux-5.10.117",
+      "name": "linux-5.10.143",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/lxdjscwinn8779dqwr2virlkd9a5w7hw-linux-5.10.117-dev",
-        "out": "/nix/store/1dx5ls853bxq9gg4i9amyi52yyzk9184-linux-5.10.117"
+        "dev": "/nix/store/10qyx1in20ppaz168al1dkl9bqkrbixi-linux-5.10.143-dev",
+        "out": "/nix/store/nmbzk3xz5hlyqdh4syi5ygb1w0y4mxbh-linux-5.10.143"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1dx5ls853bxq9gg4i9amyi52yyzk9184-linux-5.10.117"
+        "/nix/store/nmbzk3xz5hlyqdh4syi5ygb1w0y4mxbh-linux-5.10.143"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "5.10.93": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.10.93",
-      "pname": "linux",
-      "name": "linux-5.10.93",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/3xvzwvb9r7v4wsdcxdy7w7vpl1xc6irs-linux-5.10.93-dev",
-        "out": "/nix/store/alhxjfgfgvh3kg79n61fyq1lcn7c4i0v-linux-5.10.93"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_5_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/alhxjfgfgvh3kg79n61fyq1lcn7c4i0v-linux-5.10.93"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "5.10.132": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.10.132",
+      "pname": "linux",
+      "name": "linux-5.10.132",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/v74habbxaawwbhiz7bw7dkcnkl6zird0-linux-5.10.132-dev",
+        "out": "/nix/store/xil49qhzgs82xna6ylplw59a0mddjj8k-linux-5.10.132"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/linux-5.10.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_5_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xil49qhzgs82xna6ylplw59a0mddjj8k-linux-5.10.132"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

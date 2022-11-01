@@ -40,47 +40,6 @@
       }
     }
   },
-  "6.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.0",
-      "pname": "linux",
-      "name": "linux-6.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/ypf0z4716cmbgzwdn6mha023y4565qfs-linux-6.0-dev",
-        "out": "/nix/store/wv22nafx9lhd934308yvhzpp9q2w5r2m-linux-6.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_6_0"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wv22nafx9lhd934308yvhzpp9q2w5r2m-linux-6.0"
-      ],
-      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
-    },
-    "source": {
-      "locked": {
-        "revCount": 416449,
-        "lastModified": 1665449268
-      }
-    }
-  },
   "6.0.2": {
     "type": "catalogRender",
     "schema": 1,
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.0",
+      "pname": "linux",
+      "name": "linux-6.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/ypf0z4716cmbgzwdn6mha023y4565qfs-linux-6.0-dev",
+        "out": "/nix/store/wv22nafx9lhd934308yvhzpp9q2w5r2m-linux-6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/os-specific/linux/kernel/linux-6.0.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_6_0"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wv22nafx9lhd934308yvhzpp9q2w5r2m-linux-6.0"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
       }
     }
   }

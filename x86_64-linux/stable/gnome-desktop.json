@@ -1,47 +1,4 @@
 {
-  "42.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.1",
-      "pname": "gnome-desktop",
-      "name": "gnome-desktop-42.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "debug": "/nix/store/95piv1y2w0kisdzq9wmna68wxqdn52yp-gnome-desktop-42.1-debug",
-        "dev": "/nix/store/xaz1lyaalnhk321j9yhsqhnnv6g9cx6w-gnome-desktop-42.1-dev",
-        "devdoc": "/nix/store/yviq49yhc59fsarxnzhs64djg79ixm2z-gnome-desktop-42.1-devdoc",
-        "out": "/nix/store/y0nyl3izgx3276aab27iwgdimxjj1s1r-gnome-desktop-42.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Library with common API for various GNOME modules",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/gnome-desktop/default.nix:93",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome-desktop"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/y0nyl3izgx3276aab27iwgdimxjj1s1r-gnome-desktop-42.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "42.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
+      }
+    }
+  },
+  "42.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.1",
+      "pname": "gnome-desktop",
+      "name": "gnome-desktop-42.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "debug": "/nix/store/95piv1y2w0kisdzq9wmna68wxqdn52yp-gnome-desktop-42.1-debug",
+        "dev": "/nix/store/xaz1lyaalnhk321j9yhsqhnnv6g9cx6w-gnome-desktop-42.1-dev",
+        "devdoc": "/nix/store/yviq49yhc59fsarxnzhs64djg79ixm2z-gnome-desktop-42.1-devdoc",
+        "out": "/nix/store/y0nyl3izgx3276aab27iwgdimxjj1s1r-gnome-desktop-42.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Library with common API for various GNOME modules",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/gnome-desktop/default.nix:93",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome-desktop"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/y0nyl3izgx3276aab27iwgdimxjj1s1r-gnome-desktop-42.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

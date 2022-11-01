@@ -1,15 +1,15 @@
 {
-  "1.25.1": {
+  "1.25.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.25.1",
+      "version": "1.25.0",
       "pname": "cri-o",
-      "name": "cri-o-1.25.1",
+      "name": "cri-o-1.25.0",
       "system": "x86_64-linux",
       "outputs": {
-        "man": "/nix/store/5hil7jgx7s5i3kqb86i7szg8mk98s861-cri-o-1.25.1-man",
-        "out": "/nix/store/vpf1xdqvwwnck5mk01y8yzbc4760565d-cri-o-1.25.1"
+        "man": "/nix/store/43qxw8sz234v7a86mvbih8mkx52vygsi-cri-o-1.25.0-man",
+        "out": "/nix/store/q011ipb05px6qi8yvlqvf5rmpcgqbrcl-cri-o-1.25.0"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/cri-o/default.nix:65",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/virtualization/cri-o/default.nix:65",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/vpf1xdqvwwnck5mk01y8yzbc4760565d-cri-o-1.25.1",
-        "/nix/store/5hil7jgx7s5i3kqb86i7szg8mk98s861-cri-o-1.25.1-man"
+        "/nix/store/q011ipb05px6qi8yvlqvf5rmpcgqbrcl-cri-o-1.25.0",
+        "/nix/store/43qxw8sz234v7a86mvbih8mkx52vygsi-cri-o-1.25.0-man"
       ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
-  "1.24.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.24.1",
-      "pname": "cri-o",
-      "name": "cri-o-1.24.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/d44mh2b558wl3k70symd3a579aqyj3n5-cri-o-1.24.1-man",
-        "out": "/nix/store/xipcbj9spk9vn0831cjs447qi14756v8-cri-o-1.24.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/virtualization/cri-o/default.nix:65",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "cri-o-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xipcbj9spk9vn0831cjs447qi14756v8-cri-o-1.24.1",
-        "/nix/store/d44mh2b558wl3k70symd3a579aqyj3n5-cri-o-1.24.1-man"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "1.25.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.25.1",
+      "pname": "cri-o",
+      "name": "cri-o-1.25.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/5hil7jgx7s5i3kqb86i7szg8mk98s861-cri-o-1.25.1-man",
+        "out": "/nix/store/vpf1xdqvwwnck5mk01y8yzbc4760565d-cri-o-1.25.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Open Container Initiative-based implementation of the\nKubernetes Container Runtime Interface\n",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/applications/virtualization/cri-o/default.nix:65",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "cri-o-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/vpf1xdqvwwnck5mk01y8yzbc4760565d-cri-o-1.25.1",
+        "/nix/store/5hil7jgx7s5i3kqb86i7szg8mk98s861-cri-o-1.25.1-man"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

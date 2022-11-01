@@ -1,4 +1,86 @@
 {
+  "1.9.8": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.8",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.8",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/r6zdxy56q914w95mrm1p6rr3nyl4h2hb-fluent-bit-1.9.8-dev",
+        "out": "/nix/store/6w9lyh55da29nv1wnj78rpivk7d7y5z8-fluent-bit-1.9.8"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6w9lyh55da29nv1wnj78rpivk7d7y5z8-fluent-bit-1.9.8"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.9.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.9.7",
+      "pname": "fluent-bit",
+      "name": "fluent-bit-1.9.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/2pjy53l5pq6g83rvqc31yvngq8p2d474-fluent-bit-1.9.7-dev",
+        "out": "/nix/store/1qg4mi0d60s2qw1krka0bxyqqrlh5dy4-fluent-bit-1.9.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Log forwarder and processor, part of Fluentd ecosystem",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/tools/misc/fluent-bit/default.nix:38",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "fluent-bit"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1qg4mi0d60s2qw1krka0bxyqqrlh5dy4-fluent-bit-1.9.7"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "1.9.9": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,88 +119,6 @@
       "locked": {
         "revCount": 420742,
         "lastModified": 1666703756
-      }
-    }
-  },
-  "1.9.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.3",
-      "pname": "fluent-bit",
-      "name": "fluent-bit-1.9.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/lr05v7kiz8jk5x6gbfqb627zlnck7pdn-fluent-bit-1.9.3-dev",
-        "out": "/nix/store/is90azhcfhy0048xd8d52j8h4zp0hpz5-fluent-bit-1.9.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/misc/fluent-bit/default.nix:32",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "fluent-bit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/is90azhcfhy0048xd8d52j8h4zp0hpz5-fluent-bit-1.9.3"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "1.9.7": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.9.7",
-      "pname": "fluent-bit",
-      "name": "fluent-bit-1.9.7",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/2pjy53l5pq6g83rvqc31yvngq8p2d474-fluent-bit-1.9.7-dev",
-        "out": "/nix/store/1qg4mi0d60s2qw1krka0bxyqqrlh5dy4-fluent-bit-1.9.7"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Log forwarder and processor, part of Fluentd ecosystem",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/misc/fluent-bit/default.nix:38",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "fluent-bit"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1qg4mi0d60s2qw1krka0bxyqqrlh5dy4-fluent-bit-1.9.7"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
       }
     }
   }

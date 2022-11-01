@@ -1,4 +1,44 @@
 {
+  "0.10.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.10.1",
+      "pname": "vopono",
+      "name": "vopono-0.10.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/1hq6lgkdxypgvyn7j7y41cfdaxb35bh1-vopono-0.10.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Run applications through VPN connections in network namespaces",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/networking/vopono/default.nix:18",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "vopono"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/1hq6lgkdxypgvyn7j7y41cfdaxb35bh1-vopono-0.10.1"
+      ],
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
+    },
+    "source": {
+      "locked": {
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
   "0.10.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "0.8.10": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.8.10",
-      "pname": "vopono",
-      "name": "vopono-0.8.10",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/86c7mqv3p7nskphiphhwmj8w44ky2sfl-vopono-0.8.10"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Run applications through VPN connections in network namespaces",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/tools/networking/vopono/default.nix:18",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "vopono"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/86c7mqv3p7nskphiphhwmj8w44ky2sfl-vopono-0.8.10"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   },

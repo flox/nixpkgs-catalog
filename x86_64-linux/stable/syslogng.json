@@ -1,15 +1,15 @@
 {
-  "3.36.1": {
+  "3.38.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.36.1",
+      "version": "3.38.1",
       "pname": "syslog-ng",
-      "name": "syslog-ng-3.36.1",
+      "name": "syslog-ng-3.38.1",
       "system": "x86_64-linux",
       "outputs": {
-        "man": "/nix/store/cyvqajmjchz5763m5p6pqhz37954zd0f-syslog-ng-3.36.1-man",
-        "out": "/nix/store/9x9pqb5c98rl6n787kwgp1shy978qcn7-syslog-ng-3.36.1"
+        "man": "/nix/store/lly1s9r1xs7q1fi94756dxrby5lyjbdb-syslog-ng-3.38.1-man",
+        "out": "/nix/store/fxbsqdmr9hzg9g73wbrakx01kj6kdfpn-syslog-ng-3.38.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "Next-generation syslogd with advanced networking and filtering capabilities",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/system/syslog-ng/default.nix:59",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/system/syslog-ng/default.nix:59",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/9x9pqb5c98rl6n787kwgp1shy978qcn7-syslog-ng-3.36.1",
-        "/nix/store/cyvqajmjchz5763m5p6pqhz37954zd0f-syslog-ng-3.36.1-man"
+        "/nix/store/fxbsqdmr9hzg9g73wbrakx01kj6kdfpn-syslog-ng-3.38.1",
+        "/nix/store/lly1s9r1xs7q1fi94756dxrby5lyjbdb-syslog-ng-3.38.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "3.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.34.1",
-      "pname": "syslog-ng",
-      "name": "syslog-ng-3.34.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/csijcfzs6f3fsicmm2baidm06ymwv2n3-syslog-ng-3.34.1-man",
-        "out": "/nix/store/a68c9112g2zkhhk554bficryhrgshf8m-syslog-ng-3.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Next-generation syslogd with advanced networking and filtering capabilities",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/system/syslog-ng/default.nix:59",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "syslogng"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/a68c9112g2zkhhk554bficryhrgshf8m-syslog-ng-3.34.1",
-        "/nix/store/csijcfzs6f3fsicmm2baidm06ymwv2n3-syslog-ng-3.34.1-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "3.36.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "3.36.1",
+      "pname": "syslog-ng",
+      "name": "syslog-ng-3.36.1",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/apbjka7jqwwfk178vqhyc411fvgl1rbl-syslog-ng-3.36.1-man",
+        "out": "/nix/store/lilx92z9p2ai8jyzdkf96ar5v8394ql8-syslog-ng-3.36.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Next-generation syslogd with advanced networking and filtering capabilities",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/system/syslog-ng/default.nix:59",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "syslogng"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lilx92z9p2ai8jyzdkf96ar5v8394ql8-syslog-ng-3.36.1",
+        "/nix/store/apbjka7jqwwfk178vqhyc411fvgl1rbl-syslog-ng-3.36.1-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

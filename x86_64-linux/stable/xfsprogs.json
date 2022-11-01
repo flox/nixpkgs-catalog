@@ -1,47 +1,4 @@
 {
-  "5.16.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.16.0",
-      "pname": "xfsprogs",
-      "name": "xfsprogs-5.16.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "bin": "/nix/store/3211xv941h4lx8yf34221hc2ld1wbv8x-xfsprogs-5.16.0-bin",
-        "dev": "/nix/store/1c4j9znhyrw36py9dzpg2p6nc90kp9wi-xfsprogs-5.16.0-dev",
-        "doc": "/nix/store/yg3hfmjn177zqyynbsvmxkaq4yqcjyqp-xfsprogs-5.16.0-doc",
-        "out": "/nix/store/489ysm6jzs776qwzdgqc6v4nxwg2vw0q-xfsprogs-5.16.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin"
-        ],
-        "description": "SGI XFS utilities",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/filesystems/xfsprogs/default.nix:50",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "xfsprogs"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/3211xv941h4lx8yf34221hc2ld1wbv8x-xfsprogs-5.16.0-bin"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "5.19.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "5.16.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.16.0",
+      "pname": "xfsprogs",
+      "name": "xfsprogs-5.16.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "bin": "/nix/store/3211xv941h4lx8yf34221hc2ld1wbv8x-xfsprogs-5.16.0-bin",
+        "dev": "/nix/store/1c4j9znhyrw36py9dzpg2p6nc90kp9wi-xfsprogs-5.16.0-dev",
+        "doc": "/nix/store/yg3hfmjn177zqyynbsvmxkaq4yqcjyqp-xfsprogs-5.16.0-doc",
+        "out": "/nix/store/489ysm6jzs776qwzdgqc6v4nxwg2vw0q-xfsprogs-5.16.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin"
+        ],
+        "description": "SGI XFS utilities",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/filesystems/xfsprogs/default.nix:50",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xfsprogs"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3211xv941h4lx8yf34221hc2ld1wbv8x-xfsprogs-5.16.0-bin"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

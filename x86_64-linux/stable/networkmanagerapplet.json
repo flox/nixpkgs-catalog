@@ -1,47 +1,4 @@
 {
-  "1.26.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.26.0",
-      "pname": "network-manager-applet",
-      "name": "network-manager-applet-1.26.0",
-      "system": "x86_64-linux",
-      "outputs": {
-        "man": "/nix/store/3pa4aqvih0vz599fwyyldffyf7yspa0c-network-manager-applet-1.26.0-man",
-        "out": "/nix/store/12s81ilnahlzlab7n7zi7fk70fa00lwg-network-manager-applet-1.26.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "NetworkManager control applet for GNOME",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/networkmanager/applet/default.nix:84",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "networkmanagerapplet"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/12s81ilnahlzlab7n7zi7fk70fa00lwg-network-manager-applet-1.26.0",
-        "/nix/store/3pa4aqvih0vz599fwyyldffyf7yspa0c-network-manager-applet-1.26.0-man"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "1.28.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -82,6 +39,49 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "1.26.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.26.0",
+      "pname": "network-manager-applet",
+      "name": "network-manager-applet-1.26.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "man": "/nix/store/3pa4aqvih0vz599fwyyldffyf7yspa0c-network-manager-applet-1.26.0-man",
+        "out": "/nix/store/12s81ilnahlzlab7n7zi7fk70fa00lwg-network-manager-applet-1.26.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "NetworkManager control applet for GNOME",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/networking/networkmanager/applet/default.nix:84",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "networkmanagerapplet"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/12s81ilnahlzlab7n7zi7fk70fa00lwg-network-manager-applet-1.26.0",
+        "/nix/store/3pa4aqvih0vz599fwyyldffyf7yspa0c-network-manager-applet-1.26.0-man"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

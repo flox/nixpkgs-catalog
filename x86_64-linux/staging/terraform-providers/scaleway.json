@@ -1,21 +1,21 @@
 {
-  "2.2.2": {
+  "2.2.8": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.2.2",
+      "version": "2.2.8",
       "pname": "terraform-provider-scaleway",
-      "name": "terraform-provider-scaleway-2.2.2",
+      "name": "terraform-provider-scaleway-2.2.8",
       "system": "x86_64-linux",
       "outputs": {
-        "out": "/nix/store/dxvr4m1hk06wbbw5d3vfpd711wfk41qs-terraform-provider-scaleway-2.2.2"
+        "out": "/nix/store/idncwmf7fxkgm204bq1730b0i86cp24g-terraform-provider-scaleway-2.2.8"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "",
-        "position": "/nix/store/3128f5k79bjycf2hynw8dywyw9ighmda-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:30",
+        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
         "unfree": false
       }
     },
@@ -29,14 +29,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/dxvr4m1hk06wbbw5d3vfpd711wfk41qs-terraform-provider-scaleway-2.2.2"
+        "/nix/store/idncwmf7fxkgm204bq1730b0i86cp24g-terraform-provider-scaleway-2.2.8"
       ],
-      "url": "github:flox/nixpkgs/71a4f0dc3d80ba76f437c888c1c3d59f1df98163"
+      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
     },
     "source": {
       "locked": {
-        "revCount": 389776,
-        "lastModified": 1657020478
+        "revCount": 404572,
+        "lastModified": 1661720780
+      }
+    }
+  },
+  "2.2.7": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.2.7",
+      "pname": "terraform-provider-scaleway",
+      "name": "terraform-provider-scaleway-2.2.7",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/gj0m8bblmi379yqirbmys644i6xxfvlx-terraform-provider-scaleway-2.2.7"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "terraform-providers",
+        "scaleway"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/gj0m8bblmi379yqirbmys644i6xxfvlx-terraform-provider-scaleway-2.2.7"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -78,47 +119,6 @@
       "locked": {
         "revCount": 397203,
         "lastModified": 1659487974
-      }
-    }
-  },
-  "2.2.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.2.1",
-      "pname": "terraform-provider-scaleway",
-      "name": "terraform-provider-scaleway-2.2.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/x9xnnq26zm9glk23832jzx6zxfcpmpm9-terraform-provider-scaleway-2.2.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/cluster/terraform-providers/default.nix:29",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "terraform-providers",
-        "scaleway"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/x9xnnq26zm9glk23832jzx6zxfcpmpm9-terraform-provider-scaleway-2.2.1"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   }

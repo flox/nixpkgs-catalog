@@ -1,4 +1,46 @@
 {
+  "42.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "42.2",
+      "pname": "nautilus",
+      "name": "nautilus-42.2",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/zsfhflsyg3jjad2qwxh686sw1h09wgvq-nautilus-42.2-dev",
+        "out": "/nix/store/inh1f6fd1j0nvb8ixfn3lljjvq2n302g-nautilus-42.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The file manager for GNOME",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/desktops/gnome/core/nautilus/default.nix:113",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "gnome",
+        "nautilus"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/inh1f6fd1j0nvb8ixfn3lljjvq2n302g-nautilus-42.2"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "42.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "42.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "42.2",
-      "pname": "nautilus",
-      "name": "nautilus-42.2",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/gi6r7wzazyp4hy1pgj13q2ym9ivp2hp8-nautilus-42.2-dev",
-        "out": "/nix/store/bal0vkr50i26jw9ax0ns1swcf3309gyq-nautilus-42.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The file manager for GNOME",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/desktops/gnome/core/nautilus/default.nix:113",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "gnome",
-        "nautilus"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/bal0vkr50i26jw9ax0ns1swcf3309gyq-nautilus-42.2"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },

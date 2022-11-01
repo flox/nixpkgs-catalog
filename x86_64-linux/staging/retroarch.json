@@ -39,46 +39,6 @@
       }
     }
   },
-  "1.10.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.3",
-      "pname": "retroarch",
-      "name": "retroarch-1.10.3",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/537bgqwaaxrah1w61awbz06jld4jgm5i-retroarch-1.10.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Multi-platform emulator frontend for libretro cores",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/emulators/retroarch/wrapper.nix:30",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "retroarch"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/537bgqwaaxrah1w61awbz06jld4jgm5i-retroarch-1.10.3"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "1.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 418612,
         "lastModified": 1666109165
+      }
+    }
+  },
+  "1.10.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.3",
+      "pname": "retroarch",
+      "name": "retroarch-1.10.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/153wsgsgmvkr8drp1367lg9s2y02b6kg-retroarch-1.10.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Multi-platform emulator frontend for libretro cores",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/emulators/retroarch/wrapper.nix:30",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "retroarch"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/153wsgsgmvkr8drp1367lg9s2y02b6kg-retroarch-1.10.3"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   }

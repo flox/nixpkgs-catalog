@@ -1,45 +1,4 @@
 {
-  "5.17.8": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.17.8",
-      "pname": "linux",
-      "name": "linux-5.17.8",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/4m3zvv7cifc6329bpmgaapc4qqa734hx-linux-5.17.8-dev",
-        "out": "/nix/store/zdp90dmgsqv2xc3g8farrr38pqgfkl3p-linux-5.17.8"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "linux_xanmod_latest"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zdp90dmgsqv2xc3g8farrr38pqgfkl3p-linux-5.17.8"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "5.19.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "5.18.11": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18.11",
+      "pname": "linux",
+      "name": "linux-5.18.11",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/pwg5b1za8i8zay3pfdkkzp5cm2nzfxqq-linux-5.18.11-dev",
+        "out": "/nix/store/hrnm99syai8z41cp6bz9xqhpf2qs37kc-linux-5.18.11"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Built with custom settings and new features built to provide a stable, responsive and smooth desktop experience",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/xanmod-kernels.nix:21",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "linux_xanmod_latest"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hrnm99syai8z41cp6bz9xqhpf2qs37kc-linux-5.18.11"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

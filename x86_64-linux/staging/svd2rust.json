@@ -39,6 +39,46 @@
       }
     }
   },
+  "0.26.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.26.0",
+      "pname": "svd2rust",
+      "name": "svd2rust-0.26.0",
+      "system": "x86_64-linux",
+      "outputs": {
+        "out": "/nix/store/dw3lxfdm3vhh6dwpxl8zq9sgff0g1zj9-svd2rust-0.26.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Generate Rust register maps (`struct`s) from SVD files",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/tools/rust/svd2rust/default.nix:15",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "svd2rust"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/dw3lxfdm3vhh6dwpxl8zq9sgff0g1zj9-svd2rust-0.26.0"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "0.25.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
-      }
-    }
-  },
-  "0.24.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.24.1",
-      "pname": "svd2rust",
-      "name": "svd2rust-0.24.1",
-      "system": "x86_64-linux",
-      "outputs": {
-        "out": "/nix/store/dmrmmngkkj3v19r9myvf2zh4yxw6640k-svd2rust-0.24.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Generate Rust register maps (`struct`s) from SVD files",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/svd2rust/default.nix:17",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "svd2rust"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/dmrmmngkkj3v19r9myvf2zh4yxw6640k-svd2rust-0.24.1"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

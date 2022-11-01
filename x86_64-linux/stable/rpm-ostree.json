@@ -1,17 +1,17 @@
 {
-  "2022.3": {
+  "2022.13": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2022.3",
+      "version": "2022.13",
       "pname": "rpm-ostree",
-      "name": "rpm-ostree-2022.3",
+      "name": "rpm-ostree-2022.13",
       "system": "x86_64-linux",
       "outputs": {
-        "dev": "/nix/store/gfl6b0nqld9jkrbva7p2xwrflalkphs9-rpm-ostree-2022.3-dev",
-        "devdoc": "/nix/store/c9dfc8brzlf9bypyx9jvlzf4jzj7p75a-rpm-ostree-2022.3-devdoc",
-        "man": "/nix/store/7gzzrycvv225q6g10w6aikv1i3jy4lhf-rpm-ostree-2022.3-man",
-        "out": "/nix/store/y3mfyay7k4w87j4157mwnl1181w8pl7i-rpm-ostree-2022.3"
+        "dev": "/nix/store/m7dsp2j7f74yq5v2vfyzz3yzy0vxny8z-rpm-ostree-2022.13-dev",
+        "devdoc": "/nix/store/axp9bvy4i24lqb3nwql04dkc2c1z75fl-rpm-ostree-2022.13-devdoc",
+        "man": "/nix/store/0q2fk12wmaqra65aia847v2zj2xg725y-rpm-ostree-2022.13-man",
+        "out": "/nix/store/49v1w7jxxb1d3vj2w5mps59w06gs1q6n-rpm-ostree-2022.13"
       },
       "meta": {
         "outputsToInstall": [
@@ -19,7 +19,7 @@
           "man"
         ],
         "description": "A hybrid image/package system. It uses OSTree as an image format, and uses RPM as a component model",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/misc/rpm-ostree/default.nix:118",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/misc/rpm-ostree/default.nix:118",
         "unfree": false
       }
     },
@@ -32,60 +32,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/y3mfyay7k4w87j4157mwnl1181w8pl7i-rpm-ostree-2022.3",
-        "/nix/store/7gzzrycvv225q6g10w6aikv1i3jy4lhf-rpm-ostree-2022.3-man"
+        "/nix/store/49v1w7jxxb1d3vj2w5mps59w06gs1q6n-rpm-ostree-2022.13",
+        "/nix/store/0q2fk12wmaqra65aia847v2zj2xg725y-rpm-ostree-2022.13-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2021.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2021.14",
-      "pname": "rpm-ostree",
-      "name": "rpm-ostree-2021.14",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/db715r69pin1k23ncy2iai1mcp632zsh-rpm-ostree-2021.14-dev",
-        "devdoc": "/nix/store/g82qravf1m27vw7m3vql1a19fqlx6xq5-rpm-ostree-2021.14-devdoc",
-        "man": "/nix/store/7hlzgvajgs2zlqnnfcdpms7zdzvvvnqa-rpm-ostree-2021.14-man",
-        "out": "/nix/store/wvd3zwsik47l7lzlmlk1lwa9nnnq2bzl-rpm-ostree-2021.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A hybrid image/package system. It uses OSTree as an image format, and uses RPM as a component model",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/misc/rpm-ostree/default.nix:118",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "rpm-ostree"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wvd3zwsik47l7lzlmlk1lwa9nnnq2bzl-rpm-ostree-2021.14",
-        "/nix/store/7hlzgvajgs2zlqnnfcdpms7zdzvvvnqa-rpm-ostree-2021.14-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -131,6 +86,51 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "2022.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2022.3",
+      "pname": "rpm-ostree",
+      "name": "rpm-ostree-2022.3",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/zr20yildwjb08jaa5aarly48dzibk2ag-rpm-ostree-2022.3-dev",
+        "devdoc": "/nix/store/k6x7nlhcj40as95cxnvy5gnx5530yl7a-rpm-ostree-2022.3-devdoc",
+        "man": "/nix/store/ghg3r276ari9yypn6x04hvv7dff75lsr-rpm-ostree-2022.3-man",
+        "out": "/nix/store/hiqswnkr1zyrp6wsvicc3bcxdn157alb-rpm-ostree-2022.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A hybrid image/package system. It uses OSTree as an image format, and uses RPM as a component model",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/misc/rpm-ostree/default.nix:118",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "rpm-ostree"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hiqswnkr1zyrp6wsvicc3bcxdn157alb-rpm-ostree-2022.3",
+        "/nix/store/ghg3r276ari9yypn6x04hvv7dff75lsr-rpm-ostree-2022.3-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

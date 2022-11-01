@@ -40,6 +40,47 @@
       }
     }
   },
+  "6.1.36": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "6.1.36",
+      "pname": "virtualbox",
+      "name": "virtualbox-6.1.36",
+      "system": "x86_64-linux",
+      "outputs": {
+        "modsrc": "/nix/store/fank05njikmp9im1p4zd0b2q5cn32kvs-virtualbox-6.1.36-modsrc",
+        "out": "/nix/store/yjimy3kv8493im8vhh1g84vig7sabczf-virtualbox-6.1.36"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "PC emulator",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/applications/virtualization/virtualbox/default.nix:227",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "virtualboxHeadless"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/yjimy3kv8493im8vhh1g84vig7sabczf-virtualbox-6.1.36"
+      ],
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
+    },
+    "source": {
+      "locked": {
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
   "6.1.34": {
     "type": "catalogRender",
     "schema": 1,
@@ -49,15 +90,15 @@
       "name": "virtualbox-6.1.34",
       "system": "x86_64-linux",
       "outputs": {
-        "modsrc": "/nix/store/lgsjl41drm1f7g9iva3zlib3aypfv6pw-virtualbox-6.1.34-modsrc",
-        "out": "/nix/store/irrh4f7rb0v2jw9bpy4gcjns5a85wiii-virtualbox-6.1.34"
+        "modsrc": "/nix/store/rrrbs1w3jkxfc1crbvdk5knqbin55dif-virtualbox-6.1.34-modsrc",
+        "out": "/nix/store/95368fdqnhsymjbgc51avxh89j41h8h6-virtualbox-6.1.34"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "PC emulator",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/virtualization/virtualbox/default.nix:232",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/virtualization/virtualbox/default.nix:237",
         "unfree": false
       }
     },
@@ -70,55 +111,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/irrh4f7rb0v2jw9bpy4gcjns5a85wiii-virtualbox-6.1.34"
+        "/nix/store/95368fdqnhsymjbgc51avxh89j41h8h6-virtualbox-6.1.34"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
-  "6.1.30": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "6.1.30",
-      "pname": "virtualbox",
-      "name": "virtualbox-6.1.30",
-      "system": "x86_64-linux",
-      "outputs": {
-        "modsrc": "/nix/store/rk7w1vmr24n5d76vzp9jk1skfm0ar0q5-virtualbox-6.1.30-modsrc",
-        "out": "/nix/store/asak97r2b78i4drfb75nfr7nhdxwpwzw-virtualbox-6.1.30"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "PC emulator",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/virtualization/virtualbox/default.nix:227",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "virtualboxHeadless"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/asak97r2b78i4drfb75nfr7nhdxwpwzw-virtualbox-6.1.30"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

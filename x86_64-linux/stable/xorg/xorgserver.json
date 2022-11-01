@@ -1,4 +1,46 @@
 {
+  "1.20.14": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.20.14",
+      "pname": "xorg-server",
+      "name": "xorg-server-1.20.14",
+      "system": "x86_64-linux",
+      "outputs": {
+        "dev": "/nix/store/9nj0ll7j93cn4xzq722bnf683ixfrk0b-xorg-server-1.20.14-dev",
+        "out": "/nix/store/440w49ynkls3dpclvh414zfqcrh9x5av-xorg-server-1.20.14"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/x11/xorg/default.nix:3309",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "x86_64-linux",
+        "xorg",
+        "xorgserver"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/440w49ynkls3dpclvh414zfqcrh9x5av-xorg-server-1.20.14"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "21.1.3": {
     "type": "catalogRender",
     "schema": 1,
@@ -38,48 +80,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "1.20.14": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.20.14",
-      "pname": "xorg-server",
-      "name": "xorg-server-1.20.14",
-      "system": "x86_64-linux",
-      "outputs": {
-        "dev": "/nix/store/y47ysy6mly55hz7xgqcmd3l8kqkjyhnb-xorg-server-1.20.14-dev",
-        "out": "/nix/store/71sx0xrnjd71fkdpwxqbnryy4nnxjm4c-xorg-server-1.20.14"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/x11/xorg/default.nix:3309",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "x86_64-linux",
-        "xorg",
-        "xorgserver"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/71sx0xrnjd71fkdpwxqbnryy4nnxjm4c-xorg-server-1.20.14"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   },
