@@ -1,4 +1,44 @@
 {
+  "2.1.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.1.2",
+      "pname": "crlfsuite",
+      "name": "crlfsuite-2.1.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/alk5s0ilkl62zl9alb9ra47hvjvr7vs5-crlfsuite-2.1.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "CRLF injection (HTTP Response Splitting) scanner",
+        "position": "/nix/store/8x9s4zv7dzmwxmm8lhsxk3nf8lxlh52q-source/pkgs/tools/security/crlfsuite/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "crlfsuite"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/alk5s0ilkl62zl9alb9ra47hvjvr7vs5-crlfsuite-2.1.2"
+      ],
+      "url": "github:flox/nixpkgs/2da64a81275b68fdad38af669afeda43d401e94b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 405560,
+        "lastModified": 1662019588
+      }
+    }
+  },
   "2.1.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "2.1.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.1.2",
-      "pname": "crlfsuite",
-      "name": "crlfsuite-2.1.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/alk5s0ilkl62zl9alb9ra47hvjvr7vs5-crlfsuite-2.1.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "CRLF injection (HTTP Response Splitting) scanner",
-        "position": "/nix/store/5f83a60c6lcxfzdh7yg3ifmk150dkqb2-source/pkgs/tools/security/crlfsuite/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "crlfsuite"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/alk5s0ilkl62zl9alb9ra47hvjvr7vs5-crlfsuite-2.1.2"
-      ],
-      "url": "github:flox/nixpkgs/a63021a330d8d33d862a8e29924b42d73037dd37"
-    },
-    "source": {
-      "locked": {
-        "revCount": 404572,
-        "lastModified": 1661720780
       }
     }
   },

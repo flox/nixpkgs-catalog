@@ -1,44 +1,4 @@
 {
-  "11.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "11.2",
-      "pname": "gdb",
-      "name": "gdb-11.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/g565mq1b2ai74j6q4x1dv9zirq5sif64-gdb-11.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The GNU Project debugger",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/misc/gdb/default.nix:119",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gdb"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/g565mq1b2ai74j6q4x1dv9zirq5sif64-gdb-11.2"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "12.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "11.2": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "11.2",
+      "pname": "gdb",
+      "name": "gdb-11.2",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/g565mq1b2ai74j6q4x1dv9zirq5sif64-gdb-11.2"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The GNU Project debugger",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/misc/gdb/default.nix:119",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gdb"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g565mq1b2ai74j6q4x1dv9zirq5sif64-gdb-11.2"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

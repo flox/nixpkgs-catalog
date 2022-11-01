@@ -1,45 +1,4 @@
 {
-  "5.18.12": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.18.12",
-      "pname": "linux",
-      "name": "linux-5.18.12",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/ig4akc7csss0n067lc93rr7p254gr1y1-linux-5.18.12-dev",
-        "out": "/nix/store/h4ffvxnpnnixjdbsj2acchrfralwcl53-linux-5.18.12"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.18.12-hardened1)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/top-level/linux-kernels.nix:42",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_5_18_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/h4ffvxnpnnixjdbsj2acchrfralwcl53-linux-5.18.12"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.18.17": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "5.18.12": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18.12",
+      "pname": "linux",
+      "name": "linux-5.18.12",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ig4akc7csss0n067lc93rr7p254gr1y1-linux-5.18.12-dev",
+        "out": "/nix/store/h4ffvxnpnnixjdbsj2acchrfralwcl53-linux-5.18.12"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.18.12-hardened1)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_5_18_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h4ffvxnpnnixjdbsj2acchrfralwcl53-linux-5.18.12"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },

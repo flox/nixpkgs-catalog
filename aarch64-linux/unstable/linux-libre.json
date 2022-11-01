@@ -1,4 +1,86 @@
 {
+  "5.15.72": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.72",
+      "pname": "linux",
+      "name": "linux-5.15.72",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/zqygzii2yrmb8ja9mmvq01bwyc74c28b-linux-5.15.72-dev",
+        "out": "/nix/store/akkpzq3n7vqila9qhwzjm55256zqd9s9-linux-5.15.72"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/f5626y2ig0svf8cmb565akw84lyh5b1a-source/pkgs/os-specific/linux/kernel/linux-5.15.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux-libre"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/akkpzq3n7vqila9qhwzjm55256zqd9s9-linux-5.15.72"
+      ],
+      "url": "github:flox/nixpkgs/285e77efe87df64105ec14b204de6636fb0a7a27"
+    },
+    "source": {
+      "locked": {
+        "revCount": 416449,
+        "lastModified": 1665449268
+      }
+    }
+  },
+  "5.15.68": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.68",
+      "pname": "linux",
+      "name": "linux-5.15.68",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/3x2r29jm8cyaa07sgqy614461y09prgv-linux-5.15.68-dev",
+        "out": "/nix/store/5c8hc98dr89l3dycn5vbn7gfrh3m15as-linux-5.15.68"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel/linux-5.15.nix:6",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux-libre"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/5c8hc98dr89l3dycn5vbn7gfrh3m15as-linux-5.15.68"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
   "5.15.74": {
     "type": "catalogRender",
     "schema": 1,
@@ -37,88 +119,6 @@
       "locked": {
         "revCount": 420742,
         "lastModified": 1666703756
-      }
-    }
-  },
-  "5.15.49": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.49",
-      "pname": "linux",
-      "name": "linux-5.15.49",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/wzqq10f4szn3w7ir4bkqrsdkx1s1b6kl-linux-5.15.49-dev",
-        "out": "/nix/store/wk5w3izawc3w7avr0aflpz2wx33p8jrg-linux-5.15.49"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/k15pfq5hmrpxyyg9cni3az7a8z11vmaa-source/pkgs/os-specific/linux/kernel/linux-5.15.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux-libre"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/wk5w3izawc3w7avr0aflpz2wx33p8jrg-linux-5.15.49"
-      ],
-      "url": "github:flox/nixpkgs/020c74014b9e2fa905bb4059c979965816cd9118"
-    },
-    "source": {
-      "locked": {
-        "revCount": 388641,
-        "lastModified": 1656372800
-      }
-    }
-  },
-  "5.15.58": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.15.58",
-      "pname": "linux",
-      "name": "linux-5.15.58",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/p5zsxssrsfi0kmp3skixji3smqqypc1h-linux-5.15.58-dev",
-        "out": "/nix/store/cll96hjqng8zmbmmv8gq9jgdng2fr5n5-linux-5.15.58"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper)",
-        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel/linux-5.15.nix:6",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux-libre"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cll96hjqng8zmbmmv8gq9jgdng2fr5n5-linux-5.15.58"
-      ],
-      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
-    },
-    "source": {
-      "locked": {
-        "revCount": 397203,
-        "lastModified": 1659487974
       }
     }
   }

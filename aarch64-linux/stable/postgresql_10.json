@@ -1,4 +1,96 @@
 {
+  "10.22": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.22",
+      "pname": "postgresql",
+      "name": "postgresql-10.22",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/16mli2bgv0bgi4vqgbjnsx18q9715nl8-postgresql-10.22-debug",
+        "doc": "/nix/store/4cd5yjcda320vdh9sc1qc4xn0sm6amhy-postgresql-10.22-doc",
+        "lib": "/nix/store/lkdw6cr9xw5dmwy5n0j1r6ibzl3hs5sz-postgresql-10.22-lib",
+        "man": "/nix/store/cian964xnxggn2pskcl97rhpv0hjd9nc-postgresql-10.22-man",
+        "out": "/nix/store/974slra5hn23alfknl865iiwz9nnjkag-postgresql-10.22"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/sql/postgresql/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "postgresql_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/974slra5hn23alfknl865iiwz9nnjkag-postgresql-10.22",
+        "/nix/store/cian964xnxggn2pskcl97rhpv0hjd9nc-postgresql-10.22-man"
+      ],
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+    },
+    "source": {
+      "locked": {
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "10.21": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "10.21",
+      "pname": "postgresql",
+      "name": "postgresql-10.21",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/71p08ipx7k3d95j1zkflz93f4cyj4my4-postgresql-10.21-debug",
+        "doc": "/nix/store/483j96q82rnh61d90k2b3yhbwji8vixr-postgresql-10.21-doc",
+        "lib": "/nix/store/xb519dxk5y20q7kgrv082c9rybppi9dm-postgresql-10.21-lib",
+        "man": "/nix/store/lxd66i6q0p4d8qqykkx5d5jfaazykjir-postgresql-10.21-man",
+        "out": "/nix/store/iwmmcn5m85x2lmd4bb2nid25bcywpcgy-postgresql-10.21"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "A powerful, open source object-relational database system",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/sql/postgresql/default.nix:163",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "postgresql_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/iwmmcn5m85x2lmd4bb2nid25bcywpcgy-postgresql-10.21",
+        "/nix/store/lxd66i6q0p4d8qqykkx5d5jfaazykjir-postgresql-10.21-man"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
   "10.20": {
     "type": "catalogRender",
     "schema": 1,
@@ -42,98 +134,6 @@
       "locked": {
         "revCount": 379159,
         "lastModified": 1653060744
-      }
-    }
-  },
-  "10.19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.19",
-      "pname": "postgresql",
-      "name": "postgresql-10.19",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/1z5s419a1p7rml38dhm05fjspagls5av-postgresql-10.19-debug",
-        "doc": "/nix/store/1m4fmi10bm417pak70hvs78kyqq7cvfv-postgresql-10.19-doc",
-        "lib": "/nix/store/lb80jpmhzqbdldlr08gilzhpl4iiqrim-postgresql-10.19-lib",
-        "man": "/nix/store/8sjbx8y6ck0nqnaapmqxr7ql4gn7gv19-postgresql-10.19-man",
-        "out": "/nix/store/xqygqvanmg9mirrlh32ms5q3msjxfg6m-postgresql-10.19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/sql/postgresql/default.nix:164",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "postgresql_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xqygqvanmg9mirrlh32ms5q3msjxfg6m-postgresql-10.19",
-        "/nix/store/8sjbx8y6ck0nqnaapmqxr7ql4gn7gv19-postgresql-10.19-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
-      }
-    }
-  },
-  "10.21": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "10.21",
-      "pname": "postgresql",
-      "name": "postgresql-10.21",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/v2wsw7w81j6wyx78dr5gspkcc3qb0nfh-postgresql-10.21-debug",
-        "doc": "/nix/store/pf3q4fr3g1rx9caqn7ivqh6a1g87ipnx-postgresql-10.21-doc",
-        "lib": "/nix/store/7bkb3sw5sylk8nw2ig5r31sp5jmdizxm-postgresql-10.21-lib",
-        "man": "/nix/store/x4ff2yjibj671jahp8w3zphrm9s44mi8-postgresql-10.21-man",
-        "out": "/nix/store/lj4ds38fs0ss36r2w0gnfpg6ifc8365m-postgresql-10.21"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "A powerful, open source object-relational database system",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/sql/postgresql/default.nix:164",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "postgresql_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/lj4ds38fs0ss36r2w0gnfpg6ifc8365m-postgresql-10.21",
-        "/nix/store/x4ff2yjibj671jahp8w3zphrm9s44mi8-postgresql-10.21-man"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

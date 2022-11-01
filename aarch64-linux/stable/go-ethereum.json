@@ -1,23 +1,23 @@
 {
-  "1.10.17": {
+  "1.10.25": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.10.17",
+      "version": "1.10.25",
       "pname": "go-ethereum",
-      "name": "go-ethereum-1.10.17",
+      "name": "go-ethereum-1.10.25",
       "system": "aarch64-linux",
       "outputs": {
-        "clef": "/nix/store/38wda7g86vc0gnw9a3ny1xxhinqwxsra-go-ethereum-1.10.17-clef",
-        "geth": "/nix/store/2k704xwyyqjzs46icn8pwszf838ml358-go-ethereum-1.10.17-geth",
-        "out": "/nix/store/6pzv8rlzc49ip1qpqbmzdfsq7cbs3vyc-go-ethereum-1.10.17"
+        "clef": "/nix/store/l0lwipb70ymmrmy7nyxi3xyd2ydlclnw-go-ethereum-1.10.25-clef",
+        "geth": "/nix/store/i64gf7g9m4arnqn7bnj5zzh6hshfn8l4-go-ethereum-1.10.25-geth",
+        "out": "/nix/store/qk3217wzikfi5shdyv4nd7w0k6zxp0qp-go-ethereum-1.10.25"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Official golang implementation of the Ethereum protocol",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/blockchains/go-ethereum/default.nix:57",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/blockchains/go-ethereum/default.nix:60",
         "unfree": false
       }
     },
@@ -30,56 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/6pzv8rlzc49ip1qpqbmzdfsq7cbs3vyc-go-ethereum-1.10.17"
+        "/nix/store/qk3217wzikfi5shdyv4nd7w0k6zxp0qp-go-ethereum-1.10.25"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.10.15": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.15",
-      "pname": "go-ethereum",
-      "name": "go-ethereum-1.10.15",
-      "system": "aarch64-linux",
-      "outputs": {
-        "clef": "/nix/store/yvyzrrjsmd394d88sh80vi2n31didlp7-go-ethereum-1.10.15-clef",
-        "geth": "/nix/store/63zd476xd0lyy44fbmyz1hi80vvzrks6-go-ethereum-1.10.15-geth",
-        "out": "/nix/store/zvs56010w8hi3yb22wsm2x60721fcylc-go-ethereum-1.10.15"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Official golang implementation of the Ethereum protocol",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/blockchains/go-ethereum/default.nix:57",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "go-ethereum"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/zvs56010w8hi3yb22wsm2x60721fcylc-go-ethereum-1.10.15"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -122,6 +80,48 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "1.10.20": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.20",
+      "pname": "go-ethereum",
+      "name": "go-ethereum-1.10.20",
+      "system": "aarch64-linux",
+      "outputs": {
+        "clef": "/nix/store/2p14ibaahy0yjm8b7mcipb9kfd3bdyhh-go-ethereum-1.10.20-clef",
+        "geth": "/nix/store/950749hp1v9gaai696vb9s931hbdfc91-go-ethereum-1.10.20-geth",
+        "out": "/nix/store/cl5lpkai9837vd81vf6sbiigai4hyz1q-go-ethereum-1.10.20"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Official golang implementation of the Ethereum protocol",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/blockchains/go-ethereum/default.nix:57",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "go-ethereum"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cl5lpkai9837vd81vf6sbiigai4hyz1q-go-ethereum-1.10.20"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

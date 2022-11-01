@@ -1,21 +1,21 @@
 {
-  "1.0.74": {
+  "1.0.79": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.0.74",
+      "version": "1.0.79",
       "pname": "ventoy-bin",
-      "name": "ventoy-bin-1.0.74",
+      "name": "ventoy-bin-1.0.79",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/cp6v39x9q8xbgd1gmj1f39yy7zf0drm4-ventoy-bin-1.0.74"
+        "out": "/nix/store/0isw91dbvgd6g6vwfix72xvgrz81i115-ventoy-bin-1.0.79"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "An open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/cd-dvd/ventoy-bin/default.nix:121",
+        "description": "A New Bootable USB Solution",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/tools/cd-dvd/ventoy-bin/default.nix:189",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/cp6v39x9q8xbgd1gmj1f39yy7zf0drm4-ventoy-bin-1.0.74"
+        "/nix/store/0isw91dbvgd6g6vwfix72xvgrz81i115-ventoy-bin-1.0.79"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "1.0.78": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.0.78",
+      "pname": "ventoy-bin",
+      "name": "ventoy-bin-1.0.78",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/ydqb19f682wr0s1qln7bckgjq2ixpckn-ventoy-bin-1.0.78"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A New Bootable USB Solution",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/tools/cd-dvd/ventoy-bin/default.nix:191",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ventoy-bin"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/ydqb19f682wr0s1qln7bckgjq2ixpckn-ventoy-bin-1.0.78"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "1.0.78": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.0.78",
-      "pname": "ventoy-bin",
-      "name": "ventoy-bin-1.0.78",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/2823n00k9s4xxhkcvr21m6f3j0s3a7a4-ventoy-bin-1.0.78"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A New Bootable USB Solution",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/tools/cd-dvd/ventoy-bin/default.nix:191",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ventoy-bin"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/2823n00k9s4xxhkcvr21m6f3j0s3a7a4-ventoy-bin-1.0.78"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
       }
     }
   }

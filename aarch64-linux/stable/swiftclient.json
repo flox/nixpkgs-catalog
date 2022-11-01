@@ -1,21 +1,21 @@
 {
-  "3.13.1": {
+  "4.1.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "3.13.1",
+      "version": "4.1.0",
       "pname": "python-swiftclient",
-      "name": "python-swiftclient-3.13.1",
+      "name": "python-swiftclient-4.1.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/f9gmwx5krdkkn1j2lkh259zh5bi0pjh3-python-swiftclient-3.13.1"
+        "out": "/nix/store/dsa169851g9dh49av5x1ri8mvcrk4ysy-python-swiftclient-4.1.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Python bindings to the OpenStack Object Storage API",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/python-modules/python-swiftclient/default.nix:40",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/python-modules/python-swiftclient/default.nix:56",
         "unfree": false
       }
     },
@@ -28,14 +28,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/f9gmwx5krdkkn1j2lkh259zh5bi0pjh3-python-swiftclient-3.13.1"
+        "/nix/store/dsa169851g9dh49av5x1ri8mvcrk4ysy-python-swiftclient-4.1.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "4.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "4.0.1",
+      "pname": "python-swiftclient",
+      "name": "python-swiftclient-4.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/6k0s3b6g29hxyd3lmnbknk8bf1h1yf1g-python-swiftclient-4.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Python bindings to the OpenStack Object Storage API",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/python-modules/python-swiftclient/default.nix:56",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "swiftclient"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/6k0s3b6g29hxyd3lmnbknk8bf1h1yf1g-python-swiftclient-4.0.1"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   },
@@ -76,46 +116,6 @@
       "locked": {
         "revCount": 385289,
         "lastModified": 1655221618
-      }
-    }
-  },
-  "3.13.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "3.13.0",
-      "pname": "python-swiftclient",
-      "name": "python-swiftclient-3.13.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/j8lln64dspzljbvm7x2df6i6lmgq36fn-python-swiftclient-3.13.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Python bindings to the OpenStack Object Storage API",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/python-modules/python-swiftclient/default.nix:40",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "swiftclient"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/j8lln64dspzljbvm7x2df6i6lmgq36fn-python-swiftclient-3.13.0"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
       }
     }
   }

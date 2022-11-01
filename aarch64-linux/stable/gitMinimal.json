@@ -1,22 +1,22 @@
 {
-  "2.36.0": {
+  "2.37.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.36.0",
+      "version": "2.37.2",
       "pname": "git-minimal",
-      "name": "git-minimal-2.36.0",
+      "name": "git-minimal-2.37.2",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/9xlrda9g86zsxiqda7sn9lpc8j6hhc4w-git-minimal-2.36.0-debug",
-        "out": "/nix/store/prw2gnm16r9m54akbx3ni207hh6b4xh3-git-minimal-2.36.0"
+        "debug": "/nix/store/r812p2qpymn5jk5nk5xqippr3y2bmk8b-git-minimal-2.37.2-debug",
+        "out": "/nix/store/mvv1hi282b5ix6lj38krjlh3bj72a56y-git-minimal-2.37.2"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Distributed version control system",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/version-management/git-and-tools/git/default.nix:378",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/version-management/git-and-tools/git/default.nix:383",
         "unfree": false
       }
     },
@@ -29,54 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/prw2gnm16r9m54akbx3ni207hh6b4xh3-git-minimal-2.36.0"
+        "/nix/store/mvv1hi282b5ix6lj38krjlh3bj72a56y-git-minimal-2.37.2"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.34.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.34.1",
-      "pname": "git",
-      "name": "git-minimal-2.34.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/l2glpyck2m8xslf47zhvw2bygm7jfqsh-git-2.34.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Distributed version control system",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/applications/version-management/git-and-tools/git/default.nix:369",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "gitMinimal"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/l2glpyck2m8xslf47zhvw2bygm7jfqsh-git-2.34.1"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -118,6 +78,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "2.37.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.0",
+      "pname": "git-minimal",
+      "name": "git-minimal-2.37.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/2zaqrk0dgblhrl3ph45m1iawp1yv20lj-git-minimal-2.37.0-debug",
+        "out": "/nix/store/m0nw8q2yjl5f8w14iigd5ssba1mqik1k-git-minimal-2.37.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Distributed version control system",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/version-management/git-and-tools/git/default.nix:378",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "gitMinimal"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/m0nw8q2yjl5f8w14iigd5ssba1mqik1k-git-minimal-2.37.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

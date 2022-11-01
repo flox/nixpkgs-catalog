@@ -1,19 +1,19 @@
 {
-  "2.37.4": {
+  "2.38.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.37.4",
+      "version": "2.38.1",
       "pname": "util-linux-minimal",
-      "name": "util-linux-minimal-2.37.4",
+      "name": "util-linux-minimal-2.38.1",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/f0cld1fyjvm5107p4sihrn51j6knp7b7-util-linux-minimal-2.37.4-bin",
-        "debug": "/nix/store/4m6s4s1qz7is59v71a6rm6172sn5hxsm-util-linux-minimal-2.37.4-debug",
-        "dev": "/nix/store/crzdbqnrdbgq2zgifgrk653h6rd6bj75-util-linux-minimal-2.37.4-dev",
-        "lib": "/nix/store/gij6czmw6qq4jklmwnifdir799cn8jp3-util-linux-minimal-2.37.4-lib",
-        "man": "/nix/store/16lxjjny09rq495f5rv6my6r44ga7hs2-util-linux-minimal-2.37.4-man",
-        "out": "/nix/store/vfvn734j800fwp8zyg1c9fjy518b2p5w-util-linux-minimal-2.37.4"
+        "bin": "/nix/store/bip3fhzpvms2582lmplr5brydmmij35q-util-linux-minimal-2.38.1-bin",
+        "debug": "/nix/store/s9sbf2rvb3py4yqjk32ppc9ckdc3fhdk-util-linux-minimal-2.38.1-debug",
+        "dev": "/nix/store/022zwgvwql14l82vcrzrma1408i8q1gx-util-linux-minimal-2.38.1-dev",
+        "lib": "/nix/store/51jpq2ggmxy3bwspcxmg76s9b1jqfg61-util-linux-minimal-2.38.1-lib",
+        "man": "/nix/store/bzrv6w3wjn4q0ffqa6pxajc6m1sp9xk0-util-linux-minimal-2.38.1-man",
+        "out": "/nix/store/cmqhl97nnhrvqzvx2dqqx1r4lfq42c85-util-linux-minimal-2.38.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -21,7 +21,7 @@
           "man"
         ],
         "description": "A set of system utilities for Linux",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/util-linux/default.nix:72",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/util-linux/default.nix:83",
         "unfree": false
       }
     },
@@ -34,62 +34,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/f0cld1fyjvm5107p4sihrn51j6knp7b7-util-linux-minimal-2.37.4-bin",
-        "/nix/store/16lxjjny09rq495f5rv6my6r44ga7hs2-util-linux-minimal-2.37.4-man"
+        "/nix/store/bip3fhzpvms2582lmplr5brydmmij35q-util-linux-minimal-2.38.1-bin",
+        "/nix/store/bzrv6w3wjn4q0ffqa6pxajc6m1sp9xk0-util-linux-minimal-2.38.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.37.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.37.2",
-      "pname": "util-linux",
-      "name": "util-linux-minimal-2.37.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/1918wd1jdv5c1fjzjx34j7v5hc6ji78s-util-linux-2.37.2-bin",
-        "debug": "/nix/store/ay5ff1y5rm536ndqx4nh9rcm40b2w2rm-util-linux-2.37.2-debug",
-        "dev": "/nix/store/6vcjk4xkhzm8c58ipca68b6pmpqgzv9r-util-linux-2.37.2-dev",
-        "lib": "/nix/store/rqw0hiyinpk5qcbm8dyzckq5bhbf5sbv-util-linux-2.37.2-lib",
-        "man": "/nix/store/966yq9qnmgjg6jz94bbn8qw3qdpyvq85-util-linux-2.37.2-man",
-        "out": "/nix/store/9dgscyxa0nn5nrscdwmhscnij93ps6a7-util-linux-2.37.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A set of system utilities for Linux",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/util-linux/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libuuid"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1918wd1jdv5c1fjzjx34j7v5hc6ji78s-util-linux-2.37.2-bin",
-        "/nix/store/966yq9qnmgjg6jz94bbn8qw3qdpyvq85-util-linux-2.37.2-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -102,12 +55,12 @@
       "name": "util-linux-minimal-2.38",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/ih9ccr0z0xaisgzwawim11ns4xi37rz9-util-linux-minimal-2.38-bin",
-        "debug": "/nix/store/hw565b2k785cs5lh0z566s04bv7r1138-util-linux-minimal-2.38-debug",
-        "dev": "/nix/store/mnry8sq5222cykac27faqyp97f551mx8-util-linux-minimal-2.38-dev",
-        "lib": "/nix/store/dms66hlpls5lm2r981fp2yz1wlfmm5ad-util-linux-minimal-2.38-lib",
-        "man": "/nix/store/magg4l4nb2dsnj9jp4f7zg13bcv8wv0d-util-linux-minimal-2.38-man",
-        "out": "/nix/store/0g95ij6i9gsnl2vc52r92hd345gpmndy-util-linux-minimal-2.38"
+        "bin": "/nix/store/3h66q8b4rrlqpsr7rbnvcdaq01hjv3c2-util-linux-minimal-2.38-bin",
+        "debug": "/nix/store/6vsrr5rpbzwsn33hbm1b0l0achxzs0bq-util-linux-minimal-2.38-debug",
+        "dev": "/nix/store/8p4xa058v1aqy2zkb8wmrn102v3xln1f-util-linux-minimal-2.38-dev",
+        "lib": "/nix/store/0kjfb41yk4bcyw29dzswadmxmkx38hd1-util-linux-minimal-2.38-lib",
+        "man": "/nix/store/k6alaswhp2gs7cjnqvcynx94yxin1l32-util-linux-minimal-2.38-man",
+        "out": "/nix/store/8mrckbhqyzi882vc8z3yff9sqp6a74a4-util-linux-minimal-2.38"
       },
       "meta": {
         "outputsToInstall": [
@@ -115,7 +68,7 @@
           "man"
         ],
         "description": "A set of system utilities for Linux",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/util-linux/default.nix:83",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/util-linux/default.nix:83",
         "unfree": false
       }
     },
@@ -128,15 +81,62 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/ih9ccr0z0xaisgzwawim11ns4xi37rz9-util-linux-minimal-2.38-bin",
-        "/nix/store/magg4l4nb2dsnj9jp4f7zg13bcv8wv0d-util-linux-minimal-2.38-man"
+        "/nix/store/3h66q8b4rrlqpsr7rbnvcdaq01hjv3c2-util-linux-minimal-2.38-bin",
+        "/nix/store/k6alaswhp2gs7cjnqvcynx94yxin1l32-util-linux-minimal-2.38-man"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "2.37.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.4",
+      "pname": "util-linux-minimal",
+      "name": "util-linux-minimal-2.37.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/63bhbxymhbh05dq9k9v9nd1aiwxygc62-util-linux-minimal-2.37.4-bin",
+        "debug": "/nix/store/7fs5wb37k4gwr05q9w8brc5z0q3cr2v4-util-linux-minimal-2.37.4-debug",
+        "dev": "/nix/store/ag70wzrc30pi4zd6gpzfmlf7m5036pkc-util-linux-minimal-2.37.4-dev",
+        "lib": "/nix/store/pb4a2nblzpcf3gdvpzrcb0scj534rr38-util-linux-minimal-2.37.4-lib",
+        "man": "/nix/store/267fd4lmp1ifmrjmp5znn1l7dam53xi9-util-linux-minimal-2.37.4-man",
+        "out": "/nix/store/d9bfli5rj75r2jn2zxl7vh50y2rrvv80-util-linux-minimal-2.37.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A set of system utilities for Linux",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/util-linux/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libuuid"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/63bhbxymhbh05dq9k9v9nd1aiwxygc62-util-linux-minimal-2.37.4-bin",
+        "/nix/store/267fd4lmp1ifmrjmp5znn1l7dam53xi9-util-linux-minimal-2.37.4-man"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

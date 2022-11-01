@@ -1,44 +1,4 @@
 {
-  "0.20.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.20.5",
-      "pname": "cargo-release",
-      "name": "cargo-release-0.20.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/xwavnvrx7hnk2w42cywx1rh0kzgjbgbl-cargo-release-0.20.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Cargo subcommand \"release\": everything about releasing a rust crate",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/package-management/cargo-release/default.nix:22",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "cargo-release"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xwavnvrx7hnk2w42cywx1rh0kzgjbgbl-cargo-release-0.20.5"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "0.21.1": {
     "type": "catalogRender",
     "schema": 1,
@@ -79,23 +39,23 @@
       }
     }
   },
-  "0.19.0": {
+  "0.21.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.19.0",
+      "version": "0.21.0",
       "pname": "cargo-release",
-      "name": "cargo-release-0.19.0",
+      "name": "cargo-release-0.21.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/h6wxhcyj1krhcyhh3m5xnayz0vg237i5-cargo-release-0.19.0"
+        "out": "/nix/store/cag7y37saw6hi42n7zch3xwzrhsf66yk-cargo-release-0.21.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Cargo subcommand \"release\": everything about releasing a rust crate",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/tools/package-management/cargo-release/default.nix:22",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/tools/rust/cargo-release/default.nix:22",
         "unfree": false
       }
     },
@@ -108,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/h6wxhcyj1krhcyhh3m5xnayz0vg237i5-cargo-release-0.19.0"
+        "/nix/store/cag7y37saw6hi42n7zch3xwzrhsf66yk-cargo-release-0.21.0"
       ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
     },
     "source": {
       "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 394203,
+        "lastModified": 1658826464
+      }
+    }
+  },
+  "0.20.5": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.20.5",
+      "pname": "cargo-release",
+      "name": "cargo-release-0.20.5",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/xwavnvrx7hnk2w42cywx1rh0kzgjbgbl-cargo-release-0.20.5"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Cargo subcommand \"release\": everything about releasing a rust crate",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/tools/package-management/cargo-release/default.nix:22",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "cargo-release"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xwavnvrx7hnk2w42cywx1rh0kzgjbgbl-cargo-release-0.20.5"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

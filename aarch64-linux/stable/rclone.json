@@ -1,15 +1,15 @@
 {
-  "1.58.1": {
+  "1.59.2": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "1.58.1",
+      "version": "1.59.2",
       "pname": "rclone",
-      "name": "rclone-1.58.1",
+      "name": "rclone-1.59.2",
       "system": "aarch64-linux",
       "outputs": {
-        "man": "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man",
-        "out": "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1"
+        "man": "/nix/store/r2wyfllpiyl3qkhrf5db0by6z8vjmvzs-rclone-1.59.2-man",
+        "out": "/nix/store/ihyaggi2lvad5j530r54pffc3bry30nd-rclone-1.59.2"
       },
       "meta": {
         "outputsToInstall": [
@@ -17,7 +17,7 @@
           "man"
         ],
         "description": "Command line program to sync files and directories to and from major cloud storage",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/networking/sync/rclone/default.nix:53",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/sync/rclone/default.nix:53",
         "unfree": false
       }
     },
@@ -30,58 +30,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1mrbvv2vnhs3sh1w5ml1bqi3kjq9c8zv-rclone-1.58.1",
-        "/nix/store/s5y6yd3wz2x76laimh87q0d2xx697az1-rclone-1.58.1-man"
+        "/nix/store/ihyaggi2lvad5j530r54pffc3bry30nd-rclone-1.59.2",
+        "/nix/store/r2wyfllpiyl3qkhrf5db0by6z8vjmvzs-rclone-1.59.2-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "1.57.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.57.0",
-      "pname": "rclone",
-      "name": "rclone-1.57.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "man": "/nix/store/9x8539pv4534m6s8dq6yq38h1k9ns27k-rclone-1.57.0-man",
-        "out": "/nix/store/1w9dj24nzw5d62qjjxyj7a3aqpk4gh9g-rclone-1.57.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out",
-          "man"
-        ],
-        "description": "Command line program to sync files and directories to and from major cloud storage",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/applications/networking/sync/rclone/default.nix:48",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "rclone"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/1w9dj24nzw5d62qjjxyj7a3aqpk4gh9g-rclone-1.57.0",
-        "/nix/store/9x8539pv4534m6s8dq6yq38h1k9ns27k-rclone-1.57.0-man"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -125,6 +82,49 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "1.59.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.59.0",
+      "pname": "rclone",
+      "name": "rclone-1.59.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "man": "/nix/store/v5l0crhzi9czd8pf3mdxh1cpb82d136k-rclone-1.59.0-man",
+        "out": "/nix/store/kpndbjshkay6wfcyp8smvdqgxildl6vg-rclone-1.59.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out",
+          "man"
+        ],
+        "description": "Command line program to sync files and directories to and from major cloud storage",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/networking/sync/rclone/default.nix:53",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "rclone"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/kpndbjshkay6wfcyp8smvdqgxildl6vg-rclone-1.59.0",
+        "/nix/store/v5l0crhzi9czd8pf3mdxh1cpb82d136k-rclone-1.59.0-man"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

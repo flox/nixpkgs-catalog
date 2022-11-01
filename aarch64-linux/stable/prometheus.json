@@ -1,21 +1,21 @@
 {
-  "2.35.0": {
+  "2.38.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.35.0",
+      "version": "2.38.0",
       "pname": "prometheus",
-      "name": "prometheus-2.35.0",
+      "name": "prometheus-2.38.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/mdi3w2pgvb6358ib385mq073js3zrv5p-prometheus-2.35.0"
+        "out": "/nix/store/6k88c2lamp49krvi7j42c0338kyixppr-prometheus-2.38.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Service monitoring system and time series database",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/servers/monitoring/prometheus/default.nix:128",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/prometheus/default.nix:140",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/mdi3w2pgvb6358ib385mq073js3zrv5p-prometheus-2.35.0"
+        "/nix/store/6k88c2lamp49krvi7j42c0338kyixppr-prometheus-2.38.0"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.30.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.30.3",
-      "pname": "prometheus",
-      "name": "prometheus-2.30.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/avdy8dd43mgi8m9jrwr88p4l4qand5zs-prometheus-2.30.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Service monitoring system and time series database",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/servers/monitoring/prometheus/default.nix:186",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "prometheus"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/avdy8dd43mgi8m9jrwr88p4l4qand5zs-prometheus-2.30.3"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -88,14 +48,14 @@
       "name": "prometheus-2.36.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/2b32hgamn0dvsrv740q46mgz7f287422-prometheus-2.36.0"
+        "out": "/nix/store/36m1jqm9gmy15kki6zgnxp3halwv9ly2-prometheus-2.36.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Service monitoring system and time series database",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/servers/monitoring/prometheus/default.nix:137",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/servers/monitoring/prometheus/default.nix:137",
         "unfree": false
       }
     },
@@ -108,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/2b32hgamn0dvsrv740q46mgz7f287422-prometheus-2.36.0"
+        "/nix/store/36m1jqm9gmy15kki6zgnxp3halwv9ly2-prometheus-2.36.0"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "2.35.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.35.0",
+      "pname": "prometheus",
+      "name": "prometheus-2.35.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/illlwh0ni23y5hlkwgjp8j7amgn8p26m-prometheus-2.35.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Service monitoring system and time series database",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/servers/monitoring/prometheus/default.nix:128",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "prometheus"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/illlwh0ni23y5hlkwgjp8j7amgn8p26m-prometheus-2.35.0"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

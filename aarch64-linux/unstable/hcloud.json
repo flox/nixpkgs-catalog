@@ -1,4 +1,44 @@
 {
+  "1.30.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.30.1",
+      "pname": "hcloud",
+      "name": "hcloud-1.30.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/l50iaysgspvparlxnj14f3g2965zlwda-hcloud-1.30.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A command-line interface for Hetzner Cloud, a provider for cloud virtual private servers",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/tools/hcloud/default.nix:31",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "hcloud"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/l50iaysgspvparlxnj14f3g2965zlwda-hcloud-1.30.1"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
+      }
+    }
+  },
   "1.30.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -36,46 +76,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "1.29.5": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.29.5",
-      "pname": "hcloud",
-      "name": "hcloud-1.29.5",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/xjkmfavpi9kz00dk6q45kk5va68wml8p-hcloud-1.29.5"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A command-line interface for Hetzner Cloud, a provider for cloud virtual private servers",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/tools/hcloud/default.nix:31",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "hcloud"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/xjkmfavpi9kz00dk6q45kk5va68wml8p-hcloud-1.29.5"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
       }
     }
   },

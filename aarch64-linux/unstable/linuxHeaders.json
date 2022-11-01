@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.17": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.17",
-      "pname": "linux-headers",
-      "name": "linux-headers-5.17",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/mjssm2sh4l3hi14zfl8crja4wswvh6wj-linux-headers-5.17"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Header files and scripts for Linux kernel",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/os-specific/linux/kernel-headers/default.nix:79",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linuxHeaders"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/mjssm2sh4l3hi14zfl8crja4wswvh6wj-linux-headers-5.17"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "5.19": {
     "type": "catalogRender",
     "schema": 1,
@@ -88,14 +48,14 @@
       "name": "linux-headers-5.19",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/j2731bvs5viga4dc879mggsjp6xn1i96-linux-headers-5.19"
+        "out": "/nix/store/l9c1zcnqsqzvn5z950iqs7q0n6iylbv3-linux-headers-5.19"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Header files and scripts for Linux kernel",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel-headers/default.nix:79",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/os-specific/linux/kernel-headers/default.nix:79",
         "unfree": false
       }
     },
@@ -108,14 +68,54 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/j2731bvs5viga4dc879mggsjp6xn1i96-linux-headers-5.19"
+        "/nix/store/l9c1zcnqsqzvn5z950iqs7q0n6iylbv3-linux-headers-5.19"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "5.18": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.18",
+      "pname": "linux-headers",
+      "name": "linux-headers-5.18",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/xrwmdrq3r07di9505yb1fa85zgfld3vj-linux-headers-5.18"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Header files and scripts for Linux kernel",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/os-specific/linux/kernel-headers/default.nix:79",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linuxHeaders"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/xrwmdrq3r07di9505yb1fa85zgfld3vj-linux-headers-5.18"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

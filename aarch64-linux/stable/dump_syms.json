@@ -1,44 +1,4 @@
 {
-  "unstable-2022-05-05": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unstable-2022-05-05",
-      "pname": "dump_syms",
-      "name": "dump_syms-unstable-2022-05-05",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/64yzsyzb07zdvzs8yrkja3bjqxkhzdsp-dump_syms-unstable-2022-05-05"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Command-line utility for parsing the debugging information the compiler provides in ELF or stand-alone PDB files",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/dump_syms/default.nix:47",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "dump_syms"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/64yzsyzb07zdvzs8yrkja3bjqxkhzdsp-dump_syms-unstable-2022-05-05"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "2.0.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "unstable-2022-05-05": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "unstable-2022-05-05",
+      "pname": "dump_syms",
+      "name": "dump_syms-unstable-2022-05-05",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/64yzsyzb07zdvzs8yrkja3bjqxkhzdsp-dump_syms-unstable-2022-05-05"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Command-line utility for parsing the debugging information the compiler provides in ELF or stand-alone PDB files",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/tools/dump_syms/default.nix:47",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dump_syms"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/64yzsyzb07zdvzs8yrkja3bjqxkhzdsp-dump_syms-unstable-2022-05-05"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   }

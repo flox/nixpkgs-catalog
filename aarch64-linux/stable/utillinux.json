@@ -1,19 +1,19 @@
 {
-  "2.37.4": {
+  "2.38.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "2.37.4",
+      "version": "2.38.1",
       "pname": "util-linux",
-      "name": "util-linux-2.37.4",
+      "name": "util-linux-2.38.1",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/1h8j3c6vvbpd1cib0npcyfag1mj8wvap-util-linux-2.37.4-bin",
-        "debug": "/nix/store/8006l8i8kmrch8qdyalnljnpj4s2a2hl-util-linux-2.37.4-debug",
-        "dev": "/nix/store/3rh1xd9wfs9drqm70ajfm4bicjqis0mm-util-linux-2.37.4-dev",
-        "lib": "/nix/store/klnk0ph0cnzbixjyljjhizhh7fcwckq6-util-linux-2.37.4-lib",
-        "man": "/nix/store/xdzsl68gx7ayc1mkqvqz9syfw5wam0qm-util-linux-2.37.4-man",
-        "out": "/nix/store/ibkl89xshsiykdkin9y4a59jwcfibc98-util-linux-2.37.4"
+        "bin": "/nix/store/rqwmic0fk50x2ig8bvdapwfg5i410xw1-util-linux-2.38.1-bin",
+        "debug": "/nix/store/3w860249an9iz69ifrd0f8cj0xjjpbns-util-linux-2.38.1-debug",
+        "dev": "/nix/store/2gvscnziy0b9c0k8xnly2vz1x8k47z64-util-linux-2.38.1-dev",
+        "lib": "/nix/store/jyzvwyvf8jdv5dn221c3h95ca253z4yz-util-linux-2.38.1-lib",
+        "man": "/nix/store/lx6wh7zpqfr5rnaa6wwgix91h4ybn7if-util-linux-2.38.1-man",
+        "out": "/nix/store/cvlczll5azmd49ra2k70pf0l5505k3gp-util-linux-2.38.1"
       },
       "meta": {
         "outputsToInstall": [
@@ -21,7 +21,7 @@
           "man"
         ],
         "description": "A set of system utilities for Linux",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/util-linux/default.nix:72",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/util-linux/default.nix:83",
         "unfree": false
       }
     },
@@ -34,62 +34,15 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1h8j3c6vvbpd1cib0npcyfag1mj8wvap-util-linux-2.37.4-bin",
-        "/nix/store/xdzsl68gx7ayc1mkqvqz9syfw5wam0qm-util-linux-2.37.4-man"
+        "/nix/store/rqwmic0fk50x2ig8bvdapwfg5i410xw1-util-linux-2.38.1-bin",
+        "/nix/store/lx6wh7zpqfr5rnaa6wwgix91h4ybn7if-util-linux-2.38.1-man"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "2.37.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "2.37.2",
-      "pname": "util-linux",
-      "name": "util-linux-2.37.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "bin": "/nix/store/58fhfrpsggd826rf65xi33mh22vlgivr-util-linux-2.37.2-bin",
-        "debug": "/nix/store/r6amjv2drf3cpya6kkxjbnzq9ayjjx0z-util-linux-2.37.2-debug",
-        "dev": "/nix/store/ygmpljzkj37kfnralj9528lzfx8gsqid-util-linux-2.37.2-dev",
-        "lib": "/nix/store/1ibz6dm8hxwl3if8mhxqa94v19070r15-util-linux-2.37.2-lib",
-        "man": "/nix/store/ibyrh6alh67qdwz1iym8z1nm425jggz9-util-linux-2.37.2-man",
-        "out": "/nix/store/n28b7k4zarck4xy0jf3vxv9skb2sv8x1-util-linux-2.37.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "bin",
-          "man"
-        ],
-        "description": "A set of system utilities for Linux",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/util-linux/default.nix:69",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "utillinux"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/58fhfrpsggd826rf65xi33mh22vlgivr-util-linux-2.37.2-bin",
-        "/nix/store/ibyrh6alh67qdwz1iym8z1nm425jggz9-util-linux-2.37.2-man"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -102,12 +55,12 @@
       "name": "util-linux-2.38",
       "system": "aarch64-linux",
       "outputs": {
-        "bin": "/nix/store/xrn98lga2a04qcjdcwdpiknf23542zy7-util-linux-2.38-bin",
-        "debug": "/nix/store/3br2l71q7ij3mvg4dmizfhmfp97cxxas-util-linux-2.38-debug",
-        "dev": "/nix/store/409xcra5qkd05cvy2sys0j56mcr3jlpf-util-linux-2.38-dev",
-        "lib": "/nix/store/a23v8lkrgp9cl7hs0f365hbkc7n6nnsq-util-linux-2.38-lib",
-        "man": "/nix/store/j2v493srp63088vrdksaz843hwgy49sn-util-linux-2.38-man",
-        "out": "/nix/store/jldlnw6xdvbqfi1sbpxg39w27blsghb9-util-linux-2.38"
+        "bin": "/nix/store/b6mgavyqs0dnkx105zbjn8hh0kaif5xw-util-linux-2.38-bin",
+        "debug": "/nix/store/s2gkcqrxdhpcmfb082yp1q4lyssk6793-util-linux-2.38-debug",
+        "dev": "/nix/store/2pl1ki2kwq29qdxb593mxsf7fg8zckg9-util-linux-2.38-dev",
+        "lib": "/nix/store/3vppfdby3iziasgrlllc6dy1pj7ps2lc-util-linux-2.38-lib",
+        "man": "/nix/store/qx9gwqx2j9ga2r0bc471zy5bsjq0550l-util-linux-2.38-man",
+        "out": "/nix/store/a52q5ab7saxd5dzb7fb3aq7d15nws49p-util-linux-2.38"
       },
       "meta": {
         "outputsToInstall": [
@@ -115,7 +68,7 @@
           "man"
         ],
         "description": "A set of system utilities for Linux",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/util-linux/default.nix:83",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/util-linux/default.nix:83",
         "unfree": false
       }
     },
@@ -128,15 +81,62 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/xrn98lga2a04qcjdcwdpiknf23542zy7-util-linux-2.38-bin",
-        "/nix/store/j2v493srp63088vrdksaz843hwgy49sn-util-linux-2.38-man"
+        "/nix/store/b6mgavyqs0dnkx105zbjn8hh0kaif5xw-util-linux-2.38-bin",
+        "/nix/store/qx9gwqx2j9ga2r0bc471zy5bsjq0550l-util-linux-2.38-man"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "2.37.4": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "2.37.4",
+      "pname": "util-linux",
+      "name": "util-linux-2.37.4",
+      "system": "aarch64-linux",
+      "outputs": {
+        "bin": "/nix/store/g7iadlplvfmwkxjndk2nixwlgblvfzbr-util-linux-2.37.4-bin",
+        "debug": "/nix/store/wd7c8yx0qxxrjsv3am16kwlmvyb0bhmz-util-linux-2.37.4-debug",
+        "dev": "/nix/store/qygdsvni3d7zzkiq96lbhkwdp68jyfki-util-linux-2.37.4-dev",
+        "lib": "/nix/store/6gyyjlif5zj27z81h5yn6bjxbwwiw5jh-util-linux-2.37.4-lib",
+        "man": "/nix/store/7m9hgx4w7mw04pz9kliv7zxmmyx20j0d-util-linux-2.37.4-man",
+        "out": "/nix/store/ms7kj2sixgxq7mlwrbv21d8lm5snq3f5-util-linux-2.37.4"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "bin",
+          "man"
+        ],
+        "description": "A set of system utilities for Linux",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/util-linux/default.nix:78",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "utillinux"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/g7iadlplvfmwkxjndk2nixwlgblvfzbr-util-linux-2.37.4-bin",
+        "/nix/store/7m9hgx4w7mw04pz9kliv7zxmmyx20j0d-util-linux-2.37.4-man"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

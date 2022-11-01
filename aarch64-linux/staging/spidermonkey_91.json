@@ -1,45 +1,4 @@
 {
-  "91.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "91.10.0",
-      "pname": "spidermonkey",
-      "name": "spidermonkey-91.10.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/ldsv2zizgxp6xrkj91l9fc33bvx3ia7f-spidermonkey-91.10.0-dev",
-        "out": "/nix/store/795v8ww4mg7mm3z2j0b729s8x95iy5kk-spidermonkey-91.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Mozilla's JavaScript engine written in C/C++",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/interpreters/spidermonkey/91.nix:119",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "spidermonkey_91"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/795v8ww4mg7mm3z2j0b729s8x95iy5kk-spidermonkey-91.10.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "91.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -78,6 +37,47 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
+      }
+    }
+  },
+  "91.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "91.10.0",
+      "pname": "spidermonkey",
+      "name": "spidermonkey-91.10.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/ldsv2zizgxp6xrkj91l9fc33bvx3ia7f-spidermonkey-91.10.0-dev",
+        "out": "/nix/store/795v8ww4mg7mm3z2j0b729s8x95iy5kk-spidermonkey-91.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Mozilla's JavaScript engine written in C/C++",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/development/interpreters/spidermonkey/91.nix:119",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "spidermonkey_91"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/795v8ww4mg7mm3z2j0b729s8x95iy5kk-spidermonkey-91.10.0"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   },

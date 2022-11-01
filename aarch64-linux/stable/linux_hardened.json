@@ -1,22 +1,22 @@
 {
-  "5.15.41": {
+  "5.15.67": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.15.41",
+      "version": "5.15.67",
       "pname": "linux",
-      "name": "linux-5.15.41",
+      "name": "linux-5.15.67",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/bd67i7dvbkyffbkrc96czyjga11pmxpf-linux-5.15.41-dev",
-        "out": "/nix/store/2ardn18zsm2hp1a0f5h4mjcc6gi6h5nz-linux-5.15.41"
+        "dev": "/nix/store/f31y3lp72v7hi35q9q17k1fvj1kcygh4-linux-5.15.67-dev",
+        "out": "/nix/store/56mrjz81jiwzhz9qw6kxgf00z2y56rs2-linux-5.15.67"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.15.41-hardened1)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/top-level/linux-kernels.nix:42",
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.15.67-hardened1)",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/top-level/linux-kernels.nix:42",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/2ardn18zsm2hp1a0f5h4mjcc6gi6h5nz-linux-5.15.41"
+        "/nix/store/56mrjz81jiwzhz9qw6kxgf00z2y56rs2-linux-5.15.67"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "5.10.92": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.10.92",
-      "pname": "linux",
-      "name": "linux-5.10.92",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/jbgybwpzq5xi34ps15pprwxns88rgr53-linux-5.10.92-dev",
-        "out": "/nix/store/50ds0yl1fwbbnfkmqm3lrl3jrznz3jn8-linux-5.10.92"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.10.92-hardened1)",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/top-level/linux-kernels.nix:41",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux_hardened"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/50ds0yl1fwbbnfkmqm3lrl3jrznz3jn8-linux-5.10.92"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -119,6 +78,47 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "5.15.55": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.15.55",
+      "pname": "linux",
+      "name": "linux-5.15.55",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/6gdnlg1623lab83bi1avjr14fxqfivgp-linux-5.15.55-dev",
+        "out": "/nix/store/9avxpcqp0q280421zrgck667xiff214r-linux-5.15.55"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, linux-hardened-5.15.55-hardened1)",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/top-level/linux-kernels.nix:42",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux_hardened"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/9avxpcqp0q280421zrgck667xiff214r-linux-5.15.55"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

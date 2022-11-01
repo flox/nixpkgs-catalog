@@ -1,22 +1,22 @@
 {
-  "5.10.115-rt67": {
+  "5.10.140-rt73": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "5.10.115-rt67",
+      "version": "5.10.140-rt73",
       "pname": "linux",
-      "name": "linux-5.10.115-rt67",
+      "name": "linux-5.10.140-rt73",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/5y572j2zcjxf63w8xkrqdgrxbps9p1k8-linux-5.10.115-rt67-dev",
-        "out": "/nix/store/1aqza0kq5h2zhl3qk5mxlncincirdh5m-linux-5.10.115-rt67"
+        "dev": "/nix/store/6hbhxxbn5ijcm2z4c1ivcqq73m7yc7fq-linux-5.10.140-rt73-dev",
+        "out": "/nix/store/bwg0mhpz010ddgg0l4sdwbzz2qbb266d-linux-5.10.140-rt73"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
         "unfree": false
       }
     },
@@ -29,55 +29,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/1aqza0kq5h2zhl3qk5mxlncincirdh5m-linux-5.10.115-rt67"
+        "/nix/store/bwg0mhpz010ddgg0l4sdwbzz2qbb266d-linux-5.10.140-rt73"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "5.10.90-rt60": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.10.90-rt60",
-      "pname": "linux",
-      "name": "linux-5.10.90-rt60",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/h8smsq06l2qafjw7j8h3bw70345vrsi1-linux-5.10.90-rt60-dev",
-        "out": "/nix/store/40hi32lbimx363rfl4z94hgq93zq57af-linux-5.10.90-rt60"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "linux-rt_5_10"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/40hi32lbimx363rfl4z94hgq93zq57af-linux-5.10.90-rt60"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -90,15 +49,15 @@
       "name": "linux-5.10.131-rt72",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/gln0cs27wsj86my6vjxxda3wga59mcd1-linux-5.10.131-rt72-dev",
-        "out": "/nix/store/pza1n6ax5wxb4nnvgynpfnnxrbghaqg8-linux-5.10.131-rt72"
+        "dev": "/nix/store/kvi2djdd4yw1p82gmqy377152d6r140j-linux-5.10.131-rt72-dev",
+        "out": "/nix/store/7fnpkwcmrallprknq8ir607hbmld7z2z-linux-5.10.131-rt72"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
         "unfree": false
       }
     },
@@ -111,14 +70,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/pza1n6ax5wxb4nnvgynpfnnxrbghaqg8-linux-5.10.131-rt72"
+        "/nix/store/7fnpkwcmrallprknq8ir607hbmld7z2z-linux-5.10.131-rt72"
       ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
     },
     "source": {
       "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
+        "revCount": 402830,
+        "lastModified": 1661239211
+      }
+    }
+  },
+  "5.10.120-rt70": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.10.120-rt70",
+      "pname": "linux",
+      "name": "linux-5.10.120-rt70",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/qrv33fj8my8l42nsa8sv1s0xdmiw6zym-linux-5.10.120-rt70-dev",
+        "out": "/nix/store/fsnxjwg1fkmygprz0qc5bq0h2ydxq5xl-linux-5.10.120-rt70"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "The Linux kernel (with patches: rt, bridge-stp-helper, request-key-helper, export-rt-sched-migrate)",
+        "position": "/nix/store/m7lp7w2zizsjzapcw3p29jrdl1907dri-source/pkgs/os-specific/linux/kernel/linux-rt-5.10.nix:13",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "linux-rt_5_10"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fsnxjwg1fkmygprz0qc5bq0h2ydxq5xl-linux-5.10.120-rt70"
+      ],
+      "url": "github:flox/nixpkgs/6616de389ed55fba6eeba60377fc04732d5a207c"
+    },
+    "source": {
+      "locked": {
+        "revCount": 385289,
+        "lastModified": 1655221618
       }
     }
   }

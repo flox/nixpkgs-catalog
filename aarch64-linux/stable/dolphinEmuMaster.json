@@ -39,46 +39,6 @@
       }
     }
   },
-  "5.0-16380": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "5.0-16380",
-      "pname": "dolphin-emu",
-      "name": "dolphin-emu-5.0-16380",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/qp6p9vg0xw1fi8d3b1karavhrz74qpsd-dolphin-emu-5.0-16380"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Gamecube/Wii/Triforce emulator for x86_64 and ARMv8",
-        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/emulators/dolphin-emu/master.nix:80",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "dolphinEmuMaster"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/qp6p9vg0xw1fi8d3b1karavhrz74qpsd-dolphin-emu-5.0-16380"
-      ],
-      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
-    },
-    "source": {
-      "locked": {
-        "revCount": 394203,
-        "lastModified": 1658826464
-      }
-    }
-  },
   "5.0-16793": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "5.0-16380": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "5.0-16380",
+      "pname": "dolphin-emu",
+      "name": "dolphin-emu-5.0-16380",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/qp6p9vg0xw1fi8d3b1karavhrz74qpsd-dolphin-emu-5.0-16380"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Gamecube/Wii/Triforce emulator for x86_64 and ARMv8",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/applications/emulators/dolphin-emu/master.nix:80",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "dolphinEmuMaster"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/qp6p9vg0xw1fi8d3b1karavhrz74qpsd-dolphin-emu-5.0-16380"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

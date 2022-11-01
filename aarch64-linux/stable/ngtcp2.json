@@ -1,23 +1,23 @@
 {
-  "0.5.0": {
+  "0.8.1": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.5.0",
+      "version": "0.8.1",
       "pname": "ngtcp2",
-      "name": "ngtcp2-0.5.0",
+      "name": "ngtcp2-0.8.1",
       "system": "aarch64-linux",
       "outputs": {
-        "dev": "/nix/store/7chw7mvav0d3z01h9na3bqrh87c7lcp6-ngtcp2-0.5.0-dev",
-        "doc": "/nix/store/yhrmfnwl236p34137fdk4b12l08mr00i-ngtcp2-0.5.0-doc",
-        "out": "/nix/store/lr5csarmrv5awp6i3csjbv6yg8w5cwq4-ngtcp2-0.5.0"
+        "dev": "/nix/store/6qgby0868swi81xggqkbc4jxvkj86zib-ngtcp2-0.8.1-dev",
+        "doc": "/nix/store/jdwqfmfgcvx1smx3kh1ran8vfmji63yd-ngtcp2-0.8.1-doc",
+        "out": "/nix/store/3a9axdfjvz10q3ap8zg9pscv7ld0wqbh-ngtcp2-0.8.1"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "ngtcp2 project is an effort to implement QUIC protocol which is now being discussed in IETF QUICWG for its standardization.",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/development/libraries/ngtcp2/default.nix:34",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/ngtcp2/default.nix:34",
         "unfree": false
       }
     },
@@ -30,55 +30,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/lr5csarmrv5awp6i3csjbv6yg8w5cwq4-ngtcp2-0.5.0"
+        "/nix/store/3a9axdfjvz10q3ap8zg9pscv7ld0wqbh-ngtcp2-0.8.1"
       ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
-  "unstable-2021-12-19": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "unstable-2021-12-19",
-      "pname": "ngtcp2",
-      "name": "ngtcp2-unstable-2021-12-19",
-      "system": "aarch64-linux",
-      "outputs": {
-        "dev": "/nix/store/sl5iv0vdfv1vgq0ir1bnlpnh0xzqqiqg-ngtcp2-unstable-2021-12-19-dev",
-        "out": "/nix/store/0zkvska68zpr9pvhf97r3w50kmxvw07m-ngtcp2-unstable-2021-12-19"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "ngtcp2 project is an effort to implement QUIC protocol which is now being discussed in IETF QUICWG for its standardization.",
-        "position": "/nix/store/x0dxzk94zhkkxjavadj2bpjimgxajivx-source/pkgs/development/libraries/ngtcp2/default.nix:34",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "ngtcp2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/0zkvska68zpr9pvhf97r3w50kmxvw07m-ngtcp2-unstable-2021-12-19"
-      ],
-      "url": "github:flox/nixpkgs/90705c89fbad69c4c971fabf2b1edd8c7875b5d6"
-    },
-    "source": {
-      "locked": {
-        "revCount": 360804,
-        "lastModified": 1652991527
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -121,6 +80,48 @@
       "locked": {
         "revCount": 402830,
         "lastModified": 1661239211
+      }
+    }
+  },
+  "0.6.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.6.0",
+      "pname": "ngtcp2",
+      "name": "ngtcp2-0.6.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "dev": "/nix/store/wx1ypp7fdj3pqawkxyvq9pn14wxvpl8z-ngtcp2-0.6.0-dev",
+        "doc": "/nix/store/vh11kgalkpsxrjmp4df6w1bwdvmp06iq-ngtcp2-0.6.0-doc",
+        "out": "/nix/store/3kvh0kngw5k6fvpqsg8ha7wv23qrnfgx-ngtcp2-0.6.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "ngtcp2 project is an effort to implement QUIC protocol which is now being discussed in IETF QUICWG for its standardization.",
+        "position": "/nix/store/9qqx4gk4qnqaqb102iwvhhwn2basmbdq-source/pkgs/development/libraries/ngtcp2/default.nix:34",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "ngtcp2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3kvh0kngw5k6fvpqsg8ha7wv23qrnfgx-ngtcp2-0.6.0"
+      ],
+      "url": "github:flox/nixpkgs/ce49cb7792a7ffd65ef352dda1110a4e4a204eac"
+    },
+    "source": {
+      "locked": {
+        "revCount": 394203,
+        "lastModified": 1658826464
       }
     }
   }

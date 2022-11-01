@@ -39,46 +39,6 @@
       }
     }
   },
-  "22.2.3": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "22.2.3",
-      "pname": "nextcloud",
-      "name": "nextcloud-22.2.3",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/cpli02h9mh0mmj4ii7z3afy6zhz24ag5-nextcloud-22.2.3"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Sharing solution for files, calendars, contacts and more",
-        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/nextcloud/default.nix:26",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "nextcloud22"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/cpli02h9mh0mmj4ii7z3afy6zhz24ag5-nextcloud-22.2.3"
-      ],
-      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
-    },
-    "source": {
-      "locked": {
-        "revCount": 348586,
-        "lastModified": 1643204384
-      }
-    }
-  },
   "22.2.5": {
     "type": "catalogRender",
     "schema": 1,
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 360804,
         "lastModified": 1652991527
+      }
+    }
+  },
+  "22.2.3": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "22.2.3",
+      "pname": "nextcloud",
+      "name": "nextcloud-22.2.3",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/cpli02h9mh0mmj4ii7z3afy6zhz24ag5-nextcloud-22.2.3"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Sharing solution for files, calendars, contacts and more",
+        "position": "/nix/store/626qldjl59n3cx00l2sd86734vdj99pk-source/pkgs/servers/nextcloud/default.nix:26",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "nextcloud22"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/cpli02h9mh0mmj4ii7z3afy6zhz24ag5-nextcloud-22.2.3"
+      ],
+      "url": "github:flox/nixpkgs/4080fdcc788253bca716d559e952ccfb873ebf11"
+    },
+    "source": {
+      "locked": {
+        "revCount": 348586,
+        "lastModified": 1643204384
       }
     }
   }

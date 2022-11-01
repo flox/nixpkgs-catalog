@@ -43,46 +43,6 @@
       }
     }
   },
-  "1.10.0": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "1.10.0",
-      "pname": "libfido2",
-      "name": "libfido2-1.10.0",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/m2bsjyj84jsgxkiyhqbcd5sj9x24k3wr-libfido2-1.10.0"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Provides library functionality for FIDO 2.0, including communication with a device over USB.\n",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/development/libraries/libfido2/default.nix:39",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "libfido2"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/m2bsjyj84jsgxkiyhqbcd5sj9x24k3wr-libfido2-1.10.0"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
-      }
-    }
-  },
   "1.11.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -92,14 +52,17 @@
       "name": "libfido2-1.11.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/v93dkxrk5ds3l6nghcdd23pk9ldrxwgj-libfido2-1.11.0"
+        "dev": "/nix/store/ffqf0dr8cvb26afl48m7qdzlcwz1x8rw-libfido2-1.11.0-dev",
+        "man": "/nix/store/05pz0w9rf4b04d64f2vjlml3bg2cq1qy-libfido2-1.11.0-man",
+        "out": "/nix/store/6a750wfjn72idgi2c5nngjdchy0i2mnz-libfido2-1.11.0"
       },
       "meta": {
         "outputsToInstall": [
-          "out"
+          "out",
+          "man"
         ],
         "description": "Provides library functionality for FIDO 2.0, including communication with a device over USB.\n",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/development/libraries/libfido2/default.nix:43",
+        "position": "/nix/store/9kmadlrpp8w5vqk76nrcf948lsx2b1k1-source/pkgs/development/libraries/libfido2/default.nix:45",
         "unfree": false
       }
     },
@@ -112,14 +75,55 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/v93dkxrk5ds3l6nghcdd23pk9ldrxwgj-libfido2-1.11.0"
+        "/nix/store/6a750wfjn72idgi2c5nngjdchy0i2mnz-libfido2-1.11.0",
+        "/nix/store/05pz0w9rf4b04d64f2vjlml3bg2cq1qy-libfido2-1.11.0-man"
       ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
+      "url": "github:flox/nixpkgs/32096899af23d49010bd8cf6a91695888d9d9e73"
     },
     "source": {
       "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
+        "revCount": 418612,
+        "lastModified": 1666109165
+      }
+    }
+  },
+  "1.10.0": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "1.10.0",
+      "pname": "libfido2",
+      "name": "libfido2-1.10.0",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/58f3v9j3iqw639lxf6n1zqyxwmf2a7il-libfido2-1.10.0"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Provides library functionality for FIDO 2.0, including communication with a device over USB.\n",
+        "position": "/nix/store/gk9ag5wlkhwi4qbn56fx77g3v41n2a5g-source/pkgs/development/libraries/libfido2/default.nix:39",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "libfido2"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/58f3v9j3iqw639lxf6n1zqyxwmf2a7il-libfido2-1.10.0"
+      ],
+      "url": "github:flox/nixpkgs/12363fb6d89859a37cd7e27f85288599f13e49d9"
+    },
+    "source": {
+      "locked": {
+        "revCount": 397203,
+        "lastModified": 1659487974
       }
     }
   }

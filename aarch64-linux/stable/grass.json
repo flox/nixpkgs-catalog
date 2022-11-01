@@ -1,44 +1,4 @@
 {
-  "8.0.1": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "8.0.1",
-      "pname": "grass",
-      "name": "grass-8.0.1",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/231hrh34v9f8bblacvhs4mkjakilkms3-grass-8.0.1"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "GIS software suite used for geospatial data management and analysis, image processing, graphics and maps production, spatial modeling, and visualization",
-        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/gis/grass/default.nix:91",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "grass"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/231hrh34v9f8bblacvhs4mkjakilkms3-grass-8.0.1"
-      ],
-      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
-    },
-    "source": {
-      "locked": {
-        "revCount": 379159,
-        "lastModified": 1653060744
-      }
-    }
-  },
   "8.2.0": {
     "type": "catalogRender",
     "schema": 1,
@@ -76,6 +36,46 @@
       "locked": {
         "revCount": 410349,
         "lastModified": 1663761423
+      }
+    }
+  },
+  "8.0.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "8.0.1",
+      "pname": "grass",
+      "name": "grass-8.0.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/231hrh34v9f8bblacvhs4mkjakilkms3-grass-8.0.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "GIS software suite used for geospatial data management and analysis, image processing, graphics and maps production, spatial modeling, and visualization",
+        "position": "/nix/store/a3i6cnnswvdg4k38jmibnjms65rjvyi7-source/pkgs/applications/gis/grass/default.nix:91",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "grass"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/231hrh34v9f8bblacvhs4mkjakilkms3-grass-8.0.1"
+      ],
+      "url": "github:flox/nixpkgs/dfd82985c273aac6eced03625f454b334daae2e8"
+    },
+    "source": {
+      "locked": {
+        "revCount": 379159,
+        "lastModified": 1653060744
       }
     }
   },

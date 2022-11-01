@@ -1,21 +1,21 @@
 {
-  "0.28.1": {
+  "0.28.0": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "0.28.1",
+      "version": "0.28.0",
       "pname": "thanos",
-      "name": "thanos-0.28.1",
+      "name": "thanos-0.28.0",
       "system": "aarch64-linux",
       "outputs": {
-        "out": "/nix/store/frk1123pm3q7rqhp1a3p98ar3hw22fbd-thanos-0.28.1"
+        "out": "/nix/store/cbiprkxil8bp8890n6r3sbwlm9fq51ls-thanos-0.28.0"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "Highly available Prometheus setup with long term storage capabilities",
-        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/thanos/default.nix:28",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/servers/monitoring/thanos/default.nix:28",
         "unfree": false
       }
     },
@@ -28,54 +28,14 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/frk1123pm3q7rqhp1a3p98ar3hw22fbd-thanos-0.28.1"
+        "/nix/store/cbiprkxil8bp8890n6r3sbwlm9fq51ls-thanos-0.28.0"
       ],
-      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 420742,
-        "lastModified": 1666703756
-      }
-    }
-  },
-  "0.25.2": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "0.25.2",
-      "pname": "thanos",
-      "name": "thanos-0.25.2",
-      "system": "aarch64-linux",
-      "outputs": {
-        "out": "/nix/store/4z02ksybg39xxiljbpw97i8ilb9dh3hr-thanos-0.25.2"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "Highly available Prometheus setup with long term storage capabilities",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/servers/monitoring/thanos/default.nix:28",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "thanos"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/4z02ksybg39xxiljbpw97i8ilb9dh3hr-thanos-0.25.2"
-      ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
-    },
-    "source": {
-      "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 410349,
+        "lastModified": 1663761423
       }
     }
   },
@@ -116,6 +76,46 @@
       "locked": {
         "revCount": 404572,
         "lastModified": 1661720780
+      }
+    }
+  },
+  "0.28.1": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "0.28.1",
+      "pname": "thanos",
+      "name": "thanos-0.28.1",
+      "system": "aarch64-linux",
+      "outputs": {
+        "out": "/nix/store/frk1123pm3q7rqhp1a3p98ar3hw22fbd-thanos-0.28.1"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "Highly available Prometheus setup with long term storage capabilities",
+        "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/servers/monitoring/thanos/default.nix:28",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "thanos"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/frk1123pm3q7rqhp1a3p98ar3hw22fbd-thanos-0.28.1"
+      ],
+      "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+    },
+    "source": {
+      "locked": {
+        "revCount": 420742,
+        "lastModified": 1666703756
       }
     }
   }

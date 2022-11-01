@@ -1,23 +1,23 @@
 {
-  "91.10.0esr": {
+  "91.13.0esr": {
     "type": "catalogRender",
     "schema": 1,
     "eval": {
-      "version": "91.10.0esr",
-      "pname": null,
-      "name": "firefox-esr-unwrapped-91.10.0esr",
+      "version": "91.13.0esr",
+      "pname": "firefox-esr-91-unwrapped",
+      "name": "firefox-esr-91-unwrapped-91.13.0esr",
       "system": "aarch64-linux",
       "outputs": {
-        "debug": "/nix/store/0r5l0m1vi8lfn9igaidcf0vh10svb4gc-firefox-esr-unwrapped-91.10.0esr-debug",
-        "out": "/nix/store/gxzr1r5ggkrxqy6fy29pc9vhkb4zcv2g-firefox-esr-unwrapped-91.10.0esr",
-        "symbols": "/nix/store/jkwqn55siv0xig78sfknr55fkvyaiknj-firefox-esr-unwrapped-91.10.0esr-symbols"
+        "debug": "/nix/store/y1v0cjd3bav7429ajpfxji5aybw1lymg-firefox-esr-91-unwrapped-91.13.0esr-debug",
+        "out": "/nix/store/5y0w57id44xa2xpk5l9nmwbg215ybina-firefox-esr-91-unwrapped-91.13.0esr",
+        "symbols": "/nix/store/8860dkc82p1kicjc3ankjpqkj7v40qxg-firefox-esr-91-unwrapped-91.13.0esr-symbols"
       },
       "meta": {
         "outputsToInstall": [
           "out"
         ],
         "description": "A web browser built from Firefox Extended Support Release source tree",
-        "position": "/nix/store/5g0bnn21bqpd241da9yyivjkcfy0ra1w-source/pkgs/applications/networking/browsers/firefox/packages.nix:39",
+        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/browsers/firefox/packages.nix:66",
         "unfree": false
       }
     },
@@ -30,14 +30,56 @@
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
       "storePaths": [
-        "/nix/store/gxzr1r5ggkrxqy6fy29pc9vhkb4zcv2g-firefox-esr-unwrapped-91.10.0esr"
+        "/nix/store/5y0w57id44xa2xpk5l9nmwbg215ybina-firefox-esr-91-unwrapped-91.13.0esr"
       ],
-      "url": "github:flox/nixpkgs/e0169d7a9d324afebf5679551407756c77af8930"
+      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
     },
     "source": {
       "locked": {
-        "revCount": 384129,
-        "lastModified": 1654682581
+        "revCount": 410349,
+        "lastModified": 1663761423
+      }
+    }
+  },
+  "91.12.0esr": {
+    "type": "catalogRender",
+    "schema": 1,
+    "eval": {
+      "version": "91.12.0esr",
+      "pname": "firefox-esr-91-unwrapped",
+      "name": "firefox-esr-91-unwrapped-91.12.0esr",
+      "system": "aarch64-linux",
+      "outputs": {
+        "debug": "/nix/store/1v1m5swywc0qc5kn33ygbmzy4sph25s7-firefox-esr-91-unwrapped-91.12.0esr-debug",
+        "out": "/nix/store/916kxk8k7bp1vfna3dkbxvpjys9ykm03-firefox-esr-91-unwrapped-91.12.0esr",
+        "symbols": "/nix/store/qbm4mxccgz96la7n5b2gqjq9pnv2hlqg-firefox-esr-91-unwrapped-91.12.0esr-symbols"
+      },
+      "meta": {
+        "outputsToInstall": [
+          "out"
+        ],
+        "description": "A web browser built from Firefox Extended Support Release source tree",
+        "position": "/nix/store/bnyi6xm7xjdgvnhps0d01h5nqd4lgc0p-source/pkgs/applications/networking/browsers/firefox/packages.nix:66",
+        "unfree": false
+      }
+    },
+    "element": {
+      "attrPath": [
+        "legacyPackages",
+        "aarch64-linux",
+        "firefox-esr-91-unwrapped"
+      ],
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/916kxk8k7bp1vfna3dkbxvpjys9ykm03-firefox-esr-91-unwrapped-91.12.0esr"
+      ],
+      "url": "github:flox/nixpkgs/5e804cd8a27f835a402b22e086e36e797716ef8b"
+    },
+    "source": {
+      "locked": {
+        "revCount": 402830,
+        "lastModified": 1661239211
       }
     }
   },
@@ -80,48 +122,6 @@
       "locked": {
         "revCount": 394203,
         "lastModified": 1658826464
-      }
-    }
-  },
-  "91.13.0esr": {
-    "type": "catalogRender",
-    "schema": 1,
-    "eval": {
-      "version": "91.13.0esr",
-      "pname": "firefox-esr-91-unwrapped",
-      "name": "firefox-esr-91-unwrapped-91.13.0esr",
-      "system": "aarch64-linux",
-      "outputs": {
-        "debug": "/nix/store/y1v0cjd3bav7429ajpfxji5aybw1lymg-firefox-esr-91-unwrapped-91.13.0esr-debug",
-        "out": "/nix/store/5y0w57id44xa2xpk5l9nmwbg215ybina-firefox-esr-91-unwrapped-91.13.0esr",
-        "symbols": "/nix/store/8860dkc82p1kicjc3ankjpqkj7v40qxg-firefox-esr-91-unwrapped-91.13.0esr-symbols"
-      },
-      "meta": {
-        "outputsToInstall": [
-          "out"
-        ],
-        "description": "A web browser built from Firefox Extended Support Release source tree",
-        "position": "/nix/store/lbf0kbc67zpm6xw6lia2fj1qskikaffz-source/pkgs/applications/networking/browsers/firefox/packages.nix:66",
-        "unfree": false
-      }
-    },
-    "element": {
-      "attrPath": [
-        "legacyPackages",
-        "aarch64-linux",
-        "firefox-esr-91-unwrapped"
-      ],
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "storePaths": [
-        "/nix/store/5y0w57id44xa2xpk5l9nmwbg215ybina-firefox-esr-91-unwrapped-91.13.0esr"
-      ],
-      "url": "github:flox/nixpkgs/d6490a0bd9dfb298fcd8382d3363b86870dc7340"
-    },
-    "source": {
-      "locked": {
-        "revCount": 410349,
-        "lastModified": 1663761423
       }
     }
   }
