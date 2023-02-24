@@ -2,6 +2,10 @@
 
 by flox
 
+> **Warning**
+> 
+> This repo is deprecated, the catalogs are now managed in [flox/nixpkgs-flox](https://github.com/flox/nixpkgs-flox)
+
 ------
 
 Catalog of nixpkgs for all major systems.
